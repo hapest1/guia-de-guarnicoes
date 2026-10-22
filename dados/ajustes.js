@@ -104,4 +104,57 @@ Object.entries(AL).forEach(([id,[med,n,faixa,src]])=>{
     g.fatos[i] = {r:"Aluguel 2 quartos", v:`~R$ ${brl(med)}`, s:"mediana de anúncios, out/2026"};
   }
 });
+/* ---------- Aluguel: amostras da OLX (imóveis de 2 quartos, primeira página, out/2026) ---------- */
+/* id: [mediana, nº de anúncios, P10, P90, caminho da busca na OLX] */
+const OLX = {
+  "apucarana":[1200,23,750,1800,"estado-pr/regiao-de-londrina/apucarana"],
+  "bento-goncalves":[2350,48,1500,3350,"estado-rs/regioes-de-caxias-do-sul-e-passo-fundo/bento-goncalves"],
+  "bauru":[2200,50,1200,3000,"estado-sp/regiao-de-bauru-e-marilia/bauru"],
+  "cacapava":[1800,50,1100,3000,"estado-sp/vale-do-paraiba-e-litoral-norte/cacapava"],
+  "campos-dos-goytacazes":[1500,50,1000,2800,"estado-rj/norte-do-estado-do-rio/campos-dos-goytacazes"],
+  "criciuma":[1600,50,1150,2100,"estado-sc/florianopolis-e-regiao/outras-cidades/criciuma"],
+  "dourados":[2200,49,1000,5000,"estado-ms/mato-grosso-do-sul/dourados"],
+  "feira-de-santana":[1200,50,750,1800,"estado-ba/regiao-de-feira-de-santana-e-alagoinhas/feira-de-santana"],
+  "guaruja":[4300,50,2800,6500,"estado-sp/baixada-santista-e-litoral-sul/guaruja"],
+  "garanhuns":[1400,15,600,2000,"estado-pe/regiao-de-petrolina-e-garanhuns/garanhuns"],
+  "imperatriz":[2000,50,1300,2900,"estado-ma/regiao-de-imperatriz-e-caxias/imperatriz"],
+  "itu":[2400,50,1650,3550,"estado-sp/sao-paulo-e-regiao/itu"],
+  "jaboatao-dos-guararapes":[3100,49,1100,4000,"estado-pe/grande-recife/grande-recife/jaboatao-dos-guararapes"],
+  "jundiai":[2500,50,1850,3800,"estado-sp/sao-paulo-e-regiao/jundiai"],
+  "lorena":[1700,17,1200,2050,"estado-sp/vale-do-paraiba-e-litoral-norte/lorena"],
+  "macapa":[2200,25,1100,3700,"estado-ap/amapa/macapa"],
+  "macae":[2700,50,1200,3500,"estado-rj/norte-do-estado-do-rio/macae"],
+  "lins":[1150,18,700,1600,"estado-sp/regiao-de-bauru-e-marilia/lins"],
+  "maraba":[2200,41,1600,3800,"estado-pa/regiao-de-maraba/maraba"],
+  "montes-claros":[1300,50,900,2000,"estado-mg/regiao-de-montes-claros-e-diamantina/montes-claros"],
+  "osasco":[2650,50,1500,4950,"estado-sp/sao-paulo-e-regiao/osasco"],
+  "olinda":[1800,50,750,4500,"estado-pe/grande-recife/grande-recife/olinda"],
+  "palmas":[2500,49,1500,3500,"estado-to/tocantins/palmas"],
+  "pindamonhangaba":[1600,50,950,2200,"estado-sp/vale-do-paraiba-e-litoral-norte/pindamonhangaba"],
+  "petropolis":[2000,50,1400,3500,"estado-rj/serra-angra-dos-reis-e-regiao/petropolis"],
+  "petrolina":[1800,50,1300,2900,"estado-pe/regiao-de-petrolina-e-garanhuns/petrolina"],
+  "pouso-alegre":[2000,38,1500,2700,"estado-mg/regiao-de-pocos-de-caldas-e-varginha/pouso-alegre"],
+  "resende":[1800,42,1100,2500,"estado-rj/serra-angra-dos-reis-e-regiao/resende"],
+  "rondonopolis":[2200,14,1600,3500,"estado-mt/regiao-de-rondonopolis-e-sinop/rondonopolis"],
+  "santarem":[1750,48,1100,3600,"estado-pa/regiao-de-santarem/santarem"],
+  "sao-vicente":[2400,49,1100,4900,"estado-sp/baixada-santista-e-litoral-sul/sao-vicente"],
+  "sorocaba":[2100,50,1400,3500,"estado-sp/regiao-de-sorocaba/sorocaba"],
+  "taubate":[1600,50,1100,2650,"estado-sp/vale-do-paraiba-e-litoral-norte/taubate"],
+  "vila-velha":[2950,50,1550,4000,"estado-es/norte-do-espirito-santo/vila-velha"],
+  "sete-lagoas":[1450,59,1000,2200,"estado-mg?q=Sete%20Lagoas"]
+};
+Object.entries(OLX).forEach(([id,[med,n,a,b,path]])=>{
+  const g = byId(id); if(!g) return;
+  const s = sec(g,"custo"); if(!s) return;
+  const url = "https://www.olx.com.br/imoveis/aluguel/"+path+(path.includes("?")?"&":"?")+"ros=2&roe=2";
+  const frase = `Numa amostra de anúncios de imóveis de 2 quartos para alugar na OLX, levantada em outubro de 2026, a mediana foi de <b class="num">R$ ${brl(med)}</b> por mês (${n} anúncios; a maioria entre R$ ${brl(a)} e ${brl(b)}), sem condomínio.`;
+  s.p = [frase, ...(s.p||[]).filter(t=>!/Numa amostra/.test(t))];
+  s.note = "<b>Valor de referência:</b> a amostra cobre só a primeira página de anúncios da OLX. Confirme com imobiliárias e com militares da guarnição.";
+  s.src = [...(s.src||[]), ["OLX", url]];
+  if(!g.fatos.some(f=>/Aluguel/.test(f.r))){
+    const troca = ["Clima","Região","Lazer","Rio","Festa","História","Destaque","Altitude","Economia","Ensino","Vizinha"];
+    let i = g.fatos.findIndex(f=>troca.includes(f.r)); if(i<0) i = 2;
+    g.fatos[i] = {r:"Aluguel 2 quartos", v:`~R$ ${brl(med)}`, s:"mediana OLX, out/2026"};
+  }
+});
 })();
