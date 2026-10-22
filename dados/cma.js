@@ -33,7 +33,7 @@ window.GUARNICOES = (window.GUARNICOES || []).concat([
 <tbody>
 <tr><td class="k">Cmdo 1ª Bda Inf Sl e Cia Cmdo</td><td>Comando da Brigada</td></tr>
 <tr><td class="k">Cmdo Fron RR / 7º BIS</td><td>Responde pelos Pelotões Especiais de Fronteira do estado</td></tr>
-<tr><td class="k">18º RC Mec</td><td>Criado a partir do 12º Esqd C Mec. Previsto com três esquadrões e cerca de 600 militares. Recebeu Guarani, Guaicurus e Cascavel a partir de 2024</td></tr>
+<tr><td class="k">18º RC Mec</td><td>Regimento de cavalaria mecanizado, criado a partir do 12º Esqd C Mec</td></tr>
 <tr><td class="k">10º GAC Sl</td><td>Artilharia de campanha de selva</td></tr>
 <tr><td class="k">1º B Log Sl</td><td>Apoio logístico da Brigada</td></tr>
 <tr><td class="k">1º Pel Com Sl</td><td>Comunicações</td></tr>
@@ -42,7 +42,7 @@ window.GUARNICOES = (window.GUARNICOES || []).concat([
 <tr><td class="k">P Med Gu Boa Vista</td><td>Posto Médico de Guarnição (ver Saúde)</td></tr>
 </tbody></table></div>
 <p>No interior do estado há Pelotões Especiais de Fronteira, entre eles Pacaraima, Uiramutã, Surucucu, Bonfim e Normandia. A Base Aérea de Boa Vista, da FAB, também fica na cidade.</p>
-<div class="src">Fontes: <a href="https://ompv.eceme.eb.mil.br/images/geop/geocapac/forca-prontidao-lobo-d-almada-crise-yanomami.pdf">ECEME</a> · <a href="https://www.folhabv.com.br/?p=114455">Folha BV</a> · <a href="https://defesaaereanaval.com.br/exercito/comandante-do-exercito-supervisiona-a-implantacao-de-novas-capacidades-em-roraima">Defesa Aérea & Naval</a> · <a href="https://opovo.com.br/trends/exercito-leva-28-blindados-para-o-extremo-norte-e-reforca-a-fronteira-com-venezuela-e-guiana/">O Povo</a> · conferido em out/2026</div>`
+<div class="src">Fontes: <a href="https://ompv.eceme.eb.mil.br/images/geop/geocapac/forca-prontidao-lobo-d-almada-crise-yanomami.pdf">ECEME</a> · <a href="https://www.folhabv.com.br/?p=114455">Folha BV</a> · conferido em out/2026</div>`
   },
   {
     id:"acesso", titulo:"Como chegar",

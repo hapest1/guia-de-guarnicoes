@@ -163,17 +163,17 @@ addPEF({id:"principe-da-beira", cidade:"Príncipe da Beira", uf:"RO", estado:"Ro
 
 /* ---------- FRON-3: Alto Rio Negro (5º BIS) ---------- */
 const RN = (o)=>addPEF(Object.assign({
-  acesso:{p:["Não há estrada. O acesso é por avião, quando há pista, ou por barco a partir de São Gabriel da Cachoeira, numa viagem que pode levar dias. O abastecimento chega pelos mesmos meios, e o combustível é o item mais caro na manutenção do pelotão."], note:ISOL.note, src:[RSM]},
+  acesso:{p:["Não há estrada. O acesso é por avião, quando há pista, ou por barco a partir de São Gabriel da Cachoeira, numa viagem que pode levar dias. O abastecimento chega pelos mesmos meios."], note:ISOL.note, src:[RSM]},
   vida:"Em boa parte dos casos, a família mora junto no pelotão durante o período fixo de permanência. A estrutura de vida inclui a escola, o posto de saúde e a mercearia da comunidade.",
   evac:"São Gabriel da Cachoeira, que tem Hospital de Guarnição, ou Manaus",
   clima:{p:["Muito chuvoso e úmido o ano todo. O Rio Negro e seus afluentes enchem de maio a agosto e baixam de dezembro a fevereiro, quando a navegação fica mais difícil."]},
-  omSrc:[SRC.CMA, RSM]
+  omSrc:[SRC.CMA]
 }, o));
 
 RN({id:"iauarete", cidade:"Iauaretê", uf:"AM", estado:"Amazonas", coord:"Rio Uaupés · fronteira com a Colômbia · UTC−4",
   tags:["1º PEF","5º BIS","Colômbia","Alto Rio Negro"], resumo:"Pelotão no rio Uaupés, na fronteira com a Colômbia, em São Gabriel da Cachoeira. Uma das maiores povoações indígenas do Alto Rio Negro.",
   lede:"Distrito de São Gabriel da Cachoeira no Uaupés, com grande população indígena de várias etnias do Alto Rio Negro.",
-  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","rio Uaupés"],["Acesso","Avião e rio","sem estrada"],["Efetivo PEF","35–50","militares, em média"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
+  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","rio Uaupés"],["Acesso","Avião e rio","sem estrada"],["Fuso","−1 h","em relação a Brasília"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
   om:[["1º PEF","Pelotão Especial de Fronteira, subordinado ao Cmdo Fron Rio Negro / 5º BIS"]],
   cultura:{p:["A povoação reúne povos indígenas do Uaupés, como tariano, tukano e outros. O respeito às regras das comunidades faz parte do dia a dia."], note:TXT.rios},
   chegada:ENTRY("Siga as orientações sobre contato com as comunidades indígenas.")});
@@ -181,7 +181,7 @@ RN({id:"iauarete", cidade:"Iauaretê", uf:"AM", estado:"Amazonas", coord:"Rio Ua
 RN({id:"querari", cidade:"Querari", uf:"AM", estado:"Amazonas", coord:"Alto Uaupés · fronteira com a Colômbia · UTC−4",
   tags:["2º PEF","5º BIS","Colômbia","Alto Rio Negro"], resumo:"Pelotão no Alto Uaupés, na fronteira com a Colômbia. Um dos pontos mais isolados do Alto Rio Negro.",
   lede:"Pelotão em área de floresta e comunidades indígenas, no extremo noroeste do Amazonas, acessível por avião ou longa viagem de barco.",
-  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","Alto Uaupés"],["Acesso","Avião e rio","sem estrada"],["Efetivo PEF","35–50","militares, em média"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
+  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","Alto Uaupés"],["Acesso","Avião e rio","sem estrada"],["Fuso","−1 h","em relação a Brasília"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
   om:[["2º PEF","Pelotão Especial de Fronteira, subordinado ao Cmdo Fron Rio Negro / 5º BIS"]],
   cultura:{p:["A vida gira em torno do rio e das comunidades indígenas da região. O contato segue as orientações da OM."], note:TXT.rios},
   chegada:ENTRY("Siga as orientações sobre contato com as comunidades indígenas.")});
@@ -189,7 +189,7 @@ RN({id:"querari", cidade:"Querari", uf:"AM", estado:"Amazonas", coord:"Alto Uaup
 RN({id:"sao-joaquim", cidade:"São Joaquim", uf:"AM", estado:"Amazonas", coord:"Alto Rio Negro · fronteira com a Colômbia · UTC−4",
   tags:["3º PEF","5º BIS","Colômbia","Alto Rio Negro"], resumo:"Pelotão no noroeste do Amazonas, na fronteira com a Colômbia, subordinado ao 5º BIS de São Gabriel da Cachoeira.",
   lede:"Pelotão isolado na faixa de fronteira com a Colômbia, numa região de floresta e comunidades indígenas do Alto Rio Negro.",
-  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","Alto Rio Negro"],["Acesso","Avião e rio","sem estrada"],["Efetivo PEF","35–50","militares, em média"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
+  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","Alto Rio Negro"],["Acesso","Avião e rio","sem estrada"],["Fuso","−1 h","em relação a Brasília"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
   om:[["3º PEF","Pelotão Especial de Fronteira, subordinado ao Cmdo Fron Rio Negro / 5º BIS"]],
   cultura:{p:["A vida gira em torno do rio e das comunidades indígenas da região. O contato segue as orientações da OM."], note:TXT.rios},
   chegada:ENTRY("Siga as orientações sobre contato com as comunidades indígenas.")});
@@ -197,9 +197,9 @@ RN({id:"sao-joaquim", cidade:"São Joaquim", uf:"AM", estado:"Amazonas", coord:"
 RN({id:"cucui", cidade:"Cucuí", uf:"AM", estado:"Amazonas", coord:"Rio Negro · tríplice fronteira · UTC−4",
   tags:["4º PEF","5º BIS","Colômbia","Venezuela"], destaque:"Tríplice fronteira",
   resumo:"Pelotão na tríplice divisa entre Brasil, Colômbia e Venezuela, no ponto onde o Rio Negro entra no Brasil.",
-  lede:"Base do 4º PEF, por onde passa o tráfego fluvial que desce o Rio Negro vindo da Colômbia e da Venezuela. Ao lado fica a Pedra do Cucuí, grande formação rochosa à beira do rio.",
-  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","2 países","Colômbia e Venezuela"],["Acesso","Avião e rio","sem estrada"],["Efetivo PEF","35–50","militares, em média"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
-  om:[["4º PEF","Pelotão Especial de Fronteira, subordinado ao Cmdo Fron Rio Negro / 5º BIS. Controla o tráfego fluvial na tríplice divisa"]],
+  lede:"Vila do Alto Rio Negro, no ponto onde o rio entra no Brasil, na divisa com a Colômbia e a Venezuela. Ao lado fica a Pedra do Cucuí, grande formação rochosa à beira do rio.",
+  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","2 países","Colômbia e Venezuela"],["Acesso","Avião e rio","sem estrada"],["Fuso","−1 h","em relação a Brasília"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
+  om:[["4º PEF","Pelotão Especial de Fronteira, subordinado ao Cmdo Fron Rio Negro / 5º BIS"]],
   cultura:{places:[["junto à vila","Pedra do Cucuí","Formação rochosa à beira do Rio Negro, marco da tríplice fronteira."]], note:TXT.rios},
   chegada:ENTRY("Veja com a OM as regras para militares atravessarem para a Colômbia e a Venezuela.")});
 
@@ -208,22 +208,22 @@ RN({id:"maturaca", cidade:"Maturacá", uf:"AM", estado:"Amazonas", coord:"Terra 
   lede:"Pelotão em território yanomami, na área do Parque Nacional do Pico da Neblina, o ponto mais alto do Brasil.",
   fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Venezuela","noroeste do AM"],["Acesso","Avião e rio","sem estrada"],["Destaque","Pico da Neblina","ponto mais alto do Brasil"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
   om:[["5º PEF","Pelotão Especial de Fronteira, subordinado ao Cmdo Fron Rio Negro / 5º BIS"]],
-  omSrc:[SRC.CMA, RSM, ["Revista de Geografia (UFPE)","https://periodicos.ufpe.br/revistas/revistageografia/article/download/228661/23083"]],
+  omSrc:[SRC.CMA, ["Revista de Geografia (UFPE)","https://periodicos.ufpe.br/revistas/revistageografia/article/download/228661/23083"]],
   cultura:{p:["O pelotão convive com comunidades yanomami. A região é a porta de entrada para o Pico da Neblina, cuja visita exige autorização e acompanhamento indígena."]},
   chegada:ENTRY("Siga as orientações sobre contato com as comunidades indígenas.")});
 
 RN({id:"pari-cachoeira", cidade:"Pari-Cachoeira", uf:"AM", estado:"Amazonas", coord:"Rio Tiquié · fronteira com a Colômbia · UTC−4",
   tags:["6º PEF","5º BIS","Colômbia","Rio Tiquié"], resumo:"Destacamento na calha do rio Tiquié, na fronteira com a Colômbia, no Alto Rio Negro.",
-  lede:"Povoação indígena no rio Tiquié, afluente do Uaupés, com presença militar para vigilância da fronteira com a Colômbia.",
-  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","rio Tiquié"],["Acesso","Avião e rio","sem estrada"],["Efetivo","35–50","militares, em média"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
+  lede:"Povoação indígena no rio Tiquié, afluente do Uaupés, perto da fronteira com a Colômbia, onde fica um pelotão do Exército.",
+  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","rio Tiquié"],["Acesso","Avião e rio","sem estrada"],["Fuso","−1 h","em relação a Brasília"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
   om:[["6º PEF","Fração de fronteira subordinada ao Cmdo Fron Rio Negro / 5º BIS"]],
   cultura:{p:["A região é habitada por povos indígenas do Tiquié, como os tukano. O contato segue as orientações da OM."], note:TXT.rios},
   chegada:ENTRY("Siga as orientações sobre contato com as comunidades indígenas.")});
 
 RN({id:"tunui", cidade:"Tunuí", uf:"AM", estado:"Amazonas", coord:"Rio Içana · fronteira com a Colômbia · UTC−4",
   tags:["7º PEF","5º BIS","Colômbia","Rio Içana"], resumo:"Destacamento em Tunuí-Cachoeira, no rio Içana, na região de fronteira com a Colômbia.",
-  lede:"Povoação do rio Içana, território do povo baniwa, com presença militar para vigilância da fronteira com a Colômbia.",
-  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","rio Içana"],["Acesso","Avião e rio","sem estrada"],["Efetivo","35–50","militares, em média"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
+  lede:"Povoação do rio Içana, território do povo baniwa, perto da fronteira com a Colômbia, onde fica um pelotão do Exército.",
+  fatos:[["Município","S. Gabriel da Cachoeira","AM"],["Fronteira","Colômbia","rio Içana"],["Acesso","Avião e rio","sem estrada"],["Fuso","−1 h","em relação a Brasília"],["OM enquadrante","5º BIS","Cmdo Fron Rio Negro"],["Grande Comando","CMA","2ª Bda Inf Sl"]],
   om:[["7º PEF","Fração de fronteira subordinada ao Cmdo Fron Rio Negro / 5º BIS"]],
   cultura:{p:["A região do Içana é território do povo baniwa. O contato com as comunidades segue as orientações da OM."], note:TXT.rios},
   chegada:ENTRY("Siga as orientações sobre contato com as comunidades indígenas.")});
