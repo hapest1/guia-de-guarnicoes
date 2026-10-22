@@ -1,0 +1,315 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Guia de Guarnições</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Fichas das guarnições do Exército Brasileiro para quem recebeu movimentação: cidade, acesso, custo de vida, saúde, educação, cultura e lazer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: ficha de campo — índice de guarnições na home, ficha com faixa de dados rápidos e seções navegáveis */
+:root{
+  --bg:#ECEFE7; --surface:#FFFFFF; --ink:#172015; --muted:#58624F; --line:#CCD3C3;
+  --accent:#2C5A37; --accent-ink:#FFFFFF; --mark:#B8862A; --mark-soft:#F3E7CC; --warn:#8A4B12;
+  --display:"Saira Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --gutter-l:max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r:max(16px, env(safe-area-inset-right, 0px));
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#11150F; --surface:#192017; --ink:#E4EADD; --muted:#9BA691; --line:#2D3628;
+    --accent:#86C093; --accent-ink:#0E140C; --mark:#DDB05A; --mark-soft:#2E2715; --warn:#E3A05F;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11150F; --surface:#192017; --ink:#E4EADD; --muted:#9BA691; --line:#2D3628;
+  --accent:#86C093; --accent-ink:#0E140C; --mark:#DDB05A; --mark-soft:#2E2715; --warn:#E3A05F;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font-family:var(--body); font-size:16px; line-height:1.6}
+a{color:var(--accent); text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--mark); outline-offset:2px}
+.wrap{max-width:1040px; margin:0 auto; padding-left:var(--gutter-l); padding-right:var(--gutter-r)}
+h1,h2,h3{font-family:var(--display); line-height:1.08; text-wrap:balance; margin:0}
+.eyebrow{font-family:var(--mono); font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; color:var(--muted)}
+.num{font-variant-numeric:tabular-nums}
+
+/* Barra superior */
+.top{border-bottom:1px solid var(--line); background:var(--bg)}
+.top .wrap{display:flex; align-items:center; justify-content:space-between; gap:12px; padding-block:14px}
+.brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink)}
+.brand svg{flex:none}
+.brand b{font-family:var(--display); font-size:1.35rem; font-weight:700; letter-spacing:.02em; text-transform:uppercase}
+.top .eyebrow{display:none}
+@media (min-width:640px){.top .eyebrow{display:block}}
+
+/* Home */
+.hero{padding-block:44px 28px}
+.hero h1{font-size:clamp(2.6rem,8vw,4.6rem); font-weight:700; text-transform:uppercase; letter-spacing:.01em; max-width:14ch}
+.hero p{max-width:58ch; color:var(--muted); font-size:1.08rem; margin:14px 0 0}
+.search{display:flex; flex-wrap:wrap; gap:10px; margin-top:26px}
+.search input,.search select{font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:12px 14px; min-width:0}
+.search input{flex:1 1 260px}
+.search select{flex:0 1 220px}
+.count{margin-top:22px}
+.list{display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr)); padding-block:12px 20px}
+.card{display:flex; flex-direction:column; gap:10px; text-decoration:none; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:20px; transition:border-color .15s, transform .15s}
+.card:hover{border-color:var(--accent); transform:translateY(-2px)}
+.card h2{font-size:2rem; font-weight:700; text-transform:uppercase}
+.card h2 small{font-size:1.1rem; color:var(--muted); font-weight:600; margin-left:6px}
+.card p{margin:0; color:var(--muted); font-size:.95rem}
+.tags{display:flex; flex-wrap:wrap; gap:6px}
+.tag{font-family:var(--mono); font-size:.72rem; padding:3px 8px; border-radius:4px; border:1px solid var(--line); color:var(--muted); white-space:nowrap}
+.tag.hot{background:var(--mark-soft); border-color:transparent; color:var(--ink)}
+.card .go{font-family:var(--mono); font-size:.8rem; color:var(--accent); margin-top:auto}
+.empty{padding:28px 0; color:var(--muted)}
+.soon{border-top:1px solid var(--line); padding-block:24px 48px; display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.soon h3{font-size:1.3rem; text-transform:uppercase; margin-bottom:6px}
+.soon p{margin:0; color:var(--muted); font-size:.95rem; max-width:52ch}
+
+/* Ficha */
+.back{display:inline-flex; align-items:center; gap:6px; font-family:var(--mono); font-size:.8rem; color:var(--muted); text-decoration:none; margin-top:22px}
+.back:hover{color:var(--accent)}
+.fhead{padding-block:18px 26px; display:grid; gap:14px}
+.fhead h1{font-size:clamp(3rem,11vw,6rem); font-weight:700; text-transform:uppercase; letter-spacing:.005em}
+.fhead h1 span{color:var(--mark)}
+.coord{font-family:var(--mono); font-size:.85rem; color:var(--muted)}
+.lede{max-width:62ch; font-size:1.08rem; margin:0}
+.facts{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr)); border-top:2px solid var(--ink); border-bottom:1px solid var(--line)}
+.fact{padding:14px 12px 14px 0; border-bottom:1px solid var(--line)}
+.fact .v{font-family:var(--display); font-size:1.6rem; font-weight:600; line-height:1.1; margin-top:4px}
+.fact .s{font-size:.82rem; color:var(--muted)}
+
+.secnav{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--bg); border-bottom:1px solid var(--line); margin-top:20px}
+.secnav .wrap{display:flex; gap:6px; overflow-x:auto; padding-block:10px; scrollbar-width:thin}
+.secnav a{flex:none; font-size:.85rem; text-decoration:none; color:var(--ink); padding:6px 12px; border-radius:999px; border:1px solid var(--line); background:var(--surface)}
+.secnav a:hover{border-color:var(--accent); color:var(--accent)}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top,0px); z-index:10; background:var(--bg)}
+
+.sec{padding-block:34px 6px; display:grid; gap:16px; grid-template-columns:1fr; scroll-margin-top:70px}
+@media (min-width:860px){.sec{grid-template-columns:220px minmax(0,1fr); gap:32px}}
+.sec h2{font-size:1.9rem; font-weight:700; text-transform:uppercase}
+.sec h2 + .eyebrow{margin-top:8px}
+.body{min-width:0; max-width:68ch}
+.body p{margin:0 0 12px}
+.body h3{font-family:var(--body); font-size:1rem; font-weight:600; margin:18px 0 6px}
+.body ul{margin:0 0 12px; padding-left:1.1em}
+.body li{margin-bottom:6px}
+.note{border-left:3px solid var(--mark); background:var(--mark-soft); padding:12px 14px; border-radius:0 6px 6px 0; margin:14px 0; font-size:.95rem}
+.note b{color:var(--warn)}
+.src{font-family:var(--mono); font-size:.74rem; color:var(--muted); margin-top:10px; line-height:1.5}
+.src a{color:var(--muted)}
+
+.tbl-wrap{overflow-x:auto; margin:6px 0 12px}
+table{border-collapse:collapse; width:100%; font-size:.94rem; min-width:420px}
+th,td{text-align:left; padding:9px 10px 9px 0; border-bottom:1px solid var(--line); vertical-align:top}
+th{font-family:var(--mono); font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:500}
+td.k{font-weight:600; white-space:nowrap}
+
+.climate{display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:3px; margin:10px 0 6px}
+.climate div{height:34px; border-radius:3px; display:flex; align-items:flex-end; justify-content:center; font-family:var(--mono); font-size:.62rem; padding-bottom:3px}
+.climate .wet{background:var(--accent); color:var(--accent-ink)}
+.climate .dry{background:var(--mark-soft); color:var(--ink)}
+.legend{display:flex; gap:16px; flex-wrap:wrap; font-size:.82rem; color:var(--muted)}
+.legend i{display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; vertical-align:-1px}
+
+.places{display:grid; gap:10px; grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr)); margin:8px 0 14px}
+.place{border:1px solid var(--line); border-radius:6px; padding:12px 14px; background:var(--surface)}
+.place b{display:block; font-family:var(--display); font-size:1.2rem; text-transform:uppercase}
+.place .km{font-family:var(--mono); font-size:.75rem; color:var(--mark)}
+.place p{margin:6px 0 0; font-size:.9rem; color:var(--muted)}
+
+.fix{border-top:2px solid var(--ink); margin-top:40px; padding-block:24px 56px}
+.fix h2{font-size:1.5rem; text-transform:uppercase; margin-bottom:8px}
+.fix p{margin:0; color:var(--muted); max-width:62ch}
+footer{border-top:1px solid var(--line); padding-block:18px 28px; color:var(--muted); font-size:.82rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important; scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 3 L17 14 L14 25 L11 14 Z" fill="var(--mark)"/><circle cx="14" cy="14" r="1.8" fill="currentColor"/></svg>
+      <b>Guia de Guarnições</b>
+    </a>
+    <span class="eyebrow">Exército Brasileiro · movimentação</span>
+  </div>
+</header>
+
+<main id="home">
+  <section class="wrap hero">
+    <p class="eyebrow">Recebeu a movimentação?</p>
+    <h1>Conheça a guarnição antes de chegar</h1>
+    <p>Uma ficha por guarnição com o que pesa na mudança: quais OM estão sediadas, como chegar, quanto custa morar, saúde, escolas, clima e o que fazer nos fins de semana. Cada informação traz a fonte e a data.</p>
+    <form class="search" id="searchForm" role="search">
+      <label class="eyebrow" for="q" hidden>Buscar</label>
+      <input id="q" type="search" placeholder="Buscar cidade, OM ou estado (ex.: RC Mec, Roraima)" autocomplete="off">
+      <select id="cmd" aria-label="Comando Militar de Área">
+        <option value="">Todos os Comandos Militares</option>
+      </select>
+    </form>
+    <p class="eyebrow count" id="count"></p>
+  </section>
+  <section class="wrap">
+    <div class="list" id="list"></div>
+    <p class="empty" id="empty" hidden>Nenhuma guarnição encontrada. Tente outro termo ou limpe o filtro.</p>
+  </section>
+  <section class="wrap soon">
+    <div>
+      <h3>Todas as guarnições</h3>
+      <p>O guia cobre as cidades com OM do Exército e os pelotões de fronteira da Amazônia. Todas as fichas seguem o mesmo modelo, com as mesmas seções, para facilitar a comparação.</p>
+    </div>
+    <div>
+      <h3>Dados com fonte e data</h3>
+      <p>Aluguel, voos e preços mudam rápido. Por isso cada seção indica de onde veio a informação e quando foi conferida.</p>
+    </div>
+    <div>
+      <h3>Só informação pública</h3>
+      <p>O guia usa dados de imprensa, órgãos públicos e publicações abertas do Exército. Detalhes de serviço ficam com a OM.</p>
+    </div>
+  </section>
+</main>
+
+<main id="ficha" hidden></main>
+
+<footer>
+  <div class="wrap">Guia independente, feito por e para militares. Não é publicação oficial do Exército Brasileiro. Confirme prazos e procedimentos com a sua OM.</div>
+</footer>
+
+<script src="dados/base.js"></script>
+<script src="dados/cma.js"></script>
+<script src="dados/fronteira.js"></script>
+<script src="dados/cmn.js"></script>
+<script src="dados/cmo.js"></script>
+<script src="dados/cms.js"></script>
+<script src="dados/cmse.js"></script>
+<script src="dados/cml.js"></script>
+<script src="dados/cmne.js"></script>
+<script src="dados/cmp.js"></script>
+<script src="dados/ajustes.js"></script>
+<script>
+const GUARNICOES = window.GUARNICOES || [];
+
+/* Seções em formato compacto: p (parágrafos), tab {h, r}, clima ("cccssss..." c=chuvoso s=seco) + leg,
+   places [[local, nome, descrição]], ul (itens), p2 (parágrafos finais), note, src [[rótulo, url]] */
+const MESES = "JFMAMJJASOND";
+function secHTML(s){
+  if(s.html) return s.html;
+  let h = "";
+  (s.p||[]).forEach(t=> h += `<p>${t}</p>`);
+  if(s.tab) h += `<div class="tbl-wrap"><table><thead><tr>${s.tab.h.map(x=>`<th>${x}</th>`).join("")}</tr></thead><tbody>${s.tab.r.map(r=>`<tr>${r.map((c,i)=>`<td${i===0?' class="k"':''}>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  if(s.clima){
+    h += `<div class="climate" aria-label="Estações por mês">${[...s.clima].map((c,i)=>`<div class="${c==="c"?"wet":"dry"}">${MESES[i]}</div>`).join("")}</div>`;
+    h += `<div class="legend"><span><i style="background:var(--accent)"></i>${(s.leg||[])[0]||"Chuvoso"}</span><span><i style="background:var(--mark-soft); border:1px solid var(--line)"></i>${(s.leg||[])[1]||"Seco"}</span></div>`;
+  }
+  if(s.places) h += `<div class="places">${s.places.map(([km,n,d])=>`<div class="place"><span class="km">${km}</span><b>${n}</b><p>${d}</p></div>`).join("")}</div>`;
+  if(s.ul) h += `<ul>${s.ul.map(t=>`<li>${t}</li>`).join("")}</ul>`;
+  (s.p2||[]).forEach(t=> h += `<p>${t}</p>`);
+  if(s.note) h += `<div class="note">${s.note}</div>`;
+  if(s.src) h += `<div class="src">Fontes: ${s.src.map(([l,u])=>`<a href="${u}">${l}</a>`).join(" · ")} · conferido em out/2026</div>`;
+  return h;
+}
+
+/* ============================================================
+   RENDERIZAÇÃO
+   ============================================================ */
+const $ = s => document.querySelector(s);
+const norm = s => (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+
+function fillCommands(){
+  const sel = $("#cmd");
+  [...new Set(GUARNICOES.map(g=>g.comando))].sort().forEach(c=>{
+    const g = GUARNICOES.find(x=>x.comando===c);
+    const o = document.createElement("option");
+    o.value = c; o.textContent = `${c} · ${g.comandoNome}`;
+    sel.appendChild(o);
+  });
+}
+
+function renderList(){
+  const q = norm($("#q").value.trim());
+  const c = $("#cmd").value;
+  const items = GUARNICOES.filter(g=>{
+    if(c && g.comando!==c) return false;
+    if(!q) return true;
+    const hay = norm([g.cidade,g.uf,g.estado,g.regiao,g.comando,g.comandoNome,g.resumo,...g.tags].join(" "));
+    return q.split(/\s+/).every(t=>hay.includes(t));
+  });
+  $("#list").innerHTML = items.map(g=>`
+    <a class="card" href="#${g.id}">
+      <div class="tags"><span class="tag hot">${g.comando}</span><span class="tag">${g.regiao}</span>${g.destaque?`<span class="tag">${g.destaque}</span>`:""}</div>
+      <h2>${g.cidade}<small>${g.uf}</small></h2>
+      <p>${g.resumo}</p>
+      <div class="tags">${g.tags.slice(0,4).map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+      <span class="go">Abrir ficha →</span>
+    </a>`).join("");
+  $("#empty").hidden = items.length>0;
+  $("#count").textContent = `${items.length} de ${GUARNICOES.length} ${GUARNICOES.length>1?"guarnições":"guarnição"} · fichas conferidas em out/2026`;
+}
+
+function renderFicha(g){
+  const el = $("#ficha");
+  el.innerHTML = `
+  <div class="wrap">
+    <a class="back" href="#">← Todas as guarnições</a>
+    <div class="fhead">
+      <div class="tags"><span class="tag hot">${g.comando} · ${g.comandoNome}</span><span class="tag">${g.estado}</span><span class="tag">Região ${g.regiao}</span></div>
+      <h1>${g.cidade} <span>${g.uf}</span></h1>
+      <div class="coord">${g.coord}</div>
+      <p class="lede">${g.lede}</p>
+    </div>
+    <div class="facts">
+      ${g.fatos.map(f=>`<div class="fact"><div class="eyebrow">${f.r}</div><div class="v num">${f.v}</div><div class="s">${f.s}</div></div>`).join("")}
+    </div>
+  </div>
+  <nav class="secnav" aria-label="Seções da ficha"><div class="wrap">
+    ${g.secoes.map(s=>`<a href="#${g.id}" data-sec="${s.id}">${s.titulo}</a>`).join("")}
+  </div></nav>
+  <div class="wrap">
+    ${g.secoes.map(s=>`
+    <section class="sec" id="sec-${s.id}">
+      <div><h2>${s.titulo}</h2><div class="eyebrow">${g.cidade} · ${g.conferido}</div></div>
+      <div class="body">${secHTML(s)}</div>
+    </section>`).join("")}
+    <section class="fix">
+      <h2>Serve ou já serviu em ${g.cidade}?</h2>
+      <p>Se alguma informação estiver desatualizada, ou se você tiver uma dica que faria diferença para quem chega, mande para o responsável pelo guia. As correções entram na próxima atualização da ficha.</p>
+    </section>
+  </div>`;
+  el.querySelectorAll(".secnav a").forEach(a=>{
+    a.addEventListener("click",e=>{
+      e.preventDefault();
+      const t = document.getElementById("sec-"+a.dataset.sec);
+      if(t) t.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto":"smooth", block:"start"});
+    });
+  });
+}
+
+function route(){
+  const id = location.hash.replace("#","");
+  const g = GUARNICOES.find(x=>x.id===id);
+  if(g){
+    renderFicha(g);
+    $("#home").hidden = true; $("#ficha").hidden = false;
+    document.title = `${g.cidade}-${g.uf} · Guia de Guarnições`;
+    window.scrollTo(0,0);
+  } else {
+    $("#ficha").hidden = true; $("#home").hidden = false;
+    document.title = "Guia de Guarnições";
+  }
+}
+
+fillCommands();
+renderList();
+$("#q").addEventListener("input",renderList);
+$("#cmd").addEventListener("change",renderList);
+$("#searchForm").addEventListener("submit",e=>e.preventDefault());
+window.addEventListener("hashchange",route);
+route();
+</script>
+
+</body></html>
