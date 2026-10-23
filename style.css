@@ -38,7 +38,7 @@ h1,h2,h3{font-family:var(--display); line-height:1.08; text-wrap:balance; margin
 .brand svg{flex:none}
 .brand b{font-family:var(--display); font-size:1.35rem; font-weight:700; letter-spacing:.02em; text-transform:uppercase}
 .top .eyebrow{display:none}
-@media (min-width:1000px){.top .eyebrow{display:block}}
+@media (min-width:860px){.top .eyebrow{display:block}}
 
 /* Home */
 .hero{padding-block:44px 28px}
@@ -47,7 +47,7 @@ h1,h2,h3{font-family:var(--display); line-height:1.08; text-wrap:balance; margin
 .search{display:flex; flex-wrap:wrap; gap:10px; margin-top:26px}
 .search input,.search select{font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:12px 14px; min-width:0}
 .search input{flex:1 1 260px}
-.search select{flex:0 1 220px}
+.search select{flex:1 1 200px}
 .count{margin-top:22px}
 .list{display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr)); padding-block:12px 20px}
 .card{display:flex; flex-direction:column; gap:10px; text-decoration:none; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:20px; transition:border-color .15s, transform .15s}
@@ -167,8 +167,11 @@ body{margin:0}
 @media (min-width:860px){
   .menu-btn{display:none}
   .menu,.menu.open{display:flex; flex-direction:row; align-items:center; gap:4px; position:static; padding:0; border:0; box-shadow:none; max-height:none; overflow:visible; background:none}
-  .top .eyebrow{order:1; margin-left:auto}
-  .menu{order:2}
+  .top .wrap{display:grid; grid-template-columns:auto 1fr; grid-template-rows:auto auto; column-gap:16px; row-gap:0}
+  .brand{grid-column:1; grid-row:1}
+  .top .eyebrow{grid-column:1; grid-row:2; font-size:.62rem; margin-left:38px}
+  .menu{grid-column:2; grid-row:1 / span 2; justify-self:end}
+  .menu a,.menu summary{white-space:nowrap}
   .menu a,.menu summary{border:0; padding:6px 10px; border-radius:6px; font-size:.92rem}
   .menu .aviso{display:none}
   .cmds{position:relative}
@@ -179,3 +182,74 @@ body{margin:0}
 .totop{position:fixed; right:var(--gutter-r); bottom:calc(20px + env(safe-area-inset-bottom,0px)); z-index:15; width:44px; height:44px; display:flex; align-items:center; justify-content:center; border-radius:50%; background:var(--accent); color:var(--accent-ink); text-decoration:none; font-size:1.2rem; box-shadow:0 4px 12px rgba(0,0,0,.18); opacity:0; transform:translateY(8px); pointer-events:none; transition:opacity .2s,transform .2s}
 .totop.show{opacity:1; transform:none; pointer-events:auto}
 @media print{.top{position:static}.menu-btn,.menu,.totop{display:none!important}}
+
+/* Data de atualização da ficha */
+.atualizado{margin:0; font-size:.85rem; color:var(--muted)}
+.atualizado b{color:var(--ink); font-weight:600}
+.atualizado .dot{display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--accent); margin-right:8px; vertical-align:1px}
+
+/* Páginas avulsas (checklist, comparador) */
+.pagina{padding-block:4px 48px; max-width:860px}
+.pg-title{font-size:clamp(2.4rem,8vw,4rem); font-weight:700; text-transform:uppercase; margin:6px 0 12px}
+.btn{font:inherit; font-size:.9rem; cursor:pointer; border-radius:6px; padding:9px 14px; border:1px solid var(--accent); background:var(--accent); color:var(--accent-ink)}
+.btn.sec{background:var(--surface); color:var(--ink); border-color:var(--line)}
+.btn:hover{filter:brightness(1.08)}
+
+/* Checklist da chegada */
+.ck-bar{display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px 20px; margin:22px 0 6px; padding:14px 16px; background:var(--surface); border:1px solid var(--line); border-radius:8px}
+.ck-prog{flex:1 1 240px}
+.ck-num{font-size:.9rem; color:var(--muted); margin-bottom:6px}
+.ck-num b{color:var(--ink)}
+.ck-track{height:8px; border-radius:999px; background:var(--line); overflow:hidden}
+.ck-fill{height:100%; width:0; background:var(--accent); transition:width .25s}
+.ck-acoes{display:flex; gap:8px; flex-wrap:wrap}
+.ck-grupo{padding-top:26px}
+.ck-grupo h2{font-size:1.6rem; font-weight:700; text-transform:uppercase; margin-bottom:8px}
+.ck{list-style:none; margin:0; padding:0; border-top:1px solid var(--line)}
+.ck li{border-bottom:1px solid var(--line)}
+.ck label{display:flex; gap:12px; align-items:flex-start; padding:12px 2px; cursor:pointer}
+.ck input{flex:none; width:20px; height:20px; margin:2px 0 0; accent-color:var(--accent); cursor:pointer}
+.ck .dica{display:block; font-size:.86rem; color:var(--muted); margin-top:3px}
+.ck input:checked + span .txt{color:var(--muted); text-decoration:line-through; text-decoration-color:var(--line)}
+@media print{
+  .ck-acoes,.crumbs,footer,.totop{display:none!important}
+  .ck-bar{border:0; padding:0}
+  .ck input:checked + span .txt{text-decoration:none; color:var(--ink)}
+  body{background:#fff; color:#000}
+}
+
+/* Comparador */
+.cmp-sel{display:grid; grid-template-columns:1fr auto 1fr; gap:10px; align-items:end; margin:22px 0 8px}
+.cmp-sel label{display:grid; gap:4px; min-width:0}
+.cmp-sel select{font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:12px 10px; min-width:0; width:100%}
+.cmp-troca{height:48px; width:48px; padding:0; font-size:1.2rem}
+.cmp{margin:14px 0 18px}
+.cmp-vazio{color:var(--muted); padding:18px 0}
+.cmp-row{display:grid; grid-template-columns:150px minmax(0,1fr) minmax(0,1fr); gap:0 18px; border-bottom:1px solid var(--line); padding:12px 0}
+.cmp-k{font-family:var(--mono); font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding-top:3px}
+.cmp-c{font-size:.95rem; min-width:0; overflow-wrap:anywhere}
+.cmp-c .v{display:block; font-family:var(--display); font-size:1.45rem; font-weight:600; line-height:1.15}
+.cmp-c .s{display:block; font-size:.8rem; color:var(--muted)}
+.cmp-c .nd{color:var(--muted); font-style:italic; font-size:.88rem}
+.cmp-c .om{margin:0; padding-left:1.05em}
+.cmp-c .om li{margin-bottom:2px}
+.cmp-top{position:sticky; top:calc(env(safe-area-inset-top,0px) + var(--hdr)); z-index:4; background:var(--bg); border-bottom:2px solid var(--ink)}
+.cmp-h b{display:block; font-family:var(--display); font-size:1.7rem; font-weight:700; text-transform:uppercase; line-height:1.05}
+.cmp-h b span{color:var(--mark)}
+.cmp-h p{margin:6px 0; font-size:.88rem; color:var(--muted)}
+.cmp-h a{font-family:var(--mono); font-size:.78rem}
+.cmp-h.vazio{color:var(--muted); font-style:italic; align-self:center}
+@media (max-width:640px){
+  .cmp-sel{grid-template-columns:1fr; }
+  .cmp-troca{justify-self:center; height:40px; width:40px; transform:rotate(90deg)}
+  .cmp-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:4px 14px}
+  .cmp-k{grid-column:1/-1}
+  .cmp-top .cmp-k{display:none}
+  .cmp-h b{font-size:1.25rem}
+  .cmp-h p{display:none}
+  .cmp-c .v{font-size:1.2rem}
+}
+/* Atalhos da ficha para o comparador e o checklist */
+.atalhos{display:flex; flex-wrap:wrap; gap:8px; margin-top:4px}
+.atalhos a{font-size:.85rem; text-decoration:none; color:var(--accent); border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:6px 12px}
+.atalhos a:hover{border-color:var(--accent)}

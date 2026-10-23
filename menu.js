@@ -28,7 +28,8 @@
     var irPara=function(id, suave){
       var g=document.getElementById(id); if(!g || !g.classList.contains('cmdgroup')) return false;
       var q=document.getElementById('q'), sel=document.getElementById('cmd');
-      if(q && sel && (q.value || sel.value)){ q.value=''; sel.value=''; q.dispatchEvent(new Event('input')); }
+      var uf=document.getElementById('uf');
+      if(q && sel && (q.value || sel.value || (uf && uf.value))){ q.value=''; sel.value=''; if(uf) uf.value=''; q.dispatchEvent(new Event('input')); }
       [].forEach.call(document.querySelectorAll('.cmdgroup'), function(el){ el.style.contentVisibility='visible'; });
       requestAnimationFrame(function(){ g.scrollIntoView({behavior: suave?'smooth':'instant'}); });
       return true;
