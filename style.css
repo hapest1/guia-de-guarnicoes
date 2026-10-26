@@ -254,3 +254,17 @@ body{margin:0}
 .atalhos{display:flex; flex-wrap:wrap; gap:8px; margin-top:4px}
 .atalhos a{font-size:.85rem; text-decoration:none; color:var(--accent); border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:6px 12px}
 .atalhos a:hover{border-color:var(--accent)}
+
+/* Banner "Anuncie aqui" (Início): faixa escura com rota pontilhada, chama atenção sem disputar com o conteúdo */
+.ad-house{margin-top:26px; margin-bottom:6px}
+.ad-house a{position:relative; overflow:hidden; display:grid; grid-template-columns:1fr auto; align-items:center; gap:14px 28px; text-decoration:none; color:#F2EEDF; background:#1F3F27; border-radius:14px; padding:22px 26px; isolation:isolate}
+.ad-house svg.rota{position:absolute; right:14px; top:50%; transform:translateY(-50%); width:min(380px,36%); height:auto; z-index:-1; opacity:.5}
+.ad-house .ad-tag{display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; color:#E2B24E}
+.ad-house .ad-tag::before{content:""; width:8px; height:8px; border-radius:50%; background:#E2B24E; box-shadow:0 0 0 4px rgba(226,178,78,.22)}
+.ad-house b{display:block; font-family:var(--display); font-size:clamp(1.6rem,3.4vw,2.3rem); line-height:1; text-transform:uppercase; margin:8px 0 6px; max-width:22ch}
+.ad-house p{margin:0; font-size:.95rem; color:#C9D3C4; max-width:52ch}
+.ad-house .ad-cta{font-weight:700; color:#1A1305; background:#E2B24E; border-radius:999px; padding:12px 20px; white-space:nowrap; transition:transform .15s, background .15s}
+.ad-house a:hover .ad-cta,.ad-house a:focus-visible .ad-cta{background:#F0C564; transform:translateX(3px)}
+.ad-house a:focus-visible{outline:2px solid var(--mark); outline-offset:3px}
+@media (max-width:640px){.ad-house a{grid-template-columns:1fr; padding:20px} .ad-house .ad-cta{justify-self:start} .ad-house svg.rota{display:none}}
+@media (prefers-reduced-motion:reduce){.ad-house .ad-cta{transition:none}}
