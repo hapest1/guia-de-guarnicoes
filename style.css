@@ -119,6 +119,7 @@ td.k{font-weight:600; white-space:nowrap}
 .fix{border-top:2px solid var(--ink); margin-top:40px; padding-block:24px 56px}
 .fix h2{font-size:1.5rem; text-transform:uppercase; margin-bottom:8px}
 .fix p{margin:0; color:var(--muted); max-width:62ch}
+.fix-acoes{display:flex; flex-wrap:wrap; gap:10px; margin-top:16px}
 footer{border-top:1px solid var(--line); padding-block:18px 28px; color:var(--muted); font-size:.82rem}
 @media (prefers-reduced-motion:reduce){*{transition:none!important; scroll-behavior:auto!important}}
 html{scroll-behavior:smooth}
