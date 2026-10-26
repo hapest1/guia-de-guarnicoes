@@ -765,8 +765,16 @@ window.BAIRROS={
  },
  "boa-vista-rr": {
   "base": "local",
-  "txt": "Não há ranking oficial por bairro. As zonas Norte e Leste concentram os bairros considerados nobres e mais procurados por famílias militares.",
+  "txt": "Não há ranking oficial por bairro. As zonas Norte e Leste concentram os bairros considerados nobres; Centenário e São Vicente, perto do quartel, reúnem muitas famílias militares.",
   "b": [
+   [
+    "Centenário",
+    "perto do quartel; bairro onde moram muitos militares"
+   ],
+   [
+    "São Vicente",
+    "perto do quartel; também muito procurado por militares"
+   ],
    [
     "Paraviana",
     "residencial, Zona Norte"
