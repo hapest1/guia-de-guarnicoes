@@ -1,7 +1,7 @@
 /* Base do Guia de Guarnições: fontes comuns e montagem das fichas em formato compacto. */
 window.GUARNICOES = window.GUARNICOES || [];
 window.CMDNOME = {
-  CMA:"Comando Militar da Amazônia", CMN:"Comando Militar do Norte", CMNE:"Comando Militar do Nordeste",
+  CMA:"Comando Militar da Amazônia", CMAO:"Comando Militar da Amazônia Oriental", CMNE:"Comando Militar do Nordeste",
   CMP:"Comando Militar do Planalto", CML:"Comando Militar do Leste", CMSE:"Comando Militar do Sudeste",
   CMO:"Comando Militar do Oeste", CMS:"Comando Militar do Sul"
 };
@@ -10,7 +10,7 @@ window.SRC = {
   fipe:["FipeZAP","https://www.datazap.com.br/wp-content/uploads/2026/03/fipezap-202602-residencial-locacao.pdf"],
   ibge:["IBGE","https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/estimativa_dou_2025.pdf"],
   CMA:["Wikipédia (CMA)","https://en.wikipedia.org/wiki/Amazon_Military_Command"],
-  CMN:["Wikipédia (CMN)","https://en.wikipedia.org/wiki/Northern_Military_Command_(Brazil)"],
+  CMAO:["Wikipédia (CMAO, antigo CMN)","https://en.wikipedia.org/wiki/Northern_Military_Command_(Brazil)"],
   CMNE:["Wikipédia (CMNE)","https://en.wikipedia.org/wiki/Northeastern_Military_Command_(Brazil)"],
   CMP:["Wikipédia (CMP)","https://en.wikipedia.org/wiki/Planalto_Military_Command"],
   CML:["Wikipédia (CML)","https://en.wikipedia.org/wiki/Eastern_Military_Command_(Brazil)"],

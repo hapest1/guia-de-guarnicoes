@@ -9,7 +9,7 @@
   var el=function(t,a,p){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e};
 
   var G=LS.g, BYS={}; G.forEach(function(g){BYS[g.s]=g});
-  var CMDN={CMA:'Amazônia',CMN:'Norte',CMNE:'Nordeste',CMP:'Planalto',CML:'Leste',CMSE:'Sudeste',CMO:'Oeste',CMS:'Sul'};
+  var CMDN={CMA:'Amazônia',CMAO:'Amazônia Oriental',CMNE:'Nordeste',CMP:'Planalto',CML:'Leste',CMSE:'Sudeste',CMO:'Oeste',CMS:'Sul'};
   var REGS=['Norte','Nordeste','Centro-Oeste','Sudeste','Sul'];
 
   /* OM de cada arma por guarnição */
@@ -127,7 +127,7 @@
       }).join('');
     } else {
       var by={}; vis.forEach(function(g){(by[g.c]=by[g.c]||[]).push(g)});
-      ['CMA','CMN','CMNE','CMP','CML','CMSE','CMO','CMS'].forEach(function(c){
+      ['CMA','CMAO','CMNE','CMP','CML','CMSE','CMO','CMS'].forEach(function(c){
         if(!by[c]) return;
         h+='<li class="grp"><span class="eyebrow">'+c+' · '+CMDN[c]+'</span><span class="k num">'+by[c].length+'</span></li>';
         by[c].sort(function(a,b){return a.n.localeCompare(b.n)}).forEach(function(g){

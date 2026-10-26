@@ -42,7 +42,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
   <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"></span>Menu</button>
   <nav class="menu" id="menu" aria-label="Menu principal">
     <a href="/">Início</a>
-    <details class="cmds"><summary>Guarnições</summary><div class="cmds-list"><a href="/#cma">CMA · Amazônia</a><a href="/#cmn">CMN · Norte</a><a href="/#cmne">CMNE · Nordeste</a><a href="/#cmp">CMP · Planalto</a><a href="/#cml">CML · Leste</a><a href="/#cmse">CMSE · Sudeste</a><a href="/#cmo">CMO · Oeste</a><a href="/#cms">CMS · Sul</a></div></details>
+    <details class="cmds"><summary>Guarnições</summary><div class="cmds-list"><a href="/#cma">CMA · Amazônia</a><a href="/#cmao">CMAO · Amazônia Oriental</a><a href="/#cmne">CMNE · Nordeste</a><a href="/#cmp">CMP · Planalto</a><a href="/#cml">CML · Leste</a><a href="/#cmse">CMSE · Sudeste</a><a href="/#cmo">CMO · Oeste</a><a href="/#cms">CMS · Sul</a></div></details>
     <a href="/locais-de-servir">Locais de servir</a>
     <a href="/comparar">Comparar</a>
     <a href="/checklist-da-chegada">Checklist da chegada</a>
@@ -60,7 +60,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
       <input id="q" type="search" placeholder="Buscar cidade, OM ou estado (ex.: RC Mec, Roraima)" autocomplete="off">
       <select id="cmd" aria-label="Comando Militar de Área">
         <option value="">Todos os Comandos Militares</option>
-        <option value="CMA">CMA · Comando Militar da Amazônia</option><option value="CML">CML · Comando Militar do Leste</option><option value="CMN">CMN · Comando Militar do Norte</option><option value="CMNE">CMNE · Comando Militar do Nordeste</option><option value="CMO">CMO · Comando Militar do Oeste</option><option value="CMP">CMP · Comando Militar do Planalto</option><option value="CMS">CMS · Comando Militar do Sul</option><option value="CMSE">CMSE · Comando Militar do Sudeste</option>
+        <option value="CMA">CMA · Comando Militar da Amazônia</option><option value="CMAO">CMAO · Comando Militar da Amazônia Oriental</option><option value="CML">CML · Comando Militar do Leste</option><option value="CMNE">CMNE · Comando Militar do Nordeste</option><option value="CMO">CMO · Comando Militar do Oeste</option><option value="CMP">CMP · Comando Militar do Planalto</option><option value="CMS">CMS · Comando Militar do Sul</option><option value="CMSE">CMSE · Comando Militar do Sudeste</option>
       </select>
       <select id="uf" aria-label="Estado">
         <option value="">Todos os estados</option><option value="AC">Acre (AC)</option><option value="AL">Alagoas (AL)</option><option value="AP">Amapá (AP)</option><option value="AM">Amazonas (AM)</option><option value="BA">Bahia (BA)</option><option value="CE">Ceará (CE)</option><option value="DF">Distrito Federal (DF)</option><option value="ES">Espírito Santo (ES)</option><option value="GO">Goiás (GO)</option><option value="MA">Maranhão (MA)</option><option value="MT">Mato Grosso (MT)</option><option value="MS">Mato Grosso do Sul (MS)</option><option value="MG">Minas Gerais (MG)</option><option value="PA">Pará (PA)</option><option value="PB">Paraíba (PB)</option><option value="PR">Paraná (PR)</option><option value="PE">Pernambuco (PE)</option><option value="PI">Piauí (PI)</option><option value="RN">Rio Grande do Norte (RN)</option><option value="RS">Rio Grande do Sul (RS)</option><option value="RJ">Rio de Janeiro (RJ)</option><option value="RO">Rondônia (RO)</option><option value="RR">Roraima (RR)</option><option value="SC">Santa Catarina (SC)</option><option value="SP">São Paulo (SP)</option><option value="SE">Sergipe (SE)</option><option value="TO">Tocantins (TO)</option>
@@ -88,13 +88,13 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
         <span class="cmd-cid">Boa Vista · Manaus · Tabatinga</span>
         <span class="go"><span class="num" data-n="CMA">34</span> guarnições →</span>
       </a>
-      <a class="cmd-card" href="#cmn" data-go="CMN">
-        <span class="cmd-sig">CMN</span>
-        <b>Comando Militar do Norte</b>
+      <a class="cmd-card" href="#cmao" data-go="CMAO">
+        <span class="cmd-sig">CMAO</span>
+        <b>Comando Militar da Amazônia Oriental</b>
         <span class="cmd-uf">PA · AP · MA</span>
-        <p>Foz do Amazonas e interior paraense, com Belém, Macapá e São Luís como portas de entrada.</p>
+        <p>Antigo Comando Militar do Norte. Foz do Amazonas e interior paraense, com Belém, Macapá e São Luís como portas de entrada.</p>
         <span class="cmd-cid">Belém · Marabá · São Luís</span>
-        <span class="go"><span class="num" data-n="CMN">9</span> guarnições →</span>
+        <span class="go"><span class="num" data-n="CMAO">9</span> guarnições →</span>
       </a>
       <a class="cmd-card" href="#cmne" data-go="CMNE">
         <span class="cmd-sig">CMNE</span>
@@ -516,67 +516,67 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
     </a>
     </div>
   </section>
-  <section class="wrap cmdgroup" id="cmn" data-cmd="CMN">
-    <h2 class="eyebrow" style="font-size:.8rem;margin-top:18px">Comando Militar do Norte (CMN)</h2>
+  <section class="wrap cmdgroup" id="cmao" data-cmd="CMAO">
+    <h2 class="eyebrow" style="font-size:.8rem;margin-top:18px">Comando Militar da Amazônia Oriental (CMAO)</h2>
     <div class="list">
-    <a class="card" href="/belem-pa" data-uf="PA" data-cmd="CMN" data-q="belem pa para norte cmn comando militar do norte metropole da foz do amazonas e sede do comando militar do norte. tem colegio militar, hospital geral e a cultura mais marcante do norte. cmn 8ª rm colegio militar hgeb 2º bis">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Sede do CMN</span></div>
+    <a class="card" href="/belem-pa" data-uf="PA" data-cmd="CMAO" data-q="belem pa para norte cmao comando militar da amazonia oriental cmn comando militar do norte metropole da foz do amazonas e sede do comando militar do norte. tem colegio militar, hospital geral e a cultura mais marcante do norte. cmn 8ª rm colegio militar hgeb 2º bis">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Sede do CMAO</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Belém<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">PA</small></h3>
-      <p>Metrópole da foz do Amazonas e sede do Comando Militar do Norte. Tem Colégio Militar, Hospital Geral e a cultura mais marcante do Norte.</p>
-      <div class="tags"><span class="tag">CMN</span><span class="tag">8ª RM</span><span class="tag">Colégio Militar</span><span class="tag">HGeB</span></div>
+      <p>Metrópole da foz do Amazonas e sede do Comando Militar da Amazônia Oriental. Tem Colégio Militar, Hospital Geral e a cultura mais marcante do Norte.</p>
+      <div class="tags"><span class="tag">CMAO</span><span class="tag">8ª RM</span><span class="tag">Colégio Militar</span><span class="tag">HGeB</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/macapa-ap" data-uf="AP" data-cmd="CMN" data-q="macapa ap amapa norte cmn comando militar do norte capital do amapa, cortada pela linha do equador, a beira do amazonas. sede da 22ª brigada de infantaria de selva e do comando de fronteira amapa. 22ª bda inf sl 34º bis cmdo fron ap equador">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Sede de Brigada</span></div>
+    <a class="card" href="/macapa-ap" data-uf="AP" data-cmd="CMAO" data-q="macapa ap amapa norte cmao comando militar da amazonia oriental cmn comando militar do norte capital do amapa, cortada pela linha do equador, a beira do amazonas. sede da 22ª brigada de infantaria de selva e do comando de fronteira amapa. 22ª bda inf sl 34º bis cmdo fron ap equador">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Sede de Brigada</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Macapá<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">AP</small></h3>
       <p>Capital do Amapá, cortada pela Linha do Equador, à beira do Amazonas. Sede da 22ª Brigada de Infantaria de Selva e do Comando de Fronteira Amapá.</p>
       <div class="tags"><span class="tag">22ª Bda Inf Sl</span><span class="tag">34º BIS</span><span class="tag">Cmdo Fron AP</span><span class="tag">Equador</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/sao-luis-ma" data-uf="MA" data-cmd="CMN" data-q="sao luis ma maranhao norte cmn comando militar do norte capital do maranhao, numa ilha, com centro historico tombado pela unesco. sede do 24º batalhao de infantaria leve. 24º bi l patrimonio mundial bumba meu boi">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Capital</span></div>
+    <a class="card" href="/sao-luis-ma" data-uf="MA" data-cmd="CMAO" data-q="sao luis ma maranhao norte cmao comando militar da amazonia oriental cmn comando militar do norte capital do maranhao, numa ilha, com centro historico tombado pela unesco. sede do 24º batalhao de infantaria leve. 24º bi l patrimonio mundial bumba meu boi">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Capital</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">São Luís<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">MA</small></h3>
       <p>Capital do Maranhão, numa ilha, com centro histórico tombado pela Unesco. Sede do 24º Batalhão de Infantaria Leve.</p>
       <div class="tags"><span class="tag">24º BI L</span><span class="tag">Patrimônio Mundial</span><span class="tag">Bumba meu boi</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/maraba-pa" data-uf="PA" data-cmd="CMN" data-q="maraba pa para norte cmn comando militar do norte polo do sudeste do para, no encontro dos rios tocantins e itacaiunas. sede da 23ª brigada de infantaria de selva e de um hospital de guarnicao. 23ª bda inf sl 52º bis 1º gac sl h gu maraba">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Sede de Brigada</span></div>
+    <a class="card" href="/maraba-pa" data-uf="PA" data-cmd="CMAO" data-q="maraba pa para norte cmao comando militar da amazonia oriental cmn comando militar do norte polo do sudeste do para, no encontro dos rios tocantins e itacaiunas. sede da 23ª brigada de infantaria de selva e de um hospital de guarnicao. 23ª bda inf sl 52º bis 1º gac sl h gu maraba">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Sede de Brigada</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Marabá<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">PA</small></h3>
       <p>Polo do sudeste do Pará, no encontro dos rios Tocantins e Itacaiúnas. Sede da 23ª Brigada de Infantaria de Selva e de um Hospital de Guarnição.</p>
       <div class="tags"><span class="tag">23ª Bda Inf Sl</span><span class="tag">52º BIS</span><span class="tag">1º GAC Sl</span><span class="tag">H Gu Marabá</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/imperatriz-ma" data-uf="MA" data-cmd="CMN" data-q="imperatriz ma maranhao norte cmn comando militar do norte segunda maior cidade do maranhao, a beira do tocantins e da belem–brasilia. sede do 50º bis. 50º bis rio tocantins br-010">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Polo regional</span></div>
+    <a class="card" href="/imperatriz-ma" data-uf="MA" data-cmd="CMAO" data-q="imperatriz ma maranhao norte cmao comando militar da amazonia oriental cmn comando militar do norte segunda maior cidade do maranhao, a beira do tocantins e da belem–brasilia. sede do 50º bis. 50º bis rio tocantins br-010">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Polo regional</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Imperatriz<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">MA</small></h3>
       <p>Segunda maior cidade do Maranhão, à beira do Tocantins e da Belém–Brasília. Sede do 50º BIS.</p>
       <div class="tags"><span class="tag">50º BIS</span><span class="tag">Rio Tocantins</span><span class="tag">BR-010</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/altamira-pa" data-uf="PA" data-cmd="CMN" data-q="altamira pa para norte cmn comando militar do norte cidade as margens do xingu, na transamazonica, perto da usina de belo monte. sede do 51º bis. 51º bis rio xingu belo monte transamazonica">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Interior</span></div>
+    <a class="card" href="/altamira-pa" data-uf="PA" data-cmd="CMAO" data-q="altamira pa para norte cmao comando militar da amazonia oriental cmn comando militar do norte cidade as margens do xingu, na transamazonica, perto da usina de belo monte. sede do 51º bis. 51º bis rio xingu belo monte transamazonica">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Interior</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Altamira<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">PA</small></h3>
       <p>Cidade às margens do Xingu, na Transamazônica, perto da usina de Belo Monte. Sede do 51º BIS.</p>
       <div class="tags"><span class="tag">51º BIS</span><span class="tag">Rio Xingu</span><span class="tag">Belo Monte</span><span class="tag">Transamazônica</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/itaituba-pa" data-uf="PA" data-cmd="CMN" data-q="itaituba pa para norte cmn comando militar do norte cidade as margens do tapajos, no cruzamento da br-163 com a transamazonica. sede do 53º bis. 53º bis rio tapajos br-163 garimpo">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Interior</span></div>
+    <a class="card" href="/itaituba-pa" data-uf="PA" data-cmd="CMAO" data-q="itaituba pa para norte cmao comando militar da amazonia oriental cmn comando militar do norte cidade as margens do tapajos, no cruzamento da br-163 com a transamazonica. sede do 53º bis. 53º bis rio tapajos br-163 garimpo">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Interior</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Itaituba<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">PA</small></h3>
       <p>Cidade às margens do Tapajós, no cruzamento da BR-163 com a Transamazônica. Sede do 53º BIS.</p>
       <div class="tags"><span class="tag">53º BIS</span><span class="tag">Rio Tapajós</span><span class="tag">BR-163</span><span class="tag">Garimpo</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/tucurui-pa" data-uf="PA" data-cmd="CMN" data-q="tucurui pa para norte cmn comando militar do norte cidade da usina hidreletrica de tucurui, no rio tocantins. sede do 23º esquadrao de cavalaria de selva. 23º esqd c sl cavalaria uhe tucurui">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Interior</span></div>
+    <a class="card" href="/tucurui-pa" data-uf="PA" data-cmd="CMAO" data-q="tucurui pa para norte cmao comando militar da amazonia oriental cmn comando militar do norte cidade da usina hidreletrica de tucurui, no rio tocantins. sede do 23º esquadrao de cavalaria de selva. 23º esqd c sl cavalaria uhe tucurui">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Interior</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Tucuruí<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">PA</small></h3>
       <p>Cidade da usina hidrelétrica de Tucuruí, no rio Tocantins. Sede do 23º Esquadrão de Cavalaria de Selva.</p>
       <div class="tags"><span class="tag">23º Esqd C Sl</span><span class="tag">Cavalaria</span><span class="tag">UHE Tucuruí</span></div>
       <span class="go">Abrir ficha →</span>
     </a>
-    <a class="card" href="/santarem-pa" data-uf="PA" data-cmd="CMN" data-q="santarem pa para norte cmn comando militar do norte terceira maior cidade do para, no encontro do tapajos com o amazonas. sede do 8º bec e vizinha de alter do chao. 8º bec rio tapajos alter do chao">
-      <div class="tags"><span class="tag hot">CMN</span><span class="tag">Norte</span><span class="tag">Polo regional</span></div>
+    <a class="card" href="/santarem-pa" data-uf="PA" data-cmd="CMAO" data-q="santarem pa para norte cmao comando militar da amazonia oriental cmn comando militar do norte terceira maior cidade do para, no encontro do tapajos com o amazonas. sede do 8º bec e vizinha de alter do chao. 8º bec rio tapajos alter do chao">
+      <div class="tags"><span class="tag hot">CMAO</span><span class="tag">Norte</span><span class="tag">Polo regional</span></div>
       <h3 style="font-size:2rem;font-weight:700;text-transform:uppercase">Santarém<small style="font-size:1.1rem;color:var(--muted);font-weight:600;margin-left:6px">PA</small></h3>
       <p>Terceira maior cidade do Pará, no encontro do Tapajós com o Amazonas. Sede do 8º BEC e vizinha de Alter do Chão.</p>
       <div class="tags"><span class="tag">8º BEC</span><span class="tag">Rio Tapajós</span><span class="tag">Alter do Chão</span></div>
@@ -1405,7 +1405,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
 (function(){
   var q=document.getElementById('q'), sel=document.getElementById('cmd'), ufs=document.getElementById('uf'), cards=[].slice.call(document.querySelectorAll('.card')), groups=[].slice.call(document.querySelectorAll('.cmdgroup')), total=cards.length;
   var home=document.getElementById('comandos'), bar=document.getElementById('resBar'), todas=false;
-  var CMDS=['cma','cmn','cmne','cmp','cml','cmse','cmo','cms'];
+  var CMDS=['cma','cmao','cmne','cmp','cml','cmse','cmo','cms'];
   function norm(s){return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();}
   function setHash(h){try{history.replaceState(null,'',h?'#'+h:location.pathname+location.search);}catch(e){}}
   function run(){
@@ -1425,7 +1425,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
   }
   function irPara(el){var hdr=document.querySelector('.top').offsetHeight;window.scrollTo({top:el.getBoundingClientRect().top+scrollY-hdr-8,behavior:'instant'});}
   function lerHash(rolar){
-    var h=location.hash.slice(1).toLowerCase();
+    var h=location.hash.slice(1).toLowerCase(); if(h==='cmn')h='cmao';
     if(CMDS.indexOf(h)>-1){todas=false;q.value='';ufs.value='';sel.value=h.toUpperCase();}
     else if(h==='todas'){todas=true;q.value='';ufs.value='';sel.value='';}
     else if(h===''||h==='comandos'){todas=false;sel.value='';}
@@ -1442,7 +1442,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
   document.querySelectorAll('.cmd-card, .cmd-todas a').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();try{history.pushState(null,'',a.getAttribute('href'));}catch(x){location.hash=a.getAttribute('href');return;}lerHash(true);});});
   document.getElementById('searchForm').addEventListener('submit',function(e){e.preventDefault();});
   lerHash(false); run();
-  if(CMDS.indexOf(location.hash.slice(1).toLowerCase())>-1)setTimeout(function(){irPara(bar);},0);
+  if(CMDS.indexOf(location.hash.slice(1).toLowerCase().replace(/^cmn$/,'cmao'))>-1)setTimeout(function(){irPara(bar);},0);
 })();
 </script>
 <script src="/menu.js" defer></script>

@@ -10,7 +10,7 @@
   if(sel && CMP.length){
     var by={}, nomes={};
     CMP.forEach(function(g){(by[g.cmd]=by[g.cmd]||[]).push(g); nomes[g.cmd]=g.cmdN});
-    ['CMA','CMN','CMNE','CMP','CML','CMSE','CMO','CMS'].forEach(function(c){
+    ['CMA','CMAO','CMNE','CMP','CML','CMSE','CMO','CMS'].forEach(function(c){
       if(!by[c]) return;
       var og=document.createElement('optgroup'); og.label=c+' · '+nomes[c];
       by[c].sort(function(a,b){return a.c.localeCompare(b.c)}).forEach(function(g){
