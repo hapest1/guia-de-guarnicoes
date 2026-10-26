@@ -453,17 +453,20 @@ S({id:"foz-do-iguacu", cidade:"Foz do Iguaçu", uf:"PR", estado:"Paraná", coord
   places:[["Cidade","Cataratas do Iguaçu","Patrimônio Mundial, com vista dos lados brasileiro e argentino."],["Cidade","Itaipu","Visitas à usina binacional."]],
   cultNote:"<b>Fronteira:</b> veja com a OM as regras para militares atravessarem para o Paraguai e a Argentina."});
 
-S({id:"sao-miguel-do-iguacu", cidade:"São Miguel do Iguaçu", uf:"PR", estado:"Paraná", coord:"25°21′S 54°14′W · lago de Itaipu · UTC−3",
-  tags:["14º RC Mec","Cavalaria","Itaipu"], destaque:"Interior",
-  resumo:"Cidade à beira do lago de Itaipu, a cerca de 45 km de Foz do Iguaçu. Sede do 14º Regimento de Cavalaria Mecanizado.",
-  lede:"Cidade pequena e agrícola no oeste paranaense, com praias artificiais no lago de Itaipu.",
-  fatos:[POP("~26 mil"),FUSO,["Até Foz do Iguaçu","~45 km","BR-277"],["Lago","Itaipu","praias artificiais"],["OM","14º RC Mec","cavalaria mecanizada"],["Grande Comando","CMS","5ª RM"]],
+S({id:"sao-miguel-do-oeste", cidade:"São Miguel do Oeste", uf:"SC", estado:"Santa Catarina", coord:"26°44′S 53°31′W · extremo oeste de SC · UTC−3",
+  tags:["14º RC Mec","Cavalaria","Extremo Oeste"], destaque:"Interior",
+  resumo:"Polo do extremo oeste catarinense, a cerca de 130 km de Chapecó e perto da fronteira com a Argentina. Sede do 14º Regimento de Cavalaria Mecanizado.",
+  lede:"Cidade média e organizada do extremo oeste de Santa Catarina, de colonização gaúcha, com economia agroindustrial e inverno frio de verdade.",
+  fatos:[["População","~44 mil","Censo IBGE 2022"],FUSO,["Até Chapecó","~130 km","BR-282 / BR-480"],["Fronteira","Argentina","extremo oeste de SC"],["OM","14º RC Mec","cavalaria mecanizada"],["Grande Comando","CMS","5ª RM"]],
   om:[["14º RC Mec","Regimento de Cavalaria Mecanizado"]],
-  acessoP:"A cidade fica na BR-277, a cerca de 45 km de Foz do Iguaçu, que é a referência para voos.",
-  ref:"Foz do Iguaçu ou Curitiba",
-  edu:TXT.semCM+" Para ensino superior, as referências são Foz do Iguaçu e Cascavel.",
-  climaObj:OESTE,
-  cultP:["O lago de Itaipu tem praias artificiais procuradas no verão."], cultNote:TXT.rios});
+  acessoP:"O acesso é por rodovia. Chapecó, a cerca de 130 km pelas BR-282 e BR-480 (sem pedágio), é a referência para voos regulares. A cidade tem aeroporto regional, reformado em 2026 — confira se há linha comercial operando antes de comprar passagem.",
+  custoP:"Polo comercial e de serviços do extremo oeste, com supermercados, lojas e clínicas que atendem as cidades vizinhas. Para compras maiores e shopping, a referência é Chapecó.",
+  ref:"Chapecó",
+  edu:TXT.semCM+" Há escolas públicas e particulares, e a cidade tem campus da Unoesc e do IFSC. Para mais opções de ensino superior, a referência é Chapecó.",
+  climaObj:{p:["Subtropical úmido, a cerca de 700 m de altitude. O verão é quente e o inverno é frio, com geadas frequentes e mínimas abaixo de zero em algumas noites."]},
+  cultP:["Cidade de colonização gaúcha, de origem italiana e alemã: chimarrão, CTGs, churrasco e festas de comunidade fazem parte da rotina."],
+  places:[["Região","Rio Peperi-Guaçu","Rio que marca a fronteira com a Argentina no extremo oeste."],["~130 km","Chapecó","Maior cidade do oeste catarinense, com shopping, restaurantes e aeroporto."]],
+  cultNote:"<b>Fronteira:</b> veja com a OM as regras para militares atravessarem para a Argentina."});
 
 S({id:"guaira", cidade:"Guaíra", uf:"PR", estado:"Paraná", coord:"24°05′S 54°15′W · rio Paraná · UTC−3",
   tags:["15ª Cia Inf Mtz","Paraguai","Lago de Itaipu"], destaque:"Fronteira",
