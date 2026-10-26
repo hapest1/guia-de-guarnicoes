@@ -12,8 +12,12 @@
   var CMDN={CMA:'Amazônia',CMN:'Norte',CMNE:'Nordeste',CMP:'Planalto',CML:'Leste',CMSE:'Sudeste',CMO:'Oeste',CMS:'Sul'};
   var REGS=['Norte','Nordeste','Centro-Oeste','Sudeste','Sul'];
 
-  /* OM de Cavalaria por guarnição */
-  var CAVG={}; LS.cav.forEach(function(c){(CAVG[c.s]=CAVG[c.s]||[]).push(c)});
+  /* OM de cada arma por guarnição */
+  var ARMAS=LS.armas, AG={};
+  var HASH={cav:'cavalaria',inf:'infantaria',art:'artilharia',eng:'engenharia',com:'comunicacoes',int:'intendencia',mb:'material-belico'};
+  var BYHASH={}; Object.keys(HASH).forEach(function(k){BYHASH[HASH[k]]=k});
+  Object.keys(ARMAS).forEach(function(a){AG[a]={}; ARMAS[a].oms.forEach(function(c){(AG[a][c.s]=AG[a][c.s]||[]).push(c)})});
+  var CAVG={}; /* atualizado em setTab: OM da arma ativa por guarnição */
 
   var S={tab:'geral',reg:null,sel:null,q:''};
   var svg=$('#lsmap'), gLand=$('#ls-land'), gMk=$('#ls-mk'), gLb=$('#ls-lb');
@@ -40,7 +44,8 @@
   });
 
   function visible(g){
-    if(S.tab==='cav' && !CAVG[g.s]) return false;
+    if(S.tab==='geral' && g.nf) return false;
+    if(S.tab!=='geral' && !CAVG[g.s]) return false;
     if(S.reg && g.r!==S.reg) return false;
     if(S.q){
       var txt=g.n+' '+g.uf+' '+g.om.join(' ')+' '+g.ou+' '+(CAVG[g.s]||[]).map(function(c){return c.om}).join(' ');
@@ -48,14 +53,14 @@
     }
     return true;
   }
-  function weight(g){return S.tab==='cav'?(CAVG[g.s]||[]).length:Math.max(1,g.om.length)}
+  function weight(g){return S.tab!=='geral'?(CAVG[g.s]||[]).length:Math.max(1,g.om.length)}
 
   function sizeMarkers(){
     var k=vb[2]/BASE[2]; /* 1 = Brasil inteiro; menor = zoom */
     var px=vb[2]/ (svg.clientWidth||600); /* unidades do mapa por pixel */
     G.forEach(function(g){
       var m=mk[g.s]; if(m.a.style.display==='none') return;
-      var r = S.tab==='cav' ? (8+3*Math.sqrt(weight(g)))*px : (3.2+1.1*Math.sqrt(weight(g)))*px;
+      var r = S.tab!=='geral' ? (8+3*Math.sqrt(weight(g)))*px : (3.2+1.1*Math.sqrt(weight(g)))*px;
       m.c.setAttribute('r',r.toFixed(2));
       m.t.setAttribute('font-size',(11*px).toFixed(2));
     });
@@ -64,20 +69,20 @@
   }
 
   function render(){
-    document.body.dataset.lstab=S.tab;
+    document.body.dataset.lstab=S.tab==='geral'?'geral':'cav'; document.body.dataset.arma=S.tab;
     var vis=G.filter(visible);
     G.forEach(function(g){
       var m=mk[g.s], v=visible(g);
       m.a.style.display=v?'':'none';
       m.a.classList.toggle('on',S.sel===g.s);
-      m.t.textContent=(S.tab==='cav'&&weight(g)>1)?weight(g):'';
+      m.t.textContent=(S.tab!=='geral'&&weight(g)>1)?weight(g):'';
     });
     /* estados com OM da arma */
-    var ufs={}; if(S.tab==='cav') LS.cav.forEach(function(c){ufs[BYS[c.s].uf]=1});
+    var ufs={}; if(S.tab!=='geral') ARMAS[S.tab].oms.forEach(function(c){ufs[BYS[c.s].uf]=1});
     Object.keys(ufEl).forEach(function(u){ufEl[u].classList.toggle('has',!!ufs[u])});
     /* rótulos: só na Cavalaria e no zoom de região */
     while(gLb.firstChild) gLb.removeChild(gLb.firstChild);
-    if(S.tab==='cav' && (S.reg||vis.length<=12)){
+    if(S.tab!=='geral' && (S.reg||vis.length<=12)){
       /* rótulos sem sobreposição: os de mais OM primeiro, pula quem colidir */
       var tv=targetVB(), px=tv[2]/(svg.clientWidth||600), boxes=[];
       vis.slice().sort(function(a,b){return weight(b)-weight(a)}).forEach(function(g){
@@ -91,16 +96,19 @@
     renderKpis(vis); renderList(vis); renderInfo();
     document.querySelectorAll('.ls-reg button').forEach(function(b){b.setAttribute('aria-pressed',String((b.dataset.r||null)===S.reg))});
     document.querySelectorAll('.ls-tabs [role=tab]').forEach(function(b){var on=b.dataset.tab===S.tab;b.setAttribute('aria-selected',String(on));b.tabIndex=on?0:-1});
-    var q=$('#ls-q'); if(q) q.placeholder=S.tab==='cav'?'Buscar cidade ou OM (ex.: RCB, Esqd)':'Buscar cidade ou OM';
+    var q=$('#ls-q'); if(q) q.placeholder=S.tab!=='geral'?'Buscar cidade ou OM de '+ARMAS[S.tab].n:'Buscar cidade ou OM';
+    document.querySelectorAll('[data-arma-sec]').forEach(function(e){e.hidden=e.dataset.armaSec!==S.tab});
+    document.querySelectorAll('.ls-armanome').forEach(function(e){e.textContent=S.tab!=='geral'?ARMAS[S.tab].n:''});
   }
 
   function renderKpis(vis){
     var k=$('#ls-kpis'); if(!k) return;
-    var ufs={}, n=0; vis.forEach(function(g){ufs[g.uf]=1; n+= S.tab==='cav'?CAVG[g.s].length:g.om.length});
+    var ufs={}, n=0; vis.forEach(function(g){ufs[g.uf]=1; n+= S.tab!=='geral'?CAVG[g.s].length:g.om.length});
     var h;
-    if(S.tab==='cav'){
-      var rs=LS.cav.filter(function(c){return BYS[c.s].uf==='RS'}).length;
-      h=kpi('OM de Cavalaria',n,S.reg?S.reg:'no Brasil')+kpi('Guarnições',vis.length,'com OM de Cavalaria')+kpi('Estados',Object.keys(ufs).length,'')+kpi('No Rio Grande do Sul',Math.round(100*rs/LS.cav.length)+'%','das OM do Brasil');
+    if(S.tab!=='geral'){
+      var A=ARMAS[S.tab], cnt={}; A.oms.forEach(function(c){var u=BYS[c.s].uf; cnt[u]=(cnt[u]||0)+1});
+      var top=Object.keys(cnt).sort(function(a,b){return cnt[b]-cnt[a]})[0];
+      h=kpi('OM de '+A.n,n,S.reg?S.reg:'no Brasil')+kpi('Guarnições',vis.length,'com OM de '+A.n)+kpi('Estados',Object.keys(ufs).length,'')+kpi('Estado com mais OM',top,Math.round(100*cnt[top]/A.oms.length)+'% das OM');
     } else {
       h=kpi('Guarnições',vis.length,S.reg?S.reg:'com ficha no Guia')+kpi('OM listadas',n,'nas fichas')+kpi('Estados',Object.keys(ufs).length,'')+kpi('Comandos',Object.keys(vis.reduce(function(a,g){a[g.c]=1;return a},{})).length,'militares de área');
     }
@@ -112,7 +120,7 @@
     var box=$('#ls-list'); if(!box) return;
     if(!vis.length){box.innerHTML='<p class="ls-vazio">Nada encontrado com esse filtro.</p>';return}
     var h='';
-    if(S.tab==='cav'){
+    if(S.tab!=='geral'){
       vis.sort(function(a,b){return CAVG[b.s].length-CAVG[a.s].length||a.n.localeCompare(b.n)});
       h=vis.map(function(g){
         return '<li class="'+(S.sel===g.s?'on':'')+'"><button type="button" data-s="'+g.s+'"><b>'+esc(g.n)+'</b> <span class="uf">'+g.uf+'</span><span class="k num">'+CAVG[g.s].length+'</span></button><div class="chips">'+CAVG[g.s].map(function(c){return '<span class="tag">'+esc(c.om)+'</span>'}).join('')+'</div></li>';
@@ -134,20 +142,20 @@
     var box=$('#ls-info'); if(!box) return;
     var g=S.sel&&BYS[S.sel];
     if(!g){
-      box.innerHTML='<p class="ls-hint">'+(S.tab==='cav'?'Toque num ponto para ver as OM de Cavalaria da guarnição. O número no ponto é a quantidade de OM.':'Toque num ponto para ver as OM da guarnição e abrir a ficha da cidade.')+'</p>';
+      box.innerHTML='<p class="ls-hint">'+(S.tab!=='geral'?'Toque num ponto para ver as OM de '+ARMAS[S.tab].n+' da guarnição. O número no ponto é a quantidade de OM.':'Toque num ponto para ver as OM da guarnição e abrir a ficha da cidade.')+'</p>';
       return;
     }
-    var oms = S.tab==='cav' ? CAVG[g.s]||[] : null;
-    var h='<button type="button" class="ls-x" aria-label="Fechar">×</button><p class="eyebrow">'+g.c+' · '+CMDN[g.c]+' · '+g.r+'</p><h3>'+esc(g.n)+' <span>'+g.uf+'</span></h3>';
+    var oms = S.tab!=='geral' ? CAVG[g.s]||[] : null;
+    var h='<button type="button" class="ls-x" aria-label="Fechar">×</button><p class="eyebrow">'+(g.c?g.c+' · '+CMDN[g.c]+' · ':'')+g.r+'</p><h3>'+esc(g.n)+' <span>'+g.uf+'</span></h3>';
     if(oms){
-      h+='<ul class="ls-oms">'+oms.map(function(c){return '<li><b>'+esc(c.om)+'</b>'+(c.d?' <span>'+esc(c.d)+'</span>':' <span>'+esc(LS.tipos[c.t].replace(/s de /,' de ').replace(/s$/,''))+'</span>')+'</li>'}).join('')+'</ul>';
+      h+='<ul class="ls-oms">'+oms.map(function(c){return '<li><b>'+esc(c.om)+'</b>'+(c.d?' <span>'+esc(c.d)+'</span>':(c.t&&LS.tipos[c.t]?' <span>'+esc(LS.tipos[c.t].replace(/s de /,' de ').replace(/s$/,''))+'</span>':''))+'</li>'}).join('')+'</ul>';
       var outras=g.om.filter(function(o){return !oms.some(function(c){return o.indexOf(c.om.replace('Cmdo ',''))>=0})});
       if(outras.length) h+='<p class="ls-outras"><span class="eyebrow">Outras OM na guarnição</span> '+esc(outras.join(' · '))+'</p>';
     } else {
       h+='<ul class="ls-oms">'+g.om.map(function(o){return '<li><b>'+esc(o)+'</b></li>'}).join('')+'</ul>';
       if(g.ou) h+='<p class="ls-outras"><span class="eyebrow">Outras</span> '+esc(g.ou)+'</p>';
     }
-    h+='<a class="btn" href="/'+g.s+'">Abrir a ficha de '+esc(g.n)+' →</a>';
+    h+= g.nf ? '<p class="ls-outras">Esta cidade ainda não tem ficha no Guia.</p>' : '<a class="btn" href="/'+g.s+'">Abrir a ficha de '+esc(g.n)+' →</a>';
     box.innerHTML=h;
     box.querySelector('.ls-x').onclick=function(){select(null)};
   }
@@ -193,17 +201,20 @@
     if(i<0) return; var n=tabs[(i+(e.key==='ArrowRight'?1:tabs.length-1))%tabs.length]; n.focus(); n.click();
   });
   function setTab(t,push){
-    S.tab=t==='cav'?'cav':'geral'; if(S.sel && S.tab==='cav' && !CAVG[S.sel]) S.sel=null;
-    render(); if(push) history.replaceState(null,'',S.tab==='cav'?'#cavalaria':location.pathname);
+    S.tab=ARMAS[t]?t:'geral'; CAVG=S.tab==='geral'?{}:AG[S.tab];
+    if(S.sel && S.tab!=='geral' && !CAVG[S.sel]) S.sel=null;
+    if(S.sel && S.tab==='geral' && BYS[S.sel].nf) S.sel=null;
+    render(); if(push) history.replaceState(null,'',S.tab!=='geral'?'#'+HASH[S.tab]:location.pathname);
   }
+  function fromHash(){return BYHASH[location.hash.slice(1)]||'geral'}
   document.querySelectorAll('.ls-reg button').forEach(function(b){
     b.addEventListener('click',function(){S.reg=b.dataset.r||null; render(); goVB()});
   });
   var q=$('#ls-q'); if(q) q.addEventListener('input',function(){S.q=norm(q.value.trim()); render()});
   $('#ls-list').addEventListener('click',function(e){var b=e.target.closest('button[data-s]'); if(b) select(b.dataset.s)});
   addEventListener('resize',function(){sizeMarkers()},{passive:true});
-  addEventListener('hashchange',function(){setTab(location.hash==='#cavalaria'?'cav':'geral')});
+  addEventListener('hashchange',function(){setTab(fromHash())});
 
   setVB(BASE);
-  setTab(location.hash==='#cavalaria'?'cav':'geral');
+  setTab(fromHash());
 })();
