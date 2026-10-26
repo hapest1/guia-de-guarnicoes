@@ -22,24 +22,15 @@
     if(e.key==='Escape'){ fechar(); if(cmds) cmds.open=false; }
   });
 
-  /* Na página inicial, os links dos Comandos limpam a busca e rolam até o grupo certo
-     (os grupos usam content-visibility, então a posição só é exata depois de renderizados) */
-  if(document.querySelector('.cmdgroup')){
-    var irPara=function(id, suave){
-      var g=document.getElementById(id); if(!g || !g.classList.contains('cmdgroup')) return false;
-      var q=document.getElementById('q'), sel=document.getElementById('cmd');
-      var uf=document.getElementById('uf');
-      if(q && sel && (q.value || sel.value || (uf && uf.value))){ q.value=''; sel.value=''; if(uf) uf.value=''; q.dispatchEvent(new Event('input')); }
-      [].forEach.call(document.querySelectorAll('.cmdgroup'), function(el){ el.style.contentVisibility='visible'; });
-      requestAnimationFrame(function(){ g.scrollIntoView({behavior: suave?'smooth':'instant'}); });
-      return true;
-    };
+  /* Na página inicial, os links dos Comandos abrem a lista do Comando escolhido
+     (a lógica de filtro fica no script do index, que escuta o hashchange) */
+  if(document.getElementById('comandos')){
     if(menu) menu.addEventListener('click', function(e){
       var a=e.target.closest('a[href^="/#cm"]'); if(!a) return;
-      var id=a.getAttribute('href').slice(2);
-      if(irPara(id, true)){ e.preventDefault(); history.replaceState(null,'','#'+id); }
+      e.preventDefault();
+      try{ history.pushState(null,'',a.getAttribute('href').slice(1)); }catch(x){}
+      dispatchEvent(new HashChangeEvent('hashchange'));
     });
-    if(/^#cm/.test(location.hash)) addEventListener('load', function(){ irPara(location.hash.slice(1), false); });
   }
 
   /* Botão de voltar ao topo */

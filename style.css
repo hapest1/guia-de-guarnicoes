@@ -274,3 +274,19 @@ body{margin:0}
 .bairros h3{margin-top:0}
 .bairros-ctb{margin:10px 0 0; font-size:.92rem}
 .bairros-ctb a{font-weight:600}
+
+/* Início: grade dos Comandos Militares de Área (as fichas aparecem ao escolher um Comando, buscar ou filtrar) */
+.cmd-home{padding-block:18px 8px}
+.cmd-grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr)); margin-top:12px}
+.cmd-card{position:relative; display:flex; flex-direction:column; gap:6px; text-decoration:none; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-top:4px solid var(--accent); border-radius:8px; padding:16px 18px 18px; transition:border-color .15s, transform .15s}
+.cmd-card:hover{border-color:var(--accent); transform:translateY(-2px)}
+.cmd-sig{font-family:var(--display); font-size:2.6rem; font-weight:700; line-height:1; color:var(--mark); letter-spacing:.01em}
+.cmd-card b{font-family:var(--display); font-size:1.3rem; font-weight:600; text-transform:uppercase; line-height:1.1}
+.cmd-uf{font-family:var(--mono); font-size:.74rem; letter-spacing:.06em; color:var(--muted)}
+.cmd-card p{margin:4px 0 0; font-size:.9rem; color:var(--muted)}
+.cmd-cid{font-size:.84rem; color:var(--ink)}
+.cmd-card .go{font-family:var(--mono); font-size:.8rem; color:var(--accent); margin-top:auto; padding-top:6px}
+.cmd-todas{margin:14px 0 0; font-size:.9rem}
+.cmd-home[hidden],.res-bar[hidden],.cmdgroup[hidden]{display:none!important}
+.res-bar .back{margin-top:10px}
+@media (prefers-reduced-motion:reduce){.cmd-card{transition:none}}
