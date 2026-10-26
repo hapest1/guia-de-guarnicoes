@@ -268,3 +268,9 @@ body{margin:0}
 .ad-house a:focus-visible{outline:2px solid var(--mark); outline-offset:3px}
 @media (max-width:640px){.ad-house a{grid-template-columns:1fr; padding:20px} .ad-house .ad-cta{justify-self:start} .ad-house svg.rota{display:none}}
 @media (prefers-reduced-motion:reduce){.ad-house .ad-cta{transition:none}}
+
+/* Bloco "Onde morar: bairros indicados" nas fichas de capitais e grandes guarnições */
+.bairros{margin-top:28px; padding-top:20px; border-top:1px dashed var(--line)}
+.bairros h3{margin-top:0}
+.bairros-ctb{margin:10px 0 0; font-size:.92rem}
+.bairros-ctb a{font-weight:600}
