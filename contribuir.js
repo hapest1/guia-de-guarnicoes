@@ -18,15 +18,26 @@
       });
       sel.appendChild(og);
     });
+    var outra=document.createElement('option'); outra.value='Outra (não está na lista)'; outra.textContent='Outra guarnição'; outra.dataset.extra='1'; outra.dataset.buscaTxt='Outra — não está na lista'; sel.appendChild(outra);
     var pre=params.get('g');
     if(pre){var op=sel.querySelector('option[data-s="'+pre+'"]'); if(op) op.selected=true}
   }
+  /* busca digitável no lugar da lista de 171 cidades */
+  var busca=sel&&window.buscaGuarnicao?window.buscaGuarnicao(sel):null;
+  if(busca) busca.sync();
+  var outraBox=$('#ctb-outra');
+  function verOutra(){
+    if(!outraBox) return; var on=sel&&sel.value==='Outra (não está na lista)';
+    outraBox.hidden=!on; var i=outraBox.querySelector('input'); i.disabled=!on; i.required=on;
+    if(on) i.focus();
+  }
+  if(sel) sel.addEventListener('change',verOutra);
 
   /* modo: vivência ou sugestão */
   var modos=[].slice.call(form.querySelectorAll('input[name="modo"]'));
   function setModo(m){
     form.dataset.modo=m;
-    if(sel) sel.required=(m==='vivencia');
+    if(busca) busca.required=(m==='vivencia'); else if(sel) sel.required=(m==='vivencia');
     modos.forEach(function(r){r.checked=r.value===m});
     form.querySelectorAll('[data-so]').forEach(function(el){
       var on=el.dataset.so===m; el.hidden=!on;
@@ -46,12 +57,17 @@
     if(!form.reportValidity()) return;
     var fd=new FormData(form), data={}, modo=form.dataset.modo;
     fd.forEach(function(v,k){ if(String(v).trim()!=='') data[k]=v });
+    if(data['Guarnição (outra)']){ data['Guarnição']='Outra: '+data['Guarnição (outra)']; delete data['Guarnição (outra)']; }
     var g=data['Guarnição']||'sem guarnição';
     data._subject=(modo==='vivencia'?'[Guia] Vivência — ':'[Guia] Sugestão — ')+g;
     data._template='table';
     if(data['E-mail']) data._replyto=data['E-mail'];
     delete data.modo; delete data._next; data['Tipo de contribuição']=modo==='vivencia'?'Vivência':'Sugestão / correção';
-    data['Enviado da página']=document.referrer||location.href;
+    var ref=document.referrer, orig='';
+    try{ var u=new URL(ref); orig=u.host===location.host?(u.pathname||'/'):u.host+u.pathname; }catch(err){}
+    var utm=params.get('utm_source')||(function(){try{return new URL(ref).searchParams.get('utm_source')}catch(err){return null}})();
+    data['Veio da página']=orig||'acesso direto';
+    if(utm) data['Origem (campanha)']=utm;
     btn.disabled=true; status.className='ctb-status'; status.textContent='Enviando…';
     fetch(DEST,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
       .then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j}})})

@@ -39,7 +39,8 @@
   var p=new URLSearchParams(location.search);
   if(por[p.get('a')]) A.value=p.get('a');
   if(por[p.get('b')]) B.value=p.get('b');
+  function sync(){ [A,B].forEach(function(s){ if(s._busca) s._busca.sync(); }); }
   A.addEventListener('change',render); B.addEventListener('change',render);
-  document.getElementById('troca').addEventListener('click',function(){ var t=A.value; A.value=B.value; B.value=t; render(); });
-  render();
+  document.getElementById('troca').addEventListener('click',function(){ var t=A.value; A.value=B.value; B.value=t; sync(); render(); });
+  sync(); render();
 })();
