@@ -66,7 +66,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
         <option value="">Todos os estados</option><option value="AC">Acre (AC)</option><option value="AL">Alagoas (AL)</option><option value="AP">Amapá (AP)</option><option value="AM">Amazonas (AM)</option><option value="BA">Bahia (BA)</option><option value="CE">Ceará (CE)</option><option value="DF">Distrito Federal (DF)</option><option value="ES">Espírito Santo (ES)</option><option value="GO">Goiás (GO)</option><option value="MA">Maranhão (MA)</option><option value="MT">Mato Grosso (MT)</option><option value="MS">Mato Grosso do Sul (MS)</option><option value="MG">Minas Gerais (MG)</option><option value="PA">Pará (PA)</option><option value="PB">Paraíba (PB)</option><option value="PR">Paraná (PR)</option><option value="PE">Pernambuco (PE)</option><option value="PI">Piauí (PI)</option><option value="RN">Rio Grande do Norte (RN)</option><option value="RS">Rio Grande do Sul (RS)</option><option value="RJ">Rio de Janeiro (RJ)</option><option value="RO">Rondônia (RO)</option><option value="RR">Roraima (RR)</option><option value="SC">Santa Catarina (SC)</option><option value="SP">São Paulo (SP)</option><option value="SE">Sergipe (SE)</option><option value="TO">Tocantins (TO)</option>
       </select>
     </form>
-    <p class="eyebrow count" id="count">171 guarnições em 8 Comandos Militares de Área · fichas conferidas em out/2026</p>
+    <p class="eyebrow count" id="count" hidden></p>
   </section>
   
   <section class="wrap cmd-home" id="comandos" aria-labelledby="cmd-tit">
@@ -1407,13 +1407,13 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
     if(ocioso){
       groups.forEach(function(g){g.hidden=true;});
       document.getElementById('empty').hidden=true;
-      document.getElementById('count').textContent=total+' guarnições em 8 Comandos Militares de Área · fichas conferidas em out/2026';
+      var ct=document.getElementById('count');ct.textContent='';ct.hidden=true;
       return;
     }
     cards.forEach(function(el){var ok=(!c||el.dataset.cmd===c)&&(!u||el.dataset.uf===u)&&t.every(function(w){return el.dataset.q.indexOf(w)>-1;});el.hidden=!ok;if(ok)n++;});
     groups.forEach(function(g){g.hidden=!g.querySelector('.card:not([hidden])');});
     document.getElementById('empty').hidden=n>0;
-    document.getElementById('count').textContent=n+' de '+total+' guarnições · fichas conferidas em out/2026';
+    var ct2=document.getElementById('count');ct2.textContent=n+' de '+total+' guarnições';ct2.hidden=false;
   }
   function irPara(el){var hdr=document.querySelector('.top').offsetHeight;window.scrollTo({top:el.getBoundingClientRect().top+scrollY-hdr-8,behavior:'instant'});}
   function lerHash(rolar){
