@@ -42,7 +42,7 @@ h1,h2,h3{font-family:var(--display); line-height:1.08; text-wrap:balance; margin
 
 /* Home */
 .hero{padding-block:24px 16px}
-.hero h1{font-size:clamp(2rem,6.5vw,3.5rem); font-weight:700; text-transform:uppercase; letter-spacing:.01em; max-width:14ch}
+.hero h1{font-family:var(--mono); font-size:.98rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; line-height:1.4; color:var(--ink); margin-top:2px}
 .hero p{max-width:58ch; color:var(--muted); font-size:.98rem; line-height:1.5; margin:10px 0 0}
 .search{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px}
 .search input,.search select{font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:12px 14px; min-width:0}
