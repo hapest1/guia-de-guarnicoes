@@ -5,7 +5,8 @@
   var C=window.CALC; if(!C) return;
   var $=function(id){ return document.getElementById(id); };
   var F={o:$('go'),d:$('gd'),km:$('km'),dep:$('dep'),lea:$('lea'),pg:$('pg'),am:$('am'),hab:$('hab'),disp:$('disp'),gle:$('gle'),
-         ats:$('ats'),perm:$('perm'),co:$('co'),copg:$('copg'),cub:$('cub'),carro:$('carro'),moto:$('moto'),pass:$('pass')};
+         ats:$('ats'),perm:$('perm'),co:$('co'),copg:$('copg'),cub:$('cub'),carro:$('carro'),moto:$('moto'),pass:$('pass'),ndep:$('ndep')};
+  var passInfo=$('passInfo'), ndepWrap=$('ndepWrap');
   var out=$('res'), info=$('distInfo');
   if(!F.o||!F.d||!out) return;
 
@@ -71,7 +72,35 @@
     F.disp.value=p.disp; F.cub.value=p.cub;
   }
 
+  /* Passagens: modal pela regra do Decreto nº 4.307/2002 (arts. 45 e 46) e valor por tarifa média nacional */
+  var AEREO=746.62; // tarifa aérea média doméstica, ANAC, setembro/2026
+  var ONIBUS=[[200,69.96],[400,106.60],[600,149.10],[800,205.45],[1000,244.54],[1500,299.06],[null,418.94]]; // ANTT, Anuário 2025
+  var SUPERIOR={'gen-ex':1,'gen-div':1,'gen-bda':1,'cel':1,'tc':1,'maj':1};
+  var passManual=false;
+  function estimaPass(){
+    var km=num(F.km), a=F.o.value, b=F.d.value;
+    if(!a||!b||a===b) return null;
+    var sem=GU[a]&&GU[b]&&(GU[a].sem||GU[b].sem);
+    if(!km&&!sem) return null;
+    var dep=F.dep.checked, nd=dep?Math.max(1,Math.round(num(F.ndep))||1):0, pax=1+nd;
+    var aereo=SUPERIOR[F.pg.value]||(dep&&km>1000)||sem, unit, porque;
+    if(aereo){ unit=AEREO; porque=SUPERIOR[F.pg.value]?'oficial-general ou superior viaja de avião':(sem?'sem ligação rodoviária':'trecho rodoviário acima de 1.000 km, com dependentes'); }
+    else { for(var i=0;i<ONIBUS.length;i++){ if(ONIBUS[i][0]===null||km<=ONIBUS[i][0]){ unit=ONIBUS[i][1]; break; } } porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km'; }
+    return {pax:pax, unit:unit, total:Math.round(pax*unit*100)/100, modal:aereo?'aérea':'de ônibus', fonte:aereo?'tarifa média doméstica da ANAC, set/2026':'tarifa média interestadual da ANTT para a faixa de distância, 2025', porque:porque};
+  }
+  function atualizaPass(){
+    if(ndepWrap) ndepWrap.hidden=!F.dep.checked;
+    var e=estimaPass();
+    if(!e){ if(!passManual) F.pass.value=''; passInfo.innerHTML=passManual?'':'<span class="calc-sub">Escolha as guarnições para estimar as passagens.</span>'; return; }
+    if(!passManual) F.pass.value=e.total.toFixed(2);
+    var txt='<span><b>'+e.pax+' passage'+(e.pax>1?'ns':'m')+' '+(e.modal==='aérea'&&e.pax>1?'aéreas':e.modal)+' × '+brl(e.unit)+' = '+brl(e.total)+'</b> ('+esc(e.porque)+')</span><span class="calc-sub">Estimativa pela '+esc(e.fonte)+'.</span>';
+    if(passManual&&Math.abs(num(F.pass)-e.total)>0.005) txt+='<span class="calc-sub">Você informou '+brl(num(F.pass))+'. <button type="button" class="calc-link" id="passReset">usar a estimativa</button></span>';
+    passInfo.innerHTML=txt;
+    var bt=$('passReset'); if(bt) bt.addEventListener('click',function(){ passManual=false; atualizaPass(); calc(); });
+  }
+
   function calc(){
+    atualizaPass();
     salvaLink();
     var p=POSTO[F.pg.value];
     if(!p){ out.innerHTML='<p class="cmp-vazio">Escolha o posto ou graduação para ver o cálculo.</p>'; return; }
@@ -115,13 +144,13 @@
     $('imprimir').addEventListener('click',function(){ print(); });
   }
 
-  var CHAVES=['o','d','km','pg','am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','pass'];
+  var CHAVES=['o','d','km','pg','am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','pass','ndep'];
   function salvaLink(){
     var q=[];
     var pp=POSTO[F.pg.value]||{};
     CHAVES.forEach(function(k){
       var el=F[k]; if(!el) return; var v=el.value;
-      if(v===''||v==null||v==='0'||(k==='km'&&!kmManual)) return;
+      if(v===''||v==null||v==='0'||(k==='km'&&!kmManual)||(k==='pass'&&!passManual)||(k==='ndep'&&(v==='1'||!F.dep.checked))) return;
       if((k==='disp'&&+v===pp.disp)||(k==='cub'&&+v===pp.cub)) return;
       q.push(k+'='+encodeURIComponent(v));
     });
@@ -133,6 +162,7 @@
     if(p.get('pg')&&POSTO[p.get('pg')]){ F.pg.value=p.get('pg'); aplicaPosto(); }
     CHAVES.forEach(function(k){ var v=p.get(k); if(v!=null&&F[k]){ if(k==='o'||k==='d'){ if(GU[v]) F[k].value=v; } else F[k].value=v; } });
     if(p.get('km')) kmManual=true;
+    if(p.get('pass')) passManual=true;
     if(p.get('sd')) F.dep.checked=false; if(p.get('lea')) F.lea.checked=true;
   }
 
@@ -142,8 +172,9 @@
 
   [F.o,F.d].forEach(function(s){ s.addEventListener('change',function(){ kmManual=false; atualizaDist(); calc(); if(window.gtag&&F.o.value&&F.d.value){ try{ gtag('event','calculadora',{rota:F.o.value+' > '+F.d.value}); }catch(e){} } }); });
   F.km.addEventListener('input',function(){ kmManual=true; atualizaDist(); calc(); });
+  F.pass.addEventListener('input',function(){ passManual=true; calc(); });
   F.pg.addEventListener('change',function(){ aplicaPosto(); calc(); });
-  ['am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','pass','dep','lea'].forEach(function(k){ F[k].addEventListener(F[k].tagName==='SELECT'||F[k].type==='checkbox'?'change':'input',calc); });
+  ['am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','ndep','dep','lea'].forEach(function(k){ F[k].addEventListener(F[k].tagName==='SELECT'||F[k].type==='checkbox'?'change':'input',calc); });
   $('troca').addEventListener('click',function(){
     var a=F.o.value; F.o.value=F.d.value; F.d.value=a;
     [F.o,F.d].forEach(function(s){ if(s._busca&&s._busca.sync) s._busca.sync(); });

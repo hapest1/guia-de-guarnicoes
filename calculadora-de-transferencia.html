@@ -52,6 +52,9 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
 .calc-alerta{color:var(--warn)}
 .calc-link{font:inherit;font-size:.85rem;background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;cursor:pointer}
 .calc-opcoes{display:grid;gap:8px;margin-top:14px}
+.calc-ndep{max-width:220px;margin-left:28px}
+.calc-ndep[hidden]{display:none}
+.calc-pinfo{margin-top:8px}
 .calc-ck{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
 .calc-ck input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--accent);flex:none}
 .calc-dica{color:var(--muted);font-size:.88rem;margin:10px 0 0}
@@ -118,6 +121,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
       </div>
       <div class="calc-opcoes">
         <label class="calc-ck"><input type="checkbox" id="dep" checked><span>Tenho dependentes que vão comigo</span></label>
+        <label class="calc-f calc-ndep" id="ndepWrap"><span class="eyebrow">Dependentes que viajam</span><input id="ndep" type="number" inputmode="numeric" min="1" max="12" step="1" value="1"></label>
         <label class="calc-ck"><input type="checkbox" id="lea"><span>Origem ou destino é <b>Localidade Especial Categoria A</b> (ajuda de custo em dobro)</span></label>
       </div>
     </fieldset>
@@ -149,9 +153,10 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
         <label class="calc-f"><span class="eyebrow">Cubagem da bagagem (m³)</span><input id="cub" type="number" inputmode="numeric" min="0" max="60" step="1"></label>
         <label class="calc-f"><span class="eyebrow">Carros</span><select id="carro"><option value="0">Nenhum</option><option value="1">1 carro</option><option value="2">2 carros</option></select></label>
         <label class="calc-f"><span class="eyebrow">Motos</span><select id="moto"><option value="0">Nenhuma</option><option value="1">1 moto</option><option value="2">2 motos</option></select></label>
-        <label class="calc-f"><span class="eyebrow">Passagens (R$ total)</span><input id="pass" type="number" inputmode="decimal" min="0" step="0.01" value="0" placeholder="0,00"></label>
+        <label class="calc-f"><span class="eyebrow">Passagens (R$ total)</span><input id="pass" type="number" inputmode="decimal" min="0" step="0.01" placeholder="Escolha as guarnições"></label>
       </div>
-      <p class="calc-dica">A cubagem é preenchida com o limite do posto (Decreto nº 4.307/2002, Anexo I). Passagens: some os valores de ida de você e dos dependentes, se não for de carro.</p>
+      <div class="calc-dist calc-pinfo" id="passInfo" aria-live="polite"></div>
+      <p class="calc-dica">A cubagem é preenchida com o limite do posto (Decreto nº 4.307/2002, Anexo I). As passagens são estimadas pela regra do Decreto nº 4.307/2002 e por tarifas médias nacionais; se você já tem a cotação da OM, digite o valor.</p>
     </fieldset>
   </form>
 
@@ -165,7 +170,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
       <dt>Ajuda de custo</dt><dd>Remuneração × 2 para quem tem dependente (× 4 se a origem ou o destino for Localidade Especial Categoria A). Sem dependente, metade disso. Base: Anexo V da Lei nº 13.954/2019.</dd>
       <dt>Remuneração</dt><dd>Soldo + adicional militar + habilitação + disponibilidade + tempo de serviço + permanência + localidade especial, todos em % do soldo, mais a compensação orgânica (em % do soldo do posto-base). Soldos de 2026 (Lei nº 15.167/2025).</dd>
       <dt>Bagagem</dt><dd>Cubagem permitida × tarifa da faixa de distância. Cada carro soma 12 m³ e cada moto, 3 m³ (Decreto nº 4.307/2002, art. 47 e Anexos I e II).</dd>
-      <dt>Passagens</dt><dd>Soma das passagens a que você e os dependentes têm direito, no valor que você informar.</dd>
+      <dt>Passagens</dt><dd>Uma passagem para você e uma para cada dependente que viaja. Avião para oficiais-generais e superiores; para os demais, avião quando há dependentes e o trecho rodoviário passa de 1.000 km, e ônibus nos outros casos (Decreto nº 4.307/2002, arts. 45 e 46). O valor é uma estimativa: passagem aérea pela tarifa média doméstica da ANAC (setembro/2026) e de ônibus pela tarifa média interestadual da ANTT por faixa de distância (Anuário 2025). A lei manda usar as tarifas vigentes no ajuste de contas, então o valor real pode ser diferente.</dd>
     </dl>
     <p class="calc-dica">Não entram aqui as diárias de trânsito, o acréscimo de embarque e situações como comissão sem desligamento, casal de militares ou ida para a inatividade.</p>
   </section>
