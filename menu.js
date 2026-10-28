@@ -33,27 +33,14 @@
     });
   }
 
-  /* Botão fixo da Calculadora de Transferência (em todas as páginas, menos na própria calculadora) */
+  /* Destaque da Calculadora de Transferência no menu e nos atalhos das fichas */
   var st=document.createElement('style');
   st.textContent=
     '.menu a.menu-calc{background:var(--accent);color:var(--accent-ink);border-radius:6px;font-weight:600}'+
     '.menu a.menu-calc:hover{filter:brightness(1.08);color:var(--accent-ink)}'+
-    '.calc-fab{position:fixed;left:var(--gutter-l);bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:15;display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 16px 0 12px;border-radius:999px;background:var(--mark);color:#1B1505;font-weight:600;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.22);transition:transform .15s,filter .15s}'+
     '.atalhos a.atalho-calc{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}'+
-    '.calc-fab:hover{transform:translateY(-2px);filter:brightness(1.05)}'+
-    '.calc-fab svg{flex:none}'+
-    '@media (max-width:640px){.calc-fab{font-size:.85rem;height:42px;max-width:calc(100% - 92px)}body{padding-bottom:64px}}'+
-    '@media print{.calc-fab{display:none}}';
+    '';
   document.head.appendChild(st);
-  if(!/\/calculadora-de-transferencia(\.html)?$/.test(location.pathname)){
-    var fab=document.createElement('a');
-    fab.className='calc-fab'; fab.href='/calculadora-de-transferencia';
-    fab.setAttribute('aria-label','Abrir a Calculadora de Transferência');
-    fab.innerHTML='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 19h8"/></svg><span>Calculadora de Transferência</span>';
-    fab.addEventListener('click',function(){ if(window.gtag){ try{ gtag('event','calculadora_botao',{pagina:location.pathname}); }catch(e){} } });
-    document.body.appendChild(fab);
-  }
-
   /* Botão de voltar ao topo */
   var t=document.createElement('a');
   t.className='totop'; t.href='#topo'; t.setAttribute('aria-label','Voltar ao topo'); t.textContent='↑';
