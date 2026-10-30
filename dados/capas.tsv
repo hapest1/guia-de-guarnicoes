@@ -1,0 +1,134 @@
+# Fotos de capa das fichas (Wikimedia Commons, licenças livres). Usado por capa_resumo.py.
+# Escolhidas à mão em out/2026: paisagem da cidade, sem fardados, quartéis, brasões ou bandeiras de OM.
+# Para trocar: ponha o nome do arquivo do Commons, largura e altura originais, autor e licença; rode python3 capa_resumo.py
+# Fichas fora desta lista ficam com a faixa gráfica (sem foto adequada no Commons).
+slug	arquivo	largura	altura	autor	licenca	licenca_url
+boa-vista	Centro_cívico_de_Boa_Vista,_RR_(cropped).jpg	4032	2396	Dieny Portinanni Araujo Cavalcante	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+manaus	Manaus_amazonas.jpg	5272	2966	Arne Müseler	CC BY-SA 3.0 de	https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+porto-velho	SILVAJUNIOR_MUSEU_PALACIO_DA_MEMORIA_RONDONIENSE_PORTO_VELHO_RO_(40036370975).jpg	4960	3508	MTur Destinos	Public domain
+rio-branco	Calçadão_da_Gameleira,_Rio_Branco_Acre_1.jpg	3008	2000	Marco Vicentti/MTur Destinos	Public domain
+tefe	Reserva_de_Desenvolvimento_Sustentável_Mamirauá_e_Amanã_(51125990637).jpg	6657	2876	Ministério da Ciência, Tecnologia e Inovações	CC BY 2.0	https://creativecommons.org/licenses/by/2.0
+sao-gabriel-da-cachoeira	Bela_Adormecida.jpg	3840	2160	CamilaSiqueira	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+tabatinga	Tabatinga.jpg	1600	900	Naoki Nakashima	CC BY-SA 2.0	https://creativecommons.org/licenses/by-sa/2.0
+humaita	Catedral_Nossa_Senhora_da_Imaculada_Conceição_em_Humaitá-AM..jpg	1600	1066	Geovanni27	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+guajara-mirim	Estrada_de_Ferro_Madeira-Marmoré_Steam_Locomotive.jpg	3008	2000	Filzstift	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+cruzeiro-do-sul	Cidade_de_Cruzeiro_do_Sul.jpg	1917	1080	Wgarciawik	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+belem	L1010748-L1010765_copie_(cropped).jpg	5278	1893	Burn86	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+macapa	Orla_de_Macapá,_Amapá.jpg	3508	2339	MTur Destinos	Public domain
+sao-luis	Avenida_Colares_Moreira_-_São_Luís.jpg	3648	2736	Lyssuel Calvet	CC BY 2.0	https://creativecommons.org/licenses/by/2.0
+maraba	Praça_duque_de_Caxias.JPG	2048	1536	Hallel	Public domain
+imperatriz	Avenida_Bernardo_Sayão.JPG	4000	2458	Nando1462 - Fernando Santos Cunha Filho	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+altamira	Altamira_Pará.JPG	3264	2448	Igor Cavallini	CC BY 3.0	https://creativecommons.org/licenses/by/3.0
+itaituba	Aerial_View_of_Itaituba,_Brazil.jpg	1820	1024	Wevertoncordeiro	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+santarem	Santarem,_Tapajos.JPG	2048	1536	Mélété	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+recife	Antonio_Vaz_island_-_Recife,_Pernambuco,_Brazil_(cropped).jpg	1599	820	Portal da Copa/ME	CC BY 3.0 br	https://creativecommons.org/licenses/by/3.0/br/deed.en
+jaboatao-dos-guararapes	Jaboatão_dos_Guararapes-PE,_praia_de_candeias_02.jpg	3840	2160	Jobosco	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+olinda	Church_of_Carmel,_Olinda20150715-DSC05360.JPG	3739	2103	Matti Blume	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+garanhuns	Avenida_Rui_Barbosa,_Heliópolis_-_Garanhuns_-_Pernambuco_-_Brasil(2).jpg	2048	1536	A. Júnior	CC BY 2.0	https://creativecommons.org/licenses/by/2.0
+petrolina	Vista_aérea_lateral_de_Petrolina.jpg	3590	1794	Sitenl	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+paulo-afonso	Vista_de_Paulo_Afonso.jpg	4000	2250	Samory Pereira Santos	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+maceio	Ponta_Verde_Lighthouse_landscape_-_Maceió,_Brazil_(edited).jpg	4288	2848	André Lage Freitas (derivado: Wilfredor, Aristea)	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+aracaju	Aracaju_visto_de_Barra_dos_Coqueiros.jpg	1280	960	Bruno Coutinho Araújo	CC BY-SA 3.0	http://creativecommons.org/licenses/by-sa/3.0/
+joao-pessoa	Centro_Histórico_de_João_Pessoa.jpg	3936	2624	Rogerio121402	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+bayeux	Presidente_Castro_Pinto_International_Airport.jpg	1132	450	Internauta	CC BY 3.0	https://creativecommons.org/licenses/by/3.0
+campina-grande	Açude_Velho_Campina_Grande_PB_-_40175999034.jpg	5334	3543	MTur Destinos	Public domain
+natal	Alex_Regis_Morro_do_Careca_Ponta_Negra_Natal_RN_(39161823760).jpg	5262	3508	MTur Destinos	Public domain
+caico	Açude_Itans_cheio.JPG	2592	1944	Jkaico	Public domain
+fortaleza	Fortaleza,_Brazil_(4)_(cropped).jpg	1279	660	ME/Portal da Copa	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+crateus	Igreja_Matriz_de_Crateús.JPG	4320	3240	Renato	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+teresina	Ponte_Estaiada_-_Teresina.jpg	1920	1200	Alexandro Dias	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+salvador	Salvador_BA_(cropped)_2.jpg	2126	949	Fotos Gov/Ba	CC BY 2.0	https://creativecommons.org/licenses/by/2.0
+feira-de-santana	América_Outlet_Feira_de_Santana_01.jpg	3264	2448	Ajmcbarreto	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+brasilia	Planalto_Central_(cropped).jpg	2733	1308	Arturdiasr	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+goiania	Panomara_Goiânia_2022.jpg	3000	1108	Boaventuravinicius	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+cristalina	Ipê_Prefeitura_de_Cristalina.JPG	3872	2592	Collemes	Public domain
+formosa	Cachoeiraitiquira.jpg	1545	1024	Adelano Lázaro	Public domain
+palmas	Flavioandre_Ponte_FernandoHenriqueCardoso_Palmas_TO_(27234524028).jpg	4220	2371	MTur Destinos	Public domain
+uberlandia	CentrosulUdi2.jpg	4608	2403	Will7	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+araguari	Cachoeira_das_Irmãs.jpg	4000	2256	Calebe Gomes de Souza	CC BY 4.0	https://creativecommons.org/licenses/by/4.0
+rio-de-janeiro	Cidade_Maravilhosa.jpg	3648	1948	Rafael Rabello de Barros	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+niteroi	Praça_Popular_de_Niterói_by_Diego_Baravelli_03.jpg	5503	3669	Diego Baravelli	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+petropolis	Palácio_Quitandinha,_Petropolis.jpg	11105	7053	Wilfredor	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+campos-dos-goytacazes	Câmara_de_Vereadores_de_Campos_dos_Goytacazes.jpg	3648	2736	Flaviovivoriosalles	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+macae	Ricardo_Haleck_-_Macae_021.jpg	3508	2480	Ricardo Haleck	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+vila-velha	Vila_Velha_ES_a_partir_do_Convento_da_Penha.JPG	4000	2250	HVL	CC BY 4.0	https://creativecommons.org/licenses/by/4.0
+juiz-de-fora	"Castelinho_da_Cemig".jpg	3664	2748	MisterSanderson	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+santos-dumont	Vista_panoramica_da_cidade_de_santos_dumont_-_panoramio.jpg	3072	2304	wesley bastos dos re…	CC BY 3.0	https://creativecommons.org/licenses/by/3.0
+belo-horizonte	Belo_Horizonte,_Brasil.jpg	1529	1020	Portal da Copa/ME	CC BY 3.0 br	https://creativecommons.org/licenses/by/3.0/br/deed.en
+montes-claros	Museu_Regional_do_Norte_de_Minas.jpg	3280	1848	Túllio F	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+sao-joao-del-rei	Centro_Histórico_São_João_del-Rei-Thais_Andressa_-_2019-12-18.jpg	3000	2000	Thais Andressa	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+resende	A_cidade_de_Resende_RJ,_aos_pés_da_Serra_da_Mantiqueira.jpg	4752	3168	Pedro Luz Fotografia	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+tres-coracoes	Panorâmica_do_Centro_de_TC.JPG	1774	932	Luan S.R.	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+itajuba	Itajubáunifei.jpg	1280	818	Evelimlamaiara	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+pouso-alegre	Pouso_Alegre_(1).jpg	2106	1164	LuckMotoTrip	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+sao-paulo	Marginal_Pinheiros_e_Jockey_Club.jpg	1376	646	Agent010	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+osasco	Arco_de_Osasco_-_Natal.jpg	2560	1920	Helmedelaon	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+barueri	Alphaville_Barueri_SP_(cropped).jpg	1932	772	Lucas Garcia	Public domain
+guaruja	ROGERIO_CASSIMIRO_morro_da_caixa_dagua_GUARUJA_SP_(27787693658).jpg	4048	2272	MTur Destinos	Public domain
+sao-vicente	Itararé,_São_Vicente_-_SP,_Brazil_-_panoramio.jpg	4320	2432	Jacinto@lves de Souz…	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+praia-grande	CAIÇARA_PRAIA_GRANDE_-_panoramio.jpg	2048	1536	Jacinto@lves de Souz…	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+campinas	250717_Fotos_Centro_de_Campinas_foto_Carlos_Bassan_004_(36029962481).jpg	4000	2250	Prefeitura Campinas	Public domain
+jundiai	Jundiaí2015.jpg	4608	2592	Daniel Pavan e Silva	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+itu	Vista_aérea_de_Itu_2021_01.jpg	3992	2992	Victor de Andrade Lopes	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+sorocaba	Rio_Sorocaba_(cropped).jpg	1933	1295	RobSabino	CC BY 2.0	https://creativecommons.org/licenses/by/2.0
+taubate	Estação_Ferroviária_de_Taubaté,_SP_2_(cropped).jpg	3302	2109	Themium	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+cacapava	EE_Rui_Barbosa_com_vista_lateral_da_praça_da_Matriz.jpg	4272	2848	Ademir Albergoni de Moraes	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+pindamonhangaba	Pindamonhangaba_01.jpg	2560	1536	Facs90	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+lorena	Lorena_-_São_Paulo_(2)_-_panoramio.jpg	2048	1536	klaudyots	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+ribeirao-preto	Teatro_Pedro_II_-_Ribeirão_Preto_-_20260920071456.jpg	6000	4000	BisoLibrandi	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+bauru	Parque_Vitória_Régia_(Bauru)_05.jpg	4160	3120	EricaAzzellini	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+lins	Taissenji_-_Lins-SP.JPG	2048	1536	Carolina HS	Public domain
+campo-grande	Armazém_Cultural,_Campo_Grande_-_Julho_2006.jpg	3072	2048	Jerônimo Freitas Rodrigues de Carvalho	Public domain
+ponta-pora	Avenida_Brasil_20091013_7027_01.JPG	1600	1067	Cmasi	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+amambai	Av._Pedro_Manvailler_084446.jpg	4000	3000	Cmasi	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+corumba	Aerial_view_Corumbá,_Mato_Grosso_do_Sul_-_image_2.jpg	4000	3000	Andrew Mercer (www.pantanalescapes.com)	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+cuiaba	Cuiabá_center.jpg	4618	2598	Arne Müseler	CC BY-SA 3.0 de	https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+caceres	Flavio_Andre_Vista_aerea_Rio_Paraguai_cidade_Caceres_MT_(40247596434).jpg	5416	3042	MTur Destinos	Public domain
+tres-lagoas	PAISAGENS_TRÊS_LAGOAS-MS_HISTORICO_85.jpg	4000	3000	Rafael Deminicis	CC BY 4.0	https://creativecommons.org/licenses/by/4.0
+jardim	Praça_de_Jardim.JPG	3072	1728	Gustavo Siqueira	Public domain
+aquidauana	Flávio_André_Igreja_N.S._Imaculada_Conceição_Aquidauana_MS_(40927192102).jpg	4600	2584	MTur Destinos	Public domain
+uruguaiana	Uruguaiana_2026.jpg	4000	2256	Yuri Gonçalves Pavão	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+alegrete	00_DSC00509_lagoa.jpg	2048	1536	Ismar schein	Public domain
+itaqui	Plaza_Marechal_Deodoro_da_Fonseca_(Itaquí).jpg	2304	1728	Ulises Icardi	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+sao-borja	Casa_natal_de_João_Goulart_(São_Borja).jpg	2304	1728	Ulises Icardi	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+quarai	Prefeitura_de_Quaraí.jpg	1600	1200	Amanda204	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+santana-do-livramento	Santana_do_Livramento_from_the_border.jpg	4160	3120	Mx. Granger	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+bage	Vista_dos_cerros_de_Bagé_-_51245306778.jpg	4160	3120	Bageense_	CC BY-SA 2.0	https://creativecommons.org/licenses/by-sa/2.0
+jaguarao	Frontera_Brasil-Uruguay.JPG	2576	1920	Scheridon	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+dom-pedrito	Portas_e_Janelas._(3533276725).jpg	2896	1944	Daniel M Viero	CC BY 2.0	https://creativecommons.org/licenses/by/2.0
+santa-maria	Mata_atlântica.jpg	5184	3144	Arlei antunes	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+santiago	Estação_Ferroviária_de_Santiago.jpg	4608	3456	Kaktus Kid	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+cachoeira-do-sul	Catedral_e_Château_d'Eau.jpg	1536	1024	Robispierre Giuliani	CC BY-SA 3.0	http://creativecommons.org/licenses/by-sa/3.0/
+santo-angelo	Catedral_angelopolitana_santo_angelo.jpg	4608	2592	Felipe P	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+santa-rosa	Santa_Rosa_-_RS_-_Panorámica_centro_(cropped).jpg	3806	1711	Loco085	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+ijui	Centro_e_bairros_da_região_norte_e_oeste_de_Ijuí.jpg	4000	3000	Alexandremaklein	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+cruz-alta	Cruz-alta-rua-coronel-pillar-1.jpg	2048	1536	Lucas Mello Schnorr	Public domain
+porto-alegre	Cais_do_Porto_-_Porto_Alegre_-_2013.jpg	4460	2973	Rodrigo Santos Monteiro	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+sapucaia-do-sul	Parque_Zoologico_de_Sapucaia_do_Sul,_Brazil_01.jpg	4288	3216	Eugenio Hansen, OFS	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+sao-leopoldo	Aérea_do_Centro_da_cidade_em_Agosto_de_2012..jpg	3382	1685	Defesa Civil de São Leopoldo	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+pelotas	PelotasCentro.jpg	2464	1632	Arquivo/Ascom	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+rio-grande	Noiva_do_Mar.jpg	2576	1920	Scheridon	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+bento-goncalves	Renato_Soares_Passeios_e_experiencias_nas_Viniculas_Bento_Goncalves_RS_(40062059665).jpg	3992	2992	MTur Destinos	Public domain
+caxias-do-sul	Casa_de_pedra.jpg	1800	1359	Ricardo André Frantz	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+curitiba	Tanguá_Curitiba.jpg	1993	1325	Vitor Hirota	CC BY-SA 2.0	https://creativecommons.org/licenses/by-sa/2.0
+ponta-grossa	Ponta_Grossa_2019_(cropped).jpg	5177	2133	Gabriel Kruchak Nascimento	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+lapa	Vista_parcial_da_Lapa_PR.JPG	3488	2616	Deyvid Setti e Eloy Olindo Setti	Public domain
+rio-negro	Rio_Negro.jpg	3072	2304	Swendt	Public domain
+castro	Vista_parcial_da_cidade_de_Castro,_no_Paraná.2.jpg	1600	1200	Simplus Menegati	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+cascavel	Fotos_do_Centro_de_Cascavel.jpg	3927	2205	Fabio Covaleski	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+foz-do-iguacu	Foz_do_Iguaçu_-_panoramio_(cropped).jpg	2272	1366	enioprado	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+sao-miguel-do-oeste	São_Miguel_do_Oeste.jpg	1200	675	Atualizador Oeste Catarinense	CC0	http://creativecommons.org/publicdomain/zero/1.0/deed.en
+guaira	Praça_Castelo_Branco_Guaíra_Pr.jpg	4000	3000	Augusto Rodrigo da Silva Gomes	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+guarapuava	Guarapuava_10.jpg	1565	1036	Foto Studio Cipriano	CC BY 2.5	https://creativecommons.org/licenses/by/2.5
+francisco-beltrao	Francisco_Beltrao_Prolongamento.jpg	1546	955	Ricardo Toseto Ciquelero	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+palmas-pr	Usina_eólica_de_Palmas-PR.jpg	4000	3000	Rafael Drake	CC BY-SA 2.5 br	https://creativecommons.org/licenses/by-sa/2.5/br/deed.en
+porto-uniao	Centro,_Porto_União_-_SC,_Brazil_-_panoramio_(1).jpg	4000	3000	Roberto de vasconcel…	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+lages	Lages_-_SC.jpg	1632	1224	leonir angelo lunard	CC BY 3.0	https://creativecommons.org/licenses/by/3.0
+florianopolis	Morro_da_Cruz,_Florianópolis_-_SC,_Brazil_-_panoramio_(cropped).jpg	4902	2371	oscar fava	CC BY 3.0	https://creativecommons.org/licenses/by/3.0
+blumenau	Foto_aérea_Blumenau.jpg	1941	1020	charles242	CC BY 3.0	https://creativecommons.org/licenses/by/3.0
+joinville	Catedral_São_Francisco_Xavier_(Joinville,_Brasil).JPG	2592	1944	Eugenio Hansen, OFS	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+criciuma	Monumento_aos_Imigrantes_Criciúma.jpg	1200	676	Secretaria de Turismo de Criciúma	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0
+bonfim	Vgm_Guiana_049.JPG	4000	3000	SallesNeto BR	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+normandia	Raposa_sol.JPG	2639	1772	Roosevelt Pinheiro	CC BY 3.0 br	https://creativecommons.org/licenses/by/3.0/br/deed.en
+pacaraima	Frontera_Venezuela_Brasil.jpg	2174	1646	Paolostefano1412	CC BY-SA 3.0	https://creativecommons.org/licenses/by-sa/3.0
+principe-da-beira	Forte_Príncipe_da_Beira.jpg	4032	3022	Israelvalejr	CC BY-SA 4.0	https://creativecommons.org/licenses/by-sa/4.0

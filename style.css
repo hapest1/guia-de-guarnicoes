@@ -72,6 +72,28 @@ h1,h2,h3{font-family:var(--display); line-height:1.08; text-wrap:balance; margin
 .fhead h1 span{color:var(--mark)}
 .coord{font-family:var(--mono); font-size:.85rem; color:var(--muted)}
 .lede{max-width:62ch; font-size:1.08rem; margin:0}
+/* Foto de capa e Resumo rápido das fichas (capa_resumo.py) */
+.capa{position:relative; margin:6px 0 0; border-radius:10px; overflow:hidden; background:var(--line); aspect-ratio:16/9; max-height:420px}
+@media (min-width:700px){.capa{aspect-ratio:21/8}}
+.capa img{display:block; width:100%; height:100%; object-fit:cover}
+.capa figcaption{position:absolute; right:0; bottom:0; max-width:100%; padding:4px 10px; font-size:.68rem; line-height:1.4; color:#F2F4EE; background:rgba(12,18,10,.62); border-top-left-radius:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.capa figcaption a{color:inherit}
+.capa-sem{display:flex; flex-direction:column; align-items:flex-start; justify-content:flex-end; gap:4px; padding:20px; aspect-ratio:auto; min-height:150px; color:#EDEFE6;
+  background:radial-gradient(120% 140% at 100% 0%,rgba(184,134,42,.35),transparent 55%),repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 2px,transparent 2px 14px),#1E3A25}
+.capa-sem span{font-family:var(--display); font-size:1.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.02em}
+.capa-sem small{font-family:var(--mono); font-size:.75rem; letter-spacing:.08em; text-transform:uppercase; color:#DDB05A}
+.resumo{margin:2px 0 4px}
+.resumo-h{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; margin-bottom:10px}
+.resumo-h h2{font-size:1.7rem; font-weight:700; text-transform:uppercase}
+.rgrid{display:grid; gap:10px; grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:640px){.rgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.rc{display:grid; grid-template-columns:auto 1fr; column-gap:10px; align-content:start; padding:14px; background:var(--surface); border:1px solid var(--line); border-radius:8px; color:var(--ink); text-decoration:none; transition:border-color .15s,transform .15s}
+a.rc:hover{border-color:var(--accent); transform:translateY(-2px)}
+.rc .ri{grid-row:1/4; color:var(--accent); background:var(--mark-soft); border-radius:50%; padding:7px; width:36px; height:36px}
+.rc .rl{font-family:var(--mono); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.rc .rv{font-family:var(--display); font-size:1.45rem; font-weight:700; line-height:1.15; margin-top:2px; overflow-wrap:anywhere}
+.rc .rs{font-size:.8rem; line-height:1.35; color:var(--muted); margin-top:2px}
+@media (max-width:639px){.rc{grid-template-columns:1fr; padding:12px} .rc .ri{grid-row:auto; margin-bottom:6px; width:32px; height:32px; padding:6px} .rc .rv{font-size:1.25rem}}
 .facts{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr)); border-top:2px solid var(--ink); border-bottom:1px solid var(--line)}
 .fact{padding:14px 12px 14px 0; border-bottom:1px solid var(--line)}
 .fact .v{font-family:var(--display); font-size:1.6rem; font-weight:600; line-height:1.1; margin-top:4px}
