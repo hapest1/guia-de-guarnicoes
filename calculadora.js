@@ -76,6 +76,9 @@
      Avião: tarifa média do trecho entre os aeroportos de origem e destino (ANAC, calculadora-aereo.js).
      Ônibus: tarifa média interestadual da ANTT por faixa de distância. */
   var AEREO_MEDIA=746.62; // média doméstica geral da ANAC, set/2026 — só se faltar o trecho
+  /* Ajuste das passagens aéreas: a média da ANAC não inclui taxa de embarque e reflete compras com antecedência.
+     Calibrado com um caso real de out/2026 (Rio → Boa Vista, valor recebido x média ANAC do trecho = 1,382). */
+  var AJ_AEREO=1.382;
   var AE=window.CALC_AEREO, AEv=AE&&AE.t?AE.t.split('.'):null;
   function tarifaAerea(a,b){
     if(!AE||!AE.g[a]||!AE.g[b]) return null;
@@ -101,8 +104,10 @@
     if(aereo){
       porque=SUPERIOR[F.pg.value]?'oficial superior ou general viaja de avião':(sem?'sem ligação rodoviária':'trecho rodoviário acima de 1.000 km, com dependentes');
       trecho=tarifaAerea(a,b);
-      if(trecho){ unit=trecho.v; fonte='tarifa média do trecho '+trecho.de+' → '+trecho.para+' (ANAC, jul–set/2026, sem taxas de embarque)'+(trecho.est?'; sem venda direta no período, estimada com conexão':''); }
-      else { unit=AEREO_MEDIA; fonte='tarifa média doméstica geral da ANAC, set/2026'; }
+      var base=trecho?trecho.v:AEREO_MEDIA;
+      unit=Math.round(base*AJ_AEREO*100)/100;
+      fonte=(trecho?'tarifa média do trecho '+trecho.de+' → '+trecho.para+' (ANAC, jul–set/2026: '+brl(base)+(trecho.est?', estimada com conexão':'')+')':'tarifa média doméstica geral da ANAC, set/2026 ('+brl(base)+')')
+        +' + 38% para taxa de embarque e compra perto da data da viagem, ajuste conferido com um caso real';
     } else {
       for(var i=0;i<ONIBUS.length;i++){ if(ONIBUS[i][0]===null||km<=ONIBUS[i][0]){ unit=ONIBUS[i][1]; break; } }
       porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km';
