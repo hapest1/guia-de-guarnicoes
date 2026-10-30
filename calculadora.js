@@ -72,8 +72,22 @@
     F.disp.value=p.disp; F.cub.value=p.cub;
   }
 
-  /* Passagens: modal pela regra do Decreto nº 4.307/2002 (arts. 45 e 46) e valor por tarifa média nacional */
-  var AEREO=746.62; // tarifa aérea média doméstica, ANAC, setembro/2026
+  /* Passagens: modal pela regra do Decreto nº 4.307/2002 (arts. 45 e 46).
+     Avião: tarifa média do trecho entre os aeroportos de origem e destino (ANAC, calculadora-aereo.js).
+     Ônibus: tarifa média interestadual da ANTT por faixa de distância. */
+  var AEREO_MEDIA=746.62; // média doméstica geral da ANAC, set/2026 — só se faltar o trecho
+  var AE=window.CALC_AEREO, AEv=AE&&AE.t?AE.t.split('.'):null;
+  function tarifaAerea(a,b){
+    if(!AE||!AE.g[a]||!AE.g[b]) return null;
+    var A=AE.g[a], B=AE.g[b], i=A[0], j=B[0];
+    var r={de:AE.cid[i], para:AE.cid[j], kmO:A[1], kmD:B[1]};
+    if(i===j) return null;
+    if(i>j){ var t=i; i=j; j=t; }
+    var n=AE.ap.length, x=AEv[i*n - i*(i+1)/2 + (j-i-1)];
+    if(!x) return null;
+    r.est=x.charAt(0)==='~'; r.v=parseInt(x.replace('~',''),16);
+    return r;
+  }
   var ONIBUS=[[200,69.96],[400,106.60],[600,149.10],[800,205.45],[1000,244.54],[1500,299.06],[null,418.94]]; // ANTT, Anuário 2025
   var SUPERIOR={'gen-ex':1,'gen-div':1,'gen-bda':1,'cel':1,'tc':1,'maj':1};
   var passManual=false;
@@ -83,17 +97,27 @@
     var sem=GU[a]&&GU[b]&&(GU[a].sem||GU[b].sem);
     if(!km&&!sem) return null;
     var dep=F.dep.checked, nd=dep?Math.max(1,Math.round(num(F.ndep))||1):0, pax=1+nd;
-    var aereo=SUPERIOR[F.pg.value]||(dep&&km>1000)||sem, unit, porque;
-    if(aereo){ unit=AEREO; porque=SUPERIOR[F.pg.value]?'oficial-general ou superior viaja de avião':(sem?'sem ligação rodoviária':'trecho rodoviário acima de 1.000 km, com dependentes'); }
-    else { for(var i=0;i<ONIBUS.length;i++){ if(ONIBUS[i][0]===null||km<=ONIBUS[i][0]){ unit=ONIBUS[i][1]; break; } } porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km'; }
-    return {pax:pax, unit:unit, total:Math.round(pax*unit*100)/100, modal:aereo?'aérea':'de ônibus', fonte:aereo?'tarifa média doméstica da ANAC, set/2026':'tarifa média interestadual da ANTT para a faixa de distância, 2025', porque:porque};
+    var aereo=SUPERIOR[F.pg.value]||(dep&&km>1000)||sem, unit, porque, fonte, trecho=null;
+    if(aereo){
+      porque=SUPERIOR[F.pg.value]?'oficial superior ou general viaja de avião':(sem?'sem ligação rodoviária':'trecho rodoviário acima de 1.000 km, com dependentes');
+      trecho=tarifaAerea(a,b);
+      if(trecho){ unit=trecho.v; fonte='tarifa média do trecho '+trecho.de+' → '+trecho.para+' (ANAC, jul–set/2026, sem taxas de embarque)'+(trecho.est?'; sem venda direta no período, estimada com conexão':''); }
+      else { unit=AEREO_MEDIA; fonte='tarifa média doméstica geral da ANAC, set/2026'; }
+    } else {
+      for(var i=0;i<ONIBUS.length;i++){ if(ONIBUS[i][0]===null||km<=ONIBUS[i][0]){ unit=ONIBUS[i][1]; break; } }
+      porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km';
+      fonte='tarifa média interestadual da ANTT para a faixa de distância, 2025';
+    }
+    var longe=[];
+    if(trecho){ if(trecho.kmO>=40) longe.push(nomeG(a)+' fica a ~'+n0(trecho.kmO)+' km do aeroporto de '+trecho.de); if(trecho.kmD>=40) longe.push(nomeG(b)+' fica a ~'+n0(trecho.kmD)+' km do aeroporto de '+trecho.para); }
+    return {pax:pax, unit:unit, total:Math.round(pax*unit*100)/100, modal:aereo?'aérea':'de ônibus', fonte:fonte, porque:porque, longe:longe};
   }
   function atualizaPass(){
     if(ndepWrap) ndepWrap.hidden=!F.dep.checked;
     var e=estimaPass();
     if(!e){ if(!passManual) F.pass.value=''; passInfo.innerHTML=passManual?'':'<span class="calc-sub">Escolha as guarnições para estimar as passagens.</span>'; return; }
     if(!passManual) F.pass.value=e.total.toFixed(2);
-    var txt='<span><b>'+e.pax+' passage'+(e.pax>1?'ns':'m')+' '+(e.modal==='aérea'&&e.pax>1?'aéreas':e.modal)+' × '+brl(e.unit)+' = '+brl(e.total)+'</b> ('+esc(e.porque)+')</span><span class="calc-sub">Estimativa pela '+esc(e.fonte)+'.</span>';
+    var txt='<span><b>'+e.pax+' passage'+(e.pax>1?'ns':'m')+' '+(e.modal==='aérea'&&e.pax>1?'aéreas':e.modal)+' × '+brl(e.unit)+' = '+brl(e.total)+'</b> ('+esc(e.porque)+')</span><span class="calc-sub">Estimativa pela '+esc(e.fonte)+'.'+(e.longe.length?' '+esc(e.longe.join('; '))+'.':'')+'</span>';
     if(passManual&&Math.abs(num(F.pass)-e.total)>0.005) txt+='<span class="calc-sub">Você informou '+brl(num(F.pass))+'. <button type="button" class="calc-link" id="passReset">usar a estimativa</button></span>';
     passInfo.innerHTML=txt;
     var bt=$('passReset'); if(bt) bt.addEventListener('click',function(){ passManual=false; atualizaPass(); calc(); });

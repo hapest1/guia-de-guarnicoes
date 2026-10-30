@@ -50,7 +50,7 @@ for i in range(N):
 
 # Sem ligação por estrada com o resto do país (rio ou avião). O OSRM "encaixa"
 # essas localidades na estrada mais próxima e gera distâncias sem sentido.
-NOROAD = {"barcelos-am", "sao-gabriel-da-cachoeira-am", "tefe-am", "tabatinga-am",
+NOROAD = {"macapa-ap", "barcelos-am", "sao-gabriel-da-cachoeira-am", "tefe-am", "tabatinga-am",
           "marechal-thaumaturgo-ac", "santa-rosa-do-purus-ac", "auaris-rr", "surucucu-rr",
           "cucui-am", "estirao-do-equador-am", "iauarete-am", "ipiranga-am", "maturaca-am",
           "palmeiras-do-javari-am", "pari-cachoeira-am", "querari-am", "sao-joaquim-am",
