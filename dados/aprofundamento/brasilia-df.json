@@ -1,0 +1,138 @@
+{
+  "slug": "brasilia-df",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Brasília foi inaugurada em 21 de abril de 1960 para tirar a capital do litoral. O Plano Piloto, de Lucio Costa, com prédios de Oscar Niemeyer, é tombado como Patrimônio Mundial pela Unesco desde 1987. O Distrito Federal não tem municípios: divide-se em mais de 30 regiões administrativas, e o IBGE estima cerca de 3 milhões de habitantes em 2025.",
+      "A economia é dominada pela administração pública federal e distrital e pelos serviços que giram em torno dela: advocacia, consultoria, tecnologia, saúde, educação e comércio. A renda média está entre as mais altas do país. Para o cônjuge, concursos públicos, terceirização em órgãos federais e serviços especializados são os caminhos mais comuns.",
+      "O Plano Piloto tem o Eixo Monumental, com os ministérios e a Esplanada, e as Asas Sul e Norte, formadas por superquadras com comércio local. Em volta ficam Sudoeste, Cruzeiro, Lago Sul e Lago Norte, e mais adiante regiões como Guará, Águas Claras, Taguatinga e Ceilândia, onde mora a maior parte da população. O metrô liga o centro a Águas Claras, Taguatinga, Ceilândia e Samambaia. Muita gente trabalha no Plano e mora fora dele, o que gera congestionamento na EPTG, na EPIA e na Estrutural. O Setor Militar Urbano fica a noroeste do Eixo, vizinho do Sudoeste e do Cruzeiro."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikivoyage — Brasília",
+        "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Brasilia"
+      },
+      {
+        "nome": "Correio Braziliense — tarifas",
+        "url": "https://blogs.correiobraziliense.com.br/cbpoder/tarifas-de-onibus-do-df-serao-congeladas-ate-o-fim-de-2026/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "As tarifas de ônibus e metrô do DF estão congeladas até 31 de dezembro de 2026, em três faixas: R$ 2,70 para viagens curtas, R$ 3,80 entre regiões administrativas próximas e R$ 5,50 para viagens longas ou com metrô.",
+      "Pela média FipeZAP de fevereiro de 2026 (R$ 51,64 por m²), um apartamento de 60 m² sairia por cerca de R$ 3.100, sem condomínio. No Sudoeste, no Lago Sul e nas Asas o valor costuma ficar acima disso; Guará e Águas Claras costumam ter mais oferta por preço menor."
+    ],
+    "fontes": [
+      {
+        "nome": "Correio Braziliense — tarifas congeladas até 2026",
+        "url": "https://blogs.correiobraziliense.com.br/cbpoder/tarifas-de-onibus-do-df-serao-congeladas-ate-o-fim-de-2026/"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "O Hospital Militar de Área de Brasília (HMAB) é a referência de saúde do Exército no Planalto e atende os usuários do FuSEx da guarnição. Fica no Setor Militar Urbano. Brasília também tem o Hospital das Forças Armadas (HFA), no Sudoeste, ligado ao Ministério da Defesa, com atendimento próprio para militares das três Forças e dependentes conforme suas regras.",
+      "Na rede pública civil, as referências são o Hospital de Base, o Hospital Regional da Asa Norte (HRAN) e o Hospital Materno-Infantil de Brasília (HMIB). A rede particular é ampla e se concentra no Setor Hospitalar Sul e Norte e no Lago Sul. A lista de clínicas e hospitais conveniados ao FuSEx é informada pela OM."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia — Comando Militar do Planalto",
+        "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Planalto_Military_Command"
+      },
+      {
+        "nome": "HFA — Fale Conosco",
+        "url": "https://www.gov.br/hfa/pt-br/contatos"
+      },
+      {
+        "nome": "SES-DF — HMIB",
+        "url": "https://info.saude.df.gov.br/wp-content/uploads/2025/05/2019_HMIB.pdf"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "O Colégio Militar de Brasília, do Sistema Colégio Militar do Brasil, fica na Asa Norte e recebe dependentes de militares transferidos conforme as regras de matrícula do sistema. É um dos maiores colégios do sistema.",
+      "A Universidade de Brasília (UnB) tem o campus principal Darcy Ribeiro, na Asa Norte, e campi em Planaltina, Ceilândia e Gama. O Instituto Federal de Brasília (IFB) tem campi em várias regiões administrativas. A rede particular inclui colégios tradicionais e escolas bilíngues, muitas delas no Lago Sul, no Lago Norte e nas Asas, em parte pela presença de famílias de diplomatas."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikivoyage — Brasília",
+        "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Brasilia"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "Brasília fica a cerca de 1.100 m de altitude e tem duas estações bem marcadas. Pela normal do INMET (1991-2020), julho tem máxima média de 25,6 °C, mínima de 13,9 °C e só 1,5 mm de chuva; de outubro a abril chove forte, quase sempre no fim da tarde. Na seca, a umidade do ar pode ficar abaixo de 20%, e queimadas no cerrado deixam o céu enfumaçado em agosto e setembro.",
+    "chuvoso": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "fontes": [
+      {
+        "nome": "INMET — balanço de julho/2023",
+        "url": "https://portal.inmet.gov.br/noticias/balanço-brasília-df-não-teve-registro-de-chuva-em-julho-de-2023"
+      },
+      {
+        "nome": "INMET — balanço de maio/2023",
+        "url": "https://portal.inmet.gov.br/noticias/balan%C3%A7o-bras%C3%ADlia-df-teve-apenas-dois-dias-com-chuva-em-maio-de-2023"
+      },
+      {
+        "nome": "Climatempo — climatologia",
+        "url": "https://www.climatempo.com.br/climatologia/61/brasilia-br"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "A cidade tem muitas áreas verdes e o Lago Paranoá, e a Chapada dos Veadeiros e Pirenópolis cabem num fim de semana. Boa parte dos monumentos tem entrada gratuita.",
+    "lugares": [
+      {
+        "nome": "Parque da Cidade Sarah Kubitschek",
+        "km": "na cidade",
+        "desc": "Com 4,2 km², é maior que o Central Park de Nova York. Tem pistas de corrida e bicicleta, parquinhos e churrasqueiras; aos domingos fica cheio de famílias."
+      },
+      {
+        "nome": "Torre de TV e feira",
+        "km": "na cidade",
+        "desc": "Mirante gratuito no meio do Eixo Monumental. A feira de artesanato e comida na base funciona no fim de semana."
+      },
+      {
+        "nome": "Ermida Dom Bosco e Pontão do Lago Sul",
+        "km": "na cidade",
+        "desc": "A Ermida é o ponto clássico de pôr do sol sobre o Lago Paranoá. O Pontão reúne restaurantes e área para criança na beira do lago."
+      },
+      {
+        "nome": "Esplanada, Catedral e Memorial JK",
+        "km": "na cidade",
+        "desc": "Roteiro de arquitetura de Niemeyer pelo Eixo Monumental. O Memorial JK guarda o túmulo do presidente e objetos da construção da cidade."
+      },
+      {
+        "nome": "Pirenópolis",
+        "km": "~150 km",
+        "desc": "Cidade colonial goiana com centro histórico e cachoeiras nos arredores. Fica cheia nos feriados e na Festa do Divino, em maio ou junho."
+      },
+      {
+        "nome": "Chapada dos Veadeiros",
+        "km": "~230 km",
+        "desc": "Parque nacional com cachoeiras e trilhas de cerrado, a partir de Alto Paraíso e São Jorge. A melhor época é de maio a setembro, com trilhas secas."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikivoyage — Brasília",
+        "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Brasilia"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Aprenda os endereços por sigla antes de chegar (SQS, SQN, CLS, SHIS, SMU): em Brasília o endereço vem por setor, quadra e bloco, não por nome de rua.",
+    "Se o trabalho for no Setor Militar Urbano, Sudoeste e Cruzeiro evitam os congestionamentos da EPTG e da Estrutural no sentido do Plano.",
+    "Para a seca de junho a setembro, além do umidificador, tenha soro fisiológico e hidratante; crianças e quem tem rinite sentem mais.",
+    "Se for usar o metrô, veja o horário: nos fins de semana e feriados ele opera em horário reduzido."
+  ]
+}

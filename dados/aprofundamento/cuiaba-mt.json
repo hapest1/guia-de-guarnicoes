@@ -1,0 +1,122 @@
+{
+ "slug": "cuiaba-mt",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Cuiabá surgiu em 1719 com a descoberta de ouro às margens do rio Coxipó e foi elevada a vila em 1727. Fica perto do centro geodésico da América do Sul, marcado num obelisco no centro da cidade. O rio Cuiabá a separa de Várzea Grande, onde está o aeroporto; juntas, as duas cidades somam cerca de 950 mil habitantes no Censo 2022.",
+   "A capital é o centro de comércio e serviços do Mato Grosso, maior produtor de grãos do país. Quem mora em cidades agrícolas do interior vem a Cuiabá para compras, saúde e repartições. A indústria é ligada ao agronegócio, sobretudo alimentos, e se concentra no Distrito Industrial, criado em 1978. Para o cônjuge, as vagas aparecem em administração pública, saúde, educação, comércio e empresas de serviços para o agro.",
+   "O Centro Histórico, com casario tombado e a Catedral do Bom Jesus, fica perto do rio. As avenidas do CPA, Fernando Corrêa da Costa e Miguel Sutil ligam as regiões. A Avenida do CPA sobe ao Centro Político Administrativo, ao norte. Ao sul, o Coxipó reúne a UFMT e bairros residenciais, e a leste ficam Jardim das Américas, Bosque da Saúde e Santa Rosa. O transporte é quase todo por ônibus e carro, e o trânsito pesa nas pontes para Várzea Grande no pico. O ritmo é de cidade de porte médio, com rasqueado, siriri e peixe de rio na mesa."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Cuiabá",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Cuiab%C3%A1"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O transporte coletivo integra Cuiabá e Várzea Grande, mas a rede é pouco densa para o tamanho da região, e a maioria das famílias usa carro no dia a dia. Antes de alugar, confira o tempo de trajeto até a OM no horário de pico, sobretudo nas pontes sobre o Rio Cuiabá.",
+   "A tarifa residencial da Energisa Mato Grosso subiu 5,27% em média a partir de 8 de abril de 2026. Com máximas acima de 33 °C na maior parte do ano, o ar-condicionado funciona quase todos os dias, e a conta de luz deve entrar no orçamento junto com o aluguel."
+  ],
+  "fontes": [
+   {
+    "nome": "IstoÉ Dinheiro — reajuste Energisa MT 2026",
+    "url": "https://istoedinheiro.com.br/aneel-aprova-alta-tarifaria-media-de-686-para-consumidores-da-energisa-mato-grosso"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "O Posto Médico de Guarnição de Cuiabá atende os usuários do FuSEx da guarnição em consultas e encaminhamentos. A cidade não tem hospital do Exército; internações e especialidades seguem pela rede conveniada, e a referência regional é o Hospital Militar de Área de Campo Grande, a cerca de 700 km. A lista de conveniados é informada pela OM.",
+   "Na rede pública, o Hospital Universitário Júlio Müller, da UFMT, e o Hospital Municipal de Cuiabá são referências. A rede particular tem hospitais de grande porte, concentrados na região central, no Bosque da Saúde e no eixo da Avenida do CPA."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — 9ª Região Militar",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/9th_Military_Region_(Brazil)"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar do Sistema Colégio Militar do Brasil em Cuiabá; o mais próximo é o de Campo Grande, a cerca de 700 km. A Universidade Federal de Mato Grosso (UFMT) tem o campus principal no Coxipó, e o Instituto Federal de Mato Grosso (IFMT) tem campi na capital e em Várzea Grande.",
+   "A rede particular de educação básica é ampla, com colégios tradicionais e confessionais na região central e nos bairros de classe média. A Universidade do Estado de Mato Grosso (Unemat) tem a maior parte dos campi no interior."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — 9ª Região Militar",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/9th_Military_Region_(Brazil)"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Cuiabá é uma das capitais mais quentes do país. A máxima média anual é de 33 °C e a mínima de 21,5 °C (INMET, 1981-2010); em julho, a normal 1991-2020 é de 32,2 °C de máxima e 17,1 °C de mínima, com só 10 mm de chuva. Chove de outubro a abril, com pico em janeiro. Na seca, de junho a setembro, a umidade cai, há fumaça de queimadas e o calor passa de 40 °C em alguns dias de setembro e outubro. Frentes frias raras podem derrubar a temperatura por um ou dois dias.",
+  "chuvoso": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "fontes": [
+   {
+    "nome": "INMET — balanço de julho/2023",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-julho-termina-sem-registro-de-chuva-e-com-temperaturas-acima-da-média-em-cuiabá-mt"
+   },
+   {
+    "nome": "Wikipedia (dados INMET 1981-2010)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Cuiab%C3%A1"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "A Chapada dos Guimarães e o Pantanal Norte ficam a poucas horas, e na cidade o programa é parque, rio e culinária regional.",
+  "lugares": [
+   {
+    "nome": "Parque Mãe Bonifácia",
+    "km": "na cidade",
+    "desc": "Mata de cerrado no meio da cidade, com trilhas pavimentadas e sombra. Vá cedo ou no fim da tarde por causa do calor."
+   },
+   {
+    "nome": "Orla do Porto e Aquário Municipal",
+    "km": "na cidade",
+    "desc": "Calçadão à beira do rio Cuiabá com quiosques e o aquário de peixes do Pantanal, bom para criança."
+   },
+   {
+    "nome": "Centro Histórico e Museu do Rio",
+    "km": "na cidade",
+    "desc": "Casario tombado, igreja do Rosário e São Benedito e o marco do centro geodésico. O Museu do Rio fica junto ao antigo porto."
+   },
+   {
+    "nome": "Peixarias de Cuiabá",
+    "km": "na cidade",
+    "desc": "Ventrecha de pacu, mojica de pintado e farofa de banana são os pratos típicos. As peixarias tradicionais ficam perto do Porto e no Coxipó."
+   },
+   {
+    "nome": "Chapada dos Guimarães",
+    "km": "~65 km",
+    "desc": "Parque nacional com o Véu de Noiva, mirantes e trilhas guiadas. A cidade da Chapada é mais fresca à noite; algumas trilhas pedem guia credenciado."
+   },
+   {
+    "nome": "Poconé e Transpantaneira",
+    "km": "~100 km",
+    "desc": "Porta de entrada do Pantanal Norte. A estrada-parque de terra, com pontes de madeira, é boa para ver jacaré, tuiuiú e capivara, sobretudo na seca."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "INMET — Cuiabá",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-julho-termina-sem-registro-de-chuva-e-com-temperaturas-acima-da-média-em-cuiabá-mt"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Alugue com ar-condicionado em todos os quartos e prefira imóvel com sombra ou face leste: em setembro e outubro há dias acima de 40 °C.",
+  "Se o trabalho for no Centro ou no CPA, evite morar em Várzea Grande sem testar o trajeto: as pontes sobre o rio Cuiabá congestionam no pico.",
+  "Na seca, de julho a setembro, tenha umidificador e máscara para os dias de fumaça de queimadas, sobretudo se alguém da família tem asma ou rinite.",
+  "Para o Pantanal, a melhor época de observar bichos é de julho a outubro; nas cheias, parte da Transpantaneira fica ruim para carro de passeio."
+ ]
+}
