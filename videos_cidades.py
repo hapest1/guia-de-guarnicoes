@@ -50,12 +50,13 @@ for r in csv.reader(open(RAIZ / "dados/videos.tsv", encoding="utf-8"), delimiter
     m = re.search(r'<div class="eyebrow">([^·<]+)·', t)
     curto = m.group(1).strip() if m else nome
     e = H.escape
+    d = f' · {dur}' if dur.strip() not in ("", "-") else ""
     yt = f'<a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">Abrir no YouTube</a>'
     if proprio:
-        cap = (f'{e(titulo)} · {dur}. Vídeo do nosso canal no YouTube, o Guia de Guarnições. '
+        cap = (f'{e(titulo)}{d}. Vídeo do nosso canal no YouTube, o Guia de Guarnições. '
                f'{yt} · <a href="https://www.youtube.com/channel/UCEF9dezRi8AT8xLC0eAaaZQ?sub_confirmation=1" target="_blank" rel="noopener">Inscreva-se no canal</a>')
     else:
-        cap = (f'{e(titulo)} · {e(canal)} · {dur}. Vídeo de terceiros, hospedado no YouTube; '
+        cap = (f'{e(titulo)} · {e(canal)}{d}. Vídeo de terceiros, hospedado no YouTube; '
                f'o conteúdo é de responsabilidade do canal. {yt}')
     sec = f'''
     <section class="sec" id="sec-video">
