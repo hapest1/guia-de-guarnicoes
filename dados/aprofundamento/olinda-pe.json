@@ -1,0 +1,108 @@
+{
+  "slug": "olinda-pe",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Olinda começou como povoado fundado por Duarte Coelho em 1535 e virou vila em 1537. Foi ocupada pelos holandeses em 1630 e incendiada em 1631, o que explica por que boa parte das igrejas foi reconstruída depois. Em 1982 o centro histórico recebeu da Unesco o título de Patrimônio Mundial, o segundo do Brasil depois de Ouro Preto. Em 2006 a cidade foi a primeira Capital Brasileira da Cultura.",
+      "O município é pequeno e quase todo urbano: são 41,3 km² e 349.976 habitantes no Censo 2022, a cerca de 6 km do centro do Recife. A economia se apoia em comércio, serviços e turismo, e muita gente mora em Olinda e trabalha na capital, o que faz dela uma cidade com função de dormitório. Para o cônjuge, o mercado de trabalho real é o da Região Metropolitana, com Recife como principal empregador.",
+      "A cidade se divide em 38 bairros, além de uma pequena zona rural. No alto fica o Sítio Histórico, com ladeiras, o Alto da Sé e o Mosteiro de São Bento, onde funcionaram os primeiros cursos jurídicos do país, abertos em 1828. Na parte baixa, junto ao mar, ficam bairros residenciais como Bairro Novo, Casa Caiada e Rio Doce, com orla, shopping e comércio de rua. O ritmo muda bastante ao longo do ano: tranquilo na maior parte dos meses e muito cheio no Carnaval, quando blocos, frevo e bonecos gigantes ocupam as ruas do centro histórico."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (pt)",
+        "url": "https://pt.wikipedia.org/wiki/Olinda,_Pernambuco"
+      },
+      {
+        "nome": "Wikipédia (bairros)",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_bairros_de_Olinda"
+      },
+      {
+        "nome": "Viagens e Caminhos",
+        "url": "https://www.viagensecaminhos.com/olinda-pe/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Olinda faz parte do sistema metropolitano do Grande Recife. Desde 1º de fevereiro de 2026, o Bilhete Único, que em 2025 unificou os antigos anéis A e B, custa R$ 4,50, após reajuste de 4,46% aprovado em janeiro e arredondado pela Arpe. Com ele dá para ir de Olinda ao Recife pagando uma só tarifa.",
+      "A cesta básica do Recife, referência mais próxima do DIEESE, custou R$ 643,02 em agosto de 2026. A energia é da Neoenergia Pernambuco, que reajustou a tarifa residencial em 3,41% em média a partir de 29 de abril de 2026. A brisa do mar ajuda, mas o calor é constante e o ar-condicionado nos quartos costuma pesar na conta."
+    ],
+    "fontes": [
+      {
+        "nome": "Diario de Pernambuco (tarifas)",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/01/11705256-aumento-da-passagem-veja-novas-tarifas-de-onibus-no-grande-recife.html"
+      },
+      {
+        "nome": "Diario de Pernambuco (Arpe)",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/01/11705353-arpe-arredonda-novo-valor-da-passagem-de-onibus-no-grande-recife.html"
+      },
+      {
+        "nome": "DIEESE (cesta básica ago/2026)",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202608cestabasica.pdf"
+      },
+      {
+        "nome": "Diario de Pernambuco (energia)",
+        "url": "https://www.diariodepernambuco.com.br/economia/2026/04/11713137-aneel-aprova-alta-media-de-425-para-consumidores-da-neoenergia-pernambuco.html"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer combina o centro histórico, os museus pequenos e as praias da parte baixa da cidade. Quase tudo fica a poucos minutos de carro ou de ônibus.",
+    "lugares": [
+      {
+        "nome": "Alto da Sé",
+        "km": "na cidade",
+        "desc": "Mirante no ponto mais alto do centro histórico, com vista para as praias e para o Recife. Tem barracas de artesanato e de tapioca e acarajé, e funciona bem no fim da tarde."
+      },
+      {
+        "nome": "Mosteiro de São Bento",
+        "km": "na cidade",
+        "desc": "Mosteiro beneditino de 1599, com talha dourada e pinturas sobre a vida de São Bento. Abre todos os dias, de manhã e à tarde, com pausa no almoço."
+      },
+      {
+        "nome": "Museu do Mamulengo (Espaço Tiridá)",
+        "km": "na cidade",
+        "desc": "Acervo de mais de 1.200 bonecos de mamulengo, o teatro de bonecos nordestino. Bom passeio com criança; abre de terça a sexta e a entrada é barata."
+      },
+      {
+        "nome": "Casa dos Bonecos Gigantes",
+        "km": "na cidade",
+        "desc": "Mostra o ano todo os bonecos do Carnaval de Olinda e conta a história de cada personagem. Abre todos os dias e é uma forma de ver o Carnaval fora de fevereiro."
+      },
+      {
+        "nome": "Convento de São Francisco",
+        "km": "na cidade",
+        "desc": "Construído a partir de 1585 e refeito depois do incêndio de 1631. O claustro tem 16 painéis de azulejos sobre a vida de São Francisco."
+      },
+      {
+        "nome": "Praia do Quartel (Bairro Novo)",
+        "km": "na cidade",
+        "desc": "Em frente ao Shopping Patteo, protegida por recifes artificiais que deixam o mar parecido com uma piscina. Tem barracas, restaurantes e estacionamento."
+      },
+      {
+        "nome": "Praia do Rio Doce",
+        "km": "na cidade",
+        "desc": "No litoral norte, perto da divisa com Paulista. Mar calmo e faixa de areia larga, boa para família, futebol e vôlei."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Viagens e Caminhos",
+        "url": "https://www.viagensecaminhos.com/olinda-pe/"
+      },
+      {
+        "nome": "Wikipédia (pt)",
+        "url": "https://pt.wikipedia.org/wiki/Olinda,_Pernambuco"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para banho de mar, prefira Bairro Novo, Casa Caiada ou Rio Doce. As praias dos Milagres e do Carmo, perto do centro histórico, não são indicadas para banho.",
+    "Se for alugar no Sítio Histórico, conte com ladeiras de pedra no dia a dia e com as ruas tomadas por blocos durante o Carnaval. Visite o imóvel antes e veja onde o carro fica.",
+    "Se trabalhar ou estudar no Recife, teste o trajeto no horário de pico: o Bilhete Único de R$ 4,50 vale para a viagem entre as duas cidades.",
+    "Museus como o do Mamulengo não abrem às segundas nem nos fins de semana. Confira o horário antes de levar visitas."
+  ]
+}

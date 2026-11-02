@@ -1,0 +1,94 @@
+{
+  "slug": "itaituba-pa",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "O nome Itaituba vem do tupi e é associado a pedras, uma referência às margens rochosas do Tapajós. Em 1812 o povoado já existia, fundado pelo coronel Joaquim Caetano. Virou vila em 1854, recebeu a sede municipal em 1857 e foi elevado a cidade em 1900. O garimpo de ouro na região vem do século XIX, mas foi nos anos 1970 e 1980 que a cidade cresceu de verdade: estima-se que mais de 500 toneladas de ouro saíram do vale do Tapajós entre meados dos anos 1980 e o início dos 1990, e o aeroporto local chegou a ter um dos maiores movimentos de pousos e decolagens do mundo.",
+      "Em junho de 2026 a Lei estadual 11.568 reconheceu Itaituba como Capital Paraense do Ouro; um dos apelidos da cidade é Cidade Pepita. A economia hoje combina comércio de ouro e abastecimento de garimpos com agricultura, pecuária, madeira e logística de grãos. No distrito de Miritituba, na outra margem do Tapajós e com cerca de 15 mil moradores, a BR-163 encontra a Transamazônica. Ali operavam quatro estações de transbordo em 2022, que movimentaram 12,9 milhões de toneladas de soja e milho. Para o cônjuge, as áreas com mais demanda são comércio, logística, saúde e educação.",
+      "A sede e Miritituba ficam em margens opostas do Tapajós e se ligam por balsa. A vida urbana gira em torno do centro comercial e da beira do Tapajós. Na safra de soja, filas de carretas se formam na BR-163 rumo aos terminais. O ritmo é de cidade amazônica de porte médio, com cerca de 135 mil habitantes e acesso mais fácil por avião ou barco do que por estrada."
+    ],
+    "fontes": [
+      {
+        "nome": "IBGE (histórico)",
+        "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/para/itaituba.pdf"
+      },
+      {
+        "nome": "Diário do Pará (Capital do Ouro)",
+        "url": "https://diariodopara.com.br/cotidiano/itaituba-agora-e-a-capital-do-ouro-e-historia-impressiona/"
+      },
+      {
+        "nome": "Brasil de Fato (Miritituba)",
+        "url": "https://www.brasildefato.com.br/2024/12/11/de-agrovila-pacata-a-grande-porto-de-graos-miritituba-e-engolida-pela-chegada-da-soja-a-amazonia/"
+      },
+      {
+        "nome": "Notícias Agrícolas (filas em 2026)",
+        "url": "https://www.noticiasagricolas.com.br/noticia/416235"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A energia é da Equatorial Pará, e a Aneel aprovou em 15 de setembro de 2026 reajuste de 6,70% para residências. Com calor e umidade o ano todo, o ar-condicionado é o maior peso na conta.",
+      "O combustível no Pará está acima da média nacional: em outubro de 2026 a gasolina custava em média R$ 7,33 o litro no estado, contra R$ 6,75 no país, segundo a ValeCard. Nas cidades do oeste paraense, mais distantes das refinarias, o preço tende a ficar no alto da faixa: em maio de 2026, Altamira teve a média mais alta do estado, R$ 7,28."
+    ],
+    "fontes": [
+      {
+        "nome": "Cenário Energia (Equatorial Pará)",
+        "url": "https://cenarioenergia.com.br/2026/09/16/aneel-aprova-reajuste-tarifario-de-694-para-consumidores-da-equatorial-para/"
+      },
+      {
+        "nome": "O Liberal (gasolina, out/2026)",
+        "url": "https://www.oliberal.com/economia/gasolina-chega-a-r-7-33-no-para-acompanhandl-alta-do-diesel-s-10-em-outubro-1.1188532"
+      },
+      {
+        "nome": "O Liberal (gasolina, maio/2026)",
+        "url": "https://www.oliberal.com/economia/preco-da-gasolina-chega-a-r-7-42-em-altamira-veja-o-ranking-dos-municipios-paraenses-1.1127443"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer está no rio e na floresta: praias e ilhas do Tapajós, pesca e trilhas em unidade de conservação. A melhor época para praia é a seca, de agosto a outubro.",
+    "lugares": [
+      {
+        "nome": "Parque Nacional da Amazônia",
+        "km": "~30 min de carro ou 1 h de barco",
+        "desc": "Quase um milhão de hectares de floresta, gerido pelo ICMBio, com trilhas educativas e mirante para o Tapajós. Também dá para chegar de barco, em cerca de uma hora."
+      },
+      {
+        "nome": "São Luiz do Tapajós",
+        "km": "~1 h de carro",
+        "desc": "Vila com praias e ilhas no Tapajós. Entre agosto e outubro a água fica verde e transparente."
+      },
+      {
+        "nome": "Lago do Jacaré",
+        "km": "~50 min de barco",
+        "desc": "Lago rio acima, procurado para pesca esportiva de tucunaré e outras espécies amazônicas."
+      },
+      {
+        "nome": "Hotel Fazenda Maloquinha",
+        "km": "~15 km",
+        "desc": "No km 15 da Transamazônica, sentido Jacareacanga. Tem trilhas, banho de rio, piscina natural e criação de pirarucu; bom passeio de dia com criança."
+      },
+      {
+        "nome": "Caverna Paraíso",
+        "km": "~90 km",
+        "desc": "Caverna de calcário com mais de 300 m² de salões, estalactites e rios subterrâneos. Vá com guia local."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Pará (atrativos)",
+        "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/itaituba-lazer-na-floresta-em-plena-transamazonica/"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Se for morar em Miritituba ou precisar ir até lá com frequência, considere o tempo da balsa sobre o Tapajós no trajeto diário.",
+    "No começo do ano, na safra de soja, a BR-163 perto de Miritituba fica tomada por carretas. Evite marcar viagens por estrada nesse período sem margem de tempo.",
+    "Para as praias do Tapajós, programe-se para agosto a outubro, quando o rio está baixo e a água fica mais clara.",
+    "O aeroporto tem voos regulares para Santarém, Belém e Manaus, e há barcos para Santarém. Para a mudança, compare frete por rio e por estrada."
+  ]
+}

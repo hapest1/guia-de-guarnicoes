@@ -1,0 +1,119 @@
+{
+  "slug": "maraba-pa",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Marabá nasceu no fim do século XIX no encontro dos rios Tocantins e Itacaiúnas, que formam um Y na sede. O povoamento começou em 1894 e o Burgo do Itacaiúnas foi criado em 1895, atraído pela extração do caucho. O nome veio da Casa Marabá, comércio aberto em 1898 por Francisco Coelho. O município foi criado em 1913 e, depois da crise da borracha, viveu décadas do ciclo da castanha-do-pará.",
+      "Hoje é o principal polo do sudeste paraense, com 266.536 habitantes no Censo 2022 e PIB de cerca de R$ 12 bilhões em 2020, o quarto do Pará. A mineração pesa muito: cobre no Complexo Salobo, manganês e minério de ferro, que passa pela Estrada de Ferro Carajás, em operação desde 1984 e com estação de passageiros na cidade. Há também siderurgia, pecuária forte, comércio regional e ensino superior. Para o cônjuge, vale olhar mineração, logística, comércio, saúde e educação.",
+      "A cidade não tem um centro único. Ela se divide em três núcleos principais: Marabá Pioneira, o centro antigo à beira do rio; Nova Marabá, planejada em quadras chamadas folhas; e Cidade Nova, onde fica o aeroporto. São Félix, Morada Nova e o Distrito Industrial ficam do outro lado dos rios, ligados por pontes. O Tocantins sobe todo ano, e a maior cheia registrada, em 1980, chegou a 17,42 m. O ritmo é de cidade média e movimentada, com muito calor e lazer voltado para o rio."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (pt)",
+        "url": "https://pt.wikipedia.org/wiki/Marab%C3%A1"
+      },
+      {
+        "nome": "Wikipédia (bairros)",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_bairros_de_Marab%C3%A1"
+      },
+      {
+        "nome": "IBICT (núcleos urbanos)",
+        "url": "https://oasisbr.ibict.br/vufind/Record/UFU-16_95fb6eaa00bf11aac2679c4884dfa25a"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem do ônibus urbano custa R$ 4,00, com meia estudantil de R$ 2,00, valor mantido quando o terminal de integração abriu em dezembro de 2024. Desde maio de 2025 o sistema está sob intervenção da prefeitura, e em dezembro de 2025 a Justiça mandou abrir uma revisão da tarifa. Confirme o valor ao chegar. A gasolina custava em média R$ 6,77 o litro em maio de 2026, igual à média do Pará, segundo a ANP.",
+      "A energia é da Equatorial Pará, e a Aneel aprovou em 15 de setembro de 2026 reajuste de 6,70% para residências. Como o calor é forte o ano todo, o ar-condicionado é o item que mais pesa na conta. Quem vai de carro até Belém passa, desde 15 de agosto de 2025, por quatro praças de pedágio, com tarifa de R$ 12 por praça para carro de passeio."
+    ],
+    "fontes": [
+      {
+        "nome": "DOL (tarifa)",
+        "url": "https://dol.com.br/carajas/cidades/maraba/885637/veja-pra-quanto-vai-o-preco-da-passagem-de-onibus-em-maraba"
+      },
+      {
+        "nome": "Diário do Transporte (intervenção)",
+        "url": "https://diariodotransporte.com.br/2025/12/10/justica-suspende-substituicao-da-operadora-de-onibus-em-maraba-pa-e-determina-abertura-de-revisao-tarifaria-em-60-dias/"
+      },
+      {
+        "nome": "O Liberal (gasolina, maio/2026)",
+        "url": "https://www.oliberal.com/economia/preco-da-gasolina-chega-a-r-7-42-em-altamira-veja-o-ranking-dos-municipios-paraenses-1.1127443"
+      },
+      {
+        "nome": "Cenário Energia (Equatorial Pará)",
+        "url": "https://cenarioenergia.com.br/2026/09/16/aneel-aprova-reajuste-tarifario-de-694-para-consumidores-da-equatorial-para/"
+      },
+      {
+        "nome": "Correio de Carajás (pedágios)",
+        "url": "https://correiodecarajas.com.br/marabaense-vai-pagar-4-pedagios-a-partir-de-r-12-para-chegar-a-belem/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer gira em torno do Tocantins: na seca aparecem praias de rio, e o centro antigo concentra orla, museu e restaurantes. A região de Carajás rende passeios de fim de semana.",
+    "lugares": [
+      {
+        "nome": "Praia do Tucunaré",
+        "km": "na cidade",
+        "desc": "Banco de areia de cerca de 5 km² que surge no Tocantins, em frente à Marabá Pioneira, quando o rio baixa. Aparece por volta de abril e enche em julho, com barracas de carne de sol e tucunaré frito."
+      },
+      {
+        "nome": "Praia do Geladinho",
+        "km": "na cidade",
+        "desc": "Praia de rio no bairro São Félix, também da época da seca, com vista para a ponte rodoferroviária por onde passa o minério de Carajás."
+      },
+      {
+        "nome": "Orla da Velha Marabá e Museu Francisco Coelho",
+        "km": "na cidade",
+        "desc": "No centro histórico, o museu conta a história da cidade e fica perto da orla, de bares e restaurantes. Bom programa para o fim da tarde."
+      },
+      {
+        "nome": "Igreja de São Félix de Valois",
+        "km": "na cidade",
+        "desc": "Primeira igreja de Marabá, dos anos 1920, na Praça São Félix. É patrimônio histórico do município desde 1993."
+      },
+      {
+        "nome": "Expoama",
+        "km": "na cidade",
+        "desc": "Feira agropecuária de julho no Parque de Exposições da Transamazônica, com shows, vaquejada e cavalgada. Atrai público de toda a região."
+      },
+      {
+        "nome": "Parauapebas e Floresta Nacional de Carajás",
+        "km": "~170 km",
+        "desc": "Parauapebas tem o Parque Zoobotânico mantido pela Vale com o ICMBio, com fauna amazônica. O acesso às áreas da floresta e aos mirantes da mina é controlado; informe-se antes."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Pará (praias)",
+        "url": "https://diariodopara.com.br/cotidiano/praias-de-rio-e-grandes-shows-por-que-maraba-a-terra-da-castanha-virou-destino-de-ferias/"
+      },
+      {
+        "nome": "Diário do Pará (atrativos)",
+        "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/conheca-maraba-a-princesa-do-rio-tocantins/"
+      },
+      {
+        "nome": "Diário do Pará (113 anos)",
+        "url": "https://diariodopara.com.br/para/maraba-completa-113-anos-e-aposta-em-turismo-o-ano-inteiro/"
+      },
+      {
+        "nome": "DOL (Carajás)",
+        "url": "https://dol.com.br/carajas/935473/carajas-revela-potencial-que-une-industria-natureza-e-sabores"
+      },
+      {
+        "nome": "Rome2rio (distância)",
+        "url": "https://www.rome2rio.com/s/Marab%C3%A1/Parauapebas"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Escolha o bairro pensando no núcleo onde fica a OM: Marabá Pioneira, Nova Marabá e Cidade Nova são separadas por rios e trechos de rodovia, e morar no núcleo errado alonga o trajeto diário.",
+    "Na Nova Marabá os endereços usam folha, quadra e lote. Peça a localização no mapa antes de fechar aluguel à distância.",
+    "Se vier de carro de Belém pela PA-150, separe dinheiro ou TAG para quatro pedágios de R$ 12 cada; com TAG há desconto para uso frequente.",
+    "Alugue com ar-condicionado nos quartos e confira o padrão da instalação elétrica: o calor é constante e a tarifa da Equatorial subiu 6,70% em setembro de 2026."
+  ]
+}

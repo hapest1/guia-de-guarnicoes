@@ -1,0 +1,99 @@
+{
+  "slug": "altamira-pa",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Altamira tem origem na missão jesuíta de Tavaquara, fundada na década de 1750 às margens do Xingu, e virou município em 1911. Com 159.533 km², é o maior município do Brasil em área, maior que vários países europeus. Os distritos de Castelo de Sonhos e Cachoeira da Serra ficam a mais de mil quilômetros da sede. A cidade guarda o marco zero da Transamazônica, aberta nos anos 1970.",
+      "É o polo do médio Xingu: concentra comércio, hospitais e serviços para dezenas de municípios vizinhos. A construção da Usina de Belo Monte, com 11.182 MW e concluída em 2019 no vizinho Vitória do Xingu, trouxe migrantes de todo o país e acelerou o crescimento urbano. No campo, o destaque é o cacau: Altamira é o quarto maior produtor de amêndoas do Pará, e a região do Xingu responde por mais de 80% da produção estadual. Pecuária e lavouras completam a economia. Para o cônjuge, as oportunidades estão em comércio, saúde, educação e serviços ligados à usina e ao agro.",
+      "A área urbana tem mais de 60 bairros espalhados numa faixa ao longo do Xingu, e a vida social se concentra na Orla do Cais, no centro. A cidade tem cerca de 139 mil habitantes. O calendário inclui o Altafolia, carnaval no Anel Viário que esperava 45 mil pessoas em 2026, o Festival Folclórico em junho e o Chocolat Xingu, que reuniu mais de 140 mil visitantes em 2025. O ritmo é de cidade amazônica de porte médio, quente e úmida, com lazer voltado para o rio."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (pt)",
+        "url": "https://pt.wikipedia.org/wiki/Altamira"
+      },
+      {
+        "nome": "BMC News (território)",
+        "url": "https://bmcnews.com.br/cidades/maior-que-paises-inteiros-na-europa-a-cidade-brasileira-com-quase-160-mil-km²-que-desafia-a-logistica-e-a-administracao-publica/"
+      },
+      {
+        "nome": "Diário do Pará (atrativos)",
+        "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/altamira-a-capital-da-transamazonica-e-suas-experiencias-incriveis/"
+      },
+      {
+        "nome": "Diário do Transporte (Altafolia)",
+        "url": "https://diariodotransporte.com.br/2026/02/12/altamira-pa-tera-onibus-circulando-exclusivamente-para-atender-publico-do-altafolia-2026/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Combustível é caro: em maio de 2026 a gasolina custava em média R$ 7,28 o litro em Altamira, a média mais alta do Pará, contra R$ 6,77 no estado, segundo levantamento do Dieese-PA com dados da ANP. Como a cidade depende de carro e moto, esse valor pesa no orçamento mensal.",
+      "A energia é da Equatorial Pará, com reajuste de 6,70% para residências aprovado pela Aneel em 15 de setembro de 2026. Com calor e umidade o ano todo, o ar-condicionado é o que mais pesa na conta de luz."
+    ],
+    "fontes": [
+      {
+        "nome": "O Liberal (gasolina, maio/2026)",
+        "url": "https://www.oliberal.com/economia/preco-da-gasolina-chega-a-r-7-42-em-altamira-veja-o-ranking-dos-municipios-paraenses-1.1127443"
+      },
+      {
+        "nome": "Cenário Energia (Equatorial Pará)",
+        "url": "https://cenarioenergia.com.br/2026/09/16/aneel-aprova-reajuste-tarifario-de-694-para-consumidores-da-equatorial-para/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer é de rio: orla para caminhar, praias em ilhas do Xingu na seca e pesca esportiva. A visita guiada à usina de Belo Monte é um passeio diferente para a família.",
+    "lugares": [
+      {
+        "nome": "Orla do Cais",
+        "km": "na cidade",
+        "desc": "Calçadão à beira do Xingu, usado para caminhada e exercício, com pôr do sol sobre o rio. É também o ponto de saída das lanchas para os passeios."
+      },
+      {
+        "nome": "Praias do Massanori e do Cajueiro",
+        "km": "na cidade",
+        "desc": "Praias de água doce em ilhas do Xingu, acessíveis de barco a partir do Cais. Na seca dá para tomar banho, pescar e acampar."
+      },
+      {
+        "nome": "Usina Hidrelétrica de Belo Monte",
+        "km": "Vitória do Xingu (vizinho)",
+        "desc": "A Norte Energia oferece visita guiada gratuita de cerca de quatro horas, com vistas da usina e história das ações socioambientais. Só aceita visitantes a partir de 10 anos."
+      },
+      {
+        "nome": "Casa de Memória Transxingu",
+        "km": "na cidade",
+        "desc": "Museu audiovisual inaugurado em 2017 na Avenida João Pessoa, que conta a colonização ao longo da Transamazônica."
+      },
+      {
+        "nome": "Casa do Artesanato",
+        "km": "na cidade",
+        "desc": "Na Orla do Cais, vende biojoias e artesanato, com destaque para peças de povos indígenas da região."
+      },
+      {
+        "nome": "Peixarias regionais",
+        "km": "na cidade",
+        "desc": "Pacu, tucunaré e tambaqui preparados de vários jeitos, além de caldeiradas e sucos de cupuaçu e açaí."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Pará (atrativos)",
+        "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/altamira-a-capital-da-transamazonica-e-suas-experiencias-incriveis/"
+      },
+      {
+        "nome": "Wikipédia (pt)",
+        "url": "https://pt.wikipedia.org/wiki/Altamira"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Conte com gasolina mais cara que a média do Pará (R$ 7,28 em maio de 2026). Se for trazer carro, calcule esse gasto no orçamento.",
+    "Para visitar Belo Monte com a família, agende com a Norte Energia e lembre que crianças menores de 10 anos não entram.",
+    "Em fevereiro o Altafolia ocupa o Anel Viário por quatro noites, com linhas de ônibus especiais. Quem mora perto deve esperar som alto e trânsito desviado.",
+    "Antes de comprar passagem por terra, confira as condições da Transamazônica no período de chuvas, de dezembro a maio."
+  ]
+}
