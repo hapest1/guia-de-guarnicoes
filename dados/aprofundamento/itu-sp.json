@@ -1,0 +1,90 @@
+{
+  "slug": "itu-sp",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Itu nasceu de uma capela erguida em 1610, virou vila em 1657 e cidade em 1842. Foi a cidade mais rica da província de São Paulo em meados do século XIX, com açúcar e depois café. Em 1873 sediou a Convenção de Itu, primeira convenção republicana do país, origem do apelido de berço da República. O conjunto de igrejas barrocas do centro rendeu outro apelido, Roma Brasileira. O Censo 2022 contou 168.240 moradores, e a estimativa do IBGE para 2024 é de 174.561.",
+      "A economia é industrial e logística. Há fábricas de bebidas (Heineken, antiga Schin), alumínio, ferramentas (Starrett), eletrônicos e fornecedores de autopeças ligados à Toyota da região, além de cerâmicas que funcionam desde os anos 1950. A cidade fica entre a Castello Branco, a Rodovia do Açúcar (SP-75) e a SP-300, o que atrai centros de distribuição. Para o cônjuge, há vagas em indústria, logística, comércio e turismo, e Sorocaba, Campinas e Jundiaí ficam a menos de uma hora.",
+      "O centro histórico concentra o comércio de rua, nas ruas Floriano Peixoto e Santa Rita, e os bairros residenciais se espalham pelo planalto, a 583 m de altitude, com o Rio Tietê cortando o município. Pirapitingui é distrito afastado do centro. O Aeroporto de Viracopos fica a cerca de 40 km. O ritmo é de cidade média tranquila durante a semana, com movimento de turistas da capital nos fins de semana."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Itu)",
+        "url": "https://pt.wikipedia.org/wiki/Itu"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A tarifa do ônibus urbano, operado pela Mov Itu, é de R$ 5,15. O valor foi fixado em dezembro de 2021 e a prefeitura anunciou que não haveria reajuste em 2025; confirme se houve mudança em 2026 antes de montar o orçamento.",
+      "Itu não entra na pesquisa da cesta básica do DIEESE. A referência paulista é a capital, onde a cesta custou R$ 922,51 em setembro de 2026, alta de 9,53% em 12 meses."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa de Itu (jan/2025)",
+        "url": "https://diariodotransporte.com.br/2025/01/06/tarifa-de-onibus-em-itu-sp-nao-tera-reajuste-em-2025-anuncia-prefeito-video/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Itu combina passeios históricos gratuitos no centro com parques de fim de semana e a vizinha Salto, a menos de 10 km.",
+    "lugares": [
+      {
+        "nome": "Parque Geológico do Varvito",
+        "km": "na cidade",
+        "desc": "Antiga pedreira de 44 mil m² com paredões de rocha formados numa era glacial, há cerca de 280 milhões de anos, lago e pequena cachoeira. Entrada gratuita, de terça a domingo, das 8h às 17h; fecha em dia de chuva."
+      },
+      {
+        "nome": "Museu Republicano (USP)",
+        "km": "na cidade",
+        "desc": "Sobrado onde se reuniu a Convenção de 1873, hoje administrado pela USP, com acervo sobre a formação da República. Gratuito, de terça a domingo, das 10h às 17h. Bom para trabalho escolar de história."
+      },
+      {
+        "nome": "Gruta do Riacho Subterrâneo",
+        "km": "na cidade",
+        "desc": "Caverna em granito com riacho correndo por dentro, apontada como a maior do tipo no Hemisfério Sul. Passeio curto, com trechos estreitos; leve calçado fechado."
+      },
+      {
+        "nome": "Parque Maeda",
+        "km": "na cidade",
+        "desc": "Complexo com pesqueiro, jardim japonês, camping, trenzinho e parque aquático no verão. Programa de dia inteiro com crianças; confira o calendário de funcionamento no site."
+      },
+      {
+        "nome": "Fazenda do Chocolate",
+        "km": "entre Itu e Salto",
+        "desc": "Fazenda entre Itu e Salto com estacionamento gratuito e passeios pagos de R$ 20 a R$ 40 por pessoa. Restaurante e passeios só em fins de semana e feriados; compre ingresso antes."
+      },
+      {
+        "nome": "Salto: Complexo da Cachoeira e Parque da Rocha Moutonnée",
+        "km": "~8 km",
+        "desc": "Mirantes sobre o Tietê, ponte pênsil e um parque com réplicas de dinossauros que se movem, bom para crianças. Funciona de terça a domingo, das 8h30 às 16h30. Dá para ir no Trem Republicano, que liga as duas cidades."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Rádio Tupi (Itu, Varvito)",
+        "url": "https://www.tupi.fm/?p=2301467"
+      },
+      {
+        "nome": "Quero Viajar Mais (Itu e Salto)",
+        "url": "https://www.queroviajarmais.com/roteiro-em-itu-e-salto/"
+      },
+      {
+        "nome": "Wikipédia (Itu)",
+        "url": "https://pt.wikipedia.org/wiki/Itu"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para ir a São Paulo, compare a Castello Branco e a Bandeirantes: as duas levam cerca de 1h15 a 1h20 até a capital, e o pedágio e o trânsito na chegada mudam conforme o destino na cidade.",
+    "Para voos, Viracopos (Campinas) fica a cerca de 40 km e costuma ser mais prático que Guarulhos ou Congonhas.",
+    "Se for morar perto do centro histórico, conte com movimento de turistas e ruas estreitas nos fins de semana e feriados; estacionar perto da Praça Padre Miguel fica difícil."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "montes-claros-mg",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Montes Claros nasceu da sesmaria da Fazenda Montes Claros, concedida a Antônio Gonçalves Figueira em 1707, e de um arraial que cresceu em torno da capela. Tornou-se município em 1831 e cidade em 1857. Hoje é a capital do Norte de Minas e o quinto município mais populoso do estado, com 414.240 moradores no Censo 2022, a cerca de 420 km de Belo Horizonte.",
+      "Comércio e serviços sustentam a economia, que somou cerca de R$ 9,7 bilhões de PIB em 2020. A cidade atende dezenas de municípios do norte mineiro e do sul da Bahia em saúde, ensino e compras. O distrito industrial tem 5,2 milhões de m², com unidades da Novo Nordisk (insulina), Nestlé, Coteminas, Lafarge e uma usina de biodiesel da Petrobras. Para o cônjuge, saúde e ensino são bons mercados: há a Santa Casa, maior hospital da região, o Hospital Universitário Clemente de Faria e a Unimontes.",
+      "A área urbana é extensa e plana, com cerca de 200 bairros e dez distritos no município, que tem 3.590 km². O centro antigo reúne o Mercado Municipal, a Igreja Matriz e o comércio popular; bairros como Ibituruna, ao pé da serra, e Cidade Nova, onde fica o principal shopping, concentram moradias mais novas e serviços. O ritmo é de cidade grande do interior, com calor forte na seca e festas tradicionais em agosto."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Montes Claros)",
+        "url": "https://pt.wikipedia.org/wiki/Montes_Claros_(Minas_Gerais)"
+      },
+      {
+        "nome": "Wikipedia (Montes Claros, en)",
+        "url": "https://en.wikipedia.org/wiki/Montes_Claros"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem do ônibus urbano custa R$ 4,60, valor fixado em fevereiro de 2025. Em fevereiro de 2026 a prefeitura publicou decreto com nova tarifa, mas suspendeu o aumento até que o consórcio operador (MocBus) cumpra obrigações do contrato, e o preço seguiu em R$ 4,60.",
+      "Montes Claros não entra na pesquisa do DIEESE. A referência mineira é Belo Horizonte, onde a cesta básica custou R$ 802,99 em setembro de 2026, alta de 11,72% em 12 meses. Na seca, a umidade cai abaixo de 30% e o ar-condicionado ou ventilador funciona boa parte do dia; inclua isso na conta de luz."
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Montes Claros, Decreto 4.942/2025",
+        "url": "https://portal.montesclaros.mg.gov.br/decreto/com-numero/decreto-n-4942-14-de-fevereiro-de-2025"
+      },
+      {
+        "nome": "Prefeitura de Montes Claros, tarifa mantida (fev/2026)",
+        "url": "https://portal.montesclaros.mg.gov.br/noticia/sem-aumento-prefeitura-de-montes-claros-nao-autoriza-aumento-da-tarifa-do-transporte-coletivo"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "A cidade tem parques gratuitos no perímetro urbano, um parque estadual com mais de 50 cavernas a 10 km e festas populares com séculos de tradição.",
+    "lugares": [
+      {
+        "nome": "Parque Estadual da Lapa Grande",
+        "km": "~10 km",
+        "desc": "Mais de 15 mil hectares com mais de 50 cavernas e a Lapa Pintada, paredão com pinturas rupestres. Abre de sexta a domingo, das 8h às 16h, com limite de visitantes por dia; chegue cedo."
+      },
+      {
+        "nome": "Parque Municipal Milton Prates",
+        "km": "na cidade",
+        "desc": "Parque de 190 mil m² com pedalinho na Lagoa dos Patos, playground, quadras e pista de bicicross. Gratuito, das 6h às 22h. Bom para fim de tarde com crianças."
+      },
+      {
+        "nome": "Parque Sapucaia",
+        "km": "na cidade",
+        "desc": "Área de 300 mil m² ao pé da Serra do Ibituruna, com mirante, rampa de asa-delta e trilhas. Gratuito, das 6h às 18h; vá cedo, porque o sol esquenta rápido."
+      },
+      {
+        "nome": "Mercado Municipal",
+        "km": "na cidade",
+        "desc": "Mercado de 1899 com torre e relógio, com queijos, doces, carnes, temperos, frutas e artesanato. Funciona até 17h nos dias úteis e até 12h aos domingos; melhor de manhã."
+      },
+      {
+        "nome": "Museu Regional do Norte de Minas",
+        "km": "na cidade",
+        "desc": "Sobrado de 1889 no centro com acervo sobre a ocupação do sertão, arte xakriabá e a réplica do dinossauro Tapuiasaurus. Gratuito, nos dias úteis."
+      },
+      {
+        "nome": "Festas de Agosto e Festival do Pequi",
+        "km": "na cidade",
+        "desc": "Em agosto, cortejos de catopês, marujos e caboclinhos tomam o centro. Em janeiro, o Festival do Pequi celebra o fruto que é a base da cozinha local."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "QuintoAndar, o que fazer em Montes Claros",
+        "url": "https://www.quintoandar.com.br/guias/?p=2476118"
+      },
+      {
+        "nome": "Wikipédia (Montes Claros)",
+        "url": "https://pt.wikipedia.org/wiki/Montes_Claros_(Minas_Gerais)"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Alugue imóvel com ventilação cruzada ou ar-condicionado nos quartos: a média das máximas é de 30 °C (normais INMET 1991-2020) e a cidade já registrou 40,4 °C em outubro de 2020.",
+    "Prepare-se para o ar seco de junho a outubro: a umidade fica abaixo de 30% com frequência. Umidificador e soro fisiológico para as crianças fazem diferença.",
+    "Para ir a BH, compare o voo com a estrada: são cerca de 420 km por rodovia, e o Aeroporto Mário Ribeiro tem voos para a capital."
+  ]
+}

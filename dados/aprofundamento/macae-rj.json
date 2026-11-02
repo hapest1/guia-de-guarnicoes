@@ -1,0 +1,94 @@
+{
+  "slug": "macae-rj",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Macaé foi fundada em 29 de julho de 1813 e viveu por mais de um século da pesca e do turismo de praia. É terra natal do presidente Washington Luís. A virada veio nos anos 1970, quando a Petrobras instalou ali a base de operações da Bacia de Campos; desde então a população praticamente triplicou. O Censo 2022 contou 246.391 moradores, e a estimativa de 2025 é de 264.439.",
+      "Petróleo e gás dominam a economia. Mais de 4.000 empresas do setor têm escritório na cidade, e o Aeroporto Benedito Lacerda opera voos comerciais e de apoio às plataformas. O salário médio é dos mais altos do estado. Para o cônjuge, há vagas em engenharia, logística, saúde, comércio e serviços ligados às empresas offshore, mas o mercado oscila com o preço do petróleo. A cidade tem campus da UFRJ, da UFF e da faculdade municipal FEMASS.",
+      "A área urbana fica no litoral, entre a Lagoa de Imboassica, na divisa com Rio das Ostras, e o centro histórico. O centro concentra o comércio, o Mercado de Peixes e o Solar dos Mellos; Cavaleiros, Glória e Imbetiba reúnem restaurantes e a orla mais movimentada. O município é grande (1.216 km²) e sobe para a serra, onde ficam os distritos de Sana, Frade, Glicério e Córrego do Ouro, com cachoeiras e clima mais fresco."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Macaé)",
+        "url": "https://en.wikipedia.org/wiki/Maca%C3%A9"
+      },
+      {
+        "nome": "QuintoAndar, o que fazer em Macaé",
+        "url": "https://www.quintoandar.com.br/guias/?p=2475170"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "O ônibus municipal tem tarifa de R$ 1,00 para quem tem o Cartão Macaé, cadastro da prefeitura para moradores; a diferença é coberta por subsídio. A tarifa cheia, para quem não tem o cartão, foi fixada em R$ 5,24 em dezembro de 2022; confirme o valor atual ao chegar. Faça o cadastro do Cartão Macaé assim que tiver comprovante de residência.",
+      "Macaé não entra na pesquisa da cesta básica do DIEESE. A referência fluminense é o Rio de Janeiro, onde a cesta custou R$ 913,46 em setembro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "O Debate, tarifa de Macaé (dez/2022)",
+        "url": "https://odebateon.com.br/tarifa-de-onibus-fica-r-111-mais-cara-em-macae/"
+      },
+      {
+        "nome": "Diário do Transporte, Cartão Macaé (jun/2025)",
+        "url": "https://diariodotransporte.com.br/2025/06/30/macae-rj-implanta-linha-de-onibus-circular-com-tarifa-reduzida-no-horario-de-almoco/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Além das praias urbanas, Macaé tem ilhas a 8 km da costa, um parque nacional de restinga e uma serra com mais de 100 cachoeiras catalogadas.",
+    "lugares": [
+      {
+        "nome": "Praia dos Cavaleiros e Praia do Pecado",
+        "km": "na cidade",
+        "desc": "Cavaleiros é a orla principal, com areia larga, bares e restaurantes. O Pecado, ao sul, tem ciclovia e quiosques e é procurado por surfistas; o mar é aberto, então fique de olho nas crianças."
+      },
+      {
+        "nome": "Lagoa de Imboassica",
+        "km": "na cidade",
+        "desc": "Lagoa entre o Pecado e Rio das Ostras com pedalinho, caiaque, stand up paddle e aluguel de bicicletas. Boa para o fim de tarde."
+      },
+      {
+        "nome": "Arquipélago de Sant'Anna",
+        "km": "~8 km (barco)",
+        "desc": "Ilhas protegidas a 30 a 50 minutos de barco, saindo do cais do Mercado de Peixes, no centro. Só a Ilha do Francês recebe visitantes; vá com mar calmo."
+      },
+      {
+        "nome": "Parque Nacional da Restinga de Jurubatiba",
+        "km": "na cidade (Barreto)",
+        "desc": "Protege 18 lagoas costeiras e 44 km de praias preservadas entre Macaé, Carapebus e Quissamã. Entrada gratuita, todos os dias das 7h às 17h; leve água e protetor, há pouca sombra."
+      },
+      {
+        "nome": "Sana",
+        "km": "~40 km",
+        "desc": "Distrito serrano com cachoeiras de água clara, como a do Escorrega, onde dá para deslizar na pedra até o poço. Estrada sinuosa; melhor ir e voltar de dia."
+      },
+      {
+        "nome": "Forte Marechal Hermes e Solar dos Mellos",
+        "km": "na cidade",
+        "desc": "O forte octogonal de 1910 tem mirante para o centro e a orla. O Solar dos Mellos, de 1891, abriga o museu da cidade e abre de segunda a sexta."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "QuintoAndar, o que fazer em Macaé",
+        "url": "https://www.quintoandar.com.br/guias/?p=2475170"
+      },
+      {
+        "nome": "Itatiaia, Parque da Restinga de Jurubatiba",
+        "url": "https://www.itatiaia.com.br/turismo/parque-no-litoral-do-rio-reune-18-lagoas-e-44-km-de-praias-preservadas/"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Faça o Cartão Macaé assim que tiver comprovante de residência: com ele a passagem de ônibus cai para R$ 1,00, contra a tarifa cheia de mais de R$ 5.",
+    "Compare a amostra de aluguel da ficha com a faixa real: os anúncios de 2 quartos vão de R$ 1.200 a 3.500, e a mesma metragem varia muito entre a orla de Cavaleiros e os bairros afastados do mar.",
+    "Antes de planejar passeio na serra, confira se o Parque Natural Municipal do Atalaia reabriu: ele estava fechado para manutenção desde o fim de 2024."
+  ]
+}

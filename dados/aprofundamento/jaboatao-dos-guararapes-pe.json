@@ -1,0 +1,90 @@
+{
+  "slug": "jaboatao-dos-guararapes-pe",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Jaboatão foi fundada em 4 de maio de 1593 em torno do Engenho São João Baptista. Nos Montes Guararapes, as forças luso-brasileiras venceram os holandeses em 1648 e 1649, batalhas ligadas à origem do Exército Brasileiro. A vila se separou de Olinda e virou cidade em 1884. É o segundo município mais populoso de Pernambuco, com 644.037 moradores no Censo 2022 e 684.293 estimados em 2025, em 256 km².",
+      "Serviços respondem por cerca de três quartos da economia, com peso relevante da indústria: há fábricas de bebidas, como a Coca-Cola, e de bens de consumo, como a Unilever, além de empresas têxteis, químicas, metalúrgicas, automotivas e de alimentos. A cidade é cortada pela BR-101, pela BR-232, pela PE-007 e pela PE-017. Para o cônjuge, o mercado de trabalho é o da Região Metropolitana do Recife inteira.",
+      "A orla tem três praias urbanas em sequência: Piedade, colada a Boa Viagem, Candeias e Barra de Jangada, no extremo sul. O Aeroporto dos Guararapes fica a cerca de 5 km de Piedade. Longe do mar ficam bairros como Cavaleiro e a área dos Montes Guararapes, com a Igreja dos Prazeres. Ônibus e metrô integram a cidade ao Recife, a cerca de 16 km, e o Shopping Guararapes é um dos maiores da região metropolitana. O ritmo é de metrópole, com trânsito pesado nos horários de pico rumo à capital."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Jaboatão dos Guararapes)",
+        "url": "https://en.wikipedia.org/wiki/Jaboat%C3%A3o_dos_Guararapes"
+      },
+      {
+        "nome": "QuintoAndar, onde fica Jaboatão",
+        "url": "https://www.quintoandar.com.br/guias/?p=480128"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Jaboatão faz parte do sistema metropolitano do Grande Recife. Desde 1º de fevereiro de 2026, a passagem do Anel A, que vale também como bilhete único, custa R$ 4,50, e a do Anel G, R$ 3,00, após reajuste de 4,46% homologado pela Arpe.",
+      "A cesta básica do Recife, referência para a região metropolitana, custou R$ 663,48 em setembro de 2026, segundo o DIEESE, alta de 7,72% em 12 meses. É uma das mais baratas entre as capitais pesquisadas, bem abaixo dos cerca de R$ 900 de São Paulo e do Rio."
+    ],
+    "fontes": [
+      {
+        "nome": "Folha de Pernambuco, tarifas 2026",
+        "url": "https://www.folhape.com.br/noticia/detalhe/aumento-da-passagem-de-onibus-no-grande-recife-e-homologado-e-anel/463122/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer combina a orla urbana de 8 km, uma ilha de areia a poucos minutos de barco e o patrimônio histórico ligado às batalhas dos Guararapes.",
+    "lugares": [
+      {
+        "nome": "Praia de Piedade",
+        "km": "na cidade",
+        "desc": "Cerca de 4,5 km de orla, a mais movimentada, com hotéis, bares e restaurantes. Fica ao lado de Boa Viagem; respeite as placas de orientação para banho."
+      },
+      {
+        "nome": "Praia de Candeias",
+        "km": "na cidade",
+        "desc": "Cerca de 3 km com trechos protegidos por quebra-mar e calçadão com áreas de esporte. Boa para caminhar e andar de bicicleta."
+      },
+      {
+        "nome": "Barra de Jangada e Ilha do Amor",
+        "km": "na cidade",
+        "desc": "Praia curta, de mar calmo e areia larga, protegida pela Ilha do Amor, aonde se chega por uma travessia curta de barco. A melhor opção da orla para crianças."
+      },
+      {
+        "nome": "Parque Histórico Nacional dos Guararapes",
+        "km": "na cidade",
+        "desc": "Área das batalhas de 1648 e 1649, com o Mirante Henrique Dias, monumentos e espaço para esporte ao ar livre. Vá de manhã cedo ou no fim da tarde, por causa do calor."
+      },
+      {
+        "nome": "Igreja de Nossa Senhora dos Prazeres",
+        "km": "na cidade",
+        "desc": "Igreja barroca fundada em 1656 no alto dos Montes Guararapes, tombada pelo Iphan em 1937. O GPS pode levar a ruas estreitas; procure a Rua Monte dos Guararapes."
+      },
+      {
+        "nome": "Igreja de Nossa Senhora da Piedade",
+        "km": "na cidade",
+        "desc": "Igreja de 1683 à beira-mar, tombada pelo Iphan, que dá nome ao bairro. Combina com um passeio pela orla."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Viagens e Caminhos (Jaboatão)",
+        "url": "https://www.viagensecaminhos.com/jaboatao-dos-guararapes/"
+      },
+      {
+        "nome": "Wikipedia (Parque Histórico Nacional dos Guararapes)",
+        "url": "https://en.wikipedia.org/wiki/Parque_Hist%C3%B3rico_Nacional_dos_Guararapes"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Na orla, siga as placas e as bandeiras de orientação de banho: o litoral do Grande Recife tem trechos com restrição, e Barra de Jangada é o ponto de mar mais calmo para crianças.",
+    "Ao escolher bairro, pense no trajeto até a OM: morar na orla e trabalhar longe do mar significa cruzar a BR-101 nos horários de pico.",
+    "Use o bilhete único do Grande Recife: por R$ 4,50 (2026) ele vale para as linhas do Anel A e integra Jaboatão ao Recife."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "sete-lagoas-mg",
+  "lede": "Cidade industrial de lagoas urbanas, a 72 km de BH, com fábrica da Iveco e grutas pré-históricas na entrada da cidade.",
+  "cidade": {
+    "paragrafos": [
+      "Sete Lagoas surgiu no caminho dos bandeirantes que buscavam ouro no início do século XVIII; a Gruta Rei do Mato guarda vestígios de ocupação humana muito anteriores. O município foi criado em 1867, e o nome vem das lagoas da área urbana: uma lei de 1989 reconhece sete delas oficialmente, mas o município tem 17. O Censo 2022 contou 227.397 moradores, e a estimativa de 2025 é de 238.909.",
+      "A economia é industrial. A fábrica da Iveco, aberta no início dos anos 2000, produz caminhões e vans e tem o primeiro centro de desenvolvimento da marca fora da Europa. A Ambev tem fábrica de bebidas e latas na zona industrial norte, e há siderúrgicas de ferro-gusa, cimenteiras e metalúrgicas. A Embrapa Milho e Sorgo tem sede na cidade, em parceria com o campus da UFSJ. Para o cônjuge, há vagas em indústria, logística e serviços, e BH fica a cerca de uma hora.",
+      "O centro se organiza em torno da Lagoa Paulino, com bares, restaurantes e feira à noite. A Lagoa da Boa Vista tem pista de caminhada de 1.630 m e feira aos domingos. A BR-040 liga a cidade a Belo Horizonte, em cerca de uma hora, e a Brasília, e a MG-238 completa os acessos; o Aeroporto de Confins fica a 40 a 55 km, conforme a rota. A Serra de Santa Helena, a 7 km do centro, é o ponto mais alto da paisagem urbana."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Sete Lagoas)",
+        "url": "https://en.wikipedia.org/wiki/Sete_Lagoas"
+      },
+      {
+        "nome": "Estado de Minas (Sete Lagoas, fev/2026)",
+        "url": "https://www.em.com.br/emfoco/2026/02/21/a-cidade-mineira-a-72-km-de-belo-horizonte-que-impressiona-com-lagoas-urbanas-e-uma-qualidade-de-vida-que-atrai-quem-busca-sossego-perto-da-capital/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "O ônibus urbano é operado pela Turi. A tarifa de R$ 5,20 foi autorizada pelo conselho municipal no início de 2025, abaixo dos R$ 6,80 pedidos pela empresa,, e houve novo reajuste em março de 2026; verifique o preço atual na chegada.",
+      "Sete Lagoas não entra na pesquisa do DIEESE. A referência é Belo Horizonte, onde a cesta básica custou R$ 802,99 em setembro de 2026, alta de 11,72% em 12 meses."
+    ],
+    "fontes": [
+      {
+        "nome": "SeteLagoas.com.br, tarifa de R$ 5,20",
+        "url": "https://setelagoas.com.br/noticias/cidades/229647-r-520-preco-do-lotacao-em-sete-lagoas-tera-aumento-a-partir-de-quarta-feira/"
+      },
+      {
+        "nome": "SeteLagoas.com.br, novo valor a partir de março",
+        "url": "https://setelagoas.com.br/noticias/cidades/264390-tarifa-de-onibus-em-sete-lagoas-tera-novo-valor-a-partir-de-marco/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Lagoas no centro, uma serra com mirante a 7 km e a Rota das Grutas de Peter Lund formam o lazer de fim de semana.",
+    "lugares": [
+      {
+        "nome": "Lagoa Paulino",
+        "km": "na cidade",
+        "desc": "Lagoa central com chafariz iluminado, bares e restaurantes, e feira de artesanato e comida nas noites de sexta e sábado."
+      },
+      {
+        "nome": "Lagoa da Boa Vista",
+        "km": "na cidade",
+        "desc": "Pista de 1.630 m ao redor da lagoa, com pista de skate e bicicross, e feira com cerca de 220 barracas aos domingos de manhã."
+      },
+      {
+        "nome": "Serra de Santa Helena",
+        "km": "~7 km",
+        "desc": "Morro calcário a 1.100 m com mirante, rampa de voo livre e a Capela de Santa Helena, de 1852. Vá no fim da tarde para ver o pôr do sol."
+      },
+      {
+        "nome": "Gruta Rei do Mato",
+        "km": "entrada da cidade",
+        "desc": "Caverna de 998 m na entrada da cidade, junto à BR-040, com 220 m de passarelas iluminadas e duas colunas de calcita de 12 m. Ao lado, a Grutinha tem pinturas rupestres; moradores pagam meia."
+      },
+      {
+        "nome": "Parque da Cascata",
+        "km": "na cidade",
+        "desc": "Área de 295 hectares de mata com trilhas, lago, praia artificial e cachoeira de 35 m vista do mirante. Bom para piquenique com crianças."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Correio Braziliense (Gruta Rei do Mato)",
+        "url": "https://www.correiobraziliense.com.br/cbradar/a-gruta-com-colunas-gemeas-unicas-no-brasil-chama-atencao-nessa-cidade-com-cavernas-pre-historicas-a-72-km-de-belo-horizonte/"
+      },
+      {
+        "nome": "Estado de Minas (Sete Lagoas, fev/2026)",
+        "url": "https://www.em.com.br/emfoco/2026/02/21/a-cidade-mineira-a-72-km-de-belo-horizonte-que-impressiona-com-lagoas-urbanas-e-uma-qualidade-de-vida-que-atrai-quem-busca-sossego-perto-da-capital/"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para voos, Confins fica mais perto que o centro de BH: o aeroporto está a cerca de 40 a 55 km, sem precisar atravessar a capital.",
+    "Traga agasalho para as noites de inverno: a média das mínimas anuais é de 16 °C (normais 1981-2010), e em julho as madrugadas ficam bem mais frias, com dias secos e ensolarados.",
+    "Se for usar ônibus urbano, confirme o valor da passagem na chegada: a tarifa foi reajustada em 2025 e de novo em 2026 após disputa entre a prefeitura e a operadora."
+  ]
+}

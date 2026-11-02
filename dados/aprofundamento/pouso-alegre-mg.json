@@ -1,0 +1,82 @@
+{
+  "slug": "pouso-alegre-mg",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "A região de Pouso Alegre foi percorrida por bandeirantes a partir de 1596, e o povoado nasceu com o nome de Matosinho do Mandu. Em 1797 o governador Bernardo José de Lorena o rebatizou de Pouso Alegre, e o município tem como data de fundação 19 de outubro de 1848. É a segunda maior cidade do Sul de Minas, com 152.212 moradores no Censo 2022, alta de 16,5% sobre 2010.",
+      "A cidade virou polo industrial pela posição na Fernão Dias (BR-381), a cerca de 200 km de São Paulo e 385 km de Belo Horizonte. Há fábricas de alimentos (Unilever, Yoki), farmacêuticas (União Química, Sanobiol, ACG Capsules), autopeças, vidro, embalagens (Ball) e calçados (Alpargatas), além de investimentos chineses como a XCMG, de máquinas pesadas. Para o cônjuge, há vagas em indústria, logística, comércio e saúde, que atende as cidades vizinhas.",
+      "O centro, em torno da Catedral e da Praça Senador José Bento, concentra o comércio tradicional, o Teatro Municipal e o Mercadão. O SerraSul Shopping fica na Rodovia Juscelino Kubitschek, e a Fernão Dias passa junto à área urbana. Cerca de 10 mil pessoas vivem na zona rural. O aeroporto regional fica a cerca de 8 km. O ritmo é de cidade média mineira, com acesso rápido à Serra da Mantiqueira e a Campos do Jordão, a cerca de 100 km."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Pouso Alegre)",
+        "url": "https://en.wikipedia.org/wiki/Pouso_Alegre"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem do ônibus urbano é de R$ 4,00 em 2026, e a das linhas rurais, R$ 6,50. Os valores valem desde 2 de fevereiro de 2026: a tarifa técnica do sistema subiu, mas a prefeitura manteve o subsídio e o preço ao passageiro não mudou.",
+      "Pouso Alegre não entra na pesquisa do DIEESE. A referência mineira é Belo Horizonte, onde a cesta básica custou R$ 802,99 em setembro de 2026; para quem compra em São Paulo, a cesta paulistana custou R$ 922,51 no mesmo mês."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa de Pouso Alegre (jan/2026)",
+        "url": "https://diariodotransporte.com.br/2026/01/26/tarifa-tecnica-do-transporte-coletivo-de-pouso-alegre-mg-aumenta-mas-prefeitura-mantem-subsidio-e-passageiro-nao-sera-afetado/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "A cidade tem parques grandes e gratuitos e serve de base para cachoeiras dos municípios vizinhos e para a Mantiqueira.",
+    "lugares": [
+      {
+        "nome": "Parque Natural Municipal Prof. Fernando Bonillo",
+        "km": "na cidade",
+        "desc": "Mais de 500 hectares de Mata Atlântica, criado em 1975, com quiosques, churrasqueiras, quadras e cantina. Bom para piquenique de domingo."
+      },
+      {
+        "nome": "Parque Zoobotânico",
+        "km": "na cidade",
+        "desc": "Área de 386 hectares com zoológico, orquidário, lagos e espaço de recreação. Programa fácil com crianças pequenas."
+      },
+      {
+        "nome": "Cristo Redentor e mirante",
+        "km": "na cidade",
+        "desc": "Estátua de cerca de 32 m num mirante com rampa de voo livre e vista da cidade. Vá no fim da tarde."
+      },
+      {
+        "nome": "Centro histórico e Mercadão",
+        "km": "na cidade",
+        "desc": "Catedral, Teatro Municipal de 1875, Museu Tuany Toledo e a Fonte Luminosa de 1936 ficam a poucas quadras. No Mercadão, prove o pastel de farinha de milho."
+      },
+      {
+        "nome": "Cachoeira da Pedra Redonda (Congonhal)",
+        "km": "município vizinho",
+        "desc": "Poço amplo de água clara, bom para banho tranquilo. Melhor no verão, com cuidado depois de chuvas."
+      },
+      {
+        "nome": "Campos do Jordão",
+        "km": "~100 km",
+        "desc": "Destino de serra para fim de semana de inverno, com restaurantes e passeios. Reserve hospedagem com antecedência em julho."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Accor, o que fazer em Pouso Alegre",
+        "url": "https://all.accor.com/pt-br/brasil/magazine/one-hour-one-day-one-week/o-que-fazer-em-pouso-alegre-c2f05.shtml"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para voos, compare Guarulhos e Viracopos: São Paulo fica a cerca de 200 km pela Fernão Dias, bem mais perto que Confins, a quase 400 km.",
+    "Para ir a Belo Horizonte, conte com cerca de 385 km pela Fernão Dias: a capital mineira fica quase duas vezes mais longe que São Paulo.",
+    "Se for usar ônibus para a zona rural, conte com tarifa de R$ 6,50, contra R$ 4,00 nas linhas urbanas (2026)."
+  ]
+}

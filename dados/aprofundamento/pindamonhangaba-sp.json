@@ -1,0 +1,90 @@
+{
+  "slug": "pindamonhangaba-sp",
+  "lede": "Cidade industrial do Vale do Paraíba, polo da reciclagem de alumínio, com trem para Campos do Jordão saindo do município.",
+  "cidade": {
+    "paragrafos": [
+      "Pindamonhangaba, ou Pinda, tem como data oficial a emancipação em 10 de julho de 1705. Cresceu com o café no século XIX, época dos palacetes que ainda marcam o centro, e ganhou o apelido de Princesa do Norte. O Censo 2022 contou 165.428 moradores, e a estimativa de 2025 é de 172.681, num município de 730 km² a 540 m de altitude.",
+      "A indústria responde por cerca de um terço do PIB, que foi de R$ 9 bilhões em 2020. A cidade tem um dos maiores polos de reciclagem de alumínio da América Latina, com a Novelis, e fábricas da Gerdau, da Tenaris (tubos de aço), da Confab, além de químicas e farmacêuticas. Para o cônjuge, há vagas na indústria, no comércio e nos serviços, e Taubaté e São José dos Campos ampliam o mercado de trabalho a curta distância pela Dutra.",
+      "A Via Dutra passa pelo km 99 e corta o município, que se estende do Rio Paraíba do Sul até a Serra da Mantiqueira. O centro antigo guarda os palacetes do café e a Igreja de São José; a área rural sobe a serra, com cachoeiras, sítios e a Reserva Ecológica do Trabiju. No ensino superior, há o UniFUNVIC e a Fatec. Taubaté fica ao lado, e São Paulo a cerca de 150 km. O ritmo é de interior paulista, com a vida da cidade organizada em torno da rodovia e das fábricas."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Pindamonhangaba)",
+        "url": "https://pt.wikipedia.org/wiki/Pindamonhangaba-SP"
+      },
+      {
+        "nome": "Wikipedia (Pindamonhangaba, en)",
+        "url": "https://en.wikipedia.org/wiki/Pindamonhangaba"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "O ônibus urbano, operado pela Viva Pinda, custa R$ 4,50 no bilhete eletrônico e R$ 5,50 em dinheiro em 2026. Em março de 2026 a tarifa técnica do sistema subiu para R$ 8,32, mas a prefeitura ampliou o subsídio, de até R$ 1,1 milhão por mês, e o valor pago pelo passageiro não mudou. Vale fazer o cartão logo ao chegar: a diferença é de R$ 1 por viagem.",
+      "Pinda não entra na pesquisa da cesta básica do DIEESE. A referência paulista é a capital, onde a cesta custou R$ 922,51 em setembro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa de Pindamonhangaba (mar/2026)",
+        "url": "https://diariodotransporte.com.br/2026/03/06/pindamonhangaba-sp-reajusta-tarifa-tecnica-do-transporte-para-r-832-e-mantem-subsidio-municipal-de-ate-r-11-milhao-por-mes/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O centro guarda casarões do café com entrada gratuita, e a serra da Mantiqueira começa dentro do próprio município.",
+    "lugares": [
+      {
+        "nome": "Palacete 10 de Julho",
+        "km": "na cidade",
+        "desc": "Casarão de arquitetura francesa dos anos 1870, antiga residência dos barões de Itapeva. Entrada gratuita; passeio rápido no centro."
+      },
+      {
+        "nome": "Museu Histórico e Pedagógico D. Pedro I e D. Leopoldina",
+        "km": "na cidade",
+        "desc": "Palacete de 1850 do Visconde da Palmeira, em taipa de pilão, com acervo sobre a cidade e a elite do café. Bom para visita escolar."
+      },
+      {
+        "nome": "Bosque da Princesa",
+        "km": "na cidade",
+        "desc": "Área verde no centro com árvores nativas e exóticas, algumas doadas por D. Pedro II, ligada à visita da Princesa Isabel e do Conde d'Eu. Bom para caminhada curta e piquenique."
+      },
+      {
+        "nome": "Cachoeira dos Búfalos",
+        "km": "zona rural",
+        "desc": "Queda d'água no pé da Mantiqueira, de acesso fácil, com poço para banho. Melhor nos meses quentes; evite depois de chuva forte."
+      },
+      {
+        "nome": "Estrada de Ferro Campos do Jordão",
+        "km": "na cidade",
+        "desc": "A ferrovia parte de Pinda e sobe a serra até Campos do Jordão, chegando ao ponto ferroviário mais alto do Brasil, a 1.743 m. Confira horários e trechos em operação antes de ir."
+      },
+      {
+        "nome": "Pico do Itapeva e Campos do Jordão",
+        "km": "~45 km",
+        "desc": "Mirante na Mantiqueira com vista do Vale do Paraíba, e a cidade turística logo acima. Evite subir em feriados de julho, quando a estrada congestiona."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "São Paulo Secreto (Pindamonhangaba)",
+        "url": "https://saopaulosecreto.com/o-que-fazer-pindamonhangaba-interior-sao-paulo/"
+      },
+      {
+        "nome": "Wikipédia (Pindamonhangaba)",
+        "url": "https://pt.wikipedia.org/wiki/Pindamonhangaba-SP"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Ao escolher bairro, veja de que lado da Dutra fica o imóvel e onde fica a OM: atravessar a rodovia todo dia pesa no tempo de deslocamento.",
+    "Faça o bilhete eletrônico do ônibus na primeira semana: a passagem sai R$ 4,50, contra R$ 5,50 em dinheiro.",
+    "Traga agasalho: no inverno a média cai para perto de 11 °C, e julho quase não tem chuva (27,5 mm em média), com manhãs frias e secas."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "petropolis-rj",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Petrópolis foi fundada por decreto de D. Pedro II em 16 de março de 1843, a partir do plano do major Júlio Frederico Koeler, e povoada no início por imigrantes alemães. Serviu de residência de verão da corte e é considerada a segunda cidade planejada do país. O Censo 2022 contou 278.881 moradores, e a estimativa de 2025 é de 294.926, num município de 796 km² dividido em cinco distritos: Petrópolis (centro), Cascatinha, Itaipava, Pedro do Rio e Posse.",
+      "A economia gira em torno de turismo, serviços e indústria. A cidade é o segundo maior polo cervejeiro do país, com a Bohemia, o Grupo Petrópolis e uma fábrica da antiga Brasil Kirin, e tem indústrias de chocolate e produtos naturais. O Laboratório Nacional de Computação Científica (LNCC) fica no município e abriga o supercomputador Santos Dumont. Para o cônjuge, há vagas em turismo, comércio, saúde e ensino, e o Rio fica a pouco mais de uma hora.",
+      "A cidade é comprida e acompanha os vales. O centro histórico e os bairros vizinhos, como Valparaíso e Quitandinha, ficam no 1º distrito; Bingen, na entrada da cidade, tem a rodoviária e acesso direto à BR-040. Itaipava, a cerca de 15 km, e Araras, a cerca de 20 km, têm condomínios, casas e clima mais frio. O trânsito se concentra no centro e na Estrada União e Indústria nos fins de semana, com o movimento de turistas. Em fevereiro de 2022, chuvas fortes causaram deslizamentos que mataram mais de 150 pessoas."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Petrópolis)",
+        "url": "https://en.wikipedia.org/wiki/Petr%C3%B3polis"
+      },
+      {
+        "nome": "QuintoAndar, bairros de Petrópolis",
+        "url": "https://www.quintoandar.com.br/guias/?p=2474655"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem do ônibus municipal é de R$ 5,90, valor homologado pela Justiça em agosto de 2025. Em agosto de 2026 o sindicato das empresas (Setranspetro) calculou uma tarifa de R$ 7,05, mas o reajuste depende de aprovação da CPTrans e do conselho municipal; confira o valor vigente antes de chegar.",
+      "Petrópolis não entra na pesquisa do DIEESE. A referência fluminense é o Rio de Janeiro, onde a cesta básica custou R$ 913,46 em setembro de 2026, alta de 14,29% em 12 meses."
+    ],
+    "fontes": [
+      {
+        "nome": "Correio da Manhã, tarifa de R$ 5,90 (ago/2025)",
+        "url": "https://www.correiodamanha.com.br/petropolitano/2025/08/215626-justica-homologa-nova-tarifa-de-rs-590-em-petropolis.html"
+      },
+      {
+        "nome": "Correio da Manhã, Setranspetro calcula R$ 7,05 (ago/2026)",
+        "url": "https://www.correiodamanha.com.br/petropolitano/2026/08/312790-setranspetro-calcula-tarifa-de-rs-705-em-petropolis.html"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Boa parte dos passeios do centro é gratuita ou barata, e a serra oferece trilhas e cachoeiras a menos de meia hora.",
+    "lugares": [
+      {
+        "nome": "Palácio Quitandinha",
+        "km": "na cidade",
+        "desc": "Antigo hotel-cassino dos anos 1940, hoje administrado pelo Sesc, com exposições, visitas guiadas e boliche. Entrada gratuita, de terça a domingo, das 10h às 16h30."
+      },
+      {
+        "nome": "Casa de Santos Dumont",
+        "km": "na cidade",
+        "desc": "A Encantada, casa de verão projetada pelo inventor, com escada de degraus alternados e o chuveiro aquecido a álcool. Agrada às crianças; entrada de R$ 10, de terça a domingo."
+      },
+      {
+        "nome": "Catedral e Palácio de Cristal",
+        "km": "na cidade",
+        "desc": "A catedral neogótica guarda o Mausoléu Imperial; moradores têm entrada gratuita às quartas com comprovante de residência. O Palácio de Cristal, de ferro e vidro, é gratuito e sedia a Bauernfest."
+      },
+      {
+        "nome": "Cervejaria Bohemia",
+        "km": "na cidade",
+        "desc": "Fábrica-museu da cervejaria fundada em 1853, com tour autoguiado de quinta a domingo (R$ 48 a inteira, meia de R$ 24). Programa mais voltado a adultos."
+      },
+      {
+        "nome": "Itaipava",
+        "km": "~15 km",
+        "desc": "Distrito na Estrada União e Indústria com restaurantes, feiras, pubs e lojas. Nos fins de semana o trânsito na estrada fica lento; prefira ir cedo."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "QuintoAndar, o que fazer em Petrópolis",
+        "url": "https://www.quintoandar.com.br/guias/?p=2474594"
+      },
+      {
+        "nome": "Wikipedia (Petrópolis)",
+        "url": "https://en.wikipedia.org/wiki/Petr%C3%B3polis"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Leve em conta o clima na escolha do bairro: Quitandinha está entre as áreas mais frias e úmidas da cidade, e Itaipava e Araras ficam a 15 a 20 km do centro, o que pesa no deslocamento diário.",
+    "Prepare a casa para umidade: janeiro tem em média mais de 300 mm de chuva, e mofo em armários é comum. Desumidificador e roupa de cama extra ajudam no inverno.",
+    "Se morar no centro, guarde o comprovante de residência: ele dá gratuidade na catedral às quartas e descontos em atrações locais."
+  ]
+}
