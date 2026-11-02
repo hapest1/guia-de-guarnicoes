@@ -1,0 +1,119 @@
+{
+  "slug": "porto-alegre-rs",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "O povoamento começou por volta de 1752, quando casais vindos dos Açores se instalaram na margem do Guaíba; o lugar chegou a se chamar Porto dos Casais. A data oficial de fundação é 26 de março de 1772. A cidade cresceu como porto fluvial e centro do comércio gaúcho. O Censo 2022 contou 1,33 milhão de moradores, e a região metropolitana tem cerca de 4,1 milhões.",
+      "A economia é de serviços, comércio e administração pública, com indústria forte na região metropolitana. Têm sede na cidade empresas como Gerdau, Zaffari e RBS, e a PUCRS mantém o Tecnopuc, um dos maiores parques tecnológicos da América Latina. Para o cônjuge, há vagas em saúde, educação, tecnologia, serviços e setor público.",
+      "A cidade fica na margem leste do Lago Guaíba. O Centro Histórico concentra o Mercado Público e os órgãos públicos; a Zona Norte nobre e o eixo Moinhos de Vento e Petrópolis reúnem comércio e serviços, e a Zona Sul é mais verde e espalhada. O Trensurb, com 22 estações em 43 km, liga o Centro a Canoas e Novo Hamburgo. A cheia de 2024 atingiu bairros às margens do Guaíba e cidades vizinhas."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Porto Alegre)",
+        "url": "https://en.wikipedia.org/wiki/Porto_Alegre"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 19 de fevereiro de 2026, a passagem de ônibus municipal custa R$ 5,30. A cesta básica subiu para R$ 889,15 em setembro de 2026, segundo o DIEESE, alta de 9,58% em 12 meses; foram necessárias 120 horas e 40 minutos de trabalho com salário mínimo para comprá-la."
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Porto Alegre, tarifa 2026",
+        "url": "https://prefeitura.poa.br/smmu/noticias/onibus-e-taxi-passam-operar-com-novas-tarifas-partir-desta-quinta"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "A referência de saúde do Exército no Sul é o Hospital Militar de Área de Porto Alegre, que recebe casos de maior complexidade de toda a 3ª Região Militar. A cidade tem também a Policlínica Militar de Porto Alegre, para consultas e exames. A rede conveniada ao FuSEx é informada pela seção de saúde da OM.",
+      "Na rede civil, Porto Alegre é polo médico do Sul. O Hospital de Clínicas de Porto Alegre, ligado à UFRGS, e o complexo da Santa Casa de Misericórdia estão entre os maiores do país, e há hospitais particulares de alta complexidade, como o Moinhos de Vento e o São Lucas da PUCRS."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (CMS)",
+        "url": "https://en.wikipedia.org/wiki/Southern_Military_Command_(Brazil)"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "A cidade tem o Colégio Militar de Porto Alegre, do Sistema Colégio Militar do Brasil. No ensino superior, a Universidade Federal do Rio Grande do Sul (UFRGS) é uma das mais bem avaliadas do país, e a PUCRS é a principal universidade particular. O Instituto Federal do Rio Grande do Sul (IFRS) tem câmpus na capital.",
+      "A rede particular de educação básica inclui colégios tradicionais de ordens religiosas e de origem alemã, concentrados na Zona Norte nobre e em torno do Moinhos de Vento."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Porto Alegre)",
+        "url": "https://en.wikipedia.org/wiki/Porto_Alegre"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "Pelas normais do INMET de 1991 a 2020, a média das máximas é de 25,6 °C e a das mínimas, 15,8 °C, com cerca de 1.498 mm de chuva por ano bem distribuídos. O verão é quente e abafado, com máximas de 29 °C a 30 °C, e o inverno é frio e úmido, com mínimas perto de 10 °C em julho. Não há estação seca; setembro e outubro estão entre os meses de mais chuva.",
+    "chuvoso": [
+      9,
+      10
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Porto Alegre)",
+        "url": "https://en.wikipedia.org/wiki/Porto_Alegre"
+      },
+      {
+        "nome": "Climatempo, climatologia de Porto Alegre",
+        "url": "https://www.climatempo.com.br/climatologia/363/portoalegre-br"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "A vida ao ar livre gira em torno do Guaíba e dos parques. A Serra Gaúcha e o litoral norte ficam a duas horas de carro.",
+    "lugares": [
+      {
+        "nome": "Orla do Guaíba e Usina do Gasômetro",
+        "km": "na cidade",
+        "desc": "Calçadão à beira do lago com ciclovia, quadras e o pôr do sol mais famoso da cidade. A Usina do Gasômetro é ponto de partida do ônibus turístico."
+      },
+      {
+        "nome": "Parque Farroupilha (Redenção)",
+        "km": "na cidade",
+        "desc": "Parque de 37 hectares no centro, com lago, pequeno zoológico e o Auditório Araújo Vianna. Aos domingos tem o Brique da Redenção, feira de antiguidades e artesanato."
+      },
+      {
+        "nome": "Mercado Público",
+        "km": "na cidade",
+        "desc": "Mercado histórico no Centro com bancas de carne, erva-mate, temperos e restaurantes tradicionais. Fica junto à estação do Trensurb."
+      },
+      {
+        "nome": "Fundação Iberê Camargo",
+        "km": "na cidade",
+        "desc": "Museu projetado por Álvaro Siza, aberto em 2008, com obras de Iberê Camargo e vista para o Guaíba. Bom para uma tarde tranquila."
+      },
+      {
+        "nome": "Gramado e Canela",
+        "km": "~115 km",
+        "desc": "Cidades da Serra Gaúcha com parques, chocolaterias e o Natal Luz entre novembro e janeiro. No inverno lotam; reserve hospedagem cedo."
+      },
+      {
+        "nome": "Capão da Canoa e Torres",
+        "km": "~140 a 200 km",
+        "desc": "Praias do litoral norte gaúcho pela Freeway. Torres tem falésias e o Parque da Guarita; a melhor época é de dezembro a março."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Porto Alegre)",
+        "url": "https://en.wikipedia.org/wiki/Porto_Alegre"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Antes de alugar, consulte o mapa de áreas atingidas pela cheia de 2024 e pergunte se o prédio teve água na garagem ou no térreo.",
+    "Prefira imóvel com ar-condicionado quente e frio: o verão passa de 30 °C e o inverno é úmido, com mínimas perto de 10 °C.",
+    "Se for morar na Região Metropolitana, veja se o trajeto pode ser feito pelo Trensurb, que evita a BR-116 congestionada entre Canoas e a capital."
+  ]
+}

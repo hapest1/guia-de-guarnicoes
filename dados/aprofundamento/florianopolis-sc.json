@@ -1,0 +1,123 @@
+{
+  "slug": "florianopolis-sc",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "O povoamento oficial começou em 1673 com o nome de Nossa Senhora do Desterro. Casais vindos dos Açores chegaram no século XVIII e deixaram marcas no sotaque, na pesca e na renda de bilro. Em 1893 a cidade passou a se chamar Florianópolis, em homenagem ao marechal Floriano Peixoto. O Censo 2022 contou 537.211 moradores; a região metropolitana passa de 1,1 milhão.",
+      "A economia se apoia em tecnologia da informação, turismo e administração pública. As empresas de software e serviços de TI estão entre as que mais faturam na cidade, e o governo estadual e a UFSC estão entre os grandes empregadores. Para o cônjuge, há vagas em tecnologia, serviços, saúde e ensino; o comércio e o turismo têm forte sazonalidade no verão.",
+      "A maior parte do território fica na Ilha de Santa Catarina, ligada ao continente por três pontes: Hercílio Luz, de 1926, Colombo Salles e Pedro Ivo Campos. O Centro e os bairros próximos concentram serviços; o Norte da Ilha tem as praias mais procuradas, e o Sul, como o Ribeirão da Ilha, mantém ar de vila. Não há rodovia de contorno da ilha, e o trânsito trava nas pontes e na SC-401 nos horários de pico."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Florianópolis)",
+        "url": "https://en.wikipedia.org/wiki/Florianópolis"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 1º de janeiro de 2026, a passagem de ônibus custa R$ 6,20 com o Cartão Cidadão e R$ 7,70 no pagamento por QR Code. As linhas executivas saem por R$ 20,00. Ter o cartão faz diferença de R$ 1,50 por viagem.",
+      "A cesta básica subiu para R$ 915,62 em setembro de 2026, segundo o DIEESE, alta de 12,89% em 12 meses, a segunda mais cara do país atrás de São Paulo."
+    ],
+    "fontes": [
+      {
+        "nome": "TVT News, tarifas 2026",
+        "url": "https://tvtnews.com.br/passagem-de-onibus-confira-valor-da-passagem-2026/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "A guarnição tem o Hospital de Guarnição de Florianópolis, que atende os beneficiários do FuSEx. A rede conveniada (hospitais, clínicas e laboratórios) é informada pela seção de saúde da OM; casos de maior complexidade podem ser encaminhados a Curitiba ou Porto Alegre.",
+      "Na rede civil, o Hospital Universitário da UFSC atende pelo SUS na Trindade, e o Hospital Infantil Joana de Gusmão é a referência pediátrica do estado. A cidade tem também hospitais particulares no Centro e no continente."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (CMS)",
+        "url": "https://en.wikipedia.org/wiki/Southern_Military_Command_(Brazil)"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "Florianópolis não tem Colégio Militar; o mais próximo é o de Curitiba, a cerca de 300 km. A cidade tem a Universidade Federal de Santa Catarina (UFSC), na Trindade, o Instituto Federal de Santa Catarina (IFSC), com câmpus no Centro e no continente, e dois câmpus da Universidade do Estado de Santa Catarina (UDESC).",
+      "A rede particular inclui colégios tradicionais no Centro e escolas bilíngues no Norte e no Leste da Ilha."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Florianópolis)",
+        "url": "https://en.wikipedia.org/wiki/Florianópolis"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "O clima é subtropical úmido, sem estação seca, com cerca de 1.766 mm de chuva por ano e umidade perto de 80% (normais 1991-2020). No verão as máximas ficam entre 26 °C e 27 °C, e janeiro e fevereiro são os meses mais chuvosos; no inverno as mínimas caem a 14 °C ou 15 °C. O vento sul frio e o nordeste constante marcam o dia a dia.",
+    "chuvoso": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Florianópolis)",
+        "url": "https://en.wikipedia.org/wiki/Florianópolis"
+      },
+      {
+        "nome": "Climatempo, climatologia de Florianópolis",
+        "url": "https://www.climatempo.com.br/climatologia/377/florianopolis-sc"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "A ilha tem praias para cada perfil, de mar calmo a ondas fortes, e vilas açorianas com frutos do mar. Fora da temporada, os passeios ficam mais tranquilos.",
+    "lugares": [
+      {
+        "nome": "Lagoa da Conceição",
+        "km": "na cidade",
+        "desc": "Maior lagoa da ilha, com restaurantes, bares e esportes como kitesurfe e stand-up. As dunas da Joaquina ficam perto, para descer de prancha de areia."
+      },
+      {
+        "nome": "Santo Antônio de Lisboa",
+        "km": "na cidade",
+        "desc": "Vila açoriana no Norte da Ilha, com casario antigo e restaurantes de ostras de frente para o mar. O pôr do sol é o horário mais procurado."
+      },
+      {
+        "nome": "Ribeirão da Ilha",
+        "km": "na cidade",
+        "desc": "A parte mais antiga da cidade, com a igreja de 1806 e sotaque açoriano. Tem fazendas de ostras e restaurantes à beira-mar."
+      },
+      {
+        "nome": "Ponte Hercílio Luz",
+        "km": "na cidade",
+        "desc": "Ponte pênsil de 1926, símbolo da cidade, aberta a pedestres e ciclistas. À noite é iluminada; bom passeio curto a partir do Centro."
+      },
+      {
+        "nome": "Praias do Norte (Jurerê e Canasvieiras)",
+        "km": "na cidade",
+        "desc": "Mar calmo e raso, bom para crianças. No verão lotam; vá cedo ou prefira dias de semana."
+      },
+      {
+        "nome": "Fortaleza de Anhatomirim",
+        "km": "~30 km",
+        "desc": "Fortaleza do século XVIII numa ilha da baía norte, com acesso por escuna. O passeio de barco dura meio dia e tem chance de ver golfinhos."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Florianópolis)",
+        "url": "https://en.wikipedia.org/wiki/Florianópolis"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Visite o bairro no horário em que você vai trabalhar: atravessar as pontes ou a SC-401 no pico pode levar mais de uma hora.",
+    "Faça o Cartão Cidadão: com ele a passagem sai a R$ 6,20, contra R$ 7,70 no QR Code.",
+    "Se puder, feche o aluguel fora de dezembro a fevereiro: na temporada a oferta cai e muitos imóveis viram aluguel por temporada.",
+    "Prefira imóvel com ventilação e desumidificador: a umidade média perto de 80% favorece mofo em armários e paredes."
+  ]
+}

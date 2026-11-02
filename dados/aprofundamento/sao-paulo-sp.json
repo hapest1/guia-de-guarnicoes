@@ -1,0 +1,129 @@
+{
+  "slug": "sao-paulo-sp",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "São Paulo nasceu em 25 de janeiro de 1554, quando padres jesuítas, entre eles Manuel da Nóbrega e José de Anchieta, ergueram o colégio de Piratininga no ponto hoje chamado Pátio do Colégio. A vila ficou pequena por três séculos. O salto veio com o café, as ferrovias e a imigração no fim do século XIX, e a cidade virou a maior do país. O Censo 2022 contou 11,45 milhões de moradores, e a Grande São Paulo passa de 21 milhões.",
+      "A economia gira em torno de serviços. O município responde por cerca de 10% do PIB nacional e abriga a B3, a bolsa de valores do país. Os escritórios se concentram na Avenida Paulista, na Faria Lima e na região da Berrini, e há vagas em saúde, educação, tecnologia, comércio e serviços financeiros. Para o cônjuge, é a guarnição com o maior mercado de trabalho formal do Brasil.",
+      "A cidade é dividida em zonas (Centro, Norte, Sul, Leste e Oeste), cortadas pelas marginais dos rios Tietê e Pinheiros. Distâncias de 20 km podem levar mais de uma hora no pico. O metrô, que começou a operar em 1974, e os trens da CPTM são a forma mais previsível de atravessar a cidade. O ritmo é acelerado, com vida cultural intensa, mas a rotina da família depende muito de morar perto do trabalho e da escola."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (São Paulo)",
+        "url": "https://en.wikipedia.org/wiki/São_Paulo"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 6 de janeiro de 2026, a passagem de ônibus municipal custa R$ 5,30, e o metrô e os trens metropolitanos, R$ 5,40. A integração ônibus e trilhos sai por R$ 9,38. Quem usa só ônibus todos os dias pode comprar o Bilhete Único Mensal por R$ 257,53; o mensal integrado custa R$ 411,13.",
+      "A cesta básica subiu para R$ 922,51 em setembro de 2026, segundo o DIEESE, alta de 9,53% em 12 meses. Foram necessárias 125 horas e 12 minutos de trabalho com salário mínimo para comprá-la. Com base nesse valor, o DIEESE estimou em R$ 7.750,01 o salário mínimo necessário para uma família de quatro pessoas."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifas 2026",
+        "url": "https://diariodotransporte.com.br/2026/01/06/aumentos-de-tarifas-de-transportes-em-sao-paulo-ja-estao-em-vigor-nesta-terca-feira-06-e-mais-cidades-devem-definir-reajustes-veja-quais/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "A referência de saúde do Exército na cidade é o Hospital Militar de Área de São Paulo (HMASP), que atende os beneficiários do FuSEx do Comando Militar do Sudeste. A rede conveniada ao FuSEx (hospitais, clínicas e laboratórios) é informada pela seção de saúde da OM, e vale pedir a lista atualizada antes de escolher o bairro.",
+      "Na rede civil, São Paulo concentra hospitais de referência nacional, como o Hospital das Clínicas da Faculdade de Medicina da USP, com o Instituto do Coração (InCor), e o Hospital São Paulo, ligado à Unifesp. A oferta de especialistas é a maior do país, mas a distância e o trânsito pesam: veja quanto tempo leva do imóvel até o hospital de referência."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (CMSE)",
+        "url": "https://en.wikipedia.org/wiki/Southeastern_Military_Command_(Brazil)"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "Não há Colégio Militar na capital paulista. A cidade tem a Universidade de São Paulo (USP), fundada em 1934 e a maior do país, a Universidade Federal de São Paulo (Unifesp) e o Instituto Federal de São Paulo (IFSP), com câmpus na capital. A Unesp, universidade estadual, tem a reitoria na cidade.",
+      "Na rede particular, a oferta inclui escolas bilíngues e internacionais em vários bairros das zonas Sul e Oeste, além de colégios tradicionais. As mensalidades variam muito; peça a tabela e confira a distância, porque o deslocamento escolar é um dos maiores custos de tempo da família."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (São Paulo)",
+        "url": "https://en.wikipedia.org/wiki/São_Paulo"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "Pelas normais do INMET de 1991 a 2020 (estação Mirante de Santana), a média das máximas é de 26,1 °C e a das mínimas, 16,4 °C, com cerca de 1.594 mm de chuva por ano. Janeiro, fevereiro e março são os meses mais chuvosos, com temporais de fim de tarde e alagamentos pontuais. O inverno é seco, com madrugadas entre 12 °C e 13 °C em julho e dias de ar poluído e baixa umidade.",
+    "chuvoso": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (São Paulo, normais INMET)",
+        "url": "https://en.wikipedia.org/wiki/São_Paulo"
+      },
+      {
+        "nome": "Climatempo, climatologia de São Paulo",
+        "url": "https://www.climatempo.com.br/climatologia/558/santos-sp"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "São Paulo tem programação para todo fim de semana, boa parte dela gratuita. O litoral e a Serra da Mantiqueira ficam a poucas horas de carro.",
+    "lugares": [
+      {
+        "nome": "Parque Ibirapuera",
+        "km": "na cidade",
+        "desc": "O parque mais visitado da cidade, com lagos, ciclovia, playgrounds e museus no próprio terreno. Funciona bem para piquenique e bicicleta com crianças; vá cedo no domingo."
+      },
+      {
+        "nome": "Avenida Paulista e MASP",
+        "km": "na cidade",
+        "desc": "Aos domingos a avenida fecha para carros e vira área de lazer, com músicos e feiras. O MASP fica no meio dela, com o vão livre e o acervo de arte europeia e brasileira."
+      },
+      {
+        "nome": "Pinacoteca",
+        "km": "na cidade",
+        "desc": "Museu de arte brasileira ao lado da Estação da Luz e do Jardim da Luz. Bom para uma manhã de sábado, com café no prédio."
+      },
+      {
+        "nome": "Mercado Municipal (Mercadão)",
+        "km": "na cidade",
+        "desc": "Mercado no Centro famoso pelo sanduíche de mortadela e pelo pastel de bacalhau. Tem frutas, temperos e queijos; evite o horário do almoço no sábado."
+      },
+      {
+        "nome": "Liberdade",
+        "km": "na cidade",
+        "desc": "Bairro de imigração japonesa, chinesa e coreana, com feira de comida de rua nos fins de semana e lojas de produtos asiáticos. Fica perto da estação Japão-Liberdade do metrô."
+      },
+      {
+        "nome": "Santos e litoral",
+        "km": "~75 km",
+        "desc": "Pela Anchieta ou pela Imigrantes, Santos tem orla com jardim extenso, aquário e museu do café. Saia cedo e evite feriados prolongados, quando a serra congestiona."
+      },
+      {
+        "nome": "Campos do Jordão",
+        "km": "~170 km",
+        "desc": "Cidade serrana na Mantiqueira, procurada no inverno pelo frio e pelo festival de música de julho. Para criança, há trilhas leves e passeio de trem."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (São Paulo)",
+        "url": "https://en.wikipedia.org/wiki/São_Paulo"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Escolha o bairro pela linha de metrô ou trem que leva à OM: um trajeto de 15 km de carro pode passar de uma hora no horário de pico.",
+    "Confira o rodízio municipal de veículos pelo final da placa antes de trazer o carro: no centro expandido, ele proíbe circular em um dia útil por semana nos horários de pico.",
+    "Faça o Bilhete Único logo na chegada; com ele você paga a integração entre ônibus em vez de nova tarifa a cada embarque.",
+    "Pesquise se a rua do imóvel alaga: de dezembro a março os temporais de fim de tarde alagam pontos baixos da cidade."
+  ]
+}

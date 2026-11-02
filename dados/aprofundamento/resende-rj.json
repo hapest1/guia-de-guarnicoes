@@ -1,0 +1,119 @@
+{
+  "slug": "resende-rj",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Resende começou em meados do século XVIII como Nossa Senhora da Conceição do Campo Alegre da Paraíba Nova, às margens do Rio Paraíba do Sul. Ganhou o nome atual em 1801, em homenagem ao Conde de Resende. Prosperou com o café e com o leite e hoje é uma das principais cidades do Sul Fluminense. O Censo 2022 contou 129.612 moradores, e a estimativa de 2025 é de 137.697.",
+      "A economia é industrial. O município tem a fábrica de caminhões e ônibus da MAN Latin America (antiga Volkswagen Caminhões) e a fábrica de combustível nuclear das Indústrias Nucleares do Brasil (INB). A Nissan tem fábrica no polo de Resende, e a região inclui unidades em Porto Real e Itatiaia. Para o cônjuge, há vagas em indústria, logística, comércio, saúde e ensino.",
+      "A Via Dutra corta o município e separa bairros dos dois lados. O centro antigo fica junto ao rio, e bairros residenciais se espalham pelas encostas. Engenheiro Passos, na divisa com Minas, e a Serrinha do Alambari, com cachoeiras, são áreas rurais do próprio município. O ritmo é de cidade média tranquila, com acesso fácil a Rio e São Paulo."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Resende)",
+        "url": "https://en.wikipedia.org/wiki/Resende,_Rio_de_Janeiro"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Resende não entra na pesquisa da cesta básica do DIEESE. A referência fluminense é o Rio de Janeiro, onde a cesta custou R$ 913,46 em setembro de 2026, alta de 14,29% em 12 meses, a maior entre as capitais do Sudeste."
+    ],
+    "fontes": [
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "O atendimento dos beneficiários do FuSEx em Resende passa pela seção de saúde da OM e pela rede conveniada, cuja lista atualizada é informada pela própria OM. Para casos de maior complexidade, as referências militares ficam no Rio de Janeiro, a cerca de 170 km.",
+      "Na rede civil, Resende é polo de saúde do Sul Fluminense, com hospitais particulares e filantrópicos. Volta Redonda, a cerca de 40 km, complementa a oferta de especialistas e exames."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Resende)",
+        "url": "https://en.wikipedia.org/wiki/Resende,_Rio_de_Janeiro"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "Resende não tem Colégio Militar; o mais próximo é o do Rio de Janeiro, a cerca de 170 km. No ensino superior, a cidade tem câmpus da UERJ, voltado a engenharia, e faculdades particulares. Volta Redonda, ao lado, tem câmpus da UFF.",
+      "A rede particular de educação básica tem colégios tradicionais e unidades de redes nacionais. Peça a lista de escolas mais procuradas a quem já serve na guarnição, porque as vagas costumam acabar no início do ano."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Resende)",
+        "url": "https://en.wikipedia.org/wiki/Resende,_Rio_de_Janeiro"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "Pelas normais de 1981 a 2010, a média das máximas é de 27,7 °C e a das mínimas, 17,1 °C, com cerca de 1.618 mm de chuva por ano. Dezembro e janeiro são os meses mais chuvosos, com 260 a 290 mm, e agosto é o mais seco, com cerca de 21 mm. Os verões são quentes no vale, enquanto as áreas altas do município, como Engenheiro Passos, são bem mais frias no inverno.",
+    "chuvoso": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Resende, normais 1981-2010)",
+        "url": "https://en.wikipedia.org/wiki/Resende,_Rio_de_Janeiro"
+      },
+      {
+        "nome": "Climatempo, climatologia de Resende",
+        "url": "https://www.climatempo.com.br/climatologia/319/resende-rj"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "Resende fica ao pé da Serra da Mantiqueira, com cachoeiras, vilas de montanha e o primeiro parque nacional do país a menos de uma hora.",
+    "lugares": [
+      {
+        "nome": "Serrinha do Alambari",
+        "km": "~20 km",
+        "desc": "Área de proteção ambiental com cachoeiras de poços rasos e pousadas. Bom para crianças nos dias quentes; vá cedo no verão."
+      },
+      {
+        "nome": "Cachoeira da Fumaça",
+        "km": "~40 km",
+        "desc": "Queda alta no limite do município, com acesso por estrada de terra e mirante. Melhor nos meses secos, quando a estrada fica mais firme."
+      },
+      {
+        "nome": "Parque Nacional do Itatiaia",
+        "km": "~20 km",
+        "desc": "Primeiro parque nacional do Brasil, com trilhas, cachoeiras e o Pico das Agulhas Negras na parte alta. A parte baixa tem trilhas curtas boas para família."
+      },
+      {
+        "nome": "Penedo",
+        "km": "~15 km",
+        "desc": "Vila de colonização finlandesa, no município vizinho de Itatiaia, com chocolaterias, restaurantes e a casa do Papai Noel. Programa de fim de semana com crianças."
+      },
+      {
+        "nome": "Visconde de Mauá",
+        "km": "~60 km",
+        "desc": "Vilas de montanha com cachoeiras, trutas e pousadas na Mantiqueira. As estradas são sinuosas; evite subir à noite."
+      },
+      {
+        "nome": "Paraty",
+        "km": "~150 km",
+        "desc": "Centro histórico colonial e passeios de barco pelas ilhas. Dá para ir em um fim de semana descendo pela Rio-Santos."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Resende)",
+        "url": "https://en.wikipedia.org/wiki/Resende,_Rio_de_Janeiro"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para voos, compare os aeroportos do Rio e de São Paulo: o Galeão e Guarulhos ficam a distâncias parecidas pela Dutra, e os preços variam bastante.",
+    "Na hora de escolher o imóvel, veja de que lado da Dutra ele fica: cruzar a rodovia nos horários de entrada e saída das fábricas congestiona os acessos.",
+    "Traga roupa de frio mesmo vindo do litoral: no inverno as madrugadas no vale ficam perto de 11 °C, e na serra fazem ainda menos."
+  ]
+}

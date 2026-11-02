@@ -1,0 +1,87 @@
+{
+  "slug": "santa-maria-rs",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Santa Maria surgiu em 1797 como acampamento da comissão portuguesa que demarcava a fronteira com as terras espanholas. No fim do século XIX virou o principal entroncamento ferroviário do Rio Grande do Sul; a Vila Belga, conjunto de casas construído para os ferroviários da companhia belga que operava as linhas, é lembrança dessa fase. A estimativa do IBGE para 2025 é de 282 mil moradores.",
+      "A economia gira em torno de serviços, comércio, ensino e setor público. A Universidade Federal de Santa Maria (UFSM), criada em 1960 como a primeira universidade federal fora de uma capital, tem dezenas de milhares de alunos e um hospital universitário. A grande presença militar, do Exército e da Base Aérea, movimenta comércio e aluguel. Para o cônjuge, as vagas mais comuns são em saúde, ensino, comércio e serviços; a indústria é pequena.",
+      "A cidade fica na Depressão Central, ao pé do rebordo da Serra Geral. O Centro concentra comércio, hospitais e colégios em torno da Avenida Rio Branco e do calçadão. A leste, o bairro de Camobi reúne o câmpus da UFSM e a Base Aérea, ligados ao Centro pelas avenidas conhecidas como Faixa Velha e Faixa Nova. As distâncias são curtas e o ritmo é de cidade média, com muitos estudantes e militares."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Santa Maria)",
+        "url": "https://en.wikipedia.org/wiki/Santa_Maria,_Rio_Grande_do_Sul"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 9 de março de 2026, a passagem de ônibus custa R$ 7,25 em dinheiro, uma das mais caras do país. Com a bilhetagem eletrônica cai para R$ 6,60, e com o vale-transporte para R$ 6,65. Estudantes cadastrados pagam R$ 3,82. Em abril de 2026, a maioria dos passageiros já pagava pelo cartão, e a cidade discutia nova licitação do transporte.",
+      "Santa Maria não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 889,15 em setembro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa Santa Maria 2026",
+        "url": "https://diariodotransporte.com.br/2026/03/04/tarifa-do-transporte-coletivo-de-santa-maria-rs-sofre-reajuste-para-r-725-a-partir-de-segunda-feira-09/"
+      },
+      {
+        "nome": "Jornal do Comércio, passagem em Santa Maria (abr/2026)",
+        "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/04/1245861-entidade-defende-passagem-a-rs-725-em-santa-maria.html"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Além da vida universitária, Santa Maria tem patrimônio ferroviário e religioso no centro e, a menos de uma hora, a serra e as colônias italianas da Quarta Colônia.",
+    "lugares": [
+      {
+        "nome": "Vila Belga",
+        "km": "na cidade",
+        "desc": "Conjunto de casas coloridas do fim do século XIX, perto da antiga estação ferroviária. Bom para caminhar e fotografar; em alguns fins de semana há feiras e eventos."
+      },
+      {
+        "nome": "Catedral Metropolitana",
+        "km": "na cidade",
+        "desc": "Igreja no Centro com pinturas nas paredes e no teto. Visita curta, que combina com uma volta pela Praça Saldanha Marinho."
+      },
+      {
+        "nome": "Basílica da Medianeira",
+        "km": "na cidade",
+        "desc": "Santuário que recebe a Romaria da Medianeira, em novembro, uma das maiores procissões do estado. Fora da romaria, a visita é tranquila."
+      },
+      {
+        "nome": "Itaara",
+        "km": "~15 km",
+        "desc": "Município vizinho no alto da serra, com cachoeiras, balneários e restaurantes de estrada. Bom para os dias quentes de dezembro a março."
+      },
+      {
+        "nome": "Quarta Colônia",
+        "km": "~30 a 60 km",
+        "desc": "Região de imigração italiana com Silveira Martins, Nova Palma e outras cidades, conhecida pela comida colonial, mirantes e fósseis de dinossauros. Reconhecida como Geoparque Mundial da Unesco."
+      },
+      {
+        "nome": "Câmpus da UFSM",
+        "km": "na cidade",
+        "desc": "Em Camobi, o câmpus tem área verde para caminhada e um planetário com sessões abertas ao público. Programa barato com crianças."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Santa Maria)",
+        "url": "https://en.wikipedia.org/wiki/Santa_Maria,_Rio_Grande_do_Sul"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Faça o cartão do transporte logo na chegada: em dinheiro a passagem custa R$ 7,25, e no cartão cai para R$ 6,60.",
+    "Se a família for usar a UFSM ou a Base Aérea, olhe imóveis em Camobi; o trajeto até o Centro congestiona no início da manhã e no fim da tarde.",
+    "Procure imóvel no fim do ano: com o calendário da UFSM, a disputa por apartamentos perto do câmpus aumenta em fevereiro e março.",
+    "Prepare aquecedor e roupa de frio para junho a agosto: o vento minuano deixa a sensação térmica bem mais baixa que a temperatura."
+  ]
+}

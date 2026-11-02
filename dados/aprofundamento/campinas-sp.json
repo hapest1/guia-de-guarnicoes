@@ -1,0 +1,120 @@
+{
+  "slug": "campinas-sp",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Campinas foi fundada em 1774 e enriqueceu no século XIX com a cana e, depois, com o café, que trouxe ferrovias e imigrantes. No século XX virou polo industrial e de pesquisa. Hoje é a sede de uma região metropolitana com cerca de 20 municípios, e o Censo 2022 contou perto de 1,14 milhão de moradores na cidade.",
+      "A economia combina indústria, logística e conhecimento. A Unicamp, o CPqD, o Instituto Agronômico (IAC) e o CNPEM, onde fica o acelerador de partículas Sirius, atraem empresas de tecnologia e pesquisa. O Aeroporto de Viracopos é um dos maiores terminais de carga do país, e a refinaria de Paulínia fica na região. Para o cônjuge, há vagas em tecnologia, saúde, logística, ensino e comércio.",
+      "O Centro concentra comércio popular e serviços. Bairros como Cambuí, Taquaral e Guanabara ficam perto dele; Barão Geraldo, onde está a Unicamp, tem vida própria ao norte. Os distritos de Sousas e Joaquim Egídio, a leste, têm ar de interior, com chácaras e estradas rurais. O trânsito pesa nas rodovias Anhanguera, Bandeirantes e Dom Pedro I nos horários de pico. O ritmo é de cidade grande, mas mais calmo que o da capital."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Campinas)",
+        "url": "https://en.wikipedia.org/wiki/Campinas"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 1º de janeiro de 2026, a passagem de ônibus com o Bilhete Único Comum custa R$ 6,00, e a do vale-transporte, R$ 6,50. É mais cara que a da capital paulista, de R$ 5,30. A segunda integração dentro do tempo permitido custa R$ 0,50.",
+      "Como Campinas não é capital, não entra na pesquisa da cesta básica do DIEESE. A referência mais próxima é São Paulo, onde a cesta custou R$ 922,51 em setembro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa Campinas 2026",
+        "url": "https://diariodotransporte.com.br/2025/12/30/tarifas-do-transporte-coletivo-de-campinas-sp-sobem-a-partir-de-1-de-janeiro/"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "A guarnição tem o Posto Médico de Guarnição de Campinas, que faz o atendimento ambulatorial dos beneficiários do FuSEx. Internações e casos complexos seguem a rede conveniada ou o Hospital Militar de Área de São Paulo, a cerca de 95 km. A lista atualizada da rede conveniada é informada pela seção de saúde da OM.",
+      "Na rede civil, a principal referência é o Hospital de Clínicas da Unicamp, em Barão Geraldo, com atendimento de alta complexidade pelo SUS. A cidade tem também o hospital da PUC-Campinas, o Hospital Municipal Mário Gatti e vários hospitais particulares."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (CMSE)",
+        "url": "https://en.wikipedia.org/wiki/Southeastern_Military_Command_(Brazil)"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "Campinas não tem Colégio Militar; o mais próximo, segundo esta ficha, é o de Curitiba. A cidade é polo universitário: tem a Unicamp, criada em 1966, a PUC-Campinas e um câmpus do Instituto Federal de São Paulo (IFSP). O Colégio Técnico de Campinas (Cotuca), ligado à Unicamp, oferece ensino técnico gratuito por processo seletivo.",
+      "A rede particular é ampla, com escolas bilíngues concentradas nas regiões do Cambuí, Taquaral e Barão Geraldo e em condomínios próximos à Dom Pedro I."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Campinas)",
+        "url": "https://en.wikipedia.org/wiki/Campinas"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "Pelas médias climatológicas de 30 anos, as máximas ficam entre 23 °C e 28 °C ao longo do ano, e as mínimas descem a 12 °C em julho. De outubro a março chove forte, com 261 mm em janeiro; de junho a agosto o tempo é seco, com menos de 50 mm por mês. No inverno seco, a umidade baixa à tarde e as queimadas na região podem deixar o ar ruim.",
+    "chuvoso": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "fontes": [
+      {
+        "nome": "Climatempo, climatologia de Campinas",
+        "url": "https://www.climatempo.com.br/climatologia/418/campinas-br"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "Campinas tem parques grandes no meio da cidade e distritos rurais a poucos quilômetros. No entorno, há cidades de turismo rural e o Circuito das Águas.",
+    "lugares": [
+      {
+        "nome": "Lagoa do Taquaral (Parque Portugal)",
+        "km": "na cidade",
+        "desc": "Parque em volta de uma lagoa, com pista de caminhada, pedalinhos, réplica de caravela e espaço para crianças. É o ponto de encontro de fim de semana da cidade."
+      },
+      {
+        "nome": "Bosque dos Jequitibás",
+        "km": "na cidade",
+        "desc": "Área de mata no centro com árvores centenárias, pequeno zoológico e museus. Programa curto e com sombra, bom para crianças pequenas."
+      },
+      {
+        "nome": "Mercado Municipal",
+        "km": "na cidade",
+        "desc": "Prédio histórico no Centro com bancas de frutas, temperos e lanchonetes. Vá pela manhã para fugir do movimento."
+      },
+      {
+        "nome": "Sousas e Joaquim Egídio",
+        "km": "~15 km",
+        "desc": "Distritos com ruas de interior, bares, restaurantes e estradas usadas por ciclistas. Ideal para almoço de domingo e passeio de bicicleta."
+      },
+      {
+        "nome": "Maria Fumaça Campinas–Jaguariúna",
+        "km": "na cidade",
+        "desc": "Passeio de trem a vapor mantido por associação de preservação ferroviária, com saída da estação Anhumas. Funciona em fins de semana; compre antes."
+      },
+      {
+        "nome": "Holambra",
+        "km": "~40 km",
+        "desc": "Cidade de colonização holandesa, conhecida pelas flores e pela Expoflora, feira que acontece em setembro. Tem moinho, restaurantes e campos para fotos."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Campinas)",
+        "url": "https://en.wikipedia.org/wiki/Campinas"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Faça o Bilhete Único logo na chegada: com ele a passagem sai a R$ 6,00, e a segunda integração custa só R$ 0,50.",
+    "Se a família for usar a Unicamp ou o HC, considere Barão Geraldo; o acesso pela Rodovia Dom Pedro I ou pela Avenida Albino J. B. de Oliveira congestiona no pico.",
+    "Para voos, compare Viracopos com Guarulhos: muitas rotas da Azul saem de Campinas, e o trajeto até Guarulhos passa de 90 km."
+  ]
+}

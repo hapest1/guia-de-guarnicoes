@@ -1,0 +1,126 @@
+{
+  "slug": "curitiba-pr",
+  "lede": "Capital mais fria entre as grandes do país, conhecida pelo planejamento urbano, pelos parques e pelo ônibus expresso em canaletas.",
+  "cidade": {
+    "paragrafos": [
+      "Curitiba nasceu como Vila de Nossa Senhora da Luz dos Pinhais, em 1693, e ganhou o nome atual em 1721. Cresceu com o comércio de gado e a erva-mate e, depois de 1850, recebeu poloneses, italianos, alemães e ucranianos; tem a maior comunidade de origem polonesa do Brasil. Santa Felicidade, ao norte, ainda guarda a herança italiana. O Censo 2022 contou 1,77 milhão de moradores.",
+      "A economia combina indústria, comércio e serviços. A Cidade Industrial de Curitiba (CIC) e a região metropolitana reúnem montadoras e fornecedores, como Renault, Volvo e Volkswagen, além de empresas de tecnologia e o setor público estadual. Para o cônjuge, há boa oferta em serviços, saúde, educação e indústria.",
+      "A cidade cresceu ao longo de eixos estruturais com canaletas exclusivas de ônibus, a Rede Integrada de Transporte, com as estações-tubo que viraram símbolo local. O Centro, o Batel e o Água Verde concentram serviços; os bairros ao sul e o CIC são mais populosos e distantes. O ritmo é de capital organizada e mais reservada, com muitos parques e inverno longo."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Curitiba)",
+        "url": "https://en.wikipedia.org/wiki/Curitiba"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem de ônibus está congelada em R$ 6,00 durante 2026, enquanto a prefeitura prepara o novo contrato de concessão. Aos domingos e feriados vale o Domingão Paga Meia, com tarifa de R$ 3,00.",
+      "A cesta básica subiu para R$ 841,93 em setembro de 2026, segundo o DIEESE, alta de 11,43% em 12 meses. No inverno, conte com gasto extra de energia ou gás para aquecedor e chuveiro, já que as mínimas ficam perto de 10 °C em julho."
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Curitiba, tarifa 2026",
+        "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220"
+      },
+      {
+        "nome": "DIEESE/Conab, cesta básica set/2026",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+      }
+    ]
+  },
+  "saude": {
+    "paragrafos": [
+      "A referência de saúde do Exército no Paraná é o Hospital Geral de Curitiba, que atende os beneficiários do FuSEx da guarnição e de outras cidades do estado. A rede conveniada (hospitais, clínicas e laboratórios) é informada pela seção de saúde da OM.",
+      "Na rede civil, o Hospital de Clínicas da UFPR é o maior hospital público do estado, e o Hospital Pequeno Príncipe é referência nacional em pediatria. A cidade tem também hospitais particulares e filantrópicos de alta complexidade, como os ligados à PUCPR."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (CMS)",
+        "url": "https://en.wikipedia.org/wiki/Southern_Military_Command_(Brazil)"
+      }
+    ]
+  },
+  "educacao": {
+    "paragrafos": [
+      "A cidade tem o Colégio Militar de Curitiba, do Sistema Colégio Militar do Brasil. No ensino superior, há a Universidade Federal do Paraná (UFPR), fundada em 1912 e uma das mais antigas do país, a Universidade Tecnológica Federal do Paraná (UTFPR) e o Instituto Federal do Paraná (IFPR). A PUCPR é a principal universidade particular.",
+      "A rede particular de educação básica é ampla e inclui escolas bilíngues e colégios de tradição alemã e católica."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Curitiba)",
+        "url": "https://en.wikipedia.org/wiki/Curitiba"
+      }
+    ]
+  },
+  "clima": {
+    "texto": "Pelas normais do INMET de 1991 a 2020, a média das máximas é de 22,8 °C e a das mínimas, 12,8 °C, com cerca de 1.631 mm de chuva por ano. Chove bem distribuído o ano todo, com mais volume de dezembro a fevereiro. No inverno as mínimas ficam perto de 10 °C, há geada em várias madrugadas e o recorde de frio é de −5,4 °C.",
+    "chuvoso": [
+      12,
+      1,
+      2
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Curitiba)",
+        "url": "https://en.wikipedia.org/wiki/Curitiba"
+      },
+      {
+        "nome": "Climatempo, climatologia de Curitiba",
+        "url": "https://www.climatempo.com.br/climatologia/271/curitiba"
+      }
+    ]
+  },
+  "lazer": {
+    "intro": "Curitiba tem dezenas de parques e bosques gratuitos, boa parte com estrutura para crianças. A Serra do Mar e o litoral ficam a cerca de uma hora e meia.",
+    "lugares": [
+      {
+        "nome": "Jardim Botânico",
+        "km": "na cidade",
+        "desc": "Estufa de vidro, jardim francês e trilhas no bosque. É o cartão-postal da cidade; vá de manhã cedo no fim de semana."
+      },
+      {
+        "nome": "Parque Barigui",
+        "km": "na cidade",
+        "desc": "Parque grande com lago, pista de caminhada, playgrounds e churrasqueiras. As capivaras chamam a atenção das crianças."
+      },
+      {
+        "nome": "Museu Oscar Niemeyer",
+        "km": "na cidade",
+        "desc": "Museu de artes visuais em prédio com formato de olho, no Centro Cívico. Tem exposições rotativas e gramado em volta."
+      },
+      {
+        "nome": "Ópera de Arame e Parque Tanguá",
+        "km": "na cidade",
+        "desc": "A Ópera de Arame fica numa antiga pedreira; o Tanguá, perto, tem mirante e cascata. Dá para fazer os dois na mesma tarde."
+      },
+      {
+        "nome": "Feira do Largo da Ordem",
+        "km": "na cidade",
+        "desc": "Feira de artesanato e comida aos domingos, no Centro Histórico. Combine com a Rua XV de Novembro, o calçadão, e a Rua das Flores."
+      },
+      {
+        "nome": "Santa Felicidade",
+        "km": "na cidade",
+        "desc": "Bairro de imigração italiana com restaurantes grandes de massas e frango. Programa clássico de almoço de domingo em família."
+      },
+      {
+        "nome": "Trem para Morretes",
+        "km": "~70 km",
+        "desc": "O Serra Verde Express desce a Serra do Mar até Morretes, terra do barreado. Reserve com antecedência e prefira dias sem neblina."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia (Curitiba)",
+        "url": "https://en.wikipedia.org/wiki/Curitiba"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Escolha imóvel com boa insolação e, se possível, aquecimento: as casas não costumam ter calefação, e de junho a agosto as madrugadas ficam perto de 10 °C.",
+    "Faça o cartão transporte e aproveite os domingos e feriados: a passagem cai de R$ 6,00 para R$ 3,00.",
+    "Traga ou compre roupa de frio e capas de chuva antes do inverno: chove em todos os meses, e a cidade tem mudanças rápidas de tempo no mesmo dia."
+  ]
+}
