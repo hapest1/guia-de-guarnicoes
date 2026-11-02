@@ -1,0 +1,110 @@
+{
+  "slug": "sorocaba-sp",
+  "lede": "Antiga parada dos tropeiros e \"Manchester paulista\", hoje polo industrial com mais de 1.700 fábricas a 92 km de São Paulo.",
+  "cidade": {
+    "paragrafos": [
+      "Sorocaba começou em 1654, com a capela erguida pelo bandeirante Baltasar Fernandes, e virou vila em 1661. Nos séculos XVIII e XIX foi parada obrigatória das tropas de muares que subiam do Rio Grande do Sul, e a feira de animais movimentou a economia por décadas. No fim do século XIX chegaram as tecelagens, que deram à cidade o apelido de \"Manchester paulista\". O Censo 2022 contou 723.682 moradores, e a estimativa de 2024 passa de 757 mil.",
+      "O parque industrial reúne mais de 1.700 empresas de máquinas, metalurgia, autopeças, química, cimento, papel e eletrônica. O aeroporto quase não tem voos comerciais, mas abriga um centro de serviços da Embraer e é forte na aviação executiva. O Parque Tecnológico, com quase 1 milhão de m², junta laboratórios de pesquisa e dez universidades, e a Uniso, de 1994, foi a primeira universidade da região. Para o cônjuge, as vagas se concentram em indústria, comércio, logística e ensino.",
+      "O rio Sorocaba corta a cidade de sul a norte, com avenidas marginais. O centro histórico guarda a Catedral, o Mercado Municipal e o comércio tradicional. A Zona Sul, no entorno do Campolim e do Shopping Iguatemi Esplanada, concentra prédios novos e serviços, enquanto Norte e Leste são mais residenciais. Os ônibus saem de terminais centrais como São Paulo e Santo Antônio, e há faixas exclusivas em ruas como a Comendador Oetterer. A cidade tem mais de 100 km de ciclovias e bicicletas públicas do IntegraBike. A comunidade de origem espanhola é das maiores do país."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Sorocaba)",
+        "url": "https://pt.wikipedia.org/wiki/Parque_das_Paineiras_(Sorocaba)"
+      },
+      {
+        "nome": "Wikipedia EN (Sorocaba)",
+        "url": "https://en.wikipedia.org/wiki/Sorocaba"
+      },
+      {
+        "nome": "Wikipédia (Parque Tecnológico de Sorocaba)",
+        "url": "https://pt.wikipedia.org/wiki/Parque_Tecnol%C3%B3gico_de_Sorocaba"
+      },
+      {
+        "nome": "Wikipédia (Universidade de Sorocaba)",
+        "url": "https://pt.wikipedia.org/wiki/Universidade_de_Sorocaba"
+      },
+      {
+        "nome": "Wikipédia (Interior de São Paulo)",
+        "url": "https://pt.wikipedia.org/wiki/Interior_de_S%C3%A3o_Paulo"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 30 de janeiro de 2026, a passagem de ônibus urbano custa R$ 5,30 no Passe Social. Antes era R$ 4,40, uma alta de cerca de 20%. O vale-transporte subiu de R$ 5,90 para R$ 7,10, e o passe estudante, que estava gratuito, voltou a custar R$ 2,65. A Zona Azul de duas horas passou de R$ 1,50 para R$ 2,00.",
+      "O lazer básico pesa pouco no orçamento: parques municipais e Jardim Botânico não cobram entrada, e o zoológico cobra ingresso de poucos reais, com entrada grátis para crianças pequenas e maiores de 60 anos."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, jan/2026",
+        "url": "https://diariodotransporte.com.br/2026/01/01/sorocaba-sp-anuncia-reajuste-de-tarifas-dos-onibus-de-r-440-para-r-530/"
+      },
+      {
+        "nome": "QuintoAndar Guias (parques de Sorocaba)",
+        "url": "https://www.quintoandar.com.br/guias/?p=427128"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Sorocaba tem mais de 90 áreas verdes ligadas por ciclovias, e quase todo o lazer de fim de semana é gratuito. A maioria dos parques fecha às segundas.",
+    "lugares": [
+      {
+        "nome": "Zoológico Quinzinho de Barros",
+        "km": "na cidade",
+        "desc": "Aberto em 1968 na Vila Hortência, tem cerca de 15 hectares com lago, trecho de Mata Atlântica e mais de mil animais, 70% de espécies brasileiras. Funciona de terça a domingo, das 9h às 17h, e abriga o Museu Histórico Sorocabano."
+      },
+      {
+        "nome": "Jardim Botânico Irmãos Villas-Bôas",
+        "km": "na cidade",
+        "desc": "Criado em 2014 no Jardim Iguatemi, tem 70 mil m², o Palacete de Cristal, orquidário e roseiral. Entrada gratuita, de terça a domingo, das 9h às 17h. Bom para piquenique."
+      },
+      {
+        "nome": "Parque das Águas",
+        "km": "na cidade",
+        "desc": "Com cerca de 162 mil m² na Zona Norte, tem lagos, ciclovia, pista de skate, circuito infantil e um grande palco ao ar livre usado em shows. Fica aberto 24 horas."
+      },
+      {
+        "nome": "Parque Natural Chico Mendes",
+        "km": "na cidade",
+        "desc": "No Alto da Boa Vista, soma 145 mil m², com cerca de 2 km de trilhas na mata, quiosques com churrasqueira e playground. O viveiro distribui até 10 mudas nativas por visitante."
+      },
+      {
+        "nome": "Parque Campolim",
+        "km": "na cidade",
+        "desc": "Na Zona Sul, tem pista de caminhada e corrida, academia ao ar livre, lago e área infantil. Enche nos fins de semana, então vá cedo."
+      },
+      {
+        "nome": "Museu da Estrada de Ferro Sorocabana",
+        "km": "na cidade",
+        "desc": "Expõe locomotivas e vagões da antiga Sorocabana, um programa que costuma agradar crianças. Abre de terça a sexta, das 9h às 17h."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "QuintoAndar Guias (parques de Sorocaba)",
+        "url": "https://www.quintoandar.com.br/guias/?p=427128"
+      },
+      {
+        "nome": "Viaja que Passa (o que fazer em Sorocaba)",
+        "url": "https://www.viajaquepassa.com.br/o-que-fazer-sorocaba.md"
+      },
+      {
+        "nome": "Wikipedia EN (Zoológico Quinzinho de Barros)",
+        "url": "https://en.wikipedia.org/wiki/Municipal_Zoological_Park_Quinzinho_de_Barros"
+      },
+      {
+        "nome": "Estado de Minas, jul/2026",
+        "url": "https://www.em.com.br/mundo-corporativo/2026/07/7457396-atracoes-turisticas-fortalecem-sorocaba.html"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para viagens de avião, conte com Viracopos (Campinas) ou Guarulhos: o aeroporto de Sorocaba quase não tem voos comerciais. A Azul oferece ônibus gratuito entre Sorocaba e Viracopos para seus passageiros.",
+    "Se tem filho estudante, peça o passe estudante logo na chegada: desde janeiro de 2026 ele custa R$ 2,65, metade do Passe Social.",
+    "Leve agasalho para o inverno: em julho a mínima média fica perto de 12 °C (normais 1981-2010), e casas sem sol da manhã ficam frias."
+  ]
+}

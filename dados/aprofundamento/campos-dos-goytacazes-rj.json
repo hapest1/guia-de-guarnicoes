@@ -1,0 +1,105 @@
+{
+  "slug": "campos-dos-goytacazes-rj",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "A vila de São Salvador dos Campos dos Goytacazes foi fundada em 29 de maio de 1677 e virou cidade em 28 de março de 1835. O nome junta as planícies abertas da região e os índios goitacás que viviam ali. Com 4.032 km², é o maior município do estado do Rio em área, e o Censo 2022 contou 483.540 moradores. Durante boa parte do século XX esteve entre os maiores produtores de açúcar do mundo: no início do século havia 27 usinas; em 2020, só duas seguiam ativas.",
+      "O petróleo da Bacia de Campos mudou a economia, e os royalties pesam no orçamento municipal, que caiu de R$ 2,03 bilhões em 2015 para R$ 1,69 bilhão em 2016 com a queda do barril. A base da Petrobras fica em Macaé, a cerca de 100 km. O Porto do Açu, em São João da Barra, a cerca de 45 km, respondeu por 30% das exportações de petróleo do país em 2023. A cidade é polo regional de ensino, com UENF, IFF, UFF e faculdades particulares, e o campo ainda produz cana, abacaxi, coco e leite. Em dezembro de 2016 havia 90.282 empregos formais.",
+      "O rio Paraíba do Sul divide a cidade: o Centro fica na margem sul e a região de Guarus na margem norte. A travessia se faz por pontes como a da Lapa e a General Dutra; a ponte de ferro Barcelos Martins foi interditada em 2026 para avaliação estrutural. O município tem 14 distritos, do litoral do Farol de São Tomé às serras do Parque Estadual do Desengano. O terreno é plano e o calor é forte, com recorde de 41,6 °C em outubro de 2012."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Campos dos Goytacazes)",
+        "url": "https://en.wikipedia.org/wiki/Campos_dos_Goytacazes"
+      },
+      {
+        "nome": "Wikipedia EN (Rio de Janeiro State)",
+        "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State"
+      },
+      {
+        "nome": "Wikipedia EN (Macaé)",
+        "url": "https://en.wikipedia.org/wiki/Macaé"
+      },
+      {
+        "nome": "Prefeitura de Campos, Perfil 2018",
+        "url": "https://www.campos.rj.gov.br/newdocs/1542233062PERFILCAMPOS2018.pdf"
+      },
+      {
+        "nome": "Linha Guarus–Centro após interdição da ponte, abr/2026",
+        "url": "https://www.prefeituracamposgoytacazes.org/nova-linha-de-onibus-passa-a-ligar-guarus-ao-centro-apos-interdicao-da-ponte-barcelos-martins/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem de ônibus municipal custa R$ 3,50 desde 21 de março de 2022, quando subiu de R$ 2,75. O valor seguia o mesmo em 2026, inclusive na linha emergencial Guarus–Centro criada após a interdição da ponte de ferro. Desde maio de 2025, ônibus e vans das linhas da região Norte (Setor C) também cobram R$ 3,50."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, mar/2022",
+        "url": "https://diariodotransporte.com.br/2022/03/17/passagem-de-onibus-em-campos-dos-goytacazes-rj-sobe-para-r-350/"
+      },
+      {
+        "nome": "J3News, mai/2025",
+        "url": "https://j3news.com/2025/05/25/horarios-de-vans-e-onibus-do-setor-c-sao-definidos-em-campos-com-tarifa-a-r350/"
+      },
+      {
+        "nome": "Linha Guarus–Centro, abr/2026",
+        "url": "https://www.prefeituracamposgoytacazes.org/nova-linha-de-onibus-passa-a-ligar-guarus-ao-centro-apos-interdicao-da-ponte-barcelos-martins/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O território enorme do município vai da praia à serra, com lagoas pelo caminho. A maioria dos passeios exige carro.",
+    "lugares": [
+      {
+        "nome": "Lagoa de Cima",
+        "km": "~25 km",
+        "desc": "Lagoa de água doce no interior do município, procurada nos fins de semana para banho, passeio de barco e restaurantes de peixe."
+      },
+      {
+        "nome": "Lagoa Feia",
+        "km": "~40 km",
+        "desc": "Uma das maiores lagoas de água doce do país, na baixada entre Campos e Quissamã. Bom para pesca e para ver o pôr do sol."
+      },
+      {
+        "nome": "Parque Estadual do Desengano",
+        "km": "~90 km",
+        "desc": "Criado em 1970, protege Mata Atlântica nas serras entre Campos, Santa Maria Madalena e São Fidélis. Trilhas e cachoeiras para quem gosta de caminhada."
+      },
+      {
+        "nome": "Orla do Paraíba do Sul",
+        "km": "na cidade",
+        "desc": "O rio que corta a cidade é um dos atrativos listados pela prefeitura. A beira-rio do Centro é o lugar para caminhar no fim da tarde, quando o calor diminui."
+      },
+      {
+        "nome": "Horto Municipal",
+        "km": "na cidade",
+        "desc": "Área verde urbana listada entre os atrativos do município, boa para levar criança para correr à sombra."
+      },
+      {
+        "nome": "Grussaí e Atafona (São João da Barra)",
+        "km": "~40 km",
+        "desc": "Praias do município vizinho, na foz do Paraíba do Sul, onde fica também o Porto do Açu. Opção de praia mais próxima além do Farol de São Tomé."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Campos, Perfil 2018",
+        "url": "https://www.campos.rj.gov.br/newdocs/1542233062PERFILCAMPOS2018.pdf"
+      },
+      {
+        "nome": "Wikipedia EN (Campos dos Goytacazes)",
+        "url": "https://en.wikipedia.org/wiki/Campos_dos_Goytacazes"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Alugue com ar-condicionado nos quartos: a média anual é de 24,6 °C e o recorde chegou a 41,6 °C em 2012.",
+    "Escolha a margem do Paraíba do Sul pensando no trajeto diário. Com a ponte de ferro interditada desde 2026, a travessia entre Guarus e o Centro fica concentrada nas pontes da Lapa e General Dutra.",
+    "Se o cônjuge procura vaga em óleo e gás, considere o deslocamento: boa parte das vagas fica em Macaé (~100 km) e no Porto do Açu (~45 km), não em Campos."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "uberlandia-mg",
+  "lede": "Maior cidade do Triângulo Mineiro, polo de serviços, logística e universidade federal, com aeroporto de mais de 1 milhão de passageiros por ano.",
+  "cidade": {
+    "paragrafos": [
+      "O antigo distrito de São Pedro de Uberabinha se separou de Uberaba em 31 de agosto de 1888 e adotou o nome Uberlândia em 1929. A partir dos anos 1950 a cidade tomou de Araguari o papel de centro comercial e logístico da região, favorecida pelo cruzamento das BR-050, BR-365 e BR-452.",
+      "Os serviços respondem pela maior parte da economia, seguidos da indústria. O Distrito Industrial, na Zona Norte, reúne empresas como Cargill, Souza Cruz, Algar Telecom e Coca-Cola, e o campo produz milho, soja, cana e leite. A Universidade Federal de Uberlândia (UFU), federalizada em 1978, tem cerca de 50 mil estudantes e é grande empregadora. Em 2021 a cidade ficou em 1º lugar no ranking de serviços de cidades inteligentes da Conexis. O aeroporto, a 9 km do centro, recebeu 1,06 milhão de passageiros em 2025, com voos diretos para São Paulo, Brasília, Belo Horizonte e Campinas.",
+      "A cidade se divide em cinco setores (Central, Norte, Sul, Leste e Oeste), com 77 bairros oficiais reconhecidos em 2020. O hipercentro fica entre as avenidas Getúlio Vargas e Rio Branco, perto do Mercado Municipal e da Praça Clarimundo Carneiro. A Avenida João Naves de Ávila tem um corredor de ônibus com 13 estações em cerca de 10 km, que passa pelo campus Santa Mônica da UFU. O Sistema Integrado de Transportes (SIT) tem cinco terminais e linhas expressas e alimentadoras. O rio Uberabinha atravessa a área urbana e abastece a cidade."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Uberlândia)",
+        "url": "https://pt.wikipedia.org/wiki/Uberlandia"
+      },
+      {
+        "nome": "Wikipédia (Triângulo Mineiro)",
+        "url": "https://pt.wikipedia.org/wiki/Triangulo_mineiro"
+      },
+      {
+        "nome": "Wikipédia (Lista de bairros de Uberlândia)",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_bairros_de_Uberl%C3%A2ndia"
+      },
+      {
+        "nome": "Wikipédia (Centro de Uberlândia)",
+        "url": "https://pt.wikipedia.org/wiki/Centro_(Uberl%C3%A2ndia)"
+      },
+      {
+        "nome": "Wikipedia EN (Aeroporto de Uberlândia)",
+        "url": "https://en.wikipedia.org/wiki/Uberl%C3%A2ndia_Airport"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem de ônibus custa R$ 5,70 desde 26 de julho de 2025, valor fixado por decreto municipal, e foi mantida sem reajuste em 2026. O corredor da João Naves de Ávila e os cinco terminais do SIT permitem integração entre linhas, o que ajuda quem mora longe do centro a fazer o trajeto com uma tarifa."
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Uberlândia, jul/2025",
+        "url": "https://www.uberlandia.mg.gov.br/2025/07/23/prefeitura-define-novo-valor-da-tarifa-de-onibus-para-equilibrar-operacao-e-manter-desenvolvimento-do-transporte-publico/"
+      },
+      {
+        "nome": "Diário de Uberlândia (tarifa mantida)",
+        "url": "https://diariodeuberlandia.com.br/noticia/41024/sem-aumento-tarifa-do-transporte-publico-e-mantida-em-r-570-uberlandia"
+      },
+      {
+        "nome": "Wikipédia (Uberlândia)",
+        "url": "https://pt.wikipedia.org/wiki/Uberlandia"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer de dia a dia gira em torno dos parques e do centro antigo. Para natureza, o cerrado e as cachoeiras ficam a menos de uma hora.",
+    "lugares": [
+      {
+        "nome": "Parque do Sabiá",
+        "km": "na cidade",
+        "desc": "O maior parque urbano da cidade tem zoológico, aquário, sete lagos e pista de cooper de 5,1 km. Fica ao lado do estádio e é o programa clássico de domingo com crianças."
+      },
+      {
+        "nome": "Parque Municipal Victorio Siquierolli",
+        "km": "na cidade",
+        "desc": "Área de 232 mil m² de cerrado preservado, com trilhas e um museu da biodiversidade. Bom para mostrar às crianças a fauna e a flora da região."
+      },
+      {
+        "nome": "Mercado Municipal",
+        "km": "na cidade",
+        "desc": "Autorizado em 1923 e construído em 1944, no centro, com arquitetura considerada moderna para a época. Fica perto do Museu Municipal e do Teatro Rondon Pacheco, e dá para combinar tudo num passeio a pé."
+      },
+      {
+        "nome": "Praça Clarimundo Carneiro e Museu Municipal",
+        "km": "na cidade",
+        "desc": "No limite do hipercentro, a praça abriga o Museu Municipal. Perto ficam a Igreja do Rosário, o templo urbano mais antigo da cidade, e o Teatro Rondon Pacheco."
+      },
+      {
+        "nome": "Parque Estadual do Pau Furado",
+        "km": "~30 km",
+        "desc": "Criado em 2007 entre Uberlândia e Araguari como compensação ambiental de usinas hidrelétricas, protege remanescentes de cerrado. Prefira a estação seca para as trilhas."
+      },
+      {
+        "nome": "Cachoeira das Irmãs (Araguari)",
+        "km": "~30 km até Araguari",
+        "desc": "Queda de grande vazão no município vizinho de Araguari, procurada para rapel e ciclismo. Melhor no fim da estação chuvosa, quando há mais água."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Uberlândia)",
+        "url": "https://pt.wikipedia.org/wiki/Uberlandia"
+      },
+      {
+        "nome": "Wikipédia (Centro de Uberlândia)",
+        "url": "https://pt.wikipedia.org/wiki/Centro_(Uberl%C3%A2ndia)"
+      },
+      {
+        "nome": "Wikipédia (Triângulo Mineiro)",
+        "url": "https://pt.wikipedia.org/wiki/Triangulo_mineiro"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Compre umidificador antes de agosto: na seca a umidade do ar pode cair abaixo de 20%, e quem vem do litoral sente nos primeiros meses.",
+    "Se a família vai depender de ônibus, procure imóvel perto do corredor da Avenida João Naves de Ávila, que liga o centro ao Setor Leste e ao campus Santa Mônica da UFU.",
+    "Para o Rio, planeje conexão: a Gol prevê encerrar os voos diretos Uberlândia–Galeão e Uberlândia–Guarulhos em janeiro de 2027. A LATAM segue com Guarulhos, Congonhas e Brasília."
+  ]
+}

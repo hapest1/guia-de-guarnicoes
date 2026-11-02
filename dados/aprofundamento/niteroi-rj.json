@@ -1,0 +1,123 @@
+{
+  "slug": "niteroi-rj",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Niterói foi fundada em 22 de novembro de 1573 pelo líder temiminó Araribóia, caso raro de cidade brasileira fundada por um indígena. Foi capital da província e depois do estado do Rio de 1834 até a fusão com a Guanabara, em 1975, com um intervalo em que Petrópolis foi a capital (1894 a 1902). Em 2010 o IDH foi de 0,837, um dos mais altos do país.",
+      "A economia é de serviços e comércio, com indústria naval, polo de moda, turismo e gastronomia. A Universidade Federal Fluminense é uma das maiores empregadoras. A cidade deixou de ser só \"dormitório\", mas muitos moradores ainda trabalham no Rio: as barcas Araribóia–Praça XV levaram cerca de 29 mil passageiros por dia em 2025, e o catamarã de Charitas, cerca de 4 mil. O terminal da Praça Araribóia tem bicicletário para 850 bicicletas.",
+      "São 52 bairros em cinco regiões de planejamento. As Praias da Baía (Icaraí, Ingá, São Francisco, Charitas) concentram prédios, comércio e o Campo de São Bento. A Região Oceânica (Piratininga, Camboinhas, Itaipu, Itacoatiara) tem casas e condomínios, mais verde e praias de mar aberto, mas fica mais longe do Centro. Pendotiba é intermediária, e as regiões Norte e Leste completam o mapa. O ponto mais alto é a Pedra do Elefante, com 412 m, na Serra da Tiririca. A prefeitura informa 100% de água tratada."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Niterói)",
+        "url": "https://en.wikipedia.org/wiki/Niterói"
+      },
+      {
+        "nome": "Prefeitura de Niterói (A cidade)",
+        "url": "https://niteroi.rj.gov.br/niteroi/"
+      },
+      {
+        "nome": "Wikipedia EN (Rio de Janeiro State)",
+        "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Quem usa o Bilhete Único Municipal (Riocard Mais cadastrado como bilhete de Niterói) paga R$ 4,45 por viagem de ônibus, valor mantido com subsídio da prefeitura. Em dinheiro, a passagem custa R$ 5,60 desde 6 de julho de 2025. Com o bilhete, a integração com as barcas sai por R$ 5,15 e com o catamarã, por R$ 8,15. Moradores de Niterói não pagam entrada no MAC.",
+      "Pelo índice FipeZAP de fevereiro de 2026 citado nesta ficha (R$ 37,81 por m²), um apartamento de 60 m² sairia por cerca de R$ 2.270 por mês, sem condomínio. Em Icaraí e na orla da baía, condomínio e IPTU costumam pesar bastante no total."
+    ],
+    "fontes": [
+      {
+        "nome": "Folha do Leste, jul/2025",
+        "url": "https://folhadoleste.com.br/nova-tarifa-de-onibus-em-niteroi/"
+      },
+      {
+        "nome": "Cidade de Niterói, jul/2025",
+        "url": "https://cidadedeniteroi.com/cidades/passagem-de-onibus-sobe-em-niteroi-saiba-como-pagar-menos/"
+      },
+      {
+        "nome": "Super Rádio Tupi, jul/2025",
+        "url": "https://www.tupi.fm/?p=2090322"
+      },
+      {
+        "nome": "Prefeitura de Niterói (Museus)",
+        "url": "https://niteroi.rj.gov.br/museus/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Além do MAC e das praias oceânicas, Niterói tem mirantes, trilhas na Mata Atlântica e praias calmas na baía. Muita coisa é gratuita.",
+    "lugares": [
+      {
+        "nome": "Parque da Cidade",
+        "km": "na cidade",
+        "desc": "No alto do Morro da Viração, a 270 m, tem mirante com vista das lagoas, das praias, da ponte e do Rio, além de rampas de voo livre. Entrada gratuita, de terça a domingo, das 7h às 18h."
+      },
+      {
+        "nome": "Parque Estadual da Serra da Tiririca",
+        "km": "Região Oceânica",
+        "desc": "Mata Atlântica entre Niterói e Maricá, com trilhas como a do Costão de Itacoatiara e a da Pedra do Elefante. O posto de recepção fica na praia de Itacoatiara e abre das 8h às 17h."
+      },
+      {
+        "nome": "Piratininga e Itaipu",
+        "km": "Região Oceânica",
+        "desc": "A Prainha de Piratininga é rasa e calma, boa para crianças. Itaipu tem águas calmas, colônia de pescadores, restaurantes de frutos do mar e um dos melhores pores do sol da cidade."
+      },
+      {
+        "nome": "Campo de São Bento",
+        "km": "na cidade",
+        "desc": "Jardim público de 36 mil m² no meio de Icaraí, com parquinho, árvores antigas e feira de artesanato nos fins de semana e feriados. Entrada gratuita."
+      },
+      {
+        "nome": "Caminho Niemeyer",
+        "km": "na cidade",
+        "desc": "Conjunto na orla da baía com o Teatro Popular Oscar Niemeyer, que tem palco reversível para shows ao ar livre, o Memorial Roberto Silveira e a Praça JK."
+      },
+      {
+        "nome": "Jurujuba e Adão e Eva",
+        "km": "na cidade",
+        "desc": "Jurujuba tem colônia de pescadores, restaurantes de frutos do mar e Festa de São Pedro em 29 de junho. As praias gêmeas de Adão e Eva, de água calma, dão acesso à Fortaleza de Santa Cruz."
+      },
+      {
+        "nome": "Solar do Jambeiro",
+        "km": "na cidade",
+        "desc": "Casarão de 1872 construído por um comerciante português e tombado pelo IPHAN em 1974. Visita curta e boa para quem gosta de história."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Niterói (Parques)",
+        "url": "https://niteroi.rj.gov.br/parques/"
+      },
+      {
+        "nome": "Prefeitura de Niterói (Praias oceânicas)",
+        "url": "https://niteroi.rj.gov.br/praias-oceanicas/"
+      },
+      {
+        "nome": "Prefeitura de Niterói (Praias da baía)",
+        "url": "https://niteroi.rj.gov.br/praias-da-baia/"
+      },
+      {
+        "nome": "Prefeitura de Niterói (Caminho Niemeyer)",
+        "url": "https://niteroi.rj.gov.br/caminho-niemeyer/"
+      },
+      {
+        "nome": "Prefeitura de Niterói (Museus)",
+        "url": "https://niteroi.rj.gov.br/museus/"
+      },
+      {
+        "nome": "Wikipedia EN (Niterói)",
+        "url": "https://en.wikipedia.org/wiki/Niterói"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Cadastre o Riocard Mais como Bilhete Único de Niterói no site oficial logo na primeira semana: sem o cadastro você paga R$ 5,60 por viagem em vez de R$ 4,45.",
+    "Se vai trabalhar no Rio, prefira morar perto da Praça Araribóia ou de Charitas: as barcas e o catamarã evitam a ponte e têm integração com o Bilhete Único.",
+    "Antes de fechar aluguel na Região Oceânica, faça o trajeto até o trabalho no horário de pico. O bairro é mais tranquilo, mas fica longe do Centro e depende quase sempre de carro ou ônibus."
+  ]
+}

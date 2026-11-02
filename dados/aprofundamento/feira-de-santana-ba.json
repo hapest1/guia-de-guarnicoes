@@ -1,0 +1,79 @@
+{
+ "slug": "feira-de-santana-ba",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Feira de Santana nasceu em torno de uma feira de gado no caminho entre o sertão e o Recôncavo, e a pecuária do interior baiano moldou a cidade. Hoje é a segunda maior cidade da Bahia, com cerca de 616 mil habitantes no Censo 2022, e é conhecida como \"Princesa do Sertão\".",
+   "A economia gira em torno do comércio e da logística. O cruzamento das BR-116, BR-324 e BR-101 atrai atacadistas, transportadoras e centros de distribuição, e o comércio atende dezenas de municípios do interior. A indústria se concentra no Centro Industrial do Subaé. A Universidade Estadual de Feira de Santana (UEFS) é a principal instituição de ensino superior e grande empregadora. Para o cônjuge, as vagas aparecem sobretudo em varejo, atacado, transporte, saúde e ensino.",
+   "A área central é contornada pelo Anel de Contorno, que serve de referência para localizar os bairros. O transporte coletivo leva cerca de 1,1 milhão de passageiros por mês, e 16% deles ainda pagavam em dinheiro em 2025. A tarifa técnica chega a R$ 11,46, e a prefeitura subsidia cerca de R$ 52 milhões por ano. Idosos e pessoas com deficiência viajam de graça. O ritmo é de cidade comercial: movimento forte durante a semana e programação concentrada em festas como a Micareta."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia EN (Bahia)",
+    "url": "https://en.wikipedia.org/wiki/Bahia"
+   },
+   {
+    "nome": "Jornal Grande Bahia, jan/2025",
+    "url": "https://jornalgrandebahia.com.br/?p=1218321"
+   },
+   {
+    "nome": "Diário do Transporte, jan/2026",
+    "url": "https://diariodotransporte.com.br/2026/01/13/tarifa-do-transporte-coletivo-de-feira-de-santana-ba-sofre-reajuste-para-r-590/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Desde 17 de janeiro de 2026 (Decreto nº 14.334), a passagem de ônibus custa R$ 5,40 com o cartão Via Feira e R$ 5,90 em dinheiro. O passe estudantil sai por R$ 2,70. Nas linhas dos distritos de Bonfim de Feira, Jaguara e Tiquaruçu, a tarifa é de R$ 6,60, e os demais distritos pagam o mesmo valor da sede."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário Oficial de Feira de Santana, Decreto 14.334/2026",
+    "url": "https://diariooficial.feiradesantana.ba.gov.br/atos/executivo/1BBDDL8J160120261739.pdf"
+   },
+   {
+    "nome": "Diário do Transporte, jan/2026",
+    "url": "https://diariodotransporte.com.br/2026/01/13/tarifa-do-transporte-coletivo-de-feira-de-santana-ba-sofre-reajuste-para-r-590/"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "O lazer local é ligado à cultura sertaneja, às feiras e às festas populares. Para praia e cidades históricas, Salvador e o Recôncavo ficam a uma hora ou pouco mais.",
+  "lugares": [
+   {
+    "nome": "Mercado de Arte Popular",
+    "km": "na cidade",
+    "desc": "No centro, reúne artesanato do sertão em couro, palha e cerâmica, além de comida regional. Bom lugar para comprar redes e peças de couro."
+   },
+   {
+    "nome": "Museu Casa do Sertão (UEFS)",
+    "km": "na cidade",
+    "desc": "Museu da universidade estadual dedicado à cultura sertaneja, com objetos do cotidiano rural e da vida dos vaqueiros. Visita curta e boa para crianças em idade escolar."
+   },
+   {
+    "nome": "Centro de Abastecimento",
+    "km": "na cidade",
+    "desc": "Grande feira popular de alimentos, onde se vê a origem comercial da cidade. Vá cedo para encontrar frutas, farinha, carne de sol e queijos da região."
+   },
+   {
+    "nome": "Cachoeira (Recôncavo)",
+    "km": "~45 km",
+    "desc": "Cidade histórica às margens do rio Paraguaçu, com casario colonial e igrejas barrocas. Em agosto acontece a Festa da Boa Morte."
+   },
+   {
+    "nome": "Chapada Diamantina (Lençóis)",
+    "km": "~330 km",
+    "desc": "Destino para feriado prolongado, com trilhas, poços e cachoeiras. A época mais seca, entre o fim do inverno e a primavera, facilita as trilhas."
+   }
+  ],
+  "fontes": []
+ },
+ "antes_de_ir": [
+  "Faça logo o cartão Via Feira: em dinheiro a passagem custa R$ 0,50 a mais, e estudantes só têm a meia-passagem (R$ 2,70) com o cartão.",
+  "Concentre as viagens de avião no aeroporto de Salvador, a cerca de 110 km pela BR-324 duplicada, e conte com pelo menos 1h30 de estrada.",
+  "Se for morar perto das saídas das rodovias, visite o imóvel em horário comercial: o tráfego de caminhões nas BRs e no Anel de Contorno é intenso por causa do papel logístico da cidade."
+ ]
+}

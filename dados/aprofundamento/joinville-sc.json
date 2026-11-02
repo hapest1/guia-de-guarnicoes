@@ -1,0 +1,122 @@
+{
+  "slug": "joinville-sc",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Joinville foi fundada em 9 de março de 1851 por imigrantes alemães, suíços e noruegueses, na antiga Colônia Dona Francisca. O nome homenageia o príncipe de Joinville, marido da princesa Francisca, filha de Dom Pedro I. Entre 1851 e 1888 chegaram cerca de 17 mil alemães. É a maior cidade de Santa Catarina, com 616.317 habitantes no Censo 2022, à frente da capital.",
+      "É o maior polo industrial do estado, com PIB de R$ 45,1 bilhões em 2021, o segundo de Santa Catarina. A produção industrial sai pelos portos da Baía da Babitonga, em São Francisco do Sul e Itapoá. Em 2022 o salário médio formal era de 2,8 salários mínimos, o 2º maior entre os 295 municípios catarinenses. A cidade contava 193 startups ativas na edição 2025 do Joinville Cidade em Dados. Univille, UDESC e o campus da UFSC também empregam e formam mão de obra.",
+      "O rio Cachoeira corta o centro e deságua na Baía da Babitonga, que tem a maior área de manguezal do litoral Sul, com 62 km². Cerca de 60% do território municipal é coberto por Mata Atlântica, e a Serra do Mar fecha o horizonte a oeste. A cidade tem mais de 50 bairros, e o Morro da Boa Vista, perto do centro, guarda o Mirante e o Parque Zoobotânico. Duas empresas operam os ônibus: Gidion na Zona Sul e Transtusa nas zonas Norte, Leste e Oeste, com integração em terminais. O sistema leva cerca de 109 mil passageiros por dia útil, e a bicicleta faz parte da rotina, a ponto de existir um Memorial da Bicicleta."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Joinville)",
+        "url": "https://en.wikipedia.org/wiki/Joinville"
+      },
+      {
+        "nome": "Wikipédia (Santa Catarina)",
+        "url": "https://pt.wikipedia.org/wiki/Santa_Catarina_(estado)"
+      },
+      {
+        "nome": "Wikipédia (Municípios de SC por PIB)",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_de_Santa_Catarina_por_PIB"
+      },
+      {
+        "nome": "Joinville Cidade em Dados 2025 (Desenvolvimento Econômico)",
+        "url": "https://www.joinville.sc.gov.br/wp-content/uploads/2025/12/Joinville-Cidade-em-Dados-2025-%E2%80%93-Desenvolvimento-Economico.pdf"
+      },
+      {
+        "nome": "Joinville Cidade em Dados 2025 (Ambiente Natural)",
+        "url": "https://www.joinville.sc.gov.br/wp-content/uploads/2025/12/Joinville-Cidade-em-Dados-2025-%E2%80%93-Ambiente-Natural.pdf"
+      },
+      {
+        "nome": "Via Circular (sistema de ônibus)",
+        "url": "https://viacircular.com.br/sistemas-de-transporte/sc139-joinville/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 1º de janeiro de 2026, a passagem de ônibus custa R$ 6,50, tanto antecipada (no cartão) quanto embarcada. A antecipada subiu 4%, de R$ 6,25. A prefeitura previu aceitar cartão de débito e crédito nos validadores ainda no primeiro bimestre de 2026.",
+      "Pelo índice FipeZAP de fevereiro de 2026 citado nesta ficha (R$ 36,15 por m²), um apartamento de 60 m² sairia por cerca de R$ 2.170 por mês, sem condomínio. Use o número como referência e compare com anúncios do bairro escolhido."
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Joinville, dez/2025",
+        "url": "https://www.joinville.sc.gov.br/noticias/transporte-coletivo-e-coleta-de-lixo-terao-reajuste-abaixo-da-inflacao-em-2026/"
+      },
+      {
+        "nome": "Diário do Transporte, dez/2025",
+        "url": "https://diariodotransporte.com.br/2025/12/20/tarifa-antecipada-do-transporte-coletivo-de-joinville-sc-sobe-para-r-650-em-2026-com-reajuste-de-4/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Muitos passeios em Joinville são gratuitos e ficam perto do centro. Como chove muito, vale ter opções cobertas e checar o tempo antes de subir o morro.",
+    "lugares": [
+      {
+        "nome": "Mirante de Joinville",
+        "km": "na cidade",
+        "desc": "Torre de concreto no Morro da Boa Vista, com vista da cidade, da Baía da Babitonga e da Serra do Mar. Entrada gratuita, todos os dias das 5h às 22h. Fecha com chuva ou vento forte, e o ônibus até lá só circula nos fins de semana e feriados."
+      },
+      {
+        "nome": "Parque Zoobotânico",
+        "km": "na cidade",
+        "desc": "No mesmo morro, tem animais da fauna silvestre brasileira, trilha, playground e áreas de descanso. Gratuito, de terça a domingo, das 9h às 17h."
+      },
+      {
+        "nome": "Estação da Memória e Memorial da Bicicleta",
+        "km": "na cidade",
+        "desc": "A antiga estação ferroviária de 1906, tombada em 2008, fica ao lado do memorial com cerca de 50 bicicletas de vários países. Gratuito, de terça a domingo, das 10h às 16h."
+      },
+      {
+        "nome": "Museu Nacional de Imigração e Colonização e Rua das Palmeiras",
+        "km": "na cidade",
+        "desc": "O museu conta a história da imigração que fundou a cidade e fica junto à Rua das Palmeiras, alameda que é um dos cartões-postais de Joinville. Bom passeio curto no centro."
+      },
+      {
+        "nome": "Torre O Farol",
+        "km": "na cidade",
+        "desc": "Prédio de 1952-1954 que já foi rodoviária e sede da prefeitura, tombado em 2005. São 106 degraus em escada caracol até o topo. Gratuito, de segunda a sexta; crianças até 12 anos sobem com adulto."
+      },
+      {
+        "nome": "Estrada Bonita",
+        "km": "zona rural de Joinville",
+        "desc": "Roteiro de turismo rural do município, com propriedades que recebem visitantes para lazer, comércio e produção artesanal. Bom programa de sábado para comprar direto do produtor."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Joinville (Mirante)",
+        "url": "https://www.joinville.sc.gov.br/servicos/visitar-mirante-de-joinville/"
+      },
+      {
+        "nome": "Prefeitura de Joinville (Parque Zoobotânico)",
+        "url": "https://www.joinville.sc.gov.br/servicos/visitar-parque-zoobotanico/"
+      },
+      {
+        "nome": "Prefeitura de Joinville (Estação da Memória)",
+        "url": "https://www.joinville.sc.gov.br/servicos/visitar-estacao-da-memoria/"
+      },
+      {
+        "nome": "Prefeitura de Joinville (Torre O Farol)",
+        "url": "https://www.joinville.sc.gov.br/servicos/visitar-torre-o-farol/"
+      },
+      {
+        "nome": "Prefeitura de Joinville (pontos de visitação)",
+        "url": "https://www.joinville.sc.gov.br/assunto/cultura-turismo-e-lazer/pontos-de-visitacao/"
+      },
+      {
+        "nome": "Joinville Cidade em Dados 2025 (Desenvolvimento Econômico)",
+        "url": "https://www.joinville.sc.gov.br/wp-content/uploads/2025/12/Joinville-Cidade-em-Dados-2025-%E2%80%93-Desenvolvimento-Economico.pdf"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Prepare-se para chuva o ano inteiro: a média é de cerca de 1.900 mm por ano, com janeiro passando de 250 mm. Antes de alugar, pergunte se a rua alaga em dias de chuva forte ou maré alta.",
+    "A umidade média do ar fica em torno de 86%. Prefira imóvel com sol e boa ventilação e use desumidificador ou sachês antimofo nos armários.",
+    "Se a mudança cair em julho, reserve hospedagem com antecedência: é o mês do Festival de Dança, que atrai grupos de todo o país."
+  ]
+}
