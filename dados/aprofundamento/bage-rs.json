@@ -1,0 +1,102 @@
+{
+  "slug": "bage-rs",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "A data oficial de fundação é 17 de julho de 1811, quando um grupo que acompanhava as tropas portuguesas rumo à Banda Oriental se fixou na região. O povoado virou vila em 1846 e cidade em 1859. Antes disso, jesuítas tinham fundado ali uma redução em 1683, e os espanhóis ergueram o Forte de Santa Tecla em 1773. Bagé recebeu ferrovia para Rio Grande em 1884 e, em 1899, foi a primeira cidade do estado com iluminação elétrica.",
+      "A economia combina serviços, comércio, indústria leve e campo. A pecuária de corte e de ovinos, os frigoríficos e os depósitos de lã têm peso histórico, e nos últimos anos o município passou a figurar entre os grandes produtores de trigo do estado, além de arroz, soja e milho. A Urcamp tem sede na cidade, que também concentra vinícolas, olivais e criatórios de cavalo crioulo no entorno. Para o cônjuge, as vagas aparecem sobretudo em comércio, saúde, ensino e serviços ligados ao agro.",
+      "A cidade cresceu em volta da Praça da Matriz, e o Centro Histórico é tombado pelo Iphae. Ali ficam a Catedral de São Sebastião, a Prefeitura, de 1900, e prédios antigos reaproveitados, como a velha estação férrea, hoje centro administrativo municipal. A antiga charqueada de Santa Thereza, de 1897, virou um núcleo histórico com casa, igreja e teatro. O ritmo é de cidade média do interior, com distâncias curtas e vida social em clubes, praças e churrascarias."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Bagé, en)",
+        "url": "https://en.wikipedia.org/wiki/Bag%C3%A9"
+      },
+      {
+        "nome": "Jornal do Comércio (patrimônio de Bagé, 2025)",
+        "url": "https://www.jornaldocomercio.com/jcsul/2025/02/1189778-historia-de-bage-e-viva-em-cada-canto-da-cidade-celebra-pesquisador.html"
+      },
+      {
+        "nome": "Guia Pampa (Sebrae/Travelterapia)",
+        "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem do ônibus urbano está em R$ 5,50 desde 7 de novembro de 2024, quando subiu de R$ 5,00. Quem paga com Cartão Vale-Transporte ou Cartão Cidadão desembolsa R$ 5,40. Confirme o valor atual ao chegar. Para quem usa ônibus duas vezes por dia, 22 dias úteis somam cerca de R$ 240 por mês."
+    ],
+    "fontes": [
+      {
+        "nome": "Jornal Minuano (tarifa, nov/2024)",
+        "url": "https://jornalminuano.com.br/noticia/2024/11/07/aumento-na-tarifa-de-onibus-traz-descontentamento-entre-usuarios-de-bage"
+      },
+      {
+        "nome": "Bagé 24H (tarifa, nov/2024)",
+        "url": "https://www.bage24horas.com.br/noticia/preco-da-passagem-de-onibus-sobe-a-partir-desta-quarta-feira-em-bage"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer mistura patrimônio no Centro e passeios rurais: vinícolas, azeite e cavalos crioulos ficam a poucos minutos de carro.",
+    "lugares": [
+      {
+        "nome": "Museu Dom Diogo de Souza",
+        "km": "na cidade",
+        "desc": "Mantido pela Urcamp no prédio da antiga Sociedade Portuguesa de Beneficência, de 1871. O acervo tem mais de 100 mil fotografias e um fragmento de rocha lunar, que costuma chamar a atenção das crianças."
+      },
+      {
+        "nome": "Centro Histórico Vila de Santa Thereza",
+        "km": "na cidade",
+        "desc": "Antiga charqueada de 1897 com casa principal, igreja e teatro. Bom passeio a pé para entender a história do charque na Campanha."
+      },
+      {
+        "nome": "Palacete Pedro Osório e Catedral de São Sebastião",
+        "km": "na cidade",
+        "desc": "O palacete, de 1901 e tombado em 2006, abriga a Secretaria de Cultura. A catedral, tombada pelo Iphan, fica no núcleo histórico. Dá para ver os dois numa caminhada pelo Centro."
+      },
+      {
+        "nome": "Casa de Cultura Pedro Wayne",
+        "km": "na cidade",
+        "desc": "Funciona no antigo prédio do Banco Nacional do Comércio e recebe exposições gratuitas, muitas de artistas locais."
+      },
+      {
+        "nome": "Vinícola Peruzzo",
+        "km": "arredores",
+        "desc": "Vinícola com lago, visita guiada e loja. Programa de fim de tarde para adultos; crianças aproveitam o espaço aberto."
+      },
+      {
+        "nome": "Agroindústria Terrapampa",
+        "km": "arredores",
+        "desc": "Olival com visita guiada e degustação de azeite extravirgem. Agende antes."
+      },
+      {
+        "nome": "Vinícola Seival (Miolo), em Candiota",
+        "km": "região de Candiota",
+        "desc": "Cerca de 200 hectares de vinhedos, com visitas agendadas e loja. Perto fica o monumento de 1935 à Batalha do Seival."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Guia Pampa (Sebrae/Travelterapia)",
+        "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+      },
+      {
+        "nome": "Jornal do Comércio (patrimônio de Bagé, 2025)",
+        "url": "https://www.jornaldocomercio.com/jcsul/2025/02/1189778-historia-de-bage-e-viva-em-cada-canto-da-cidade-celebra-pesquisador.html"
+      },
+      {
+        "nome": "Wikipédia (Bagé, en)",
+        "url": "https://en.wikipedia.org/wiki/Bag%C3%A9"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Prepare a casa para frio de verdade: pelas normais 1991-2020, a mínima média de junho é 9 °C, e o recorde chega a −5,9 °C na tabela oficial. Aquecedor, cobertores e janelas bem vedadas fazem diferença.",
+    "No verão o calor também pesa: a máxima média de janeiro é 29,7 °C, e a cidade registrou 41,7 °C em 13 de janeiro de 2022. Vale ter ventilador ou ar-condicionado no quarto.",
+    "Se for usar ônibus todo dia, faça o Cartão Cidadão: a passagem sai R$ 0,10 mais barata que em dinheiro."
+  ]
+}

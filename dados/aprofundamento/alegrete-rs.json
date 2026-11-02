@@ -1,0 +1,90 @@
+{
+ "slug": "alegrete-rs",
+ "lede": "Maior município do Rio Grande do Sul em área, às margens do Ibirapuitã, com o maior rebanho bovino do estado e terra natal de Mario Quintana.",
+ "cidade": {
+  "paragrafos": [
+   "A origem é uma capela erguida em 1814 e queimada em 1816 por forças de José Artigas. Os moradores se mudaram para a margem esquerda do rio Ibirapuitã, e em 1817 começaram as casas do núcleo atual. O nome homenageia o Marquês de Alegrete, governador da capitania. Da cidade saíram o poeta Mario Quintana, o diplomata Oswaldo Aranha e o jornalista e técnico João Saldanha. A Gazeta de Alegrete, de 1882, é apontada como o jornal mais antigo do estado.",
+   "Com mais de 7.800 km², Alegrete é o maior município gaúcho em área, e a economia gira em torno do campo. São cerca de 45 mil hectares de arroz, além de soja e milho, e o rebanho bovino, de mais de 500 mil cabeças, é o maior do estado. Há ainda forte criação de ovinos e produção de lã. Para o cônjuge, as oportunidades estão em comércio, serviços, ensino (Unipampa e IFFar) e empresas ligadas ao agronegócio.",
+   "A cidade fica na BR-290, a cerca de 500 km de Porto Alegre. O Centro Histórico, em volta da Praça Getúlio Vargas, reúne a Igreja Matriz, o Palácio Ruy Ramos e uma casa de 1820. Os bairros se espalham dali, com distâncias curtas de carro. A vida cultural tem oito museus, carnaval com seis escolas de samba e tradição campeira forte. O ritmo é tranquilo, de cidade média do pampa."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Alegrete)",
+    "url": "https://pt.wikipedia.org/wiki/Alegrete_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem urbana é de R$ 5,30 desde 5 de janeiro de 2026, quando acabou o subsídio da prefeitura que mantinha a tarifa em R$ 4,80. Estudante paga R$ 2,65, e a linha seletiva até o distrito de Passo Novo custa R$ 11,00."
+  ],
+  "fontes": [
+   {
+    "nome": "Alegrete Tudo (tarifa, jan/2026)",
+    "url": "https://www.alegretetudo.com.br/tarifa-de-onibus-urbano-passa-a-r-530-com-o-fim-do-subsidio-municipal/"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Quase tudo fica a poucas quadras do Centro: museus gratuitos, praças e o rio Ibirapuitã.",
+  "lugares": [
+   {
+    "nome": "Museu Oswaldo Aranha",
+    "km": "na cidade",
+    "desc": "Acervo do diplomata num prédio do século XIX. A entrada é gratuita; confirme o horário por telefone antes."
+   },
+   {
+    "nome": "Praça Getúlio Vargas e Centro Histórico",
+    "km": "na cidade",
+    "desc": "Igreja Matriz, Palácio Ruy Ramos e uma residência de 1820 cercam a praça. Bom passeio a pé."
+   },
+   {
+    "nome": "Estação Férrea e Cepal",
+    "km": "na cidade",
+    "desc": "Estação dos anos 1930 que abriga o Centro de Pesquisa e Documentação de Alegrete, com entrada gratuita."
+   },
+   {
+    "nome": "Museu do Gaúcho Ícaro Ferreira da Costa",
+    "km": "na cidade",
+    "desc": "Objetos e costumes da cultura campeira, bom para apresentar a tradição gaúcha às crianças."
+   },
+   {
+    "nome": "Parque Porto dos Aguateiros",
+    "km": "na cidade",
+    "desc": "Parque urbano citado entre as áreas de lazer da cidade, para caminhar e passar a tarde com a família."
+   },
+   {
+    "nome": "Atelier Chapéu Preto",
+    "km": "na cidade",
+    "desc": "Casa e obras do escultor Derli Vieira, aberta à visitação."
+   },
+   {
+    "nome": "Parques Ruy Ramos e Neyta Ramos",
+    "km": "na cidade",
+    "desc": "Áreas verdes urbanas para caminhada e atividades ao ar livre."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   },
+   {
+    "nome": "Wikipédia (Alegrete)",
+    "url": "https://pt.wikipedia.org/wiki/Alegrete_(Rio_Grande_do_Sul)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Conte com os dois extremos: o INMET registrou 40,8 °C em janeiro de 2022 e −4,1 °C em junho de 1971, e há geada de maio a setembro. Ar-condicionado com função quente resolve as duas estações.",
+  "Se a família for morar ou estudar em Passo Novo, lembre que a linha seletiva custa R$ 11,00 por viagem (jan/2026). Na prática, o carro é quase obrigatório para quem vive fora da sede.",
+  "Para voos, as opções mais próximas são Uruguaiana e Santa Maria. Verifique os horários antes de marcar a viagem de mudança."
+ ]
+}

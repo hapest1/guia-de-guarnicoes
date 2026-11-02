@@ -1,0 +1,93 @@
+{
+ "slug": "sao-gabriel-rs",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A origem é a Vila de Batovi, fundada por Félix de Azara em 2 de novembro de 1800. Entre 1815 e 1817, o povoado se mudou para a margem esquerda do rio Vacacaí, onde está hoje. Virou vila em 1846, ano em que Dom Pedro II se hospedou no sobrado da praça. O líder indígena Sepé Tiaraju morreu na região em 1756. O apelido Terra dos Marechais lembra nomes como Hermes da Fonseca e Mascarenhas de Morais, comandante da FEB; dali saíram também Assis Brasil e Plácido de Castro.",
+   "A economia é de agricultura e pecuária. Com cerca de 140 mil hectares, São Gabriel estava entre os três maiores produtores de soja do estado em 2022. Arroz e trigo vêm crescendo, e a pecuária de corte e de ovinos é tradicional. A Unipampa mantém campus na cidade. Para o cônjuge, as vagas aparecem no agronegócio, comércio, serviços e ensino.",
+   "O núcleo histórico fica em volta da Praça Dr. Fernando Abbott, com a Igreja Matriz, de 1924, o Palácio Plácido de Castro, sede da prefeitura, e o Sobrado da Praça, hoje centro cultural. A cidade fica na BR-290, a cerca de 320 km de Porto Alegre. São cerca de 60 mil moradores num território de 5.020 km², e a vida é de cidade pequena, com tudo perto do Centro."
+  ],
+  "fontes": [
+   {
+    "nome": "Unipampa (potencialidades patrimoniais de São Gabriel)",
+    "url": "https://repositorio.unipampa.edu.br/bitstream/riu/4510/1/Leitura%20das%20potencialidades%20patrimoniais%20do%20munic%c3%adpio%20de%20S%c3%a3o%20Gabriel%20%e2%80%93%20RS.pdf"
+   },
+   {
+    "nome": "Wikipédia (São Gabriel, en)",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Gabriel,_Rio_Grande_do_Sul"
+   },
+   {
+    "nome": "Jornal do Comércio (economia, 2022)",
+    "url": "https://www.jornaldocomercio.com/jornal-cidades/2022/07/857368-sao-gabriel-cria-plataforma-para-atrair-novos-negocios.html"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem urbana é de R$ 4,50 desde 10 de fevereiro de 2025, quando subiu de R$ 4,10. Estudantes pagam metade. Em março de 2026, a prefeitura aumentou o subsídio mensal ao transporte de R$ 50 mil para R$ 70 mil e informou que não haveria aumento para o usuário por enquanto."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte (tarifa, fev/2025)",
+    "url": "https://diariodotransporte.com.br/2025/02/11/sao-gabriel-rs-reajusta-tarifa-do-transporte-coletivo-em-quase-10/"
+   },
+   {
+    "nome": "Prefeitura de São Gabriel (subsídio, mar/2026)",
+    "url": "https://www.saogabriel.rs.gov.br/noticias/prefeitura-amplia-subsidio-do-transporte-coletivo-e-garante-regularidade-do-servico"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "O lazer é sobretudo histórico: museus gratuitos e casarões ficam a poucas quadras da praça central.",
+  "lugares": [
+   {
+    "nome": "Museu Gaúcho da FEB",
+    "km": "na cidade",
+    "desc": "Mais de 3 mil peças da Segunda Guerra Mundial. Entrada gratuita, de segunda a sábado. Costuma interessar a crianças maiores."
+   },
+   {
+    "nome": "Igreja do Galo (Museu N. Sra. do Rosário e Bom Fim)",
+    "km": "na cidade",
+    "desc": "Primeira igreja de alvenaria da cidade, de 1817, restaurada em 2011. Abriga acervo doado por moradores, com visita gratuita."
+   },
+   {
+    "nome": "Praça Dr. Fernando Abbott e Sobrado da Praça",
+    "km": "na cidade",
+    "desc": "Igreja Matriz, Palácio Plácido de Castro e o sobrado onde Dom Pedro II se hospedou em 1846, hoje centro cultural."
+   },
+   {
+    "nome": "Monumento a Sepé Tiaraju",
+    "km": "na cidade",
+    "desc": "Fica na Sanga da Bica, apontada como o local da morte do líder guarani em 1756."
+   },
+   {
+    "nome": "Parque Rincão das Carretas",
+    "km": "na cidade",
+    "desc": "Parque tradicionalista que recebe os festejos da Semana Farroupilha em setembro."
+   },
+   {
+    "nome": "Antiga Estação Férrea",
+    "km": "na cidade",
+    "desc": "Prédio ferroviário listado no patrimônio histórico da cidade, bom para fotos num passeio pelo Centro."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   },
+   {
+    "nome": "Unipampa (potencialidades patrimoniais de São Gabriel)",
+    "url": "https://repositorio.unipampa.edu.br/bitstream/riu/4510/1/Leitura%20das%20potencialidades%20patrimoniais%20do%20munic%c3%adpio%20de%20S%c3%a3o%20Gabriel%20%e2%80%93%20RS.pdf"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O verão pode ser extremo: a cidade já marcou 41,2 °C, em dezembro de 2019, e 12% de umidade relativa, em janeiro de 2012. Tenha ar-condicionado e umidificador.",
+  "No inverno, geadas são frequentes e o vento pode ser forte: uma rajada chegou a 109,8 km/h em novembro de 2016. Confira o estado do telhado e das janelas ao alugar.",
+  "Como quase não há anúncios on-line, reserve uns dias de hotel na chegada para visitar imóveis com imobiliárias locais."
+ ]
+}

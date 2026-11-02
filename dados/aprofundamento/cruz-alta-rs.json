@@ -1,0 +1,90 @@
+{
+ "slug": "cruz-alta-rs",
+ "lede": "Entroncamento rodoferroviário do Planalto Médio gaúcho, de soja e trigo, terra natal de Erico Verissimo.",
+ "cidade": {
+  "paragrafos": [
+   "O nome vem de uma grande cruz de madeira erguida por jesuítas em 1698. Mais tarde, o lugar virou o Pouso da Cruz Alta, parada de tropeiros paulistas, fundado oficialmente em 18 de agosto de 1821. Foi elevada a vila em 1833 e a cidade em 1879. Do antigo território saíram 242 municípios, entre eles Santa Maria, Passo Fundo, Santo Ângelo e Ijuí. Também nasceram ali o escritor Erico Verissimo e os políticos Júlio de Castilhos e Pinheiro Machado.",
+   "A economia depende do campo: trigo, soja e milho, com resultado que oscila conforme a safra. A cidade é um entroncamento de rodovias (BR-158, BR-377 e RS-342) e de ferrovia, com porto seco e uma estação por onde passam trens de grãos rumo ao porto de Rio Grande. A Unicruz, criada em 1988, tem mais de 4.500 alunos, e a Uergs mantém sede regional. Para o cônjuge, há vagas em agronegócio, cooperativas, comércio, ensino e saúde.",
+   "O relevo é ondulado, com altitude média de 452 m, sobre o divisor das bacias dos rios Uruguai e Jacuí. O Centro reúne a Praça da Bandeira, o Palácio da Intendência e a Casa Museu Erico Verissimo. A rotunda ferroviária, das décadas de 1930 e 1940, foi a única do Sul e hoje está desativada. O ritmo é de cidade pequena: trajetos curtos, brique na praça aos domingos e calendário ligado à Fenatrigo e à Coxilha Nativista."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Cruz Alta)",
+    "url": "https://pt.wikipedia.org/wiki/Cruz_Alta_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "Wikipédia (Cruz Alta, en)",
+    "url": "https://en.wikipedia.org/wiki/Cruz_Alta,_Rio_Grande_do_Sul"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano está em disputa. O último valor confirmado é de R$ 3,60, fixado em 2019 e ainda em vigor em junho de 2024. Naquele mês, uma decisão judicial autorizou a operadora a cobrar R$ 6,52; a prefeitura recorreu e disse que cobriria a diferença para o passageiro não pagar mais. Confirme o valor atual na prefeitura ao chegar."
+  ],
+  "fontes": [
+   {
+    "nome": "Rádio Progresso (tarifa, 2019)",
+    "url": "https://radioprogresso.com.br/definido-reajuste-da-passagem-de-onibus-em-cruz-alta/"
+   },
+   {
+    "nome": "Grupo Pilau (tarifa, jun/2024)",
+    "url": "https://www.grupopilau.com.br/noticias/15622/prefeita-e-vereadores-barram-aumento-da-tarifa-de-onibus-em-cruz-alta/"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Literatura, fé e festivais nativistas marcam o calendário. Os passeios de natureza ficam a menos de 20 km do Centro.",
+  "lugares": [
+   {
+    "nome": "Museu Histórico (Palácio da Intendência)",
+    "km": "na cidade",
+    "desc": "Funciona no prédio de 1914 da antiga Intendência, no Centro, com acervo sobre a formação da cidade."
+   },
+   {
+    "nome": "Monumento a Nossa Senhora de Fátima",
+    "km": "na cidade",
+    "desc": "Imagem sobre pedestal de 31 m, inaugurada em 1952. A romaria acontece no segundo domingo de outubro."
+   },
+   {
+    "nome": "Memorial Lenda da Panelinha",
+    "km": "na cidade",
+    "desc": "Esculturas de bronze no Centro que contam uma lenda local. Parada rápida, boa com crianças."
+   },
+   {
+    "nome": "Brique da Praça da Bandeira",
+    "km": "na cidade",
+    "desc": "Feira de domingo com artesanato e antiguidades, bom passeio de manhã."
+   },
+   {
+    "nome": "Parque Integrado de Exposições",
+    "km": "na cidade",
+    "desc": "Sede da Fenatrigo e da Coxilha Nativista, festival de música criado em 1981 e realizado no fim de julho."
+   },
+   {
+    "nome": "Cascata Nossa Senhora da Conceição",
+    "km": "~10 km",
+    "desc": "Queda d'água pela RS-342, boa para piquenique em dias quentes."
+   },
+   {
+    "nome": "Marco Inicial",
+    "km": "~15 km",
+    "desc": "Cruz de concreto ao sul da cidade que marca o lugar de origem do nome Cruz Alta."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Cruz Alta)",
+    "url": "https://pt.wikipedia.org/wiki/Cruz_Alta_(Rio_Grande_do_Sul)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare a casa para o inverno: pelas normais 1991-2020, a mínima média de julho é 9 °C, e a cidade já marcou −4,5 °C em junho de 2012.",
+  "Ao escolher o imóvel, veja como a rua escoa a água. Em 4 de setembro de 2023 choveu 188,7 mm num só dia, recorde da cidade.",
+  "Se a chegada for no fim de julho, reserve hotel cedo: a Coxilha Nativista enche a cidade."
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "santana-do-livramento-rs",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A povoação começou com doações de terra feitas em 1814, e a data de fundação é 30 de julho de 1823, quando tropas portuguesas ergueram uma capela a Nossa Senhora do Livramento. O município se separou de Alegrete em 1857. Em 1912, a cidade ganhou uma estação ferroviária com tráfego internacional até Rivera, hoje sem uso. Em 2009, o governo federal a declarou cidade símbolo da integração com o Mercosul.",
+   "A economia vem do campo, da pecuária, do couro e da vitivinicultura. A Almadén, fundada em 1973, e vinícolas como a Cordilheira de Sant'Ana fazem da região uma das mais conhecidas da Campanha para vinho. O turismo de compras também pesa, porque visitantes cruzam a rua para os free shops de Rivera. Para o cônjuge, as vagas estão em comércio, turismo, serviços, ensino (Unipampa e IFSul) e no agro.",
+   "Livramento e Rivera formam uma conurbação de quase 170 mil pessoas. A divisa é uma rua, sem barreira física, e a Praça Internacional, de 1943, fica bem sobre a linha. O município é o segundo maior do estado em área, com quase 7 mil km², por isso estâncias e vinhedos ficam longe do Centro. No dia a dia, moradores dos dois lados passam de um país ao outro a pé, e o espanhol se ouve em toda parte."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santana do Livramento, en)",
+    "url": "https://en.wikipedia.org/wiki/Santana_do_Livramento"
+   },
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano é de R$ 4,75 desde 3 de maio de 2025, quando subiu de R$ 4,25. Confirme o valor atual ao chegar. O Plano de Mobilidade da prefeitura prevê um estudo da tarifa até dezembro de 2026, então pode haver mudança."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte (tarifa, abr/2025)",
+    "url": "https://diariodotransporte.com.br/2025/04/04/tarifa-do-transporte-coletivo-de-santana-do-livramento-rs-aumenta-para-r-475/"
+   },
+   {
+    "nome": "Prefeitura (Plano de Mobilidade)",
+    "url": "https://santanadolivramento.rs.gov.br/uploads/noticia/14350/6sKR9mz-URszZTES1o3AuoUBwxoVmKQi.pdf"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "A fronteira e o vinho dominam o lazer. Em poucos minutos se vai da praça binacional aos vinhedos ao pé dos cerros.",
+  "lugares": [
+   {
+    "nome": "Cerro do Marco",
+    "km": "na cidade",
+    "desc": "Morro com obelisco na divisa com Rivera e vista ampla das duas cidades. Bom no fim de tarde."
+   },
+   {
+    "nome": "Vinícola Almadén",
+    "km": "arredores",
+    "desc": "Uma das vinícolas mais antigas da Campanha, fundada em 1973. Consulte os horários de visita."
+   },
+   {
+    "nome": "Vinícola Cordilheira de Sant'Ana",
+    "km": "arredores",
+    "desc": "Fica ao pé do Cerro de Palomas e oferece degustação e passeio pelos vinhedos."
+   },
+   {
+    "nome": "Cerro Chapéu",
+    "km": "arredores",
+    "desc": "Vinícola binacional construída dentro de um cerro. A visita é agendada."
+   },
+   {
+    "nome": "Casa Albornoz",
+    "km": "~20 km",
+    "desc": "Produz azeite, nozes e mel e faz visitas guiadas. Agende antes de ir."
+   },
+   {
+    "nome": "Parque do Ibirapuitã",
+    "km": "~10 km",
+    "desc": "Área verde na BR-293, perto da cidade, para piquenique e contato com o campo."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   },
+   {
+    "nome": "Wikipédia (Santana do Livramento, en)",
+    "url": "https://en.wikipedia.org/wiki/Santana_do_Livramento"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Para circular em Rivera não há controle, mas para seguir viagem pelo Uruguai é preciso passar pelo posto de controle integrado no Siñeriz Shopping, aberto em 2016. Leve documento de cada membro da família.",
+  "Como a oferta de aluguel on-line é pequena, reserve alguns dias de hotel na chegada para visitar imóveis com imobiliárias locais.",
+  "Prepare a casa para o frio: em julho a temperatura média fica em torno de 12,5 °C, e há geada e vento minuano no inverno."
+ ]
+}

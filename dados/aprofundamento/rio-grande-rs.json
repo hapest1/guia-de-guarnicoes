@@ -1,0 +1,87 @@
+{
+  "slug": "rio-grande-rs",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Rio Grande é a cidade mais antiga do estado. Nasceu em 1737 como o forte Jesus-Maria-José, erguido pelo brigadeiro José da Silva Paes na saída da Lagoa dos Patos para o mar. Foi capital da capitania a partir de 1760, ficou sob domínio espanhol de 1763 a 1776 e virou cidade em 1835. A Catedral de São Pedro é o templo mais antigo do Rio Grande do Sul, e a Biblioteca Rio-Grandense, de 1846, guarda quase 500 mil obras.",
+      "O porto move a economia: é o quarto do país em carga e exportou 45 milhões de toneladas em 2021, sobretudo soja, trigo, arroz e madeira, além de receber fertilizantes. Na cidade ficam também a Refinaria Riograndense, de 1937, a primeira do Brasil, indústrias químicas e o polo naval. A FURG, federalizada em 1961, tem mais de 9 mil alunos de graduação e criou em 1970 o primeiro curso de Oceanologia do país. O PIB de 2019 foi de R$ 10,7 bilhões, o quinto do estado. Para o cônjuge, há vagas em logística portuária, indústria, ensino e saúde.",
+      "O Censo 2022 contou 191.900 moradores. Além da sede, o município tem os distritos de Ilha dos Marinheiros, Povo Novo, Taim e Quinta, e o balneário do Cassino fica ligado à sede pela RS-734. A BR-392, duplicada, leva a Pelotas, e o aeroporto fica a cerca de 12 km do Centro. Com o crescimento do polo naval, o trânsito aumentou. O vento é constante, e no verão o movimento se desloca para o Cassino."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Rio Grande)",
+        "url": "https://pt.wikipedia.org/wiki/Rio_Grande_(Rio_Grande_do_Sul)"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem de ônibus subiu para R$ 6,25 em 26 de abril de 2026. Com o Cartão Rio Grande, sai por R$ 5,68, e o estudante paga R$ 2,84. O serviço seletivo custa R$ 10,25. A tarifa técnica é de R$ 6,85; a diferença é coberta em parte pela receita do estacionamento rotativo do Centro.",
+      "O estacionamento rotativo (Zona Azul) tem cerca de 1.300 vagas no Centro e custa R$ 1,10 por meia hora desde abril de 2026. Para quem estaciona no Centro durante 8 horas, isso dá R$ 17,60 por dia."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte (tarifa, abr/2026)",
+        "url": "https://diariodotransporte.com.br/2026/04/25/rio-grande-rs-reajusta-tarifa-de-onibus-para-r-625-com-subsidio-financiado-pelo-estacionamento-rotativo/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Mar, lagoa e a história mais antiga do estado. Quase tudo fica dentro do próprio município.",
+    "lugares": [
+      {
+        "nome": "Catedral de São Pedro",
+        "km": "na cidade",
+        "desc": "Templo religioso mais antigo do Rio Grande do Sul, tombado pelo Iphan, no Centro histórico."
+      },
+      {
+        "nome": "Museu Oceanográfico Prof. Eliezer de Carvalho Rios",
+        "km": "na cidade",
+        "desc": "Museu da FURG, apontado como o maior museu oceanográfico da América Latina. Ótimo para crianças."
+      },
+      {
+        "nome": "Mercado Municipal",
+        "km": "na cidade",
+        "desc": "Um dos mercados mais antigos do estado, no Centro histórico."
+      },
+      {
+        "nome": "Biblioteca Rio-Grandense",
+        "km": "na cidade",
+        "desc": "Fundada em 1846 como gabinete de leitura, com quase 500 mil obras. Vale conhecer o prédio."
+      },
+      {
+        "nome": "Molhes da Barra",
+        "km": "Cassino",
+        "desc": "Molhes de pedra na entrada do canal do porto, no Cassino. Bom lugar para ver os navios entrando no porto. Vá com casaco: venta muito."
+      },
+      {
+        "nome": "Ilha dos Marinheiros",
+        "km": "na cidade",
+        "desc": "Distrito rural na Lagoa dos Patos, com a Vila do Porto do Rei. Passeio de meio dia, bom para fugir da cidade."
+      },
+      {
+        "nome": "Estação Ecológica do Taim",
+        "km": "no município, ao sul",
+        "desc": "Unidade de conservação de banhados entre a Lagoa Mirim e o mar, considerada uma das paisagens mais bonitas do estado. Leve binóculo para observar aves."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Rio Grande)",
+        "url": "https://pt.wikipedia.org/wiki/Rio_Grande_(Rio_Grande_do_Sul)"
+      },
+      {
+        "nome": "Wikipédia (Rio Grande, en)",
+        "url": "https://en.wikipedia.org/wiki/Rio_Grande,_Rio_Grande_do_Sul"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Peça logo o Cartão Rio Grande: com ele a passagem cai de R$ 6,25 para R$ 5,68 (abril de 2026), cerca de R$ 25 a menos por mês para quem pega dois ônibus por dia.",
+    "Prepare-se para vento e umidade. Rajadas já passaram de 110 km/h, em outubro de 2016, e no inverno a sensação térmica cai muitas vezes abaixo de 0 °C. Desumidificador e roupa corta-vento ajudam.",
+    "Antes de alugar no Cassino, faça o trajeto até o trabalho no horário de pico. No verão, o movimento para o balneário aumenta o tempo de viagem."
+  ]
+}

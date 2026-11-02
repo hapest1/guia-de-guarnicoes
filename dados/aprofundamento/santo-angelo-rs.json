@@ -1,0 +1,93 @@
+{
+ "slug": "santo-angelo-rs",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu da redução jesuítica de Santo Ângelo Custódio, fundada em 1706 pelo padre Diogo de Haze. Foi o sétimo dos Sete Povos das Missões e mudou-se em 1707 para onde hoje fica o centro histórico. O município se separou de Cruz Alta em 22 de março de 1873, com mais de 10 mil km². Nos anos 1980, as emancipações reduziram esse território a menos de 10% do original. Escavações feitas em 2006 em volta da catedral encontraram parte do piso da antiga redução.",
+   "O campo produz soja, milho e trigo e cria bovinos e suínos, mas comércio, serviços e turismo respondem por 67,9% do valor agregado do município. A Fenamilho Internacional, feira realizada a cada dois anos, é o principal evento econômico. O ensino superior reúne cerca de 6 mil estudantes, entre URI, IFFar, FASA e outras faculdades. Para o cônjuge, as vagas estão em comércio, saúde, ensino e serviços que atendem toda a região missioneira.",
+   "A cidade tem cerca de 80 bairros. Depois do Centro, os mais populosos são Pippi e Dytz. Os eixos principais são as avenidas Brasil, Venâncio Aires, Getúlio Vargas, Salgado Filho e Ipiranga. O centro histórico gira em torno da Praça Pinheiro Machado e da Catedral Angelopolitana, que reproduz a fachada da igreja de São Miguel Arcanjo. O aeroporto Sepé Tiaraju é o principal da região, e Porto Alegre fica a cerca de 460 km."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santo Ângelo)",
+    "url": "https://pt.wikipedia.org/wiki/Santo_Angelo"
+   },
+   {
+    "nome": "Wikipédia (Catedral Angelopolitana)",
+    "url": "https://pt.wikipedia.org/wiki/Catedral_Angelopolitana"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano subiu de R$ 5,00 para R$ 5,75 em 1º de setembro de 2026, uma alta de 15%. A operadora, Viação Tiaraju, apresentou estudo com custo de R$ 9,70 por passageiro. Até 2025, estudante pagava metade da tarifa (R$ 2,50 em 2024)."
+  ],
+  "fontes": [
+   {
+    "nome": "Noroeste Online (tarifa, ago/2026)",
+    "url": "https://www.noroesteonline.com/passagem-aumenta-para-r-575-em-santo-angelo/"
+   },
+   {
+    "nome": "Grupo Sepé (tarifa, dez/2023)",
+    "url": "https://gruposepe.com.br/index.php?a=detail&id=19089&m=noticia"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "A história das Missões está no centro da cidade e nas ruínas de São Miguel, a uma hora de carro. Vários museus ficam a poucas quadras uns dos outros.",
+  "lugares": [
+   {
+    "nome": "Catedral Angelopolitana",
+    "km": "na cidade",
+    "desc": "Construída de 1929 a 1971, imita a igreja de São Miguel Arcanjo. Fica em frente à Praça Pinheiro Machado, que recebe concertos e teatro ao ar livre."
+   },
+   {
+    "nome": "Sítio arqueológico da redução",
+    "km": "na cidade",
+    "desc": "Em volta da catedral e da praça, as escavações de 2006 mostraram parte do piso original da redução jesuítica."
+   },
+   {
+    "nome": "Museu Municipal Dr. José Olavo Machado",
+    "km": "na cidade",
+    "desc": "Fica no centro histórico, perto da catedral. Visita curta, boa para combinar com a ida a São Miguel."
+   },
+   {
+    "nome": "Memorial Coluna Prestes e Museu Ferroviário",
+    "km": "na cidade",
+    "desc": "Os dois funcionam juntos e contam a passagem da Coluna Prestes e a história da ferrovia na região."
+   },
+   {
+    "nome": "Cine Cisne",
+    "km": "na cidade",
+    "desc": "Cinema com a maior tela de exibição do estado. Programa simples para dia de chuva."
+   },
+   {
+    "nome": "Sítio de São Miguel Arcanjo (São Miguel das Missões)",
+    "km": "~60 km",
+    "desc": "Ruínas declaradas Patrimônio Mundial pela Unesco em 1983, com o Museu das Missões, projetado por Lúcio Costa. À noite há espetáculo de som e luz."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santo Ângelo)",
+    "url": "https://pt.wikipedia.org/wiki/Santo_Angelo"
+   },
+   {
+    "nome": "Wikipédia (Catedral Angelopolitana)",
+    "url": "https://pt.wikipedia.org/wiki/Catedral_Angelopolitana"
+   },
+   {
+    "nome": "Wikipédia (Ruins of São Miguel das Missões)",
+    "url": "https://en.wikipedia.org/wiki/Ruins_of_S%C3%A3o_Miguel_das_Miss%C3%B5es"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Antes de comprar passagem, consulte os voos do aeroporto Sepé Tiaraju. Já houve rotas para Porto Alegre e Guarulhos, mas a oferta muda. Pode sair mais barato voar até a cidade do que até Porto Alegre e seguir 460 km de carro.",
+  "Nos anos de Fenamilho, que acontece a cada dois anos, a rede hoteleira lota. Se a mudança coincidir com a feira, reserve hospedagem com antecedência.",
+  "Ao procurar imóvel, Pippi e Dytz são os bairros mais populosos depois do Centro. Visite as ruas e confira as linhas de ônibus antes de fechar contrato."
+ ]
+}

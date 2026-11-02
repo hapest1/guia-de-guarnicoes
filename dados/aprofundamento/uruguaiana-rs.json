@@ -1,0 +1,90 @@
+{
+ "slug": "uruguaiana-rs",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Uruguaiana foi fundada em 1843, na margem leste do rio Uruguai, em frente a Paso de los Libres, na Argentina. Na Guerra do Paraguai, foi o ponto mais ao sul ocupado pelas tropas paraguaias e foi retomada após cerca de seis semanas de cerco. O Obelisco, de 1965, marca o centenário desse episódio. O Censo 2022 contou 117.210 moradores num território de 5.702 km².",
+   "Serviços e comércio são o maior setor da economia. O campo pesa muito: o arroz é a principal lavoura, e a pecuária de corte ocupa grandes áreas. A Ponte Internacional Getúlio Vargas-Agustín P. Justo, rodoferroviária, com cerca de 1.400 metros, foi inaugurada em 1947 e faz da cidade uma passagem central do comércio com a Argentina. Por isso, há muitas vagas em logística, despacho aduaneiro, transporte e comércio, além de saúde e ensino. A cidade é sede de diocese e abriga campus da Unipampa.",
+   "O Centro se organiza em volta da Praça Barão do Rio Branco, cercada por prédios centenários, e concentra comércio, free shops e boa parte dos aluguéis. A vida cultural tem calendário próprio: a Califórnia da Canção Nativa, festival nativista criado na cidade, e o carnaval de rua. O ritmo é de cidade de fronteira, com vaivém de argentinos e brasileiros para compras."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Uruguaiana, en)",
+    "url": "https://en.wikipedia.org/wiki/Uruguaiana"
+   },
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O calor do verão pesa na conta de luz: pelas normais climáticas, a máxima média de janeiro é 32,1 °C. Ao comparar imóveis, conte com o gasto de ar-condicionado de dezembro a março, que costuma ser o maior do ano."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Uruguaiana, en — clima)",
+    "url": "https://en.wikipedia.org/wiki/Uruguaiana"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "O rio Uruguai, a fronteira e o patrimônio do Centro dão o tom. Estâncias e vinhedos ficam a meia hora de carro.",
+  "lugares": [
+   {
+    "nome": "Praça Barão do Rio Branco",
+    "km": "na cidade",
+    "desc": "Praça principal, cercada por prédios centenários e perto de cafés. Bom ponto de partida para um passeio a pé pelo Centro."
+   },
+   {
+    "nome": "Obelisco",
+    "km": "na cidade",
+    "desc": "Monumento de 1965 que marca os 100 anos do fim do cerco da Guerra do Paraguai. Parada rápida, boa para contar a história às crianças."
+   },
+   {
+    "nome": "Igreja Nossa Senhora do Carmo",
+    "km": "na cidade",
+    "desc": "Igreja da década de 1930 com elementos góticos, uma das construções mais marcantes da cidade."
+   },
+   {
+    "nome": "Ponte Internacional e Paso de los Libres",
+    "km": "na cidade",
+    "desc": "Ponte de cerca de 1.400 metros, inaugurada em 1947, que leva à cidade argentina vizinha. Atravesse com documento de identidade e confira as regras da OM antes."
+   },
+   {
+    "nome": "Estância Timbaúva",
+    "km": "~30 km",
+    "desc": "Estância que oferece piquenique com produtos da região. Programa de dia inteiro, bom para família."
+   },
+   {
+    "nome": "Estância e Bodega Sossego",
+    "km": "~30 km",
+    "desc": "Vinhedo com uma experiência mensal entre as parreiras. Reserve com antecedência."
+   },
+   {
+    "nome": "Parque Estadual do Espinilho (Barra do Quaraí)",
+    "km": "~70 km",
+    "desc": "Unidade de conservação com a vegetação típica do extremo oeste. A visita exige agendamento por e-mail com a Sema."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Guia Pampa (Sebrae/Travelterapia)",
+    "url": "https://www.travelterapia.com.br/wp-content/uploads/2022/06/Guia_Pampa-single-low-res.pdf"
+   },
+   {
+    "nome": "Wikipédia (Uruguaiana, en)",
+    "url": "https://en.wikipedia.org/wiki/Uruguaiana"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Alugue com ar-condicionado nos quartos: a máxima média de janeiro é 32,1 °C, uma das mais altas do estado.",
+  "O inverno também é frio: a mínima média de julho é 8,4 °C. Tenha aquecedor e roupa de cama de inverno; o mesmo imóvel precisa funcionar nos dois extremos.",
+  "Pesquise a tarifa e as linhas de ônibus antes de escolher o bairro: não há valor de 2026 publicado em fonte aberta, e a oferta de aluguel se concentra no Centro."
+ ]
+}
