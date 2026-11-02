@@ -1,0 +1,117 @@
+{
+ "slug": "natal-rn",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A construção do Forte dos Reis Magos, na foz do rio Potengi, começou em 6 de janeiro de 1598, e a cidade foi fundada em 25 de dezembro de 1599, daí o nome Natal. O Censo 2022 contou 751.300 habitantes. A Grande Natal inclui Parnamirim, onde ficam a Base Aérea de Natal e o Centro de Lançamento da Barreira do Inferno, criado em 1965.",
+   "O turismo é a principal atividade econômica. A cidade também é polo administrativo do setor de petróleo do estado, com pesquisa ligada à UFRN, e tem pesca e fruticultura (manga, goiaba, caju) no entorno. Para o cônjuge, as vagas mais comuns estão em hotelaria, comércio, saúde, serviços e ensino (UFRN, IFRN e faculdades particulares).",
+   "Natal se divide em quatro zonas: Norte, Sul, Leste e Oeste. A Ponte Newton Navarro, de 2007, liga Santos Reis à Redinha, do outro lado do Potengi. A Via Costeira corre entre o mar e o Parque das Dunas (1.172 hectares) até Ponta Negra, onde fica o Morro do Careca. O aeroporto fica em São Gonçalo do Amarante, a cerca de 30 km."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Natal)",
+    "url": "https://en.wikipedia.org/wiki/Natal_(Brazil)"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em Natal subiu de R$ 4,90 para R$ 5,20 em 29 de março de 2026, alta de 6,1%, por decreto publicado no Diário Oficial do Município. Em 2025 a meia estudantil e a tarifa social custavam R$ 2,45; confirme o valor novo na STTU."
+  ],
+  "fontes": [
+   {
+    "nome": "Agora RN (tarifa de R$ 5,20, mar/2026)",
+    "url": "https://agorarn.com.br/ultimas/aumento-da-tarifa-de-onibus-5-20-em-natal/"
+   },
+   {
+    "nome": "AutoPapo (tarifas das capitais, abr/2025)",
+    "url": "https://autopapo.com.br/noticia/preco-passagem-de-onibus-veja-valores-capitais-brasil/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "A guarnição conta com o Hospital de Guarnição de Natal, listado entre as OM desta ficha. Na rede pública, o Hospital Monsenhor Walfredo Gurgel, em funcionamento desde 1973, é o principal pronto-socorro do estado. A Maternidade Escola Januário Cicco, de 1928, é referência em obstetrícia.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Natal)",
+    "url": "https://en.wikipedia.org/wiki/Natal_(Brazil)"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar em Natal; o mais próximo é o do Recife, a cerca de 283 km. No ensino superior público estão a Universidade Federal do Rio Grande do Norte (UFRN) e o Instituto Federal do Rio Grande do Norte (IFRN), que tem campi na capital. Há também faculdades e universidades particulares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Natal)",
+    "url": "https://en.wikipedia.org/wiki/Natal_(Brazil)"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Quente e ensolarado, com brisa do mar. Pelas normais do INMET (1991-2020), a máxima média anual é de 29,7 °C e a mínima de 23,2 °C, com 1.691 mm de chuva por ano. Diferente do Norte, o pico da chuva vem no meio do ano: junho (349 mm), julho (254 mm) e abril (241 mm). De setembro a dezembro quase não chove.",
+  "chuvoso": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Natal)",
+    "url": "https://en.wikipedia.org/wiki/Natal_(Brazil)"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Natal tem dunas, praias e piscinas naturais a menos de duas horas de carro. Muitos passeios funcionam bem com crianças.",
+  "lugares": [
+   {
+    "nome": "Forte dos Reis Magos",
+    "km": "na cidade",
+    "desc": "Forte do fim do século XVI na foz do Potengi, marco de fundação da cidade. Fica perto da Ponte Newton Navarro e rende uma boa visita de manhã."
+   },
+   {
+    "nome": "Ponta Negra e Morro do Careca",
+    "km": "na cidade",
+    "desc": "Praia urbana com calçadão, barracas e a grande duna do Morro do Careca no extremo sul. A subida na duna é proibida para preservá-la."
+   },
+   {
+    "nome": "Parque das Dunas",
+    "km": "na cidade",
+    "desc": "Parque estadual de 1.172 hectares, o segundo maior parque urbano do país, com trilhas guiadas na mata atlântica sobre dunas."
+   },
+   {
+    "nome": "Barreira do Inferno",
+    "km": "região metropolitana",
+    "desc": "Primeiro centro de lançamento de foguetes da América do Sul, criado em 1965. Recebe visitas agendadas, um programa diferente para crianças."
+   },
+   {
+    "nome": "Maracajaú",
+    "km": "~60 km",
+    "desc": "Praia ao norte com piscinas naturais em recifes de coral de coral. O passeio de barco depende da maré baixa."
+   },
+   {
+    "nome": "Praia da Pipa",
+    "km": "~85 km",
+    "desc": "Vila de praia ao sul, em Tibau do Sul, com falésias, baías e restaurantes. Dá para ir num fim de semana."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Natal)",
+    "url": "https://en.wikipedia.org/wiki/Natal_(Brazil)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Calcule o deslocamento até o aeroporto, em São Gonçalo do Amarante, a cerca de 30 km: para quem mora na zona sul, a ida leva bem mais que nas outras capitais.",
+  "Evite marcar a mudança para junho e julho: em Natal o pico da chuva vem no meio do ano, ao contrário de Belém e São Luís.",
+  "Ao avaliar imóvel na zona Norte, do outro lado do Potengi, faça o trajeto até a OM no horário de pico: a travessia depende das pontes, como a Newton Navarro."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "slug": "fortaleza-ce",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A ocupação começou em 1603 com o Forte de São Tiago. Em 1649 os holandeses ergueram o Forte Schoonenborch, tomado pelos portugueses em 1654, e é dele que vem o nome da cidade. Fortaleza virou vila em 13 de abril de 1726 e capital do Ceará em 1799. No Censo 2022 tinha 2.428.708 habitantes.",
+   "Tem o maior PIB do Nordeste: R$ 73,4 bilhões em 2021, o 11º do país. Comércio e serviços puxam a economia, seguidos pela indústria, com destaque para têxteis e confecções. O turismo é forte, e o Ministério do Turismo põe a cidade entre os destinos mais visitados do Brasil. Para o cônjuge, há vagas em comércio, confecção, turismo e hotelaria, saúde e ensino.",
+   "São 121 bairros, agrupados em 12 secretarias regionais. A orla urbana tem cerca de 25 km, da Barra do Ceará à Praia do Futuro, passando por Iracema, Beira-Mar e Mucuripe, onde as jangadas ainda saem para pescar. O metrô (Metrofor), em operação desde 2014, tem 43 km de linhas. O aeroporto Pinto Martins fica dentro da área urbana, perto do centro, o que encurta a ida para quem viaja com frequência."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Fortaleza)",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em Fortaleza subiu de R$ 4,50 para R$ 5,40 em 1º de janeiro de 2026. A meia estudantil continua em R$ 1,50, e alunos da rede pública mantêm duas viagens gratuitas por dia letivo pelo Passe Livre Estudantil. A Etufor afirma que é a tarifa mais baixa entre as cidades com mais de 2 milhões de habitantes que têm integração ilimitada."
+  ],
+  "fontes": [
+   {
+    "nome": "GC Mais (tarifa de Fortaleza 2026)",
+    "url": "https://gcmais.com.br/noticias/2026/01/01/passagem-de-onibus-sobe-em-fortaleza-e-outras-capitais-a-partir-de-2026"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "A guarnição tem hospital do Exército, listado entre as OM desta ficha, e o Colégio Militar. Na rede pública, as referências são o Instituto Dr. José Frota (IJF), maior hospital municipal e pronto-socorro de trauma; o Hospital Geral de Fortaleza, maior da rede estadual; a Santa Casa de Misericórdia, de 1861; e o Hospital Universitário Walter Cantídio, da UFC, com o maior serviço de transplante de fígado do país. Entre os privados de grande porte estão o Hospital Regional Unimed, o Antônio Prudente, o Monte Klinikum e o São Mateus.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Fortaleza)",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Fortaleza tem o Colégio Militar de Fortaleza, do Sistema Colégio Militar do Brasil. A Universidade Federal do Ceará (UFC), fundada em 1954, é a principal universidade pública. A cidade também tem a Universidade Estadual do Ceará (UECE), o Instituto Federal do Ceará (IFCE) e universidades particulares como a Unifor."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Fortaleza)",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Quente e ventilado o ano todo. Pelas normais do INMET (1991-2020), a máxima média anual é de 31,1 °C e a mínima de 23,9 °C, com 1.584 mm de chuva por ano. A chuva se concentra entre fevereiro e maio, com pico em abril (385 mm) e março (337 mm). O segundo semestre é seco, ensolarado e de vento constante.",
+  "chuvoso": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Fortaleza)",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Fortaleza tem praia urbana, centro cultural e parque de mangue dentro da cidade. O vento do segundo semestre favorece esportes como kitesurf.",
+  "lugares": [
+   {
+    "nome": "Centro Dragão do Mar de Arte e Cultura",
+    "km": "na cidade",
+    "desc": "Principal centro cultural, com museus, teatro, planetário e cinemas. Programa para dias de chuva ou para as noites de fim de semana."
+   },
+   {
+    "nome": "Avenida Beira-Mar e Mucuripe",
+    "km": "na cidade",
+    "desc": "Calçadão com bares, restaurantes e feirinha. No Mucuripe dá para ver as jangadas chegando com o peixe no fim da tarde."
+   },
+   {
+    "nome": "Praia de Iracema",
+    "km": "na cidade",
+    "desc": "Bairro e praia do centro antigo, com casarões e área de pedestres. Bom para passeio a pé no fim da tarde."
+   },
+   {
+    "nome": "Praia do Futuro",
+    "km": "na cidade",
+    "desc": "Faixa longa de areia com barracas grandes, que têm estrutura para famílias passarem o dia. Respeite as bandeiras dos guarda-vidas antes de entrar no mar."
+   },
+   {
+    "nome": "Parque do Cocó",
+    "km": "na cidade",
+    "desc": "Área protegida de manguezal com trilhas e equipamentos de ecoturismo, no meio da zona leste. Bom para caminhar de manhã."
+   },
+   {
+    "nome": "Beach Park",
+    "km": "região metropolitana",
+    "desc": "Parque aquático na Grande Fortaleza, à beira-mar. Passeio de dia inteiro para família com crianças."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Fortaleza)",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se os filhos forem para escola pública, cadastre-os no Passe Livre Estudantil: garante duas viagens de ônibus gratuitas por dia letivo.",
+  "Escolha moradia pensando no trajeto: o metrô cobre só alguns eixos, e o trânsito entre a zona leste e o centro pesa nos horários de pico.",
+  "Programe a mudança fora de março e abril, quando a chuva passa de 330 mm por mês e alaga avenidas."
+ ]
+}

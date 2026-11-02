@@ -1,126 +1,126 @@
 {
-  "slug": "palmas-to",
-  "lede": null,
-  "cidade": {
-    "paragrafos": [
-      "Palmas é a capital mais jovem do país. Foi criada em 20 de maio de 1989, logo depois da divisão de Goiás que deu origem ao Tocantins, e construída do zero em área de cerrado entre a Serra do Lajeado e o rio Tocantins. Em 2002, a usina hidrelétrica de Lajeado formou o lago que hoje margeia a cidade e virou área de praias. A população estimada pelo IBGE em 2025 é de 328 mil habitantes.",
-      "A economia é de serviços e administração pública. Governo do estado, prefeitura, órgãos federais, universidades e saúde são os maiores empregadores, seguidos do comércio. O agronegócio pesa no Tocantins, mas fica sobretudo no interior; no município, as fazendas maiores estão no distrito de Buritirana. Para o cônjuge, concursos, saúde, educação e comércio são os caminhos mais comuns.",
-      "O plano urbano segue o modelo de Brasília. A Avenida Theotônio Segurado corta a cidade de norte a sul e a Avenida JK cruza o centro até a Praça dos Girassóis, onde ficam o Palácio Araguaia e os prédios do governo. As quadras têm siglas por região (ARSE, ARNO, ACSU), e Taquaralto e os Aurenys ficam ao sul, a cerca de 15 a 20 km do centro. As distâncias são grandes, o trânsito é leve e quase tudo se faz de carro. O ritmo é calmo, com muita gente de fora do estado."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Palmas, Tocantins",
-        "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
-      }
-    ]
-  },
-  "custo_extra": {
-    "paragrafos": [
-      "A passagem de ônibus urbano em Palmas custa R$ 4,85 desde 26 de maio de 2025, valor que seguia como o mais recente encontrado em outubro de 2026. A rede é pouco densa para o tamanho da cidade, e a maioria das famílias depende de carro.",
-      "Com máximas acima de 35 °C de julho a outubro, o ar-condicionado funciona boa parte do ano. Na hora de comparar aluguéis, considere a conta de luz: imóvel com face oeste, telhado sem forro ou sem sombra esquenta mais e gasta mais energia."
-    ],
-    "fontes": [
-      {
-        "nome": "Conexão Tocantins — nova tarifa",
-        "url": "https://www.conexaoto.com.br/2025/05/26/nova-tarifa-do-transporte-coletivo-passa-a-valer-na-capital"
-      },
-      {
-        "nome": "INMET — normais via Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
-      }
-    ]
-  },
-  "saude": {
-    "paragrafos": [
-      "Palmas não tem hospital do Exército. O atendimento aos usuários do FuSEx é organizado pela seção de saúde do 22º BI e pela rede conveniada, com encaminhamento para outras guarnições quando o tratamento exige. A lista de clínicas e hospitais conveniados é informada pela OM.",
-      "Na rede pública, a principal referência é o Hospital Geral de Palmas, estadual, no centro. A rede particular fica principalmente na região central e no Plano Diretor Sul. Para alguns procedimentos de alta complexidade, pacientes ainda são encaminhados para Brasília ou Goiânia."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Palmas, Tocantins",
-        "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
-      }
-    ]
-  },
-  "educacao": {
-    "paragrafos": [
-      "Não há Colégio Militar do Sistema Colégio Militar do Brasil em Palmas; o mais próximo é o de Brasília, a cerca de 800 km. A cidade tem campus da Universidade Federal do Tocantins (UFT), do Instituto Federal do Tocantins (IFTO) e da Universidade Estadual do Tocantins (Unitins).",
-      "Entre as instituições particulares de ensino superior estão o Centro Universitário Luterano de Palmas (Ceulp/Ulbra) e a Faculdade Católica do Tocantins. As escolas particulares de educação básica se concentram no Plano Diretor Sul e Norte."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Palmas, Tocantins",
-        "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
-      }
-    ]
-  },
-  "clima": {
-    "texto": "É uma das capitais mais quentes do país. Pela normal do INMET (1991-2020), a máxima média vai de 31,6 °C em fevereiro a 37,3 °C em setembro, e a mínima média fica entre 19,6 °C e 23,4 °C. De junho a agosto praticamente não chove, e a umidade média de agosto é de 44%; o total anual é de cerca de 1.750 mm, concentrado de outubro a abril.",
-    "chuvoso": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3,
-      4
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia (dados INMET 1991-2020)",
-        "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
-      },
-      {
-        "nome": "INMET — balanço de julho/2023",
-        "url": "https://portal.inmet.gov.br/noticias/balanço-palmas-to-teve-temperaturas-acima-da-média-em-julho-2023"
-      }
-    ]
-  },
-  "lazer": {
-    "intro": "O lago e a serra estão a poucos minutos do centro, e o Jalapão é a viagem de fim de semana mais procurada. Na seca, a temporada de praia do lago movimenta a cidade.",
-    "lugares": [
-      {
-        "nome": "Praia da Graciosa",
-        "km": "na cidade",
-        "desc": "Praia do lago com quiosques, calçadão e pôr do sol. Fica cheia nas férias de julho, quando a água baixa e a faixa de areia aumenta."
-      },
-      {
-        "nome": "Parque Cesamar",
-        "km": "na cidade",
-        "desc": "Parque urbano com lago, pista de caminhada e parquinho, no Plano Diretor Sul. Bom para ir com criança no fim da tarde."
-      },
-      {
-        "nome": "Praça dos Girassóis e Palacinho",
-        "km": "na cidade",
-        "desc": "Praça cívica que reúne o Palácio Araguaia e monumentos. O Palacinho, primeira sede do governo, é museu desde 2002."
-      },
-      {
-        "nome": "Taquaruçu",
-        "km": "~30 km",
-        "desc": "Distrito na serra com clima mais ameno e várias cachoeiras com banho e rapel. Vá de manhã e leve calçado para trilha."
-      },
-      {
-        "nome": "Parque Estadual do Lajeado",
-        "km": "~20 km",
-        "desc": "Unidade de conservação na serra que emoldura a cidade, com trilhas e mirantes sobre o lago."
-      },
-      {
-        "nome": "Jalapão",
-        "km": "~300 km",
-        "desc": "Dunas, fervedouros e cachoeiras na região de Mateiros e Ponte Alta. Boa parte do caminho é de terra e areia: vá de 4x4 ou com agência, em pelo menos três dias."
-      }
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Palmas, Tocantins",
-        "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
-      }
-    ]
-  },
-  "antes_de_ir": [
-    "Alugue com ar-condicionado em todos os quartos: em setembro a máxima média chega a 37 °C, e as noites seguem acima de 23 °C.",
-    "De julho a setembro o ar fica muito seco. Tenha umidificador e soro fisiológico em casa, sobretudo com criança pequena.",
-    "Antes de fechar o aluguel em Taquaralto ou nos Aurenys, meça o trajeto até o quartel e a escola: são 15 a 20 km do centro pela Theotônio Segurado.",
-    "Para ir ao Jalapão com carro próprio, só com tração 4x4 e pneus adequados; carro de passeio atola nos trechos de areia."
+ "slug": "palmas-to",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Palmas é a capital mais jovem do país. Foi criada em 20 de maio de 1989, logo depois da divisão de Goiás que deu origem ao Tocantins, e construída do zero em área de cerrado entre a Serra do Lajeado e o rio Tocantins. Em 2002, a usina hidrelétrica de Lajeado formou o lago que hoje margeia a cidade e virou área de praias. A população estimada pelo IBGE em 2025 é de 328 mil habitantes.",
+   "A economia é de serviços e administração pública. Governo do estado, prefeitura, órgãos federais, universidades e saúde são os maiores empregadores, seguidos do comércio. O agronegócio pesa no Tocantins, mas fica sobretudo no interior; no município, as fazendas maiores estão no distrito de Buritirana. Para o cônjuge, concursos, saúde, educação e comércio são os caminhos mais comuns.",
+   "O plano urbano segue o modelo de Brasília. A Avenida Theotônio Segurado corta a cidade de norte a sul e a Avenida JK cruza o centro até a Praça dos Girassóis, onde ficam o Palácio Araguaia e os prédios do governo. As quadras têm siglas por região (ARSE, ARNO, ACSU), e Taquaralto e os Aurenys ficam ao sul, a cerca de 15 a 20 km do centro. As distâncias são grandes, o trânsito é leve e quase tudo se faz de carro. O ritmo é calmo, com muita gente de fora do estado."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Palmas, Tocantins",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
+   }
   ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus urbano em Palmas custa R$ 4,85 desde 26 de maio de 2025, valor que seguia como o mais recente encontrado em outubro de 2026. A rede é pouco densa para o tamanho da cidade, e a maioria das famílias depende de carro.",
+   "Com máximas acima de 35 °C de julho a outubro, o ar-condicionado funciona boa parte do ano. Na hora de comparar aluguéis, considere a conta de luz: imóvel com face oeste, telhado sem forro ou sem sombra esquenta mais e gasta mais energia."
+  ],
+  "fontes": [
+   {
+    "nome": "Conexão Tocantins — nova tarifa",
+    "url": "https://www.conexaoto.com.br/2025/05/26/nova-tarifa-do-transporte-coletivo-passa-a-valer-na-capital"
+   },
+   {
+    "nome": "INMET — normais via Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "Palmas não tem hospital do Exército. O atendimento aos usuários do FuSEx é organizado pela seção de saúde do 22º BI e pela rede conveniada, com encaminhamento para outras guarnições quando o tratamento exige. A lista de clínicas e hospitais conveniados é informada pela OM.",
+   "Na rede pública, a principal referência é o Hospital Geral de Palmas, estadual, no centro. A rede particular fica principalmente na região central e no Plano Diretor Sul. Para alguns procedimentos de alta complexidade, pacientes ainda são encaminhados para Brasília ou Goiânia."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Palmas, Tocantins",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar do Sistema Colégio Militar do Brasil em Palmas; o mais próximo é o de Brasília, a cerca de 800 km. A cidade tem campus da Universidade Federal do Tocantins (UFT), do Instituto Federal do Tocantins (IFTO) e da Universidade Estadual do Tocantins (Unitins).",
+   "Entre as instituições particulares de ensino superior estão o Centro Universitário Luterano de Palmas (Ceulp/Ulbra) e a Faculdade Católica do Tocantins. As escolas particulares de educação básica se concentram no Plano Diretor Sul e Norte."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Palmas, Tocantins",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "É uma das capitais mais quentes do país. Pela normal do INMET (1991-2020), a máxima média vai de 31,6 °C em fevereiro a 37,3 °C em setembro, e a mínima média fica entre 19,6 °C e 23,4 °C. De junho a agosto praticamente não chove, e a umidade média de agosto é de 44%; o total anual é de cerca de 1.750 mm, concentrado de outubro a abril.",
+  "chuvoso": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (dados INMET 1991-2020)",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
+   },
+   {
+    "nome": "INMET — balanço de julho/2023",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-palmas-to-teve-temperaturas-acima-da-média-em-julho-2023"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lago e a serra estão a poucos minutos do centro, e o Jalapão é a viagem de fim de semana mais procurada. Na seca, a temporada de praia do lago movimenta a cidade.",
+  "lugares": [
+   {
+    "nome": "Praia da Graciosa",
+    "km": "na cidade",
+    "desc": "Praia do lago com quiosques, calçadão e pôr do sol. Fica cheia nas férias de julho, quando a água baixa e a faixa de areia aumenta."
+   },
+   {
+    "nome": "Parque Cesamar",
+    "km": "na cidade",
+    "desc": "Parque urbano com lago, pista de caminhada e parquinho, no Plano Diretor Sul. Bom para ir com criança no fim da tarde."
+   },
+   {
+    "nome": "Praça dos Girassóis e Palacinho",
+    "km": "na cidade",
+    "desc": "Praça cívica que reúne o Palácio Araguaia e monumentos. O Palacinho, primeira sede do governo, é museu desde 2002."
+   },
+   {
+    "nome": "Taquaruçu",
+    "km": "~30 km",
+    "desc": "Distrito na serra com clima mais ameno e várias cachoeiras com banho e rapel. Vá de manhã e leve calçado para trilha."
+   },
+   {
+    "nome": "Parque Estadual do Lajeado",
+    "km": "~20 km",
+    "desc": "Unidade de conservação na serra que emoldura a cidade, com trilhas e mirantes sobre o lago."
+   },
+   {
+    "nome": "Jalapão",
+    "km": "~300 km",
+    "desc": "Dunas, fervedouros e cachoeiras na região de Mateiros e Ponte Alta. Boa parte do caminho é de terra e areia: vá de 4x4 ou com agência, em pelo menos três dias."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Palmas, Tocantins",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Tocantins"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Alugue com ar-condicionado em todos os quartos: em setembro a máxima média chega a 37 °C, e as noites seguem acima de 23 °C.",
+  "De julho a setembro o ar fica muito seco. Tenha umidificador e soro fisiológico em casa, sobretudo com criança pequena.",
+  "Antes de fechar o aluguel em Taquaralto ou nos Aurenys, meça o trajeto até o quartel e a escola: são 15 a 20 km do centro pela Theotônio Segurado.",
+  "Para ir ao Jalapão com carro próprio, só com tração 4x4 e pneus adequados; carro de passeio atola nos trechos de areia."
+ ]
 }

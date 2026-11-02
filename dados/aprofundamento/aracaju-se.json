@@ -1,0 +1,107 @@
+{
+ "slug": "aracaju-se",
+ "lede": "Capital de Sergipe desde 1855, na foz do rio Sergipe, com orla longa, vida tranquila e a cesta básica mais barata entre as capitais.",
+ "cidade": {
+  "paragrafos": [
+   "Aracaju virou capital de Sergipe em 17 de março de 1855, quando a sede do governo saiu de São Cristóvão. A cidade foi erguida na foz do rio Sergipe, no Atlântico, onde antes havia o povoado de Santo Antônio do Aracaju, registrado em 1699. A estimativa de população para 2025 é de 630.932 habitantes.",
+   "A economia se apoia em serviços, comércio, serviço público e indústria. Como capital do menor estado do país, Aracaju concentra a administração estadual, os principais hospitais e as universidades de Sergipe, como a UFS e o IFS. Para o cônjuge, as vagas mais comuns estão no comércio, na saúde, no ensino e em serviços ligados ao turismo de praia, que movimenta a orla nas férias de verão e em julho.",
+   "A cidade é plana e se espalha entre o rio Sergipe e o mar. A Orla de Atalaia concentra hotéis, restaurantes e áreas de lazer. A Ponte Aracaju–Barra dos Coqueiros cruza o rio e liga a capital ao município vizinho, que cresce como área residencial. As distâncias internas são curtas, e o ritmo é mais calmo que o das capitais maiores do Nordeste. A antiga capital, São Cristóvão, faz parte da região metropolitana."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Aracaju)",
+    "url": "https://en.wikipedia.org/wiki/Aracaju"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em Aracaju continua em R$ 4,50 em 2026. Uma resolução da SMTT manteve a tarifa e elevou o subsídio da prefeitura às empresas, que vale de 1º de fevereiro a 31 de dezembro de 2026. A tarifa técnica, que mostra o custo real por passageiro, foi fixada em R$ 7,00."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte (tarifa de Aracaju, mar/2026)",
+    "url": "https://diariodotransporte.com.br/2026/03/04/aracaju-se-congela-tarifa-do-transporte-coletivo-em-r-450-elevando-repasse-as-concessionarias/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "A guarnição conta com o Posto Médico de Guarnição de Aracaju para o atendimento básico dos beneficiários. Casos de maior complexidade podem ser encaminhados a Salvador, a cerca de 320 km pela BR-101.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Aracaju)",
+    "url": "https://en.wikipedia.org/wiki/Aracaju"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar em Aracaju; o mais próximo é o de Salvador, a cerca de 322 km. No ensino superior público estão a Universidade Federal de Sergipe (UFS) e o Instituto Federal de Sergipe (IFS). Há também universidades e faculdades particulares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Aracaju)",
+    "url": "https://en.wikipedia.org/wiki/Aracaju"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Quente e úmido, com brisa do mar e pouca variação ao longo do ano. Pelas normais do INMET (1991-2020), a máxima média anual é de 29,5 °C e a mínima de 23,1 °C, com 1.189 mm de chuva por ano. A chuva se concentra de abril a julho, com pico em maio (227 mm).",
+  "chuvoso": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Aracaju)",
+    "url": "https://en.wikipedia.org/wiki/Aracaju"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Em Aracaju o lazer gira em torno da orla e do rio Sergipe. A cidade histórica de São Cristóvão fica a uma curta viagem de carro.",
+  "lugares": [
+   {
+    "nome": "Orla de Atalaia",
+    "km": "na cidade",
+    "desc": "Calçadão longo com quadras, parquinhos, ciclovia e restaurantes. É o principal ponto de encontro das famílias no fim da tarde."
+   },
+   {
+    "nome": "Ponte Aracaju–Barra dos Coqueiros",
+    "km": "na cidade",
+    "desc": "Ponte sobre a foz do rio Sergipe que leva às praias mais vazias da Barra dos Coqueiros. A vista do rio é bonita no pôr do sol."
+   },
+   {
+    "nome": "Ponte do Imperador",
+    "km": "na cidade",
+    "desc": "Antigo cais na margem do rio Sergipe, no Centro, ponto histórico da cidade. Combina com um passeio a pé pela área central."
+   },
+   {
+    "nome": "Catedral Metropolitana",
+    "km": "na cidade",
+    "desc": "Catedral no Centro, perto das praças principais. Dá para juntar com o comércio de rua da região."
+   },
+   {
+    "nome": "São Cristóvão",
+    "km": "região metropolitana",
+    "desc": "Antiga capital de Sergipe, na Grande Aracaju, com igrejas e conjunto colonial. Passeio de meio dia."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Aracaju)",
+    "url": "https://en.wikipedia.org/wiki/Aracaju"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Programe a mudança fora de abril a julho, quando chove mais. Maio é o mês mais chuvoso.",
+  "Se pensar em morar na Barra dos Coqueiros, do outro lado do rio Sergipe, teste antes o trajeto pela ponte até a OM nos horários de pico.",
+  "Use o ônibus sem medo do custo: a tarifa de R$ 4,50 está congelada em 2026, uma das mais baixas entre as capitais do Nordeste."
+ ]
+}

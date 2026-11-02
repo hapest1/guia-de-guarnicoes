@@ -1,0 +1,123 @@
+{
+ "slug": "belem-pa",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Belém nasceu em 12 de janeiro de 1616, quando o capitão Francisco Caldeira Castelo Branco ergueu o Forte do Presépio na entrada do rio Guamá. A cidade cresceu como porto de saída da Amazônia, e esse papel ainda define o centro antigo, onde ficam o Ver-o-Peso, a Estação das Docas e o Theatro da Paz, inaugurado em 1874.",
+   "A economia gira em torno do porto, do comércio, dos serviços públicos e das universidades. Pela região saem alumínio, minério, castanha-do-pará, madeira e mandioca. A imigração japonesa a partir dos anos 1930 deixou marca no cultivo de juta e pimenta-do-reino no entorno. Para o cônjuge, as maiores oportunidades costumam estar no comércio, na saúde, no ensino superior (UFPA, UEPA, UFRA, Unama, Cesupa) e no serviço público estadual.",
+   "O município tem 8 distritos administrativos e 71 bairros, além de ilhas como Mosqueiro e Caratateua (Outeiro). Os bairros mais centrais ficam perto da baía do Guajará. Icoaraci e Mosqueiro são áreas mais afastadas, procuradas no fim de semana. A população estimada pelo IBGE em 2025 é de 1.397.315 habitantes. A vida segue o ritmo da chuva: em fevereiro, março e abril chove mais de 400 mm por mês."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Belém)",
+    "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano em Belém é de R$ 4,60, com meia estudantil de R$ 2,30, valor em vigor desde abril de 2025 e ainda praticado em agosto de 2026. Quando o reajuste saiu, em 2025, a prefeitura também passou a liberar a catraca aos domingos e feriados. Confirme se a regra continua valendo ao chegar."
+  ],
+  "fontes": [
+   {
+    "nome": "O Liberal / Setransbel (tarifa de Belém, ago/2026)",
+    "url": "https://www.oliberal.com/estudio/quanto-custa-se-locomover-por-belem-transporte-coletivo-reune-economia-e-previsibilidade-1.1159638"
+   },
+   {
+    "nome": "AutoPapo (tarifas das capitais, abr/2025)",
+    "url": "https://autopapo.com.br/noticia/preco-passagem-de-onibus-veja-valores-capitais-brasil/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "Belém tem o Hospital Geral de Belém, citado na lista de OM desta ficha, que é a referência de saúde do Exército no CMAO. Como capital e maior cidade do Pará, Belém também concentra a rede civil de maior complexidade do estado.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Belém)",
+    "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "A cidade tem o Colégio Militar de Belém, do Sistema Colégio Militar do Brasil. No ensino superior público estão a Universidade Federal do Pará (UFPA), a Universidade do Estado do Pará (UEPA), a Universidade Federal Rural da Amazônia (UFRA) e o Instituto Federal do Pará (IFPA). Entre as particulares mais conhecidas estão a Unama e o Cesupa."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Belém)",
+    "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Clima equatorial, quente e úmido o ano inteiro. Pelas normais do INMET (1991-2020), a máxima média anual é de 32,3 °C e a mínima de 23,1 °C, com 3.308 mm de chuva por ano. Março (506 mm), abril (466 mm) e fevereiro (438 mm) são os meses mais chuvosos, com pancadas fortes quase sempre à tarde.",
+  "chuvoso": [
+   12,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Belém)",
+    "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Belém mistura centro histórico, parques com floresta e praias de rio. Boa parte fica a poucos minutos do centro.",
+  "lugares": [
+   {
+    "nome": "Estação das Docas",
+    "km": "na cidade",
+    "desc": "Antigos galpões do porto, do início do século XX, reformados com restaurantes, lojas e auditório à beira da baía do Guajará. Bom para levar crianças no fim da tarde, quando refresca."
+   },
+   {
+    "nome": "Theatro da Paz",
+    "km": "na cidade",
+    "desc": "Teatro de 1874, do ciclo da borracha, na Praça da República. Tem programação de concertos e visitas guiadas."
+   },
+   {
+    "nome": "Museu Paraense Emílio Goeldi",
+    "km": "na cidade",
+    "desc": "Museu e parque zoobotânico com animais e plantas da Amazônia. Funciona como passeio de meio período para quem tem filhos pequenos."
+   },
+   {
+    "nome": "Bosque Rodrigues Alves",
+    "km": "na cidade",
+    "desc": "Reserva de 16 hectares de mata com cerca de 2.500 espécies nativas, lagos, cascatas e orquidário. A sombra ajuda a enfrentar o calor."
+   },
+   {
+    "nome": "Parque Estadual do Utinga",
+    "km": "na cidade",
+    "desc": "Parque quase todo dentro do município, com oito trilhas. A mais procurada, a trilha dos macacos, leva cerca de 40 minutos."
+   },
+   {
+    "nome": "Basílica de Nazaré e Círio",
+    "km": "na cidade",
+    "desc": "A basílica fica onde, pela tradição, a imagem de Nossa Senhora de Nazaré foi encontrada. O Círio sai no segundo domingo de outubro, a procissão dura cerca de cinco horas e a festa se estende por 15 dias."
+   },
+   {
+    "nome": "Ilha de Mosqueiro",
+    "km": "~67 km",
+    "desc": "Ilha do próprio município com 14 praias de água doce. É o destino de fim de semana mais tradicional dos belenenses, sobretudo na época menos chuvosa, de julho em diante."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Belém)",
+    "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Evite marcar a mudança para a quinzena do Círio de Nazaré (segundo domingo de outubro): procissões e romarias fecham vias do centro e de Nazaré por vários dias.",
+  "Combine horários de trabalho e escola com a chuva: de fevereiro a abril chove mais de 400 mm por mês, em pancadas fortes à tarde que alagam ruas e atrasam o ônibus.",
+  "Prefira imóvel com ar-condicionado e boa ventilação contra mofo: a umidade alta o ano todo estraga roupas e móveis guardados em lugar fechado."
+ ]
+}

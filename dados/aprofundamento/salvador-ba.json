@@ -1,131 +1,131 @@
 {
-  "slug": "salvador-ba",
-  "lede": null,
-  "cidade": {
-    "paragrafos": [
-      "Salvador foi fundada em 1549 por Tomé de Sousa para ser a sede do governo-geral e foi a capital do Brasil até 1763. A cidade nasceu em dois níveis: a Cidade Alta, onde ficam o Pelourinho e o Centro Histórico tombado pela Unesco, e a Cidade Baixa, à beira da Baía de Todos os Santos, ligadas pelo Elevador Lacerda e pelo Plano Inclinado Gonçalves. Com cerca de 2,4 milhões de habitantes no Censo 2022, é a maior cidade do Nordeste em população.",
-      "A economia gira em torno de serviços, comércio, administração pública, saúde e turismo. Boa parte dos empregos industriais da região metropolitana fica fora da capital, no Centro Industrial de Aratu e no Polo Industrial de Camaçari, a cerca de 25 e 45 km. Para o cônjuge, as vagas mais comuns estão em saúde, educação, varejo, serviços jurídicos e turismo, com escritórios concentrados no eixo Pituba, Caminho das Árvores e Avenida Tancredo Neves.",
-      "A cidade se divide entre a orla atlântica (Barra, Ondina, Rio Vermelho, Pituba, Itapuã), o Miolo, entre a Avenida Paralela e a BR-324, e o Subúrbio Ferroviário, voltado para a baía. O metrô tem duas linhas: a Linha 1 vai da Lapa a Águas Claras e a Linha 2 liga o Acesso Norte ao aeroporto pela Paralela. O relevo de morros e vales e as poucas vias de ligação deixam o trânsito lento nos horários de pico, sobretudo na Paralela, na ACM e na Bonocô. O ritmo é de cidade grande, com calendário de festas populares que vai do Réveillon ao Carnaval e à Lavagem do Bonfim, em janeiro."
-    ],
-    "fontes": [
-      {
-        "nome": "Diário do Transporte — tarifa 2026",
-        "url": "https://diariodotransporte.com.br/2026/01/05/tarifas-de-transportes-coletivos-estao-mais-altas-em-mais-duas-capitais-rio-de-janeiro-e-salvador/"
-      },
-      {
-        "nome": "INMET — Salvador",
-        "url": "https://portal.inmet.gov.br/noticias/balanço-salvador-ba-teve-26-dias-de-chuva-em-maio-de-2023"
-      }
-    ]
-  },
-  "custo_extra": {
-    "paragrafos": [
-      "A tarifa do ônibus urbano em Salvador passou para R$ 5,90 em 5 de janeiro de 2026. Quem mora perto de uma estação pode combinar ônibus e metrô com integração pelo cartão de transporte, o que ajuda no trajeto pela Avenida Paralela.",
-      "Pela média FipeZAP de fevereiro de 2026 (R$ 53,05 por m²), um apartamento de 60 m² sairia por cerca de R$ 3.200 de aluguel, sem condomínio. Na orla e em bairros como Graça e Caminho das Árvores o valor costuma ficar acima da média, e o condomínio de prédios com área de lazer pesa no orçamento."
-    ],
-    "fontes": [
-      {
-        "nome": "Diário do Transporte — tarifa 2026",
-        "url": "https://diariodotransporte.com.br/2026/01/02/tarifa-de-onibus-em-salvador-ba-e-reajustada-para-r-590-a-partir-de-segunda-feira-5/"
-      },
-      {
-        "nome": "Bahia Notícias — tarifa R$ 5,90",
-        "url": "https://www.bahianoticias.com.br/noticia/312187-tarifa-de-onibus-em-salvador-passa-a-custar-r-590-a-partir-desta-segunda"
-      }
-    ]
-  },
-  "saude": {
-    "paragrafos": [
-      "O Hospital Geral de Salvador (HGeS) é a unidade de saúde do Exército na cidade e atende os usuários do FuSEx da guarnição. Consultas, marcação e encaminhamentos para especialidades seguem as regras da própria unidade e da seção de saúde da OM.",
-      "Na rede civil, as referências são o Hospital Geral do Estado (HGE), principal pronto-socorro de trauma da Bahia, e o Complexo Hospitalar Universitário Professor Edgard Santos, da UFBA, no Canela. A rede particular se concentra entre a Graça, o Canela, a Pituba e o Caminho das Árvores. A lista de clínicas e hospitais conveniados ao FuSEx muda ao longo do ano e é informada pela OM."
-    ],
-    "fontes": [
-      {
-        "nome": "Hospital Geral de Salvador (HGeS)",
-        "url": "https://hges.eb.mil.br/images/PDF/Historico_HGeS.pdf"
-      },
-      {
-        "nome": "A Tarde — HGE",
-        "url": "https://atarde.com.br/politica/bahia/hge-passara-por-requalificacao-saiba-o-que-vai-mudar-1314403"
-      }
-    ]
-  },
-  "educacao": {
-    "paragrafos": [
-      "O Colégio Militar de Salvador, do Sistema Colégio Militar do Brasil, recebe dependentes de militares transferidos conforme as regras de matrícula do sistema. Confirme com a OM o calendário e os documentos exigidos antes da mudança.",
-      "No ensino superior, a Universidade Federal da Bahia (UFBA) tem campi em Ondina, Federação e Canela. Também estão na cidade o Instituto Federal da Bahia (IFBA), no Barbalho, e a Universidade do Estado da Bahia (UNEB), no Cabula. A rede particular de educação básica é grande, com colégios tradicionais e escolas bilíngues concentrados na orla e no eixo da Paralela."
-    ],
-    "fontes": []
-  },
-  "clima": {
-    "texto": "Salvador tem calor úmido o ano todo, com pouca variação de temperatura: em geral entre 22 °C de mínima e 31 °C de máxima. O mês mais chuvoso é maio, com normal de 302 mm (INMET, 1991-2020); outubro, um dos mais secos, tem normal de 91 mm. Chuvas fortes de abril a junho provocam alertas em áreas de encosta.",
-    "chuvoso": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "fontes": [
-      {
-        "nome": "INMET — balanço de maio/2023",
-        "url": "https://portal.inmet.gov.br/noticias/balanço-salvador-ba-teve-26-dias-de-chuva-em-maio-de-2023"
-      },
-      {
-        "nome": "INMET — balanço de outubro/2024",
-        "url": "https://portal.inmet.gov.br/noticias/balanço-bahia-teve-um-outubro-2024-seco"
-      }
-    ]
-  },
-  "lazer": {
-    "intro": "Praia urbana, centro histórico e passeios de barco pela Baía de Todos os Santos resolvem quase todos os fins de semana. Muitos programas são de graça.",
-    "lugares": [
-      {
-        "nome": "Pelourinho e Centro Histórico",
-        "km": "na cidade",
-        "desc": "Casarões, igrejas barrocas como São Francisco e a Fundação Casa de Jorge Amado. Vá de manhã e suba pelo Elevador Lacerda, que custa poucos centavos."
-      },
-      {
-        "nome": "Porto da Barra e Farol da Barra",
-        "km": "na cidade",
-        "desc": "Praia de mar calmo, boa para criança. O Forte de Santo Antônio, sob o farol, abriga o Museu Náutico, e o pôr do sol ali é programa clássico."
-      },
-      {
-        "nome": "Parque da Cidade",
-        "km": "na cidade",
-        "desc": "Área verde no Itaigara com pista de caminhada, parquinho e eventos no fim de semana. Fica perto dos bairros mais procurados por famílias."
-      },
-      {
-        "nome": "Lagoa do Abaeté",
-        "km": "na cidade",
-        "desc": "Lagoa de água escura cercada de dunas brancas, em Itapuã. Vale combinar com a praia de Itapuã e o farol."
-      },
-      {
-        "nome": "Museu de Arte Moderna (Solar do Unhão)",
-        "km": "na cidade",
-        "desc": "Casarão colonial à beira da baía com jardim de esculturas. O pôr do sol na área externa atrai famílias no fim da tarde."
-      },
-      {
-        "nome": "Ilha de Itaparica",
-        "km": "~1 h de ferry",
-        "desc": "O ferry sai do Terminal de São Joaquim para Bom Despacho e leva carro. Mar calmo e praias rasas, boas para criança."
-      },
-      {
-        "nome": "Praia do Forte",
-        "km": "~80 km",
-        "desc": "Vila no Litoral Norte com piscinas naturais na maré baixa e a sede do Projeto Tamar. Pela Estrada do Coco, cerca de 1h30."
-      }
-    ],
-    "fontes": [
-      {
-        "nome": "INMET — Salvador",
-        "url": "https://portal.inmet.gov.br/noticias/balanço-salvador-ba-teve-26-dias-de-chuva-em-maio-de-2023"
-      }
-    ]
-  },
-  "antes_de_ir": [
-    "Defina o bairro pelo trajeto até a OM e a escola: atravessar a cidade pela Paralela ou pela BR-324 no pico pode levar mais de uma hora.",
-    "Se for morar na Barra ou em Ondina, conte com ruas bloqueadas e barulho nos dias de Carnaval, que passa pelo circuito da orla.",
-    "Na orla, a maresia corrói eletrodomésticos, grades e carros. Prefira aparelhos com proteção anticorrosão e lave o carro com frequência.",
-    "De abril a junho, acompanhe os alertas da Defesa Civil de Salvador (Codesal) e evite imóveis no pé de encostas."
+ "slug": "salvador-ba",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Salvador foi fundada em 1549 por Tomé de Sousa para ser a sede do governo-geral e foi a capital do Brasil até 1763. A cidade nasceu em dois níveis: a Cidade Alta, onde ficam o Pelourinho e o Centro Histórico tombado pela Unesco, e a Cidade Baixa, à beira da Baía de Todos os Santos, ligadas pelo Elevador Lacerda e pelo Plano Inclinado Gonçalves. Com cerca de 2,4 milhões de habitantes no Censo 2022, é a maior cidade do Nordeste em população.",
+   "A economia gira em torno de serviços, comércio, administração pública, saúde e turismo. Boa parte dos empregos industriais da região metropolitana fica fora da capital, no Centro Industrial de Aratu e no Polo Industrial de Camaçari, a cerca de 25 e 45 km. Para o cônjuge, as vagas mais comuns estão em saúde, educação, varejo, serviços jurídicos e turismo, com escritórios concentrados no eixo Pituba, Caminho das Árvores e Avenida Tancredo Neves.",
+   "A cidade se divide entre a orla atlântica (Barra, Ondina, Rio Vermelho, Pituba, Itapuã), o Miolo, entre a Avenida Paralela e a BR-324, e o Subúrbio Ferroviário, voltado para a baía. O metrô tem duas linhas: a Linha 1 vai da Lapa a Águas Claras e a Linha 2 liga o Acesso Norte ao aeroporto pela Paralela. O relevo de morros e vales e as poucas vias de ligação deixam o trânsito lento nos horários de pico, sobretudo na Paralela, na ACM e na Bonocô. O ritmo é de cidade grande, com calendário de festas populares que vai do Réveillon ao Carnaval e à Lavagem do Bonfim, em janeiro."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte — tarifa 2026",
+    "url": "https://diariodotransporte.com.br/2026/01/05/tarifas-de-transportes-coletivos-estao-mais-altas-em-mais-duas-capitais-rio-de-janeiro-e-salvador/"
+   },
+   {
+    "nome": "INMET — Salvador",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-salvador-ba-teve-26-dias-de-chuva-em-maio-de-2023"
+   }
   ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano em Salvador passou para R$ 5,90 em 5 de janeiro de 2026. Quem mora perto de uma estação pode combinar ônibus e metrô com integração pelo cartão de transporte, o que ajuda no trajeto pela Avenida Paralela.",
+   "Pela média FipeZAP de fevereiro de 2026 (R$ 53,05 por m²), um apartamento de 60 m² sairia por cerca de R$ 3.200 de aluguel, sem condomínio. Na orla e em bairros como Graça e Caminho das Árvores o valor costuma ficar acima da média, e o condomínio de prédios com área de lazer pesa no orçamento."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte — tarifa 2026",
+    "url": "https://diariodotransporte.com.br/2026/01/02/tarifa-de-onibus-em-salvador-ba-e-reajustada-para-r-590-a-partir-de-segunda-feira-5/"
+   },
+   {
+    "nome": "Bahia Notícias — tarifa R$ 5,90",
+    "url": "https://www.bahianoticias.com.br/noticia/312187-tarifa-de-onibus-em-salvador-passa-a-custar-r-590-a-partir-desta-segunda"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "O Hospital Geral de Salvador (HGeS) é a unidade de saúde do Exército na cidade e atende os usuários do FuSEx da guarnição. Consultas, marcação e encaminhamentos para especialidades seguem as regras da própria unidade e da seção de saúde da OM.",
+   "Na rede civil, as referências são o Hospital Geral do Estado (HGE), principal pronto-socorro de trauma da Bahia, e o Complexo Hospitalar Universitário Professor Edgard Santos, da UFBA, no Canela. A rede particular se concentra entre a Graça, o Canela, a Pituba e o Caminho das Árvores. A lista de clínicas e hospitais conveniados ao FuSEx muda ao longo do ano e é informada pela OM."
+  ],
+  "fontes": [
+   {
+    "nome": "Hospital Geral de Salvador (HGeS)",
+    "url": "https://hges.eb.mil.br/images/PDF/Historico_HGeS.pdf"
+   },
+   {
+    "nome": "A Tarde — HGE",
+    "url": "https://atarde.com.br/politica/bahia/hge-passara-por-requalificacao-saiba-o-que-vai-mudar-1314403"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "O Colégio Militar de Salvador, do Sistema Colégio Militar do Brasil, recebe dependentes de militares transferidos conforme as regras de matrícula do sistema. Confirme com a OM o calendário e os documentos exigidos antes da mudança.",
+   "No ensino superior, a Universidade Federal da Bahia (UFBA) tem campi em Ondina, Federação e Canela. Também estão na cidade o Instituto Federal da Bahia (IFBA), no Barbalho, e a Universidade do Estado da Bahia (UNEB), no Cabula. A rede particular de educação básica é grande, com colégios tradicionais e escolas bilíngues concentrados na orla e no eixo da Paralela."
+  ],
+  "fontes": []
+ },
+ "clima": {
+  "texto": "Salvador tem calor úmido o ano todo, com pouca variação de temperatura: em geral entre 22 °C de mínima e 31 °C de máxima. O mês mais chuvoso é maio, com normal de 302 mm (INMET, 1991-2020); outubro, um dos mais secos, tem normal de 91 mm. Chuvas fortes de abril a junho provocam alertas em áreas de encosta.",
+  "chuvoso": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "fontes": [
+   {
+    "nome": "INMET — balanço de maio/2023",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-salvador-ba-teve-26-dias-de-chuva-em-maio-de-2023"
+   },
+   {
+    "nome": "INMET — balanço de outubro/2024",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-bahia-teve-um-outubro-2024-seco"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Praia urbana, centro histórico e passeios de barco pela Baía de Todos os Santos resolvem quase todos os fins de semana. Muitos programas são de graça.",
+  "lugares": [
+   {
+    "nome": "Pelourinho e Centro Histórico",
+    "km": "na cidade",
+    "desc": "Casarões, igrejas barrocas como São Francisco e a Fundação Casa de Jorge Amado. Vá de manhã e suba pelo Elevador Lacerda, que custa poucos centavos."
+   },
+   {
+    "nome": "Porto da Barra e Farol da Barra",
+    "km": "na cidade",
+    "desc": "Praia de mar calmo, boa para criança. O Forte de Santo Antônio, sob o farol, abriga o Museu Náutico, e o pôr do sol ali é programa clássico."
+   },
+   {
+    "nome": "Parque da Cidade",
+    "km": "na cidade",
+    "desc": "Área verde no Itaigara com pista de caminhada, parquinho e eventos no fim de semana. Fica perto dos bairros mais procurados por famílias."
+   },
+   {
+    "nome": "Lagoa do Abaeté",
+    "km": "na cidade",
+    "desc": "Lagoa de água escura cercada de dunas brancas, em Itapuã. Vale combinar com a praia de Itapuã e o farol."
+   },
+   {
+    "nome": "Museu de Arte Moderna (Solar do Unhão)",
+    "km": "na cidade",
+    "desc": "Casarão colonial à beira da baía com jardim de esculturas. O pôr do sol na área externa atrai famílias no fim da tarde."
+   },
+   {
+    "nome": "Ilha de Itaparica",
+    "km": "~1 h de ferry",
+    "desc": "O ferry sai do Terminal de São Joaquim para Bom Despacho e leva carro. Mar calmo e praias rasas, boas para criança."
+   },
+   {
+    "nome": "Praia do Forte",
+    "km": "~80 km",
+    "desc": "Vila no Litoral Norte com piscinas naturais na maré baixa e a sede do Projeto Tamar. Pela Estrada do Coco, cerca de 1h30."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "INMET — Salvador",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-salvador-ba-teve-26-dias-de-chuva-em-maio-de-2023"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Defina o bairro pelo trajeto até a OM e a escola: atravessar a cidade pela Paralela ou pela BR-324 no pico pode levar mais de uma hora.",
+  "Se for morar na Barra ou em Ondina, conte com ruas bloqueadas e barulho nos dias de Carnaval, que passa pelo circuito da orla.",
+  "Na orla, a maresia corrói eletrodomésticos, grades e carros. Prefira aparelhos com proteção anticorrosão e lave o carro com frequência.",
+  "De abril a junho, acompanhe os alertas da Defesa Civil de Salvador (Codesal) e evite imóveis no pé de encostas."
+ ]
 }

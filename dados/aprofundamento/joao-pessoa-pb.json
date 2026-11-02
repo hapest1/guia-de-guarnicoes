@@ -1,0 +1,116 @@
+{
+ "slug": "joao-pessoa-pb",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "João Pessoa foi fundada em 1585 e está entre as cidades mais antigas do país. Na Ponta do Seixas, junto ao Cabo Branco, fica o ponto mais oriental das Américas, reconhecido oficialmente pela Marinha em 1941. O Centro Histórico foi tombado pelo Iphan em 2007, e em 2017 a Unesco incluiu a cidade na Rede de Cidades Criativas pelo artesanato. O Censo 2022 contou 833.932 habitantes.",
+   "A economia se apoia no serviço público, no comércio, na construção civil e no turismo. A Universidade Federal da Paraíba (UFPB), que começou a construir seu campus em 1965, é uma das grandes empregadoras. Para o cônjuge, as vagas mais comuns estão em comércio, saúde, ensino e serviços ligados ao turismo.",
+   "Desde 1967 a lei limita a altura dos prédios na faixa da orla, por isso a beira-mar tem construções baixas e os edifícios altos ficam algumas quadras atrás. As praias urbanas vão do Bessa ao Cabo Branco, passando por Manaíra e Tambaú. Entre a orla e o centro fica a Mata do Buraquinho, área de mata atlântica que virou o Jardim Botânico Benjamin Maranhão em 2000."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (João Pessoa)",
+    "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa,_Brazil"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em João Pessoa subiu de R$ 5,20 para R$ 5,45 em 25 de janeiro de 2026, segundo a aprovação do Conselho Municipal de Mobilidade Urbana. A linha opcional com ar-condicionado, o \"Geladinho\", custa R$ 6,05."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte (tarifa de João Pessoa, jan/2026)",
+    "url": "https://diariodotransporte.com.br/2026/01/23/tarifa-do-transporte-coletivo-de-joao-pessoa-pb-sobe-de-r-520-para-r-545-a-partir-deste-domingo-25/"
+   },
+   {
+    "nome": "OtimizaPro (tabela de tarifas 2026)",
+    "url": "https://otimizapro.com/tabela-tarifas-transporte-brasil-2026"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "A guarnição conta com o Hospital de Guarnição de João Pessoa, listado entre as OM desta ficha, para o atendimento dos beneficiários. Casos de alta complexidade podem ser encaminhados ao Recife, a cerca de 120 km pela BR-101.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (João Pessoa)",
+    "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa,_Brazil"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar em João Pessoa; o mais próximo é o do Recife, a cerca de 116 km. No ensino superior público, a principal instituição é a Universidade Federal da Paraíba (UFPB), com campus central na capital. A cidade também tem o Instituto Federal da Paraíba (IFPB) e faculdades particulares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (João Pessoa)",
+    "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa,_Brazil"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Quente e úmido, com brisa constante. Pelas normais do INMET (1991-2020), a máxima média anual é de 30,2 °C e a mínima de 23,9 °C, com 1.837 mm de chuva por ano. A chuva se concentra no meio do ano: junho (369 mm), maio (288 mm) e julho (285 mm). De setembro a fevereiro o tempo é mais seco e ensolarado.",
+  "chuvoso": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (João Pessoa)",
+    "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa,_Brazil"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "A maior parte do lazer em João Pessoa fica na orla e no centro antigo. Muitos passeios são de graça ou baratos.",
+  "lugares": [
+   {
+    "nome": "Farol do Cabo Branco e Ponta do Seixas",
+    "km": "na cidade",
+    "desc": "Farol no alto da falésia, ao lado do ponto mais oriental das Américas. Vale ir cedo para ver o nascer do sol."
+   },
+   {
+    "nome": "Estação Cabo Branco",
+    "km": "na cidade",
+    "desc": "Centro de ciência, cultura e artes projetado por Oscar Niemeyer e inaugurado em 2008, perto do farol. Tem exposições e mirante."
+   },
+   {
+    "nome": "Piscinas do Picãozinho",
+    "km": "na cidade",
+    "desc": "Recife a cerca de 1,5 km da praia de Tambaú, que forma piscinas naturais na maré baixa. O passeio sai de barco ou catamarã da orla."
+   },
+   {
+    "nome": "Centro Cultural São Francisco",
+    "km": "na cidade",
+    "desc": "Conjunto barroco da igreja e do convento de Santo Antônio, no Centro Histórico. É uma das visitas mais bonitas da cidade."
+   },
+   {
+    "nome": "Jardim Botânico Benjamin Maranhão",
+    "km": "na cidade",
+    "desc": "Mata atlântica preservada no meio da cidade, na antiga Mata do Buraquinho, com trilhas leves para crianças."
+   },
+   {
+    "nome": "Praias de Tambaú, Manaíra e Bessa",
+    "km": "na cidade",
+    "desc": "Orla urbana com calçadão contínuo e ciclovia. Boa para caminhar e pedalar no fim da tarde."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (João Pessoa)",
+    "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa,_Brazil"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Marque o passeio ao Picãozinho pela tábua de marés: as piscinas só aparecem na maré baixa, e as agências fixam o horário de acordo com ela.",
+  "Programe a mudança fora de maio a julho, os meses de mais chuva, com mais de 280 mm cada.",
+  "Se quiser morar perto da praia, saiba que a faixa da orla só admite prédios baixos por lei: a oferta de apartamentos fica concentrada nas quadras de trás."
+ ]
+}

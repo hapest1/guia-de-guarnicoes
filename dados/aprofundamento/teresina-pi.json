@@ -1,0 +1,129 @@
+{
+ "slug": "teresina-pi",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Teresina foi fundada em 16 de agosto de 1852, com o nome de Vila Nova do Poty, para ser a nova capital do Piauí. É considerada a primeira capital planejada do país e a única do Nordeste longe do litoral. A cidade fica entre os rios Parnaíba e Poti, que se encontram no extremo norte, e tem Timon (MA) do outro lado do Parnaíba.",
+   "Teresina responde por cerca de 40% do PIB do Piauí. A economia se apoia em comércio, serviços, construção civil e indústrias de confecção, bebidas, farmacêuticos, móveis e cerâmica. A saúde é um setor grande: o município tem centenas de estabelecimentos e cerca de 15 mil pessoas trabalhando na área, o que gera vagas para o cônjuge com formação em saúde.",
+   "A Zona Leste, do outro lado do Poti, reúne os bairros mais procurados e os shoppings. O Centro guarda a parte antiga, planejada em quadras. O transporte coletivo encolheu: a frota caiu de 459 ônibus em 2015 para cerca de 213 em circulação em setembro de 2026, e a maioria das famílias depende do carro. O Censo 2022 contou 866.300 habitantes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Teresina)",
+    "url": "https://en.wikipedia.org/wiki/Teresina"
+   },
+   {
+    "nome": "Diário do Transporte (frota de Teresina, out/2026)",
+    "url": "https://diariodotransporte.com.br/2026/10/19/teresina-contrata-r-95-milhoes-para-comprar-novos-onibus-e-renovar-frota-do-transporte-coletivo/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em Teresina custa R$ 4,00 (meia de R$ 1,35), valor congelado desde o início de 2020. Em outubro de 2026 a prefeitura contratou R$ 95 milhões em ônibus novos para recompor a frota, mas a oferta de linhas ainda é pequena para o tamanho da cidade. Inclua no orçamento o custo de carro próprio e de ar-condicionado ligado boa parte do ano."
+  ],
+  "fontes": [
+   {
+    "nome": "AutoPapo (tarifas das capitais, abr/2025)",
+    "url": "https://autopapo.com.br/noticia/preco-passagem-de-onibus-veja-valores-capitais-brasil/"
+   },
+   {
+    "nome": "OtimizaPro (tabela de tarifas 2026)",
+    "url": "https://otimizapro.com/tabela-tarifas-transporte-brasil-2026"
+   },
+   {
+    "nome": "Diário do Transporte (frota de Teresina, out/2026)",
+    "url": "https://diariodotransporte.com.br/2026/10/19/teresina-contrata-r-95-milhoes-para-comprar-novos-onibus-e-renovar-frota-do-transporte-coletivo/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "A guarnição conta com o Posto Médico de Guarnição de Teresina para o atendimento básico dos beneficiários. A cidade é um polo regional de saúde, com cerca de 634 estabelecimentos e oito hospitais,.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Teresina)",
+    "url": "https://en.wikipedia.org/wiki/Teresina"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar em Teresina; o mais próximo é o de Fortaleza, a cerca de 593 km por estrada. No ensino superior público estão a Universidade Federal do Piauí (UFPI), a Universidade Estadual do Piauí (Uespi) e o Instituto Federal do Piauí (IFPI), além de faculdades particulares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Teresina)",
+    "url": "https://en.wikipedia.org/wiki/Teresina"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Clima quente e seco na maior parte do ano. Pelas normais do INMET (1991-2020), a máxima média anual é de 34,0 °C e a mínima de 22,5 °C; em outubro a máxima média chega a 37,4 °C, e o recorde é de 41,6 °C. As chuvas vão de janeiro a maio (pico em março, 292 mm), com muitos raios: a cidade está entre as de maior incidência de descargas elétricas do mundo. De junho a novembro quase não chove.",
+  "chuvoso": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Teresina)",
+    "url": "https://en.wikipedia.org/wiki/Teresina"
+   },
+   {
+    "nome": "Climatempo (climatologia de Teresina)",
+    "url": "https://www.climatempo.com.br/climatologia/264/teresina-br"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer de Teresina gira em torno dos dois rios e da cultura piauiense. Os passeios ao ar livre rendem mais cedo ou no fim da tarde.",
+  "lugares": [
+   {
+    "nome": "Encontro dos Rios",
+    "km": "na cidade",
+    "desc": "Ponto ao norte da cidade onde o Poti deságua no Parnaíba. Tem mirante e área de passeio, melhor no fim da tarde."
+   },
+   {
+    "nome": "Mirante da Ponte Estaiada",
+    "km": "na cidade",
+    "desc": "Mirante João Isidoro França, no alto da ponte estaiada sobre o Poti, com vista da cidade. Programa curto para fazer à noite."
+   },
+   {
+    "nome": "Museu do Piauí",
+    "km": "na cidade",
+    "desc": "Museu no Centro, com acervo sobre a história e a cultura do estado."
+   },
+   {
+    "nome": "Centro Artesanal Mestre Dezinho",
+    "km": "na cidade",
+    "desc": "Reúne lojas de artesanato piauiense, como peças em madeira, couro e cerâmica. Bom lugar para comprar lembranças."
+   },
+   {
+    "nome": "Theatro 4 de Setembro",
+    "km": "na cidade",
+    "desc": "Principal teatro da cidade, na Praça Pedro II, com programação de música e espetáculos."
+   },
+   {
+    "nome": "Parque Zoobotânico",
+    "km": "na cidade",
+    "desc": "Área verde com animais e mata, passeio de manhã para quem tem crianças."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Teresina)",
+    "url": "https://en.wikipedia.org/wiki/Teresina"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Alugue com ar-condicionado em todos os quartos: de setembro a novembro a máxima média passa de 36 °C e a noite pouco refresca.",
+  "Instale protetores contra surto (DPS) no quadro de energia: as tempestades de janeiro a maio trazem muitos raios, que queimam eletrodomésticos.",
+  "Planeje ter carro: com cerca de 213 ônibus rodando em 2026, a espera nos pontos é longa e muitos bairros têm poucas linhas."
+ ]
+}

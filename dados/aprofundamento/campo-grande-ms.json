@@ -1,129 +1,129 @@
 {
-  "slug": "campo-grande-ms",
-  "lede": null,
-  "cidade": {
-    "paragrafos": [
-      "Campo Grande nasceu em 1877 como um povoado de criadores vindos de Minas Gerais e virou município em 26 de agosto de 1899. A chegada da ferrovia Noroeste do Brasil, em 1914, acelerou o crescimento, e a cidade virou capital com a criação do Mato Grosso do Sul, em 1977. A estimativa do IBGE de 2026 é de 971 mil habitantes, sendo a maior cidade do estado.",
-      "A economia é de comércio e serviços, com forte peso do agronegócio: pecuária de corte, frigoríficos, soja e, cada vez mais, cana-de-açúcar e celulose no estado. Administração pública, saúde e educação completam a base. Para o cônjuge, as vagas mais comuns estão em comércio, saúde, educação, serviços para o agro e concursos.",
-      "A Avenida Afonso Pena é o eixo da cidade, do Centro até o Parque das Nações Indígenas e o Shopping Campo Grande. As avenidas são largas e o trânsito é moderado para uma capital; quase tudo fica a 20 minutos de carro. O transporte coletivo é por ônibus, com terminais de integração. A cidade é reconhecida pela arborização e pelos ipês floridos de julho a setembro. Tem colônia japonesa grande, vinda de Okinawa, e influência paraguaia e gaúcha. O sobá, servido na Feira Central, é patrimônio imaterial da cidade."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Campo Grande",
-        "url": "https://en.wikipedia.org/wiki/Campo_Grande"
-      }
-    ]
-  },
-  "custo_extra": {
-    "paragrafos": [
-      "O passe de ônibus em Campo Grande custa R$ 4,95 para o usuário, segundo reportagem de maio de 2026. A prefeitura cobre a diferença para a tarifa técnica, que o consórcio operador disputa na Justiça.",
-      "Pela média FipeZAP de fevereiro de 2026 (R$ 29,39 por m²), um apartamento de 60 m² sairia por cerca de R$ 1.750, sem condomínio. Casas são comuns e costumam ter quintal, o que ajuda quem tem pet."
-    ],
-    "fontes": [
-      {
-        "nome": "A Crítica — tarifa do Guaicurus",
-        "url": "https://acritica.net/cidades/consorcio-guaicurus-volta-a-pressionar-por-tarifa-de-r-7-79-em-campo-grande/"
-      }
-    ]
-  },
-  "saude": {
-    "paragrafos": [
-      "O Hospital Militar de Área de Campo Grande (HMACG), subordinado à 9ª Região Militar, é a referência de saúde do Exército no Comando Militar do Oeste. Atende os usuários do FuSEx da guarnição e recebe pacientes encaminhados de outras guarnições do Mato Grosso do Sul e do Mato Grosso.",
-      "Na rede civil, as referências são a Santa Casa de Campo Grande, maior hospital do estado, o Hospital Regional de Mato Grosso do Sul e o Hospital Universitário Maria Aparecida Pedrossian, da UFMS. A lista de clínicas e hospitais conveniados ao FuSEx é informada pela OM."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — 9ª Região Militar",
-        "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/9th_Military_Region_(Brazil)"
-      },
-      {
-        "nome": "Angels Initiative — HMACG",
-        "url": "https://angels-initiative.com/content/hospital-militar-de-area-de-campo-grande-ms"
-      }
-    ]
-  },
-  "educacao": {
-    "paragrafos": [
-      "O Colégio Militar de Campo Grande, do Sistema Colégio Militar do Brasil, recebe dependentes de militares transferidos conforme as regras de matrícula do sistema.",
-      "No ensino superior, a cidade tem a Universidade Federal de Mato Grosso do Sul (UFMS), a Universidade Estadual de Mato Grosso do Sul (UEMS) e o Instituto Federal de Mato Grosso do Sul (IFMS). Entre as particulares estão a Universidade Católica Dom Bosco (UCDB) e a Uniderp."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Campo Grande",
-        "url": "https://en.wikipedia.org/wiki/Campo_Grande"
-      },
-      {
-        "nome": "Wikipedia — 9ª Região Militar",
-        "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/9th_Military_Region_(Brazil)"
-      }
-    ]
-  },
-  "clima": {
-    "texto": "Pela normal do INMET (1981-2010), a máxima média anual é de 29,8 °C e a mínima de 18,8 °C. Chove cerca de 1.450 mm por ano, mais de outubro a março. De junho a agosto, frentes frias podem derrubar a mínima para menos de 5 °C, e já houve registro de -0,9 °C. Agosto é o mês mais seco, com umidade média perto de 50%.",
-    "chuvoso": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia (dados INMET 1981-2010)",
-        "url": "https://en.wikipedia.org/wiki/Campo_Grande"
-      },
-      {
-        "nome": "Climates to Travel — Campo Grande",
-        "url": "https://climatestotravel.com/climate/brazil/campo-grande"
-      }
-    ]
-  },
-  "lazer": {
-    "intro": "A cidade tem parques grandes e bem cuidados, e Bonito e o Pantanal são os destinos de feriado. O sobá e o churrasco aparecem em quase todo programa de família.",
-    "lugares": [
-      {
-        "nome": "Parque das Nações Indígenas",
-        "km": "na cidade",
-        "desc": "Um dos maiores parques urbanos do país, com lago, pista de 4 km e capivaras soltas. Abriga o Museu de Arte Contemporânea e recebe a corrida Volta das Nações em outubro."
-      },
-      {
-        "nome": "Bioparque Pantanal",
-        "km": "na cidade",
-        "desc": "Grande aquário de água doce dedicado aos peixes do Pantanal, ao lado do Parque das Nações. A entrada é gratuita com agendamento pelo site."
-      },
-      {
-        "nome": "Feira Central",
-        "km": "na cidade",
-        "desc": "Feira coberta perto da antiga estação ferroviária, famosa pelo sobá. Funciona de quarta a domingo, à noite."
-      },
-      {
-        "nome": "Parque Estadual do Prosa",
-        "km": "na cidade",
-        "desc": "Mata ciliar e cerrado com trilha guiada. Fica ao lado do Parque das Nações, e as visitas precisam de agendamento."
-      },
-      {
-        "nome": "Bonito",
-        "km": "~300 km",
-        "desc": "Rios de água transparente para flutuação, grutas e cachoeiras. Os passeios têm vagas limitadas e precisam de reserva por agência."
-      },
-      {
-        "nome": "Pantanal Sul (Miranda e Aquidauana)",
-        "km": "~200 km",
-        "desc": "Fazendas e pousadas com safári, passeio a cavalo e pesca. A seca, de julho a outubro, é a melhor época para ver bichos."
-      }
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Campo Grande",
-        "url": "https://en.wikipedia.org/wiki/Campo_Grande"
-      }
-    ]
-  },
-  "antes_de_ir": [
-    "Mesmo sendo cidade quente, tenha cobertor e roupa de frio: as frentes frias de junho a agosto podem levar a mínima a menos de 5 °C.",
-    "Se for a Bonito em feriado ou nas férias, reserve os passeios com semanas de antecedência, porque as vagas diárias são limitadas.",
-    "Para pesquisar casa, veja a época de chuva: em pancadas fortes de verão, algumas vias de fundo de vale alagam rapidamente.",
-    "De agosto a outubro o ar fica seco e quente. Tenha umidificador e evite atividade física ao ar livre no meio do dia."
+ "slug": "campo-grande-ms",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Campo Grande nasceu em 1877 como um povoado de criadores vindos de Minas Gerais e virou município em 26 de agosto de 1899. A chegada da ferrovia Noroeste do Brasil, em 1914, acelerou o crescimento, e a cidade virou capital com a criação do Mato Grosso do Sul, em 1977. A estimativa do IBGE de 2026 é de 971 mil habitantes, sendo a maior cidade do estado.",
+   "A economia é de comércio e serviços, com forte peso do agronegócio: pecuária de corte, frigoríficos, soja e, cada vez mais, cana-de-açúcar e celulose no estado. Administração pública, saúde e educação completam a base. Para o cônjuge, as vagas mais comuns estão em comércio, saúde, educação, serviços para o agro e concursos.",
+   "A Avenida Afonso Pena é o eixo da cidade, do Centro até o Parque das Nações Indígenas e o Shopping Campo Grande. As avenidas são largas e o trânsito é moderado para uma capital; quase tudo fica a 20 minutos de carro. O transporte coletivo é por ônibus, com terminais de integração. A cidade é reconhecida pela arborização e pelos ipês floridos de julho a setembro. Tem colônia japonesa grande, vinda de Okinawa, e influência paraguaia e gaúcha. O sobá, servido na Feira Central, é patrimônio imaterial da cidade."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Campo Grande",
+    "url": "https://en.wikipedia.org/wiki/Campo_Grande"
+   }
   ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O passe de ônibus em Campo Grande custa R$ 4,95 para o usuário, segundo reportagem de maio de 2026. A prefeitura cobre a diferença para a tarifa técnica, que o consórcio operador disputa na Justiça.",
+   "Pela média FipeZAP de fevereiro de 2026 (R$ 29,39 por m²), um apartamento de 60 m² sairia por cerca de R$ 1.750, sem condomínio. Casas são comuns e costumam ter quintal, o que ajuda quem tem pet."
+  ],
+  "fontes": [
+   {
+    "nome": "A Crítica — tarifa do Guaicurus",
+    "url": "https://acritica.net/cidades/consorcio-guaicurus-volta-a-pressionar-por-tarifa-de-r-7-79-em-campo-grande/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "O Hospital Militar de Área de Campo Grande (HMACG), subordinado à 9ª Região Militar, é a referência de saúde do Exército no Comando Militar do Oeste. Atende os usuários do FuSEx da guarnição e recebe pacientes encaminhados de outras guarnições do Mato Grosso do Sul e do Mato Grosso.",
+   "Na rede civil, as referências são a Santa Casa de Campo Grande, maior hospital do estado, o Hospital Regional de Mato Grosso do Sul e o Hospital Universitário Maria Aparecida Pedrossian, da UFMS. A lista de clínicas e hospitais conveniados ao FuSEx é informada pela OM."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — 9ª Região Militar",
+    "url": "https://en.wikipedia.org/wiki/9th_Military_Region_(Brazil)"
+   },
+   {
+    "nome": "Angels Initiative — HMACG",
+    "url": "https://angels-initiative.com/content/hospital-militar-de-area-de-campo-grande-ms"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "O Colégio Militar de Campo Grande, do Sistema Colégio Militar do Brasil, recebe dependentes de militares transferidos conforme as regras de matrícula do sistema.",
+   "No ensino superior, a cidade tem a Universidade Federal de Mato Grosso do Sul (UFMS), a Universidade Estadual de Mato Grosso do Sul (UEMS) e o Instituto Federal de Mato Grosso do Sul (IFMS). Entre as particulares estão a Universidade Católica Dom Bosco (UCDB) e a Uniderp."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Campo Grande",
+    "url": "https://en.wikipedia.org/wiki/Campo_Grande"
+   },
+   {
+    "nome": "Wikipedia — 9ª Região Militar",
+    "url": "https://en.wikipedia.org/wiki/9th_Military_Region_(Brazil)"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Pela normal do INMET (1981-2010), a máxima média anual é de 29,8 °C e a mínima de 18,8 °C. Chove cerca de 1.450 mm por ano, mais de outubro a março. De junho a agosto, frentes frias podem derrubar a mínima para menos de 5 °C, e já houve registro de -0,9 °C. Agosto é o mês mais seco, com umidade média perto de 50%.",
+  "chuvoso": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (dados INMET 1981-2010)",
+    "url": "https://en.wikipedia.org/wiki/Campo_Grande"
+   },
+   {
+    "nome": "Climates to Travel — Campo Grande",
+    "url": "https://climatestotravel.com/climate/brazil/campo-grande"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "A cidade tem parques grandes e bem cuidados, e Bonito e o Pantanal são os destinos de feriado. O sobá e o churrasco aparecem em quase todo programa de família.",
+  "lugares": [
+   {
+    "nome": "Parque das Nações Indígenas",
+    "km": "na cidade",
+    "desc": "Um dos maiores parques urbanos do país, com lago, pista de 4 km e capivaras soltas. Abriga o Museu de Arte Contemporânea e recebe a corrida Volta das Nações em outubro."
+   },
+   {
+    "nome": "Bioparque Pantanal",
+    "km": "na cidade",
+    "desc": "Grande aquário de água doce dedicado aos peixes do Pantanal, ao lado do Parque das Nações. A entrada é gratuita com agendamento pelo site."
+   },
+   {
+    "nome": "Feira Central",
+    "km": "na cidade",
+    "desc": "Feira coberta perto da antiga estação ferroviária, famosa pelo sobá. Funciona de quarta a domingo, à noite."
+   },
+   {
+    "nome": "Parque Estadual do Prosa",
+    "km": "na cidade",
+    "desc": "Mata ciliar e cerrado com trilha guiada. Fica ao lado do Parque das Nações, e as visitas precisam de agendamento."
+   },
+   {
+    "nome": "Bonito",
+    "km": "~300 km",
+    "desc": "Rios de água transparente para flutuação, grutas e cachoeiras. Os passeios têm vagas limitadas e precisam de reserva por agência."
+   },
+   {
+    "nome": "Pantanal Sul (Miranda e Aquidauana)",
+    "km": "~200 km",
+    "desc": "Fazendas e pousadas com safári, passeio a cavalo e pesca. A seca, de julho a outubro, é a melhor época para ver bichos."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Campo Grande",
+    "url": "https://en.wikipedia.org/wiki/Campo_Grande"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Mesmo sendo cidade quente, tenha cobertor e roupa de frio: as frentes frias de junho a agosto podem levar a mínima a menos de 5 °C.",
+  "Se for a Bonito em feriado ou nas férias, reserve os passeios com semanas de antecedência, porque as vagas diárias são limitadas.",
+  "Para pesquisar casa, veja a época de chuva: em pancadas fortes de verão, algumas vias de fundo de vale alagam rapidamente.",
+  "De agosto a outubro o ar fica seco e quente. Tenha umidificador e evite atividade física ao ar livre no meio do dia."
+ ]
 }

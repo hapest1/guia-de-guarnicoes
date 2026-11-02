@@ -1,0 +1,118 @@
+{
+ "slug": "macapa-ap",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Macapá foi fundada como vila de São José de Macapá em 4 de fevereiro de 1758, num ponto em que já havia destacamento militar português desde 1738. Entre 1764 e 1782 os portugueses construíram ali a Fortaleza de São José, um forte em estrela para controlar a foz do Amazonas e o extremo norte do Brasil.",
+   "É o centro comercial e administrativo do Amapá. O serviço público, o comércio e os serviços concentram os empregos. Ouro, ferro, manganês e madeira do interior saem pelo porto de Santana, município vizinho ligado a Macapá pela rodovia AP-010. Para o cônjuge, as vagas mais comuns estão no comércio, na saúde, no ensino (UNIFAP, UEAP, IFAP e faculdades particulares) e em concursos estaduais e municipais.",
+   "A cidade fica num pequeno platô na margem esquerda do Amazonas, e a Linha do Equador passa no meio dela, marcada pelo monumento do Marco Zero. Além da sede, o município tem os distritos de Bailique, Carapanantuba, Fazendinha e São Joaquim do Pacuí. O aeroporto fica a cerca de 3 km do centro. A estimativa do IBGE para 2025 é de 489.676 habitantes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Macapá)",
+    "url": "https://en.wikipedia.org/wiki/Macap%C3%A1"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus urbano em Macapá custava R$ 3,70 em 2025, entre as mais baratas das capitais. Segundo a reportagem, o custo real era de R$ 4,55 e a prefeitura subsidiava R$ 0,85, com discussão de reajuste. Em 2026 a tarifa foi zerada em datas específicas, como as noites da Expofeira (8 a 16 de agosto) e os dias de eleição. Confirme o valor ao chegar."
+  ],
+  "fontes": [
+   {
+    "nome": "AutoPapo (tarifas das capitais, abr/2025)",
+    "url": "https://autopapo.com.br/noticia/preco-passagem-de-onibus-veja-valores-capitais-brasil/"
+   },
+   {
+    "nome": "Diário do Transporte (gratuidade na Expofeira 2026)",
+    "url": "https://diariodotransporte.com.br/2026/08/08/transporte-publico-de-macapa-ap-sera-gratuito-durante-a-expofeira-2026/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "Macapá não tem hospital do Exército. O atendimento dos beneficiários é organizado pela seção de saúde da OM e pela rede civil conveniada. Casos que pedem especialidade costumam ser encaminhados a Belém, sede do Hospital Geral de Belém.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes. Como não há estrada até Belém, leve receitas, laudos e estoque de remédios de uso contínuo para as primeiras semanas."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Macapá)",
+    "url": "https://en.wikipedia.org/wiki/Macap%C3%A1"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar em Macapá; o mais próximo é o de Belém. No ensino superior público estão a Universidade Federal do Amapá (UNIFAP), a Universidade do Estado do Amapá (UEAP) e o Instituto Federal do Amapá (IFAP). Entre as particulares aparecem a Faculdade de Macapá (Fama), a Meta, o IMMES e a Seama."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Macapá)",
+    "url": "https://en.wikipedia.org/wiki/Macap%C3%A1"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Clima equatorial, quente e úmido. Pelas normais do INMET (1991-2020), a máxima média anual é de 31,9 °C e a mínima de 24,0 °C, com 2.526 mm de chuva por ano. A estação chuvosa vai de dezembro a julho, com pico em março (400 mm) e fevereiro (369 mm); de agosto a novembro chove pouco e o sol pesa mais.",
+  "chuvoso": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Macapá)",
+    "url": "https://en.wikipedia.org/wiki/Macap%C3%A1"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Os passeios de Macapá giram em torno do rio Amazonas e da Linha do Equador. Quase tudo fica perto do centro.",
+  "lugares": [
+   {
+    "nome": "Fortaleza de São José de Macapá",
+    "km": "na cidade",
+    "desc": "Forte em estrela construído entre 1764 e 1782 na beira do Amazonas. Dá para caminhar pelas muralhas e ver o rio, melhor no fim da tarde."
+   },
+   {
+    "nome": "Marco Zero do Equador",
+    "km": "na cidade",
+    "desc": "Monumento sobre a Linha do Equador. Nos equinócios de março e setembro o sol se alinha com a Avenida Equatorial, e as crianças gostam de pôr um pé em cada hemisfério."
+   },
+   {
+    "nome": "Estádio Zerão",
+    "km": "na cidade",
+    "desc": "Estádio para cerca de 10 mil pessoas cuja linha do meio de campo coincide com o Equador. Fica ao lado do Marco Zero."
+   },
+   {
+    "nome": "Trapiche Eliezer Levy",
+    "km": "na cidade",
+    "desc": "Píer na orla do centro, ponto de passeio e de ver o pôr do sol sobre o Amazonas."
+   },
+   {
+    "nome": "Quilombo do Curiaú",
+    "km": "na cidade",
+    "desc": "Comunidades quilombolas reconhecidas em 1992 e protegidas pela Área de Proteção Ambiental do Rio Curiaú. Lugar para conhecer a cultura afro-amapaense."
+   },
+   {
+    "nome": "Fazendinha",
+    "km": "na cidade",
+    "desc": "Distrito na beira do Amazonas, com área de proteção ambiental, procurado pelos moradores nos fins de semana."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (Macapá)",
+    "url": "https://en.wikipedia.org/wiki/Macap%C3%A1"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Faça um estoque inicial de remédios de uso contínuo e itens de que a família não abre mão: tudo chega por avião ou balsa, e uma falta local pode demorar a ser reposta.",
+  "Se quiser ver o alinhamento do sol no Marco Zero, programe-se para os equinócios (perto de 21 de março e 23 de setembro).",
+  "Se puder escolher a data, faça a mudança de agosto a novembro, a época mais seca: carregar e descarregar móveis da balsa debaixo de chuva danifica a carga."
+ ]
+}

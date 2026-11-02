@@ -1,0 +1,117 @@
+{
+ "slug": "sao-luis-ma",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "São Luís começou em 1612 como forte francês, o Saint-Louis de Maragnan. Os portugueses tomaram a vila em 1615 e mantiveram o nome. O Centro Histórico, com casarões cobertos de azulejos, está na lista de Patrimônio Mundial da Unesco desde 1997. É uma das três capitais brasileiras numa ilha, ao lado de Vitória e Florianópolis.",
+   "A economia tem um lado industrial forte. O porto do Itaqui embarca o minério de ferro de Carajás, operado pela Vale, e a Alumar processa alumínio na ilha. Somam-se a indústria de alimentos, o turismo e os serviços públicos. Para o cônjuge, há vagas em logística e indústria ligadas ao porto, além de saúde, comércio e ensino (UFMA, UEMA, IFMA).",
+   "A ilha se liga ao continente por uma única ponte rodoviária, a do Estreito dos Mosquitos, na BR-135. Os bairros mais procurados ficam entre o centro antigo e a orla norte. Dentro da ilha há áreas verdes como o Parque Estadual do Sítio do Rangedor e, ao sul, o Parque Estadual do Bacanga. O calendário local gira em torno do bumba meu boi, que começa depois da Páscoa e tem o auge em junho, junto com o tambor de crioula."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (São Luís, cópia)",
+    "url": "https://en.wikipedia.org/wiki/Sao_Luis,_Maranhao"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em São Luís custa R$ 4,20 nas linhas integradas e R$ 3,70 nas não integradas, valores em vigor desde 19 de fevereiro de 2023 e ainda válidos em outubro de 2026. O Bilhete Único permite trocar de ônibus pagando uma só tarifa em até 2 horas no mesmo sentido. Linhas intermunicipais para Raposa, Paço do Lumiar e São José de Ribamar ficam fora da integração."
+  ],
+  "fontes": [
+   {
+    "nome": "OtimizaPro (tarifas de São Luís, conferido out/2026)",
+    "url": "https://otimizapro.com/tarifas-sao-luis-2026"
+   },
+   {
+    "nome": "AutoPapo (tarifas das capitais, abr/2025)",
+    "url": "https://autopapo.com.br/noticia/preco-passagem-de-onibus-veja-valores-capitais-brasil/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "São Luís não tem hospital do Exército. O atendimento é organizado pela seção de saúde da OM e pela rede civil conveniada. Casos que pedem especialidade podem ser encaminhados a Belém, sede do Hospital Geral de Belém.",
+   "A rede de hospitais e clínicas conveniados ao FuSEx muda com o tempo e é informada pela seção de saúde da OM. Peça a lista atualizada logo na apresentação, antes de marcar consultas para os dependentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (São Luís, cópia)",
+    "url": "https://en.wikipedia.org/wiki/Sao_Luis,_Maranhao"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "Não há Colégio Militar em São Luís; o mais próximo é o de Belém, a cerca de 792 km por estrada. No ensino superior público estão a Universidade Federal do Maranhão (UFMA), a Universidade Estadual do Maranhão (UEMA) e o Instituto Federal do Maranhão (IFMA), além de faculdades particulares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (São Luís, cópia)",
+    "url": "https://en.wikipedia.org/wiki/Sao_Luis,_Maranhao"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "Quente o ano todo. Pelas médias de 1991-2020, as máximas vão de 30,7 °C a 32,5 °C e as mínimas de 24,3 °C a 25,8 °C, com cerca de 2.290 mm de chuva por ano. A estação chuvosa vai do fim de dezembro a julho, com pico em abril (475 mm) e março (430 mm). De agosto a novembro quase não chove, e outubro e novembro são os meses de mais vento.",
+  "chuvoso": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "fontes": [
+   {
+    "nome": "Climates to Travel (São Luís, 1991-2020)",
+    "url": "https://climatestotravel.com/climate/brazil/sao-lu%C3%ADs"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "São Luís junta patrimônio histórico, festas populares e passeios de barco pela baía. O segundo semestre, seco e ensolarado, é a melhor época para quase tudo.",
+  "lugares": [
+   {
+    "nome": "Centro Histórico (Praia Grande)",
+    "km": "na cidade",
+    "desc": "Conjunto de casarões com fachadas de azulejo tombado pela Unesco em 1997. Vale andar a pé de manhã, quando o sol ainda não aperta."
+   },
+   {
+    "nome": "Alcântara",
+    "km": "travessia de barco",
+    "desc": "Cidade histórica do outro lado da baía de São Marcos, com ruínas e casarões coloniais. A travessia de passageiros sai de São Luís e depende da maré."
+   },
+   {
+    "nome": "Parque Estadual do Bacanga",
+    "km": "na cidade",
+    "desc": "Área verde ao sul do centro, com mata e trilhas. Bom para caminhada em família no período seco."
+   },
+   {
+    "nome": "Parque Estadual do Sítio do Rangedor",
+    "km": "na cidade",
+    "desc": "Parque urbano entre os bairros da área nobre, usado para caminhada e corrida."
+   },
+   {
+    "nome": "Festas de São João e bumba meu boi",
+    "km": "na cidade",
+    "desc": "Os grupos de boi ensaiam desde depois da Páscoa e se apresentam em arraiais por toda a ilha em junho. É a época mais animada do ano para crianças e adultos."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia (São Luís, cópia)",
+    "url": "https://en.wikipedia.org/wiki/Sao_Luis,_Maranhao"
+   },
+   {
+    "nome": "Climates to Travel (São Luís, 1991-2020)",
+    "url": "https://climatestotravel.com/climate/brazil/sao-lu%C3%ADs"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se for morar no continente ou tiver de ir ao continente com frequência, conte com o trânsito na ponte do Estreito dos Mosquitos: é a única ligação rodoviária da ilha.",
+  "Programe a mudança para agosto a novembro, quando quase não chove. De março a abril a chuva passa de 400 mm por mês.",
+  "Para usar o Bilhete Único, prefira trajetos nas linhas integradas: as não integradas e as intermunicipais cobram de novo a cada troca."
+ ]
+}

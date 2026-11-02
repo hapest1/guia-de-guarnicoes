@@ -1,134 +1,134 @@
 {
-  "slug": "belo-horizonte-mg",
-  "lede": null,
-  "cidade": {
-    "paragrafos": [
-      "Belo Horizonte foi inaugurada em 12 de dezembro de 1897 para substituir Ouro Preto como capital de Minas, no lugar do arraial de Curral del-Rei. O engenheiro Aarão Reis desenhou o centro em quadras retas cortadas por avenidas diagonais, dentro do anel da Avenida do Contorno. O Conjunto Moderno da Pampulha, de Oscar Niemeyer, é Patrimônio Mundial da Unesco desde 2016. O Censo 2022 contou cerca de 2,3 milhões de habitantes, e a região metropolitana passa de 5 milhões.",
-      "Os serviços respondem por cerca de 85% da economia. A região metropolitana tem polo industrial forte, com automóveis em Betim, siderurgia e metalurgia em Contagem e no Vale do Aço, e mineração no Quadrilátero Ferrífero. A capital também tem um polo de tecnologia e startups conhecido como San Pedro Valley. Para o cônjuge, as vagas aparecem em saúde, educação, tecnologia, comércio, serviços jurídicos e indústria na região metropolitana.",
-      "A cidade é dividida em nove regionais. A Centro-Sul reúne o Centro, Savassi, Lourdes e Funcionários; a Pampulha fica ao norte, perto do aeroporto da Pampulha; Barreiro e Venda Nova estão nas pontas. A Serra do Curral fecha a cidade ao sul, e o relevo tem muitas ladeiras. O metrô tem uma linha só, do Eldorado, em Contagem, ao Vilarinho, e o MOVE, sistema de BRT, atende os corredores das avenidas Cristiano Machado e Antônio Carlos. O trânsito é pesado no Anel Rodoviário e na BR-040. A vida social gira em torno de bares e da comida mineira."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Belo Horizonte",
-        "url": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Belo_horizonte.html"
-      },
-      {
-        "nome": "Wikivoyage — Belo Horizonte",
-        "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Belo_Horizonte"
-      }
-    ]
-  },
-  "custo_extra": {
-    "paragrafos": [
-      "A passagem das linhas principais de ônibus de BH passou de R$ 5,75 para R$ 6,25 em 1º de janeiro de 2026; as circulares e alimentadoras foram para R$ 6,00. É uma das tarifas mais altas entre as capitais.",
-      "Pela média FipeZAP de fevereiro de 2026 (R$ 48,28 por m²), um apartamento de 60 m² sairia por cerca de R$ 2.900, sem condomínio. Na Centro-Sul o valor fica acima disso, e muita gente busca preço menor na Pampulha ou em bairros como Cidade Nova e Santa Tereza."
-    ],
-    "fontes": [
-      {
-        "nome": "Diário do Transporte — tarifas de BH 2026",
-        "url": "https://diariodotransporte.com.br/2025/12/30/tarifas-de-onibus-em-belo-horizonte-aumentam-em-1o-de-janeiro-de-2026-confira-os-valores/"
-      },
-      {
-        "nome": "TVT News — tarifas 2026",
-        "url": "https://tvtnews.com.br/passagem-de-onibus-confira-valor-da-passagem-2026/"
-      }
-    ]
-  },
-  "saude": {
-    "paragrafos": [
-      "O Posto Médico de Guarnição de Belo Horizonte atende os usuários do FuSEx em consultas e encaminhamentos. A cidade não tem hospital do Exército; internações e especialidades seguem pela rede conveniada, e para alguns tratamentos pode haver encaminhamento ao Hospital Central do Exército, no Rio, ou a outros hospitais militares. A lista de conveniados é informada pela OM.",
-      "BH é polo de saúde para todo o estado. Na rede pública, o Hospital das Clínicas da UFMG e o Hospital João XXIII, referência em trauma, são os principais. A rede particular e filantrópica, com a Santa Casa e o Felício Rocho, concentra-se na Área Hospitalar, no Santa Efigênia, perto da Avenida do Contorno."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikivoyage — Belo Horizonte",
-        "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Belo_Horizonte"
-      }
-    ]
-  },
-  "educacao": {
-    "paragrafos": [
-      "O Colégio Militar de Belo Horizonte, do Sistema Colégio Militar do Brasil, recebe dependentes de militares transferidos conforme as regras de matrícula do sistema.",
-      "A Universidade Federal de Minas Gerais (UFMG) tem o campus principal na Pampulha, ao lado do Mineirão. Também estão na cidade o Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), a Universidade do Estado de Minas Gerais (UEMG) e a PUC Minas. A rede particular de educação básica é grande e tradicional, com escolas bilíngues concentradas na Centro-Sul, no Belvedere e em Nova Lima."
-    ],
-    "fontes": [
-      {
-        "nome": "Wikipedia — Belo Horizonte",
-        "url": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Belo_horizonte.html"
-      }
-    ]
-  },
-  "clima": {
-    "texto": "BH fica entre 800 e 1.000 m de altitude e tem inverno seco e ameno e verão chuvoso. Pela normal do INMET (1991-2020), outubro tem máxima média de 28,7 °C e mínima de 18,8 °C; em julho as mínimas ficam perto de 12 °C. Dezembro e janeiro são os meses mais chuvosos, com temporais e granizo; no fim da seca, em setembro e outubro, a umidade pode ficar abaixo de 30%.",
-    "chuvoso": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3
-    ],
-    "fontes": [
-      {
-        "nome": "INMET — balanço de outubro",
-        "url": "https://portal.inmet.gov.br/noticias/balanço-belo-horizonte-mg-registrou-índices-de-umidade-menores-que-30-no-mês-de-outubro"
-      },
-      {
-        "nome": "Climatempo — climatologia",
-        "url": "https://www.climatempo.com.br/climatologia/107/belohorizonte-br"
-      }
-    ]
-  },
-  "lazer": {
-    "intro": "A cidade tem parques e mirantes na serra e é a base para as cidades históricas e Inhotim. Muitos museus e parques fecham às segundas.",
-    "lugares": [
-      {
-        "nome": "Lagoa da Pampulha",
-        "km": "na cidade",
-        "desc": "Orla de 18 km com ciclovia, a Igreja de São Francisco de Assis, de Niemeyer, e o Museu de Arte da Pampulha. O Zoológico e o Parque Guanabara ficam perto."
-      },
-      {
-        "nome": "Mercado Central",
-        "km": "na cidade",
-        "desc": "Mercado de 1929 com queijos, doces, cachaça e botecos de fígado com jiló. Vá cedo no sábado para evitar a lotação."
-      },
-      {
-        "nome": "Circuito Liberdade",
-        "km": "na cidade",
-        "desc": "Museus e centros culturais em prédios históricos em volta da Praça da Liberdade, muitos com entrada gratuita e atividades para criança."
-      },
-      {
-        "nome": "Parque das Mangabeiras e Praça do Papa",
-        "km": "na cidade",
-        "desc": "Grande parque na Serra do Curral com trilhas e brinquedos. A Praça do Papa, ao lado, tem vista da cidade inteira à noite."
-      },
-      {
-        "nome": "Inhotim",
-        "km": "~60 km",
-        "desc": "Museu de arte contemporânea a céu aberto com jardim botânico, em Brumadinho. Reserve o dia inteiro e use calçado confortável."
-      },
-      {
-        "nome": "Ouro Preto e Mariana",
-        "km": "~100 km",
-        "desc": "Cidades barrocas com igrejas, minas de ouro abertas à visita e ladeiras de pedra. Bom passeio de fim de semana com criança maior."
-      },
-      {
-        "nome": "Serra do Cipó",
-        "km": "~100 km",
-        "desc": "Parque nacional com cachoeiras e trilhas de campo rupestre. A melhor época é de abril a setembro, com trilhas secas."
-      }
-    ],
-    "fontes": [
-      {
-        "nome": "Wikivoyage — Belo Horizonte",
-        "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Belo_Horizonte"
-      }
-    ]
-  },
-  "antes_de_ir": [
-    "Veja de qual aeroporto sai o voo: a maioria opera em Confins, a cerca de 40 km do centro, e não na Pampulha, que fica dentro da cidade.",
-    "Se for usar carro, procure imóvel com garagem: nas regiões centrais muitas ruas são ladeiras e as vagas na rua são disputadas e pagas.",
-    "Evite imóveis em áreas sujeitas a alagamento perto de córregos canalizados, como nas avenidas Vilarinho e Tereza Cristina: os temporais de dezembro e janeiro costumam causar enchentes rápidas.",
-    "Tenha roupa de frio para o inverno: em junho e julho as madrugadas ficam perto de 10 °C, e poucas casas têm aquecimento."
+ "slug": "belo-horizonte-mg",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Belo Horizonte foi inaugurada em 12 de dezembro de 1897 para substituir Ouro Preto como capital de Minas, no lugar do arraial de Curral del-Rei. O engenheiro Aarão Reis desenhou o centro em quadras retas cortadas por avenidas diagonais, dentro do anel da Avenida do Contorno. O Conjunto Moderno da Pampulha, de Oscar Niemeyer, é Patrimônio Mundial da Unesco desde 2016. O Censo 2022 contou cerca de 2,3 milhões de habitantes, e a região metropolitana passa de 5 milhões.",
+   "Os serviços respondem por cerca de 85% da economia. A região metropolitana tem polo industrial forte, com automóveis em Betim, siderurgia e metalurgia em Contagem e no Vale do Aço, e mineração no Quadrilátero Ferrífero. A capital também tem um polo de tecnologia e startups conhecido como San Pedro Valley. Para o cônjuge, as vagas aparecem em saúde, educação, tecnologia, comércio, serviços jurídicos e indústria na região metropolitana.",
+   "A cidade é dividida em nove regionais. A Centro-Sul reúne o Centro, Savassi, Lourdes e Funcionários; a Pampulha fica ao norte, perto do aeroporto da Pampulha; Barreiro e Venda Nova estão nas pontas. A Serra do Curral fecha a cidade ao sul, e o relevo tem muitas ladeiras. O metrô tem uma linha só, do Eldorado, em Contagem, ao Vilarinho, e o MOVE, sistema de BRT, atende os corredores das avenidas Cristiano Machado e Antônio Carlos. O trânsito é pesado no Anel Rodoviário e na BR-040. A vida social gira em torno de bares e da comida mineira."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Belo Horizonte",
+    "url": "https://en.wikipedia.org/wiki/Belo_horizonte"
+   },
+   {
+    "nome": "Wikivoyage — Belo Horizonte",
+    "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Belo_Horizonte"
+   }
   ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem das linhas principais de ônibus de BH passou de R$ 5,75 para R$ 6,25 em 1º de janeiro de 2026; as circulares e alimentadoras foram para R$ 6,00. É uma das tarifas mais altas entre as capitais.",
+   "Pela média FipeZAP de fevereiro de 2026 (R$ 48,28 por m²), um apartamento de 60 m² sairia por cerca de R$ 2.900, sem condomínio. Na Centro-Sul o valor fica acima disso, e muita gente busca preço menor na Pampulha ou em bairros como Cidade Nova e Santa Tereza."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte — tarifas de BH 2026",
+    "url": "https://diariodotransporte.com.br/2025/12/30/tarifas-de-onibus-em-belo-horizonte-aumentam-em-1o-de-janeiro-de-2026-confira-os-valores/"
+   },
+   {
+    "nome": "TVT News — tarifas 2026",
+    "url": "https://tvtnews.com.br/passagem-de-onibus-confira-valor-da-passagem-2026/"
+   }
+  ]
+ },
+ "saude": {
+  "paragrafos": [
+   "O Posto Médico de Guarnição de Belo Horizonte atende os usuários do FuSEx em consultas e encaminhamentos. A cidade não tem hospital do Exército; internações e especialidades seguem pela rede conveniada, e para alguns tratamentos pode haver encaminhamento ao Hospital Central do Exército, no Rio, ou a outros hospitais militares. A lista de conveniados é informada pela OM.",
+   "BH é polo de saúde para todo o estado. Na rede pública, o Hospital das Clínicas da UFMG e o Hospital João XXIII, referência em trauma, são os principais. A rede particular e filantrópica, com a Santa Casa e o Felício Rocho, concentra-se na Área Hospitalar, no Santa Efigênia, perto da Avenida do Contorno."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikivoyage — Belo Horizonte",
+    "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Belo_Horizonte"
+   }
+  ]
+ },
+ "educacao": {
+  "paragrafos": [
+   "O Colégio Militar de Belo Horizonte, do Sistema Colégio Militar do Brasil, recebe dependentes de militares transferidos conforme as regras de matrícula do sistema.",
+   "A Universidade Federal de Minas Gerais (UFMG) tem o campus principal na Pampulha, ao lado do Mineirão. Também estão na cidade o Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), a Universidade do Estado de Minas Gerais (UEMG) e a PUC Minas. A rede particular de educação básica é grande e tradicional, com escolas bilíngues concentradas na Centro-Sul, no Belvedere e em Nova Lima."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipedia — Belo Horizonte",
+    "url": "https://en.wikipedia.org/wiki/Belo_horizonte"
+   }
+  ]
+ },
+ "clima": {
+  "texto": "BH fica entre 800 e 1.000 m de altitude e tem inverno seco e ameno e verão chuvoso. Pela normal do INMET (1991-2020), outubro tem máxima média de 28,7 °C e mínima de 18,8 °C; em julho as mínimas ficam perto de 12 °C. Dezembro e janeiro são os meses mais chuvosos, com temporais e granizo; no fim da seca, em setembro e outubro, a umidade pode ficar abaixo de 30%.",
+  "chuvoso": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "fontes": [
+   {
+    "nome": "INMET — balanço de outubro",
+    "url": "https://portal.inmet.gov.br/noticias/balanço-belo-horizonte-mg-registrou-índices-de-umidade-menores-que-30-no-mês-de-outubro"
+   },
+   {
+    "nome": "Climatempo — climatologia",
+    "url": "https://www.climatempo.com.br/climatologia/107/belohorizonte-br"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "A cidade tem parques e mirantes na serra e é a base para as cidades históricas e Inhotim. Muitos museus e parques fecham às segundas.",
+  "lugares": [
+   {
+    "nome": "Lagoa da Pampulha",
+    "km": "na cidade",
+    "desc": "Orla de 18 km com ciclovia, a Igreja de São Francisco de Assis, de Niemeyer, e o Museu de Arte da Pampulha. O Zoológico e o Parque Guanabara ficam perto."
+   },
+   {
+    "nome": "Mercado Central",
+    "km": "na cidade",
+    "desc": "Mercado de 1929 com queijos, doces, cachaça e botecos de fígado com jiló. Vá cedo no sábado para evitar a lotação."
+   },
+   {
+    "nome": "Circuito Liberdade",
+    "km": "na cidade",
+    "desc": "Museus e centros culturais em prédios históricos em volta da Praça da Liberdade, muitos com entrada gratuita e atividades para criança."
+   },
+   {
+    "nome": "Parque das Mangabeiras e Praça do Papa",
+    "km": "na cidade",
+    "desc": "Grande parque na Serra do Curral com trilhas e brinquedos. A Praça do Papa, ao lado, tem vista da cidade inteira à noite."
+   },
+   {
+    "nome": "Inhotim",
+    "km": "~60 km",
+    "desc": "Museu de arte contemporânea a céu aberto com jardim botânico, em Brumadinho. Reserve o dia inteiro e use calçado confortável."
+   },
+   {
+    "nome": "Ouro Preto e Mariana",
+    "km": "~100 km",
+    "desc": "Cidades barrocas com igrejas, minas de ouro abertas à visita e ladeiras de pedra. Bom passeio de fim de semana com criança maior."
+   },
+   {
+    "nome": "Serra do Cipó",
+    "km": "~100 km",
+    "desc": "Parque nacional com cachoeiras e trilhas de campo rupestre. A melhor época é de abril a setembro, com trilhas secas."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikivoyage — Belo Horizonte",
+    "url": "https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Belo_Horizonte"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Veja de qual aeroporto sai o voo: a maioria opera em Confins, a cerca de 40 km do centro, e não na Pampulha, que fica dentro da cidade.",
+  "Se for usar carro, procure imóvel com garagem: nas regiões centrais muitas ruas são ladeiras e as vagas na rua são disputadas e pagas.",
+  "Evite imóveis em áreas sujeitas a alagamento perto de córregos canalizados, como nas avenidas Vilarinho e Tereza Cristina: os temporais de dezembro e janeiro costumam causar enchentes rápidas.",
+  "Tenha roupa de frio para o inverno: em junho e julho as madrugadas ficam perto de 10 °C, e poucas casas têm aquecimento."
+ ]
 }
