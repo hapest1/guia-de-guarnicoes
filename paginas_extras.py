@@ -132,6 +132,7 @@ ATUAL = """<h1>Atualizações do guia</h1>
 <p class="resumo">O que mudou no Guia de Guarnições, da mais recente para a mais antiga. Correções enviadas por leitores entram aqui.</p>
 <h2>Novembro de 2026</h2>
 <ul>
+<li><b>02/11</b> · Mais 32 fichas aprofundadas, com foco no interior: Fronteira Oeste e Missões do RS, Vale do Paraíba, Baixada Santista, Grande São Paulo, Serra Fluminense, Sul de Minas, Santa Catarina, Pernambuco e Pará. Já são 72 fichas com a seção sobre a cidade.</li>
 <li><b>02/11</b> · 40 fichas aprofundadas, entre elas todas as capitais: nova seção "A cidade" (história, economia e como a cidade se organiza), custo de vida com tarifa de ônibus e outros números locais, lazer com 5 a 7 lugares e dicas de chegada específicas de cada cidade. As capitais ganharam também as seções de saúde, escolas e clima.</li>
 <li><b>02/11</b> · Nova seção <a href="/guias/">Guias</a>, com 10 guias sobre as decisões da mudança.</li>
 <li><b>02/11</b> · Páginas <a href="/sobre">Sobre</a> e <a href="/metodologia">Metodologia</a>.</li>

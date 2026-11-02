@@ -1,0 +1,102 @@
+{
+  "slug": "sao-vicente-sp",
+  "lede": "Primeira vila portuguesa permanente das Américas, fundada em 1532, que divide a ilha com Santos e tem uma grande área continental.",
+  "cidade": {
+    "paragrafos": [
+      "São Vicente foi fundada em 1532 por Martim Afonso de Sousa, como primeira povoação portuguesa permanente das Américas, e a primeira eleição de câmara municipal do continente ocorreu ali em agosto daquele ano. O Censo 2022 contou 329.911 moradores. A Biquinha de Anchieta e a Ponte Pênsil, de 1914, lembram essa história nas ruas da cidade.",
+      "O município ocupa a metade oeste da Ilha de São Vicente, que divide com Santos, e uma área continental onde fica a planície de Samaritá, de bairros mais novos e alguma pesca. O turismo histórico e de praia está entre as atividades mais importantes, e muitos moradores trabalham em Santos, no porto e no polo industrial de Cubatão. Para o cônjuge, a maior oferta de vagas está em Santos, a poucos minutos.",
+      "A parte insular concentra o centro, as praias do Gonzaguinha e do Itararé e a Ilha Porchat. A Ponte do Mar Pequeno, de 1981, liga a cidade a Praia Grande, e a Rodovia dos Imigrantes chega pelo continente. O VLT da Baixada liga São Vicente a Santos, e a extensão para a área continental prevê as estações Ponte Nova, Quarentenário, Rio Branco e Terminal Samaritá, num trecho de 7,5 km."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (São Vicente)",
+        "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_S%C3%A3o_Paulo"
+      },
+      {
+        "nome": "Wikipedia EN (Baixada Santista)",
+        "url": "https://en.wikipedia.org/wiki/Baixada_Santista"
+      },
+      {
+        "nome": "Diário do Transporte, integração ônibus-VLT (out/2025)",
+        "url": "https://diariodotransporte.com.br/2025/10/21/onibus-municipais-de-sao-vicente-passam-a-integrar-com-o-vlt-a-partir-de-2-de-novembro/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "O VLT custa R$ 5,60 desde 6 de janeiro de 2026. Desde 2 de novembro de 2025, ônibus municipal e VLT têm tarifa integrada de R$ 5,75 com o cartão BR Card, desde que o segundo embarque ocorra em até 60 minutos; a integração não vale para os ônibus intermunicipais. A passagem do ônibus municipal foi mantida em R$ 3,95 em 2024; confirme o valor atual antes de chegar.",
+      "A energia é da CPFL Piratininga. A ANEEL aprovou reajuste residencial de 2,63% a partir de 23 de outubro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifas EMTU e VLT 2026",
+        "url": "https://diariodotransporte.com.br/2026/01/02/tarifas-de-onibus-intermunicipais-sobem-na-grande-sao-paulo-baixada-santista-regioes-de-campinas-sorocaba-e-vale-do-paraiba-litoral-norte-veja-os-valores/"
+      },
+      {
+        "nome": "Diário do Transporte, integração ônibus-VLT (out/2025)",
+        "url": "https://diariodotransporte.com.br/2025/10/21/onibus-municipais-de-sao-vicente-passam-a-integrar-com-o-vlt-a-partir-de-2-de-novembro/"
+      },
+      {
+        "nome": "Diário do Transporte, tarifa de São Vicente (jan/2024)",
+        "url": "https://diariodotransporte.com.br/2024/01/06/video-prefeito-de-sao-vicente-sp-esclarece-que-tarifa-dos-onibus-municipais-segue-r-395-em-2024/"
+      },
+      {
+        "nome": "Cenário Energia, reajustes EDP SP e CPFL Piratininga (out/2026)",
+        "url": "https://cenarioenergia.com.br/2026/10/14/aneel-aprova-reajustes-tarifarios-das-distribuidoras-edp-sp-e-cpfl-piratininga/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Boa parte do lazer é gratuita e fica na orla da ilha, entre marcos históricos e mirantes.",
+    "lugares": [
+      {
+        "nome": "Ilha Porchat",
+        "km": "na cidade",
+        "desc": "Ligada à orla, tem o monumento dos 500 anos do Brasil, projetado por Oscar Niemeyer, e mirante sobre a baía e as praias de Santos. Bom no fim da tarde."
+      },
+      {
+        "nome": "Teleférico e Morro do Voturuá",
+        "km": "na cidade",
+        "desc": "O teleférico sobe da orla ao Voturuá, de onde se vê a baía de São Vicente. Passeio curto que agrada às crianças."
+      },
+      {
+        "nome": "Ponte Pênsil",
+        "km": "na cidade",
+        "desc": "Ponte suspensa de 1914, entre a ilha e o continente, tombada como patrimônio. Fica perto da Praia de Paranapuã e da Pedra da Feiticeira."
+      },
+      {
+        "nome": "Biquinha de Anchieta",
+        "km": "na cidade",
+        "desc": "Fonte histórica ligada à tradição do padre José de Anchieta, no centro da cidade. Combina com uma caminhada pela orla do Gonzaguinha."
+      },
+      {
+        "nome": "Praia do Itararé",
+        "km": "na cidade",
+        "desc": "Faixa de areia larga na divisa com Santos, com ciclovia e quiosques. Boa para caminhar e pedalar até a orla santista."
+      },
+      {
+        "nome": "Parque Estadual Xixová-Japuí",
+        "km": "~8 km",
+        "desc": "Mata atlântica de 901 hectares entre São Vicente e Praia Grande, com costões e praias pequenas. Confira no parque as trilhas abertas antes de ir."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (São Vicente)",
+        "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_S%C3%A3o_Paulo"
+      },
+      {
+        "nome": "Wikipedia EN (Praia Grande)",
+        "url": "https://en.wikipedia.org/wiki/Praia_Grande"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Faça o cartão BR Card logo na chegada: só com ele vale a tarifa integrada de R$ 5,75 entre ônibus municipal e VLT.",
+    "Antes de alugar, confira se o imóvel fica na ilha ou na área continental: quem mora em Samaritá depende das pontes para chegar ao centro e a Santos.",
+    "Procure imóvel perto de uma estação do VLT se alguém da família vai estudar ou trabalhar em Santos: o trajeto evita o trânsito da divisa entre as duas cidades."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "guaruja-sp",
+  "lede": "Cidade-ilha de 27 praias na margem esquerda do Porto de Santos, que vive de turismo de temporada e atividade portuária.",
+  "cidade": {
+    "paragrafos": [
+      "Guarujá ocupa toda a Ilha de Santo Amaro, separada do continente por canais. A cidade foi fundada em 2 de setembro de 1893, como balneário planejado, e se firmou como destino de veraneio dos paulistanos ao longo do século XX. O aniversário oficial é comemorado em 30 de junho.",
+      "A economia tem dois motores. O primeiro é o turismo de temporada: no verão e nos feriados a população flutuante cresce muito, e comércio, hotelaria e serviços contratam mais. O segundo é o porto: a margem esquerda do Porto de Santos, o maior porto de contêineres da América Latina, fica em território guarujaense, com terminais e empresas de logística. A Dow Chemical opera na cidade desde 1976. Para o cônjuge, há vagas em logística portuária, comércio, turismo e serviços.",
+      "A cidade tem duas áreas bem distintas. Vicente de Carvalho, voltado para o canal do porto, concentra moradia, comércio do dia a dia e a ligação com Santos pela balsa. A orla, com Pitangueiras, Enseada, Tombo e Pernambuco, reúne prédios de veraneio, hotéis e restaurantes. Fora da temporada o ritmo é calmo; de dezembro a março e nos feriados o trânsito e as filas da balsa crescem."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Guarujá)",
+        "url": "https://en.wikipedia.org/wiki/Guaruj%C3%A1"
+      },
+      {
+        "nome": "Wikipedia EN (Baixada Santista)",
+        "url": "https://en.wikipedia.org/wiki/Baixada_Santista"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Pelo Decreto nº 17.383, a passagem de ônibus municipal passou a custar R$ 5,30 a partir de 22 de fevereiro de 2026. Estudantes pagam meia, e idosos e pessoas com deficiência não pagam. Créditos de vale-transporte comprados antes do reajuste valeram por mais 30 dias.",
+      "A energia é da CPFL Piratininga, que atende a Baixada Santista. A ANEEL aprovou reajuste residencial de 2,63% a partir de 23 de outubro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa de Guarujá (fev/2026)",
+        "url": "https://diariodotransporte.com.br/2026/02/04/prefeitura-de-guaruja-sp-fixa-novo-valor-da-passagem-de-onibus-em-r-530/"
+      },
+      {
+        "nome": "Cenário Energia, reajustes EDP SP e CPFL Piratininga (out/2026)",
+        "url": "https://cenarioenergia.com.br/2026/10/14/aneel-aprova-reajustes-tarifarios-das-distribuidoras-edp-sp-e-cpfl-piratininga/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Cada praia tem um perfil: umas boas para criança, outras para surfe ou para fugir do movimento. O ideal é ir fora dos fins de semana de verão.",
+    "lugares": [
+      {
+        "nome": "Praia das Pitangueiras",
+        "km": "na cidade",
+        "desc": "A praia central, com calçadão, prédios e comércio por perto. Prática para quem não tem carro, mas lota no verão."
+      },
+      {
+        "nome": "Praia da Enseada",
+        "km": "na cidade",
+        "desc": "A mais extensa da cidade, de mar geralmente calmo, com quiosques e espaço para criança brincar na areia."
+      },
+      {
+        "nome": "Praia do Tombo",
+        "km": "na cidade",
+        "desc": "Faixa curta entre morros, com ondas que atraem surfistas. Para criança, prefira os cantos e a maré baixa."
+      },
+      {
+        "nome": "Praias de Pernambuco e Iporanga",
+        "km": "na cidade",
+        "desc": "No lado norte da ilha, são mais tranquilas e cercadas de mata. Iporanga fica dentro de condomínio e tem acesso controlado, com limite de visitantes."
+      },
+      {
+        "nome": "Acqua Mundo",
+        "km": "na cidade",
+        "desc": "Aquário na Enseada com tanques de espécies marinhas e de água doce. Bom programa para dia de chuva com crianças."
+      },
+      {
+        "nome": "Orla de Santos",
+        "km": "~10 km",
+        "desc": "Pela balsa, Santos tem o jardim de orla, o Aquário Municipal e o centro histórico com o Museu do Café. Dá para fazer de bicicleta depois da travessia."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Guarujá)",
+        "url": "https://en.wikipedia.org/wiki/Guaruj%C3%A1"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Se for morar em Vicente de Carvalho e trabalhar ou estudar em Santos, considere a balsa a pé ou de bicicleta: a fila de carros cresce muito nos fins de semana e no verão.",
+    "Feche o aluguel fora da temporada: de dezembro a março muitos imóveis vão para locação de curta duração e os preços sobem.",
+    "Prefira imóvel com boa ventilação e área de serviço coberta: a umidade alta o ano todo favorece mofo em roupas e armários."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "praia-grande-sp",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Praia Grande pertenceu a São Vicente até 19 de janeiro de 1967, quando se emancipou. Por décadas foi destino de veraneio da classe média paulistana, com prédios baixos ao longo de uma orla contínua. Entre 2010 e 2022 foi a cidade que mais cresceu na Baixada Santista: passou de 262.051 para 349.935 moradores, e a estimativa de 2025 já é de 367 mil.",
+      "Muita gente se mudou para morar o ano todo, atraída por imóveis mais baratos que os de Santos. A economia gira em torno de comércio, construção civil, serviços e turismo de temporada. Para o cônjuge, o mercado local é de comércio e serviços, e boa parte das vagas mais qualificadas fica em Santos, São Vicente e Cubatão.",
+      "A cidade se estende como uma faixa paralela ao mar. O Boqueirão é o centro, com comércio e serviços, e bairros como Ocian e o distrito de Solemar ficam mais ao sul. A Rodovia dos Imigrantes termina na Avenida Ayrton Senna, dentro da cidade, e a Padre Manoel da Nóbrega segue para o litoral sul. O Parque Estadual Xixová-Japuí, de 901 hectares, protege a mata na divisa com São Vicente."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Praia Grande)",
+        "url": "https://en.wikipedia.org/wiki/Praia_Grande"
+      },
+      {
+        "nome": "Wikipedia EN (Rodovia dos Imigrantes)",
+        "url": "https://en.wikipedia.org/wiki/Rodovia_dos_Imigrantes"
+      },
+      {
+        "nome": "Wikipedia EN (Baixada Santista)",
+        "url": "https://en.wikipedia.org/wiki/Baixada_Santista"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A passagem de ônibus municipal custa R$ 5,25 desde 9 de fevereiro de 2025, quando subiu de R$ 4,80. A rede tem 14 linhas, operadas pela Viação Piracicabana, e a prefeitura cobre cerca de 30% do custo. Quem chega pelos terminais nas linhas intermunicipais de São Vicente, Cubatão e Santos não paga de novo para seguir nas linhas municipais.",
+      "A energia é da CPFL Piratininga. A ANEEL aprovou reajuste residencial de 2,63% a partir de 23 de outubro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa de Praia Grande (fev/2025)",
+        "url": "https://diariodotransporte.com.br/2025/02/05/praia-grande-sp-reajusta-tarifa-de-onibus-a-partir-deste-domingo-09/"
+      },
+      {
+        "nome": "Cenário Energia, reajustes EDP SP e CPFL Piratininga (out/2026)",
+        "url": "https://cenarioenergia.com.br/2026/10/14/aneel-aprova-reajustes-tarifarios-das-distribuidoras-edp-sp-e-cpfl-piratininga/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Além da orla, a família tem mata atlântica protegida na divisa com São Vicente e os atrativos históricos da ilha a poucos quilômetros.",
+    "lugares": [
+      {
+        "nome": "Parque Estadual Xixová-Japuí",
+        "km": "na cidade",
+        "desc": "Unidade de conservação de 901 hectares com mata atlântica e costões rochosos entre Praia Grande e São Vicente. Informe-se no parque sobre trilhas abertas à visitação."
+      },
+      {
+        "nome": "Ponte Pênsil",
+        "km": "~8 km",
+        "desc": "Ponte de 1914 que liga o continente à ilha de São Vicente, com estrutura de aço suspensa. Rende uma parada rápida para fotos."
+      },
+      {
+        "nome": "Ilha Porchat e Itararé",
+        "km": "~10 km",
+        "desc": "Em São Vicente, a ilha tem o monumento dos 500 anos projetado por Oscar Niemeyer e mirante sobre a baía. A Praia do Itararé fica ao lado."
+      },
+      {
+        "nome": "Teleférico e Morro do Voturuá",
+        "km": "~10 km",
+        "desc": "Em São Vicente, o teleférico sobe da orla ao morro, de onde se vê a baía. Bom com crianças em dia de céu limpo."
+      },
+      {
+        "nome": "Orla de Santos",
+        "km": "~15 km",
+        "desc": "Jardim de orla extenso, aquário municipal e o centro histórico com o Museu do Café. O VLT liga São Vicente a Santos."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Praia Grande)",
+        "url": "https://en.wikipedia.org/wiki/Praia_Grande"
+      },
+      {
+        "nome": "Wikipedia EN (São Vicente)",
+        "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_S%C3%A3o_Paulo"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Ao escolher bairro, veja a distância até a Avenida Ayrton Senna e a Imigrantes: os bairros do sul, como Solemar, ficam longe da saída para a serra e para Santos.",
+    "Se for trabalhar em Santos ou São Vicente, procure imóvel perto de um terminal: a integração com as linhas intermunicipais é gratuita para seguir nas linhas municipais.",
+    "Evite subir a serra nas tardes de domingo e no fim de feriados: a Imigrantes opera em sentido único e o trânsito vai para a Anchieta."
+  ]
+}

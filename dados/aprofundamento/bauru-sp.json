@@ -1,0 +1,111 @@
+{
+  "slug": "bauru-sp",
+  "lede": "Antigo ponto de partida da ferrovia Noroeste rumo a Corumbá, hoje polo universitário e de serviços no centro do estado.",
+  "cidade": {
+    "paragrafos": [
+      "Bauru se emancipou em 1º de agosto de 1896, com migrantes vindos do leste paulista e de Minas Gerais. Em 1906 saiu dali a Estrada de Ferro Noroeste do Brasil, que chegou a Corumbá, em Mato Grosso do Sul, e transformou a cidade em entroncamento ferroviário. O último trem de passageiros circulou em 2001. O Censo 2022 contou 379.146 moradores, 18ª população do estado.",
+      "Os serviços respondem pela maior parte do PIB, seguidos da indústria metalmecânica, gráfica, alimentícia, eletroeletrônica e de plásticos. A cidade é conhecida pela produção de baterias automotivas e de cadernos escolares. Pelo IBGE, teve em 2023 o 77º maior PIB do país. O ensino superior pesa na economia: a Unesp tem ali seu maior campus, a USP também tem campus na cidade, e há Fatec, USC, Unip e outras. Para o cônjuge, as vagas se concentram em ensino, saúde, comércio e indústria.",
+      "Bauru fica no cruzamento das rodovias Marechal Rondon (SP-300), SP-225, SP-294 e SP-321, e a rodoviária recebe cerca de 25 mil pessoas por semana. O Aeroporto Moussa Nakhl Tobias, de 2006, tem voos para São Paulo e Campinas. O centro comercial gira em torno do calçadão e da Praça Rui Barbosa. Com milhares de estudantes, a vida noturna se concentra nos bares universitários."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (Bauru)",
+        "url": "https://pt.wikipedia.org/wiki/Bauruense"
+      },
+      {
+        "nome": "Metrópoles, PIB dos municípios 2023 (IBGE)",
+        "url": "https://www.metropoles.com/sao-paulo/35-municipios-maior-pib-sp"
+      },
+      {
+        "nome": "São Paulo Secreto (o que fazer em Bauru)",
+        "url": "https://saopaulosecreto.com/o-que-fazer-em-bauru/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "O Decreto nº 19.518, de 20 de julho de 2026, elevou a passagem de ônibus de R$ 5,75 para R$ 6,25, com vigência a partir do fim de agosto de 2026. Pelo cálculo da prefeitura, sem o subsídio municipal, que subiu de R$ 1,00 para R$ 1,25 por passageiro, a tarifa seria de R$ 7,50. Estudantes cadastrados pagam meia, a integração entre linhas segue sem custo e idosos a partir de 60 anos cadastrados não pagam.",
+      "A energia é da CPFL Paulista. Em abril de 2026, a ANEEL aprovou reajuste médio de 12,13%, com 9,15% para os consumidores residenciais, um dos maiores do ano entre as distribuidoras."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa de Bauru (jul/2026)",
+        "url": "https://diariodotransporte.com.br/2026/07/22/bauru-sp-oficializa-reajuste-da-tarifa-de-onibus-para-r-625/"
+      },
+      {
+        "nome": "Correio da Manhã, tarifa de Bauru (jul/2026)",
+        "url": "https://www.correiodamanha.com.br/nacional/sao-paulo/campinas/interior-de-sao-paulo/2026/07/304207-tarifa-de-onibus-de-bauru-sobe-para-rs-625-no-fim-de-agosto.html"
+      },
+      {
+        "nome": "Cenário Energia, reajuste CPFL Paulista (abr/2026)",
+        "url": "https://cenarioenergia.com.br/2026/04/22/aneel-homologa-reajustes-para-seis-distribuidoras-cpfl-paulista-e-energisa-ms-tem-maiores-altas/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "As áreas verdes municipais são gratuitas ou baratas, e a ferrovia e o sanduíche são os dois temas de identidade da cidade.",
+    "lugares": [
+      {
+        "nome": "Jardim Botânico Municipal",
+        "km": "na cidade",
+        "desc": "Área de vegetação de cerrado com lagos e trilha ecológica de 1.080 m que passa por um viveiro de mudas nativas. Entrada gratuita. Bom para caminhada leve com criança."
+      },
+      {
+        "nome": "Parque Zoológico Municipal",
+        "km": "na cidade",
+        "desc": "Aberto em 1980, tem cerca de 700 animais de 170 espécies e recebe uns 150 mil visitantes por ano. O ingresso é de valor baixo."
+      },
+      {
+        "nome": "Parque Vitória Régia",
+        "km": "na cidade",
+        "desc": "Cartão-postal da cidade, com gramado amplo e um palco sobre a água em forma de vitória-régia, usado em shows. Entrada gratuita; confira a agenda de eventos."
+      },
+      {
+        "nome": "Museu Ferroviário Regional",
+        "km": "na cidade",
+        "desc": "Conta a história da Noroeste do Brasil e das ferrovias que fizeram de Bauru um entroncamento. Combina com uma volta pelo centro."
+      },
+      {
+        "nome": "Sanduíche bauru",
+        "km": "na cidade",
+        "desc": "Criado na década de 1930 pelo estudante bauruense Casimiro Pinto Neto, no Ponto Chic, em São Paulo, tem receita oficializada por lei municipal. Vale provar a versão local nas lanchonetes do centro."
+      },
+      {
+        "nome": "Horto Florestal e Bosque da Comunidade",
+        "km": "na cidade",
+        "desc": "Áreas arborizadas e gratuitas para caminhada e brincadeira ao ar livre, mais tranquilas que os parques do centro."
+      },
+      {
+        "nome": "Sesc Bauru",
+        "km": "na cidade",
+        "desc": "Centro cultural e esportivo com programação frequente, boa parte gratuita, incluindo atividades para crianças nos fins de semana."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "ABC do ABC (Turistando em Bauru)",
+        "url": "https://abcdoabc.com.br/turistando-bauru/"
+      },
+      {
+        "nome": "Correio Braziliense (Bauru)",
+        "url": "https://www.correiobraziliense.com.br/cbradar/cidade-paulista-perfeita-para-visitar-e-passar-o-final-de-semana/"
+      },
+      {
+        "nome": "Wikipédia (Bauru)",
+        "url": "https://pt.wikipedia.org/wiki/Bauruense"
+      },
+      {
+        "nome": "São Paulo Secreto (o que fazer em Bauru)",
+        "url": "https://saopaulosecreto.com/o-que-fazer-em-bauru/"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Conte com conta de luz mais alta em 2026: a CPFL Paulista teve reajuste residencial de 9,15% em abril, e o calor do interior aumenta o uso de ventilador e ar-condicionado.",
+    "Se for usar ônibus, faça o cadastro na EMDURB logo na chegada: a meia-passagem de estudante e a gratuidade para quem tem 60 a 64 anos só valem com cartão cadastrado.",
+    "Para viagens a São Paulo ou Campinas, compare o aeroporto Moussa Nakhl Tobias com o ônibus: são cerca de 330 km e quatro horas de estrada até a capital."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "osasco-sp",
+  "lede": "Antiga olaria à beira da ferrovia Sorocabana que virou município em 1962 e hoje tem o 8º maior PIB do país.",
+  "cidade": {
+    "paragrafos": [
+      "Osasco nasceu de uma olaria. Em 1887 o imigrante italiano Antonio Agù comprou terras no km 16 da Estrada de Ferro Sorocabana e, em 1895, construiu a estação, batizada com o nome de sua cidade natal no Piemonte. A emancipação de São Paulo foi aprovada em 1959, e a prefeitura foi instalada em 19 de fevereiro de 1962. Em 1968, a greve dos operários da Cobrasma marcou a história sindical do país. O Censo 2022 contou 728.615 moradores em apenas 65 km², uma das maiores densidades do Brasil.",
+      "A cidade deixou de ser só industrial e passou a viver de comércio e serviços. Pelo levantamento do IBGE de 2023, tem o 8º maior PIB do país e o segundo do estado, atrás apenas da capital. Ali fica a sede do Bradesco, e há unidades de empresas de bens de consumo, varejo e bebidas. Para o cônjuge, o mercado inclui bancos, escritórios, comércio, logística e toda a oferta de vagas da capital, a poucas estações de trem.",
+      "São cerca de 90 bairros, divididos pelo Rio Tietê em Zona Norte e Zona Sul. O Centro concentra o Calçadão, o Mercado Municipal e a estação Osasco, onde se cruzam as linhas 8-Diamante e 9-Esmeralda da CPTM. A Avenida dos Autonomistas e a Presidente Médici são os eixos de trânsito, e cinco shoppings atendem a cidade. O ritmo é de metrópole: deslocamentos curtos no mapa podem levar muito tempo no horário de pico."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipédia (História de Osasco)",
+        "url": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Osasco"
+      },
+      {
+        "nome": "Wikipedia EN (Osasco)",
+        "url": "https://en.wikipedia.org/wiki/Osasco"
+      },
+      {
+        "nome": "Metrópoles, PIB dos municípios 2023 (IBGE)",
+        "url": "https://www.metropoles.com/sao-paulo/35-municipios-maior-pib-sp"
+      },
+      {
+        "nome": "Wikipédia (Mercado Municipal de Osasco)",
+        "url": "https://pt.wikipedia.org/wiki/Mercado_Municipal_de_Osasco"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Desde 5 de janeiro de 2026, a passagem de ônibus municipal custa R$ 6,10, contra R$ 5,80 antes, alta de 5,2%. O mesmo valor vale em Barueri, Carapicuíba, Jandira e Itapevi. O trem da CPTM passou de R$ 5,20 para R$ 5,40 em 6 de janeiro de 2026, o que pesa no orçamento de quem trabalha na capital.",
+      "A energia é fornecida pela Enel SP. Em julho de 2026 a ANEEL aprovou reajuste médio de 10,18%, com alta de 8,97% para os consumidores de baixa tensão, onde estão as residências."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário do Transporte, tarifa Osasco/Barueri (dez/2025)",
+        "url": "https://diariodotransporte.com.br/2025/12/29/tarifa-do-transporte-coletivo-aumenta-para-r-610-em-osasco-barueri-carapicuiba-jandira-e-itapevi-a-partir-de-5-de-janeiro/"
+      },
+      {
+        "nome": "Tribuna de Jundiaí, tarifa CPTM 2026",
+        "url": "https://tribunadejundiai.com.br/noticias/passagem-do-trem-em-sp-sobe-para-r-540-a-partir-de-6-de-janeiro/"
+      },
+      {
+        "nome": "Agência iNFRA, reajuste Enel SP (jun/2026)",
+        "url": "https://agenciainfra.com/blog/aneel-aprova-reajuste-de-1018-nas-tarifas-da-enel-sp/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Os parques municipais são gratuitos e ficam espalhados pelas duas zonas da cidade. Vários fecham às segundas.",
+    "lugares": [
+      {
+        "nome": "Parque Chico Mendes",
+        "km": "na cidade",
+        "desc": "No Bussocaba, Zona Sul, tem 114 mil m² com trilhas, jardim japonês, quadras cobertas, campo society e playground. Abre de segunda a sexta das 7h às 16h e no fim de semana até 17h30."
+      },
+      {
+        "nome": "Parque Ecológico Dionísio Alvarez Mateos",
+        "km": "na cidade",
+        "desc": "Ao lado da FITO, no Jardim das Flores, tem lago com peixes e tartarugas, pista de caminhada, playground e o Ecomuseu de Osasco. Funciona de terça a domingo, das 6h às 18h."
+      },
+      {
+        "nome": "Borboletário (Parque Piratininga)",
+        "km": "na cidade",
+        "desc": "Na Zona Norte, o parque abriga desde 2009 um borboletário com 12 espécies e laboratório onde se vê a fase de lagarta. Abre de terça a sábado, das 10h às 16h. Bom passeio curto com criança pequena."
+      },
+      {
+        "nome": "Mercado Municipal e Calçadão",
+        "km": "na cidade",
+        "desc": "O mercado, de 1953, tem seis corredores com cereais, carnes, utensílios e fumo de corda. O Calçadão ao lado é o comércio popular mais tradicional da cidade."
+      },
+      {
+        "nome": "Sesc Osasco",
+        "km": "na cidade",
+        "desc": "No Jardim das Flores, tem quadras, área verde e espaço infantil, com teatro, shows e exposições na programação. Muitas atividades são gratuitas ou baratas."
+      },
+      {
+        "nome": "Parque Ecológico do Tietê (Ilha do Tamboré)",
+        "km": "~12 km",
+        "desc": "Em Barueri, tem churrasqueiras, quiosques, quadras, pedalinho e trenzinho. Entrada gratuita, das 8h às 17h, todos os dias. Chegue cedo no domingo para pegar churrasqueira."
+      },
+      {
+        "nome": "Centro Histórico de Santana de Parnaíba",
+        "km": "~25 km",
+        "desc": "Conjunto de 209 edificações tombado em 1982, o maior do estado, com a Igreja Matriz e o Museu Casa do Anhanguera, casa bandeirista do século XVII. Bom passeio de meio dia."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "QuintoAndar Guias (parques de Osasco)",
+        "url": "https://www.quintoandar.com.br/guias/?p=440292"
+      },
+      {
+        "nome": "ABC do ABC (Turistando em Osasco)",
+        "url": "https://www.abcdoabc.com.br/turistando-em-osasco/"
+      },
+      {
+        "nome": "Wikipédia (Mercado Municipal de Osasco)",
+        "url": "https://pt.wikipedia.org/wiki/Mercado_Municipal_de_Osasco"
+      },
+      {
+        "nome": "QuintoAndar Guias (parques de Barueri)",
+        "url": "https://www.quintoandar.com.br/guias/?p=439505"
+      },
+      {
+        "nome": "Wikipédia (Centro Histórico de Santana de Parnaíba)",
+        "url": "https://pt.wikipedia.org/wiki/Centro_Hist%C3%B3rico_de_Santana_de_Parna%C3%ADba"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Antes de fechar o aluguel, veja de que lado do Rio Tietê fica o imóvel e o seu local de trabalho: atravessar entre Zona Norte e Zona Sul no pico concentra boa parte dos congestionamentos.",
+    "Se alguém da família vai trabalhar ou estudar em São Paulo, procure imóvel perto das estações das linhas 8 e 9 da CPTM; o trem custa R$ 5,40 em 2026 e evita a Marginal e a Castello.",
+    "Planeje os passeios de parque para terça a domingo: o Parque Dionísio Alvarez Mateos e o borboletário não abrem às segundas."
+  ]
+}

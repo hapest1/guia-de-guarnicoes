@@ -1,0 +1,119 @@
+{
+  "slug": "jundiai-sp",
+  "lede": "Terra da uva Niágara e da Serra do Japi, com a 8ª maior economia paulista entre São Paulo e Campinas.",
+  "cidade": {
+    "paragrafos": [
+      "Jundiaí foi elevada a vila em 14 de dezembro de 1655. O nome vem do tupi e se refere ao bagre do rio. No fim do século XIX e começo do XX, a cidade recebeu grande número de imigrantes italianos, que trouxeram o cultivo da uva. A variedade Niágara rosada virou símbolo local, e a Festa da Uva existe desde 1934. O Censo 2022 contou 443.221 moradores, e a estimativa de 2025 é de 463 mil. A cidade fica a cerca de 760 m de altitude.",
+      "Pelo IBGE, o PIB de 2023 chegou a R$ 65,4 bilhões, o 8º do estado, com PIB per capita de R$ 147,6 mil. A economia junta indústria e logística: a cidade fica a cerca de 30 minutos de Viracopos e perto do Rodoanel. Em 2025, os 184 mil empregos formais se dividiam entre serviços (86 mil), indústria (51 mil) e comércio (38,6 mil). Para o cônjuge, há vagas em centros de distribuição, fábricas, comércio e saúde, além do mercado de Campinas e da capital.",
+      "A Serra do Japi, reserva de Mata Atlântica, ocupa o lado sudeste do município. O Centro Histórico reúne a Catedral de Nossa Senhora do Desterro, o Solar do Barão e a Ponte Torta. Perto do Paço Municipal estão o Jardim Botânico e o Parque da Cidade, ligados por ciclovia. A estação da Linha 7 da CPTM leva à capital. A cidade aparece bem nos rankings de saneamento: em 2022, 98,4% do esgoto era tratado."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Jundiaí)",
+        "url": "https://en.wikipedia.org/wiki/Jundia%C3%AD"
+      },
+      {
+        "nome": "Tribuna de Jundiaí, PIB 2023",
+        "url": "https://tribunadejundiai.com.br/economia/pib-jundiai-2023-8-maior-economia-sp/"
+      },
+      {
+        "nome": "Prefeitura de Jundiaí, Guia de Investimentos (dez/2025)",
+        "url": "https://jundiai.sp.gov.br/desenvolvimento-economico/wp-content/uploads/sites/9/2025/12/guiadeinvestimentos_pmj_v4.pdf"
+      },
+      {
+        "nome": "Prefeitura de Jundiaí (Jardim Botânico)",
+        "url": "https://jundiai.sp.gov.br/noticias/tag/jardim-botanico/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A tarifa de ônibus foi fixada em 6 de julho de 2025: R$ 5,60 no Bilhete Único Comum e R$ 6,15 no vale-transporte ou no pagamento em dinheiro e cartão no terminal. O Bilhete Único Escolar custa R$ 2,80. No 1º e no 3º domingo de cada mês vale a Tarifa Social de R$ 1,00. Antes de 2025, a passagem estava em R$ 5,00 desde janeiro de 2023. O trem da CPTM até a capital custa R$ 5,40 desde 6 de janeiro de 2026.",
+      "A energia é da CPFL Piratininga, que teve reajuste aprovado pela ANEEL com efeito de 2,63% para os consumidores residenciais a partir de 23 de outubro de 2026."
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Jundiaí, Transporte Coletivo",
+        "url": "https://jundiai.sp.gov.br/mobilidade/indicadores-e-informacoes/transporte-coletivo/"
+      },
+      {
+        "nome": "Prefeitura de Jundiaí, nova tarifa (jul/2025)",
+        "url": "https://jundiai.sp.gov.br/noticias/2025/07/04/nova-tarifa-do-transporte-coletivo-entra-em-vigor-em-jundiai-a-partir-de-6-de-julho-com-correcao-baseada-na-inflacao/"
+      },
+      {
+        "nome": "Tribuna de Jundiaí, tarifa CPTM 2026",
+        "url": "https://tribunadejundiai.com.br/noticias/passagem-do-trem-em-sp-sobe-para-r-540-a-partir-de-6-de-janeiro/"
+      },
+      {
+        "nome": "Cenário Energia, reajustes EDP SP e CPFL Piratininga (out/2026)",
+        "url": "https://cenarioenergia.com.br/2026/10/14/aneel-aprova-reajustes-tarifarios-das-distribuidoras-edp-sp-e-cpfl-piratininga/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer de fim de semana mistura parques gratuitos, roteiros rurais com adegas e a Serra do Japi, que exige agendamento.",
+    "lugares": [
+      {
+        "nome": "Parque da Cidade e Mundo das Crianças",
+        "km": "na cidade",
+        "desc": "O Parque da Cidade, de 2004, tem 500 mil m² e recebe cerca de 10 mil visitas por fim de semana. Ao lado, o Mundo das Crianças tem brinquedos e espaços de exploração, e a ampliação prevê lago com prainha, pedalinho e área para pets. Gratuito."
+      },
+      {
+        "nome": "Jardim Botânico",
+        "km": "na cidade",
+        "desc": "Junto ao Paço Municipal, tem 150 mil m² com espécies de Mata Atlântica e Cerrado, oficinas de observação de aves e ciclovia de cerca de 4 km até o Parque da Cidade."
+      },
+      {
+        "nome": "Visita monitorada à Serra do Japi",
+        "km": "na cidade",
+        "desc": "Nos fins de semana e feriados, há visitas guiadas pelas trilhas do Mirante e do Paraíso, para pessoas de 8 a 80 anos. As vagas são limitadas e a inscrição é feita antes, pelo site da prefeitura."
+      },
+      {
+        "nome": "Centro Histórico e Solar do Barão",
+        "km": "na cidade",
+        "desc": "Catedral do Desterro, Pinacoteca, Mosteiro de São Bento e a Ponte Torta ficam a pé um do outro. O Solar do Barão é museu e serve bem em dia de chuva."
+      },
+      {
+        "nome": "Rota do Vinho e adegas do Caxambu",
+        "km": "na cidade",
+        "desc": "No bairro rural do Caxambu, adegas de famílias italianas, como a Maziero, vendem vinho artesanal e produtos da roça. A prefeitura mantém dez rotas turísticas oficiais."
+      },
+      {
+        "nome": "Circuito das Frutas",
+        "km": "~15 km",
+        "desc": "Louveira, Vinhedo, Itupeva, Itatiba e Jarinu têm sítios de colheita, vinícolas e restaurantes rurais. Algumas colheitas pedem agendamento."
+      },
+      {
+        "nome": "Festa de Flores e Morangos de Atibaia",
+        "km": "~50 km",
+        "desc": "Em setembro, no Parque Ecológico de Atibaia, de sexta a domingo. Em 2026 a inteira custou R$ 70, e crianças até 10 anos não pagam."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Prefeitura de Jundiaí, 20 anos do Parque da Cidade",
+        "url": "https://jundiai.sp.gov.br/noticias/?p=334128"
+      },
+      {
+        "nome": "Prefeitura de Jundiaí (Jardim Botânico)",
+        "url": "https://jundiai.sp.gov.br/noticias/tag/jardim-botanico/"
+      },
+      {
+        "nome": "Tribuna de Jundiaí, visitas à Serra do Japi",
+        "url": "https://tribunadejundiai.com.br/cidades/jundiai/serra-do-japi-retoma-visitas-monitoradas-em-jundiai/"
+      },
+      {
+        "nome": "Tribuna de Jundiaí, 10 passeios de primavera",
+        "url": "https://tribunadejundiai.com.br/mais/turismo/flores-natureza-e-comida-boa-10-passeios-para-fazer-na-primavera-perto-de-jundiai/"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para conhecer a Serra do Japi, inscreva-se com antecedência nas visitas monitoradas: é reserva biológica, não há acesso livre e as vagas de fim de semana acabam rápido.",
+    "Faça o Bilhete Único logo na chegada: com ele a passagem sai R$ 0,55 mais barata que no vale-transporte ou no pagamento no terminal, e a Tarifa Social de R$ 1 vale no 1º e 3º domingos do mês.",
+    "Para voos, conte com Viracopos, a cerca de 30 minutos; Guarulhos fica a cerca de 1h30 pela estrada."
+  ]
+}

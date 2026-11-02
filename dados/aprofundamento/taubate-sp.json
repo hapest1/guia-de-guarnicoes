@@ -1,0 +1,89 @@
+{
+  "slug": "taubate-sp",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Taubaté surgiu como povoado em 1640 e foi elevada a vila em 5 de dezembro de 1645, por iniciativa de Jacques Félix. Nos séculos seguintes foi ponto de partida de bandeiras que chegaram ao ouro de Minas Gerais, e no século XIX virou centro cafeeiro do Vale do Paraíba. A cidade é berço de Monteiro Lobato e de Amácio Mazzaropi, e desde 2010 tem o título de Capital Nacional da Literatura Infantil.",
+      "Hoje é um polo industrial, com fábricas da Volkswagen, da LG, da Alstom e unidade da Embraer, entre outras. Pelo IBGE, teve em 2023 o 67º maior PIB do país. A Universidade de Taubaté (Unitau), municipal, oferece medicina, direito, odontologia, engenharias, administração e arquitetura, e é grande empregadora. Para o cônjuge, as vagas se concentram em indústria, ensino, saúde e comércio, e São José dos Campos, vizinha pela Dutra, amplia o mercado.",
+      "A Via Dutra atravessa a cidade e a liga a São Paulo (123 km) e ao Rio (280 km). O ônibus municipal, chamado TAU!, é operado pela ABC Transportes, com frota prevista de 70 carros em 2025 e a Estação de Conexão do Cecap, aberta em março de 2025. O ritmo é de cidade média do Vale, com acesso rápido ao litoral norte e à Mantiqueira."
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Taubaté)",
+        "url": "https://en.wikipedia.org/wiki/Taubate,_Sao_Paulo"
+      },
+      {
+        "nome": "Metrópoles, PIB dos municípios 2023 (IBGE)",
+        "url": "https://www.metropoles.com/sao-paulo/35-municipios-maior-pib-sp"
+      },
+      {
+        "nome": "Diário do Transporte, mudanças no transporte de Taubaté (mai/2025)",
+        "url": "https://diariodotransporte.com.br/2025/05/03/taubate-sp-anuncia-pacote-de-mudancas-no-transporte-publico-com-novos-onibus/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A última tarifa de ônibus confirmada foi fixada em 8 de março de 2022: R$ 4,70 na passagem comum e R$ 4,50 no Cartão Rápido, com R$ 2,45 para estudantes. Em 2025 a prefeitura adiou para janeiro de 2026 o pagamento de subsídio à operadora. Confira o valor vigente no aplicativo do TAU!, onde a recarga também é feita por Pix.",
+      "A energia é da EDP São Paulo, que atende o Vale do Paraíba. A ANEEL aprovou reajuste de 2,17% para os consumidores residenciais a partir de 23 de outubro de 2026, bem abaixo da média de outras distribuidoras paulistas no ano."
+    ],
+    "fontes": [
+      {
+        "nome": "Meon, tarifa de Taubaté (mar/2022)",
+        "url": "https://www.meon.com.br/noticias/vale-do-paraiba-regiao/preco-da-passagem-de-onibus-sobe-para-r-4-70-em-taubate-nesta-terca-feira"
+      },
+      {
+        "nome": "Diário do Transporte, mudanças no transporte de Taubaté (mai/2025)",
+        "url": "https://diariodotransporte.com.br/2025/05/03/taubate-sp-anuncia-pacote-de-mudancas-no-transporte-publico-com-novos-onibus/"
+      },
+      {
+        "nome": "Cenário Energia, reajustes EDP SP e CPFL Piratininga (out/2026)",
+        "url": "https://cenarioenergia.com.br/2026/10/14/aneel-aprova-reajustes-tarifarios-das-distribuidoras-edp-sp-e-cpfl-piratininga/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "A cidade tem museus ligados a seus dois filhos famosos, e a posição na Dutra permite ir à praia, à serra ou a cidades históricas no mesmo fim de semana.",
+    "lugares": [
+      {
+        "nome": "Museu Mazzaropi",
+        "km": "na cidade",
+        "desc": "Dedicado ao ator e cineasta nascido na cidade, com figurinos, cartazes e objetos dos filmes do Jeca. Agrada a avós e pais que cresceram vendo os filmes."
+      },
+      {
+        "nome": "Figureiras de Taubaté",
+        "km": "na cidade",
+        "desc": "Artesãs que modelam em barro pintado as figuras de presépio e o pavão típico da cidade. As peças são vendidas no bairro da Imaculada, perto do centro."
+      },
+      {
+        "nome": "Aparecida",
+        "km": "~50 km",
+        "desc": "Pela Dutra, o Santuário Nacional tem a basílica, a passarela até a Basílica Velha e o bondinho do Morro do Cruzeiro. Evite outubro e feriados religiosos se não gostar de multidão."
+      },
+      {
+        "nome": "São Luiz do Paraitinga",
+        "km": "~45 km",
+        "desc": "Cidade histórica de casario do café, famosa pelo carnaval de marchinhas e pela Festa do Divino. Boa para um sábado de passeio a pé e comida caipira."
+      },
+      {
+        "nome": "Ubatuba",
+        "km": "~95 km",
+        "desc": "Pela Rodovia Oswaldo Cruz, que desce a serra, chega-se às praias do litoral norte em cerca de 1h30. Em feriados a descida fica lenta; saia cedo."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Wikipedia EN (Taubaté)",
+        "url": "https://en.wikipedia.org/wiki/Taubate,_Sao_Paulo"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Para voos, compare o aeroporto de São José dos Campos com Guarulhos, a cerca de 1h30 pela Dutra e pela Ayrton Senna, que costuma ter mais horários e tarifas menores.",
+    "Na chegada, faça o Cartão Rápido no posto da Praça Dom Epaminondas ou pelo aplicativo: no cartão a passagem sai mais barata que em dinheiro.",
+    "Se pretende descer a Ubatuba em feriados, saia antes das 7h: a Rodovia Oswaldo Cruz tem pista simples na serra e congestiona."
+  ]
+}
