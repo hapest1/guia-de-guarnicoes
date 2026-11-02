@@ -1,0 +1,86 @@
+{
+ "slug": "foz-do-iguacu-pr",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Foz do Iguaçu virou vila em 1910 e cidade em 1914, no ponto em que o rio Iguaçu encontra o Paraná e se juntam Brasil, Argentina e Paraguai. Duas obras mudaram a cidade: a Ponte da Amizade, concluída em 1965, e a usina de Itaipu, que começou a operar em 1984 e responde por cerca de 15% da energia do Brasil e 86% da do Paraguai.",
+   "A economia gira em torno de turismo, comércio e serviços. O Parque Nacional do Iguaçu, criado em 1939, e Itaipu atraem visitantes do mundo todo; em pesquisas de 2006 a 2008, a cidade foi o segundo destino de lazer de estrangeiros no país, depois do Rio de Janeiro. Hotelaria, agências, comércio e a própria usina geram boa parte das vagas, e a UNILA, criada em 2010, a Unioeste e o IFPR somam empregos em ensino. Para o cônjuge, falar espanhol ajuda.",
+   "Cerca de 80 nacionalidades vivem na cidade, com grande comunidade de origem libanesa, a Mesquita Omar Ibn Al-Khattab e um templo budista. A área urbana se divide entre o Centro, a região ao longo da rodovia que leva ao aeroporto e às Cataratas, e os acessos às pontes internacionais, onde o trânsito pesa em dias de compras. O ritmo é de cidade turística, mais movimentada em feriados e férias escolares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano custa R$ 5,00 desde 2 de maio de 2024, paga com o Cartão Único, em dinheiro ou com cartão de crédito ou débito por aproximação, aceito em toda a frota. A prefeitura propõe tarifa de R$ 6 na nova concessão do transporte coletivo, apresentada em audiência pública em agosto de 2026.",
+   "Do lado argentino, os preços mudam com frequência: em julho de 2026, Puerto Iguazú aprovou passagem de P$ 12.000 (cerca de R$ 43 no câmbio da época) para turistas na linha até as Cataratas argentinas. Com máximas acima de 35 °C e recorde de 40 °C, o ar-condicionado pesa na conta de luz no verão."
+  ],
+  "fontes": [
+   {
+    "nome": "H2FOZ (tarifa 2024)",
+    "url": "https://www.h2foz.com.br/cidade/prefeitura-aumenta-passagem-de-onibus-em-r-050-e-tarifa-vai-a-r-5-no-cartao/"
+   },
+   {
+    "nome": "H2FOZ (pagamento por cartão)",
+    "url": "https://www.h2foz.com.br/cidade/onibus-foz-do-iguacu-cartoes-credito-debito-passagem/"
+   },
+   {
+    "nome": "H2FOZ (nova concessão)",
+    "url": "https://www.h2foz.com.br/cidade/transporte-coletivo-foz-do-iguacu-mudancas/"
+   },
+   {
+    "nome": "H2FOZ (Puerto Iguazú)",
+    "url": "https://www.h2foz.com.br/turismo/passagem-onibus-cataratas-argentina-julho-2026/"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Além das Cataratas e de Itaipu, a cidade tem passeios curtos, bons para fins de semana com crianças, e templos de várias religiões.",
+  "lugares": [
+   {
+    "nome": "Parque das Aves",
+    "km": "na cidade",
+    "desc": "Viveiros de imersão com aves da Mata Atlântica, perto da entrada do Parque Nacional. Programa de meio período, ótimo para crianças."
+   },
+   {
+    "nome": "Marco das Três Fronteiras",
+    "km": "na cidade",
+    "desc": "Mirante no encontro dos rios Iguaçu e Paraná, com vista para a Argentina e o Paraguai. Mais bonito no fim da tarde."
+   },
+   {
+    "nome": "Mesquita Omar Ibn Al-Khattab",
+    "km": "na cidade",
+    "desc": "Uma das maiores mesquitas da América Latina, com visitas em horários definidos. Vá com roupas que cubram ombros e joelhos."
+   },
+   {
+    "nome": "Templo Budista",
+    "km": "na cidade",
+    "desc": "Templo de estilo chinês com jardins e estátuas, tranquilo para passeio em família."
+   },
+   {
+    "nome": "Bosque Guarani",
+    "km": "na cidade",
+    "desc": "Área verde com pequeno zoológico no Centro, bom para uma pausa curta com crianças."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Deixe RG ou passaporte em bom estado para todos os dependentes: passear em Puerto Iguazú ou Ciudad del Este faz parte da rotina local.",
+  "Tenha um cartão de débito ou crédito por aproximação: ele já paga o ônibus urbano e evita fila para recarga.",
+  "Evite cruzar a Ponte da Amizade nos horários de pico e aos sábados, quando o movimento de compras é maior.",
+  "Alugue com ar-condicionado nos quartos: no verão as máximas passam de 35 °C e a umidade é alta."
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "slug": "pelotas-rs",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A ocupação começou em 1758, e a freguesia de São Francisco de Paula foi criada em 1812. O nome Pelotas, adotado em 1835, vem dos barcos de couro usados para cruzar os rios. No século XIX, as charqueadas, que produziam carne salgada com mão de obra escravizada, enriqueceram a cidade. Essa riqueza ergueu os casarões do Centro, o Theatro Sete de Abril, de 1831, e a tradição dos doces de origem portuguesa, reconhecida como patrimônio cultural do Brasil em 2018.",
+   "Hoje Pelotas vive de serviços, comércio e educação. A UFPel, a UCPel e o IFSul atraem estudantes de todo o estado, e a cidade tem cinco instituições de ensino superior, 23 museus e dois teatros. O campo ao redor produz arroz, pêssego e leite, e o porto no Canal São Gonçalo atende a região. Para o cônjuge, as vagas se concentram em ensino, saúde, comércio e serviços.",
+   "O Centro histórico, em volta da Praça Coronel Pedro Osório, reúne museus, teatros, o Mercado Público e boa parte do comércio. A cidade é plana e se estende até o Laranjal, na margem da Lagoa dos Patos, a cerca de 15 minutos de carro do Centro. O bairro do Porto, perto do canal, tem campi da UFPel e vida universitária. A fronteira com o Uruguai fica a cerca de 150 km, e o ritmo é tranquilo, com inverno frio e úmido."
+  ],
+  "fontes": [
+   {
+    "nome": "UFPel (3º CIECIT)",
+    "url": "https://wp.ufpel.edu.br/3ciecit/city-of-pelotas/"
+   },
+   {
+    "nome": "UFPel (Getting to know Pelotas)",
+    "url": "https://wp.ufpel.edu.br/famedcol/files/2022/07/Getting-to-know-Pelotas.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus subiu para R$ 6,25 em 3 de março de 2026, com valor único para linhas urbanas e rurais; a meia estudantil é de R$ 3,12. Desde 28 de julho de 2026, os ônibus com validador novo aceitam Pix por QR Code ou por aproximação.",
+   "No portal Mitula, a média dos anúncios de apartamentos de 2 quartos para alugar era de R$ 1.050 por mês (cerca de R$ 18/m²) em consulta de novembro de 2026, com 985 imóveis listados; as ofertas da primeira página iam de R$ 650 a R$ 1.250. É média de portal, sem condomínio; confirme com imobiliárias."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte (tarifa)",
+    "url": "https://diariodotransporte.com.br/2026/03/02/passagem-de-onibus-e-reajustada-para-r-625-em-pelotas-rs-a-partir-desta-terca-3/"
+   },
+   {
+    "nome": "Diário do Transporte (Pix)",
+    "url": "https://diariodotransporte.com.br/2026/07/29/pelotas-rs-passa-a-aceitar-pagamento-por-pix-nos-onibus-do-transporte-coletivo/"
+   },
+   {
+    "nome": "Mitula",
+    "url": "https://imoveis.mitula.com.br/imoveis/aluguel-apartamentos-2-quartos-pelotas"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Patrimônio histórico, doces e a Lagoa dos Patos resumem o lazer. Quase tudo fica perto do Centro, e o mar está a pouco mais de uma hora.",
+  "lugares": [
+   {
+    "nome": "Mercado Público",
+    "km": "na cidade",
+    "desc": "Prédio com mais de 170 anos no Centro, com bancas de comida, artesanato e um posto de informação turística."
+   },
+   {
+    "nome": "Museu do Doce",
+    "km": "na cidade",
+    "desc": "Casarão na Praça Coronel Pedro Osório que conta a história da doçaria pelotense. Visita curta, boa para fazer antes de comprar doces."
+   },
+   {
+    "nome": "Museu e Parque da Baronesa",
+    "km": "na cidade",
+    "desc": "Casarão com parque, museu desde 1982, com mais de 3 mil peças sobre o cotidiano do século XIX. O parque é bom para crianças correrem."
+   },
+   {
+    "nome": "Theatro Sete de Abril",
+    "km": "na cidade",
+    "desc": "Teatro de 1831 na praça principal, um dos mais antigos do país. Consulte a programação antes de ir."
+   },
+   {
+    "nome": "Charqueada São João",
+    "km": "~10 km",
+    "desc": "Antiga charqueada do século XIX com visita guiada pela casa-sede, que mostra também a história da escravidão na região."
+   },
+   {
+    "nome": "Parque Una",
+    "km": "na cidade",
+    "desc": "Parque aberto, procurado para esportes e para ver o pôr do sol."
+   },
+   {
+    "nome": "Praia do Cassino (Rio Grande)",
+    "km": "~80 km",
+    "desc": "Praia de mar aberto com faixa de areia muito longa, bom bate-volta no verão. A água é fria e o vento é constante."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "UFPel (Getting to know Pelotas)",
+    "url": "https://wp.ufpel.edu.br/famedcol/files/2022/07/Getting-to-know-Pelotas.pdf"
+   },
+   {
+    "nome": "UFPel (3º CIECIT)",
+    "url": "https://wp.ufpel.edu.br/3ciecit/city-of-pelotas/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare a casa para o inverno: em geral as construções não têm aquecimento, e de junho a agosto as mínimas ficam entre 5 °C e 10 °C, com geada e neblina. Aquecedor e desumidificador ajudam a evitar frio e mofo.",
+  "Ao visitar imóveis, observe sinais de umidade nas paredes e a insolação dos cômodos, principalmente em casas térreas e prédios antigos.",
+  "Enquanto não tiver o cartão de transporte, pague o ônibus por Pix: desde julho de 2026 os validadores novos aceitam QR Code."
+ ]
+}

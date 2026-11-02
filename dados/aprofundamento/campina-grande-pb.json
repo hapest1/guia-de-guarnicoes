@@ -1,0 +1,107 @@
+{
+ "slug": "campina-grande-pb",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "A história de Campina Grande começa em 1697, quando o capitão Teodósio de Oliveira Ledo instalou um aldeamento no Planalto da Borborema. O lugar virou vila em 1790 e cidade em 11 de outubro de 1864. No começo do século XX, o comércio de algodão e a chegada da ferrovia Great Western, em 1907, deram à cidade o apelido de \"Liverpool brasileira\". Hoje é a segunda economia da Paraíba, com PIB per capita de R$ 30,8 mil em 2023.",
+   "Comércio e serviços respondem pela maior parte da economia, seguidos pela indústria têxtil, couro-calçadista, de alimentos, bebidas e metalurgia. O terceiro pilar é o conhecimento: a UFCG tem cursos de computação e engenharia de referência nacional, a UEPB tem sede na cidade, e o Parque Tecnológico da Paraíba reúne incubadoras e empresas de software e eletrônica. Para o cônjuge, vale olhar comércio, educação, saúde e tecnologia.",
+   "A cidade fica a cerca de 550 m de altitude, o que explica as noites frescas. O centro se organiza em volta do Açude Velho e do Parque do Povo, e os três shoppings (Partage, Boulevard e Luiza Motta) servem de referência para quem chega. Bodocongó, onde fica o campus principal da UFCG, tem vida universitária; Catolé e Mirante concentram comércio. Em junho, o São João ocupa o centro por 30 dias e recebe mais de 2 milhões de visitantes. No resto do ano, o ritmo é de cidade média, com trajetos curtos."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Campina_Grande"
+   },
+   {
+    "nome": "Smargiassi (dados IBGE)",
+    "url": "https://smargiassi.com.br/pb/campina-grande/"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/cbradar/a-cidade-nordestina-que-esta-surpreendendo-o-brasil-com-inovacao-e-ensino-forte/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano subiu de R$ 4,65 para R$ 4,90 em 25 de janeiro de 2026, reajuste de 5,4%. A meia estudantil passou de R$ 2,30 para R$ 2,45.",
+   "A energia é da Energisa Paraíba, que reajustou a tarifa residencial em 4,81% a partir de 28 de agosto de 2026. Com média das máximas de 28,8 °C (normais 1981-2010), a cidade exige menos ar-condicionado ligado o dia todo do que o sertão paraibano."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte",
+    "url": "https://diariodotransporte.com.br/2026/01/24/campina-grande-pb-aprova-tarifa-de-r-490-com-reajuste-de-54/"
+   },
+   {
+    "nome": "Movimento Econômico",
+    "url": "https://movimentoeconomico.com.br/economia/energia/2026/08/24/conta-de-luz-sobe-576-no-maranhao-e-574-na-paraiba-a-partir-de-sexta-feira/"
+   },
+   {
+    "nome": "Wikipédia (clima)",
+    "url": "https://en.wikipedia.org/wiki/Campina_Grande"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Além do São João, a cidade tem museus, uma das maiores feiras livres do Nordeste e roteiros de um dia pelo Brejo e pelo Cariri paraibano.",
+  "lugares": [
+   {
+    "nome": "Açude Velho e Museu de Arte Popular da Paraíba",
+    "km": "na cidade",
+    "desc": "Calçadão em volta do açude, bom para caminhar e pedalar no fim da tarde. Na margem fica o museu em forma de três pandeiros, projetado por Oscar Niemeyer, com acervo de cultura popular."
+   },
+   {
+    "nome": "Feira Central",
+    "km": "na cidade",
+    "desc": "Mais de 3.000 bancas com carne de sol, queijo, frutas, artesanato e cordel. Vá cedo e leve dinheiro trocado."
+   },
+   {
+    "nome": "Museu do Algodão",
+    "km": "na cidade",
+    "desc": "Conta o ciclo do algodão que deu fama à cidade no começo do século XX. Visita curta, boa para crianças em idade escolar."
+   },
+   {
+    "nome": "Teatro Municipal Severino Cabral",
+    "km": "na cidade",
+    "desc": "Prédio art déco dos anos 1960 com programação de teatro, dança e música. Consulte a agenda antes de ir."
+   },
+   {
+    "nome": "Pedra do Ingá",
+    "km": "~40 km",
+    "desc": "Rocha com inscrições rupestres às margens de um riacho, em Ingá, pela BR-230 no sentido de João Pessoa. Passeio de meio dia; leve chapéu e água."
+   },
+   {
+    "nome": "Areia",
+    "km": "~45 km",
+    "desc": "Cidade histórica do Brejo paraibano, de clima mais fresco, com casario preservado e engenhos de cachaça e rapadura abertos à visita."
+   },
+   {
+    "nome": "Lajedo de Pai Mateus (Cabaceiras)",
+    "km": "~70 km",
+    "desc": "Grande lajedo de granito com blocos arredondados, no Cariri, uma das regiões mais secas do país. Vá com guia local e evite o sol do meio do dia."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Campina_Grande"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/cbradar/a-cidade-nordestina-que-esta-surpreendendo-o-brasil-com-inovacao-e-ensino-forte/"
+   },
+   {
+    "nome": "Smargiassi",
+    "url": "https://smargiassi.com.br/pb/campina-grande/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se a mudança cair perto de junho, reserve hospedagem com antecedência: o São João dura o mês inteiro, recebe mais de 2 milhões de visitantes e lota hotéis e o entorno do Parque do Povo.",
+  "Leve agasalho leve: a cerca de 550 m de altitude, as noites de junho a agosto são frescas, ao contrário do litoral.",
+  "Para voos, compare o aeroporto local com os de João Pessoa e Recife (191 km por estrada), que têm mais horários e destinos."
+ ]
+}

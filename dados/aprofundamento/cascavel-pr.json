@@ -1,0 +1,101 @@
+{
+ "slug": "cascavel-pr",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "O povoado de Cascavel se formou entre o fim dos anos 1920 e os anos 1930, à beira da estrada entre Guarapuava e Foz do Iguaçu, a partir da área comprada por José Silvério de Oliveira, o Nho Jeca. O nome vem da serpente comum na região. A cidade se separou de Foz do Iguaçu em 1951 e instalou o primeiro governo municipal em 14 de dezembro de 1952. Passou de cerca de 40 mil habitantes em 1960 para 368 mil estimados em 2025.",
+   "A base é o agronegócio: o município responde por cerca de um quarto da produção de cereais do Paraná, com soja, milho e trigo, além de aves e suínos. Serviços somam mais de três quartos do PIB, e a indústria é sobretudo de alimentos, química, metalurgia e bebidas. Em fevereiro, o Show Rural Coopavel, uma das maiores feiras agropecuárias da América Latina, movimenta a cidade. Para o cônjuge, há vagas em cooperativas, comércio, saúde e ensino superior, com a Unioeste e faculdades particulares.",
+   "A cidade foi planejada, com avenidas largas e bairros bem distribuídos. A Avenida Brasil corta o Centro, e o Lago Municipal, ao lado do Parque Paulo Gorski, funciona como área verde central. Cascavel fica a 781 m de altitude, num planalto a cerca de 500 km de Curitiba e 140 km da tríplice fronteira. O aeroporto regional foi eleito o melhor regional do país em 2022 e 2023. O ritmo é de cidade média com hábitos do Sul trazidos pelos migrantes."
+  ],
+  "fontes": [
+   {
+    "nome": "IBGE (histórico)",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/parana/cascavel.pdf"
+   },
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Cascavel"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/cbradar/encante-se-pela-cidade-eleita-a-segunda-melhor-do-brasil/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano é de R$ 4,65 desde 31 de agosto de 2023, mantida com subsídio da prefeitura. Desde janeiro de 2025 o ônibus é gratuito aos domingos (Domingo Passe Livre), com mais de 500 mil viagens no primeiro ano. A partir de 18 de janeiro de 2026, é preciso ter o cartão ValeSim para embarcar também no domingo; a primeira via é gratuita, no posto da Rua Duque de Caxias, 770, no Centro."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte",
+    "url": "https://diariodotransporte.com.br/2023/08/26/cascavel-pr-reajusta-tarifa-dos-onibus-municipais-para-r-465-a-partir-de-quinta-feira-31/"
+   },
+   {
+    "nome": "CATVE",
+    "url": "https://catve.com/noticia/8/462016/"
+   },
+   {
+    "nome": "CGN",
+    "url": "https://cgn.inf.br/noticia/2013197/cascavel-completa-um-ano-de-transporte-coletivo-gratuito-aos-domingos-com-mais-de-meio-milhao-de-usuarios"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "O lazer é de parques urbanos, eventos do agronegócio e passeios de um dia até o lago de Itaipu e Foz do Iguaçu.",
+  "lugares": [
+   {
+    "nome": "Lago Municipal e Parque Paulo Gorski",
+    "km": "na cidade",
+    "desc": "Pista de caminhada em volta do lago, trilhas e áreas de piquenique. É o principal ponto de encontro das famílias no fim da tarde."
+   },
+   {
+    "nome": "Zoológico Municipal",
+    "km": "na cidade",
+    "desc": "Zoológico público com várias espécies, programa curto e fácil para crianças pequenas."
+   },
+   {
+    "nome": "Show Rural Coopavel",
+    "km": "na cidade",
+    "desc": "Feira de fevereiro com máquinas, lavouras de demonstração e praça de alimentação. Vá cedo e use calçado fechado."
+   },
+   {
+    "nome": "Autódromo Zilmar Beux",
+    "km": "na cidade",
+    "desc": "Recebe provas nacionais de automobilismo e motociclismo. Vale acompanhar a agenda do ano."
+   },
+   {
+    "nome": "Praia artificial de Itaipulândia",
+    "km": "~90 km",
+    "desc": "Área de banho no lago de Itaipu, com faixa de areia e camping. Mais movimentada no verão."
+   },
+   {
+    "nome": "Foz do Iguaçu",
+    "km": "~140 km",
+    "desc": "Cataratas, Itaipu e Parque das Aves num fim de semana; dá para ir e voltar no mesmo dia pela BR-277."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/cbradar/encante-se-pela-cidade-eleita-a-segunda-melhor-do-brasil/"
+   },
+   {
+    "nome": "Wikitravel",
+    "url": "https://www.wikitravel.ai/Brasil/Parana/Cascavel-?lang=EN"
+   },
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Cascavel"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Faça o cartão ValeSim na primeira semana: desde janeiro de 2026 ele é obrigatório até no ônibus gratuito de domingo.",
+  "Se chegar no começo do ano, reserve hotel com antecedência para fevereiro, mês do Show Rural Coopavel, quando a procura por hospedagem aumenta.",
+  "Tenha roupa de calor e de frio: o recorde de máxima é de 36,6 °C no verão e o de mínima, −4,2 °C em julho."
+ ]
+}

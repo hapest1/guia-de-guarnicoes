@@ -1,0 +1,71 @@
+{
+ "slug": "dourados-ms",
+ "lede": "Segunda maior cidade de Mato Grosso do Sul, polo de grãos do sul do estado, a 120 km da fronteira com o Paraguai e uma hora atrás de Brasília.",
+ "cidade": {
+  "paragrafos": [
+   "Dourados é a segunda maior cidade de Mato Grosso do Sul, com cerca de 243 mil habitantes no Censo 2022, e o principal centro urbano do sul do estado. Formou-se com colonos de várias regiões do país e, depois, com uma grande onda de migrantes do Rio Grande do Sul, de Santa Catarina e do Paraná, atraídos pela agricultura mecanizada. A herança aparece no chimarrão, nos CTGs e no sotaque misturado com o da fronteira paraguaia.",
+   "A economia se apoia em soja, milho e cana-de-açúcar, na agroindústria e no comércio que atende os municípios vizinhos e a faixa de fronteira. A UFGD, a UEMS e as faculdades particulares formam um polo de ensino superior que recebe estudantes de toda a região. Para o cônjuge, as vagas aparecem no agronegócio, no comércio, na saúde e na educação.",
+   "A área urbana é plana e de ruas largas, com o comércio concentrado no Centro. No limite da cidade ficam as aldeias da Reserva Indígena de Dourados, parte das maiores reservas guarani-kaiowá do estado. A BR-163 liga a cidade a Campo Grande, a cerca de 230 km, e a rodovia para Ponta Porã chega à fronteira em cerca de 120 km. A cidade segue o horário de Mato Grosso do Sul, uma hora atrás de Brasília, e tem ritmo de interior, com trajetos curtos e vida social em parques e restaurantes."
+  ],
+  "fontes": []
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano caiu de R$ 3,25 para R$ 3,00 em 1º de junho de 2025, e a estudantil foi de R$ 1,65 para R$ 1,00. A redução fez parte da prorrogação do contrato da Viação Dourados, que também prevê ar-condicionado em toda a frota.",
+   "A energia é da Energisa Mato Grosso do Sul. A Aneel aprovou em abril de 2026 reajuste médio de 11,98% para residências. Com verão quente e úmido, reserve parte do orçamento para o ar-condicionado."
+  ],
+  "fontes": [
+   {
+    "nome": "Campo Grande News",
+    "url": "https://www.campograndenews.com.br/cidades/interior/prefeitura-reduz-para-r-3-00-passagem-de-onibus-urbano-a-partir-de-junho"
+   },
+   {
+    "nome": "Diário do Transporte",
+    "url": "https://diariodotransporte.com.br/2025/05/20/prefeitura-de-dourados-ms-reduz-valor-da-tarifa-dos-onibus-urbanos-a-partir-de-1o-de-junho/"
+   },
+   {
+    "nome": "IstoÉ Dinheiro",
+    "url": "https://istoedinheiro.com.br/aneel-aprova-alta-tarifaria-media-de-1211-para-consumidores-da-energisa-mato-grosso-do-sul-2"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "O lazer local é de parques urbanos; para fins de semana, a fronteira com o Paraguai, Campo Grande e Bonito são as saídas mais comuns.",
+  "lugares": [
+   {
+    "nome": "Parque Antenor Martins (Parque do Lago)",
+    "km": "na cidade",
+    "desc": "Lago com pista de caminhada, ponto de encontro das famílias no fim da tarde."
+   },
+   {
+    "nome": "Parque Arnulpho Fioravante",
+    "km": "na cidade",
+    "desc": "Área verde com pistas e equipamentos esportivos, boa para caminhar e levar crianças."
+   },
+   {
+    "nome": "Ponta Porã e Pedro Juan Caballero",
+    "km": "~120 km",
+    "desc": "Fronteira seca com o Paraguai, conhecida pelo comércio de importados. Confira com a OM as regras para militares antes de atravessar."
+   },
+   {
+    "nome": "Bioparque Pantanal (Campo Grande)",
+    "km": "~230 km",
+    "desc": "Grande aquário de água doce com peixes do Pantanal e de outros rios. Agende a visita pelo site com antecedência."
+   },
+   {
+    "nome": "Bonito",
+    "km": "~300 km",
+    "desc": "Rios de água transparente para flutuação, grutas e cachoeiras. Os passeios têm limite de visitantes; reserve com antecedência."
+   }
+  ],
+  "fontes": []
+ },
+ "antes_de_ir": [
+  "Acerte o relógio: Dourados fica uma hora atrás de Brasília, o que afeta horários de voo, provas e reuniões online.",
+  "Alugue com ar-condicionado nos quartos e pergunte o valor médio da conta de luz: as tarifas residenciais da Energisa MS subiram cerca de 12% em 2026.",
+  "Tenha cobertores e agasalhos mesmo vindo do Norte ou do Nordeste: no inverno seco, frentes frias derrubam a temperatura por alguns dias."
+ ]
+}

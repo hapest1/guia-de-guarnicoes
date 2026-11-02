@@ -1,0 +1,110 @@
+{
+ "slug": "santarem-pa",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Santarém nasceu em 22 de junho de 1661, quando o jesuíta João Felipe Bettendorff instalou uma missão na aldeia dos Tapajó, na foz do rio Tapajós. Virou vila em 1758, com o nome de uma cidade portuguesa, e cidade em 1848. É a terceira cidade mais populosa do Pará e o polo do Baixo Amazonas, com cerca de 361 mil habitantes estimados pelo IBGE em 2025.",
+   "A economia passou por ciclos de drogas do sertão, cacau, borracha e ouro. Desde 2003, o terminal de grãos da Cargill pôs a cidade na rota de exportação da soja, e o porto é o segundo mais importante do estado, depois do de Belém. Serviços e administração pública somam mais de 80% do PIB, com peso grande do comércio, da saúde e do ensino superior: são 12 instituições, entre elas a UFOPA. Para o cônjuge, as oportunidades estão sobretudo em comércio, serviços, educação e saúde.",
+   "A cidade se organiza a partir da orla, onde ficam o Centro comercial, a Catedral, o Mercadão 2000 e o Centro Cultural João Fona. A Aldeia, perto do Centro, é mais residencial. O aeroporto Maestro Wilson Fonseca fica a cerca de 15 km do Centro. A vila de Alter do Chão, a uns 32 km, funciona como destino de fim de semana, mas tem preços mais altos na temporada. O ritmo segue o rio: cheia e seca mudam as praias, os passeios e as viagens de barco."
+  ],
+  "fontes": [
+   {
+    "nome": "IBGE (histórico)",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/para/santarem.pdf"
+   },
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Santar%C3%A9m,_Par%C3%A1"
+   },
+   {
+    "nome": "Smargiassi (dados IBGE)",
+    "url": "https://smargiassi.com.br/pa/santarem/"
+   },
+   {
+    "nome": "BMC News",
+    "url": "https://bmcnews.com.br/ultimas-noticias/cidade-fundada-em-1661-uma-das-mais-antigas-da-amazonia-e-um-polo-portuario-vital-no-para/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano subiu de R$ 4,50 para R$ 4,80 em 12 de janeiro de 2026 (Decreto nº 010/2026), e a meia estudantil passou a R$ 1,60. As linhas para os distritos, como Alter do Chão, foram reajustadas na mesma proporção.",
+   "A energia é da Equatorial Pará, e a Aneel aprovou em 15 de setembro de 2026 reajuste de 6,70% para residências. Com umidade relativa média de 86% e calor o ano todo, o ar-condicionado é o item que mais pesa na conta. Morar no Centro custa menos que em Alter do Chão, onde os preços sobem na temporada de agosto a janeiro."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte",
+    "url": "https://diariodotransporte.com.br/2026/01/07/santarem-pa-tem-reajuste-na-tarifa-de-onibus-a-partir-de-segunda-feira-12/"
+   },
+   {
+    "nome": "Diário do Pará",
+    "url": "https://diariodopara.com.br/para/santarem-anuncia-aumento-na-tarifa-de-onibus-veja-novos-valores/"
+   },
+   {
+    "nome": "Cenário Energia",
+    "url": "https://cenarioenergia.com.br/2026/09/16/aneel-aprova-reajuste-tarifario-de-694-para-consumidores-da-equatorial-para/"
+   },
+   {
+    "nome": "BMC News",
+    "url": "https://bmcnews.com.br/ultimas-noticias/cidade-fundada-em-1661-uma-das-mais-antigas-da-amazonia-e-um-polo-portuario-vital-no-para/"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Rio, floresta e praia de água doce dominam o lazer. A seca, de agosto a janeiro, é a época das praias; na cheia, os barcos entram nos igapós.",
+  "lugares": [
+   {
+    "nome": "Mercadão 2000",
+    "km": "na cidade",
+    "desc": "Mercado perto do rio para provar peixe regional e comprar farinha e frutas. Bom para conhecer a culinária local logo na chegada."
+   },
+   {
+    "nome": "Centro Cultural João Fona",
+    "km": "na cidade",
+    "desc": "Prédio de 1853 com acervo sobre a história da região. A entrada é gratuita e a visita é curta."
+   },
+   {
+    "nome": "Ilha do Amor e Lago Verde (Alter do Chão)",
+    "km": "~32 km",
+    "desc": "A Ilha do Amor aparece na seca em frente à vila, e a travessia de canoa é curta. O Lago Verde é bom para passeio de barco ou caiaque."
+   },
+   {
+    "nome": "Ponta do Cururu",
+    "km": "~40 km",
+    "desc": "Banco de areia perto de Alter do Chão, procurado para ver o pôr do sol e os botos. Combine o passeio com barqueiros da vila."
+   },
+   {
+    "nome": "Belterra",
+    "km": "~50 km",
+    "desc": "Cidade criada pela Ford nos anos 1930 para plantar seringueiras, com casas no estilo americano ainda de pé. Passeio de meio dia de carro."
+   },
+   {
+    "nome": "Floresta Nacional do Tapajós",
+    "km": "~100 km",
+    "desc": "Unidade de conservação na margem do Tapajós, com trilhas guiadas por moradores das comunidades e árvores gigantes. Programa de dia inteiro ou com pernoite."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "BMC News",
+    "url": "https://bmcnews.com.br/ultimas-noticias/cidade-fundada-em-1661-uma-das-mais-antigas-da-amazonia-e-um-polo-portuario-vital-no-para/"
+   },
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Santar%C3%A9m,_Par%C3%A1"
+   },
+   {
+    "nome": "Diário do Pará",
+    "url": "https://diariodopara.com.br/para/santarem-celebra-364-anos-historia-cultura-e-belezas-da-perola-do-tapajos/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se pensa em morar em Alter do Chão, feche contrato fora da temporada de agosto a janeiro, quando a procura de turistas eleva os preços.",
+  "Planeje o transporte da mudança com antecedência: por estrada, Belém fica a mais de 1.200 km, e a carga costuma chegar por transportadora pela BR-163 ou por barco.",
+  "Prefira roupas leves que sequem rápido e tenha repelente: a umidade média é de 86% e chove mais de 2.100 mm por ano."
+ ]
+}

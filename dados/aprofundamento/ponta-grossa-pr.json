@@ -1,0 +1,94 @@
+{
+ "slug": "ponta-grossa-pr",
+ "lede": null,
+ "cidade": {
+  "paragrafos": [
+   "Ponta Grossa começou como pouso de tropeiros no Caminho das Tropas, que levava gado do Sul até a feira de Sorocaba desde o início do século XVIII. Virou freguesia em 1823 e município em 1855. A ferrovia chegou em 1894 e fez da cidade um entroncamento rodoviário e ferroviário do Sul. Imigrantes alemães, poloneses e ucranianos chegaram entre o fim do século XIX e o começo do XX.",
+   "É a quarta cidade mais populosa do Paraná, com 375,6 mil habitantes estimados em 2025, e tem o maior parque industrial do interior do estado. Pesam a agroindústria de soja, milho, trigo e leite, a cervejaria Heineken, a montadora de caminhões DAF, a Tetra Pak e fábricas de papel e alimentos. O PIB per capita foi de R$ 71,4 mil em 2023. A UEPG, a UTFPR e faculdades particulares completam o quadro. Para o cônjuge, há vagas em indústria, logística, comércio e ensino.",
+   "A cidade fica a 975 m de altitude e cresce em volta do Centro, onde a Catedral de Sant'Ana ocupa o ponto mais alto. Uvaranas, onde fica o campus principal da UEPG, e Oficinas, ligado à antiga ferrovia, estão entre os bairros mais conhecidos. As BR-376 e BR-277 cruzam o município, e o tráfego de caminhões pesa nos acessos. Curitiba fica a pouco mais de uma hora, o que facilita consultas, compras e voos."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Ponta_Grossa"
+   },
+   {
+    "nome": "Smargiassi (dados IBGE)",
+    "url": "https://smargiassi.com.br/pr/ponta-grossa/"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/cbradar/essa-cidade-e-a-quarta-maior-do-parana-e-ainda-conquista-com-sua-qualidade-de-vida-privilegiada-e-natureza-bruta/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A tarifa do ônibus urbano subiu de R$ 5 para R$ 6 em 13 de abril de 2026; o sistema é operado pela Viação Campos Gerais. Em abril também começou o Passe Livre Estudantil, para alunos da rede pública, universitários e bolsistas integrais de instituições particulares.",
+   "Reserve parte do orçamento para o inverno: a média de julho é de 13,7 °C, há em média cinco dias de geada por ano, e aquecedor e roupa de cama pesada entram na lista de compras de quem vem do Norte ou do Nordeste."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte",
+    "url": "https://diariodotransporte.com.br/2026/03/28/prefeitura-eleva-tarifa-de-onibus-em-ponta-grossa-pr-para-r-6-a-partir-de-abril/"
+   },
+   {
+    "nome": "Wikipédia (clima)",
+    "url": "https://en.wikipedia.org/wiki/Ponta_Grossa"
+   }
+  ]
+ },
+ "saude": null,
+ "educacao": null,
+ "clima": null,
+ "lazer": {
+  "intro": "Os Campos Gerais têm cachoeiras, furnas e cânions a até uma hora e meia do centro, além de festas de herança europeia.",
+  "lugares": [
+   {
+    "nome": "Cachoeira da Mariquinha",
+    "km": "~30 km",
+    "desc": "Queda d'água com prainha de areia clara, boa para piquenique em família. Melhor no verão, quando a água fica menos fria."
+   },
+   {
+    "nome": "Münchenfest",
+    "km": "na cidade",
+    "desc": "Festa Nacional do Chope Escuro, com música e comida alemã; costuma ocorrer entre novembro e dezembro e é tida como o maior evento do Paraná."
+   },
+   {
+    "nome": "Catedral de Sant'Ana e Centro",
+    "km": "na cidade",
+    "desc": "A catedral fica no ponto mais alto do Centro. Combine a visita com uma caminhada pelo comércio e pelas praças próximas."
+   },
+   {
+    "nome": "Represa dos Alagados",
+    "km": "~20 km",
+    "desc": "Represa de 1939 que abastece a cidade, cercada de chácaras e áreas verdes. Bom passeio de carro no fim da tarde."
+   },
+   {
+    "nome": "Parque Histórico de Carambeí",
+    "km": "~25 km",
+    "desc": "Museu a céu aberto sobre a colonização holandesa, com casas de época, moinho e trem. Bom programa com crianças."
+   },
+   {
+    "nome": "Cânion do Guartelá (Tibagi)",
+    "km": "~120 km",
+    "desc": "Parque estadual com cânion, cachoeiras e pinturas rupestres. Passeio de dia inteiro; use tênis com boa aderência."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/cbradar/essa-cidade-e-a-quarta-maior-do-parana-e-ainda-conquista-com-sua-qualidade-de-vida-privilegiada-e-natureza-bruta/"
+   },
+   {
+    "nome": "Wikipédia (en)",
+    "url": "https://en.wikipedia.org/wiki/Ponta_Grossa"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Procure imóvel com boa insolação: a média de julho é de 13,7 °C e há geadas todo inverno, e casas sem sol ficam frias e úmidas.",
+  "Para voos, considere o Aeroporto Afonso Pena, na Grande Curitiba, a pouco mais de uma hora de estrada; o aeroporto local tem poucas opções.",
+  "Se o trajeto diário usar a BR-376 ou a BR-277, teste o horário de pico antes de fechar o aluguel: são rotas de caminhões de grãos."
+ ]
+}
