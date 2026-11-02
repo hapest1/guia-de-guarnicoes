@@ -1,0 +1,52 @@
+{
+  "slug": "blumenau-sc",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Blumenau nasceu em 2 de setembro de 1850, quando o farmacêutico alemão Hermann Blumenau chegou ao Vale do Itajaí com 17 imigrantes. Virou município em 4 de fevereiro de 1880. O Censo 2022 contou 361.261 moradores, e a estimativa do IBGE para 2025 passa de 385 mil, o que faz dela a terceira maior cidade de Santa Catarina.",
+      "A economia ainda gira em torno da indústria têxtil e de confecção, com marcas nascidas aqui como Hering, Karsten e Teka. Ao lado delas cresceu um polo de software, que saiu de incubadoras como a Blusoft e o Instituto Gene, além de metalurgia, cervejarias artesanais e turismo de eventos na Vila Germânica. Para o cônjuge, há vagas em confecção, tecnologia, comércio, saúde e ensino, com a FURB como grande empregadora.",
+      "A cidade ocupa um vale cortado pelo rio Itajaí-Açu e cercado de morros com mata. O Centro, com a Rua XV de Novembro, fica na parte baixa, perto do rio, e é a área mais sujeita às cheias registradas desde 1880. As grandes enchentes de 1983, 1984 e novembro de 2008 marcaram a memória local. São 35 bairros, como Velha, Garcia, Itoupava Norte, Victor Konder e Vorstadt, e muita gente prefere morar em cotas mais altas. O ritmo é de cidade média organizada, com movimento forte em outubro, mês da Oktoberfest."
+    ],
+    "fontes": [
+      {"nome": "Wikipédia (Blumenau, en)", "url": "https://en.wikipedia.org/wiki/Blumenau"},
+      {"nome": "Wikipédia (História de Blumenau)", "url": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Blumenau"},
+      {"nome": "Correio Braziliense", "url": "https://www.correiobraziliense.com.br/cbradar/essa-cidade-mistura-tradicao-alema-e-inovacao-como-nenhuma-outra-no-brasil/"}
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Em 2026, a passagem de ônibus com cartão antecipado (Passe Fácil e vale-transporte) ficou em R$ 5,50, sem reajuste no ano. Quem paga em dinheiro ao motorista desembolsa R$ 7,00 desde 23 de março de 2026. A tarifa escolar é de R$ 2,75. Vale fazer o cartão logo na chegada.",
+      "A energia é da Celesc. A revisão tarifária aprovada pela ANEEL vale desde 22 de agosto de 2026 e subiu a tarifa residencial em 9,29%. Como o verão é úmido e passa dos 30 °C, inclua ar-condicionado e desumidificador na conta de luz."
+    ],
+    "fontes": [
+      {"nome": "Diário do Transporte (tarifa 2026)", "url": "https://diariodotransporte.com.br/2026/03/23/blumenau-sc-tem-reajuste-da-tarifa-de-onibus-paga-em-dinheiro-a-partir-desta-segunda-feira-23/"},
+      {"nome": "Cenário Energia (Celesc 2026)", "url": "https://cenarioenergia.com.br/2026/08/19/aneel-aprova-revisao-tarifaria-da-celesc-com-efeito-medio-de-1082-em-santa-catarina/"}
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer mistura tradição alemã, museus pequenos no Centro e morros com trilha. Pomerode, a meia hora, rende um bom passeio de fim de semana.",
+    "lugares": [
+      {"nome": "Oktoberfest no Parque Vila Germânica", "km": "na cidade", "desc": "Em 2026 a festa foi de 7 a 25 de outubro, com dias de entrada gratuita e ingressos de R$ 24 a R$ 80. Crianças de até 12 anos entram de graça com os pais; evite os sábados à noite, que chegam a 40 mil pessoas."},
+      {"nome": "Rua XV de Novembro e Biergarten", "km": "na cidade", "desc": "Principal rua do Centro, com casas em estilo enxaimel, a Catedral São Paulo Apóstolo e a prefeitura com relógio de flores. O Biergarten, à beira do Itajaí-Açu, é ponto de encontro no fim de tarde."},
+      {"nome": "Museus do Centro", "km": "na cidade", "desc": "Museu da Cerveja, Museu Hering, instalado na casa enxaimel da entrada da antiga fábrica, e Museu da Família Colonial. Visitas curtas, fáceis de encaixar num sábado de manhã."},
+      {"nome": "Parque Ramiro Ruediger", "km": "na cidade", "desc": "Parque urbano com área verde e espaço para caminhar e brincar. Opção gratuita para levar crianças no fim de semana."},
+      {"nome": "Morro do Spitzkopf", "km": "na cidade", "desc": "Morro de cerca de 900 m em área particular, com trilha de alguns quilômetros até o topo e vista do vale. Subida exigente; confira antes se o acesso está aberto, pois já ficou fechado por anos."},
+      {"nome": "Pomerode", "km": "~32 km", "desc": "Cidade de colonização pomerana com cerca de 220 casas enxaimel e a Rota do Enxaimel, de 16 km, no Testo Alto. O Zoo Pomerode, de 1932, tem mais de 900 animais e é o melhor programa com criança; a Osterfest vai de fevereiro a abril."}
+    ],
+    "fontes": [
+      {"nome": "NSC Total (Oktoberfest 2026)", "url": "https://www.nsctotal.com.br/turismo/oktoberfest-blumenau-2026"},
+      {"nome": "Melhores Destinos (Blumenau)", "url": "https://guia.melhoresdestinos.com.br/pontos-turisticos-de-blumenau-211-2697-p.html"},
+      {"nome": "Melhores Destinos (Pomerode)", "url": "https://www.melhoresdestinos.com.br/pomerode.html"},
+      {"nome": "Correio Braziliense", "url": "https://www.correiobraziliense.com.br/cbradar/essa-cidade-mistura-tradicao-alema-e-inovacao-como-nenhuma-outra-no-brasil/"}
+    ]
+  },
+  "antes_de_ir": [
+    "Antes de fechar o aluguel, pergunte ao proprietário e à Defesa Civil se o imóvel já foi atingido por enchente e em qual cota do rio Itajaí-Açu a rua alaga. Ruas baixas do Centro e perto do rio são as primeiras a encher.",
+    "Evite chegar com mudança em outubro: a Oktoberfest lota hotéis e trava o trânsito no entorno da Vila Germânica por quase três semanas.",
+    "Para voos, conte com o aeroporto de Navegantes, a cerca de 60 km. O aeroporto local, o Quero-Quero, quase não tem voos regulares fora da Oktoberfest.",
+    "Faça o cartão Passe Fácil: no ônibus, a passagem em dinheiro custa R$ 1,50 a mais que no cartão em 2026."
+  ]
+}

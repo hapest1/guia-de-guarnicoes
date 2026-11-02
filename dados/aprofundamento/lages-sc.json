@@ -1,0 +1,90 @@
+{
+  "slug": "lages-sc",
+  "lede": null,
+  "cidade": {
+    "paragrafos": [
+      "Lages foi fundada em 1766 pelo bandeirante Antônio Correia Pinto de Macedo. Era um ponto de pouso no caminho das tropas de gado que subiam do Sul para São Paulo, e essa origem tropeira ainda marca a comida, as festas e o sotaque. É o maior município de Santa Catarina em área, com mais de 2.600 km², e o IBGE estimou 172.458 moradores em 2025.",
+      "A economia se apoia no agronegócio, na indústria da madeira e nos serviços. A Coxilha Rica, área rural ao sul do município, concentra pecuária de corte, trigo e soja. O PIB per capita ficou perto de R$ 50 mil em 2023, segundo o IBGE. A cidade é o centro de compras, saúde e ensino da Serra Catarinense, com campus da UDESC e o centro universitário Unifacvest. Para o cônjuge, as vagas aparecem no comércio, na saúde, na educação, no agro e no turismo rural.",
+      "A sede fica a cerca de 900 m de altitude, no cruzamento da BR-282, que leva a Florianópolis, com a BR-116. O Centro tem a Praça João Costa, com calçadão, e o Mercado Público. O Parque Jonas Ramos, conhecido como Tanque, é a principal área verde urbana. O ritmo é de cidade média do interior, com vida social girando em torno de festas, CTGs e fazendas. As geadas são frequentes de maio a setembro, e em julho a mínima abaixo de zero não é rara."
+    ],
+    "fontes": [
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/cbradar/a-charmosa-princesa-da-serra-garante-neve-custo-de-vida-acessivel-e-pratos-tipicos-ao-redor-do-fogo-de-chao/"
+      }
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A energia é da Celesc. A revisão aprovada pela ANEEL vale desde 22 de agosto de 2026 e subiu a tarifa residencial em 9,29%. Em Lages o peso da conta vem do inverno: com mínimas perto de 2 °C de junho a agosto, aquecedor elétrico, chuveiro no máximo e secadora elevam a conta."
+    ],
+    "fontes": [
+      {
+        "nome": "Cenário Energia (Celesc 2026)",
+        "url": "https://cenarioenergia.com.br/2026/08/19/aneel-aprova-revisao-tarifaria-da-celesc-com-efeito-medio-de-1082-em-santa-catarina/"
+      },
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/cbradar/a-charmosa-princesa-da-serra-garante-neve-custo-de-vida-acessivel-e-pratos-tipicos-ao-redor-do-fogo-de-chao/"
+      }
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "O lazer gira em torno do frio, da comida tropeira e do campo. Fazendas de turismo rural, cachoeiras e as cidades da serra ficam a menos de duas horas.",
+    "lugares": [
+      {
+        "nome": "Festa Nacional do Pinhão",
+        "km": "na cidade",
+        "desc": "Em 2026 foi a 36ª edição, de 22 de maio a 7 de junho, no Parque Conta Dinheiro e no Centro. Os espaços temáticos têm entrada gratuita; só os shows nacionais são pagos. Boa para provar pinhão e entrevero com as crianças."
+      },
+      {
+        "nome": "Parque Jonas Ramos (Tanque)",
+        "km": "na cidade",
+        "desc": "Principal parque urbano, com lago e pista de caminhada. Opção gratuita para o fim de tarde e para crianças."
+      },
+      {
+        "nome": "Mercado Público e Praça João Costa",
+        "km": "na cidade",
+        "desc": "O mercado municipal e o calçadão da praça, no Centro, recebem parte da programação de eventos da cidade, como o palco da Festa do Pinhão no mercado."
+      },
+      {
+        "nome": "Morro da Cruz",
+        "km": "na cidade",
+        "desc": "Mirante com vista geral da cidade. Vá em dia limpo e leve agasalho, pois venta bastante no alto."
+      },
+      {
+        "nome": "Salto do Caveiras",
+        "km": "~18 km",
+        "desc": "Cachoeira de cerca de 30 m de altura e 220 m de largura no rio Caveiras. Passeio de meio dia; fica mais volumosa depois de dias de chuva."
+      },
+      {
+        "nome": "Coxilha Rica e turismo rural",
+        "km": "no município",
+        "desc": "Campos com taipas de pedra de mais de 200 anos, do tempo das tropas. Fazendas da região recebem visitantes nos fins de semana com cavalgada e churrasco de fogo de chão; reserve antes."
+      },
+      {
+        "nome": "São Joaquim e Urubici",
+        "km": "~80 km",
+        "desc": "Cidades mais altas da serra, com vinícolas, macieiras e chance de neve nos dias mais frios. Programa de inverno; confira a previsão e as condições da estrada antes de ir."
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Cooperativismo de Crédito (Festa do Pinhão 2026)",
+        "url": "https://cooperativismodecredito.coop.br/2026/05/sicoob-sc-rs-patrocina-36a-festa-nacional-do-pinhao-em-lages/"
+      },
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/cbradar/a-charmosa-princesa-da-serra-garante-neve-custo-de-vida-acessivel-e-pratos-tipicos-ao-redor-do-fogo-de-chao/"
+      }
+    ]
+  },
+  "antes_de_ir": [
+    "Procure imóvel com boa face de sol e janelas vedadas, e pergunte como a casa é aquecida. De maio a setembro as geadas são frequentes, e casa fria e úmida pesa mais que o valor do aluguel.",
+    "Chegando entre maio e junho, reserve hotel cedo: a Festa Nacional do Pinhão dura cerca de 17 dias e lota a rede hoteleira.",
+    "Na BR-282 rumo a Florianópolis e nas estradas da serra, saia cedo no inverno e confira a previsão: neblina e gelo na pista são comuns nos dias mais frios."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "criciuma-sc",
+  "lede": "Capital do carvão e polo de pisos cerâmicos do sul catarinense, a 24 km do mar e a 65 km da Serra do Rio do Rastro.",
+  "cidade": {
+    "paragrafos": [
+      "Criciúma foi fundada em 6 de janeiro de 1880 por imigrantes italianos. O nome vem de um capim de origem tupi. Em 1893, um agricultor viu pedras soltando fumaça depois de uma queimada, e as amostras confirmaram carvão mineral. A mineração deu à cidade o apelido de Capital Brasileira do Carvão. O Censo 2022 contou 214.493 moradores, e a estimativa do IBGE para 2025 é de 227 mil.",
+      "O carvão perdeu peso, e a economia se diversificou. A cidade é um dos maiores polos de pisos e revestimentos cerâmicos do mundo, o terceiro polo de jeans do país e tem indústrias de plástico, embalagens, química e metalmecânica. A UNESC, com mais de 13 mil alunos, e o Hospital São José, referência regional em cardiologia e oncologia, também empregam muita gente. Para o cônjuge, as vagas aparecem na indústria, no comércio, na saúde e no ensino.",
+      "A cidade fica a 46 m de altitude, a cerca de 200 km de Florianópolis pela BR-101 e a uns 90 km da divisa com o Rio Grande do Sul. O Centro gira em torno da Praça Nereu Ramos e da Catedral São José, de 1907. Içara, Forquilhinha e Siderópolis são vizinhas coladas, e o aeroporto Diomício Freitas, em Forquilhinha, fica a 9 km do Centro. Em 2023, uma lei estadual deu a Criciúma o título de Capital Catarinense dos Parques Urbanos. O ritmo é de cidade média industrial, com praia e serra perto para o fim de semana."
+    ],
+    "fontes": [
+      {"nome": "Wikipédia (Criciúma, en)", "url": "https://en.wikipedia.org/wiki/Crici%C3%BAma"},
+      {"nome": "O Antagonista (turismo)", "url": "https://oantagonista.com.br/ladooa/turismo/a-capital-da-ceramica-e-dos-parques-esta-entre-as-50-melhores-cidades-do-brasil-para-viver-e-tem-a-unica-mina-de-carvao-visitavel-da-america-latina/"}
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "A tarifa de ônibus urbano com o CriciúmaCard Cidadão ou Vale-Transporte foi fixada em R$ 5,25 em 2 de fevereiro de 2025. Professores pagam R$ 3,95 e estudantes, R$ 2,65. Não encontramos registro de reajuste em 2026; confirme o valor ao chegar.",
+      "A energia é da Celesc. A revisão aprovada pela ANEEL vale desde 22 de agosto de 2026 e subiu a tarifa residencial em 9,29%. O verão passa de 30 °C com umidade alta, então o ar-condicionado pesa na conta de dezembro a março."
+    ],
+    "fontes": [
+      {"nome": "Diário do Transporte (tarifa 2025)", "url": "https://diariodotransporte.com.br/2025/01/31/criciuma-sc-tera-reajuste-na-tarifa-do-transporte-publico-a-partir-deste-domingo-2/"},
+      {"nome": "Cenário Energia (Celesc 2026)", "url": "https://cenarioenergia.com.br/2026/08/19/aneel-aprova-revisao-tarifaria-da-celesc-com-efeito-medio-de-1082-em-santa-catarina/"}
+    ]
+  },
+  "saude": null,
+  "educacao": null,
+  "clima": null,
+  "lazer": {
+    "intro": "Os programas da cidade são baratos e ficam perto: parques, a mina de carvão e o mirante. No fim de semana, dá para escolher entre praia, a 24 km, e serra, a pouco mais de uma hora.",
+    "lugares": [
+      {"nome": "Mina de Visitação Octávio Fontana", "km": "na cidade", "desc": "Mina de carvão aberta ao público, com 300 m de galeria a 22 m de profundidade e museu da mineração. Funciona de terça a domingo."},
+      {"nome": "Parque das Nações Cincinato Naspolini", "km": "na cidade", "desc": "Parque de 2011 no bairro Próspera, aberto das 7h às 23h, com réplica de locomotiva e trenzinho à tarde. Bom para caminhada e criança pequena."},
+      {"nome": "Mirante e Parque Astronômico", "km": "na cidade", "desc": "Mirante de 30 m com piso de vidro e elevador panorâmico no Morro Cechinel. Ao lado, o Parque Astronômico Albert Einstein, aberto em 2023, tem telescópios e planetário com sessões de quinta a domingo."},
+      {"nome": "Festa das Etnias", "km": "na cidade", "desc": "Festa de setembro que celebra as etnias que colonizaram a região, com comida italiana, alemã, polonesa e outras. Programa de família."},
+      {"nome": "Nova Veneza", "km": "~18 km", "desc": "Cidade de colonização italiana conhecida pela gastronomia, com massas e polenta com galinha. Almoço de domingo clássico da região."},
+      {"nome": "Balneário Rincão", "km": "~24 km", "desc": "Praia mais próxima, com mar aberto e movimento forte de dezembro a fevereiro. Fora do verão o vento é frequente."},
+      {"nome": "Serra do Rio do Rastro", "km": "~65 km", "desc": "Estrada de 284 curvas que sobe de Lauro Müller até o mirante, a mais de 1.460 m. Vá entre 11h e 15h, quando há menos neblina, e leve agasalho; no inverno a pista pode ter gelo e ser fechada."}
+    ],
+    "fontes": [
+      {"nome": "Viagens e Caminhos (Criciúma)", "url": "https://www.viagensecaminhos.com/criciuma-sc/"},
+      {"nome": "Viagens e Caminhos (Rio do Rastro)", "url": "https://www.viagensecaminhos.com/serra-do-rio-do-rastro-sc/"},
+      {"nome": "O Antagonista (turismo)", "url": "https://oantagonista.com.br/ladooa/turismo/a-capital-da-ceramica-e-dos-parques-esta-entre-as-50-melhores-cidades-do-brasil-para-viver-e-tem-a-unica-mina-de-carvao-visitavel-da-america-latina/"},
+      {"nome": "Wikipédia (Criciúma, en)", "url": "https://en.wikipedia.org/wiki/Crici%C3%BAma"}
+    ]
+  },
+  "antes_de_ir": [
+    "Faça o CriciúmaCard: as tarifas de ônibus são cobradas no cartão, e estudante paga cerca de metade da tarifa cheia.",
+    "Para voar, compare o aeroporto de Forquilhinha, a 9 km, com o de Jaguaruna, no litoral sul, e com Florianópolis, a 200 km. Muitas vezes a capital tem mais horários e preço menor.",
+    "Na subida da Serra do Rio do Rastro, confira a previsão antes de sair: neblina e gelo na pista podem fechar a estrada nos dias mais frios."
+  ]
+}
