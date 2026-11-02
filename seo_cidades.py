@@ -293,6 +293,7 @@ def processa(p):
     if pcu:
         itens.append((f"O que fazer {no} {c}?", frases(pcu, 2, 300)))
     itens = [(q, a) for q, a in itens if a and len(a) > 20]
+    itens = []  # FAQ desativado em nov/2026: repetia o texto das seções (revisão AdSense)
 
     h = re.sub(r'<section class="sec faq" id="sec-faq">.*?</section>\n?\s*', "", h, flags=re.S)
     h = re.sub(r'<script type="application/ld\+json" id="faq-ld">.*?</script>\n?', "", h, flags=re.S)
