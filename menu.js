@@ -45,6 +45,7 @@
     '.menu summary.menu-calc:hover{filter:brightness(1.08);color:var(--accent-ink)}'+
     '.menu summary.menu-calc::after{color:inherit;opacity:.8}'+
     '.menu .menu-calcs .cmds-list{width:260px}'+
+    '@media (min-width:1120px){.menu{flex-wrap:wrap;justify-content:flex-end;row-gap:0;min-width:0}}'+
     '.atalhos a.atalho-calc{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}'+
     '';
   document.head.appendChild(st);

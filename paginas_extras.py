@@ -82,7 +82,7 @@ SOBRE = """<h1>Sobre o Guia de Guarnições</h1>
 <ul>
 <li><b>171 fichas de guarnição</b>, das capitais aos pelotões de fronteira da Amazônia, organizadas pelos 8 Comandos Militares de Área. Cada ficha traz as OM sediadas, como chegar, custo de vida e aluguel, saúde, escolas, clima, lazer e dicas para a chegada.</li>
 <li><b><a href="/guias/">Guias</a></b> sobre as decisões da mudança: como funciona a movimentação, ajuda de custo, PNR, aluguel à distância, carro, pets, escola dos filhos, trabalho do cônjuge e saúde.</li>
-<li><b>Ferramentas</b>: a <a href="/calculadora-de-transferencia">Calculadora de Transferência</a> (ajuda de custo, bagagem, veículo e passagens), a <a href="/calculadora-de-ajuda-de-custo">Calculadora de Ajuda de Custo</a> (todas as situações, inclusive curso/estágio e inatividade), o <a href="/comparar">comparador de guarnições</a>, o mapa de <a href="/locais-de-servir">Locais de servir</a> por arma e o <a href="/checklist-da-chegada">Checklist da chegada</a>.</li>
+<li><b>Ferramentas</b>: a <a href="/calculadora-de-transferencia">Calculadora de Transferência</a> (ajuda de custo, bagagem, veículo e passagens), a <a href="/calculadora-de-ajuda-de-custo">Calculadora de Ajuda de Custo</a> (todas as situações, inclusive curso/estágio e inatividade), o <a href="/comparar">comparador de guarnições</a>, o mapa de <a href="/locais-de-servir">Locais de servir</a> por arma, o <a href="/checklist-da-chegada">Checklist da chegada</a> e a busca de <a href="/hoteis-de-transito">Hotéis de Trânsito</a>.</li>
 </ul>
 <h2>Independente e não oficial</h2>
 <p>O guia não é publicação do Exército Brasileiro e não fala em nome de nenhuma OM ou comando. É feito por quem já viveu mudanças de guarnição e conhece o peso de chegar numa cidade sem referência. Prazos, direitos e procedimentos valem conforme a norma vigente e a orientação da sua OM; quando o guia explica uma regra, ele aponta a fonte para você conferir.</p>
@@ -132,6 +132,7 @@ ATUAL = """<h1>Atualizações do guia</h1>
 <p class="resumo">O que mudou no Guia de Guarnições, da mais recente para a mais antiga. Correções enviadas por leitores entram aqui.</p>
 <h2>Novembro de 2026</h2>
 <ul>
+<li><b>06/11</b> · Nova página <a href="/hoteis-de-transito">Hotéis de Trânsito</a>: busca pela guarnição no sistema oficial Meios de Hospedagem da DAP. As fichas ganharam o atalho para os hotéis de trânsito da cidade.</li>
 <li><b>02/11</b> · Mais 32 fichas aprofundadas, com foco no interior: Fronteira Oeste e Missões do RS, Vale do Paraíba, Baixada Santista, Grande São Paulo, Serra Fluminense, Sul de Minas, Santa Catarina, Pernambuco e Pará. Já são 72 fichas com a seção sobre a cidade.</li>
 <li><b>02/11</b> · 40 fichas aprofundadas, entre elas todas as capitais: nova seção "A cidade" (história, economia e como a cidade se organiza), custo de vida com tarifa de ônibus e outros números locais, lazer com 5 a 7 lugares e dicas de chegada específicas de cada cidade. As capitais ganharam também as seções de saúde, escolas e clima.</li>
 <li><b>02/11</b> · Nova seção <a href="/guias/">Guias</a>, com 10 guias sobre as decisões da mudança.</li>
