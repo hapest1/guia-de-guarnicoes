@@ -12,14 +12,17 @@
       var abrir=!menu.classList.contains('open');
       menu.classList.toggle('open', abrir); btn.setAttribute('aria-expanded', abrir?'true':'false');
     });
-    menu.addEventListener('click', function(e){ if(e.target.closest('a')) { fechar(); var d=menu.querySelector('details'); if(d && innerWidth>=860) d.open=false; } });
+    menu.addEventListener('click', function(e){ if(e.target.closest('a')) { fechar(); if(innerWidth>=860) menu.querySelectorAll('details').forEach(function(d){ d.open=false; }); } });
   }
-  var cmds=document.querySelector('.menu details');
+  var cmds=document.querySelectorAll('.menu details');
+  function fecharDet(){ cmds.forEach(function(d){ d.open=false; }); }
+  /* Abrir um menu suspenso fecha o outro */
+  cmds.forEach(function(d){ d.addEventListener('toggle',function(){ if(d.open) cmds.forEach(function(o){ if(o!==d) o.open=false; }); }); });
   document.addEventListener('click', function(e){
-    if(!top.contains(e.target)){ fechar(); if(cmds && innerWidth>=860) cmds.open=false; }
+    if(!top.contains(e.target)){ fechar(); if(innerWidth>=860) fecharDet(); }
   });
   document.addEventListener('keydown', function(e){
-    if(e.key==='Escape'){ fechar(); if(cmds) cmds.open=false; }
+    if(e.key==='Escape'){ fechar(); fecharDet(); }
   });
 
   /* Na página inicial, os links dos Comandos abrem a lista do Comando escolhido
@@ -38,6 +41,10 @@
   st.textContent=
     '.menu a.menu-calc{background:var(--accent);color:var(--accent-ink);border-radius:6px;font-weight:600}'+
     '.menu a.menu-calc:hover{filter:brightness(1.08);color:var(--accent-ink)}'+
+    '.menu summary.menu-calc{background:var(--accent);color:var(--accent-ink);border-radius:6px;font-weight:600}'+
+    '.menu summary.menu-calc:hover{filter:brightness(1.08);color:var(--accent-ink)}'+
+    '.menu summary.menu-calc::after{color:inherit;opacity:.8}'+
+    '.menu .menu-calcs .cmds-list{width:260px}'+
     '.atalhos a.atalho-calc{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}'+
     '';
   document.head.appendChild(st);
