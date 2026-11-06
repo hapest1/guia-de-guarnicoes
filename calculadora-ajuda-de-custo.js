@@ -14,8 +14,8 @@
   var SIT=[
     ['transf','a','Transferência com desligamento','Movimentação com desligamento da OM (a transferência comum).',2,0],
     ['lea','d','Transferência para ou de Loc. Esp. Cat. A','Movimentação com desligamento da OM para Localidade Especial Categoria A, ou de uma Localidade Cat. A para qualquer outra.',4,0],
-    ['com12','b','Comissão de 3 a 12 meses','Comissão superior a 3 e igual ou inferior a 12 meses, sem desligamento da OM.',2,1],
-    ['com3','c','Comissão de 15 dias a 3 meses','Comissão superior a 15 dias e igual ou inferior a 3 meses, sem desligamento da OM.',1,1],
+    ['com12','b','Curso/Estágio de 3 a 12 meses','Curso ou estágio superior a 3 e igual ou inferior a 12 meses, sem desligamento da OM.',2,1],
+    ['com3','c','Curso/Estágio de 15 dias a 3 meses','Curso ou estágio superior a 15 dias e igual ou inferior a 3 meses, sem desligamento da OM.',1,1],
     ['inat','f','Transferência para a inatividade','Passagem para a reserva remunerada ou reforma, com ou sem dependente.',8,0]
   ];
   var S={}; SIT.forEach(function(s){ S[s[0]]=s; });
