@@ -362,3 +362,41 @@ body{margin:0}
   main:has(> .secnav) .fhead > .atalhos{display:none}
 }
 @media print{.secnav{display:none!important}}
+
+.art-toc{display:none}
+/* Layouts de computador: painéis laterais fixos para aproveitar a largura da tela.
+   Em telas menores tudo continua em uma coluna. */
+@media (min-width:1100px){
+  /* Calculadoras: formulário à esquerda, resultado sempre à vista à direita */
+  main.calc-pagina{max-width:1260px; display:grid; grid-template-columns:minmax(0,1fr) 410px; column-gap:32px; align-items:start}
+  main.calc-pagina > *{grid-column:1; min-width:0}
+  main.calc-pagina > .crumbs,main.calc-pagina > .kicker,main.calc-pagina > .pg-title,main.calc-pagina > .intro{grid-column:1 / -1}
+  main.calc-pagina > .calc-res{grid-column:2; grid-row:5 / span 3; position:sticky; top:calc(env(safe-area-inset-top,0px) + var(--hdr) + 16px); margin:22px 0 0; max-height:calc(100vh - var(--hdr) - 32px); overflow-y:auto; scrollbar-width:thin}
+  main.calc-pagina > .calc-res .calc-blocos{grid-template-columns:1fr}
+  main.calc-pagina > .calc-res .calc-total b{font-size:2.6rem}
+  /* Checklist: progresso e ações acompanham a rolagem */
+  main.pagina:has(> .ck-bar){max-width:1180px; display:grid; grid-template-columns:minmax(0,1fr) 300px; column-gap:40px; align-items:start}
+  main.pagina:has(> .ck-bar) > *{grid-column:1; min-width:0}
+  main.pagina:has(> .ck-bar) > .ck-bar .ck-prog{flex:none}
+  main.pagina:has(> .ck-bar) > .ck-bar{grid-column:2; grid-row:5 / span 12; position:sticky; top:calc(env(safe-area-inset-top,0px) + var(--hdr) + 16px); margin:26px 0 0; flex-direction:column; align-items:stretch}
+}
+@media (min-width:1200px){
+  /* Hotéis de Trânsito: busca e filtros à esquerda, lista à direita */
+  main.art.ht{max-width:1320px; display:grid; grid-template-columns:310px minmax(0,1fr); column-gap:32px; align-items:start}
+  main.art.ht > *{grid-column:1 / -1; min-width:0}
+  main.art.ht > .ht-busca{grid-column:1; grid-row:5; top:calc(env(safe-area-inset-top,0px) + var(--hdr) + 16px); margin:26px 0 0; box-shadow:none}
+  main.art.ht > #ht-lista{grid-column:2; grid-row:5}
+  main.art.ht > #ht-lista > .ht-cid:first-child{margin-top:26px}
+  /* Guias: índice do artigo à direita (montado pelo menu.js) */
+  main.art:not(.ht):has(> h2 ~ h2 ~ h2){max-width:1100px; display:grid; grid-template-columns:minmax(0,720px) 270px; column-gap:56px; justify-content:center; align-items:start}
+  main.art:not(.ht):has(> h2 ~ h2 ~ h2) > *{grid-column:1; min-width:0}
+  main.art:not(.ht):has(> h2 ~ h2 ~ h2) > .art-toc{display:block; grid-column:2; grid-row:1 / span 400; position:sticky; top:calc(env(safe-area-inset-top,0px) + var(--hdr) + 20px); margin-top:34px; padding:18px 18px 12px; background:var(--surface); border:1px solid var(--line); border-radius:12px; max-height:calc(100vh - var(--hdr) - 40px); overflow-y:auto; scrollbar-width:thin}
+  .art-toc b{display:block; font-family:var(--display); font-size:1.25rem; text-transform:uppercase; margin-bottom:6px}
+  .art-toc a{display:block; padding:7px 0 7px 10px; border-left:3px solid transparent; border-bottom:1px solid var(--line); color:var(--ink); text-decoration:none; font-size:.9rem; line-height:1.35}
+  .art-toc a:last-child{border-bottom:0}
+  .art-toc a:hover{color:var(--accent)}
+  .art-toc a[aria-current="true"]{border-left-color:var(--mark); background:var(--mark-soft)}
+}
+@media print{.art-toc{display:none!important}}
+/* Tabelas dos guias rolam dentro da própria área no celular, sem alargar a página */
+main.art > table{display:block; overflow-x:auto}

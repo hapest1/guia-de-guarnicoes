@@ -48,7 +48,7 @@ PADROES = [
 ]
 
 alteradas = 0
-for p in sorted(RAIZ.glob("*.html")):
+for p in sorted(list(RAIZ.glob("*.html")) + list(RAIZ.glob("guias/*.html"))):
     html = orig = p.read_text(encoding="utf-8")
     for rx, novo in PADROES:
         html = rx.sub(lambda m: novo, html, count=1)

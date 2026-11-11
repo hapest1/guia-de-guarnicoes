@@ -45,6 +45,8 @@
     '.menu summary.menu-calc:hover{filter:brightness(1.08);color:var(--accent-ink)}'+
     '.menu summary.menu-calc::after{color:inherit;opacity:.8}'+
     '.menu .menu-calcs .cmds-list{width:260px}'+
+    '.menu a.menu-idi{border:1px solid var(--accent);color:var(--accent);border-radius:6px;font-weight:600}'+
+    '.menu a.menu-idi:hover{background:var(--accent);color:var(--accent-ink)}'+
     '@media (min-width:1120px){.menu{flex-wrap:wrap;justify-content:flex-end;row-gap:0;min-width:0}}'+
     '.atalhos a.atalho-calc{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}'+
     '';
@@ -60,9 +62,29 @@
     z.textContent='Compartilhar no WhatsApp';
     ac.appendChild(z); sn.appendChild(ac);
 
-    var links=[].slice.call(sn.querySelectorAll('a[href^="#"]')), secs=[];
+    espiar([].slice.call(sn.querySelectorAll('a[href^="#"]')));
+  }
+
+  /* Guias: índice lateral "Neste guia" no computador, montado a partir dos títulos do artigo */
+  var art=document.querySelector('main.art:not(.ht)');
+  if(art){
+    var hs=[].slice.call(art.children).filter(function(e){ return e.tagName==='H2'; });
+    if(hs.length>=3){
+      var toc=document.createElement('nav'); toc.className='art-toc'; toc.setAttribute('aria-label','Seções do guia');
+      var tt=document.createElement('b'); tt.textContent='Neste guia'; toc.appendChild(tt);
+      hs.forEach(function(h,i){
+        if(!h.id) h.id='parte-'+(i+1);
+        var l=document.createElement('a'); l.href='#'+h.id; l.textContent=h.textContent; toc.appendChild(l);
+      });
+      art.appendChild(toc);
+      espiar([].slice.call(toc.querySelectorAll('a')));
+    }
+  }
+
+  /* Marca no índice a seção que está na tela */
+  function espiar(links){
+    var secs=[], atual=null, marcando=false;
     links.forEach(function(a){ var s=document.getElementById(a.getAttribute('href').slice(1)); if(s) secs.push({a:a,s:s}); });
-    var atual=null, marcando=false;
     function marcar(){
       marcando=false;
       var lim=top.offsetHeight+90, alvo=null;
