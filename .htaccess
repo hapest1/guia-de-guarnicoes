@@ -8,6 +8,9 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^(.*)$ https://guiadeguarnicoes.com/$1 [R=301,L]
 
+# Missão Idiomas tem domínio próprio
+RewriteRule ^missao-idiomas(/.*)?$ https://missaoidiomas.com/ [R=301,L]
+
 # Bloqueia scripts de manutenção e arquivos internos
 RewriteRule \.(py|md|tsv)$ - [F,L]
 RewriteRule ^(CNAME|\.git.*)$ - [F,L]
