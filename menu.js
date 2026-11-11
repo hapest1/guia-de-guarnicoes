@@ -49,6 +49,33 @@
     '.atalhos a.atalho-calc{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}'+
     '';
   document.head.appendChild(st);
+  /* Fichas: destaque da seção atual no índice e, no computador, atalhos no painel lateral "Nesta ficha" */
+  var sn=document.querySelector('main > .secnav');
+  if(sn){
+    var ac=document.createElement('div'); ac.className='sn-acoes';
+    document.querySelectorAll('.fhead .atalhos a').forEach(function(a){ ac.appendChild(a.cloneNode(true)); });
+    var h1=document.querySelector('.fhead h1'), nome=h1?h1.textContent.replace(/\s+/g,' ').trim():document.title;
+    var z=document.createElement('a'); z.className='sn-zap'; z.target='_blank'; z.rel='noopener';
+    z.href='https://wa.me/?text='+encodeURIComponent('Guia de Guarnições: '+nome+' — '+location.origin+location.pathname);
+    z.textContent='Compartilhar no WhatsApp';
+    ac.appendChild(z); sn.appendChild(ac);
+
+    var links=[].slice.call(sn.querySelectorAll('a[href^="#"]')), secs=[];
+    links.forEach(function(a){ var s=document.getElementById(a.getAttribute('href').slice(1)); if(s) secs.push({a:a,s:s}); });
+    var atual=null, marcando=false;
+    function marcar(){
+      marcando=false;
+      var lim=top.offsetHeight+90, alvo=null;
+      for(var i=0;i<secs.length;i++){ if(secs[i].s.getBoundingClientRect().top<=lim) alvo=secs[i].a; }
+      if(alvo===atual) return;
+      if(atual) atual.removeAttribute('aria-current');
+      if(alvo) alvo.setAttribute('aria-current','true');
+      atual=alvo;
+    }
+    addEventListener('scroll', function(){ if(!marcando){ marcando=true; requestAnimationFrame(marcar); } }, {passive:true});
+    marcar();
+  }
+
   /* Botão de voltar ao topo */
   var t=document.createElement('a');
   t.className='totop'; t.href='#topo'; t.setAttribute('aria-label','Voltar ao topo'); t.textContent='↑';

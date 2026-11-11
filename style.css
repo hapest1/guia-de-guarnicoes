@@ -333,3 +333,32 @@ body{margin:0}
 .yt-play::after{content:""; position:absolute; left:27px; top:14px; border-style:solid; border-width:10px 0 10px 17px; border-color:transparent transparent transparent #fff}
 .yt iframe{width:100%; height:100%; border:0; display:block}
 .yt-cap{font-size:.88rem; color:var(--muted); margin-top:10px}
+
+/* Barra lateral das fichas no computador: em telas largas, a faixa de seções vira um
+   painel fixo à direita ("Nesta ficha") com o índice e os atalhos da guarnição.
+   Os botões e o destaque da seção atual são montados pelo menu.js. */
+.sn-acoes{display:none}
+.secnav a[aria-current="true"]{border-color:var(--accent); color:var(--accent); font-weight:600}
+@media (min-width:1200px){
+  body:has(main > .secnav) .wrap{max-width:1320px}
+  main:has(> .secnav){display:grid; grid-template-columns:minmax(0,1fr) 300px; max-width:1320px; margin:0 auto}
+  main:has(> .secnav) > .wrap{grid-column:1; grid-row:2; width:100%; max-width:none; margin:0}
+  main:has(> .secnav) > .wrap:first-child{grid-column:1 / -1; grid-row:1}
+  main:has(> .secnav) > .secnav{grid-column:2; grid-row:2; align-self:start; position:sticky; top:calc(env(safe-area-inset-top,0px) + var(--hdr) + 20px); margin:34px var(--gutter-r) 24px 8px; padding:18px 18px 16px; background:var(--surface); border:1px solid var(--line); border-radius:12px; max-height:calc(100vh - var(--hdr) - 40px); overflow-y:auto; scrollbar-width:thin}
+  main:has(> .secnav) > .secnav .wrap{display:block; padding:0; overflow:visible}
+  main:has(> .secnav) > .secnav .wrap::before{content:"Nesta ficha"; display:block; font-family:var(--display); font-size:1.25rem; font-weight:700; text-transform:uppercase; margin-bottom:6px}
+  main:has(> .secnav) > .secnav .wrap > a{display:block; padding:7px 0 7px 10px; border:0; border-left:3px solid transparent; border-bottom:1px solid var(--line); border-radius:0; background:none; font-size:.93rem}
+  main:has(> .secnav) > .secnav .wrap > a:hover{color:var(--accent)}
+  main:has(> .secnav) > .secnav .wrap > a[aria-current="true"]{border-left-color:var(--mark); background:var(--mark-soft); color:var(--ink)}
+  main:has(> .secnav) > .secnav .sn-acoes{display:grid; gap:8px; margin-top:16px}
+  .sn-acoes a{display:block; padding:9px 12px; border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink); font-size:.9rem; font-weight:600; text-decoration:none; line-height:1.3}
+  .sn-acoes a:hover{border-color:var(--accent); color:var(--accent)}
+  .sn-acoes a.atalho-calc{background:var(--accent); border-color:var(--accent); color:var(--accent-ink)}
+  .sn-acoes a.atalho-calc:hover{filter:brightness(1.08); color:var(--accent-ink)}
+  .sn-acoes a.sn-zap{background:#1F7A45; border-color:#1F7A45; color:#fff}
+  .sn-acoes a.sn-zap:hover{filter:brightness(1.08); color:#fff}
+  main:has(> .secnav) .capa{aspect-ratio:auto; height:420px; max-height:none}
+  /* os mesmos atalhos já estão no painel lateral */
+  main:has(> .secnav) .fhead > .atalhos{display:none}
+}
+@media print{.secnav{display:none!important}}
