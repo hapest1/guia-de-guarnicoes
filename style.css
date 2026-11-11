@@ -399,4 +399,4 @@ body{margin:0}
 }
 @media print{.art-toc{display:none!important}}
 /* Tabelas dos guias rolam dentro da própria área no celular, sem alargar a página */
-main.art > table{display:block; overflow-x:auto}
+@media (max-width:700px){main.art > table{display:block; overflow-x:auto; min-width:0; max-width:100%}}
