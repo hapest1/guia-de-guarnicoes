@@ -3,7 +3,8 @@
 
 - Embute o style.css num <style> (sem requisição bloqueante de CSS).
 - Carrega o Google Fonts sem bloquear a renderização (preload + onload).
-- Adia AdSense e Google Analytics até a primeira interação ou ~3 s após o load.
+- Carrega o Google Analytics (async) já no <head>; adia só o AdSense até a primeira
+  interação ou ~3 s após o load.
 
 Idempotente: após editar style.css, rode de novo:  python3 otimizar.py
 """
@@ -25,11 +26,13 @@ CSS = minify((RAIZ / "style.css").read_text(encoding="utf-8"))
 BLOCO_CSS = f'<style id="css-site">{CSS}</style>'
 BLOCO_FONTES = (f'<link rel="preload" as="style" href="{FONTS}" onload="this.onload=null;this.rel=\'stylesheet\'">'
                 f'<noscript><link rel="stylesheet" href="{FONTS}"></noscript>')
-BLOCO_TERCEIROS = """<script id="terceiros">(function(){var f=0;function c(){if(f)return;f=1;
+# Analytics: snippet padrão do Google (async, não bloqueia a renderização), carregado já no
+# <head> para contar todas as visitas e ser detectado pelo Google. Só o AdSense fica adiado
+# até a primeira interação ou ~3 s após o load.
+BLOCO_TERCEIROS = """<script async src="https://www.googletagmanager.com/gtag/js?id=G-WCQ28WPS5S"></script><script id="terceiros">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WCQ28WPS5S');
+(function(){var f=0;function c(){if(f)return;f=1;
 ['scroll','pointerdown','keydown','touchstart','mousemove'].forEach(function(e){removeEventListener(e,c,{passive:true});});
-var a=document.createElement('script');a.async=1;a.crossOrigin='anonymous';a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9825265249384205';document.head.appendChild(a);
-var g=document.createElement('script');g.async=1;g.src='https://www.googletagmanager.com/gtag/js?id=G-WCQ28WPS5S';document.head.appendChild(g);}
-window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config','G-WCQ28WPS5S');
+var a=document.createElement('script');a.async=1;a.crossOrigin='anonymous';a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9825265249384205';document.head.appendChild(a);}
 ['scroll','pointerdown','keydown','touchstart','mousemove'].forEach(function(e){addEventListener(e,c,{passive:true});});
 addEventListener('load',function(){setTimeout(c,3000);});})();</script>"""
 
