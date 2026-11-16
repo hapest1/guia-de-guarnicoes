@@ -1,0 +1,116 @@
+{
+ "slug": "santiago-rs",
+ "lede": "A Terra dos Poetas, berço de Caio Fernando Abreu, é cidade de cerca de 50 mil moradores no centro-oeste gaúcho, com economia ligada à soja e ao gado.",
+ "cidade": {
+  "paragrafos": [
+   "A região de Santiago fez parte da Estância Jesuítica de São Miguel, nas antigas Missões. Em 1756 os padres jesuítas ergueram uma capela em honra ao apóstolo Tiago, que deu nome ao lugar; a passagem natural do gado pela coxilha ficou conhecida como Boqueirão de Santiago. A partir de 1860 chegaram imigrantes alemães, belgas, franceses, suíços e, depois, poloneses. O município data de 4 de janeiro de 1884. O Censo 2022 contou 48.938 moradores, e a estimativa mais recente do IBGE passa de 50,3 mil.",
+   "A agropecuária responde por cerca de 23,6% do valor adicionado da economia (IBGE, 2021). A soja ocupa perto de 58,7 mil hectares, e o rebanho bovino passa de 170 mil cabeças. Na sede, o mercado de trabalho é de cidade pequena. Para o cônjuge, as opções estão no comércio, nos serviços e no ensino, com campus da URI e polos de ensino a distância de ULBRA, UNOPAR e UNINTER, além do Sistema Educacional Galileu.",
+   "O município é grande, com mais de 2.400 km², e tem cinco distritos: a sede, Carovi, Ernesto Alves, Florida e Tupantuba. A sede fica a cerca de 409 m de altitude, perto das nascentes dos rios Itu e Curuçu. O comércio se concentra no Centro, em torno da Rua dos Poetas. As distâncias dentro da sede são curtas, mas quem morar ou tiver compromissos nos distritos depende de carro."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santiago, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Santiago_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "IBGE Cidades (Santiago)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/rs/santiago.html"
+   },
+   {
+    "nome": "Calculadora Rural, perfil agropecuário de Santiago (dados IBGE)",
+    "url": "https://calculadorarural.com.br/agro/rs/santiago"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano de Santiago custa R$ 4,50 desde 22 de abril de 2026, pelo Decreto Municipal 30/2026, de 17 de abril. Quem usa duas passagens por dia útil gasta perto de R$ 198 por mês.",
+   "Santiago não entra na pesquisa da cesta básica do DIEESE, e não há índice de aluguel FipeZAP para a cidade. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, uma das mais caras do país; no mesmo mês, a mais cara foi a de São Paulo (R$ 951,37)."
+  ],
+  "fontes": [
+   {
+    "nome": "Leis.org, Decreto 30/2026 de Santiago",
+    "url": "https://leis.org/municipais/rs/santiago/lei/decreto/2026/30/decreto-n-30-2026-recompoe-o-valor-da-tarifa-do-transporte-coletivo-urbano-e-da-outras"
+   },
+   {
+    "nome": "Otimiza.pro Tarifaoteca, tarifa de Santiago",
+    "url": "https://otimizapro.com/tarifa/rs/santiago"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Santiago mistura literatura, tradição gaúcha e natureza. No Centro estão a Rua dos Poetas e o parque; no interior do município, formações rochosas e um túnel ferroviário atraem ciclistas e trilheiros.",
+  "lugares": [
+   {
+    "nome": "Rua dos Poetas",
+    "km": "na cidade",
+    "desc": "Quatro quadras no Centro, entre as ruas Júlio de Castilhos e General Canabarro, com monumentos a mais de 30 escritores e artistas locais. Tem bancos, fonte, lojas e lancherias."
+   },
+   {
+    "nome": "Parque Ambiental Zamperetti",
+    "km": "na cidade",
+    "desc": "A poucas quadras do Centro, com mata nativa, trilhas, lago e ponte pênsil até uma ilhota. Tem churrasqueiras, ponto de água quente para o mate e brinquedos para crianças; abre todos os dias."
+   },
+   {
+    "nome": "Museu Municipal Pedro Palmeiro",
+    "km": "na cidade",
+    "desc": "Mais de 2 mil peças, entre estátuas jesuíticas, armas da Revolução Farroupilha, moedas e peças indígenas. Fica na Rua Pinheiro Machado, 2291, e abre de segunda a sexta, das 8h às 14h."
+   },
+   {
+    "nome": "Copa Santiago de Futebol Juvenil",
+    "km": "na cidade",
+    "desc": "Torneio internacional sub-17 disputado desde 1989, reconhecido pela CBF e pela FIFA. Movimenta a cidade e é programa para quem tem filhos que jogam bola."
+   },
+   {
+    "nome": "Pilão d'Água",
+    "km": "~15 km",
+    "desc": "Formação rochosa cortada pelo rio Rosário, com buracos esculpidos pela água. Fica em propriedade particular que permite visitas respeitosas."
+   },
+   {
+    "nome": "Túnel Ferroviário de Lava-Pés",
+    "km": "~23 km",
+    "desc": "Túnel de 280 m, de 1973, na localidade de Lava-Pés, procurado por ciclistas e trilheiros. É escuro por dentro: leve lanterna."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Prefeitura de Santiago, pontos turísticos",
+    "url": "https://santiago.rs.gov.br/cidade/turismo/pontos-turisticos"
+   },
+   {
+    "nome": "Prefeitura de Santiago, Parque Ambiental Zamperetti",
+    "url": "https://santiago.rs.gov.br/cidade/turismo/pontos-turisticos/parque-ambiental-zamperetti"
+   },
+   {
+    "nome": "Prefeitura de Santiago, Museu Pedro Palmeiro",
+    "url": "https://santiago.rs.gov.br/cidade/turismo/pontos-turisticos/museu-municipal-pedro-palmeiro"
+   },
+   {
+    "nome": "Prefeitura de Santiago, Pilão d'Água",
+    "url": "https://santiago.rs.gov.br/cidade/turismo/pontos-turisticos/pilao-dagua"
+   },
+   {
+    "nome": "Prefeitura de Santiago, Túnel de Lava-Pés",
+    "url": "https://santiago.rs.gov.br/cidade/turismo/pontos-turisticos/tunel-ferroviario-de-lava-pes"
+   },
+   {
+    "nome": "Wikipédia (Santiago, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Santiago_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "Prefeitura de Santiago (Rua dos Poetas)",
+    "url": "https://santiago.rs.gov.br/cidade/turismo/pontos-turisticos/rua-dos-poetas"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Chegue preparado para o frio: a estação do INMET na cidade já registrou −3 °C em julho e rajadas de vento acima de 150 km/h. Aquecedor e roupas de inverno entram na lista da mudança.",
+  "Nos registros do INMET de 2009 em diante, a primavera foi a estação mais chuvosa em Santiago. Se puder escolher, deixe a mudança para o fim do verão ou o outono.",
+  "Confira se o endereço do imóvel fica na sede ou em um dos distritos (Carovi, Ernesto Alves, Florida, Tupantuba). O município é extenso, e as distâncias até a sede podem ser longas.",
+  "O museu municipal abre só em dias úteis, até as 14h. Para passeios de fim de semana, prefira o Parque Zamperetti e a Rua dos Poetas."
+ ]
+}

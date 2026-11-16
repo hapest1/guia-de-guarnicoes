@@ -1,0 +1,100 @@
+{
+ "slug": "maceio-al",
+ "lede": "Capital de Alagoas desde 1839, entre o mar e a Lagoa Mundaú, com quase 1 milhão de moradores, praias urbanas e polo do sal-gema e do açúcar.",
+ "cidade": {
+  "paragrafos": [
+   "Maceió nasceu em torno do ancoradouro de Jaraguá, onde navios portugueses carregavam madeira no século XVII e, mais tarde, o açúcar dos engenhos da região. Virou vila em 5 de dezembro de 1815 e passou a ser a capital da Província das Alagoas em 9 de dezembro de 1839, no lugar da antiga capital, hoje Marechal Deodoro. O Censo 2022 contou 957.916 moradores, e a estimativa do IBGE para 2025 é de 994.952.",
+   "A economia mistura indústria, porto, serviço público e turismo. A cidade é a maior produtora de sal-gema do país e tem um polo cloroquímico, onde fica a Braskem, maior empresa instalada no estado. Há também indústrias de açúcar e álcool, cimento e alimentos, e o Porto de Maceió, em Jaraguá, tem um grande terminal açucareiro. No ensino superior, a cidade tem UFAL, UNCISAL, UNEAL, IFAL e o Cesmac, além de faculdades particulares.",
+   "O município tem 50 bairros, definidos em lei de 2000, divididos em oito regiões administrativas. A faixa da orla, de Pajuçara a Ponta Verde e Jatiúca, concentra serviços e turismo; longe da orla, o Benedito Bentes ocupa sozinho 24,62 km². A Lagoa Mundaú, com um arquipélago de nove ilhas, marca o lado oeste. O VLT liga o Centro a Rio Largo, passando por Bebedouro, Fernão Velho e Satuba, e o Aeroporto Zumbi dos Palmares fica em Rio Largo, fora da capital."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Maceió)",
+    "url": "https://pt.wikipedia.org/wiki/Maceió"
+   },
+   {
+    "nome": "G1 Alagoas, estimativas IBGE 2025 (ago/2025)",
+    "url": "https://g1.globo.com/al/alagoas/arquivo/noticia/2025/08/28/alagoas-tem-32-milhoes-de-habitantes-diz-ibge.ghtml"
+   },
+   {
+    "nome": "IBGE Cidades (Maceió)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/al/maceio.html"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus em Maceió segue em R$ 4,00 na tarifa comum e no vale-transporte, e cai para R$ 3,49 com o cartão do cidadão. Os valores valem desde 31 de maio de 2023, pelo Decreto 9.449/2023, e continuavam os mesmos na conferência de novembro de 2026.",
+   "Pelo DIEESE, a cesta básica em Maceió custou R$ 661,69 em outubro de 2026, alta de 4,82% sobre setembro. Para comparar, a capital mais barata no mês foi Aracaju (R$ 618,61) e a mais cara, São Paulo (R$ 951,37). Quem ganha salário mínimo em Maceió precisou de 89 horas e 48 minutos de trabalho para comprar a cesta."
+  ],
+  "fontes": [
+   {
+    "nome": "Otimiza.pro Tarifaoteca, tarifa de Maceió (conferida em 06/11/2026)",
+    "url": "https://otimizapro.com/tarifa/al/maceio"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Além das praias urbanas, Maceió tem cultura popular forte no Pontal da Barra e no Museu Théo Brandão. O litoral sul, com águas calmas, fica a menos de uma hora de carro.",
+  "lugares": [
+   {
+    "nome": "Pontal da Barra",
+    "km": "na cidade",
+    "desc": "Bairro no extremo sul, à beira da Lagoa Mundaú, com ruas cheias de ateliês do bordado filé. Bom para comprar artesanato e ver o pôr do sol na lagoa."
+   },
+   {
+    "nome": "Museu Théo Brandão",
+    "km": "na cidade",
+    "desc": "Museu de antropologia e folclore da UFAL, na Avenida da Paz, no Centro. Tem cerâmica, brinquedos populares, rendas e trajes de folguedos; abre de segunda a sexta."
+   },
+   {
+    "nome": "Orla de Ponta Verde e Jatiúca",
+    "km": "na cidade",
+    "desc": "Trecho mais movimentado da orla urbana, com calçadão, quiosques e serviços. Fica perto dos bairros mais procurados para morar."
+   },
+   {
+    "nome": "Praia de Ipioca",
+    "km": "na cidade",
+    "desc": "Uma das praias mais conhecidas de Maceió, longe do movimento da orla central. Boa opção para um dia de praia em família."
+   },
+   {
+    "nome": "Praia do Francês (Marechal Deodoro)",
+    "km": "~25 km",
+    "desc": "Acesso pela AL-101 Sul em cerca de 30 minutos. De um lado, os recifes formam piscinas naturais na maré baixa; do outro, o mar aberto atrai surfistas."
+   },
+   {
+    "nome": "Barra de São Miguel e Praia do Gunga",
+    "km": "~30 km",
+    "desc": "A barreira de corais forma uma grande piscina natural de água calma, boa para crianças. Da Barra saem passeios de lancha até o Gunga, logo ao lado."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "UFAL, Museu Théo Brandão",
+    "url": "https://ufal.br/ufal/extensao/acoes-culturais/equipamentos-culturais/museus/museu-theo-brandao"
+   },
+   {
+    "nome": "Fugida, Bairro das Rendeiras no Pontal da Barra",
+    "url": "https://fugida.com.br/lugar/mcz-pontal-barra/"
+   },
+   {
+    "nome": "Wikipédia (Maceió)",
+    "url": "https://pt.wikipedia.org/wiki/Maceió"
+   },
+   {
+    "nome": "Barra de São Miguel AL, Francês ou Barra de São Miguel",
+    "url": "https://barradesaomiguelal.com.br/praia-do-frances-ou-barra-de-sao-miguel/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O aeroporto fica em Rio Largo, fora de Maceió. Reserve tempo extra para o trajeto até a orla no dia da chegada e nas viagens de volta.",
+  "Faça logo o cartão do transporte: com ele a passagem cai de R$ 4,00 para R$ 3,49, o que pesa no mês de quem usa ônibus todo dia.",
+  "Quem for morar no eixo Centro–Bebedouro–Fernão Velho pode usar o VLT, que tem passagem barata e segue até Rio Largo.",
+  "Para passeios no litoral sul, como Francês e Barra de São Miguel, saia cedo e confira a tábua de marés: as piscinas naturais aparecem na maré baixa."
+ ]
+}
