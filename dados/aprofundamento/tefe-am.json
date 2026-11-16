@@ -1,0 +1,75 @@
+{
+  "slug": "tefe-am",
+  "lede": "Fundada como missão em 1718 numa península do lago de Tefé, a \"Princesa do Solimões\" é o polo do Médio Solimões e a porta de entrada da Reserva Mamirauá.",
+  "cidade": {
+    "paragrafos": [
+      "Tefé nasceu em 15 de outubro de 1718, quando o carmelita frei André da Costa fundou a Missão de Santa Teresa d'Ávila dos Tupebas na margem do lago. O nome vem desse povo indígena. Em 1759 a missão virou Vila de Ega, sede de um município de cerca de 500 mil km², e em 15 de junho de 1855 foi elevada a cidade com o nome de Tefé. Sete desmembramentos deixaram o território atual em 23.835 km². O Censo 2022 contou 73.669 moradores, e a estimativa do IBGE para 2025 é de 80.137, o quinto município mais populoso do Amazonas.",
+      "Tefé não tem indústria de porte. A economia é de comércio, serviços e agricultura familiar, com destaque para a farinha de Tefé e o manejo sustentável do pirarucu. A cidade é o principal polo de saúde, educação e comércio do Médio Solimões e atende municípios como Alvarães, Uarini, Fonte Boa, Maraã e Carauari. Abriga a UEA, a UFAM, o CETAM, um campus do IFAM e a sede do Instituto de Desenvolvimento Sustentável Mamirauá, ligado ao MCTI. Para o cônjuge, as vagas aparecem sobretudo em comércio, serviços, saúde, ensino e projetos de pesquisa e conservação.",
+      "A cidade ocupa uma península entre o igarapé Xidarinim e o lago de Tefé, uma baía larga de água escura com praias de areia branca na vazante. O centro é antigo e fica junto ao lago. As enchentes de 1969 a 1971 trouxeram moradores da várzea e deram origem a bairros como Monte Castelo, Santo Antônio, Olaria, Juruá e Santa Rosa; depois vieram Santa Luzia, Jerusalém, São João, São Raimundo, Nova Esperança e outros. Tefé fica a cerca de 520 km de Manaus em linha reta e a uns 595 km pelo rio. O aeroporto foi inaugurado em 1975, e a cidade está na rota da Infovia 02, de fibra óptica subfluvial no Solimões."
+    ],
+    "fontes": [
+      {"nome": "Prefeitura de Tefé (a cidade)", "url": "https://tefe.am.gov.br/cidade"},
+      {"nome": "IBGE Cidades (Tefé)", "url": "https://www.ibge.gov.br/cidades-e-estados/am/tefe.html"},
+      {"nome": "Wikipédia (pt)", "url": "https://pt.wikipedia.org/wiki/Tefé"},
+      {"nome": "Wikivoyage (en)", "url": "https://en.wikivoyage.org/wiki/Tefé"}
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Combustível é caro: em março de 2026 o litro da gasolina em Tefé subiu para R$ 8,29, depois de dois aumentos seguidos, segundo o g1 Amazonas. Na mesma semana, Manaus estava em R$ 7,59. Pelo rio, a tabela de preços máximos do Porto de Manaus lista R$ 277 a passagem de barco regional de Manaus a Tefé.",
+      "A seca encarece tudo que chega de barco. Um estudo de caso com um comércio do bairro Abial mostrou que, na estiagem de 2024, entre setembro e novembro, o frete subiu até 40% e alguns alimentos tiveram reajuste de até 30%. Naquele período, barcos não conseguiam atracar no terminal hidroviário, o que atrasou o abastecimento dos supermercados."
+    ],
+    "fontes": [
+      {"nome": "g1 Amazonas (gasolina, mar/2026)", "url": "https://g1.globo.com/am/amazonas/noticia/2026/03/23/preco-da-gasolina-dispara-no-interior-do-amazonas-e-chega-a-quase-r-9-em-alguns-municipios.ghtml"},
+      {"nome": "Porto de Manaus (tabela de preços máximos)", "url": "https://2024.portodemanaus.com.br/precos-e-servicos/TABELA_DE_PRE%C3%87OS_POR_EMBARCA%C3%87%C3%83O_E_DESTINO.pdf"},
+      {"nome": "Revista REASE (estiagem e preços no Abial, Tefé)", "url": "https://periodicorease.pro.br/rease/pt_BR/article/download/19629/11702"}
+    ]
+  },
+  "lazer": {
+    "intro": "O lazer acompanha o nível da água: praias de areia branca na vazante, passeios de barco pelo lago e a floresta alagada de Mamirauá na cheia. Em junho, o Festival Folclórico é a grande festa da cidade.",
+    "lugares": [
+      {
+        "nome": "Reserva Mamirauá e Pousada Uacari",
+        "km": "~1h30 de barco",
+        "desc": "Pousada flutuante de turismo de base comunitária, com visitas a comunidades, trilhas, canoa e observação de fauna. Por segurança, só aceita crianças acima de 10 anos e exige reserva com antecedência."
+      },
+      {
+        "nome": "Lago de Tefé",
+        "km": "na cidade",
+        "desc": "Passeios de barco pelo lago, floresta alagada e comunidades ribeirinhas, com chance de ver botos-cor-de-rosa. Combine o roteiro com condutor local e exija colete salva-vidas para todos."
+      },
+      {
+        "nome": "Orla e Praia da Ponta Branca",
+        "km": "na cidade",
+        "desc": "Praia urbana junto à orla, procurada para banho e pôr do sol. Em novembro de 2026 foi interditada por tempo indeterminado por contaminação de coliformes fecais; confirme a liberação antes de entrar na água."
+      },
+      {
+        "nome": "Praias de Itapuã, Juliana e Nogueira",
+        "km": "região do lago",
+        "desc": "Praias fluviais que aparecem na vazante e mudam de tamanho a cada ano. Algumas dependem de barco; pergunte a moradores sobre acesso e condições de banho no dia."
+      },
+      {
+        "nome": "Catedral de Santa Teresa d'Ávila",
+        "km": "na cidade",
+        "desc": "Inaugurada em 1935, treze anos depois da pedra fundamental, fica junto à praça do centro. A festa da padroeira, em 15 de outubro, é feriado municipal."
+      },
+      {
+        "nome": "Festival Folclórico de Tefé",
+        "km": "na cidade",
+        "desc": "Acontece de 27 a 30 de junho, com cordões, boi-bumbá, quadrilhas e a Ciranda. Encerra com a procissão de São Pedro, que reúne as embarcações do porto."
+      }
+    ],
+    "fontes": [
+      {"nome": "Viverde (Pousada Uacari)", "url": "https://viverde.tur.br/pousada-uacari.html"},
+      {"nome": "Informe Tefé (praias e áreas naturais, set/2026)", "url": "https://informetefe.com.br/praias-de-rio-e-areas-naturais-para-conhecer-em-tefe/09/"},
+      {"nome": "TeféNews (interdição da Ponta Branca, nov/2026)", "url": "https://tefenews.com.br/cidade/contaminacao-por-coliformes-fecais-leva-ao-fechamento-da-praia-da-ponta-branca-e-cancela-evento-religioso-em-tefe"},
+      {"nome": "Prefeitura de Tefé (a cidade)", "url": "https://tefe.am.gov.br/cidade"}
+    ]
+  },
+  "antes_de_ir": [
+    "A estiagem, que em Tefé se chama verão, vai de agosto ao fim de outubro e aperta de setembro a novembro. Se puder escolher, mande a bagagem pela balsa fora dessa janela e chegue com um estoque de itens de uso contínuo.",
+    "As secas de 2023 e 2024 foram extremas: em 2023 o lago de Tefé encolheu 75%. Acompanhe os boletins de nível do rio antes de marcar a mudança.",
+    "Antes de levar as crianças para o banho de rio, confirme se a Praia da Ponta Branca já foi liberada; ela está interditada desde novembro de 2026.",
+    "Para Mamirauá, reserve com antecedência e lembre que menores de 10 anos não são aceitos na Pousada Uacari. Os feriados municipais são 15 de junho e 15 de outubro."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "tabatinga-am",
+  "lede": "Na ponta oeste do Amazonas, Tabatinga divide uma só mancha urbana com a colombiana Letícia: atravessar a Avenida da Amizade é mudar de país, de idioma e de fuso horário.",
+  "cidade": {
+    "paragrafos": [
+      "O nome vem do tupi e quer dizer barro branco. Em 1766 os portugueses instalaram ali um posto militar e um posto fiscal, que deram origem ao povoado de São Francisco Xavier de Tabatinga. Em 1866 foi fixado perto dele o marco de limites entre Brasil e Peru. Por muito tempo a localidade foi subdistrito de Benjamin Constant; a emancipação veio em 10 de dezembro de 1981, e o município foi instalado em 1º de janeiro de 1983. O Censo 2022 contou 66.764 moradores, e a estimativa do IBGE para 2025 é de 73.348, o sétimo município mais populoso do Amazonas.",
+      "A economia depende do emprego público e do comércio de fronteira. A prefeitura é o maior empregador, com mais de 3.600 empregos diretos, seguida por órgãos como a Polícia Militar. A cidade tem uma população rotativa de servidores federais e estaduais, da Receita Federal, da Justiça Federal e do Ministério Público, entre outros. O PIB per capita foi de R$ 12.726,63 em 2023. Para o cônjuge, as oportunidades estão no serviço público, no comércio, na educação e na saúde, e falar espanhol ajuda no dia a dia.",
+      "Tabatinga fica na margem esquerda do Solimões, com 3.239 km² de área. A Avenida da Amizade começa no aeroporto e termina dentro de Letícia; o único marco da fronteira é um poste com as duas bandeiras. Em frente fica a ilha peruana de Santa Rosa. O bairro da Comara, perto do aeroporto, dá acesso às aldeias ticuna de Umariaçu I e II. A moto domina o trânsito: em 2015, mais de 6 mil dos 7.332 veículos da frota eram motocicletas e motonetas. O Aeroporto Internacional tem voos da Azul para Manaus. De barco, a descida até Manaus leva cerca de três dias, e a subida, cerca de sete."
+    ],
+    "fontes": [
+      {"nome": "Wikipédia (pt)", "url": "https://pt.wikipedia.org/wiki/Tabatinga_(Amazonas)"},
+      {"nome": "IBGE Cidades (Tabatinga)", "url": "https://www.ibge.gov.br/cidades-e-estados/am/tabatinga.html"},
+      {"nome": "g1 Amazonas (Censo 2022)", "url": "https://g1.globo.com/am/amazonas/noticia/2023/06/28/populacao-de-tabatinga-am-e-de-66-764-pessoas-aponta-o-censo-do-ibge.ghtml"}
+    ]
+  },
+  "custo_extra": {
+    "paragrafos": [
+      "Combustível é dos mais caros do estado: em março de 2026 a gasolina custava R$ 8,70 e o diesel R$ 8,95 em Tabatinga, segundo o g1 Amazonas, enquanto Manaus estava em R$ 7,59. Pelo rio, a tabela de preços máximos do Porto de Manaus lista R$ 510 a passagem de barco regional de Manaus a Tabatinga.",
+      "Letícia ajuda a equilibrar o orçamento. A cidade colombiana tem regime de isenção de impostos, e moradores de Tabatinga atravessam para comprar de supermercado a móveis e eletrodomésticos. Já o que vem de Manaus depende do Solimões: em 30 de agosto de 2024, o rio chegou a −94 cm em Tabatinga, o menor nível já registrado no trecho, segundo o Serviço Geológico do Brasil. Em secas assim, frete e prazos de entrega pioram."
+    ],
+    "fontes": [
+      {"nome": "g1 Amazonas (gasolina, mar/2026)", "url": "https://g1.globo.com/am/amazonas/noticia/2026/03/23/preco-da-gasolina-dispara-no-interior-do-amazonas-e-chega-a-quase-r-9-em-alguns-municipios.ghtml"},
+      {"nome": "Porto de Manaus (tabela de preços máximos)", "url": "https://2024.portodemanaus.com.br/precos-e-servicos/TABELA_DE_PRE%C3%87OS_POR_EMBARCA%C3%87%C3%83O_E_DESTINO.pdf"},
+      {"nome": "Wikipédia (pt) — economia", "url": "https://pt.wikipedia.org/wiki/Tabatinga_(Amazonas)"},
+      {"nome": "Estadão (seca do Solimões, ago/2024)", "url": "https://www.estadao.com.br/sustentabilidade/amazonia-seca-rio-solimoes-nprm/"}
+    ]
+  },
+  "lazer": {
+    "intro": "O lazer mistura rio, cultura ticuna e o lado colombiano da fronteira. Na vazante aparecem praias no Solimões; em Letícia há parque, museu e saídas de lancha para ilhas e lagos com botos.",
+    "lugares": [
+      {
+        "nome": "Bairro da Comara",
+        "km": "na cidade",
+        "desc": "Perto do aeroporto, tem vista ampla do rio e das florestas do lado peruano. É também o caminho para as aldeias ticuna de Umariaçu I e II."
+      },
+      {
+        "nome": "Praia da Limeira",
+        "km": "na vazante",
+        "desc": "A praia mais movimentada do Solimões quando o rio baixa, com shows e o concurso Garota Limeira."
+      },
+      {
+        "nome": "Festival das Tribos do Alto Solimões (Festisol)",
+        "km": "na cidade",
+        "desc": "Em geral em setembro, por cinco dias, com a disputa entre a onça-pintada (vermelha) e a onça-preta (azul) no onçódromo, no estilo de Parintins."
+      },
+      {
+        "nome": "Parque Santander",
+        "km": "Letícia (vizinha)",
+        "desc": "Praça principal de Letícia. Por volta das 17h30, hora colombiana, milhares de periquitos chegam da floresta para dormir nas árvores; as crianças costumam adorar."
+      },
+      {
+        "nome": "Museu Etnográfico do Banco de la República",
+        "km": "Letícia (vizinha)",
+        "desc": "Entrada gratuita, com cerca de cem peças dos povos uitoto, yukuna e ticuna e a história da região até a época da borracha."
+      },
+      {
+        "nome": "Isla de los Micos",
+        "km": "~45 min de lancha",
+        "desc": "Ilha no Amazonas, saindo de Letícia, onde vivem milhares de macacos-de-cheiro que se aproximam dos visitantes."
+      },
+      {
+        "nome": "Puerto Nariño e Lagos de Tarapoto",
+        "km": "~80 km rio acima",
+        "desc": "Cidade colombiana sem veículos motorizados, acessível só de lancha, e lagos protegidos pela Convenção Ramsar onde se veem botos-cor-de-rosa e cinza. Puerto Nariño cobra entrada de 25 mil pesos por pessoa."
+      }
+    ],
+    "fontes": [
+      {"nome": "Wikipédia (pt) — cultura e lazer", "url": "https://pt.wikipedia.org/wiki/Tabatinga_(Amazonas)"},
+      {"nome": "Tur.com (o que fazer em Letícia, out/2026)", "url": "https://www.tur.com/es/blog/que-hacer-en-leticia-amazonas"},
+      {"nome": "Amazonas Colombia (requisitos, out/2026)", "url": "https://www.amazonascolombia.com/requisitos-para-viajar-a-leticia-amazonas/"}
+    ]
+  },
+  "antes_de_ir": [
+    "Letícia está uma hora atrás de Tabatinga. Ajuste o relógio para consultas, voos por Letícia e passeios marcados do lado colombiano.",
+    "Para circular em Letícia e Santa Rosa não há trâmite migratório, mas leve sempre documento com foto. Para seguir viagem além da tríplice fronteira, como até Iquitos ou Caballococha, no Peru, é preciso carimbo de saída e de entrada: a Migración Colombia atende no aeroporto de Letícia das 7h às 18h, a migração peruana em Santa Rosa das 7h às 17h e a Polícia Federal em Tabatinga das 8h às 12h e das 14h às 18h. Para passeios mais longe na Colômbia, como Puerto Nariño, confirme na Migración Colombia se é preciso registro, e veja antes com a OM as regras para militares.",
+    "Atualize a vacina contra febre amarela pelo menos 10 dias antes de viajar e leve a carteira de vacinação. A Colômbia recomenda a vacina para quem vai ao departamento do Amazonas.",
+    "A seca de 2024 levou o Solimões ao menor nível já medido em Tabatinga já no fim de agosto; em 2010 e 2023, a mínima veio em outubro. Se puder, despache a bagagem pela balsa antes do auge da estiagem."
+  ]
+}
