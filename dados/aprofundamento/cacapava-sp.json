@@ -1,0 +1,128 @@
+{
+ "slug": "cacapava-sp",
+ "lede": "Cidade de cerca de 100 mil moradores entre São José dos Campos e Taubaté, nascida de um pouso do Caminho Real e hoje com parque industrial às margens da Via Dutra.",
+ "cidade": {
+  "paragrafos": [
+   "Caçapava nasceu de dois núcleos. O mais antigo é o atual bairro de Caçapava Velha, que cresceu em torno da Capela de Nossa Senhora d'Ajuda, erguida em 1705 numa fazenda que servia de pouso no Caminho Real entre São Paulo e Taubaté. A cidade atual começou em 1842, com a Capela de São João Batista, e virou município em 14 de abril de 1855. O nome vem do tupi e significa \"clareira\" ou \"passagem na mata\". O Censo 2022 contou 96.202 moradores, e a estimativa mais recente do IBGE é de 100.422.",
+   "Depois do ciclo do café, a economia ficou parada até meados do século XX, quando cresceram o arroz e o leite. A partir dos anos 1970, a indústria passou a ser o setor mais importante. Entre as fábricas instaladas estão Nestlé, Cebrace (vidro), White Martins, Lear Corporation e Graúna Aerospace. O leite segue como principal produto do campo. O PIB por habitante foi de R$ 67,7 mil em 2023, segundo o IBGE. Comércio e serviços são menores, porque a população usa muito a oferta de São José dos Campos e Taubaté.",
+   "O município tem 369 km² entre as serras do Mar e da Mantiqueira, com várzea plana perto do rio Paraíba do Sul e relevo ondulado nas partes altas. A Via Dutra (BR-116) corta a cidade, que também é servida pela SP-70 e pela SP-103, rumo a Jambeiro. Pela Dutra, São José dos Campos fica a cerca de 24 km e Taubaté a cerca de 19 km; São Paulo está a 113 km. Os bairros vão do Centro e da Vila Antônio Augusto Luiz ao Vera Cruz e a Caçapava Velha, que hoje tem condomínios de casas."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Caçapava)",
+    "url": "https://pt.wikipedia.org/wiki/Ca%C3%A7apava"
+   },
+   {
+    "nome": "IBGE Cidades e Estados (Caçapava)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/sp/cacapava.html"
+   },
+   {
+    "nome": "Alexia Imóveis, morar em Caçapava (distâncias e Caçapava Velha)",
+    "url": "https://www.alexiaimoveis.com.br/noticias/titulo/casa-em-condominio-em-cacapava-como-e-morar-no-terras-de-santa-mariana/"
+   },
+   {
+    "nome": "Loft, bairro Vila Antônio Augusto Luiz",
+    "url": "https://loft.com.br/onde-morar/sp/cacapava/vila-antonio-augusto-luiz/DQKLW232"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus municipal custa R$ 4,20, valor confirmado pela imprensa regional em 2026. A prefeitura paga subsídio à concessionária, previsto na Lei 6.121/2023. Na semana de 8 a 14 de novembro de 2026, a ANP registrou gasolina comum a R$ 6,42 em média em Caçapava, contra R$ 6,09 em São José dos Campos; o etanol saiu a R$ 4,37 e R$ 3,95, e o botijão de 13 kg a R$ 100,16 em Caçapava.",
+   "Caçapava não entra na pesquisa da cesta básica do DIEESE. A referência é a capital paulista, onde a cesta custou R$ 951,37 em outubro de 2026, a mais cara do país, com alta de 12,30% em 12 meses."
+  ],
+  "fontes": [
+   {
+    "nome": "Otimiza.pro Tarifaoteca, tarifa de Caçapava (conferida em out/2026)",
+    "url": "https://otimizapro.com/tarifa/sp/cacapava"
+   },
+   {
+    "nome": "g1 Vale do Paraíba, tarifas de ônibus da região (fev/2025)",
+    "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2025/02/11/passagem-de-onibus-confira-o-valor-da-tarifa-do-transporte-municipal-em-cada-cidade-do-vale-e-regiao.ghtml"
+   },
+   {
+    "nome": "Câmara de Caçapava, Lei 6.121/2023 (subsídio ao transporte coletivo)",
+    "url": "https://camarasempapel.camaracacapava.sp.gov.br/Arquivo/Documents/legislacao/html/L61212023.html"
+   },
+   {
+    "nome": "Preço da Bomba (dados ANP), Caçapava, 8 a 14/11/2026",
+    "url": "https://precodabomba.com.br/sp/cacapava/"
+   },
+   {
+    "nome": "Preço da Bomba (dados ANP), São José dos Campos, 8 a 14/11/2026",
+    "url": "https://precodabomba.com.br/sp/sao-jose-dos-campos/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer da cidade é de escala pequena: um museu de carros antigos, um parque usado pelas famílias e o patrimônio de Caçapava Velha. Para shopping e programação maior, a vizinha São José dos Campos fica a menos de meia hora.",
+  "lugares": [
+   {
+    "nome": "Museu Roberto Lee",
+    "km": "na cidade",
+    "desc": "Coleção de automóveis e peças mecânicas reunida pelo empresário Roberto Eduardo Lee desde 1948. Fica na Av. Dr. José de Moura Resende, 475 (Vera Cruz); abre de segunda a sexta, das 9h às 16h, e no fim de semana só com agendamento."
+   },
+   {
+    "nome": "Parque da Moçota",
+    "km": "na cidade",
+    "desc": "Área verde na Vila Menino Jesus, bairro banhado pelo rio Paraíba do Sul. A prefeitura o apresenta como espaço das famílias da cidade há mais de 25 anos."
+   },
+   {
+    "nome": "Caçapava Velha e Igreja de Nossa Senhora d'Ajuda",
+    "km": "na cidade",
+    "desc": "O núcleo mais antigo da cidade, em torno da capela de 1705 que deu origem ao povoado. A igreja fica na Rua São Camilo, em Caçapava Velha."
+   },
+   {
+    "nome": "Mirante da Pedra Branca",
+    "km": "zona rural",
+    "desc": "Mirante na Estrada Tenente José Couto, no bairro Pedra Branca. A região também tem a Cachoeira da Pedra Branca; o acesso é por estrada rural, então vá de carro."
+   },
+   {
+    "nome": "Mercado Municipal",
+    "km": "na cidade",
+    "desc": "Fica na Av. Presidente Roosevelt, 100, no Centro. Bom ponto para conhecer o comércio local num sábado de manhã."
+   },
+   {
+    "nome": "Museu de Armas e Troféus da Força Expedicionária Brasileira",
+    "km": "na cidade",
+    "desc": "Listado entre os pontos turísticos da cidade, guarda memória da FEB na Segunda Guerra. Confirme horário de visita antes de ir."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Visite Museus (Ibram), Museu Roberto Lee",
+    "url": "https://visite.museus.gov.br/instituicoes/museu-roberto-lee/"
+   },
+   {
+    "nome": "Prefeitura de Caçapava (Facebook), 25 anos do Parque da Moçota",
+    "url": "https://www.facebook.com/prefeituradecacapava/posts/25-anos-de-hist%C3%B3ria-natureza-e-mem%C3%B3rias-no-parque-da-mo%C3%A7otaum-espa%C3%A7o-que-h%C3%A1-mais/1219106510261501/"
+   },
+   {
+    "nome": "Buser, Igreja de Nossa Senhora d'Ajuda",
+    "url": "https://www.buser.com.br/destinos/pontos-turisticos/sp/cacapava-sp/igreja-de-nossa-senhora-dajuda"
+   },
+   {
+    "nome": "NetCampos, Mirante da Pedra Branca",
+    "url": "https://www.netcampos.com/cacapava/passeios/mirante-da-pedra-branca-cacapava.html"
+   },
+   {
+    "nome": "NetCampos, Mercado Municipal de Caçapava",
+    "url": "https://www.netcampos.com/cacapava/passeios/mercado-municipal-cacapava.html"
+   },
+   {
+    "nome": "Wikipédia (Caçapava)",
+    "url": "https://pt.wikipedia.org/wiki/Ca%C3%A7apava"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se for rodar muito de carro, vale abastecer em São José dos Campos: em novembro de 2026 a gasolina estava cerca de R$ 0,33 por litro mais barata lá, e o etanol, R$ 0,42.",
+  "O Museu Roberto Lee abre só em dias úteis. Para levar a família no sábado ou domingo, agende a visita por telefone com antecedência.",
+  "Ao procurar casa, pergunte o bairro e a distância até a Dutra: Caçapava Velha e a zona rural têm condomínios e chácaras, mas dependem de carro para quase tudo.",
+  "Julho e agosto são os meses mais secos, com cerca de 30 mm de chuva cada; janeiro é o mais chuvoso, com mais de 200 mm. Se puder escolher, evite a mudança no auge do verão."
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "formosa-go",
+ "lede": "A 80 km de Brasília pela BR-020, Formosa tem cerca de 122 mil moradores, a Lagoa Feia colada à cidade e o Salto do Itiquira, de 168 metros, a 34 km do centro.",
+ "cidade": {
+  "paragrafos": [
+   "A origem de Formosa está no Registro da Lagoa Feia, posto fiscal instalado em 1736 por ordem do rei de Portugal para cobrar impostos sobre o ouro e as mercadorias que passavam pela região. Perto dele nasceu o Arraial dos Couros, nome ligado ao comércio de couros. O município foi criado como Vila Formosa da Imperatriz e passou a se chamar só Formosa com a República; o aniversário é em 1º de agosto. Em 1877 o Visconde de Porto Seguro visitou a região das lagoas Feia, Formosa e Mestre d'Armas e a indicou para a futura capital, e em 1892 a Missão Cruls passou pela área. O Censo 2022 contou 115.901 moradores, e a estimativa mais recente do IBGE é de 122.613.",
+   "A agropecuária responde por 8,6% do valor adicionado da economia (IBGE, 2021); o restante vem sobretudo de comércio, serviços e indústria. No campo, a soja ocupa cerca de 33,7 mil hectares e o milho perto de 9 mil. O PIB per capita foi de R$ 33.806,77 em 2023. No ensino superior, o IFG oferece Engenharia Civil, licenciaturas em Ciências Biológicas e Ciências Sociais e o tecnólogo em Análise e Desenvolvimento de Sistemas; a UEG tem licenciaturas em Geografia, História, Química, Matemática, Letras e Pedagogia. Há ainda as faculdades privadas IESGO e Cambury e polo EAD da Unopar.",
+   "O município é grande, com 5.804 km², e tem quatro distritos: a sede, Bezerra, Santa Rosa e Juscelino Kubitschek. A sede fica a 916 m de altitude, e a Lagoa Feia, um dos maiores lagos naturais do Centro-Oeste, está a cerca de 5,5 km do centro. A BR-020 liga a cidade a Brasília em cerca de 1h20 de carro, e o Aeroporto de Brasília fica a uns 88 km. Formosa integra a Região Integrada de Desenvolvimento do Distrito Federal e Entorno, e quem chega de avião desembarca em Brasília. Dentro da cidade, o ônibus municipal é gratuito desde 2021."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Formosa, GO)", "url": "https://pt.wikipedia.org/wiki/Formosa_(Goi%C3%A1s)"},
+   {"nome": "IBGE Cidades e Estados (Formosa)", "url": "https://www.ibge.gov.br/cidades-e-estados/go/formosa.html"},
+   {"nome": "Calculadora Rural, perfil agropecuário de Formosa (dados IBGE)", "url": "https://calculadorarural.com.br/agro/go/formosa"},
+   {"nome": "Em Algum Lugar do Mundo, guia de Formosa (atualizado jan/2026)", "url": "https://emalgumlugardomundo.com.br/o-que-fazer-em-formosa/"},
+   {"nome": "Otimiza.pro Tarifaoteca, tarifa de Formosa", "url": "https://otimizapro.com/tarifa/go/formosa"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O ônibus urbano de Formosa é gratuito para todos desde 2021, pelo programa municipal Transporte para Todos. Em fevereiro de 2026 o serviço ficou 12 dias parado com o fim do contrato anterior e voltou a rodar em 8 de fevereiro, com oito ônibus, por contrato emergencial. Para ir ao DF, a passagem do ônibus semiurbano Formosa–Brasília passou de R$ 8,00 para R$ 8,20 em 22 de fevereiro de 2026, após reajuste de 2,546% aprovado pela ANTT.",
+   "Na semana de 8 a 14 de novembro de 2026, a ANP registrou em Formosa gasolina comum a R$ 6,40 em média, etanol a R$ 4,36, diesel S10 a R$ 7,21 e o botijão de gás de 13 kg a R$ 112,85. Formosa não entra na pesquisa da cesta básica do DIEESE; como referência, a cesta custou R$ 810,36 em Brasília e R$ 836,64 em Goiânia em outubro de 2026."
+  ],
+  "fontes": [
+   {"nome": "Otimiza.pro Tarifaoteca, tarifa de Formosa", "url": "https://otimizapro.com/tarifa/go/formosa"},
+   {"nome": "Tribuna News (ônibus voltam a circular, fev/2026)", "url": "https://tribunanews.com.br/2026/02/09/onibus-do-transporte-coletivo-voltam-a-circular-em-formosa-apos-12-dias-de-paralisacao/"},
+   {"nome": "g1 DF (reajuste das passagens DF–Entorno, fev/2026)", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/02/16/com-reajuste-passagens-de-onibus-entre-df-e-entorno-passam-dos-r-12-veja-novos-valores.ghtml"},
+   {"nome": "UOL Economia/ANP (combustível em Formosa, nov/2026)", "url": "https://economia.uol.com.br/noticias/redacao/2026/11/14/gasolina-cai-em-formosa-go-nesta-semana-veja-preco-do-litro.ghtm"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "Formosa tem cachoeiras, lagoas e cavernas a curta distância, além de parques dentro da cidade. É também conhecida pelo voo livre e pelo voo a vela: o Aeroclube do Planalto Central forma pilotos de planador desde 1988.",
+  "lugares": [
+   {"nome": "Parque Municipal do Itiquira", "km": "~34 km", "desc": "Guarda o Salto do Itiquira, com 168 m de queda livre e acesso fácil até perto da base. Abre todos os dias, com entrada das 9h às 16h; crianças de 6 a 12 anos pagam meia, e a trilha até o topo não aceita menores de 12 anos."},
+   {"nome": "Lagoa Feia", "km": "~5 km", "desc": "Lago natural com cerca de 6 km de comprimento, marco da origem da cidade. Tem restaurantes, pedalinho e passeios de barco, e é procurada para canoagem e stand up paddle."},
+   {"nome": "Laguinho do Vovô", "km": "na cidade", "desc": "Praça com jardins e circuito de caminhada e corrida em volta do lago, na Avenida Ivone Saad. Ao lado ficam bares e lanchonetes, bom para o fim de tarde."},
+   {"nome": "Parque Ecológico Mata da Bica", "km": "na cidade", "desc": "Mata dentro da malha urbana, com área de lazer aberta às margens da Avenida Tancredo Neves, com quadras e quiosques. A visita à área cercada da mata precisa ser agendada."},
+   {"nome": "Usina Parque Bandeirinha", "km": "~6 km", "desc": "Fica no km 6 da GO-430, sentido Planaltina. Tem decks, brinquedos infantis, Museu da Usina sobre a história da energia em Formosa, arvorismo, tirolesa, cachoeiras e trenzinho até a usina."},
+   {"nome": "Chapada Indaiá Ecoparque", "km": "~30 km", "desc": "Trilha de 8,2 km ida e volta que passa por sete cachoeiras, entre elas a do Indaiá e a Véu de Noiva, e chega ao alto do Salto do Itiquira. Passeio de dia inteiro, melhor para quem já caminha bem."},
+   {"nome": "Cachoeira do JK", "km": "~60 km", "desc": "No distrito de JK, pela BR-020 sentido Vila Boa, com piscina natural de água esverdeada e outras quedas na mesma trilha. Aceita animais de estimação e abre de sexta a domingo, das 8h às 17h; há taxa de visitação."}
+  ],
+  "fontes": [
+   {"nome": "Prefeitura de Formosa (Turismo)", "url": "https://formosa.go.gov.br/turismo/"},
+   {"nome": "Em Algum Lugar do Mundo, guia de Formosa (atualizado jan/2026)", "url": "https://emalgumlugardomundo.com.br/o-que-fazer-em-formosa/"},
+   {"nome": "Wikipédia (Formosa, GO)", "url": "https://pt.wikipedia.org/wiki/Formosa_(Goi%C3%A1s)"}
+  ]
+ },
+ "antes_de_ir": [
+  "Confira as rotas e horários do ônibus gratuito no PDF de linhas 2026 no site da prefeitura: em fevereiro de 2026 o serviço chegou a parar por 12 dias.",
+  "Para voos, conte com o Aeroporto de Brasília, a cerca de 88 km pela BR-020; o ônibus semiurbano até o DF custa R$ 8,20 desde fevereiro de 2026.",
+  "No Parque do Itiquira, chegue cedo: a bilheteria fecha às 16h e a trilha até o topo do salto só recebe visitantes pela manhã e não aceita menores de 12 anos.",
+  "Cachoeiras como as da Chapada Indaiá, do JK e do Bisnau ficam em áreas privadas com taxa de visitação; consulte o site de cada uma antes de sair, sobretudo na época de chuvas."
+ ]
+}

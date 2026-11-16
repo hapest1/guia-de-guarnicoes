@@ -1,0 +1,55 @@
+{
+ "slug": "cristalina-go",
+ "lede": "Cristalina nasceu de um garimpo de cristais de rocha e hoje, a cerca de 1.200 m de altitude e 130 km de Brasília pela BR-040, vive da agricultura irrigada por centenas de pivôs.",
+ "cidade": {
+  "paragrafos": [
+   "Bandeirantes acharam cristais de rocha espalhados no alto de uma serra por volta de 1797, e o lugar virou Serra dos Cristais. A exploração comercial começou em 1880, com os franceses Etienne Lepesqueur e Léon Laboissière, que mandavam o quartzo para a Europa por Paracatu e pelo porto do Rio de Janeiro. Em 1883 Emílio Levy ergueu a primeira casa à beira do córrego Almocafre, onde está a sede atual. O arraial virou distrito de Santa Luzia (hoje Luziânia) em 1901, município autônomo em 1916 e ganhou o nome de Cristalina em 1918; o aniversário é em 18 de julho. O Censo 2022 contou 62.337 moradores, e a estimativa mais recente do IBGE é de 67.922.",
+   "A partir dos anos 1970, produtores vindos do Sul trouxeram a lavoura irrigada. Segundo a prefeitura, são mais de 630 pivôs centrais, com destaque para alho, batata, cebola, milho doce e trigo irrigado, e só alho, batata e cebola somam cerca de 8 mil empregos em uma das etapas da produção. A agropecuária responde por 55,5% do valor adicionado da economia (IBGE, 2021), e o PIB per capita foi de R$ 91.562,29 em 2023. Desde 2010, indústrias como Incotril, Fugini, Bonduelle e Sorgatto processam parte da safra. Os cristais seguem vivos no garimpo, na lapidação e no artesanato: em julho de 2025 o INPI registrou a Indicação de Procedência Cristalina para o quartzo bruto e lapidado. No ensino, o IF Goiano tem campus na cidade, com cursos técnicos e superiores.",
+   "O município tem 6.153 km² e a sede fica a cerca de 1.200 m de altitude, uma das mais altas de Goiás. Além da sede, há o distrito de Campos Lindos, a cerca de 100 km, e o povoado de São Bartolomeu, a 33 km ao norte pela BR-040. A BR-040 liga a cidade a Brasília, a cerca de 130 km, e a BR-050 também passa pelo município. Cristalina integra a Região Metropolitana do Entorno do DF e o aeroporto mais próximo é o de Brasília. Na cidade, o ônibus municipal gratuito passa por bairros como Cristal, Cristalina Velha, São José e 7 de Setembro, pela rodoviária, pela UPA e pelo IF Goiano."
+  ],
+  "fontes": [
+   {"nome": "Prefeitura de Cristalina (História)", "url": "https://cristalina.go.gov.br/historia/"},
+   {"nome": "Prefeitura de Cristalina (Economia)", "url": "https://cristalina.go.gov.br/economia/"},
+   {"nome": "IBGE Cidades e Estados (Cristalina)", "url": "https://www.ibge.gov.br/cidades-e-estados/go/cristalina.html"},
+   {"nome": "Calculadora Rural, perfil agropecuário de Cristalina (dados IBGE)", "url": "https://calculadorarural.com.br/agro/go/cristalina"},
+   {"nome": "DataSebrae (Indicação de Procedência Cristalina)", "url": "https://datasebrae.com.br/cristalina/"},
+   {"nome": "IF Goiano, Campus Cristalina", "url": "https://ifgoiano.edu.br/home/index.php/cristalina.html"},
+   {"nome": "Wikipédia (Cristalina)", "url": "https://pt.wikipedia.org/wiki/Cristalina"},
+   {"nome": "Ser Pedalante (Cristalina, a cerca de 130 km de Brasília)", "url": "https://serpedalante.com/2020/09/18/cristalina-pedra-chapeu-de-sol-cachoeira-do-arrojado-e-cachoeira-dos-topazios/"},
+   {"nome": "Prefeitura de Cristalina (Transporte público)", "url": "https://cristalina.go.gov.br/transporte-publico-de-cristalina/"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O transporte público municipal de Cristalina é gratuito para todos, sem cartão nem cadastro, segundo a prefeitura (informação de setembro de 2025, conferida pela Tarifaoteca da Otimiza.pro em outubro de 2026). Quem não tem carro consegue circular de ônibus entre os bairros, a rodoviária, escolas e unidades de saúde.",
+   "Cristalina não entra na pesquisa da cesta básica do DIEESE. Como referência, em outubro de 2026 a cesta custou R$ 810,36 em Brasília, alta de 4,73% no mês, e R$ 836,64 em Goiânia, alta de 3,54%. Como muita gente faz compras maiores no DF, vale acompanhar os preços de Brasília."
+  ],
+  "fontes": [
+   {"nome": "Prefeitura de Cristalina (Transporte público)", "url": "https://cristalina.go.gov.br/transporte-publico-de-cristalina/"},
+   {"nome": "Otimiza.pro Tarifaoteca, tarifa de Cristalina", "url": "https://otimizapro.com/tarifa/go/cristalina"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Cristalina gira em torno dos cristais e do Cerrado de altitude. A maior parte dos atrativos fica no Vale dos Cristais e em reservas a menos de 20 km do centro.",
+  "lugares": [
+   {"nome": "Lagoa dos Cristais", "km": "~8 km", "desc": "Lago de água azul-esverdeada que se formou quando o antigo Garimpo da Batição atingiu o lençol freático. A água fica entre 26 °C e 27 °C, com visibilidade de mais de 15 m, boa para banho e para ver peixes; no Vale dos Cristais há caiaque, pedalinho, stand up paddle e trilha de 1,4 km."},
+   {"nome": "Pedra Chapéu do Sol", "km": "~10 km", "desc": "Enorme bloco de rocha equilibrado sobre uma base estreita, eleito em 2012 uma das Sete Maravilhas de Goiás. O local também tem pinturas rupestres."},
+   {"nome": "Mercado do Cristal", "km": "na cidade", "desc": "Criado em 2013 pela associação dos artesãos, na Rua Minas Gerais, perto da UPA. Reúne sete lojas de cristais e pedras e uma lanchonete, e dá para ver lapidários trabalhando."},
+   {"nome": "Garimpo Pedra em Pé", "km": "~16 km", "desc": "Experiência de garimpo com equipamentos de proteção, peneira e bateia, conduzida por uma família de garimpeiros da terceira geração. Cada visitante leva para casa os cristais que encontrar."},
+   {"nome": "RPPN Linda Serra dos Topázios", "km": "~15 km", "desc": "Reserva particular de Cerrado criada em 1994, com trilhas, cachoeiras e poços de água cristalina, como o Poço da Diretoria. Tem área de camping e dois chalés para grupos."},
+   {"nome": "Igreja São Sebastião e Casa de Cultura", "km": "na cidade", "desc": "A igreja do padroeiro fica na praça mais antiga, berço do arraial. Ao lado, a Casa de Cultura Lutz de Paiva Cozac, num prédio de 1947, guarda fotos, documentos e objetos da história da cidade."}
+  ],
+  "fontes": [
+   {"nome": "Prefeitura de Cristalina (Turismo)", "url": "https://cristalina.go.gov.br/turismo-em-cristalina/"},
+   {"nome": "VivaCristalina (Vale dos Cristais)", "url": "https://vivacristalina.com/explorar/lugar/vale-dos-cristais"},
+   {"nome": "Ser Pedalante (Pedra Chapéu do Sol e Serra dos Topázios, 2020)", "url": "https://serpedalante.com/2020/09/18/cristalina-pedra-chapeu-de-sol-cachoeira-do-arrojado-e-cachoeira-dos-topazios/"}
+  ]
+ },
+ "antes_de_ir": [
+  "Para voos e serviços especializados, a referência é Brasília, a cerca de 130 km pela BR-040; reserve umas duas horas de viagem, já que o trânsito na saída do DF e no Entorno costuma pesar.",
+  "Ao comprar cristais como lembrança ou presente, procure o selo da Indicação de Procedência Cristalina, registrada no INPI em julho de 2025, que identifica o quartzo extraído no município.",
+  "Pedra Chapéu do Sol e Lagoa dos Cristais ficam em área de fazenda particular, com regras próprias de acesso; confirme dias, horários e valores antes de ir com as crianças.",
+  "O ônibus municipal é gratuito e não exige cartão: os horários e pontos estão na página de transporte público da prefeitura."
+ ]
+}

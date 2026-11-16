@@ -1,0 +1,132 @@
+{
+ "slug": "sao-borja-rs",
+ "lede": "Primeiro dos Sete Povos das Missões, fundada em 1682, São Borja tem cerca de 61 mil moradores à beira do rio Uruguai e é a cidade natal de Getúlio Vargas e João Goulart.",
+ "cidade": {
+  "paragrafos": [
+   "São Borja nasceu em 1682 como redução jesuítica, a primeira dos Sete Povos das Missões, e é povoada sem interrupção desde então. O nome homenageia São Francisco de Borja, terceiro geral da Companhia de Jesus. O município foi emancipado de Rio Pardo em 1834. Uma lei estadual de 2008 deu à cidade o título de \"Terra dos Presidentes\", por ser o lugar de nascimento de Getúlio Vargas e João Goulart. O Censo 2022 contou 59.676 moradores, e a estimativa mais recente do IBGE é de 61.311.",
+   "A agropecuária responde por cerca de 33,9% do valor adicionado da economia (IBGE, 2021). Nos dados mais recentes do IBGE, a soja ocupa perto de 105 mil hectares, o arroz perto de 34 mil hectares, e o rebanho bovino passa de 115 mil cabeças. No início do século XX a cidade foi conhecida como Capital do Linho. O PIB per capita foi de R$ 42.737 em 2023. No ensino superior há campus da Unipampa, com cursos de comunicação, ciências sociais, direito e serviço social, além de IFFar, Uergs, Urcamp e polos de ensino a distância.",
+   "O município tem mais de 3.600 km² e quatro distritos: a sede, Nhú-Porã, Samburá e Sarandi. A sede fica a cerca de 123 m de altitude. O Centro reúne comércio, prefeitura e museus. Ao norte, o bairro do Passo abriga o campus da Unipampa e o porto no rio Uruguai; o IFFar fica no Bettim. O Hospital Ivan Goulart está no Pirahy, e a rodoviária, no Paraboi. A Ponte da Integração, inaugurada em 1997, liga a cidade a Santo Tomé, na Argentina."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (São Borja)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Borja"
+   },
+   {
+    "nome": "IBGE Cidades e Estados (São Borja)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/rs/sao-borja.html"
+   },
+   {
+    "nome": "Calculadora Rural, perfil agropecuário de São Borja (dados IBGE)",
+    "url": "https://calculadorarural.com.br/agro/rs/sao-borja"
+   },
+   {
+    "nome": "Unipampa, cursos de graduação do campus São Borja",
+    "url": "https://unipampa.edu.br/saoborja/cursos/graduacao"
+   },
+   {
+    "nome": "Prefeitura de São Borja, Turismo e Cultura",
+    "url": "https://portal.saoborja.rs.gov.br/turismo"
+   },
+   {
+    "nome": "CS Rodovias Mercosul, passo a passo para cruzar a fronteira",
+    "url": "https://csrodoviasmercosul.com.br/atravessar-a-fronteira/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano de São Borja custa R$ 5,00 desde 15 de junho de 2026, pelo Decreto 21.930, de 28 de maio de 2026; a passagem de estudante custa R$ 2,50. Quem usa duas passagens por dia útil gasta perto de R$ 220 por mês.",
+   "São Borja saiu da pesquisa semanal de preços de combustíveis da ANP em 2017, por isso não há média local oficial recente. Como ordem de grandeza, a gasolina comum custava em média R$ 6,21 no Rio Grande do Sul na semana de 2 de novembro de 2026. A cidade não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% no mês."
+  ],
+  "fontes": [
+   {
+    "nome": "Leis.org, Decreto 21.930/2026 de São Borja",
+    "url": "https://leis.org/municipais/rs/sao-borja/lei/decreto/2026/21930/decreto-n-21930-2026-altera-o-decreto-n-20230-de-10-de-novembro-de-2023-que-fixa-os-precos-para-as-passagens-de-transporte-coletivo"
+   },
+   {
+    "nome": "Otimiza.pro Tarifaoteca, tarifa de São Borja",
+    "url": "https://otimizapro.com/tarifa/rs/sao-borja"
+   },
+   {
+    "nome": "Mapa do Litro, gasolina em São Borja (dados ANP)",
+    "url": "https://mapadolitro.com.br/cidade/rs/sao-borja/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em São Borja gira em torno da história. No Centro ficam as casas-museu dos dois presidentes, a poucos metros uma da outra; à beira do rio Uruguai, o Cais do Porto é o ponto de encontro para ver o pôr do sol.",
+  "lugares": [
+   {
+    "nome": "Museu Getúlio Vargas",
+    "km": "na cidade",
+    "desc": "Casa onde Getúlio morou com a família, na Avenida Presidente Vargas, 1.772, museu desde 1982. Guarda escritório, móveis e objetos pessoais, com monitoras que guiam a visita."
+   },
+   {
+    "nome": "Memorial Casa João Goulart",
+    "km": "na cidade",
+    "desc": "Casa de 1927 onde Jango passou a infância e a juventude, na Avenida Presidente Vargas, 1.033, a 250 m do museu de Getúlio. Tem 10 salas de exposição e entrada gratuita."
+   },
+   {
+    "nome": "Cais do Porto",
+    "km": "na cidade",
+    "desc": "Área de lazer à beira do rio Uruguai, no bairro do Passo, conhecida pelo pôr do sol. Reúne bares conhecidos pelo peixe da região."
+   },
+   {
+    "nome": "Igreja Matriz São Francisco de Borja",
+    "km": "na cidade",
+    "desc": "Igreja matriz dedicada a São Francisco de Borja, padroeiro que dá nome à cidade. Fica no Centro, como a Praça XV de Novembro e os museus dos presidentes."
+   },
+   {
+    "nome": "Museu Ergológico de Estância e Museu Missioneiro Apparício Silva Rillo",
+    "km": "na cidade",
+    "desc": "O primeiro mostra peças da lida campeira, como charretes, carroças e máquinas antigas; o segundo reúne arte santeira, objetos religiosos e acervo indígena e missioneiro."
+   },
+   {
+    "nome": "Caminho das Missões",
+    "km": "na cidade",
+    "desc": "Rota de peregrinação que sai de São Borja rumo a Santo Ângelo, pelos antigos povos jesuíticos. O percurso completo tem cerca de 338 km, em 14 dias; há versões menores, de 3 a 8 dias, que começam em outras cidades."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "GZH, casas de Getúlio Vargas e João Goulart viram museus (out/2023)",
+    "url": "https://gauchazh.clicrbs.com.br/cultura-e-lazer/noticia/2023/10/casas-de-getulio-vargas-e-joao-goulart-sao-museus-destinados-a-recontar-parte-da-historia-do-brasil-a-partir-de-sao-borja-clndlvhda00bh013x5vnjowpz.html"
+   },
+   {
+    "nome": "Visite Museus (Ibram), Casa Memorial João Goulart",
+    "url": "https://visite.museus.gov.br/instituicoes/casa-memorial-joao-goulart/"
+   },
+   {
+    "nome": "Portal das Missões, horário dos museus de São Borja",
+    "url": "https://www.portaldasmissoes.com.br/noticias/sao-borja-divulga-horario-de-funcionamento-dos-museus-13509"
+   },
+   {
+    "nome": "meVOU, Cais do Porto de São Borja",
+    "url": "https://mevou.com.br/points-of-interest/cais-do-porto-de-sao-borja"
+   },
+   {
+    "nome": "Prefeitura de São Borja, Turismo e Cultura",
+    "url": "https://portal.saoborja.rs.gov.br/turismo"
+   },
+   {
+    "nome": "Wikipédia (São Borja)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Borja"
+   },
+   {
+    "nome": "Associação dos Municípios das Missões, Caminho das Missões",
+    "url": "https://www.ammissoes.com.br/?pg=noticias&rel=612535df33df9cee202c00c1870bf921"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Para atravessar a ponte até Santo Tomé, leve RG original ou passaporte, físico, em bom estado e com menos de 10 anos. CNH, CPF, certidão de nascimento e documentos digitais não são aceitos, nem para crianças. O pré-cadastro migratório da Polícia Federal gera um QR Code que agiliza a fila.",
+  "Se for de carro à Argentina, o veículo precisa de seguro Carta Verde ou Carta Azul. Menor que não viaja com os dois pais precisa de autorização de viagem com firma reconhecida em cartório.",
+  "Prepare-se para extremos: desde 2007, a estação do INMET na cidade registrou 42,2 °C em janeiro de 2022 e −2,4 °C em junho de 2012. Ar-condicionado e aquecedor são úteis.",
+  "Os museus municipais divulgaram horário de terça a sexta, das 8h30 às 12h30 e das 14h30 às 18h30, e das 9h às 16h nos fins de semana e feriados. Confirme antes, porque o horário muda com a gestão."
+ ]
+}
