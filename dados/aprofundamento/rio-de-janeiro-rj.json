@@ -1,0 +1,52 @@
+{
+ "slug": "rio-de-janeiro-rj",
+ "lede": "Fundado em 1565 entre o Pão de Açúcar e o Morro Cara de Cão, o Rio foi capital do país até 1960 e hoje espalha suas OM da Urca à Vila Militar, em regiões bem diferentes entre si.",
+ "cidade": {
+  "paragrafos": [
+   "Estácio de Sá fundou São Sebastião do Rio de Janeiro em 1º de março de 1565, num istmo entre o Morro Cara de Cão e o Pão de Açúcar, onde hoje fica a Urca. A cidade foi sede do governo da colônia a partir de 1763, depois do Reino Unido, do Império e da República, até a mudança da capital para Brasília em 1960. O Censo de 2022 contou 6.211.223 moradores, e a estimativa do IBGE para 1º de julho de 2025 é de 6.730.729, a segunda maior população entre os municípios do país.",
+   "O Rio tem o segundo maior PIB municipal do Brasil, cerca de R$ 418 bilhões em 2023, e os serviços respondem por cerca de dois terços dele. A cidade é sede da Petrobras, da Vale, do BNDES e do Grupo Globo, além de grandes empresas de energia e telecomunicações. O polo de estúdios de Jacarepaguá concentra boa parte da produção de TV e cinema. O turismo sustenta muitos empregos no comércio e na hotelaria. Para o cônjuge, o mercado é amplo, com vagas em serviços, comércio, hotelaria, energia, telecomunicações e audiovisual.",
+   "A cidade ocupa planícies estreitas entre três maciços (Tijuca, Pedra Branca e Gericinó) e a Baía de Guanabara. Oficialmente são 166 bairros e cinco zonas: Central, Sul (Copacabana, Ipanema, Urca), Norte (Tijuca, Madureira), Sudoeste (Barra da Tijuca, Recreio, Jacarepaguá) e Oeste, onde fica a Vila Militar, bairro planejado construído a partir de 1904, vizinho de Deodoro, Realengo, Magalhães Bastos, Campo dos Afonsos e Jardim Sulacap. O metrô tem 40,9 km e liga a Pavuna a Ipanema e à Barra. Os trens urbanos saem da Central do Brasil e, desde maio de 2026, são operados pela TrensRJ; o ramal Santa Cruz para na estação Vila Militar. O BRT TransOlímpica, de 23 km, liga Deodoro e a Vila Militar à Barra e ao Recreio. As condições mudam bastante de um bairro para outro, por isso vale se informar sobre a região antes de fechar o aluguel."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Rio de Janeiro)", "url": "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"},
+   {"nome": "IBGE, Estimativas da População 2025", "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44305-populacao-estimada-do-pais-chega-a-213-4-milhoes-de-habitantes-em-2025"},
+   {"nome": "Wikipédia (Vila Militar)", "url": "https://pt.wikipedia.org/wiki/Vila_Militar_(Rio_de_Janeiro)"},
+   {"nome": "Wikipédia (SuperVia / trens urbanos)", "url": "https://pt.wikipedia.org/wiki/SuperVia"},
+   {"nome": "Wikipédia (TransOlímpica)", "url": "https://pt.wikipedia.org/wiki/TransOl%C3%ADmpica"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Desde 4 de janeiro de 2026, a passagem de ônibus municipal, BRT e VLT custa R$ 5,00. O metrô ficou sem reajuste em 2026 e continua em R$ 7,90, com o governo do estado cobrindo a diferença. A tarifa unitária do trem foi mantida em R$ 7,60 em janeiro de 2026; esse é o valor sem o Bilhete Único ativado no cartão Riocard.",
+   "A cesta básica do Rio custou R$ 939,39 em outubro de 2026, alta de 2,84% no mês, segundo o DIEESE. Foi a segunda mais cara do país, atrás apenas de São Paulo (R$ 951,37)."
+  ],
+  "fontes": [
+   {"nome": "Diário do Transporte, tarifa de ônibus no Rio (jan/2026)", "url": "https://diariodotransporte.com.br/2026/01/05/tarifas-de-transportes-coletivos-estao-mais-altas-em-mais-duas-capitais-rio-de-janeiro-e-salvador/"},
+   {"nome": "Super Rádio Tupi, tarifa do metrô em 2026 (fev/2026)", "url": "https://www.tupi.fm/rio/governo-do-rj-barra-aumento-do-metro-e-mantem-valor-das-passagens/"},
+   {"nome": "Diário do Transporte, tarifa dos trens em 2026 (jan/2026)", "url": "https://diariodotransporte.com.br/2026/01/02/tarifa-unitaria-dos-trens-da-supervia-no-rio-de-janeiro-nao-tera-reajuste-em-2026/amp/"},
+   {"nome": "DIEESE/Conab, cesta básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "Além das praias e dos cartões-postais, o Rio tem grandes áreas verdes e parques públicos em quase todas as regiões, inclusive perto da Vila Militar.",
+  "lugares": [
+   {"nome": "Floresta da Tijuca", "km": "na cidade", "desc": "Setor do Parque Nacional da Tijuca com trilhas, a Cascatinha Taunay e o Pico da Tijuca, a 1.022 m. Uma das maiores florestas urbanas replantadas do mundo, boa para caminhadas no fim de semana."},
+   {"nome": "Pedra Bonita e rampa de voo livre", "km": "na cidade", "desc": "Também no Parque Nacional da Tijuca, perto da Pedra da Gávea. Trilha curta até o mirante, onde fica a rampa de voo livre da cidade."},
+   {"nome": "Quinta da Boa Vista", "km": "na cidade", "desc": "Parque histórico em São Cristóvão, na Zona Norte, onde fica o BioParque do Rio, o antigo zoológico. O palácio do Museu Nacional, atingido por incêndio em 2018, também está no parque."},
+   {"nome": "Parque Madureira", "km": "na cidade", "desc": "Inaugurado em 2012, tem 450 mil m² entre Madureira e Guadalupe e é o terceiro maior parque da cidade. Tem ciclovia, quadras e pistas de skate e BMX para iniciantes."},
+   {"nome": "Parque Radical de Deodoro", "km": "na cidade", "desc": "Antigo parque olímpico de 2016, na região de Deodoro e da Vila Militar. As instalações de canoagem e BMX ficaram abertas ao público como área de lazer."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Parque Nacional da Tijuca)", "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Tijuca"},
+   {"nome": "Wikipédia (Quinta da Boa Vista)", "url": "https://pt.wikipedia.org/wiki/Quinta_da_Boa_Vista"},
+   {"nome": "Wikipédia (Parque Madureira)", "url": "https://pt.wikipedia.org/wiki/Parque_Madureira_Mestre_Monarco"},
+   {"nome": "Wikipédia (Parque Radical do Rio)", "url": "https://pt.wikipedia.org/wiki/Parque_Radical_do_Rio"}
+  ]
+ },
+ "antes_de_ir": [
+  "Escolha o bairro depois de saber onde fica a OM: a Urca e a Praia Vermelha ficam na Zona Sul, e a Vila Militar fica na Zona Oeste, no outro extremo da área urbana. Teste o trajeto no horário de pico antes de assinar o contrato.",
+  "Para quem serve na Vila Militar, compare as duas ligações principais: o trem do ramal Santa Cruz, que para na estação Vila Militar, e o BRT TransOlímpica, que vai até a Barra e o Recreio.",
+  "Se for de carro pela via expressa TransOlímpica, inclua o pedágio de Sulacap no orçamento mensal.",
+  "Ative o Bilhete Único no cartão Riocard logo na chegada: os R$ 7,60 do trem são o valor sem o benefício."
+ ]
+}

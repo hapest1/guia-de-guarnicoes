@@ -1,0 +1,48 @@
+{
+ "slug": "recife-pe",
+ "lede": "Capital estadual mais antiga do país, surgida em 1537 num porto protegido por recifes, o Recife é cortado por rios e pontes e tem Olinda a 6 km.",
+ "cidade": {
+  "paragrafos": [
+   "O Recife surgiu em 1537 como Ribeira de Mar dos Arrecifes dos Navios, o porto da Capitania de Pernambuco, e é a mais antiga das capitais estaduais. O nome vem da barreira de recifes paralela à orla. No século XVII, a cidade foi por 24 anos sede da Nova Holanda, que teve Maurício de Nassau como administrador entre 1637 e 1644. O Censo de 2022 contou 1.488.920 moradores, e a estimativa do IBGE para 1º de julho de 2025 é de 1.588.376. O aglomerado urbano soma cerca de 3,7 milhões de pessoas.",
+   "Cerca de dois terços do PIB vêm do comércio e dos serviços. O Porto Digital, criado em 2000 no Recife Antigo, reúne mais de 200 empresas de tecnologia. A cidade é o principal polo médico do Norte e do Nordeste e abriga órgãos como a Sudene, a Chesf e o TRF da 5ª Região, além de vários consulados. Na região metropolitana ficam o Complexo de Suape e o polo automotivo da Stellantis. Para o cônjuge, as vagas mais comuns são em tecnologia, saúde, comércio, serviços e no setor público.",
+   "A cidade tem cerca de 218 km² numa planície formada por ilhas, penínsulas e manguezais, cortada pelos rios Capibaribe e Beberibe. São 94 bairros, agrupados em seis regiões administrativas. Boa Viagem, na zona sul, é o bairro mais populoso. Na Zona Norte ficam bairros residenciais tradicionais como Jaqueira, Casa Forte, Espinheiro e Aflitos. O metrô, operado pela CBTU, tem 71 km: a Linha Centro sai da Estação Recife para Camaragibe e Jaboatão, e a Linha Sul passa pela estação Aeroporto até Cajueiro Seco. Olinda, ao norte, e Jaboatão dos Guararapes, ao sul, fazem parte da Região Metropolitana."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Recife)", "url": "https://pt.wikipedia.org/wiki/Recife"},
+   {"nome": "IBGE, Estimativas da População 2025", "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44305-populacao-estimada-do-pais-chega-a-213-4-milhoes-de-habitantes-em-2025"},
+   {"nome": "Wikipédia (Metrô do Recife)", "url": "https://pt.wikipedia.org/wiki/Metropolitano_do_Recife"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Desde 1º de fevereiro de 2026, o Bilhete Único dos ônibus do Grande Recife custa R$ 4,50. Antes era R$ 4,30. O reajuste entrou em vigor depois que o TJPE derrubou a liminar que o suspendia.",
+   "A cesta básica custou R$ 705,98 em outubro de 2026, alta de 6,41% no mês, segundo o DIEESE. O aluguel pesa mais: em junho de 2026, o Recife teve o segundo maior preço médio de aluguel residencial entre as capitais, R$ 64,06 por m² pelo índice FipeZAP, com alta de 9,40% em 12 meses."
+  ],
+  "fontes": [
+   {"nome": "Diario de Pernambuco, Bilhete Único a R$ 4,50 (jan/2026)", "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/01/11706513-aumento-das-passagens-de-onibus-comeca-a-valer-neste-domingo-1-bilhete-unico-passa-para-rs-450.html"},
+   {"nome": "DIEESE/Conab, cesta básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"},
+   {"nome": "Folha de Pernambuco, aluguel FipeZAP jun/2026", "url": "https://www.folhape.com.br/economia/recife-segundo-aluguel-mais-caro-brasil/500781/"}
+  ]
+ },
+ "lazer": {
+  "intro": "Fora da praia e do Carnaval, o Recife tem museus de primeira linha, parques arborizados na Zona Norte e mercados tradicionais. Olinda fica a poucos minutos.",
+  "lugares": [
+   {"nome": "Instituto Ricardo Brennand", "km": "na cidade", "desc": "Na Várzea, um conjunto em estilo medieval com castelo, pinacoteca e galeria cercados por um grande parque. Programa de meio dia que agrada às crianças."},
+   {"nome": "Oficina Cerâmica Francisco Brennand", "km": "na cidade", "desc": "Também na Várzea, reúne mais de duas mil esculturas e pinturas do artista. Combina com a visita ao Instituto Ricardo Brennand."},
+   {"nome": "Parque da Jaqueira", "km": "na cidade", "desc": "Inaugurado em 1985 na Zona Norte, tem área para esportes e atividades ao ar livre e a capela histórica de Nossa Senhora da Conceição. Ponto de caminhada das famílias da região."},
+   {"nome": "Praça de Casa Forte", "km": "na cidade", "desc": "Primeiro jardim público projetado por Burle Marx, tombado pelo IPHAN. Bom para um passeio curto no fim da tarde."},
+   {"nome": "Cais do Sertão", "km": "na cidade", "desc": "Museu interativo no Recife Antigo sobre o Sertão pernambucano e Luiz Gonzaga. Boa opção para dias de chuva."},
+   {"nome": "Mercado de São José e Casa da Cultura", "km": "na cidade", "desc": "No bairro de São José, o mercado público tradicional fica ao lado da Casa da Cultura, um dos principais centros de artesanato de Pernambuco."},
+   {"nome": "Olinda", "km": "~6 km", "desc": "Centro histórico colonial reconhecido como Patrimônio Mundial pela Unesco em 1982, com igrejas barrocas e o mirante do Alto da Sé. No Carnaval, desfilam os bonecos gigantes."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Recife)", "url": "https://pt.wikipedia.org/wiki/Recife"},
+   {"nome": "Wikipédia (Olinda)", "url": "https://pt.wikipedia.org/wiki/Olinda"}
+  ]
+ },
+ "antes_de_ir": [
+  "Programe a mudança fora de abril a julho, quando se concentram as chuvas; o resto do ano é mais seco e facilita a mudança.",
+  "Reserve folga no orçamento de moradia: o aluguel médio do Recife é o segundo mais alto entre as capitais pelo FipeZAP e subiu mais de 9% em 12 meses.",
+  "Se a família for depender de transporte público, veja imóveis perto da Linha Sul do metrô, que liga o Centro ao Aeroporto e a Jaboatão, ou de corredores de ônibus com integração no Bilhete Único."
+ ]
+}
