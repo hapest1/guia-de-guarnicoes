@@ -138,6 +138,9 @@ def processa(slug, d):
             if campo == "saude":
                 corpo += ('<p><a href="/guias/saude-fusex-na-transferencia" class="ck-link">'
                           'Guia: como levar o atendimento do FuSEx para a nova guarnição →</a></p>')
+            if campo == "educacao":
+                corpo += ('<p class="guia-link"><a href="/guias/escola-dos-filhos-na-transferencia" class="ck-link">'
+                          'Guia: escola dos filhos e Colégio Militar na transferência →</a></p>')
             h = insere_depois(h, list(reversed(ant)), secao(sid, tit, cidade, corpo))
         ant.append(sid)
 
