@@ -1,0 +1,51 @@
+{
+ "slug": "corumba-ms",
+ "lede": "Fundada em 1778 no alto de um barranco de calcário sobre o rio Paraguai, a Cidade Branca é a porta do Pantanal Sul e forma com Ladário e as vizinhas bolivianas uma rede urbana de cerca de 150 mil pessoas.",
+ "cidade": {
+  "paragrafos": [
+   "Corumbá nasceu em 21 de setembro de 1778 como Vila de Nossa Senhora da Conceição de Albuquerque, fundada pelo sargento-mor Marcelino Rois Camponês. O Forte Coimbra, rio abaixo, é ainda mais antigo, de 1775. Entre o fim do século XIX e o começo do XX, a cidade viveu o auge como porto fluvial, por onde entravam mercadorias europeias. O Censo 2022 contou 96.268 moradores, e a estimativa do IBGE para 2026 é de 96.334.",
+   "A economia combina mineração, pecuária, porto, comércio e serviços. No Maciço do Urucum se extraem manganês e minério de ferro desde 1930, e o rebanho bovino do município passava de 2,1 milhões de cabeças em 2023. Corumbá tem o principal porto fluvial de Mato Grosso do Sul, uma termelétrica movida a gás boliviano e o quarto maior PIB do estado (R$ 4,19 bilhões em 2023). Para o cônjuge, as vagas mais comuns estão no comércio, nos serviços, no turismo de pesca e de natureza e no ensino.",
+   "A cidade tem dois níveis: embaixo, à beira do rio, fica o Porto Geral com o casario; em cima, no alto do barranco, o centro comercial, as praças e as igrejas, ligados por ladeiras. Comércio, bancos e restaurantes se concentram nas ruas próximas, como a Frei Mariano e a Delamare. Ladário, cidade vizinha, fica a cerca de 7 km, e a linha de fronteira com Puerto Quijarro, na Bolívia, a cerca de 5 km do centro. O município é o maior do estado, com mais de 64 mil km², e boa parte dele só se alcança por rio ou estrada de terra."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Corumbá)", "url": "https://pt.wikipedia.org/wiki/Corumb%C3%A1"},
+   {"nome": "IBGE Cidades (Corumbá)", "url": "https://www.ibge.gov.br/cidades-e-estados/ms/corumba.html"},
+   {"nome": "Cidade Turismo (Corumbá)", "url": "https://cidadeturismo.com.br/destino/pantanal/corumba"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem de ônibus urbano custa R$ 3,70, tarifa única fixada pelo Decreto nº 2.145, com efeitos desde 11 de março de 2019, e ainda praticada pela operadora em 2026. Já o combustível pesa mais: na pesquisa da ANP de 4 a 10 de outubro de 2026, Corumbá teve a gasolina comum mais cara entre as cidades destacadas de Mato Grosso do Sul, com média de R$ 7,06 e preços de R$ 6,82 a R$ 7,17 o litro.",
+   "Muitos moradores fazem compras na zona franca de Puerto Quijarro e Puerto Suárez, do lado boliviano. Na volta ao Brasil por terra, a cota de isenção da Receita Federal é de US$ 500 por pessoa a cada 30 dias, com limites por item, como 12 litros de bebida alcoólica e 10 maços de cigarro. Acima disso, as compras devem ser declaradas e pagam imposto."
+  ],
+  "fontes": [
+   {"nome": "Diário Oficial de Corumbá (Decreto nº 2.145/2019)", "url": "https://do.corumba.ms.gov.br/portal/edicoes/download/3399"},
+   {"nome": "Viação Cidade Corumbá (tarifas)", "url": "http://viacaocidadecorumba.com.br/horarios-rual/"},
+   {"nome": "Diário Corumbaense (gasolina, out/2026)", "url": "https://www.diarionline.com.br/?s=noticia&id=159505"},
+   {"nome": "Receita Federal (cotas de isenção)", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel"},
+   {"nome": "Centro de Convenções/Fundtur-MS (compras na fronteira)", "url": "https://www.centrodeconvencoes.ms.gov.br/2053/"}
+  ]
+ },
+ "lazer": {
+  "intro": "Em Corumbá o lazer começa no Porto Geral e sobe para o centro histórico. Para ver o Pantanal de perto, há passeios de barco saindo da cidade e a Estrada Parque, de um dia inteiro.",
+  "lugares": [
+   {"nome": "Museu de História do Pantanal (Muhpan)", "km": "na cidade", "desc": "Num armazém de 1876 do Porto Geral, conta a ocupação humana do Pantanal com recursos interativos. Boa visita com crianças antes dos passeios de natureza; confira os dias de abertura."},
+   {"nome": "Passeio de chalana ao pôr do sol", "km": "na cidade", "desc": "Saídas do Porto Geral de cerca de uma hora pelo rio Paraguai, com garças, jacarés e capivaras nas margens. Pergunte se há colete para todos antes de embarcar."},
+   {"nome": "Cristo Rei do Pantanal", "km": "na cidade", "desc": "No alto do Morro do Cruzeiro, obra da artesã Izulina Xavier, com vista da cidade, do rio e da planície. A subida tem esculturas da Via Sacra; leve água, porque há pouca sombra."},
+   {"nome": "Praça da Independência", "km": "na cidade", "desc": "Praça de 1917 murada em mármore, com coreto importado da Alemanha e árvores nativas. Lugar tranquilo para as crianças brincarem no fim da tarde."},
+   {"nome": "Banho de São João", "km": "na cidade", "desc": "Em junho, cortejos descem a Ladeira Cunha e Cruz até o Porto Geral para banhar a imagem do santo no rio. A festa é patrimônio cultural reconhecido pelo Iphan."},
+   {"nome": "Estrada Parque Pantanal", "km": "~120 km de terra", "desc": "Sai da BR-262 perto da cidade, cruza a Morraria do Urucum e o rio Paraguai de balsa no Porto da Manga. Abasteça antes, leve dinheiro para a balsa e prefira maio a setembro."},
+   {"nome": "Forte Coimbra", "km": "~130 km", "desc": "Forte de 1775 na margem do rio Paraguai, com muralhas, canhões e um pequeno museu. Passeio de dia inteiro com agência; confirme antes se está aberto à visitação."}
+  ],
+  "fontes": [
+   {"nome": "Cidade Turismo (Corumbá)", "url": "https://cidadeturismo.com.br/destino/pantanal/corumba"},
+   {"nome": "Centro de Convenções/Fundtur-MS (atrativos de Corumbá)", "url": "https://www.centrodeconvencoes.ms.gov.br/2053/"}
+  ]
+ },
+ "antes_de_ir": [
+  "Antes de viajar pela BR-262, veja os avisos da Agesul: a ponte sobre o rio Paraguai, na entrada de Corumbá, teve interdições totais em fins de semana de agosto de 2026 para obras de recuperação.",
+  "Viaje pela BR-262 só de dia: há travessia de animais silvestres na pista e trechos sem acostamento.",
+  "Para ir a Puerto Quijarro, leve o documento de identidade original. A Bolívia pode pedir comprovante de vacina contra a febre amarela, então deixe a carteira de vacinação da família em dia.",
+  "Se a família gosta de pescar, lembre da piracema: no Pantanal de Mato Grosso do Sul a pesca costuma ficar proibida de novembro a fevereiro, e muitas pousadas de pesca fecham."
+ ]
+}

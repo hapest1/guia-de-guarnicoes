@@ -1,0 +1,117 @@
+{
+ "slug": "tres-coracoes-mg",
+ "lede": "Terra natal de Pelé, às margens do rio Verde e cortada pela Fernão Dias, Três Corações recebe a EsSA desde 1950 e fica a cerca de 35 minutos de Varginha.",
+ "cidade": {
+  "paragrafos": [
+   "O arraial surgiu no século XVIII em torno de uma capela dedicada aos Sagrados Corações de Jesus, Maria e José, origem oficial do nome. Em 22 de junho de 1884, D. Pedro II esteve na vila para inaugurar a estrada de ferro Minas & Rio, e em 23 de setembro do mesmo ano ela virou cidade. O nome atual vale desde 1923. A Escola de Sargentos das Armas chegou em maio de 1950, vinda do Rio de Janeiro. O Censo 2022 contou 75.485 moradores, e a estimativa do IBGE para 2026 é de 78.492.",
+   "O comércio atacadista e varejista é forte, com produção de roupas e calçados que atrai compradores da região. A indústria inclui laticínios, metalurgia, rodas para automóveis, fios de cobre, rações e fertilizantes, e no campo há café, milho, feijão e gado de leite e de corte. O PIB per capita foi de R$ 47.277 em 2023. Para o cônjuge, as vagas mais comuns estão no comércio, nos serviços e no ensino, com a UninCor e o campus do IFSULDEMINAS. Varginha, vizinha, amplia as opções: é polo regional de serviços e um dos maiores centros de comércio de café do país.",
+   "A cidade fica a 839 m de altitude, na bacia do rio Verde, que atravessa o município. A Rodovia Fernão Dias (BR-381) corta o território e liga a cidade a Belo Horizonte e São Paulo. Entre os vizinhos estão Varginha, a cerca de 34 km, São Thomé das Letras, Cambuquira e Campanha. O centro concentra comércio, praças e a Igreja Matriz, e o transporte urbano é feito por ônibus da Trectur."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Três Corações)",
+    "url": "https://pt.wikipedia.org/wiki/Tr%C3%AAs_Cora%C3%A7%C3%B5es"
+   },
+   {
+    "nome": "Wikipédia (Escola de Sargentos das Armas)",
+    "url": "https://pt.wikipedia.org/wiki/Escola_de_Sargentos_das_Armas"
+   },
+   {
+    "nome": "IBGE Cidades (Três Corações)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/mg/tres-coracoes.html"
+   },
+   {
+    "nome": "Varginha Digital (história de Três Corações)",
+    "url": "https://varginhadigital.com.br/colunas/turismo/tres-coracoes-a-cidade-do-rei-pele-c/"
+   },
+   {
+    "nome": "Wikipédia (Varginha)",
+    "url": "https://pt.wikipedia.org/wiki/Varginha"
+   },
+   {
+    "nome": "Rome2rio (Três Corações–Varginha)",
+    "url": "https://www.rome2rio.com/pt/s/Tr%C3%AAs-Cora%C3%A7%C3%B5es/Varginha"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Desde 1º de janeiro de 2026, a passagem urbana custa R$ 6,00 em dinheiro e R$ 5,25 no cartão (cartão cidadão, vale-transporte ou cartão retornável). Estudantes pagam R$ 3,90. Nas linhas rurais, a tarifa é de R$ 9,40 em dinheiro, R$ 8,50 no cartão e R$ 6,10 para estudantes.",
+   "Na semana de 11 a 17 de outubro de 2026, a ANP registrou em Três Corações gasolina comum a R$ 6,75 em média, etanol a R$ 4,59 e diesel S10 a R$ 7,53 o litro."
+  ],
+  "fontes": [
+   {
+    "nome": "Rádio Tropical (tarifa de ônibus 2026, dez/2025)",
+    "url": "https://radiotropical.net/passagem-de-onibus-em-tres-coracoes-sobe-a-partir-de-janeiro/"
+   },
+   {
+    "nome": "UOL Economia/ANP (combustível, out/2026)",
+    "url": "https://economia.uol.com.br/noticias/redacao/2026/10/21/gasolina-sobe-em-tres-coracoes-mg-nesta-semana-veja-preco-do-litro.ghtm"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Além da Casa de Pelé, o centro de Três Corações guarda marcas da ferrovia e do ciclo do gado. Varginha e São Thomé das Letras ficam a menos de uma hora de carro.",
+  "lugares": [
+   {
+    "nome": "Monumento ao Tri",
+    "km": "na cidade",
+    "desc": "Na Praça Coronel José Martins, homenageia o tricampeonato mundial de 1970 e Pelé. Bom ponto de partida para um passeio a pé pelo centro."
+   },
+   {
+    "nome": "Igreja Matriz da Sagrada Família",
+    "km": "na cidade",
+    "desc": "Igreja neogótica de 1927, com altares de mármore de Carrara, murais e vitrais. Visita curta, que combina com a praça ao lado."
+   },
+   {
+    "nome": "Casa da Cultura Godofredo Rangel",
+    "km": "na cidade",
+    "desc": "Acervo de fotos e história da cidade, pequeno museu, biblioteca e peças sobre Pelé. Tem venda de artesanato e livros de autores locais."
+   },
+   {
+    "nome": "Ponte dos Boiadeiros",
+    "km": "na cidade",
+    "desc": "Ponte sobre o rio Verde inaugurada em 1924 e restaurada, marco do ciclo do gado. Boa para fotos e uma caminhada à beira do rio."
+   },
+   {
+    "nome": "Abrigo da Maria-Fumaça",
+    "km": "na cidade",
+    "desc": "Ao lado da antiga estação ferroviária de 1884, guarda uma locomotiva Baldwin americana. As crianças costumam gostar de ver a máquina de perto."
+   },
+   {
+    "nome": "Varginha",
+    "km": "~34 km",
+    "desc": "Cidade vizinha com o Memorial do ET, o Parque Zoobotânico e museu municipal. Também tem mais opções de compras e serviços."
+   },
+   {
+    "nome": "São Thomé das Letras",
+    "km": "~40 km",
+    "desc": "Cidade serrana construída com o quartzito local, com grutas, cachoeiras como a Véu de Noiva e a Casa da Pirâmide, mirante procurado no pôr do sol. Passeio de um dia ou fim de semana."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Varginha Digital (pontos turísticos de Três Corações)",
+    "url": "https://varginhadigital.com.br/colunas/turismo/tres-coracoes-a-cidade-do-rei-pele-c/"
+   },
+   {
+    "nome": "Wikipédia (Varginha)",
+    "url": "https://pt.wikipedia.org/wiki/Varginha"
+   },
+   {
+    "nome": "Rome2rio (Três Corações–São Thomé das Letras)",
+    "url": "https://www.rome2rio.com/pt/s/Tr%C3%AAs-Cora%C3%A7%C3%B5es/S%C3%A3o-Tom%C3%A9-das-Letras"
+   },
+   {
+    "nome": "Wikipédia (São Thomé das Letras)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Thom%C3%A9_das_Letras"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "As formaturas da EsSA costumam ocorrer no fim de novembro ou em dezembro. Se parentes vierem para a cerimônia, reserve a hospedagem cedo.",
+  "Faça o cartão do ônibus logo na chegada: a passagem cai de R$ 6,00 em dinheiro para R$ 5,25 no cartão.",
+  "Conte com Varginha, a cerca de 35 minutos, para compras maiores, faculdades e serviços que não houver em Três Corações.",
+  "Se for rodar muito de carro, compare etanol e gasolina: em outubro de 2026 o etanol custava cerca de 68% do preço da gasolina na cidade."
+ ]
+}
