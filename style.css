@@ -400,3 +400,10 @@ body{margin:0}
 @media print{.art-toc{display:none!important}}
 /* Tabelas dos guias rolam dentro da própria área no celular, sem alargar a página */
 @media (max-width:700px){main.art > table{display:block; overflow-x:auto; min-width:0; max-width:100%}}
+
+/* Guias relacionados nas ferramentas */
+.rel-guias{margin:34px 0 8px; padding:18px 20px; border:1px solid var(--line); border-radius:10px; background:var(--surface)}
+.rel-guias h2{font-size:1.3rem; text-transform:uppercase; margin:0 0 8px}
+.rel-guias ul{margin:0; padding-left:1.1em; display:grid; gap:4px}
+.rel-guias a{font-weight:600}
+@media print{.rel-guias{display:none}}

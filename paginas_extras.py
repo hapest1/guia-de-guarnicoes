@@ -132,6 +132,7 @@ ATUAL = """<h1>Atualizações do guia</h1>
 <p class="resumo">O que mudou no Guia de Guarnições, da mais recente para a mais antiga. Correções enviadas por leitores entram aqui.</p>
 <h2>Novembro de 2026</h2>
 <ul>
+<li><b>16/11</b> · Navegação revista: cada seção das fichas aponta para o guia do assunto (carro, aluguel, PNR, FuSEx e escola), o fim de cada guia indica outros guias do mesmo tema, as ferramentas ganharam "Guias relacionados" e os guias de aluguel, movimentação e pet levam aos <a href="/hoteis-de-transito">Hotéis de Trânsito</a>. Frases repetidas entre as fichas foram enxugadas.</li>
 <li><b>06/11</b> · Nova página <a href="/hoteis-de-transito">Hotéis de Trânsito</a>: busca entre os 195 meios de hospedagem do Exército por cidade, OM, público, pet e acessibilidade, com dados do cadastro da DAP. As fichas ganharam o atalho para os hotéis de trânsito da cidade.</li>
 <li><b>02/11</b> · Mais 32 fichas aprofundadas, com foco no interior: Fronteira Oeste e Missões do RS, Vale do Paraíba, Baixada Santista, Grande São Paulo, Serra Fluminense, Sul de Minas, Santa Catarina, Pernambuco e Pará. Já são 72 fichas com a seção sobre a cidade.</li>
 <li><b>02/11</b> · 40 fichas aprofundadas, entre elas todas as capitais: nova seção "A cidade" (história, economia e como a cidade se organiza), custo de vida com tarifa de ônibus e outros números locais, lazer com 5 a 7 lugares e dicas de chegada específicas de cada cidade. As capitais ganharam também as seções de saúde, escolas e clima.</li>
@@ -159,6 +160,21 @@ def org():
     return {"@type": "Organization", "name": "Guia de Guarnições", "url": SITE + "/"}
 
 
+# "Outros guias" por assunto (revisão nov/2026): cada guia recebe ao menos 3 links de outros guias.
+RELACIONADOS = {
+    "como-funciona-a-movimentacao": ["ajuda-de-custo-e-transporte", "pnr-como-funciona", "alugar-imovel-na-nova-guarnicao", "o-que-muda-em-cada-regiao"],
+    "ajuda-de-custo-e-transporte": ["como-funciona-a-movimentacao", "levar-ou-vender-o-carro", "mudanca-com-pet", "pnr-como-funciona"],
+    "pnr-como-funciona": ["alugar-imovel-na-nova-guarnicao", "como-funciona-a-movimentacao", "escola-dos-filhos-na-transferencia", "saude-fusex-na-transferencia"],
+    "alugar-imovel-na-nova-guarnicao": ["pnr-como-funciona", "escola-dos-filhos-na-transferencia", "carreira-do-conjuge", "o-que-muda-em-cada-regiao"],
+    "levar-ou-vender-o-carro": ["ajuda-de-custo-e-transporte", "mudanca-com-pet", "o-que-muda-em-cada-regiao", "como-funciona-a-movimentacao"],
+    "mudanca-com-pet": ["levar-ou-vender-o-carro", "alugar-imovel-na-nova-guarnicao", "ajuda-de-custo-e-transporte", "o-que-muda-em-cada-regiao"],
+    "escola-dos-filhos-na-transferencia": ["carreira-do-conjuge", "alugar-imovel-na-nova-guarnicao", "saude-fusex-na-transferencia", "o-que-muda-em-cada-regiao"],
+    "carreira-do-conjuge": ["escola-dos-filhos-na-transferencia", "o-que-muda-em-cada-regiao", "alugar-imovel-na-nova-guarnicao", "como-funciona-a-movimentacao"],
+    "saude-fusex-na-transferencia": ["escola-dos-filhos-na-transferencia", "como-funciona-a-movimentacao", "pnr-como-funciona", "mudanca-com-pet"],
+    "o-que-muda-em-cada-regiao": ["carreira-do-conjuge", "escola-dos-filhos-na-transferencia", "saude-fusex-na-transferencia", "levar-ou-vender-o-carro"],
+}
+
+
 def guias():
     pasta = RAIZ / "dados" / "guias"
     itens = []
@@ -174,9 +190,11 @@ def guias():
     for g in itens:
         fontes = " · ".join(f'<a href="{H.escape(f["url"])}" rel="nofollow noopener" target="_blank">{H.escape(f["nome"])}</a>'
                             for f in g.get("fontes", []))
-        outros = [o for o in itens if o["slug"] != g["slug"]][:0]
+        por_slug = {x["slug"]: x for x in itens}
+        rel = [por_slug[s] for s in RELACIONADOS.get(g["slug"], []) if s in por_slug]
+        rel = rel or [x for x in itens if x["slug"] != g["slug"]][:4]
         relac = "".join(f'<a href="/guias/{o["slug"]}"><b>{H.escape(o["titulo"])}</b><span>{H.escape(o["resumo"][:120])}</span></a>'
-                        for o in [x for x in itens if x["slug"] != g["slug"]][:4])
+                        for o in rel)
         corpo = (f'<nav class="crumbs-g"><a href="/">Início</a> › <a href="/guias/">Guias</a></nav>\n'
                  f'<h1>{H.escape(g["titulo"])}</h1>\n<p class="resumo">{H.escape(g["resumo"])}</p>\n'
                  f'<p class="meta">Guia independente · atualizado em novembro de 2026 · confirme sempre com a sua OM</p>\n'

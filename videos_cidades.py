@@ -56,8 +56,7 @@ for r in csv.reader(open(RAIZ / "dados/videos.tsv", encoding="utf-8"), delimiter
         cap = (f'{e(titulo)}{d}. Vídeo do nosso canal no YouTube, o Guia de Guarnições. '
                f'{yt} · <a href="https://www.youtube.com/channel/UCEF9dezRi8AT8xLC0eAaaZQ?sub_confirmation=1" target="_blank" rel="noopener">Inscreva-se no canal</a>')
     else:
-        cap = (f'{e(titulo)} · {e(canal)}{d}. Vídeo de terceiros, hospedado no YouTube; '
-               f'o conteúdo é de responsabilidade do canal. {yt}')
+        cap = f'{e(titulo)} · {e(canal)}{d}. Vídeo de terceiros. {yt}'
     sec = f'''
     <section class="sec" id="sec-video">
       <div><h2>Vídeo de {e(curto)}</h2><div class="eyebrow">{e(curto)} · {mes}</div></div>
