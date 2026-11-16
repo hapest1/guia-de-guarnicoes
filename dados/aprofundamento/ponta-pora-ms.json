@@ -1,0 +1,112 @@
+{
+ "slug": "ponta-pora-ms",
+ "lede": "Capital do antigo Território Federal de Ponta Porã, a cidade forma com Pedro Juan Caballero uma área urbana binacional, onde se fala português, espanhol e guarani e a roda de tereré une os dois lados.",
+ "cidade": {
+  "paragrafos": [
+   "O povoado surgiu entre os ervais nativos, numa rota de carreteiros de erva-mate. Em 1882, Tomás Laranjeira já explorava e exportava a erva para a Argentina, e em 1892 chegou à região a guarnição da Colônia Militar de Dourados, junto com migrantes gaúchos. O município foi criado em 18 de julho de 1912, desmembrado de Nioac, e o 11º Regimento de Cavalaria foi criado em 1919. Entre 1943 e 1946, a cidade foi capital do Território Federal de Ponta Porã. O Censo 2022 contou 92.017 moradores, e a estimativa do IBGE para 2026 é de 99.572.",
+   "A economia se apoia no agronegócio e no comércio de fronteira. Em 2023, o município plantou 318 mil hectares de soja, além de milho, trigo e cana-de-açúcar, e teve o quarto maior PIB de Mato Grosso do Sul, R$ 6,07 bilhões. O turismo de compras em Pedro Juan Caballero movimenta os serviços. Em 2025, os setores que mais empregavam com carteira eram a administração pública, o comércio varejista e a agropecuária. No ensino superior, há uma unidade da UEMS, no bairro da Granja.",
+   "A cidade fica a 755 m de altitude, na Serra de Amambai, e o município tem 5.359 km², com os distritos de Sanga Puitã, Nova Itamarati e Cabeceira do Apa. A Linha Internacional separa Ponta Porã de Pedro Juan Caballero; em alguns trechos, a faixa divisória tem de 50 metros a apenas 50 centímetros. A BR-463, com cerca de 112 km, liga a cidade a Dourados, e Campo Grande fica a cerca de 324 km. O Aeroporto Internacional de Ponta Porã, administrado pela Aena, terminou em 2026 obras que ampliaram o terminal de 770 m² para 3.760 m²."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Ponta Porã)",
+    "url": "https://pt.wikipedia.org/wiki/Ponta_Por%C3%A3"
+   },
+   {
+    "nome": "IBGE Cidades (Ponta Porã)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ms/ponta-pora.html"
+   },
+   {
+    "nome": "Sebrae Observatório (emprego em Ponta Porã, 2025)",
+    "url": "https://observatorio.sebrae.com.br/profile/geo/ponta-pora"
+   },
+   {
+    "nome": "Olhar Digital (Linha Internacional, set/2026)",
+    "url": "https://olhardigital.com.br/curiosidades/2026/09/09/a-cidade-brasileira-onde-o-pais-termina-no-meio-da-area-urbana-e-o-outro-lado-da-fronteira-ja-fala-outro-idioma-e-usa-outra-moeda/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Na semana encerrada em 31 de outubro de 2026, a ANP registrou em Ponta Porã gasolina comum a R$ 6,67 em média, etanol a R$ 4,01 e diesel comum a R$ 7,04 o litro. Como referência de alimentação, a cesta básica de Campo Grande custou R$ 848,51 em outubro de 2026, alta de 5,2% sobre setembro, segundo o DIEESE.",
+   "Muitos moradores fazem compras em Pedro Juan Caballero, onde a moeda é o guarani. Na volta ao Brasil por terra, a cota de isenção da Receita Federal é de US$ 500 por viajante, com limites por item, como 12 litros de bebida alcoólica e 10 maços de cigarro. Acima disso, as compras devem ser declaradas e pagam imposto."
+  ],
+  "fontes": [
+   {
+    "nome": "UOL Economia/ANP (combustível, nov/2026)",
+    "url": "https://economia.uol.com.br/noticias/redacao/2026/11/04/gasolina-em-ponta-pora-ms-ficou-mais-cara-ou-mais-barata-nesta-semana-veja-preco.ghtm"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Receita Federal (cotas de isenção)",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel"
+   },
+   {
+    "nome": "Olhar Digital (moeda e idiomas na fronteira, set/2026)",
+    "url": "https://olhardigital.com.br/curiosidades/2026/09/09/a-cidade-brasileira-onde-o-pais-termina-no-meio-da-area-urbana-e-o-outro-lado-da-fronteira-ja-fala-outro-idioma-e-usa-outra-moeda/"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Em Ponta Porã, o passeio mais característico é a própria Linha Internacional, somado à memória da erva-mate. Para natureza, o Parque dos Ervais fica na cidade e o Parque Nacional Cerro Corá, no Paraguai, rende um dia inteiro.",
+  "lugares": [
+   {
+    "nome": "Linha Internacional",
+    "km": "na cidade",
+    "desc": "Faixa de encontro entre Ponta Porã e Pedro Juan Caballero, com espaços públicos revitalizados e muito comércio. Bom para entender a vida binacional numa caminhada sem pressa."
+   },
+   {
+    "nome": "Parque dos Ervais",
+    "km": "na cidade",
+    "desc": "Principal parque urbano, no bairro da Granja, procurado para caminhadas. Funciona em dois turnos, das 6h às 10h e das 15h às 21h, segundo a página consultada; confirme antes de ir."
+   },
+   {
+    "nome": "Museu da Erva Mate Santo Antônio",
+    "km": "na cidade",
+    "desc": "Guarda fotografias e referências do ciclo da erva-mate, que formou a região. Visita curta que ajuda a família a entender a história local."
+   },
+   {
+    "nome": "Castelinho e Estação Ferroviária",
+    "km": "na cidade",
+    "desc": "Pontos do city tour municipal, com arquitetura e história urbana. Combinam com um passeio pelo centro."
+   },
+   {
+    "nome": "Exporã",
+    "km": "na cidade",
+    "desc": "Feira agropecuária anual no Parque de Exposições Alcindo Pereira, organizada pelo Sindicato Rural. A edição de agosto de 2026 reuniu mais de 50 mil visitantes."
+   },
+   {
+    "nome": "Parque Nacional Cerro Corá (Paraguai)",
+    "km": "~45 km de Pedro Juan Caballero",
+    "desc": "Maior área protegida do Paraguai, local da última batalha da Guerra do Paraguai, em 1870. Tem monumentos, museu, área de lazer à beira do rio Aquidabán e inscrições rupestres em cavernas."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Olhar Digital (o que fazer em Ponta Porã, set/2026)",
+    "url": "https://olhardigital.com.br/curiosidades/2026/09/09/a-cidade-brasileira-onde-o-pais-termina-no-meio-da-area-urbana-e-o-outro-lado-da-fronteira-ja-fala-outro-idioma-e-usa-outra-moeda/"
+   },
+   {
+    "nome": "Buser (Parque dos Ervais)",
+    "url": "https://www.buser.com.br/destinos/pontos-turisticos/ms/ponta-pora/parque-dos-ervais"
+   },
+   {
+    "nome": "Wikipédia (Ponta Porã)",
+    "url": "https://pt.wikipedia.org/wiki/Ponta_Por%C3%A3"
+   },
+   {
+    "nome": "Wikipedia (Cerro Corá National Park)",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Cor%C3%A1_National_Park"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Guarde as notas das compras em Pedro Juan Caballero: na volta por terra, a isenção é de US$ 500 por viajante, e o que passar disso deve ser declarado à Receita Federal.",
+  "Em abril de 2026, o Brasil promulgou o Acordo sobre Localidades Fronteiriças Vinculadas, que prevê o documento de trânsito vicinal fronteiriço (DTVF) para moradores de Ponta Porã e Pedro Juan Caballero. Informe-se sobre a emissão e siga também as regras da OM para atravessar.",
+  "Lembre que a moeda oficial do Paraguai é o guarani: ao atravessar a avenida, os preços mudam de moeda, então confira o câmbio antes das compras.",
+  "Se a família gosta de feiras, reserve agosto: é o mês da Exporã, um dos principais eventos da região de fronteira."
+ ]
+}

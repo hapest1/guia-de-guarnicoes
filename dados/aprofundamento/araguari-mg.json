@@ -1,0 +1,52 @@
+{
+ "slug": "araguari-mg",
+ "lede": "Berço dos primeiros cafezais do Cerrado Mineiro e antigo grande entroncamento ferroviário, Araguari tem cerca de 124 mil moradores e faz parte da região de Uberlândia, no Triângulo Mineiro.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu da vila de Brejo Alegre e recebeu o nome de Araguari ao virar cidade, pela Lei 3.591, de 28 de agosto de 1888. As ferrovias puxaram o crescimento: a Estrada de Ferro Goiás e a Companhia Mogiana fizeram de Araguari, no início do século XX, o maior entroncamento ferroviário do Brasil. Na década de 1930, já passava de 40 mil habitantes. O Censo 2022 contou 117.808 moradores, e a estimativa do IBGE para 2026 é de 123.959.",
+   "O café é a marca da economia: o município colhe em média 600 mil sacas por ano, em cerca de 20 mil hectares, com 90% das lavouras irrigadas. Também há soja, milho, laranja e tomate, do qual Araguari é o maior produtor de Minas, e fábricas de sucos. A cidade tem um terminal de transbordo ferroviário ligado aos portos de Santos, Rio, Vitória e Salvador. Em 2025, os setores que mais empregavam com carteira eram o comércio varejista, a administração pública e a fabricação de alimentos. O PIB per capita foi de R$ 58.217 em 2023. No ensino superior, o destaque é o Centro Universitário IMEPAC, que tem curso de Medicina.",
+   "A sede fica entre 940 e 1.087 m de altitude, junto ao rio Jordão, afluente do Paranaíba, e a área urbana ocupa cerca de 35 km² de um município de 2.730 km². Além da sede, há os distritos de Amanhece, Florestina e Piracaíba. O município faz divisa com Uberlândia e com quatro cidades de Goiás, como Catalão. Pelo IBGE, Araguari pertence às regiões geográficas intermediária e imediata de Uberlândia, cidade que completa o papel logístico da região. O centro concentra a prefeitura, no antigo Palácio dos Ferroviários, e as praças históricas."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Araguari)", "url": "https://pt.wikipedia.org/wiki/Araguari"},
+   {"nome": "IBGE Cidades (Araguari)", "url": "https://www.ibge.gov.br/cidades-e-estados/mg/araguari.html"},
+   {"nome": "Canal Rural (café e economia de Araguari, out/2026)", "url": "https://www.canalrural.com.br/alem-do-agro/2026/10/04/berco-dos-primeiros-cafezais-do-cerrado-mineiro-a-cidade-do-triangulo-colhe-em-media-600-mil-sacas-de-cafe-por-ano-com-90-das-lavouras-irrigadas/"},
+   {"nome": "Sebrae Observatório (emprego em Araguari, 2025)", "url": "https://observatorio.sebrae.com.br/profile/geo/araguari"},
+   {"nome": "IMEPAC (curso de Medicina)", "url": "https://imepac.edu.br/graduacao-presencial/medicina/"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A Lei municipal nº 7.291, de 18 de setembro de 2026, fixou a passagem de ônibus em R$ 1,00 nas linhas do perímetro urbano, R$ 5,00 para o distrito de Amanhece e R$ 10,00 para Piracaíba e Ararapira. A mesma lei isenta estudantes cadastrados e pessoas acima de 65 anos. A redução depende de decreto que fixa a data de início; antes dela, a tarifa urbana era de R$ 4,30.",
+   "Na semana de 27 de setembro a 3 de outubro de 2026, a ANP registrou em Araguari gasolina comum a R$ 6,22 em média, etanol a R$ 3,98 e diesel comum a R$ 6,68 o litro. Como referência de alimentação, a cesta básica de Belo Horizonte custou R$ 810,73 em outubro de 2026, segundo o DIEESE."
+  ],
+  "fontes": [
+   {"nome": "Leis.org (Lei nº 7.291/2026 de Araguari)", "url": "https://leis.org/municipais/mg/araguari/lei/lei-ordinaria/2026/7291/lei-ordinaria-n-7291-2026-institui-o-programa-municipal-de-fomento-ao-transporte-publico-coletivo-de-araguari-estabelece-tarifas-publicas-e-gratuidades-autoriza-a-concessao-de-subsidio-orcamentario-ao-sistema-municipal-de-transporte-publico-coletivo-e-da-outras"},
+   {"nome": "Gazeta do Triângulo (aprovação da tarifa de R$ 1, set/2026)", "url": "https://gazetadotriangulo.com.br/da-redacao-9-de-setembro-2/"},
+   {"nome": "OtimizaPro (tarifa anterior, Decreto nº 120/2022)", "url": "https://otimizapro.com/tarifa/mg/araguari"},
+   {"nome": "UOL Economia/ANP (combustível, out/2026)", "url": "https://economia.uol.com.br/noticias/redacao/2026/10/03/gasolina-sobe-em-araguari-mg-nesta-semana-veja-preco-do-litro.ghtm"},
+   {"nome": "DIEESE (cesta básica, out/2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Araguari mistura patrimônio ferroviário no centro e natureza de cerrado em volta, com cachoeiras e um parque estadual dividido com Uberlândia.",
+  "lugares": [
+   {"nome": "Palácio dos Ferroviários", "km": "na cidade", "desc": "Antiga estação da Estrada de Ferro Goiás, inaugurada em 1928, hoje sede da prefeitura. Tem um espaço de museu sobre a memória ferroviária da cidade."},
+   {"nome": "Locomotiva Número 1", "km": "na cidade", "desc": "Exposta em praça pública, foi fabricada em 1910 nos Estados Unidos e foi a primeira a rodar na Estrada de Ferro Goiás. As crianças costumam gostar de ver a máquina de perto."},
+   {"nome": "Bosque John Kennedy", "km": "na cidade", "desc": "Reserva florestal urbana preservada desde 1899, com trilhas pavimentadas e mais de 113 espécies de árvores nativas. Boa opção para caminhar com crianças na sombra."},
+   {"nome": "Casa da Cultura", "km": "na cidade", "desc": "Prédio eclético do fim da década de 1910, onde funcionaram cadeia e fórum e onde foi julgado o Caso dos Irmãos Naves. Hoje é centro cultural, com encenação teatral sobre o caso."},
+   {"nome": "Cachoeira das Irmãs", "km": "~17 km", "desc": "Queda de cerca de 45 m no Recanto das Irmãs, que tem sanitários e áreas de apoio. Outras cachoeiras do município, como a Copel (~20 km), exigem trilha."},
+   {"nome": "Viaduto do Fundão", "km": "no município", "desc": "Viaduto ferroviário de 1971, com cerca de 89 m de altura e 660 m de extensão, ainda em operação. Foi o mais alto do país quando inaugurado."},
+   {"nome": "Parque Estadual do Pau Furado", "km": "entre Araguari e Uberlândia", "desc": "Unidade de conservação de proteção integral do cerrado, com áreas de transição para a Mata Atlântica. Confira com o IEF as regras de visita antes de ir."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Araguari)", "url": "https://pt.wikipedia.org/wiki/Araguari"},
+   {"nome": "Canal Rural (Palácio dos Ferroviários, out/2026)", "url": "https://www.canalrural.com.br/alem-do-agro/2026/10/04/berco-dos-primeiros-cafezais-do-cerrado-mineiro-a-cidade-do-triangulo-colhe-em-media-600-mil-sacas-de-cafe-por-ano-com-90-das-lavouras-irrigadas/"}
+  ]
+ },
+ "antes_de_ir": [
+  "Confira com a prefeitura se o decreto que põe em vigor a passagem de R$ 1,00 já foi publicado. Pela Lei nº 7.291/2026, estudantes ficam isentos, mas precisam fazer cadastro prévio e pagar o custo do cartão.",
+  "Se for rodar muito de carro, compare etanol e gasolina: no início de outubro de 2026, o etanol custava cerca de 64% do preço da gasolina na cidade, segundo a ANP.",
+  "Para as cachoeiras, informe-se antes sobre o acesso: algumas têm estrutura, outras só se alcançam por trilhas usadas para trekking e mountain bike."
+ ]
+}
