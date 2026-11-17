@@ -1,0 +1,102 @@
+{
+ "slug": "bonfim-rr",
+ "lede": "Separada de Lethem, na Guiana, só pelo rio Tacutu, Bonfim forma uma pequena cidade binacional onde se ouve português e inglês na mesma rua, a 125 km de Boa Vista.",
+ "cidade": {
+  "paragrafos": [
+   "Bonfim foi criado pela Lei Federal nº 7.009, de 1º de julho de 1982, com terras desmembradas de Boa Vista. Segundo a Wikipédia, a cidade nasceu de um sítio religioso estadunidense, e metade da população da sede é guianense ou descendente. O Censo 2022 contou 13.923 moradores, e a estimativa mais recente do IBGE é de 15.922. Quase metade da população (46,5%) é indígena, sobretudo macuxi e wapixana, em comunidades da região da Serra da Lua.",
+   "A agropecuária responde por mais da metade da economia: soja, mandioca, banana, caju, milho, arroz irrigado, gado de corte e melancia, da qual o município é um dos principais produtores do estado. Em 2023, o PIB foi de R$ 772,9 milhões, o quarto maior de Roraima. Depois vem o setor público, com 28,6% do valor adicionado. O IFRR mantém na cidade o Campus Avançado Bonfim, com cursos técnicos, e a UERR oferece cursos a distância no polo UAB de Bonfim.",
+   "A zona urbana tem seis bairros: Centro, Getúlio Vargas, São Francisco, Cidade Nova, Primeiro de Julho e 13 de Maio. Só 36% dos moradores do município vivem na área urbana. A ponte binacional sobre o Tacutu, de 230 metros, foi inaugurada em 2009 e liga a cidade a Lethem, que é pequena e se percorre a pé. Boa Vista fica a 125 km pela BR-401, e é lá que estão o aeroporto e a maior parte dos serviços."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Bonfim, Roraima)",
+    "url": "https://pt.wikipedia.org/wiki/Bonfim_(Roraima)"
+   },
+   {
+    "nome": "Wikipédia (Lethem)",
+    "url": "https://pt.wikipedia.org/wiki/Lethem"
+   },
+   {
+    "nome": "IFRR Campus Avançado Bonfim",
+    "url": "https://bonfim.ifrr.edu.br/processo-seletivo/edital-02-2018-processo-seletivo-2019-1-curso-tecnico-em-administracao-subsequente/edital"
+   },
+   {
+    "nome": "MEC/CNE (Parecer CES 71/2022, polos UAB da UERR)",
+    "url": "https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/ces/2022/pces071_22.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Para o mercado, a referência é Boa Vista, a capital do estado, onde o DIEESE pesquisa a cesta básica. Em outubro de 2026 ela custou R$ 701,73, alta de 0,28% sobre setembro. Quem ganha salário mínimo comprometeu 46,80% da renda líquida com a cesta. Em 12 meses, a alta em Boa Vista (3,36%) foi a menor entre as 27 capitais. No combustível, Roraima teve a gasolina mais cara do país na primeira quinzena de novembro de 2026: média de R$ 7,61 o litro, segundo o Índice de Preços Ticket Log (IPTL).",
+   "Muitos brasileiros compram calçados, bicicletas, roupas e outros artigos nas lojas de Lethem. Na volta ao Brasil por terra, a cota de isenção da Receita Federal é de US$ 500 por pessoa a cada 30 dias. Acima disso, as compras devem ser declaradas e pagam imposto."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE (Cesta básica, outubro de 2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Times Brasil (IPTL, 1ª quinzena de novembro de 2026)",
+    "url": "https://timesbrasil.com.br/brasil/diesel-e-gasolina-ficam-mais-baratos-nos-postos-enquanto-etanol-sobe-na-primeira-quinzena-de-novembro-aponta-iptl/"
+   },
+   {
+    "nome": "Wikipédia (Lethem)",
+    "url": "https://pt.wikipedia.org/wiki/Lethem"
+   },
+   {
+    "nome": "Receita Federal (cotas de isenção)",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer de Bonfim gira em torno da fronteira: as lojas de Lethem, do outro lado da ponte, e as festas de rodeio dos dois lados do rio. Para cinema, shopping e parques, a família vai a Boa Vista.",
+  "lugares": [
+   {
+    "nome": "Ponte Brasil–Guiana sobre o rio Tacutu",
+    "km": "na cidade",
+    "desc": "Ponte binacional de 230 metros, inaugurada em 2009. Na margem guianense, um viaduto troca a mão de direção, porque a Guiana usa a mão inglesa."
+   },
+   {
+    "nome": "Comércio de Lethem",
+    "km": "do outro lado da ponte",
+    "desc": "Lojas de calçados, bicicletas, roupas e outros artigos, muito procuradas por brasileiros. A cidade é pequena e se percorre a pé, mas leve chapéu e água por causa do sol forte."
+   },
+   {
+    "nome": "Rodeio de Páscoa de Lethem",
+    "km": "do outro lado da ponte",
+    "desc": "O rodeio anual no fim de semana de Páscoa é o principal evento de Lethem. Para cruzar, é preciso cumprir as regras de imigração dos dois países."
+   },
+   {
+    "nome": "Festejo de Bonfim",
+    "km": "na cidade",
+    "desc": "Festa do município no Parque de Exposição Olavo Brasil Filho, com rodeio, corridas de cavalo, escolha da rainha e shows nacionais. A 34ª edição foi em abril de 2026."
+   },
+   {
+    "nome": "Boa Vista",
+    "km": "~125 km",
+    "desc": "A capital, pela BR-401, concentra as compras maiores, os serviços e o Aeroporto Internacional Atlas Brasil Cantanhede, com voos para o resto do país."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Lethem)",
+    "url": "https://pt.wikipedia.org/wiki/Lethem"
+   },
+   {
+    "nome": "Wikipédia (Bonfim, Roraima)",
+    "url": "https://pt.wikipedia.org/wiki/Bonfim_(Roraima)"
+   },
+   {
+    "nome": "Folha BV (Festejo de Bonfim, abril de 2026)",
+    "url": "https://www.folhabv.com.br/?p=625642"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Para entrar na Guiana, a Wikipédia indica passaporte válido e certificado internacional de vacinação contra a febre amarela. O carimbo de saída do Brasil é feito no posto da Polícia Federal em Bonfim, e a Guiana só carimba a entrada de quem já tem esse carimbo.",
+  "Quem for dirigir em Lethem precisa lembrar que a Guiana usa a mão inglesa. Lá, a maioria das ruas não é asfaltada e costuma alagar na época de chuvas, de junho a setembro.",
+  "Guarde as notas das compras feitas em Lethem: na volta, a cota de isenção por terra é de US$ 500 por pessoa a cada 30 dias, segundo a Receita Federal."
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "slug": "normandia-rr",
+ "lede": "Normandia deve o nome a um francês que se instalou ali por volta de 1948. Hoje quase nove em cada dez moradores são indígenas, e o Lago Caracaranã fica a cerca de 20 km.",
+ "cidade": {
+  "paragrafos": [
+   "O nome homenageia a região francesa da Normandia. Foi o nome que o parisiense Maurice Marcel Habert deu ao sítio onde se instalou por volta de 1948, depois de cruzar a Guiana até a fronteira com o Brasil. O sítio virou vila e depois cidade. O município foi criado pela Lei Federal nº 7.009, de 1982, com terras desmembradas de Boa Vista. O Censo 2022 contou 13.986 moradores, e a estimativa mais recente do IBGE é de 16.908. A população cresceu 56% desde 2010 e é muito jovem, com idade mediana de 17 anos.",
+   "Pelo Censo 2022, 89,1% dos moradores são indígenas, a maioria vivendo em terras indígenas. O município fica em parte na Terra Indígena Raposa Serra do Sol, homologada em 2005, onde vivem sobretudo macuxis, além de wapixanas, ingaricós, taurepangues e patamonas. Na economia, o setor público responde por 65,9% do valor adicionado, e a agropecuária por 20%, com gado, peixe, melancia, banana, mandioca e arroz. O PIB de 2023 foi de R$ 371 milhões.",
+   "A sede é a única localidade não indígena do município. Só 23% dos moradores vivem na área urbana. A ligação com Boa Vista é a BR-401, com 185 km. Segundo a Folha BV, quase 80 km, do entroncamento de acesso a Bonfim até Normandia, ainda não têm asfalto. Na cidade há agência dos Correios, agência bancária e um aeroporto."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Normandia, Roraima)",
+    "url": "https://pt.wikipedia.org/wiki/Normandia_(Roraima)"
+   },
+   {
+    "nome": "Wikipédia (Terra Indígena Raposa Serra do Sol)",
+    "url": "https://pt.wikipedia.org/wiki/Terra_Ind%C3%ADgena_Raposa_Serra_do_Sol"
+   },
+   {
+    "nome": "Wikipédia (BR-401)",
+    "url": "https://pt.wikipedia.org/wiki/BR-401"
+   },
+   {
+    "nome": "Folha BV (trecho sem asfalto da BR-401)",
+    "url": "https://www.folhabv.com.br/?p=584300"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Normandia não tem ônibus urbano, e o comércio é pequeno. As compras maiores costumam ser feitas em Boa Vista, a 185 km. Para o mercado, a referência é Boa Vista, a capital do estado, onde o DIEESE pesquisa a cesta básica. Em outubro de 2026 ela custou R$ 701,73, alta de 0,28% sobre setembro. Quem ganha salário mínimo comprometeu 46,80% da renda líquida com a cesta. Em 12 meses, a alta em Boa Vista (3,36%) foi a menor entre as 27 capitais.",
+   "No combustível, Roraima teve a gasolina mais cara do país na primeira quinzena de novembro de 2026: média de R$ 7,61 o litro, segundo o Índice de Preços Ticket Log (IPTL). Como a viagem até a capital tem trecho de terra, conte também com mais desgaste do carro."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Normandia, Roraima)",
+    "url": "https://pt.wikipedia.org/wiki/Normandia_(Roraima)"
+   },
+   {
+    "nome": "DIEESE (Cesta básica, outubro de 2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Times Brasil (IPTL, 1ª quinzena de novembro de 2026)",
+    "url": "https://timesbrasil.com.br/brasil/diesel-e-gasolina-ficam-mais-baratos-nos-postos-enquanto-etanol-sobe-na-primeira-quinzena-de-novembro-aponta-iptl/"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Normandia está ligado às comunidades da Terra Indígena Raposa Serra do Sol, que recebem visitantes com regras próprias. Combine a visita antes com a comunidade.",
+  "lugares": [
+   {
+    "nome": "Lago Caracaranã",
+    "km": "~20 km",
+    "desc": "Lago de águas claras com praias de areia fina e cajueiros nativos, num perímetro de 5,8 km. É considerado sagrado e é cuidado pela comunidade da Raposa: de 15% a 20% do valor da visitação vai para um fundo de manutenção e limpeza."
+   },
+   {
+    "nome": "Comunidade Indígena Raposa I (etnoturismo)",
+    "km": "perto do lago",
+    "desc": "Comunidade macuxi, a primeira de Roraima a operar oficialmente o etnoturismo em terra indígena. Os visitantes passam por um ritual de defumação e conhecem histórias, culinária e bebidas como a damorida. É possível pernoitar em rede ou barraca."
+   },
+   {
+    "nome": "Festival da Melancia",
+    "km": "na cidade",
+    "desc": "Festa do principal cultivo local, com feira do agronegócio, competições, atividades culturais e shows. A 20ª edição foi de 26 a 28 de março de 2026 e teve até concurso de maior comedor de melancia."
+   },
+   {
+    "nome": "Bonfim e Lethem (Guiana)",
+    "km": "~80 km de terra até o acesso a Bonfim",
+    "desc": "Na fronteira vizinha ficam as lojas de Lethem e o Festejo de Bonfim, em abril, com rodeio e shows. Para cruzar para a Guiana, é preciso cumprir as regras de imigração."
+   },
+   {
+    "nome": "Boa Vista",
+    "km": "~185 km",
+    "desc": "A capital concentra compras, serviços e o aeroporto com voos para o resto do país."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Lago Caracaranã)",
+    "url": "https://pt.wikipedia.org/wiki/Lago_Caracaran%C3%A3"
+   },
+   {
+    "nome": "Portal Amazônia (Lago Caracaranã)",
+    "url": "https://portalamazonia.com/bora-de-trip/lago-caracarana-guia-com-dicas/"
+   },
+   {
+    "nome": "Folha BV (visitação do Lago Caracaranã)",
+    "url": "https://www.folhabv.com.br/?p=62945"
+   },
+   {
+    "nome": "Ministério do Turismo (Experiências do Brasil Original: Comunidade Raposa I)",
+    "url": "https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/experiencias-do-brasil-original/copy_of_2023ComunidadeIndgenaRaposaIatualizadodefeso.pdf/@@display-file/file"
+   },
+   {
+    "nome": "Portal Amazônia (atrativos da Comunidade Raposa I)",
+    "url": "https://portalamazonia.com/turismo/tradicoes-milenares-saiba-quais-sao-os-atrativos-turisticos-da-comunidade-indigena-raposa-i/"
+   },
+   {
+    "nome": "Folha BV (Festival da Melancia)",
+    "url": "https://www.folhabv.com.br/tag/festival-da-melancia-2/"
+   },
+   {
+    "nome": "Folha BV (trecho sem asfalto da BR-401)",
+    "url": "https://www.folhabv.com.br/?p=584300"
+   },
+   {
+    "nome": "Wikipédia (Lethem)",
+    "url": "https://pt.wikipedia.org/wiki/Lethem"
+   },
+   {
+    "nome": "Folha BV (Festejo de Bonfim, abril de 2026)",
+    "url": "https://www.folhabv.com.br/?p=625642"
+   },
+   {
+    "nome": "Wikipédia (Normandia, Roraima)",
+    "url": "https://pt.wikipedia.org/wiki/Normandia_(Roraima)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare o carro para estrada de terra: quase 80 km da BR-401, entre o acesso a Bonfim e Normandia, ainda não têm asfalto. Na época das chuvas, consulte a situação da rodovia antes de sair.",
+  "A visita ao Lago Caracaranã e à Comunidade Raposa I segue as regras da comunidade, que fica dentro da Terra Indígena Raposa Serra do Sol. Combine antes com a coordenação de turismo da comunidade: o Ministério do Turismo divulga os contatos.",
+  "A taxa de visita ao lago muda com o tempo. Confirme o valor com a comunidade antes de ir e leve dinheiro em espécie."
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "slug": "pacaraima-rr",
+ "lede": "A 920 m de altitude, Pacaraima é o município mais alto da Região Norte, apelidado de \"Polo Norte de Roraima\". A cidade cresceu em torno do marco BV-8, na fronteira com a Venezuela.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu em torno do marco de fronteira BV-8, ligado à demarcação da fronteira com a Venezuela pelo Exército, e por muito tempo foi chamada de Vila Pacaraima ou simplesmente BV-8. Também atraiu migrantes do Nordeste vindos para o garimpo. O município foi emancipado pela Lei Estadual nº 96, de 17 de outubro de 1995, e instalado em 1º de janeiro de 1997. O Censo 2022 contou 19.305 moradores, 85% a mais que em 2010, e a estimativa mais recente do IBGE é de 24.132. Mais da metade da população (59,2%) é indígena, das etnias taurepang, macuxi e wapixana.",
+   "A sede funciona como entreposto comercial e atrai compradores do município venezuelano vizinho. Em 2023, o PIB foi de R$ 447,4 milhões. O setor público responde por 72,8% do valor adicionado, e os demais serviços por 19,9%. Desde fevereiro de 2018, a cidade é, com Boa Vista, um dos dois centros da Operação Acolhida, a operação federal de acolhimento humanitário de migrantes venezuelanos. A UERR mantém campus na cidade, e há polo UAB de ensino a distância.",
+   "O município fica dentro da Terra Indígena São Marcos, e a sede é a única localidade não indígena. A cidade fica num vale cercado por serras, com clima mais fresco que o resto do estado: a temperatura média anual é de 22,3 °C. Boa Vista fica a cerca de 220 km pela BR-174, asfaltada, com ônibus regulares e motoristas autônomos que fazem o trajeto. Santa Elena de Uairén, na Venezuela, fica a cerca de 15 km da fronteira."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Pacaraima)",
+    "url": "https://pt.wikipedia.org/wiki/Pacaraima"
+   },
+   {
+    "nome": "Wikipédia (Operação Acolhida)",
+    "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Acolhida"
+   },
+   {
+    "nome": "Wikipédia (Santa Elena de Uairén)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Elena_de_Uair%C3%A9n"
+   },
+   {
+    "nome": "UERR (campi no interior)",
+    "url": "https://uerr.edu.br/?p=1182"
+   },
+   {
+    "nome": "MEC/CNE (Parecer CES 71/2022, polos UAB da UERR)",
+    "url": "https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/ces/2022/pces071_22.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Para o mercado, a referência é Boa Vista, a capital do estado, onde o DIEESE pesquisa a cesta básica. Em outubro de 2026 ela custou R$ 701,73, alta de 0,28% sobre setembro. Quem ganha salário mínimo comprometeu 46,80% da renda líquida com a cesta. Em 12 meses, a alta em Boa Vista (3,36%) foi a menor entre as 27 capitais. No combustível, Roraima teve a gasolina mais cara do país na primeira quinzena de novembro de 2026: média de R$ 7,61 o litro, segundo o Índice de Preços Ticket Log (IPTL).",
+   "Do outro lado da fronteira, Santa Elena de Uairén é porto franco desde 1999, e moradores dos dois países fazem compras nas duas cidades. Na volta ao Brasil por terra, a cota de isenção da Receita Federal é de US$ 500 por pessoa a cada 30 dias. Acima disso, as compras devem ser declaradas."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE (Cesta básica, outubro de 2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Times Brasil (IPTL, 1ª quinzena de novembro de 2026)",
+    "url": "https://timesbrasil.com.br/brasil/diesel-e-gasolina-ficam-mais-baratos-nos-postos-enquanto-etanol-sobe-na-primeira-quinzena-de-novembro-aponta-iptl/"
+   },
+   {
+    "nome": "Wikipédia (Santa Elena de Uairén)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Elena_de_Uair%C3%A9n"
+   },
+   {
+    "nome": "Wikipédia (Pacaraima)",
+    "url": "https://pt.wikipedia.org/wiki/Pacaraima"
+   },
+   {
+    "nome": "Receita Federal (cotas de isenção)",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Pacaraima fica na porta da Gran Sabana e do Monte Roraima, com serras, clima ameno e sítios arqueológicos. Vários atrativos ficam em terra indígena e exigem autorização.",
+  "lugares": [
+   {
+    "nome": "Marco BV-8",
+    "km": "na cidade",
+    "desc": "Marco da fronteira Brasil–Venezuela que deu o primeiro nome à vila. É uma passagem de fronteira, mais do que um atrativo turístico, mas ajuda a entender a origem da cidade."
+   },
+   {
+    "nome": "Festas da cidade",
+    "km": "na cidade",
+    "desc": "A Micaraima, um carnaval fora de época, acontece no primeiro fim de semana depois do carnaval. A festa do padroeiro é em 4 de outubro."
+   },
+   {
+    "nome": "Santa Elena de Uairén (Venezuela)",
+    "km": "~15 km",
+    "desc": "Cidade venezuelana fundada em 1923, porto franco, com catedral de pedra de meados do século XX. É a base para passeios na Gran Sabana, e muitos moradores falam português."
+   },
+   {
+    "nome": "Sítio arqueológico da Pedra Pintada",
+    "km": "a 140 km de Boa Vista, pela BR-174",
+    "desc": "Bloco de granito com uma caverna na base e pinturas rupestres de cerca de 4 mil anos, na Terra Indígena São Marcos. Confirme antes com o Iphan e a comunidade se a visita é permitida."
+   },
+   {
+    "nome": "Trilha da Nova Esperança",
+    "km": "no município",
+    "desc": "Trilha na Terra Indígena São Marcos, com grande diversidade de fauna e flora. O acesso exige autorização da Funai."
+   },
+   {
+    "nome": "Monte Roraima",
+    "km": "via Venezuela",
+    "desc": "Tepui de 2.810 m na tríplice fronteira, que inspirou O Mundo Perdido, de Conan Doyle. A trilha usual sai de Paraitepui, aonde se chega de 4x4 a partir de Santa Elena, e leva de 7 a 9 dias com guia local."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Pacaraima)",
+    "url": "https://pt.wikipedia.org/wiki/Pacaraima"
+   },
+   {
+    "nome": "Wikipédia (Santa Elena de Uairén)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Elena_de_Uair%C3%A9n"
+   },
+   {
+    "nome": "Wikipédia (Monte Roraima)",
+    "url": "https://pt.wikipedia.org/wiki/Monte_Roraima"
+   },
+   {
+    "nome": "Portal Amazônia (sítios arqueológicos de Roraima)",
+    "url": "https://portalamazonia.com/cultura/sitios-arqueologicos-roraima/"
+   },
+   {
+    "nome": "Iphan-RR (folder do patrimônio cultural de Roraima)",
+    "url": "https://www.gov.br/iphan/pt-br/superintendencias/roraima/FolderPCRR_Final2.pdf"
+   },
+   {
+    "nome": "Airial (Marco BV-8)",
+    "url": "https://airial.travel/attractions/brazil/marco-bv-8-brazil-venezuela-border-91jojc3H"
+   },
+   {
+    "nome": "Mala de Aventuras (trilha do Monte Roraima)",
+    "url": "https://www.maladeaventuras.com/trilha-monte-roraima/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Leve agasalho: Pacaraima é chamada de \"Polo Norte de Roraima\" e as noites são bem mais frescas que em Boa Vista.",
+  "A cidade fica dentro da Terra Indígena São Marcos. Passeios como a Trilha da Nova Esperança exigem autorização da Funai, então peça antes de ir.",
+  "Para o Monte Roraima, reserve de 7 a 9 dias e contrate guia local. Guias de viagem pedem documento de identidade e certificado internacional de vacina contra febre amarela, mas confirme as exigências da Venezuela antes de cruzar a fronteira."
+ ]
+}
