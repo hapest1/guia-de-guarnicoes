@@ -1,0 +1,51 @@
+{
+ "slug": "uiramuta-rr",
+ "lede": "Município mais ao norte do Brasil, Uiramutã fica inteiro dentro da Terra Indígena Raposa Serra do Sol, entre serras, cachoeiras e os montes Caburaí e Roraima.",
+ "cidade": {
+  "paragrafos": [
+   "Uiramutã foi criado pela Lei estadual 098, de 17 de outubro de 1995, com terras desmembradas de Normandia e de Boa Vista. O nome significa \"local de espera de aves\". Pela tradição local, o primeiro morador foi o garimpeiro paraibano Severino Pereira da Silva, o Severino Mineiro. A Terra Indígena Raposa Serra do Sol, onde fica o município, foi homologada em 2005, e o Supremo Tribunal Federal confirmou a homologação em 2009. O Censo 2022 contou 13.751 moradores, 64% a mais que em 2010; a estimativa mais recente do IBGE passa de 16,8 mil.",
+   "É o município com maior proporção de indígenas do país: 96,6% dos moradores se declararam indígenas no Censo 2022, de povos como macuxi, ingarikó, patamona, taurepang e wapixana. A população é jovem, com idade mediana de 15 anos. A economia depende do setor público: administração, educação, saúde e seguridade responderam por 83,5% do valor adicionado em 2021, seguidas de serviços (8,9%) e agropecuária (6,1%). O PIB de 2023 foi de R$ 254,5 milhões.",
+   "O território tem cerca de 8 mil km² e faz fronteira com a Venezuela, a noroeste, e com a Guiana, ao norte e a leste. A sede, a cerca de 800 m de altitude, tem só 1.138 moradores, divididos em três bairros: Aeroporto, Venezuela e Centro; menos de 8% da população vive em área urbana. O acesso por terra a Boa Vista é feito pela RR-171, estrada sem pavimentação que passa pelas vilas Água Fria, Socó e Mutum até a BR-433. A região é cortada pelos rios Maú, Cotingo, Canã e Ailã."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Uiramutã)", "url": "https://pt.wikipedia.org/wiki/Uiramut%C3%A3"},
+   {"nome": "IBGE Cidades (Uiramutã)", "url": "https://www.ibge.gov.br/cidades-e-estados/rr/uiramuta.html"},
+   {"nome": "Wikipédia (Terra Indígena Raposa Serra do Sol)", "url": "https://pt.wikipedia.org/wiki/Terra_Ind%C3%ADgena_Raposa_Serra_do_Sol"},
+   {"nome": "Wikipédia (RR-171)", "url": "https://pt.wikipedia.org/wiki/RR-171"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Para combustível e alimentação, a referência é Boa Vista. Na coleta da ANP de 8 de julho de 2026, a gasolina comum na capital custava em média R$ 7,59 o litro, em 16 postos, com preços entre R$ 7,57 e R$ 7,70.",
+   "Na pesquisa do DIEESE de outubro de 2026, a cesta básica de Boa Vista custou R$ 701,73, alta de 3,36% em 12 meses e abaixo do valor da maioria das capitais."
+  ],
+  "fontes": [
+   {"nome": "Atlas Público, preços ANP em Boa Vista", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/rr/boa-vista"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "A paisagem de Uiramutã tem lavrado, serras e mais de 80 cachoeiras catalogadas. Todo o município está em terra indígena: visitas dependem de autorização das comunidades ou da Funai e de condutor indígena local ou agência especializada.",
+  "lugares": [
+   {"nome": "Corredeiras do Paiuá", "km": "~5 km", "desc": "Uma das áreas abertas à visitação, com acesso por estrada de piçarra, palhoça e churrasqueira. Dá nome ao festejo do Paiuá, festa local com escolha da rainha do festejo."},
+   {"nome": "Cachoeira do Urucá", "km": "~6 a 13 km (fontes divergem)", "desc": "Apontada como o atrativo mais procurado do município. Reportagens recentes relatam poluição por garimpo ilegal no igarapé que a alimenta; confirme as condições antes de ir."},
+   {"nome": "Cachoeira Sete Quedas", "km": "perto da sede", "desc": "Outra queda aberta à visitação, alcançada por trilha curta. Registros de trilha descrevem descida íngreme com cascalho solto: use calçado adequado."},
+   {"nome": "Monte Caburaí", "km": "no município", "desc": "Com 1.465 m, na serra do Caburaí, na fronteira com a Guiana, é o ponto mais setentrional do Brasil, cerca de 84,5 km mais ao norte que o cabo Orange, no Amapá. Ali nasce o rio Ailã."},
+   {"nome": "Monte Roraima e Parque Nacional do Monte Roraima", "km": "no município", "desc": "Tepui de topo plano na tríplice fronteira com Guiana e Venezuela, protegido no Brasil por um parque nacional de 1989 que se sobrepõe à terra indígena. A trilha mais usada parte do lado venezuelano, a partir de Santa Elena de Uairén; pelo lado brasileiro, a área é isolada."}
+  ],
+  "fontes": [
+   {"nome": "Folha BV, turismo em Uiramutã", "url": "https://www.folhabv.com.br/variedades/turismo-em-uiramuta-o-que-encontrar-na-cidade-mais-indigena-do-pais/"},
+   {"nome": "Portal Amazônia, Uiramutã", "url": "https://portalamazonia.com/cultura/turismo/conheca-uiramuta-o-municipio-com-maior-proporcao-de-indigenas-do-pais"},
+   {"nome": "Wikiloc, trilhas em Uiramutã", "url": "https://it.wikiloc.com/percorsi/escursionismo/brasile/roraima/uiramuta"},
+   {"nome": "Wikipédia (Monte Caburaí)", "url": "https://pt.wikipedia.org/wiki/Monte_Cabura%C3%AD"},
+   {"nome": "Wikipédia (Monte Roraima)", "url": "https://pt.wikipedia.org/wiki/Monte_Roraima"},
+   {"nome": "Wikipédia (Parque Nacional do Monte Roraima)", "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Monte_Roraima"}
+  ]
+ },
+ "antes_de_ir": [
+  "Antes de qualquer passeio, procure a Secretaria Municipal de Turismo e Meio Ambiente. A visita a cachoeiras e serras dentro da terra indígena depende de autorização da comunidade ou da Funai, e o passeio deve ser feito com condutor indígena local ou agência especializada.",
+  "Desconfie de pacotes vendidos para Uiramutã: reportagens locais relatam empresas que oferecem passeios sem autorização da Funai ou das comunidades.",
+  "Quem pensa em subir o Monte Roraima deve planejar a partir da Venezuela, por Santa Elena de Uairén. Pelo lado brasileiro, o acesso exige dias de caminhada ou pista de pouso.",
+  "A RR-171, principal acesso por terra, não é pavimentada. Confirme as condições da estrada antes de viajar, sobretudo no período chuvoso."
+ ]
+}

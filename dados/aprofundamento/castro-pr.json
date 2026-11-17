@@ -1,0 +1,52 @@
+{
+ "slug": "castro-pr",
+ "lede": "Nascida como pouso de tropeiros às margens do rio Iapó, Castro tem mais de 70 mil moradores, é a Capital Nacional do Leite e abriga a colônia holandesa de Castrolanda.",
+ "cidade": {
+  "paragrafos": [
+   "Castro começou como Pouso do Iapó, parada de tropeiros no Caminho de Sorocaba, que levava gado de Viamão (RS) à feira paulista. A data de fundação adotada é 1778. Em 1788 a freguesia de Sant'Ana do Iapó virou Vila Nova de Castro, em homenagem ao ministro português Martinho de Melo e Castro, e em 1857 ganhou foro de cidade. Durante a Revolução Federalista, em 1894, foi capital interina do Paraná. Depois vieram imigrantes poloneses, alemães, italianos, holandeses e, em 1958, japoneses. O Censo 2022 contou 73.075 moradores; a estimativa mais recente do IBGE passa de 76 mil.",
+   "A economia gira em torno do campo: soja, milho, feijão, batata e cenoura, além de gado leiteiro, suínos e aves. A bacia leiteira é considerada a principal do país em produtividade e genética. A Castrolanda, uma das maiores cooperativas agrícolas do Brasil, nasceu da colônia holandesa fundada entre 1951 e 1954. O município também extrai calcário e talco e tem indústria gráfica, moveleira, alimentícia e de pincéis.",
+   "O município é grande, com cerca de 2.531 km², e a sede fica a 988 m de altitude, no Primeiro Planalto, cortada pelo rio Iapó. Além da área urbana, há distritos como Socavão e Abapã, e Castrolanda é hoje um bairro do município. Na cidade, as paróquias ajudam a localizar os bairros: Centro, Vila Santa Cruz, Vila Rio Branco e Jardim Colonial. As ligações rodoviárias são a PR-151 (para Ponta Grossa e Jaguariaíva), a PR-090 e a PR-340. Curitiba fica a cerca de 159 km."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Castro, PR)", "url": "https://pt.wikipedia.org/wiki/Castro_(Paran%C3%A1)"},
+   {"nome": "Wikipédia (Castrolanda)", "url": "https://pt.wikipedia.org/wiki/Castrolanda"},
+   {"nome": "IBGE Cidades (Castro)", "url": "https://www.ibge.gov.br/cidades-e-estados/pr/castro.html"},
+   {"nome": "Wikipédia (Socavão)", "url": "https://pt.wikipedia.org/wiki/Socav%C3%A3o"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Na coleta da ANP de 8 de outubro de 2026, a gasolina comum em Castro custava em média R$ 6,98 o litro, em 9 postos pesquisados, com preços entre R$ 6,86 e R$ 7,19.",
+   "Castro não entra na pesquisa da cesta básica do DIEESE. A referência paranaense é Curitiba, onde a cesta custou R$ 866,93 em outubro de 2026, alta de 13,8% em 12 meses. A ficha já registra que há poucos anúncios de aluguel on-line na cidade."
+  ],
+  "fontes": [
+   {"nome": "Atlas Público, preços ANP em Castro", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/pr/castro"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O passeio em Castro mistura história tropeira, herança holandesa e natureza dos Campos Gerais. No Centro ficam museu, igreja e casarões; fora dele, o moinho de Castrolanda e o Cânion Guartelá.",
+  "lugares": [
+   {"nome": "Moinho De Immigrant e Centro Cultural Castrolanda", "km": "~10 km", "desc": "Moinho de vento de estilo holandês inaugurado em 2001, que mói farinha e abriga o Memorial da Imigração Holandesa. No conjunto há restaurante, museu, biblioteca e venda de artesanato e souvenirs da colônia."},
+   {"nome": "Museu do Tropeiro", "km": "na cidade", "desc": "Primeiro museu do tropeiro do Brasil, numa casa de estuque do século XVIII na Praça Dr. Getúlio Vargas. O acervo tem cerca de 400 peças sobre a vida tropeira, arte sacra e artesanato."},
+   {"nome": "Casa da Cultura Emília Erichsen", "km": "na cidade", "desc": "Prédio na Rua Dr. Jorge Xavier da Silva onde funcionou, em 1862, o primeiro jardim de infância do Brasil, fundado por Emília Erichsen."},
+   {"nome": "Prainha (Parque Balneário Dr. Libânio Estanislau Cardoso)", "km": "na cidade", "desc": "Praia de rio no Iapó, dentro do perímetro urbano, com cascata, lanchonete, campos de futebol, quadra, churrasqueira e ringue de patinação."},
+   {"nome": "Morro do Cristo", "km": "na cidade", "desc": "Um dos pontos mais altos de Castro, com estátua do Cristo Redentor, mirante para a cidade e um pequeno parque de diversões. Acesso pela Rua Coronel Olegário de Macedo."},
+   {"nome": "Paróquia Sant'Ana", "km": "na cidade", "desc": "Igreja matriz no Centro, com origem numa capela de 1704 e aspecto atual concluído em 1876. A segunda torre, reconstruída sem quatro pilares, virou marca da história local."},
+   {"nome": "Cânion e Parque Estadual do Guartelá", "km": "~40 km", "desc": "Cânion de cerca de 30 km escavado pelo rio Iapó, entre Castro e Tibagi, considerado o mais longo do Brasil. O parque estadual tem centro de visitantes, abre de quarta a domingo e feriados, das 9h às 18h, e não cobra entrada."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Castro, PR), seção Turismo", "url": "https://pt.wikipedia.org/wiki/Castro_(Paran%C3%A1)"},
+   {"nome": "Wikipédia (De Immigrant)", "url": "https://pt.wikipedia.org/wiki/De_Immigrant"},
+   {"nome": "Wikipédia (Museu do Tropeiro)", "url": "https://pt.wikipedia.org/wiki/Museu_do_Tropeiro"},
+   {"nome": "Wikipédia (Cânion Guartelá)", "url": "https://pt.wikipedia.org/wiki/C%C3%A2nion_Guartel%C3%A1"},
+   {"nome": "Wikipédia (Parque Estadual do Guartelá)", "url": "https://pt.wikipedia.org/wiki/Parque_Estadual_do_Guartel%C3%A1"}
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare a casa para o frio: a média de julho fica perto de 12,5 °C, e o INMET já registrou −8,4 °C em agosto de 1963. Geadas são comuns e a neve aparece em alguns invernos.",
+  "O Parque Estadual do Guartelá fecha às segundas e terças. Programe a visita de quarta a domingo, entre 9h e 18h.",
+  "As grutas e cachoeiras do distrito de Socavão ficam, em geral, em propriedades particulares e sem estrutura turística. Peça autorização ao dono antes de entrar.",
+  "O município passa de 2.500 km². Se for morar ou trabalhar em Castrolanda, Socavão ou Abapã, conte com carro para ir à sede."
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "lapa-pr",
+ "lede": "Antigo pouso de tropeiros e palco do Cerco da Lapa, em 1894, a Lapa tem cerca de 45 mil moradores, casario tombado e economia que mistura indústria, frutas de caroço e leite.",
+ "cidade": {
+  "paragrafos": [
+   "A Lapa nasceu por volta de 1731 como o pouso de Capão Alto, no Caminho das Tropas, que levava o gado do Rio Grande do Sul até Sorocaba (SP). Em 13 de junho de 1769 foi instalada a freguesia de Santo Antônio, data que a cidade comemora como fundação. Virou Vila Nova do Príncipe em 1806 e cidade da Lapa em 1872. Na Revolução Federalista, entre janeiro e fevereiro de 1894, as tropas legalistas comandadas por Gomes Carneiro resistiram 26 dias ao cerco dos federalistas; o general morreu em combate, e o episódio ficou conhecido como Cerco da Lapa. O Censo 2022 contou 45.003 moradores, e a estimativa mais recente do IBGE fica perto de 45,9 mil.",
+   "O PIB passou de R$ 2,6 bilhões em 2023 (IBGE). Em 2021, a indústria respondia por cerca de 36% do valor adicionado, os serviços por 34% e a agropecuária por 20%. No campo há soja, milho, feijão, batata e uma das maiores áreas de frutas de caroço do Paraná, como pêssego, ameixa e nectarina. A produção de leite abastece Curitiba e laticínios da região, e a avicultura fornece a uma indústria alimentícia de grande porte. A cidade sedia a Cooperativa Agroindustrial Bom Jesus e empresas como Naturalat, Café da Lapa e Mega Placas. No ensino superior, há a Faculdade Educacional da Lapa (Fael).",
+   "O município é grande, com cerca de 2.094 km², e a sede fica a 908 m de altitude. A Lapa integra a Região Metropolitana de Curitiba e fica a pouco mais de 60 km da capital. A BR-476, rodovia sob concessão e conhecida como Rota do Mercosul, corta a cidade e segue para o sul do Paraná e Santa Catarina. Rodovias estaduais ligam a sede a Campo do Tenente, Porto Amazonas e ao distrito de Santo Amaro. O centro histórico concentra praças, museus e comércio; no interior há localidades de imigração, como Johannesdorf e a Colônia São Carlos, de origem italiana."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Lapa, PR)", "url": "https://pt.wikipedia.org/wiki/Lapa_(Paraná)"},
+   {"nome": "Wikipédia (Cerco da Lapa)", "url": "https://pt.wikipedia.org/wiki/Cerco_da_Lapa"},
+   {"nome": "IBGE Cidades (Lapa), histórico", "url": "https://cidades.ibge.gov.br/brasil/pr/lapa/historico"},
+   {"nome": "IBGE Cidades (Lapa), panorama", "url": "https://cidades.ibge.gov.br/brasil/pr/lapa/panorama"},
+   {"nome": "IBGE/SIDRA, Censo 2022 (tabela 4709)", "url": "https://sidra.ibge.gov.br/tabela/4709"},
+   {"nome": "IBGE/SIDRA, estimativas de população (tabela 6579)", "url": "https://sidra.ibge.gov.br/tabela/6579"},
+   {"nome": "IBGE/SIDRA, PIB dos municípios (tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A Lapa não entra na pesquisa da cesta básica do DIEESE. A referência é Curitiba, onde a cesta custou R$ 866,93 em outubro de 2026, alta de 2,97% sobre setembro e de 13,80% em 12 meses. O valor equivale a 57,82% do salário mínimo líquido.",
+   "Não há preço semanal de combustível publicado para a cidade nas fontes consultadas. Como referência, a média nacional da gasolina comum medida pela ANP na semana de 1 a 7 de novembro de 2026 foi de R$ 6,47 por litro. Para quem vai muito a Curitiba, a passagem do ônibus urbano da capital ficou mantida em R$ 6 em 2026."
+  ],
+  "fontes": [
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"},
+   {"nome": "Garagem360, preços ANP da semana de 1 a 7/11/2026", "url": "https://garagem360.com.br/?p=322734"},
+   {"nome": "Prefeitura de Curitiba, tarifa de ônibus em 2026", "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer na Lapa gira em torno da história: casarões, museus e monumentos do Cerco ficam a poucas quadras uns dos outros. Na saída da cidade, o Parque Estadual do Monge junta trilha, mirante e turismo religioso.",
+  "lugares": [
+   {"nome": "Casa Lacerda", "km": "na cidade", "desc": "Casarão de 1842 a 1845, tombado pelo IPHAN em 1938 e hoje museu federal. Reproduz uma residência da elite campeira do século XIX; ali foi assinada a capitulação da cidade em 1894."},
+   {"nome": "Panteão dos Heróis", "km": "na cidade", "desc": "Monumento inaugurado em 1944 que guarda os restos de Gomes Carneiro e de outros mortos do Cerco da Lapa. Na fachada mantém a grafia antiga, Panteon dos Heroes."},
+   {"nome": "Teatro São João", "km": "na cidade", "desc": "Inaugurado em 1876, é um dos teatros mais antigos do Paraná e faz parte do roteiro do centro histórico."},
+   {"nome": "Casa Vermelha", "km": "na cidade", "desc": "Reúne o Museu dos Tropeiros, a Sala da Congada e um centro de artesanato. Boa parada para entender a origem tropeira da cidade."},
+   {"nome": "Congada da Lapa", "km": "na cidade", "desc": "Uma das manifestações afro-brasileiras mais antigas do Sul, com registros desde o início do século XIX. Acontece todo 26 de dezembro, em devoção a São Benedito, e é patrimônio imaterial do município e do estado."},
+   {"nome": "Parque Estadual do Monge", "km": "~2 km do centro, em linha reta", "desc": "Área de 371,6 hectares de mata atlântica, com a Gruta do Monge, a trilha da Pedra Partida e dois mirantes sobre a cidade. Tem quiosques e banheiros; a gruta fica ao fim de uma escadaria de 224 degraus."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Casa Lacerda)", "url": "https://pt.wikipedia.org/wiki/Casa_Lacerda"},
+   {"nome": "Wikipédia (Panteão dos Heróis)", "url": "https://pt.wikipedia.org/wiki/Panteão_dos_Heróis"},
+   {"nome": "Wikipédia (Lapa, PR)", "url": "https://pt.wikipedia.org/wiki/Lapa_(Paraná)"},
+   {"nome": "Wikipédia (Congada da Lapa)", "url": "https://pt.wikipedia.org/wiki/Congada_da_Lapa"},
+   {"nome": "Wikipédia (Parque Estadual do Monge)", "url": "https://pt.wikipedia.org/wiki/Parque_Estadual_do_Monge"},
+   {"nome": "Wikipédia (Turismo no Paraná)", "url": "https://pt.wikipedia.org/wiki/Turismo_no_Paraná"}
+  ]
+ },
+ "antes_de_ir": [
+  "Para a Gruta do Monge, use calçado firme: o acesso é por uma escadaria de pedra de 224 degraus.",
+  "Se chegar no fim do ano, reserve o dia 26 de dezembro para a Congada da Lapa, a única ainda ativa no Paraná.",
+  "Prove a cozinha tropeira local, que tem pratos próprios como o virado lapeano, a quirera lapeana, o arroz tropeiro e a coxinha de farofa.",
+  "Consulte o calendário de eventos da prefeitura: a cidade tem festas fixas como o Dia do Tropeiro, a Festa de São Benedito, o Festival da Primavera, o Festival de Cinema e o Festival de Voo Livre."
+ ]
+}

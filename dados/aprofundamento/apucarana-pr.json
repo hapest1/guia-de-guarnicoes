@@ -1,0 +1,57 @@
+{
+ "slug": "apucarana-pr",
+ "lede": "Capital nacional do boné, Apucarana tem cerca de 135 mil moradores no alto do norte do Paraná, entre Londrina e Maringá, e forte herança japonesa e ucraniana.",
+ "cidade": {
+  "paragrafos": [
+   "Apucarana nasceu na década de 1930, no loteamento da Companhia de Terras Norte do Paraná, a mesma que fundou Londrina e Maringá. Foi planejada como núcleo de abastecimento da zona rural e cresceu com a madeira, a ferrovia e, entre as décadas de 1940 e 1970, o café. Vieram migrantes paulistas e imigrantes japoneses, ucranianos, alemães e poloneses. O município foi instalado em 28 de janeiro de 1944, desmembrado de Londrina. O Censo 2022 contou 130.134 moradores; a estimativa mais recente do IBGE passa de 135 mil.",
+   "O boné deu fama à cidade: em 2008 o setor gerava cerca de 6 mil empregos diretos e 4 mil indiretos e respondia por cerca de 80% da produção nacional. Hoje também se destacam as indústrias metal-mecânica, eletroacústica, de baterias automotivas, agroquímicos e rações, além do couro. Comércio e serviços já eram 48% do PIB em 2015. No ensino superior há duas universidades públicas, UTFPR e Unespar, as faculdades particulares Facnopar e FAP e polos a distância da UAB e da Unicesumar.",
+   "O município tem cerca de 548 km², e a sede fica a cerca de 840 m de altitude. Além da cidade, há os distritos de Pirapó, São Pedro, Correia de Freitas e Vila Reis. A BR-369 liga Apucarana a Arapongas, Cambé e Londrina. O ônibus urbano usa um Terminal Urbano, mas desde agosto de 2026 a troca de linha pode ser feita em qualquer ponto. O aeroporto municipal Capitão João Busse, a cerca de 10 km do Centro, recebe voos particulares e táxi aéreo. Apucarana é sede de uma região metropolitana de 23 municípios do Vale do Ivaí, criada em 2015."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Apucarana)", "url": "https://pt.wikipedia.org/wiki/Apucarana"},
+   {"nome": "Wikipedia em inglês (Apucarana)", "url": "https://en.wikipedia.org/wiki/Apucarana"},
+   {"nome": "IBGE Cidades (Apucarana)", "url": "https://www.ibge.gov.br/cidades-e-estados/pr/apucarana.html"},
+   {"nome": "Wikipédia (Aeroporto de Apucarana)", "url": "https://pt.wikipedia.org/wiki/Aeroporto_de_Apucarana"},
+   {"nome": "Wikipédia (Região Metropolitana de Apucarana)", "url": "https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_de_Apucarana"},
+   {"nome": "Wikipédia (Londrina), rodovias", "url": "https://pt.wikipedia.org/wiki/Londrina"},
+   {"nome": "Diário do Transporte, integração tarifária em Apucarana (jul/2026)", "url": "https://diariodotransporte.com.br/2026/07/11/apucarana-pr-lanca-sistema-de-integracao-tarifaria-e-elimina-troca-obrigatoria-de-onibus-no-terminal-urbano/"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano custa R$ 5,20 desde 14 de dezembro de 2025; a meia estudantil, R$ 2,60. Quem usa duas passagens por dia útil gasta perto de R$ 229 por mês. Desde 10 de agosto de 2026, com o programa Apucarana Integrada, a troca de linha em qualquer ponto sai pelo preço de uma tarifa, mas só para quem paga com o Cartão Passe Fácil ou o aplicativo BiPay.",
+   "Na coleta da ANP de 9 de julho de 2026, a gasolina comum custava em média R$ 6,53 o litro em Apucarana, em 10 postos, com preços entre R$ 6,47 e R$ 6,79. Apucarana não entra na pesquisa da cesta básica do DIEESE; em Curitiba, a referência paranaense, a cesta custou R$ 866,93 em outubro de 2026."
+  ],
+  "fontes": [
+   {"nome": "Diário do Transporte, reajuste da tarifa de Apucarana (dez/2025)", "url": "https://diariodotransporte.com.br/2025/12/13/apucarana-pr-autoriza-reajuste-de-83-na-tarifa-do-transporte-coletivo-a-partir-de-domingo-14/"},
+   {"nome": "Bem Paraná, integração aberta no transporte de Apucarana", "url": "https://www.bemparana.com.br/noticias/parana/cidadesdoparana/transporte-coletivo-de-apucarana-ganha-integracao-aberta-e-deve-beneficiar-15-mil-passageiros/"},
+   {"nome": "Atlas Público, preços ANP em Apucarana", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/pr/apucarana"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "Em Apucarana o lazer passa pela cultura japonesa e pela memória do café. Para parques maiores, Londrina e Maringá ficam perto.",
+  "lugares": [
+   {"nome": "Festa da Cerejeira", "km": "na cidade", "desc": "Festa anual da cultura japonesa. As primeiras cem cerejeiras foram plantadas por descendentes de japoneses nos anos 1980, e hoje a cidade tem mais de 20 mil."},
+   {"nome": "Museu Histórico Regional (Museu do Café)", "km": "no distrito de Pirapó", "desc": "Funciona na antiga estação de trem de Pirapó e conta a história local e do café desde a década de 1930."},
+   {"nome": "Feicafé", "km": "no distrito de Pirapó", "desc": "Festa de setembro que comemora o fim da colheita do café, com shows, barracas de comida, parque de diversões e concurso da rainha do café."},
+   {"nome": "Lago Igapó", "km": "~60 km", "desc": "Lago de Londrina inaugurado em 1959, com projeto de revitalização paisagística de Burle Marx que inclui jardim com 187 espécies nativas."},
+   {"nome": "Parque do Ingá", "km": "em Maringá", "desc": "Área de mata nativa com lago, inaugurada em 1971, com cerca de 47 hectares e Jardim Japonês aberto em 1978."},
+   {"nome": "Catedral de Maringá", "km": "em Maringá", "desc": "Catedral Basílica de Nossa Senhora da Glória, com 124 m de altura, apontada como o segundo monumento mais alto da América do Sul."}
+  ],
+  "fontes": [
+   {"nome": "Wikipedia em inglês (Apucarana), cultura", "url": "https://en.wikipedia.org/wiki/Apucarana"},
+   {"nome": "Wikipédia (Apucarana), cultura", "url": "https://pt.wikipedia.org/wiki/Apucarana"},
+   {"nome": "Wikipédia (Pirapó, Apucarana)", "url": "https://pt.wikipedia.org/wiki/Pirap%C3%B3_(Apucarana)"},
+   {"nome": "Wikipédia (Londrina), Lago Igapó", "url": "https://pt.wikipedia.org/wiki/Londrina"},
+   {"nome": "Wikipédia (Parque do Ingá)", "url": "https://pt.wikipedia.org/wiki/Parque_do_Ing%C3%A1_Prefeito_Adriano_Jos%C3%A9_Valente"},
+   {"nome": "Wikipédia (Maringá), pontos turísticos", "url": "https://pt.wikipedia.org/wiki/Maring%C3%A1"}
+  ]
+ },
+ "antes_de_ir": [
+  "Faça logo o Cartão Passe Fácil ou baixe o aplicativo BiPay: só com eles a troca de ônibus sai sem pagar outra passagem.",
+  "O inverno é mais fresco que no resto do norte do Paraná. A média de julho fica perto de 15 °C, e o Simepar já registrou −4,1 °C. Leve agasalhos e cobertores.",
+  "Para passear no Museu do Café ou na Feicafé, programe a ida ao distrito de Pirapó; a festa acontece em setembro.",
+  "O aeroporto da cidade atende sobretudo voos particulares e táxi aéreo. Para voos comerciais, consulte as opções de Londrina e Maringá."
+ ]
+}
