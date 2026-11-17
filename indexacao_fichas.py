@@ -6,8 +6,9 @@ fichas ainda não aprofundadas: curtas e montadas sobre o mesmo modelo. Elas
 continuam no ar e acessíveis pelo site, mas ficam fora do índice do Google
 (noindex,follow) e fora do sitemap.xml até serem aprofundadas.
 
-Regra: a ficha é indexada se tiver dados/aprofundamento/<slug>.json OU se o
-conteúdo principal tiver pelo menos MIN_PALAVRAS palavras (fichas escritas à mão).
+Regra: a ficha é indexada se já foi aprofundada (tem dados/aprofundamento/<slug>.json
+e a seção "A cidade" na página) OU se o conteúdo principal tiver pelo menos
+MIN_PALAVRAS palavras (fichas escritas à mão).
 
 Idempotente. Rode de novo depois de aprofundar fichas:
     python3 aprofundar_fichas.py && python3 indexacao_fichas.py
@@ -39,7 +40,7 @@ def main():
         if slug in IGNORAR:
             continue
         h = orig = p.read_text(encoding="utf-8")
-        ok = slug in aprof or palavras(h) >= MIN_PALAVRAS
+        ok = (slug in aprof and 'id="sec-cidade"' in h) or palavras(h) >= MIN_PALAVRAS
         (indexar if ok else fora).append(slug)
         h = h.replace(NOINDEX if ok else INDEX, INDEX if ok else NOINDEX, 1)
         if h != orig:

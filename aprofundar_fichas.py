@@ -11,7 +11,7 @@ Lê dados/aprofundamento/<slug>.json e, na ficha <slug>.html:
 - refaz o índice de atalhos da ficha.
 
 Cada bloco inserido fica entre <!-- aprof:x --> e <!-- /aprof:x -->, então dá
-para rodar de novo depois de editar um JSON:  python3 aprofundar_fichas.py
+para rodar de novo depois de editar um JSON:  python3 aprofundar_fichas.py [slug ...]
 """
 import html as H
 import json
@@ -178,8 +178,12 @@ def processa(slug, d):
 
 
 def main():
+    import sys
+    so = set(sys.argv[1:])  # opcional: aplica só estes slugs (ex.: os já revisados)
     alt = []
     for j in sorted((RAIZ / "dados" / "aprofundamento").glob("*.json")):
+        if so and j.stem not in so:
+            continue
         d = json.loads(j.read_text(encoding="utf-8"))
         if processa(d["slug"], d):
             alt.append(d["slug"])
