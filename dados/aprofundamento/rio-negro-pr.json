@@ -1,0 +1,128 @@
+{
+ "slug": "rio-negro-pr",
+ "lede": "Rio Negro e Mafra (SC) formam uma só mancha urbana de cerca de 86 mil pessoas, dividida pelo rio e pela divisa, com forte herança alemã e a maior colônia bucovina do mundo.",
+ "cidade": {
+  "paragrafos": [
+   "A região era o Sertão da Mata, pouso de tropeiros e posto fiscal na Estrada da Mata, entre a Lapa e Lages. Em 1826, João da Silva Machado, depois Barão de Antonina, fundou a povoação de Capela do Rio Negro. Famílias alemãs chegaram em 1829; bucovinos, alemães de raízes bávaras vindos da Bucovina, chegaram em 1887 e 1888; poloneses, em 1890. O município foi criado em 1870, separado da Lapa. Com o acordo de limites de 1916 entre Paraná e Santa Catarina, a margem esquerda do rio passou a SC e virou Mafra. O Censo 2022 contou 31.324 moradores em Rio Negro, e a estimativa mais recente do IBGE fica perto de 32 mil; somada a Mafra (55.286 no Censo), a área urbana passa de 86 mil pessoas.",
+   "O PIB de Rio Negro passou de R$ 1,4 bilhão em 2023 (IBGE). Em 2021, os serviços respondiam por cerca de 37% do valor adicionado, a indústria por 35%, a administração pública por 14% e a agropecuária por 14%. A região fica no principal corredor rodoferroviário entre o Sul e o resto do país, com a BR-116, a BR-280 e a ferrovia hoje operada pela Rumo, que mantém em Mafra um grande complexo de manutenção de vagões. Mafra concentra órgãos federais e estaduais, como Justiça Federal, Receita Federal e INSS. No ensino superior, Rio Negro tem polo da Universidade Aberta do Brasil desde 2008, e a Universidade do Contestado (UnC) tem campus em Mafra, com curso de Medicina autorizado em 2017.",
+   "O município tem cerca de 605 km², e a sede fica a 780 m de altitude, na margem direita do rio Negro. As duas cidades se ligam pela Ponte Metálica e pela ponte Rodrigo Ajace. Do lado paranaense ficam bairros como o Centro, Campo do Gado, Bom Jesus e Tijuco Preto; do lado catarinense, Faxinal, Vila Nova e Alto de Mafra. Uma linha de ônibus, a Faxinal/Bom Jesus, atravessa as duas cidades. Mafra fica a 105 km de Curitiba e a 134 km de Joinville; o porto de São Francisco do Sul fica a cerca de 120 km de Rio Negro."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Rio Negro, PR)",
+    "url": "https://pt.wikipedia.org/wiki/Rio_Negro_(município_do_Paraná)"
+   },
+   {
+    "nome": "Wikipédia (Mafra, SC)",
+    "url": "https://pt.wikipedia.org/wiki/Mafra_(Santa_Catarina)"
+   },
+   {
+    "nome": "Wikipédia (Universidade do Contestado)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_do_Contestado"
+   },
+   {
+    "nome": "IBGE Cidades (Rio Negro), histórico",
+    "url": "https://cidades.ibge.gov.br/brasil/pr/rio-negro/historico"
+   },
+   {
+    "nome": "IBGE Cidades (Rio Negro), panorama",
+    "url": "https://cidades.ibge.gov.br/brasil/pr/rio-negro/panorama"
+   },
+   {
+    "nome": "IBGE/SIDRA, Censo 2022 (tabela 4709)",
+    "url": "https://sidra.ibge.gov.br/tabela/4709"
+   },
+   {
+    "nome": "IBGE/SIDRA, estimativas de população (tabela 6579)",
+    "url": "https://sidra.ibge.gov.br/tabela/6579"
+   },
+   {
+    "nome": "IBGE/SIDRA, PIB dos municípios (tabela 5938)",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O ônibus que liga Rio Negro a Mafra está em transição: em outubro de 2026, o consórcio intermunicipal de mobilidade das duas cidades (CIMU) abriu licitação para contratar a empresa da ligação, depois de um período de crise e operações provisórias. Confirme o valor da passagem com as prefeituras ao chegar.",
+   "Rio Negro não entra na pesquisa da cesta básica do DIEESE. A referência paranaense é Curitiba, onde a cesta custou R$ 866,93 em outubro de 2026, alta de 13,80% em 12 meses."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte, licitação da ligação Rio Negro–Mafra (06/10/2026)",
+    "url": "https://diariodotransporte.com.br/2026/10/06/rio-negro-pr-e-mafra-sc-buscam-empresa-para-ligacao-de-onibus-apos-historico-de-crise-e-operacoes-provisorias/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O programa em Rio Negro é atravessar a ponte: as duas cidades dividem atrações, festas e cinema. Do lado paranaense, o antigo seminário franciscano virou parque com trilhas e museu.",
+  "lugares": [
+   {
+    "nome": "Parque Ecoturístico Municipal São Luís de Tolosa",
+    "km": "na cidade",
+    "desc": "Ocupa o antigo Seminário Seráfico, de 1923, hoje sede da prefeitura. Tem trilhas com gruta e capelinha, a Capela Cônego José Ernser, com pinturas murais, e o Cine Seminário."
+   },
+   {
+    "nome": "Museu Professora Maria José França Foohs",
+    "km": "na cidade",
+    "desc": "Fica dentro do parque, nos antigos refeitórios dos franciscanos, e mostra usos e costumes das etnias da região. No parque também está o presépio de palha de milho de Meinrad Horn, com cerca de 1.700 personagens."
+   },
+   {
+    "nome": "Ponte Metálica Dr. Dinis Assis Henning",
+    "km": "na cidade",
+    "desc": "Ponte de ferro feita na Bélgica e inaugurada em 1896, tombada e chamada de maior monumento da região. Liga Rio Negro a Mafra e tem até lenda própria, a de que veio trocada com uma ponte destinada à África."
+   },
+   {
+    "nome": "Festa Bucovina (Bukowinenfest)",
+    "km": "na cidade",
+    "desc": "Festa anual de julho, promovida pela comunidade bucovina de Rio Negro e Mafra, com grupos folclóricos, corais, bandas, pratos típicos e cerveja."
+   },
+   {
+    "nome": "Museu da Terra e da Vida (Cenpáleo)",
+    "km": "Mafra (SC)",
+    "desc": "Museu de história natural da Universidade do Contestado, aberto desde 1998. Expõe fósseis de cerca de 300 milhões de anos, rochas e minerais, com acervo de mais de 10 mil peças. Bom passeio com crianças."
+   },
+   {
+    "nome": "Cine-Teatro Emacite",
+    "km": "Mafra (SC)",
+    "desc": "Sala de 1961, construída com cotas vendidas a moradores das duas cidades, conhecida pela acústica. Foi reformada pela prefeitura de Mafra e reaberta em 2005 para cinema e teatro."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Rio Negro, PR)",
+    "url": "https://pt.wikipedia.org/wiki/Rio_Negro_(município_do_Paraná)"
+   },
+   {
+    "nome": "Wikipédia (Seminário Seráfico São Luis de Tolosa)",
+    "url": "https://pt.wikipedia.org/wiki/Seminário_Seráfico_São_Luis_de_Tolosa"
+   },
+   {
+    "nome": "Wikipédia (Ponte metálica Dr. Dinis Assis Henning)",
+    "url": "https://pt.wikipedia.org/wiki/Ponte_metálica_Dr._Dinis_Assis_Henning"
+   },
+   {
+    "nome": "Wikipédia (Centro Paleontológico da Universidade do Contestado)",
+    "url": "https://pt.wikipedia.org/wiki/Centro_Paleontológico_da_Universidade_do_Contestado"
+   },
+   {
+    "nome": "Wikipédia (Cine-Teatro Emacite)",
+    "url": "https://pt.wikipedia.org/wiki/Cine-Teatro_Emacite"
+   },
+   {
+    "nome": "Wikipédia (Mafra, SC)",
+    "url": "https://pt.wikipedia.org/wiki/Mafra_(Santa_Catarina)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O rio Negro já causou grandes cheias, como as de julho de 1983 e maio de 1992, quando as pontes foram interditadas. Ao escolher imóvel, pergunte se a rua já alagou.",
+  "O inverno pede roupa de frio e aquecimento em casa: as geadas são frequentes e fortes entre abril e agosto, e a média das mínimas fica perto de 6 °C.",
+  "Na prática, você vai viver em duas cidades e dois estados: comércio, serviços públicos e universidade se dividem entre Rio Negro e Mafra, ligadas por duas pontes sobre o rio.",
+  "Se chegar no meio do ano, reserve um dia de julho para a Festa Bucovina, a principal festa da colônia."
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "slug": "palmas-pr",
+ "lede": "Nos Campos de Palmas, a mais de 1.000 m de altitude, a cidade de cerca de 50 mil moradores recebeu em 1999 o primeiro parque eólico do Sul do Brasil e tem inverno com geadas fortes.",
+ "cidade": {
+  "paragrafos": [
+   "A região era terra dos indígenas kaingang, que a chamavam de Kreie-bang-rê. Os Campos de Palmas foram explorados na década de 1720 pelo bandeirante curitibano Zacarias Dias Côrtes. O nome é atribuído ao major Atanagildo Pinto Martins, que comandou uma expedição entre 1814 e 1819 guiada pelo cacique Yongong. Os primeiros fazendeiros se fixaram entre 1836 e 1839, e o município se separou de Guarapuava em 14 de abril de 1879. Entre 1890 e 1895, a região esteve no centro da Questão de Palmas, disputa de fronteira com a Argentina decidida a favor do Brasil por arbitragem do presidente dos Estados Unidos. O Censo 2022 contou 48.247 moradores, e a estimativa mais recente do IBGE passa de 50,5 mil.",
+   "O PIB passou de R$ 1,7 bilhão em 2023 (IBGE). Em 2021, os serviços respondiam por cerca de 38% do valor adicionado, a indústria por 30%, a administração pública por 16% e a agropecuária por 15%. O vento constante dos campos de altitude trouxe a energia eólica: o parque de Palmas, da Copel com a Wobben Windpower, foi o primeiro da região Sul, inaugurado em novembro de 1999. Para cursos superiores, a referência regional é Pato Branco, que tem o segundo maior campus da UTFPR, além do Centro Universitário de Pato Branco (Unidep) e do Centro Universitário Mater Dei.",
+   "O município tem cerca de 1.558 km² e três distritos: a sede, Francisco Frederico Teixeira Guimarães e Padre Ponciano. A cidade fica entre 1.030 m de altitude, no bairro do Rocio, e 1.158 m, no Alto da Glória; o distrito de Horizonte, a 1.338 m, é apontado como o mais alto do Paraná. Palmas faz divisa com Santa Catarina (Água Doce, Abelardo Luz e Passos Maia) e pertence à região imediata de Pato Branco, segundo o IBGE. A BR-280 liga a cidade a Pato Branco, a oeste, e a Curitiba, a leste, a cerca de 372 km. O aeroporto de Pato Branco tem voos da Azul para Curitiba."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Palmas, PR)",
+    "url": "https://pt.wikipedia.org/wiki/Palmas_(Paraná)"
+   },
+   {
+    "nome": "IBGE Cidades (Palmas), histórico",
+    "url": "https://cidades.ibge.gov.br/brasil/pr/palmas/historico"
+   },
+   {
+    "nome": "IBGE Cidades (Palmas), panorama",
+    "url": "https://cidades.ibge.gov.br/brasil/pr/palmas/panorama"
+   },
+   {
+    "nome": "Wikipédia (Questão de Palmas)",
+    "url": "https://pt.wikipedia.org/wiki/Questão_de_Palmas"
+   },
+   {
+    "nome": "Wikipédia (Parque eólico de Palmas)",
+    "url": "https://pt.wikipedia.org/wiki/Parque_eólico_de_Palmas"
+   },
+   {
+    "nome": "Wikipédia (Pato Branco)",
+    "url": "https://pt.wikipedia.org/wiki/Pato_Branco"
+   },
+   {
+    "nome": "Wikipédia (lista de regiões geográficas imediatas do Paraná)",
+    "url": "https://pt.wikipedia.org/wiki/Campos_de_Palmas"
+   },
+   {
+    "nome": "IBGE/SIDRA, Censo 2022 (tabela 4709)",
+    "url": "https://sidra.ibge.gov.br/tabela/4709"
+   },
+   {
+    "nome": "IBGE/SIDRA, estimativas de população (tabela 6579)",
+    "url": "https://sidra.ibge.gov.br/tabela/6579"
+   },
+   {
+    "nome": "IBGE/SIDRA, PIB dos municípios (tabela 5938)",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   },
+   {
+    "nome": "Wikipédia em inglês (Palmas, Paraná), dados do IDR-Paraná",
+    "url": "https://en.wikipedia.org/wiki/Palmas,_Paraná"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Palmas não entra na pesquisa da cesta básica do DIEESE. A referência paranaense é Curitiba, onde a cesta custou R$ 866,93 em outubro de 2026, alta de 2,97% sobre setembro e de 13,80% em 12 meses; o valor equivale a 57,82% do salário mínimo líquido."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O atrativo de Palmas é a paisagem: campos nativos, araucárias e aerogeradores no alto dos morros. Duas unidades de conservação protegem esses campos, e a cidade-polo de Pato Branco completa a oferta de lazer urbano.",
+  "lugares": [
+   {
+    "nome": "Parque eólico de Palmas",
+    "km": "no município",
+    "desc": "Primeiro parque eólico do Sul do Brasil, inaugurado em novembro de 1999 perto da divisa com Santa Catarina. Tem cinco turbinas de 500 kW, somando cerca de 2,5 MW."
+   },
+   {
+    "nome": "Parque Estadual de Palmas",
+    "km": "no município",
+    "desc": "Parque estadual de 181 hectares criado em 2007 para proteger campos nativos e florestas de araucária. Entre os objetivos estão educação ambiental e turismo sustentável; confirme as condições de visita com o órgão ambiental do estado."
+   },
+   {
+    "nome": "Refúgio de Vida Silvestre dos Campos de Palmas",
+    "km": "~40 km, em linha reta",
+    "desc": "Unidade federal de proteção integral, criada em 2006 entre Palmas e General Carneiro e gerida pelo ICMBio. Protege campos de altitude e várzeas; o decreto prevê pesquisa e atividades controladas de educação ambiental, não visitação livre."
+   },
+   {
+    "nome": "Ginásio Dolivar Lavarda",
+    "km": "Pato Branco (PR)",
+    "desc": "Arena com 1.600 lugares onde jogam o Pato Futsal, bicampeão da Liga Nacional, e o Pato Basquete, do NBB. Programa para quem gosta de esporte, na cidade-polo da região."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Parque eólico de Palmas)",
+    "url": "https://pt.wikipedia.org/wiki/Parque_eólico_de_Palmas"
+   },
+   {
+    "nome": "Wikipédia (Parque Estadual de Palmas)",
+    "url": "https://pt.wikipedia.org/wiki/Parque_Estadual_de_Palmas"
+   },
+   {
+    "nome": "Wikipédia (Refúgio de Vida Silvestre dos Campos de Palmas)",
+    "url": "https://pt.wikipedia.org/wiki/Refúgio_de_Vida_Silvestre_dos_Campos_de_Palmas"
+   },
+   {
+    "nome": "Wikipédia (Água Doce, SC)",
+    "url": "https://pt.wikipedia.org/wiki/Água_Doce_(Santa_Catarina)"
+   },
+   {
+    "nome": "Wikipédia (Pato Branco)",
+    "url": "https://pt.wikipedia.org/wiki/Pato_Branco"
+   },
+   {
+    "nome": "Wikipédia (Turismo no Paraná)",
+    "url": "https://pt.wikipedia.org/wiki/Turismo_no_Paraná"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Leve roupa de frio de verdade e planeje aquecimento em casa: na série do IDR-Paraná (1979–2017), a média das mínimas de julho é de 7,5 °C e a menor marca registrada foi de −6,8 °C, em junho.",
+  "Chove o ano todo, mais de 2.100 mm por ano, com outubro como o mês mais chuvoso: guarda-chuva e calçado impermeável fazem parte da mudança.",
+  "Para voos, avalie o aeroporto de Pato Branco, que tem ligação com Curitiba pela Azul; confirme a frequência antes de comprar."
+ ]
+}
