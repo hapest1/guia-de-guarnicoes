@@ -1,0 +1,58 @@
+{
+ "slug": "marechal-thaumaturgo-ac",
+ "lede": "Na foz do rio Amônia com o Juruá, sem ligação por estrada, Marechal Thaumaturgo fica cercada pela Reserva Extrativista do Alto Juruá e por terras indígenas, como a dos Ashaninka.",
+ "cidade": {
+  "paragrafos": [
+   "Os primeiros habitantes da área foram os Arara Shawãdawa, povo de língua pano que hoje vive na Terra Indígena Jaminawa-Arara do Rio Bagé, dentro do município. A cidade nasceu do Seringal Minas Gerais, formado por seringueiros brasileiros. A fronteira com o Peru no Alto Juruá foi fixada pelo Tratado do Rio de Janeiro, de 1909. O município foi criado em 28 de abril de 1992, desmembrado de Cruzeiro do Sul. O nome homenageia Gregório Thaumaturgo de Azevedo, o militar que fundou Cruzeiro do Sul. O Censo 2022 contou 17.093 moradores, e a estimativa mais recente do IBGE é de 18.154.",
+   "A economia é pequena e se baseia na agricultura de subsistência e na pecuária. Na vazante, os agricultores plantam nas praias do Juruá, do Amônia e do Arara feijão, macaxeira, batata-doce, amendoim e melancia. A mandioca é de longe a principal lavoura: rendeu R$ 20,4 milhões dos R$ 27,6 milhões da produção agrícola de 2025. O município faz parte da área da indicação geográfica da farinha de Cruzeiro do Sul. A administração pública respondia por cerca de 64% do valor adicionado em 2021, e o PIB de 2023 foi de R$ 288 milhões. A cidade depende economicamente de Cruzeiro do Sul, com quem se liga pelo rio.",
+   "A sede fica na margem esquerda do Juruá, na foz do rio Amônia. O município tem cerca de 7.744 km² e faz fronteira com o Peru ao sul e a oeste, com Tarauacá e Porto Walter ao norte e com Jordão a leste. Dentro dele ficam a maior parte da Reserva Extrativista do Alto Juruá e 5% do Parque Nacional da Serra do Divisor. Só se chega à cidade de barco ou de avião. As balsas com carga e equipamentos saem de Cruzeiro do Sul, e o voo em avião de pequeno porte leva cerca de 90 minutos."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Marechal Thaumaturgo)", "url": "https://pt.wikipedia.org/wiki/Marechal_Thaumaturgo"},
+   {"nome": "Wikipedia em inglês (Marechal Thaumaturgo)", "url": "https://en.wikipedia.org/wiki/Marechal_Thaumaturgo"},
+   {"nome": "IBGE/SIDRA (Censo 2022, tabela 4709)", "url": "https://sidra.ibge.gov.br/tabela/4709"},
+   {"nome": "IBGE/SIDRA (estimativas de população, tabela 6579)", "url": "https://sidra.ibge.gov.br/tabela/6579"},
+   {"nome": "IBGE/SIDRA (PIB dos municípios, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"},
+   {"nome": "IBGE/SIDRA (Produção Agrícola Municipal 2025, tabela 5457)", "url": "https://sidra.ibge.gov.br/tabela/5457"},
+   {"nome": "INPI (certificado da IG Cruzeiro do Sul)", "url": "https://www.gov.br/inpi/pt-br/servicos/indicacoes-geograficas/arquivos/certificados-de-ig/br402015000002-9-cruzeiro-do-sul-certificado.pdf"},
+   {"nome": "TJAC (transporte fluvial por balsas a partir de Cruzeiro do Sul)", "url": "https://www.tjac.jus.br/wp-content/uploads/2021/07/0000355-74.2021-Manifestacao-Pedido-3-PE-33-2021-TJAC.pdf"},
+   {"nome": "Diario de Pernambuco (acesso só de barco ou avião)", "url": "https://diariodepernambuco.com.br/dpmais/cidade-mais-isolada-do-brasil-para-chegar-la-e-so-de-barco-ou-aviao/"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Não há pesquisa de preços publicada para Marechal Thaumaturgo. A maior parte do que se compra vem de Cruzeiro do Sul pelo Juruá, e lá a gasolina comum teve média de R$ 8,46 o litro na pesquisa da ANP de junho de 2026. O transporte rio acima tende a aumentar o preço final, por isso traga da origem o que for possível.",
+   "Para a alimentação, a referência é a cesta básica do DIEESE em Rio Branco, a capital do estado: R$ 710,92 em outubro de 2026. Na Região Norte, a cesta inclui farinha de mandioca, a principal lavoura do município."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Marechal Thaumaturgo: dependência de Cruzeiro do Sul)", "url": "https://pt.wikipedia.org/wiki/Marechal_Thaumaturgo"},
+   {"nome": "Atlas Público (preços ANP em Cruzeiro do Sul, jun/2026)", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/ac/cruzeiro-do-sul"},
+   {"nome": "DIEESE (Cesta Básica, Rio Branco, 2026)", "url": "https://www.dieese.org.br/cesta/"}
+  ]
+ },
+ "lazer": {
+  "intro": "Aqui a paisagem é de rio e floresta protegida. O município reúne uma reserva extrativista pioneira, parte de um parque nacional e terras indígenas, e o programa de fim de semana mais completo fica em Cruzeiro do Sul.",
+  "lugares": [
+   {"nome": "Encontro do Juruá com o Amônia", "km": "na cidade", "desc": "A sede fica na foz do Amônia. O Juruá enche de dezembro a maio e baixa de junho a novembro, quando aparecem as praias usadas para plantio. Na água, cuidado com a correnteza."},
+   {"nome": "Reserva Extrativista do Alto Juruá", "km": "no município", "desc": "Criada por decreto em 23 de janeiro de 1990, com cerca de 506 mil hectares, é apontada como a primeira reserva extrativista do Brasil. É território de famílias de seringueiros e ribeirinhos, gerido com a associação dos moradores."},
+   {"nome": "Terra Indígena Kampa do Rio Amônia", "km": "~3 h de barco", "desc": "Território do povo Ashaninka, homologado, onde fica a aldeia Apiwtxa. Os Ashaninka são conhecidos pela tecelagem de redes, roupas e bolsas e pela cestaria. É terra indígena, não um ponto turístico."},
+   {"nome": "Parque Nacional da Serra do Divisor", "km": "no município (5% da área)", "desc": "Parque de 1989 na fronteira com o Peru, administrado pelo ICMBio e considerado de altíssima biodiversidade. O roteiro de visita mais conhecido parte de Mâncio Lima, de barco."},
+   {"nome": "Cruzeiro do Sul", "km": "~90 min de avião", "desc": "A cidade-polo tem a Catedral Nossa Senhora da Glória, o balneário do Igarapé Preto e o rio Croa. É onde a família encontra comércio, bancos e lazer urbano."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Marechal Thaumaturgo)", "url": "https://pt.wikipedia.org/wiki/Marechal_Thaumaturgo"},
+   {"nome": "Wikipédia (Cruzeiro do Sul: regime do rio Juruá e turismo)", "url": "https://pt.wikipedia.org/wiki/Cruzeiro_do_Sul_(Acre)"},
+   {"nome": "Wikipédia (Reserva Extrativista do Alto Juruá)", "url": "https://pt.wikipedia.org/wiki/Reserva_Extrativista_do_Alto_Juru%C3%A1"},
+   {"nome": "IHU Unisinos (Alto Juruá, primeira reserva extrativista, jul/2018)", "url": "https://www.ihu.unisinos.br/580525"},
+   {"nome": "Wikipédia (Ashaninka)", "url": "https://pt.wikipedia.org/wiki/Axaninca"},
+   {"nome": "Terras Indígenas no Brasil/ISA (TI Kampa do Rio Amônea)", "url": "https://terrasindigenas.org.br/es/terras-indigenas/3716"},
+   {"nome": "Wikipédia (Parque Nacional da Serra do Divisor)", "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_do_Divisor"},
+   {"nome": "Wikipedia em inglês (Marechal Thaumaturgo: áreas protegidas)", "url": "https://en.wikipedia.org/wiki/Marechal_Thaumaturgo"}
+  ]
+ },
+ "antes_de_ir": [
+  "Planeje a mudança pelo rio: carga e equipamentos sobem o Juruá em balsas a partir de Cruzeiro do Sul. Os voos em aviões pequenos dependem de vaga e do tempo, então deixe folga nas datas.",
+  "De junho a novembro, o Juruá baixa tanto que barcos e balsas maiores não chegam nem a Cruzeiro do Sul. Isso atrasa encomendas e mudanças.",
+  "Compras grandes, bancos e serviços ficam em Cruzeiro do Sul, que tem agências do Banco do Brasil, da Caixa, do Bradesco, do Santander e do Banco da Amazônia. Organize as idas com antecedência."
+ ]
+}

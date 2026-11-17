@@ -1,0 +1,52 @@
+{
+ "slug": "imperatriz-ma",
+ "lede": "Fundada em 1852 na margem do Tocantins e transformada pela Belém–Brasília, Imperatriz é a segunda cidade do Maranhão e o entreposto comercial da divisa com o Pará e o Tocantins.",
+ "cidade": {
+  "paragrafos": [
+   "Imperatriz foi fundada em 16 de julho de 1852 por Frei Manoel Procópio do Coração de Maria, capelão de uma expedição que saiu de Belém em 1849, com o nome de Povoação de Santa Teresa do Tocantins. Em 1856 virou Vila de Imperatriz, em homenagem à imperatriz Teresa Cristina, e em 1924 cidade. Ficou isolada por terra até os anos 1950; a estrada para Grajaú, em 1953, e a Belém–Brasília (BR-010), aberta em 1958, trouxeram o grande crescimento. O Censo 2022 contou 273.110 moradores, o segundo maior do estado, e a estimativa mais recente do IBGE é de 286.383.",
+   "A cidade vive de comércio e serviços: abastece mercados num raio de cerca de 400 km e forma com Araguaína, Marabá, Balsas e Açailândia um polo econômico regional. O bairro Mercadinho funciona como central de abastecimento e atacado. A Suzano tem fábrica de celulose no município, e a Ferrovia Norte-Sul passa por ali. O PIB foi de R$ 9,48 bilhões em 2023, o segundo do Maranhão. No ensino superior há a UFMA (campi Centro e Bom Jesus, com curso de Medicina), a UEMASUL, o IFMA e faculdades particulares como Ceuma, Unisulma e Facimp.",
+   "A cidade se estende pela margem direita do rio Tocantins, na divisa com o Tocantins, a cerca de 95 m de altitude e em terreno quase plano. Oficialmente são 43 bairros, ou cerca de 80 contando as subdivisões; o comércio se concentra no Centro, as autopeças no Entroncamento e as fábricas no Distrito Industrial. A ponte estaiada Dom Affonso Felipe Gregory cruza o Tocantins. A rodoviária fica na BR-010, e o aeroporto Renato Cortez Moreira é administrado pela Motiva desde 2022."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Imperatriz)", "url": "https://pt.wikipedia.org/wiki/Imperatriz_(Maranh%C3%A3o)"},
+   {"nome": "IBGE/SIDRA (estimativas de população, tabela 6579)", "url": "https://sidra.ibge.gov.br/tabela/6579"},
+   {"nome": "IBGE/SIDRA (Censo 2022, tabela 4709)", "url": "https://sidra.ibge.gov.br/tabela/4709"},
+   {"nome": "IBGE/SIDRA (PIB dos municípios 2023, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Nas pesquisas da ANP de julho de 2026, a gasolina comum em Imperatriz teve média de R$ 6,65 o litro em 6 de julho (16 postos) e de R$ 6,51 na coleta de 24 de julho. Para o supermercado, a referência é a cesta básica do DIEESE em São Luís: R$ 719,63 em outubro de 2026, alta de 3,85% sobre setembro. Não encontramos fonte oficial com a tarifa de ônibus urbano de 2026; confirme com a Secretaria Municipal de Trânsito."
+  ],
+  "fontes": [
+   {"nome": "Atlas Público (preços ANP em Imperatriz, 06/07/2026)", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/ma/imperatriz"},
+   {"nome": "Numerando (preços ANP em Imperatriz, coleta de 24/07/2026)", "url": "https://numerando.com.br/combustiveis/cidade/imperatriz-ma"},
+   {"nome": "DIEESE (cesta básica, outubro de 2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer gira em torno do rio Tocantins: a Beira-Rio o ano todo e as praias fluviais na seca. Para cachoeiras, a Chapada das Mesas fica a cerca de três horas de carro.",
+  "lugares": [
+   {"nome": "Avenida Beira-Rio", "km": "na cidade", "desc": "Orla do Tocantins com lagos, campos de areia e calçadão usado para caminhada e corrida. Ponto de encontro das famílias no fim da tarde."},
+   {"nome": "Praias do Tocantins", "km": "na cidade", "desc": "Com a descida do rio, a partir de julho surgem praias como a do Cacau, do Meio, da Belinha e do Imbiral. Em 2026 a prefeitura contratou guarda-vidas para Cacau e Meio de 1º de julho a 15 de setembro."},
+   {"nome": "Mercadinho", "km": "na cidade", "desc": "Bairro que funciona como central de abastecimento, com frutas, verduras e atacadistas. Bom para conhecer os produtos da região e fazer compras grandes."},
+   {"nome": "Panelada das Quatro Bocas", "km": "na cidade", "desc": "Ponto famoso pela panelada, prato de tripas e pés de boi servido com farinha, arroz e pimenta. Funciona 24 horas e enche à noite e de madrugada."},
+   {"nome": "Imperial Shopping", "km": "na cidade", "desc": "Considerado o maior centro de compras do sul do Maranhão, com cinema, praça de alimentação e lojas âncoras. A cidade tem ainda o Timbira e o Tocantins Shopping."},
+   {"nome": "Centro de Pesquisa em Arqueologia e História Timbira", "km": "na cidade", "desc": "Ligado à UEMASUL, busca preservar a cultura material e imaterial do sul do Maranhão. Pergunte antes se recebe visitas."},
+   {"nome": "Parque Nacional da Chapada das Mesas", "km": "~220 km", "desc": "Parque de cerrado criado em 2005, com chapadas de arenito e cachoeiras como São Romão e Prata; a base é a cidade de Carolina. Viagem para um fim de semana, de preferência com guia."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Imperatriz)", "url": "https://pt.wikipedia.org/wiki/Imperatriz_(Maranh%C3%A3o)"},
+   {"nome": "Portal Tela (guarda-vidas nas praias do Cacau e do Meio, mai/2026)", "url": "https://www.portaltela.com/brasil/2026/05/27/concurso-em-imperatriz-ma-32-vagas-para-guarda-vidas-abertas/"},
+   {"nome": "Wikipédia em inglês (Parque Nacional da Chapada das Mesas)", "url": "https://en.wikipedia.org/wiki/Chapada_das_Mesas_National_Park"},
+   {"nome": "Viagens e Caminhos (Chapada das Mesas)", "url": "https://www.viagensecaminhos.com/chapada-das-mesas/"},
+   {"nome": "O Imparcial (veraneio em Imperatriz, jul/2024)", "url": "https://oimparcial.com.br/noticias/2024/07/imperatriz-nao-tera-periodo-oficial-de-veraneio-pelo-quarto-ano-consecutivo/"}
+  ]
+ },
+ "antes_de_ir": [
+  "As praias fluviais dependem do nível do rio e da organização da temporada: em 2024 a cidade ficou pelo quarto ano seguido sem período oficial de veraneio. Prefira as praias com guarda-vidas.",
+  "Março é o mês mais chuvoso e julho o mais seco. Na chuva, alagamentos de ruas são frequentes, então planeje os deslocamentos.",
+  "As calçadas são irregulares em boa parte da cidade; quem tem carrinho de bebê ou mobilidade reduzida deve contar com isso.",
+  "Para a Chapada das Mesas, o caminho até Carolina é pela BR-010 e pela BR-230, cerca de três horas de carro."
+ ]
+}

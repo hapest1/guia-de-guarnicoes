@@ -1,0 +1,60 @@
+{
+ "slug": "cruzeiro-do-sul-ac",
+ "lede": "Fundada em 1904 numa área de colinas à margem esquerda do Juruá, a Capital do Juruá é a segunda cidade do Acre e, por lei federal, a Capital Nacional da Farinha de Mandioca.",
+ "cidade": {
+  "paragrafos": [
+   "A região era habitada por povos de língua pano, como os Náuas, que viviam às margens do Juruá. A partir de 1877, nordestinos fugidos da seca formaram seringais na área, entre eles o Centro Brasileiro. Em 28 de setembro de 1904, o coronel Gregório Thaumaturgo de Azevedo transferiu para esse seringal a sede do Departamento do Alto Juruá, que estava na foz do rio Moa e sofria com as cheias. O nome vem da constelação do Cruzeiro do Sul. O Censo 2022 contou 91.888 moradores, cerca de 74% na zona urbana, e a estimativa mais recente do IBGE é de 99.404.",
+   "A borracha foi a base da economia até o começo do século XX. Hoje o produto mais conhecido é a farinha de mandioca: em 2017 o INPI concedeu a indicação geográfica \"Cruzeiro do Sul\" (Indicação de Procedência), que vale para a farinha do Juruá feita em cinco municípios da região, e a Lei nº 15.051, de dezembro de 2024, deu à cidade o título de Capital Nacional da Farinha de Mandioca. Em 2025 a mandioca rendeu R$ 33,7 milhões aos produtores do município, e o café, R$ 16,4 milhões. O PIB de 2023 foi de R$ 2,68 bilhões, o segundo do Acre, e serviços e administração pública somavam cerca de 85% do valor adicionado em 2021. O ensino superior se concentra na UFAC, cujo campus fica na Estrada do Canela Fina, km 12, e no Instituto Federal do Acre, presente na cidade desde 2009.",
+   "A área urbana tem cerca de 25 km² sobre colinas, por isso as ladeiras. A maioria das quadras segue um traçado em xadrez. O porto fluvial, a 4 km do centro, recebe sobretudo mercadorias que vêm de Manaus. O aeroporto internacional, a 15 km, tem voos regulares para Rio Branco e é administrado pela Vinci Airports desde 2022. Por terra, a capital fica a cerca de 630 km pela BR-364, aberta o ano todo desde 2011, com travessia do Juruá pela Ponte da União. Os vizinhos Mâncio Lima e Rodrigues Alves também usam o aeroporto e o comércio da cidade."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Cruzeiro do Sul, Acre)", "url": "https://pt.wikipedia.org/wiki/Cruzeiro_do_Sul_(Acre)"},
+   {"nome": "Wikipedia em inglês (Cruzeiro do Sul, Acre)", "url": "https://en.wikipedia.org/wiki/Cruzeiro_do_Sul,_Acre"},
+   {"nome": "Wikipédia (Aeroporto Internacional de Cruzeiro do Sul)", "url": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_de_Cruzeiro_do_Sul"},
+   {"nome": "Wikipédia (Instituto Federal do Acre)", "url": "https://pt.wikipedia.org/wiki/Instituto_Federal_do_Acre"},
+   {"nome": "IBGE/SIDRA (Censo 2022, tabela 4709)", "url": "https://sidra.ibge.gov.br/tabela/4709"},
+   {"nome": "IBGE/SIDRA (estimativas de população, tabela 6579)", "url": "https://sidra.ibge.gov.br/tabela/6579"},
+   {"nome": "IBGE/SIDRA (PIB dos municípios, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"},
+   {"nome": "IBGE/SIDRA (Produção Agrícola Municipal 2025, tabela 5457)", "url": "https://sidra.ibge.gov.br/tabela/5457"},
+   {"nome": "INPI (certificado da IG Cruzeiro do Sul)", "url": "https://www.gov.br/inpi/pt-br/servicos/indicacoes-geograficas/arquivos/certificados-de-ig/br402015000002-9-cruzeiro-do-sul-certificado.pdf"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Combustível e comida fresca pesam no bolso. Na pesquisa da ANP de junho de 2026, a gasolina comum em Cruzeiro do Sul teve média de R$ 8,46 o litro, em três postos. A média do Acre na semana de 18 a 24 de outubro de 2026 foi de R$ 7,43. Verduras e perecíveis chegam de longe, por estrada ou por rio, e por isso são mais difíceis de achar e mais caros.",
+   "O DIEESE não pesquisa a cesta básica em Cruzeiro do Sul. A referência mais próxima é Rio Branco, a capital do estado: lá, a cesta custou R$ 710,92 em outubro de 2026, contra R$ 678,35 em setembro. Na Região Norte, a cesta do DIEESE inclui farinha de mandioca no lugar da farinha de trigo."
+  ],
+  "fontes": [
+   {"nome": "Atlas Público (preços ANP em Cruzeiro do Sul, jun/2026)", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/ac/cruzeiro-do-sul"},
+   {"nome": "Game Over Drive (preço da gasolina por estado, ANP 18 a 24/10/2026)", "url": "https://gameoverdrive.com.br/preco-da-gasolina-hoje-3-11-valores-atualizados-nos-27-estados-e-diesel/"},
+   {"nome": "Wikipédia (Cruzeiro do Sul, Acre: acesso e abastecimento)", "url": "https://pt.wikipedia.org/wiki/Cruzeiro_do_Sul_(Acre)"},
+   {"nome": "DIEESE (Cesta Básica, Rio Branco, 2026)", "url": "https://www.dieese.org.br/cesta/"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer da família gira em torno da água: igarapés de água escura e o rio Croa, perto da cidade. Para quem gosta de aventura, há o Parque Nacional da Serra do Divisor, uma viagem de barco a partir de Mâncio Lima.",
+  "lugares": [
+   {"nome": "Catedral Nossa Senhora da Glória", "km": "na cidade", "desc": "Começou a ser construída em 1957 por padres alemães e foi aberta em 1965. É octogonal e tem um painel da Virgem atrás do altar-mor. É palco do Novenário de Nossa Senhora da Glória, uma das festas católicas mais tradicionais do Acre."},
+   {"nome": "Igarapé Preto", "km": "até ~15 km", "desc": "Balneário na beira da estrada do aeroporto, com praia de areia clara e fina e água escura e transparente. É uma das primeiras paradas de quem chega à cidade."},
+   {"nome": "Rio Croa", "km": "~17 km (entrada pela BR-364)", "desc": "Comunidade de turismo de base comunitária, com águas escuras, trilhas e samaúmas centenárias. Tem duas pousadas e três restaurantes que funcionam com agendamento. Recebeu de 2 a 2,5 mil pessoas entre o Natal de 2024 e o início de janeiro de 2025."},
+   {"nome": "Instituto Santa Terezinha", "km": "na cidade", "desc": "Prédio de arquitetura colonial que abrigou a primeira escola de 1º e 2º graus de Cruzeiro do Sul. Dá para incluir numa caminhada pelo centro."},
+   {"nome": "Fórum Caio Valadares", "km": "na cidade", "desc": "Prédio neoclássico que foi o primeiro Tribunal de Apelação do Alto Juruá. A biblioteca guarda obras estrangeiras raras e móveis do começo do século XX."},
+   {"nome": "Parque Nacional da Serra do Divisor", "km": "via Mâncio Lima, ~8 h de barco", "desc": "Criado em 1989 na fronteira com o Peru e administrado pelo ICMBio, com cerca de 23% da área em Cruzeiro do Sul. Os barcos saem do porto de Mâncio Lima pelos rios Japiim e Moa. Há oito cachoeiras, e a Formosa fica a cerca de 14 km de trilha."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Cruzeiro do Sul, Acre: turismo e cultura)", "url": "https://pt.wikipedia.org/wiki/Cruzeiro_do_Sul_(Acre)"},
+   {"nome": "Wikipedia em inglês (Cruzeiro do Sul, Acre: catedral)", "url": "https://en.wikipedia.org/wiki/Cruzeiro_do_Sul,_Acre"},
+   {"nome": "Portal Amazônia (9 locais imperdíveis em Cruzeiro do Sul)", "url": "https://portalamazonia.com/turismo/9-locais-imperdiveis-para-conhecer-em-cruzeiro-do-sul/"},
+   {"nome": "Portal Amazônia (Croa: uma conexão com o paraíso no Acre)", "url": "https://portalamazonia.com/turismo/croa-uma-conexao-com-o-paraiso-no-acre/"},
+   {"nome": "A Gazeta do Acre (visitantes no Croa, jan/2025)", "url": "https://agazetadoacre.com/2025/01/destaques-cotidiano/no-jurua-mais-de-2-mil-pessoas-visitam-comunidade-croa-durante-recesso"},
+   {"nome": "Wikipédia (Parque Nacional da Serra do Divisor)", "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_do_Divisor"},
+   {"nome": "Portal Amazônia (Serra do Divisor: cachoeiras e trilhas)", "url": "https://portalamazonia.com/estados/acre/conheca-a-serra-do-divisor-paraiso-natural-do-acre-que-encanta-com-cachoeiras-e-trilhas"}
+  ]
+ },
+ "antes_de_ir": [
+  "Se a mudança vier por rio, planeje a data: de junho a novembro o Juruá baixa tanto que barcos e balsas maiores não chegam à cidade.",
+  "Reserve as passagens Rio Branco–Cruzeiro do Sul com antecedência: há pouca concorrência na rota e os preços costumam ser altos. Na época das chuvas, o avião é a ligação mais confiável com a capital.",
+  "Leve agasalho: de maio a setembro, a friagem pode derrubar a temperatura para perto de 15 °C. O recorde de frio é de 6,2 °C, em junho de 1987.",
+  "Para visitar a Serra do Divisor, conte com uma viagem de vários dias. Confirme acesso e condições com o ICMBio ou com guias locais antes de ir."
+ ]
+}

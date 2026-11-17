@@ -1,0 +1,133 @@
+{
+ "slug": "bento-goncalves-rs",
+ "lede": "Capital brasileira do vinho, Bento Gonçalves soma cerca de 128 mil moradores, vinícolas no Vale dos Vinhedos, um forte polo moveleiro e casas de pedra dos imigrantes italianos.",
+ "cidade": {
+  "paragrafos": [
+   "Até 1870 o lugar se chamava Cruzinha. Um ato de 24 de maio de 1870 criou a Colônia Dona Isabel, que recebeu os primeiros imigrantes do norte da Itália em 24 de dezembro de 1875. A colônia se separou de Montenegro pelo Ato 474, de 11 de outubro de 1890, e ganhou o nome do general Bento Gonçalves da Silva, líder da Revolução Farroupilha. A ferrovia chegou em 1919. Monte Belo do Sul e Santa Tereza se emanciparam em 1992, e Pinto Bandeira em 2012. O Censo 2022 contou 123.151 moradores, e a estimativa mais recente do IBGE é de 127.980.",
+   "A economia se apoia nos móveis e no vinho, com força também nos setores de alimentos e metalurgia. O polo moveleiro reúne cerca de 300 indústrias em Bento e nos municípios vizinhos, faturou R$ 3,7 bilhões em 2025 e tinha 6.114 trabalhadores no fim daquele ano. Entre as empresas estão Bertolini, Unicasa e Todeschini. No vinho, a cidade sedia a Cooperativa Aurora, a Salton, a Miolo e a Casa Valduga, além da Embrapa Uva e Vinho, que existe desde 1975. O Parque de Eventos recebe a Movelsul, a Fimma, a ExpoBento e a Fenavinho. No ensino superior, a UCS tem o campus CARVI, com 26 graduações. A cidade também sedia a reitoria e um campus do IFRS e tem unidades da FSG, da UERGS e da UniFTEC.",
+   "A sede fica a cerca de 691 m de altitude. O município tem 274 km² e cinco distritos: Sede, Vale dos Vinhedos, Faria Lemos, Tuiuty e São Pedro. Bento faz parte da Região Metropolitana da Serra Gaúcha, com Caxias do Sul, e fica a 109 km de Porto Alegre. Os acessos são a BR-470 e as estaduais RS-444, que corta o Vale dos Vinhedos, e RS-453. As empresas Bento Transportes e Santo Antônio operam os ônibus urbanos. As linhas convergem para o Centro, onde as ruas estreitas, traçadas no início do século XX, concentram os congestionamentos. O aeródromo recebe só voos particulares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Bento Gonçalves, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Bento_Gon%C3%A7alves_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "IBGE, Censo 2022 e estimativas de população (API SIDRA)",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[4302105]"
+   },
+   {
+    "nome": "IBGE Cidades (Bento Gonçalves)",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/bento-goncalves/panorama"
+   },
+   {
+    "nome": "eMóbile, polo moveleiro de Bento em 2025",
+    "url": "https://emobile.com.br/site/industria/bento-goncalves-encerra-2025-com-faturamento-abaixo-de-1/"
+   },
+   {
+    "nome": "Leouve, setor moveleiro no início de 2026",
+    "url": "https://leouve.com.br/negocios/setor-moveleiro-bento-goncalves-queda-faturamento-exportacoes-inicio-2026"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano custa R$ 6,60, e a do seletivo, R$ 7,90. Os valores valem desde 6 de maio de 2025 e foram mantidos em 2026 com um subsídio municipal de R$ 1,08 milhão por seis meses, pelo Decreto 13.352, de julho de 2026. Sem o subsídio, a tarifa comum iria a R$ 7,25. Com duas passagens por dia útil, o gasto é de cerca de R$ 290 por mês. A gasolina comum custava em média R$ 6,38 por litro em 7 de julho de 2026, em 15 postos pesquisados pela ANP.",
+   "Bento não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro e de 11,68% em 12 meses."
+  ],
+  "fontes": [
+   {
+    "nome": "Leouve, tarifa sem reajuste com subsídio (2026)",
+    "url": "https://leouve.com.br/cidades/bento-goncalves-tarifa-transporte-coletivo-sem-reajuste-subsidio-r-108-milhao/"
+   },
+   {
+    "nome": "Leouve, passagem a R$ 6,60 desde maio de 2025",
+    "url": "https://leouve.com.br/geral/passagem-de-onibus-em-bento-goncalves-sobe-para-r-660-a-partir-de-6-de-maio/"
+   },
+   {
+    "nome": "Atlas Público, preços ANP em Bento Gonçalves (jul/2026)",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/rs/bento-goncalves"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Bento é um dos principais destinos de enoturismo do país. Para a família, há trem a vapor, museu da imigração, roteiros rurais com casas de pedra e o cânion do rio das Antas.",
+  "lugares": [
+   {
+    "nome": "Vale dos Vinhedos",
+    "km": "na cidade",
+    "desc": "Vale de parreirais servido pela RS-444, com parte dentro da área urbana. Recebe mais de 450 mil visitantes por ano e tem vinícolas com visita guiada, restaurantes e venda de sucos, geleias e queijos. Foi a primeira região do país com Denominação de Origem para vinhos."
+   },
+   {
+    "nome": "Maria Fumaça (Trem do Vinho)",
+    "km": "na cidade",
+    "desc": "Sai da estação de Bento e percorre 23 km até Carlos Barbosa, passando por Garibaldi, em cerca de uma hora e meia. A bordo há coral italiano, tarantela e teatro, e em Garibaldi há degustação de suco de uva e espumante."
+   },
+   {
+    "nome": "Museu do Imigrante",
+    "km": "na cidade",
+    "desc": "Museu municipal num casarão de 1913, com quase 20 mil itens da colonização italiana. Tem salas do vinho e das gaitas e recriações da cozinha e do quarto de uma casa de imigrantes."
+   },
+   {
+    "nome": "Parque Temático Epopeia Italiana",
+    "km": "na cidade",
+    "desc": "Perto da estação do trem, recria o dia a dia das famílias que chegaram à serra no século XIX. Muitos visitantes combinam o parque com o passeio de Maria Fumaça."
+   },
+   {
+    "nome": "Caminhos de Pedra",
+    "km": "no município",
+    "desc": "Roteiro no distrito de São Pedro, com casas de pedra e madeira de 1878 a 1935, cantinas, restaurantes e pequenas vinícolas. A Casa Strapazzon serviu de cenário ao filme O Quatrilho. É patrimônio histórico do estado desde 2009."
+   },
+   {
+    "nome": "Vale do Rio das Antas",
+    "km": "~15 km",
+    "desc": "Área de natureza com a ponte em arcos Ernesto Dornelles e mirantes como o da Ferradura, a cerca de 15 km do Centro. O relevo de cânion favorece trilhas e rafting."
+   },
+   {
+    "nome": "Parque de Eventos e ExpoBento",
+    "km": "na cidade",
+    "desc": "O maior parque de eventos do Sul recebe a ExpoBento, feira de compras e entretenimento criada em 1990 com cerca de 270 mil visitantes, e a Fenavinho, festa do vinho realizada desde 1967."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Bento Gonçalves, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Bento_Gon%C3%A7alves_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "Wikipédia (Vale dos Vinhedos)",
+    "url": "https://pt.wikipedia.org/wiki/Vale_dos_Vinhedos"
+   },
+   {
+    "nome": "Wikipédia (Trem do Vinho)",
+    "url": "https://pt.wikipedia.org/wiki/Trem_do_Vinho"
+   },
+   {
+    "nome": "Wikipédia (Museu do Imigrante)",
+    "url": "https://pt.wikipedia.org/wiki/Museu_do_Imigrante_(Bento_Gon%C3%A7alves)"
+   },
+   {
+    "nome": "Wikipédia (Caminhos de Pedra)",
+    "url": "https://pt.wikipedia.org/wiki/Caminhos_de_Pedra"
+   },
+   {
+    "nome": "Viagens e Caminhos, o que fazer em Bento Gonçalves",
+    "url": "https://www.viagensecaminhos.com/bento-goncalves/"
+   },
+   {
+    "nome": "Viaje na Viagem, o que fazer em Bento Gonçalves",
+    "url": "https://www.viajenaviagem.com/destino/bento-goncalves/o-que-fazer/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Um estudo geológico mapeou 139 áreas de risco no município, com quase 6 mil moradores. Antes de fechar o aluguel, pergunte à imobiliária ou à Defesa Civil se o endereço está numa dessas áreas.",
+  "O trânsito do Centro trava nos horários de pico, porque as ruas são estreitas e quase todas as linhas de ônibus passam por ali. Na escolha do bairro, pese a distância até o trabalho e a escola.",
+  "A rodoviária só tem linhas dentro do Rio Grande do Sul, sem ônibus interestaduais. Para viajar de ônibus a outros estados, planeje uma conexão fora da cidade.",
+  "Inverno é frio de verdade. O INMET registrou −4,5 °C em julho de 2000, e a cidade já teve neve, como no famoso \"Jogo da Neve\" de 1979. Prepare aquecimento e roupas antes da mudança."
+ ]
+}
