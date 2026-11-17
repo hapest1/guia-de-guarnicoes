@@ -1,0 +1,46 @@
+/* Ajustes do site quando ele roda dentro do app (iOS) */
+html.app{--tabs-h:56px;--ad-h:0px;-webkit-tap-highlight-color:transparent}
+html.app body{padding-bottom:calc(var(--tabs-h) + var(--ad-h) + env(safe-area-inset-bottom,0px))}
+html.app .menu-btn{min-height:44px}
+html.app .totop{bottom:calc(var(--tabs-h) + var(--ad-h) + 16px + env(safe-area-inset-bottom,0px))}
+/* O link para o próprio site e o do anúncio de venda de espaço não fazem sentido no app */
+html.app a[href^="/anuncie"]{display:none!important}
+
+/* Barra de abas */
+.gg-tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:repeat(5,1fr);
+  height:calc(var(--tabs-h) + env(safe-area-inset-bottom,0px));padding:0 env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px);
+  background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);
+  border-top:1px solid var(--line)}
+.gg-tabs a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;color:var(--muted);
+  font-family:var(--body);font-size:.68rem;font-weight:500;letter-spacing:.01em}
+.gg-tabs a svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.gg-tabs a[aria-current="page"]{color:var(--accent);font-weight:600}
+.gg-tabs a:active{opacity:.6}
+
+/* Ações da ficha: salvar e compartilhar */
+.gg-acoes{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+.gg-btn{font:inherit;font-size:.9rem;font-weight:600;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 16px;
+  border-radius:8px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);cursor:pointer}
+.gg-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.gg-btn[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.gg-btn[aria-pressed="true"] svg{fill:currentColor}
+.gg-btn:active{transform:scale(.97)}
+
+/* Página Salvos */
+.gg-salvos{padding-block:24px 32px}
+.gg-salvos h1{font-size:2.2rem;text-transform:uppercase}
+.gg-salvos .intro{color:var(--muted);max-width:58ch;margin:8px 0 18px}
+.gg-lista{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.gg-item{display:flex;align-items:stretch;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.gg-item a{flex:1;display:block;padding:16px 18px;text-decoration:none;color:var(--ink)}
+.gg-item b{font-family:var(--display);font-size:1.5rem;text-transform:uppercase;line-height:1.1}
+.gg-item b small{font-size:1rem;color:var(--muted);margin-left:6px}
+.gg-item p{margin:6px 0 0;color:var(--muted);font-size:.9rem;line-height:1.45}
+.gg-item button{flex:none;width:52px;border:0;border-left:1px solid var(--line);background:none;color:var(--muted);font-size:1.3rem;cursor:pointer}
+.gg-vazio{background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:24px;color:var(--muted)}
+.gg-recentes{margin-top:28px}
+.gg-recentes h2{font-size:1.4rem;text-transform:uppercase;margin-bottom:10px}
+
+/* Aviso de sem conexão */
+.gg-offline{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabs-h) + var(--ad-h) + 12px + env(safe-area-inset-bottom,0px));
+  z-index:41;background:var(--ink);color:var(--bg);font-size:.85rem;padding:8px 14px;border-radius:20px;box-shadow:0 4px 14px rgba(0,0,0,.2)}

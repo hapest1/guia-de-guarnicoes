@@ -1,0 +1,23 @@
+{
+  "appId": "com.guiadeguarnicoes.app",
+  "appName": "Guia de Guarnições",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#ECEFE7",
+    "scheme": "Guia de Guarnicoes",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "launchShowDuration": 3000,
+      "backgroundColor": "#ECEFE7",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DEFAULT"
+    }
+  }
+}
