@@ -1,0 +1,99 @@
+{
+ "slug": "itaqui-rs",
+ "lede": "Na margem do rio Uruguai, diante de Alvear, na Argentina, Itaqui guarda um teatro de 1886 tombado pelo Iphan e colheu cerca de 605 mil toneladas de arroz em 2025.",
+ "cidade": {
+  "paragrafos": [
+   "A região era ocupada pelos guaranis, e por volta de 1657 jesuítas da redução de La Cruz, hoje na Argentina, cruzaram o rio e fundaram ali uma redução. As terras passaram ao domínio português no início do século XIX, com as primeiras sesmarias em 1802. A sede atual foi escolhida em 1821, depois que uma enchente obrigou a mudar o povoado. Itaqui se separou de São Borja pela lei de 6 de dezembro de 1858 e virou cidade em maio de 1879, com o nome de São Patrício de Itaqui. O nome vem do guarani ita (pedra) e ku'i (mole): a pedra vermelha da margem do rio servia para afiar facas. O Censo 2022 contou 35.768 moradores, e a estimativa mais recente do IBGE fica perto de 36,8 mil.",
+   "O arroz é a base da economia. Em 2025 o município colheu cerca de 605 mil toneladas em 67,5 mil hectares, segundo o IBGE, e o rebanho bovino passa de 165 mil cabeças. A agropecuária respondeu por 45,8% do valor adicionado em 2021, os serviços por 28% e a indústria por 14,8%. No ensino superior, a cidade tem campus da Unipampa, universidade federal criada em 2008; o campus de Itaqui foi implantado pela UFSM antes da criação da nova universidade.",
+   "O município tem cerca de 3.407 km², está a 57 m de altitude e tem dois distritos: a sede e Itaó. Faz divisa com Alegrete, Maçambará, Manoel Viana, São Borja e Uruguaiana e, do outro lado do rio Uruguai, com La Cruz e Alvear, na Argentina. A ligação com Alvear é feita por balsa. O governo gaúcho contratou a Caixa para assessorar o Daer na estruturação de pontes com a Argentina, entre elas Itaqui–Alvear; em julho de 2026, o site argentino iProfesional informou que o projeto seguia parado à espera de autorização argentina para os estudos preliminares."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Itaqui)",
+    "url": "https://pt.wikipedia.org/wiki/Itaqui"
+   },
+   {
+    "nome": "Wikipédia (Universidade Federal do Pampa)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_do_Pampa"
+   },
+   {
+    "nome": "IBGE, API de agregados: Censo 2022, estimativas, PIB dos Municípios, PAM e PPM 2025",
+    "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"
+   },
+   {
+    "nome": "Governo do RS, contrato de assessoria da Caixa para pontes com a Argentina",
+    "url": "https://estado.rs.gov.br/leite-e-gabriel-assinam-contrato-de-assessoria-da-caixa-para-projeto-de-pontes-internacionais-entre-rs-e-argentina"
+   },
+   {
+    "nome": "iProfesional, novas pontes entre Argentina e Brasil (21/07/2026)",
+    "url": "https://www.iprofesional.com/turismo/440014-millonaria-inversion-para-construir-un-nuevo-puente-entre-argentina-y-brasil-donde-estara"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Itaqui não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro e de 11,68% em 12 meses. Não encontramos fonte datada de 2026 para combustível, ônibus urbano ou aluguel na cidade; consulte o levantamento semanal da ANP e as imobiliárias locais."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O rio Uruguai, na divisa com a Argentina, é um dos atrativos da cidade. O calendário cultural tem teatro, dança, música nativista e uma Semana Farroupilha concorrida.",
+  "lugares": [
+   {
+    "nome": "Theatro Prezewodowski",
+    "km": "na cidade",
+    "desc": "Um dos teatros mais antigos da América Latina: pedra fundamental de 1883, inauguração em 1886 e restauro concluído em 1992. Tombado pelo Iphan, leva o nome de um oficial da Marinha que comandou a flotilha sediada em Itaqui e segue recebendo espetáculos."
+   },
+   {
+    "nome": "Casa dos padres jesuítas",
+    "km": "na cidade",
+    "desc": "Casa reformada na esquina da Rua Bento Gonçalves com a Avenida José de Alencar Castello Branco, lembrança do passado missioneiro da cidade."
+   },
+   {
+    "nome": "Margem do rio Uruguai",
+    "km": "na cidade",
+    "desc": "A cidade fica à beira do rio, na fronteira com a Argentina, e a paisagem ribeirinha é um dos atrativos para quem visita."
+   },
+   {
+    "nome": "Festivais de teatro, dança e canto",
+    "km": "na cidade",
+    "desc": "O Festival Itaquiense de Teatro Amador, o Festival de Canto Farrapo da Casilha do Porto e o Dança Comigo Itaqui reúnem grupos de vários lugares, inclusive da Argentina."
+   },
+   {
+    "nome": "Semana Farroupilha e carnaval",
+    "km": "na cidade",
+    "desc": "Em setembro, a Semana Farroupilha traz conjuntos gaúchos para os bailes. O carnaval também cresceu e atrai público de outras cidades do estado."
+   },
+   {
+    "nome": "Caverna Iguariaçá",
+    "km": "no município",
+    "desc": "Caverna de paisagem pitoresca, provavelmente habitada pelos primeiros indígenas da região. Pergunte na prefeitura sobre acesso antes de ir."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Itaqui)",
+    "url": "https://pt.wikipedia.org/wiki/Itaqui"
+   },
+   {
+    "nome": "Wikipédia (Teatro Prezewodowski)",
+    "url": "https://pt.wikipedia.org/wiki/Teatro_Prezewodowski"
+   },
+   {
+    "nome": "Unipampa, trabalho acadêmico sobre Itaqui (2022)",
+    "url": "https://dspace.unipampa.edu.br/bitstream/riu/7310/1/Leandro%20de%20Almeida%20Serres%202022.pdf"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "A travessia para Alvear depende da balsa, que ficou parada por cerca de oito meses em 2024, segundo o iProfesional. Antes de planejar ida à Argentina, confirme se ela está operando e veja com a OM as regras para militares atravessarem a fronteira.",
+  "A ponte Itaqui–Alvear ainda está em fase de projeto, sem obra iniciada até julho de 2026. Não conte com ela nos planos de curto prazo.",
+  "Nos registros do INMET de 1961 a 1983, a máxima chegou a 39,9 °C em janeiro de 1964 e a mínima a −2,5 °C em julho de 1962. Prepare a casa para o calor do verão e para o frio do inverno.",
+  "Confira se o imóvel fica na sede ou no distrito de Itaó; o município passa de 3.400 km², e as distâncias no interior são longas."
+ ]
+}
