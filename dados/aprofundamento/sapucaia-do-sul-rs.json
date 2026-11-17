@@ -1,0 +1,168 @@
+{
+ "slug": "sapucaia-do-sul-rs",
+ "lede": "Cidade industrial de cerca de 137 mil moradores no Vale dos Sinos, Sapucaia do Sul tem duas estações do Trensurb, uma usina de aço da Gerdau e o zoológico estadual.",
+ "cidade": {
+  "paragrafos": [
+   "O nome vem do Morro de Sapucaia, de cerca de 289 m, ao pé do qual surgiu uma fazenda no século XVIII. A localidade foi distrito de São Leopoldo a partir de 1912, chamou-se Guianuba por um período e voltou a se chamar Sapucaia em 1951. A Lei Estadual 4.203, de 14 de novembro de 1961, criou o município de Sapucaia do Sul. A abertura da BR-116 impulsionou a industrialização. O Censo 2022 contou 132.107 moradores, e a estimativa mais recente do IBGE é de 136.573.",
+   "A cidade é comercial e tem indústrias desde os anos 1960. O destaque é a usina Riograndense, da Gerdau, que produz aços longos a partir de sucata, origem de 95% do que sai da unidade; a aciaria recebeu R$ 200 milhões de modernização, inaugurada em dezembro de 2023. O salário médio dos trabalhadores formais era de 2,6 salários mínimos em 2024 (IBGE). Para o ensino superior, a estação Unisinos, já em São Leopoldo, fica logo depois da estação Sapucaia.",
+   "O município é pequeno e denso, com cerca de 58 km². Faz divisa com São Leopoldo, Novo Hamburgo, Gravataí, Cachoeirinha, Esteio, Nova Santa Rita e Portão. Entre os bairros estão Centro, Vargas, Pasqualini, Camboim, Cohab Blocos, Cohab Casas, Jardim América, Piratini e Colonial, onde fica o zoológico. A BR-116 corta a cidade, e a Linha 1 do Trensurb tem duas estações no município, Luiz Pasteur e Sapucaia, com ligação direta ao centro de Porto Alegre."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Sapucaia do Sul)",
+    "url": "https://pt.wikipedia.org/wiki/Sapucaia_do_Sul"
+   },
+   {
+    "nome": "Wikipedia (Sapucaia do Sul, em inglês)",
+    "url": "https://en.wikipedia.org/wiki/Sapucaia_do_Sul"
+   },
+   {
+    "nome": "IBGE Biblioteca, histórico de Sapucaia do Sul",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/sapucaiadosul.pdf"
+   },
+   {
+    "nome": "EcuRed (Sapucaia do Sul)",
+    "url": "https://www.ecured.cu/Sapucaia_do_Sul_(Brasil)"
+   },
+   {
+    "nome": "IBGE Cidades (Sapucaia do Sul)",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/sapucaia-do-sul/panorama"
+   },
+   {
+    "nome": "IBGE, API de dados (Censo 2022 e estimativas)",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[4320008]"
+   },
+   {
+    "nome": "Jornal do Comércio, Gerdau inaugura modernização em Sapucaia (dez/2023)",
+    "url": "https://www.jornaldocomercio.com/economia/2023/12/1135018-gerdau-inaugura-modernizacao-de-siderurgica-em-sapucaia.html"
+   },
+   {
+    "nome": "Jornal do Comércio, Gerdau investe na unidade de Sapucaia do Sul (2022)",
+    "url": "https://www.jornaldocomercio.com/especiais/dia_da_industria/2022/05/848098-gerdau-investe-em-tecnologia-e-seguranca-na-unidade-de-sapucaia-do-sul.html"
+   },
+   {
+    "nome": "Wikipédia (Metropolitano de Porto Alegre / Trensurb)",
+    "url": "https://pt.wikipedia.org/wiki/Metropolitano_de_Porto_Alegre"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus municipal custa R$ 6,00 desde 1º de agosto de 2026, no cartão antecipado, no vale-transporte ou em dinheiro. A operação é da Transbus desde 7 de março de 2026. O Trensurb cobra R$ 5,00 a passagem unitária desde julho de 2025; quem vai e volta de trem todo dia útil gasta cerca de R$ 220 por mês.",
+   "Sapucaia do Sul não entra na pesquisa da cesta básica do DIEESE. A referência é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 11,68% em 12 meses e a quinta mais cara entre as capitais."
+  ],
+  "fontes": [
+   {
+    "nome": "Jornal do Comércio, passagem em Sapucaia do Sul sobe para R$ 6,00 (jul/2026)",
+    "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/07/1258128-passagem-de-onibus-em-sapucaia-do-sul-sobe-para-rs-600.html"
+   },
+   {
+    "nome": "Diário do Transporte, contrato da Transbus em Sapucaia do Sul (out/2026)",
+    "url": "https://diariodotransporte.com.br/2026/10/06/sapucaia-do-sul-rs-contrato-da-transbus-aumenta-1358-e-passa-a-r-1012-por-quilometro-nas-18-linhas-municipais/"
+   },
+   {
+    "nome": "Diário do Transporte, Transbus assume transporte de Sapucaia do Sul",
+    "url": "https://diariodotransporte.com.br/2025/10/11/transbus-assume-transporte-publico-de-sapucaia-do-sul-rs-apos-vencer-licitacao/"
+   },
+   {
+    "nome": "Trensurb, quadro de tarifas",
+    "url": "https://www.gov.br/trensurb/pt-br/servicos/tarifas-e-bilhetagem/tarifas"
+   },
+   {
+    "nome": "ANPTrilhos, reajuste da Trensurb para R$ 5 (jul/2025)",
+    "url": "https://anptrilhos.org.br/apos-quatro-anos-sem-reajuste-tarifa-da-trensurb-passa-para-r-5/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O zoológico estadual é o grande programa de família na cidade. Com o trem, museus e parques de São Leopoldo e o Centro de Porto Alegre ficam a poucas estações.",
+  "lugares": [
+   {
+    "nome": "Parque Zoológico do Rio Grande do Sul",
+    "km": "na cidade",
+    "desc": "Na parada 41 da BR-116, no bairro Colonial. Inaugurado em 1962, tem mais de mil animais de cerca de 150 espécies e grande área de mata. Abre de terça a domingo, das 9h às 17h, e aceita Pix na entrada."
+   },
+   {
+    "nome": "Parque Imperatriz Leopoldina",
+    "km": "~10 km",
+    "desc": "Em São Leopoldo, com 15 churrasqueiras, quadras, pracinha infantil e Jardim Botânico. A trilha de cerca de 1.300 m à beira do Rio dos Sinos é fácil, mas exige agendamento."
+   },
+   {
+    "nome": "Museu do Trem",
+    "km": "~10 km",
+    "desc": "Na Rua Lindolfo Collor, 61, Centro de São Leopoldo, na primeira estação ferroviária do estado, de 1874. Tem acervo da antiga Viação Férrea; bom para crianças."
+   },
+   {
+    "nome": "Museu Histórico Visconde de São Leopoldo",
+    "km": "~10 km",
+    "desc": "Fundado em 1959, guarda cerca de 10 mil objetos, 85 mil fotos e 25 mil livros sobre a imigração alemã."
+   },
+   {
+    "nome": "Mercado Público de Porto Alegre",
+    "km": "~25 km",
+    "desc": "Mercado histórico com bancas de carne, erva-mate e temperos e restaurantes tradicionais. Fica junto à estação Mercado, ponto final do Trensurb: dá para ir de trem desde Sapucaia."
+   },
+   {
+    "nome": "Rota Romântica",
+    "km": "~10 km",
+    "desc": "Roteiro de cerca de 184 km que começa em São Leopoldo e passa por 14 municípios de colonização alemã, como Nova Petrópolis, Gramado e Canela. Bom para fins de semana na serra."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Parque Zoológico do Rio Grande do Sul)",
+    "url": "https://pt.wikipedia.org/wiki/Parque_Zool%C3%B3gico_do_Rio_Grande_do_Sul"
+   },
+   {
+    "nome": "Governo do RS, Parque Zoológico completa 64 anos",
+    "url": "https://www.estado.rs.gov.br/parque-zoologico-completa-64-anos-de-atuacao-na-conservacao-da-fauna-com-ingresso-solidario"
+   },
+   {
+    "nome": "Governo do RS, parques estaduais passam a aceitar Pix (out/2025)",
+    "url": "https://www.estado.rs.gov.br/jardim-botanico-zoologico-de-sapucaia-do-sul-e-parque-de-itapua-passam-a-aceitar-pagamento-via-pix"
+   },
+   {
+    "nome": "Jornal do Comércio, zoológico reabre ao público (jun/2026)",
+    "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/06/1252366-zoologico-de-sapucaia-do-sul-reabre-ao-publico-no-sabado.html"
+   },
+   {
+    "nome": "Vale Germânico, Parque Imperatriz Leopoldina",
+    "url": "https://valegermanicors.com.br/atrativo-parque-natural-municipal-imperatriz-leopoldina/"
+   },
+   {
+    "nome": "Vale Germânico, Museu do Trem",
+    "url": "https://valegermanicors.com.br/atrativo-museu-do-trem/"
+   },
+   {
+    "nome": "Museu Histórico Visconde de São Leopoldo",
+    "url": "https://www.museuhistoricosl.com.br/"
+   },
+   {
+    "nome": "Wikipedia (Porto Alegre)",
+    "url": "https://en.wikipedia.org/wiki/Porto_Alegre"
+   },
+   {
+    "nome": "Wikipédia (Metropolitano de Porto Alegre / Trensurb)",
+    "url": "https://pt.wikipedia.org/wiki/Metropolitano_de_Porto_Alegre"
+   },
+   {
+    "nome": "Wikipédia (Rota Romântica)",
+    "url": "https://pt.wikipedia.org/wiki/Rota_Rom%C3%A2ntica"
+   },
+   {
+    "nome": "Jornal NH, edição de 15/05/2026 (suspensão da visitação no zoo)",
+    "url": "https://pdf.gruposinos.com.br/jornalnh/2026/05/15/14332e/pdf/YZ004_15-DIG.pdf"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se for trabalhar ou estudar em Porto Alegre, Canoas ou São Leopoldo, procure imóvel perto das estações Sapucaia ou Luiz Pasteur. O trem evita o trânsito da BR-116.",
+  "O zoológico fecha às segundas para manutenção. Em maio de 2026 a visitação ficou suspensa por algumas semanas após a morte de cisnes por botulismo e reabriu em 13 de junho; confira o funcionamento antes de ir.",
+  "Na escolha do imóvel, pergunte se a rua foi atingida pela cheia de 2024. Há registro de arroio que transbordou no bairro Cohab Blocos em 2017.",
+  "Para carregar o cartão do ônibus municipal, informe-se com a Transbus, que assumiu as linhas em março de 2026."
+ ]
+}

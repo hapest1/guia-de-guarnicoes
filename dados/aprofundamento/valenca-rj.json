@@ -1,0 +1,127 @@
+{
+ "slug": "valenca-rj",
+ "lede": "Antiga capital do café fluminense, Valença tem cerca de 71 mil moradores, praças desenhadas por Glaziou, polo universitário e, no distrito de Conservatória, a tradição das serestas de rua.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu de um aldeamento de indígenas coroados, onde em 1803 se ergueu uma capela a Nossa Senhora da Glória. A freguesia ganhou o nome em 1807, em homenagem ao vice-rei Dom Fernando José de Portugal, da família dos marqueses de Valença, e virou vila em 17 de outubro de 1823. Com a riqueza do café, foi elevada a cidade em 1857; por volta de 1859, o município tinha cerca de 40 mil habitantes, entre livres e escravizados. O Quilombo São José da Serra, no município, guarda a tradição do jongo. O Censo 2022 contou 68.088 moradores, e a estimativa mais recente do IBGE é de 71.442.",
+   "Com o fim do ciclo do café, a ferrovia ajudou a cidade a atrair indústrias têxteis a partir de 1909, e as fazendas passaram à pecuária leiteira. Hoje a economia se apoia na agropecuária e no polo universitário da sede. O principal é o Centro Universitário de Valença (UNIFAA), mantido pela Fundação Educacional Dom André Arcoverde, com cursos presenciais, semipresenciais e a distância. O salário médio dos trabalhadores formais era de 2 salários mínimos em 2024 (IBGE).",
+   "O município é o segundo maior do estado em área, com cerca de 1.300 km², e fica a 560 m de altitude, no Vale do Paraíba Fluminense. Tem seis distritos: a sede, Barão de Juparanã, Santa Isabel do Rio Preto, Pentagna, Parapeúna, na divisa com Minas Gerais, e Conservatória. A sede tem dezenas de bairros, como Centro, Benfica, Esteves, Monte D'Ouro e Jardim Valença; o Centro histórico é pequeno e dá para percorrer a pé. Os distritos ficam longe da sede, e a ligação com o Rio de Janeiro e Juiz de Fora é por rodovia."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Valença, RJ)",
+    "url": "https://pt.wikipedia.org/wiki/Valen%C3%A7a_(Rio_de_Janeiro)"
+   },
+   {
+    "nome": "Wikipédia (Centro Universitário de Valença)",
+    "url": "https://pt.wikipedia.org/wiki/Centro_Universit%C3%A1rio_de_Valen%C3%A7a"
+   },
+   {
+    "nome": "IBGE Cidades (Valença)",
+    "url": "https://cidades.ibge.gov.br/brasil/rj/valenca/panorama"
+   },
+   {
+    "nome": "IBGE, API de dados (Censo 2022 e estimativas)",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[3306107]"
+   },
+   {
+    "nome": "Fui Ser Viajante, o que fazer em Valença",
+    "url": "https://www.fuiserviajante.com/rio-de-janeiro/o-que-fazer-em-valenca/index.html"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A Agência Nacional do Petróleo registrou gasolina comum a R$ 6,74 em média em Valença, em 8 postos, na coleta de 7 de outubro de 2026; o etanol saiu a R$ 4,91. A cidade tem ônibus urbano por concessão, com subsídio tarifário autorizado pela Lei Municipal 3.639, de outubro de 2024; confirme o valor da passagem com a prefeitura.",
+   "Valença não entra na pesquisa da cesta básica do DIEESE. A referência fluminense é o Rio de Janeiro, onde a cesta custou R$ 939,39 em outubro de 2026, a segunda mais cara entre as capitais, com alta de 17,22% em 12 meses."
+  ],
+  "fontes": [
+   {
+    "nome": "Atlas Público, preços ANP em Valença (out/2026)",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/rj/valenca"
+   },
+   {
+    "nome": "Prefeitura de Valença, Lei 3.639/2024",
+    "url": "https://valenca.rj.gov.br/wp-content/uploads/2024/11/LEI-No-3639.pdf"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Valença mistura história do café, música e Mata Atlântica. O Centro se percorre a pé, e Conservatória e a Serra da Concórdia rendem bons fins de semana.",
+  "lugares": [
+   {
+    "nome": "Jardim de Cima e Jardim de Baixo",
+    "km": "na cidade",
+    "desc": "Praças do Centro histórico com jardins do paisagista francês Auguste Glaziou, o mesmo do Campo de Santana, no Rio. O Jardim de Baixo, em frente à catedral, tem estátuas, lago e chafariz; o conjunto é tombado pelo INEPAC."
+   },
+   {
+    "nome": "Catedral de Nossa Senhora da Glória",
+    "km": "na cidade",
+    "desc": "Principal templo da cidade, com museu de arte sacra no andar superior. Em agosto recebe a festa da padroeira, até o dia 15, e em 6 de janeiro o Encontro de Foliões de Reis."
+   },
+   {
+    "nome": "Conservatória",
+    "km": "~35 km",
+    "desc": "Distrito conhecido como Cidade das Serestas, com seresteiros que cantam pelas ruas e casas com placas de nomes de músicas. A Casa de Cultura abriga o pequeno Museu da Seresta, e o Túnel que Chora, antigo túnel ferroviário do café, fica no centro."
+   },
+   {
+    "nome": "Parque Estadual da Serra da Concórdia",
+    "km": "na cidade",
+    "desc": "Parque estadual de cerca de 5.950 ha, entre Valença e Barra do Piraí, que protege Mata Atlântica e inclui as cachoeiras de Ipiabas e Ronco D'Água. Tem trilhas leves; leve o lixo de volta e não faça fogueira."
+   },
+   {
+    "nome": "Fazendas históricas do Vale do Café",
+    "km": "na região",
+    "desc": "Casarões de fazendas cafeeiras do século XIX, alguns abertos a visitas guiadas, como a Fazenda Florença. Horários e preços variam: agende antes."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Fui Ser Viajante, o que fazer em Valença",
+    "url": "https://www.fuiserviajante.com/rio-de-janeiro/o-que-fazer-em-valenca/index.html"
+   },
+   {
+    "nome": "Terra Brasil Notícias, jardins de Glaziou e fazendas (fev/2026)",
+    "url": "https://terrabrasilnoticias.com/2026/02/no-coracao-do-vale-do-cafe-essa-cidade-reune-jardins-planejados-por-frances-e-fazendas-imperiais-que-parecem-congeladas-no-tempo/"
+   },
+   {
+    "nome": "Wikipédia (Valença, RJ)",
+    "url": "https://pt.wikipedia.org/wiki/Valen%C3%A7a_(Rio_de_Janeiro)"
+   },
+   {
+    "nome": "Viciada em Viajar, o que fazer em Conservatória",
+    "url": "https://www.viciadaemviajar.com/o-que-fazer-em-conservatoria/"
+   },
+   {
+    "nome": "Diário do Rio, serestas de Conservatória",
+    "url": "https://diariodorio.com/conheca-cidade-do-interior-do-rj-que-transforma-casas-em-trilha-sonora-e-atrai-turistas-com-serestas"
+   },
+   {
+    "nome": "Prefeitura de Valença, Secretaria de Cultura",
+    "url": "https://cultura.valenca.rj.gov.br/?p=1"
+   },
+   {
+    "nome": "Wikipedia (Serra da Concórdia State Park)",
+    "url": "https://en.wikipedia.org/wiki/Serra_da_Conc%C3%B3rdia_State_Park"
+   },
+   {
+    "nome": "Correio Braziliense, casarões e fazendas do Vale do Café",
+    "url": "https://www.correiobraziliense.com.br/cbradar/casaroes-do-imperio-fazendas-historicas-e-403-casas-com-nomes-de-cancoes-fazem-desta-cidade-fluminense-um-destino-singular/"
+   },
+   {
+    "nome": "Prefeitura de Valença (Carnaval Antigo de Conservatória)",
+    "url": "https://valenca.rj.gov.br/wp-content/uploads/2025/09/DECRETO-180-2025.pdf"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O município é enorme, o segundo do estado em área. Confira em qual distrito fica o imóvel: Conservatória, Parapeúna e Santa Isabel do Rio Preto ficam longe da sede.",
+  "O Parque Estadual da Serra da Concórdia funcionava de segunda a sexta, das 8h às 17h, segundo o INEA. Confirme o horário antes de planejar trilha no fim de semana.",
+  "Prepare-se para variações de temperatura: a estação do INMET na cidade já registrou 40,1 °C em dezembro e 2,5 °C em junho. O mês mais chuvoso já registrado foi janeiro de 2003, com 419 mm.",
+  "Em 2025, um decreto municipal restringiu a circulação de ônibus de turismo no centro histórico de Conservatória durante o Carnaval Antigo. Em datas de festa, planeje a visita e o estacionamento com antecedência."
+ ]
+}

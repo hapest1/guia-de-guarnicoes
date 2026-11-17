@@ -1,0 +1,135 @@
+{
+ "slug": "nova-santa-rita-rs",
+ "lede": "Município jovem, emancipado de Canoas em 1992, Nova Santa Rita tem cerca de 30 mil moradores, condomínios logísticos às margens da BR-386 e assentamentos que produzem arroz orgânico.",
+ "cidade": {
+  "paragrafos": [
+   "A área era habitada por indígenas carijós e, mais tarde, foi ocupada por sesmarias e estâncias. O lugar se chamava Picada do Vicente e passou por Porto Alegre, São Leopoldo e São Sebastião do Caí. Em 1884, Justino de Souza Baptista e Rita Carolina Martins doaram terras para uma igreja dedicada a Santa Rita de Cássia, que deu nome à localidade. Em 1939, Santa Rita virou o 2º Distrito de Canoas. Após plebiscito em 1991, o município foi criado em 20 de março de 1992, pela Lei Estadual 9.585. O Censo 2022 contou 29.024 moradores, e a estimativa mais recente do IBGE é de 30.190.",
+   "A posição no eixo da BR-386, com acesso à BR-448 e à BR-116, atraiu condomínios logísticos usados por grandes operações de comércio eletrônico. No campo, assentamentos da reforma agrária, como o Santa Rita de Cássia II, à margem da BR-386, cultivam arroz orgânico desde a virada dos anos 2000. O PIB por habitante foi de cerca de R$ 111 mil em 2023 e o salário médio dos trabalhadores formais era de 3 salários mínimos em 2024 (IBGE).",
+   "O território tem cerca de 218 km² e faz divisa com Canoas, Esteio, Sapucaia do Sul, Portão, Capela de Santana, Montenegro, Triunfo e Porto Alegre. Parte das áreas junto aos rios dos Sinos, Caí e Jacuí integra a Área de Proteção Ambiental Estadual Delta do Jacuí. A sede é pequena e boa parte do município é rural: a própria imprensa regional registra que pontos do interior ainda são mal atendidos. Para trabalho, compras e serviços maiores, o deslocamento é por rodovia até Canoas e Porto Alegre."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Nova Santa Rita, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Nova_Santa_Rita_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "IBGE Cidades (Nova Santa Rita)",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/nova-santa-rita/panorama"
+   },
+   {
+    "nome": "IBGE, API de dados (Censo 2022 e estimativas)",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[4313375]"
+   },
+   {
+    "nome": "Jornal do Comércio, Nova Santa Rita e o e-commerce (jun/2026)",
+    "url": "https://www.jornaldocomercio.com/mapa-economico/regiao-metropolitana/2026/06/1253528-nova-santa-rita-e-o-lar-dos-gigantes-do-e-commerce.html"
+   },
+   {
+    "nome": "Brasil de Fato, assentados do MST e a colheita do arroz (2019)",
+    "url": "https://brasildefato.com.br/2019/03/15/assentados-do-mst-festejam-colheita-de-16-mil-toneladas-de-arroz-no-rio-grande-do-sul/"
+   },
+   {
+    "nome": "Outras Palavras, o arroz orgânico do MST",
+    "url": "https://outraspalavras.net/outrasmidias/440216/"
+   },
+   {
+    "nome": "MPRS, APA e Parque Estadual Delta do Jacuí",
+    "url": "https://www.mprs.mp.br/noticias/13855/"
+   },
+   {
+    "nome": "Jornal NH, edição de 20/03/2026",
+    "url": "https://pdf.gruposinos.com.br/jornalnh/2026/03/20/1331ed/pdf/13AA-20-DIG.pdf"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Nova Santa Rita não entra na pesquisa da cesta básica do DIEESE. A referência é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 11,68% em 12 meses. Quem trabalhar ou estudar na capital e usar o ônibus municipal de lá paga R$ 5,30 por passagem desde 19 de fevereiro de 2026.",
+   "Na cheia de maio de 2024, o município acumulou 530,87 mm de chuva entre 26 de abril e 5 de maio, e a Emater estimou em R$ 59 milhões a perda de receita no campo. Ao procurar imóvel, vale perguntar se a rua foi atingida em 2024."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Prefeitura de Porto Alegre, tarifa 2026",
+    "url": "https://prefeitura.poa.br/smmu/noticias/onibus-e-taxi-passam-operar-com-novas-tarifas-partir-desta-quinta"
+   },
+   {
+    "nome": "Jornal NH, edição de 15/05/2024 (cheia em Nova Santa Rita)",
+    "url": "https://pdf.gruposinos.com.br/jornalnh/2024/05/15/0806ef/pdf/12AA-15-DIG.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Dentro do município, o grande evento é a festa da colheita do arroz agroecológico. Para o dia a dia, as famílias usam os parques e museus das cidades vizinhas e de Porto Alegre.",
+  "lugares": [
+   {
+    "nome": "Festa da Colheita do Arroz Agroecológico",
+    "km": "na cidade",
+    "desc": "Realizada no Assentamento Capela, com a cooperativa Coopan. A 23ª edição foi em 20 de março de 2026 e reuniu cerca de 2 mil pessoas."
+   },
+   {
+    "nome": "Parque Zoológico do Rio Grande do Sul",
+    "km": "em Sapucaia do Sul",
+    "desc": "Na parada 41 da BR-116, em Sapucaia do Sul. Inaugurado em 1962, tem mais de mil animais de cerca de 150 espécies. Abre de terça a domingo, das 9h às 17h."
+   },
+   {
+    "nome": "Parque Imperatriz Leopoldina",
+    "km": "em São Leopoldo",
+    "desc": "Em São Leopoldo, com churrasqueiras, quadras, pracinha infantil e Jardim Botânico. A trilha de cerca de 1.300 m à beira do Rio dos Sinos exige agendamento."
+   },
+   {
+    "nome": "Museu do Trem",
+    "km": "em São Leopoldo",
+    "desc": "Em São Leopoldo, na primeira estação ferroviária do estado, de 1874, com acervo da antiga Viação Férrea. Bom passeio para crianças."
+   },
+   {
+    "nome": "Mercado Público de Porto Alegre",
+    "km": "em Porto Alegre",
+    "desc": "Mercado histórico no Centro, com bancas de carne, erva-mate e temperos e restaurantes tradicionais. Fica junto à estação Mercado, ponto final do Trensurb."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Brasil de Fato, 23ª Festa da Colheita do Arroz Agroecológico (mar/2026)",
+    "url": "https://www.brasildefato.com.br/2026/03/18/agroecologia-e-o-caminho-mst-celebra-23a-festa-da-colheita-do-arroz-agroecologico-com-foco-em-resiliencia-e-alimento-saudavel/"
+   },
+   {
+    "nome": "Brasil de Fato, abertura da colheita em Nova Santa Rita (mar/2026)",
+    "url": "https://www.brasildefato.com.br/2026/03/20/mistica-marca-abertura-da-colheita-e-homenageia-frei-sergio-em-festa-do-arroz-agroecologico-no-rs/"
+   },
+   {
+    "nome": "Wikipédia (Parque Zoológico do Rio Grande do Sul)",
+    "url": "https://pt.wikipedia.org/wiki/Parque_Zool%C3%B3gico_do_Rio_Grande_do_Sul"
+   },
+   {
+    "nome": "Governo do RS, Parque Zoológico completa 64 anos",
+    "url": "https://www.estado.rs.gov.br/parque-zoologico-completa-64-anos-de-atuacao-na-conservacao-da-fauna-com-ingresso-solidario"
+   },
+   {
+    "nome": "Vale Germânico, Parque Imperatriz Leopoldina",
+    "url": "https://valegermanicors.com.br/atrativo-parque-natural-municipal-imperatriz-leopoldina/"
+   },
+   {
+    "nome": "Vale Germânico, Museu do Trem",
+    "url": "https://valegermanicors.com.br/atrativo-museu-do-trem/"
+   },
+   {
+    "nome": "Wikipedia (Porto Alegre)",
+    "url": "https://en.wikipedia.org/wiki/Porto_Alegre"
+   },
+   {
+    "nome": "Wikipédia (Metropolitano de Porto Alegre / Trensurb)",
+    "url": "https://pt.wikipedia.org/wiki/Metropolitano_de_Porto_Alegre"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Na escolha do imóvel, pergunte se a rua foi alagada na cheia de maio de 2024 e prefira visitar o endereço pessoalmente.",
+  "O município é extenso e em boa parte rural. Confira a distância do imóvel até a sede e até a BR-386 antes de fechar contrato, porque nem todo ponto do interior é bem atendido.",
+  "Para compras maiores, hospitais e universidades, o caminho é Canoas e Porto Alegre pela rodovia. Ter carro facilita muito a rotina.",
+  "Se quiser conhecer a festa do arroz agroecológico, ela costuma acontecer em março, no Assentamento Capela."
+ ]
+}
