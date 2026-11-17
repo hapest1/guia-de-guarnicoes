@@ -1,0 +1,52 @@
+{
+ "slug": "placido-de-castro-ac",
+ "lede": "À margem do rio Abunã, na divisa com a Bolívia e a cerca de 100 km de Rio Branco, Plácido de Castro leva o nome do líder da Revolução Acreana e vive sobretudo da agropecuária.",
+ "cidade": {
+  "paragrafos": [
+   "Antes de virar município, a localidade foi posto avançado e depósito de seringais com o nome de Vila Pacatuba. Tornou-se município em 1976 e faz aniversário em 30 de março. O nome homenageia José Plácido de Castro, gaúcho de São Gabriel, que em 1903 liderou a terceira Revolução Acreana e governou o Estado Independente do Acre até o Tratado de Petrópolis. O Censo 2022 contou 16.560 moradores, e a estimativa mais recente do IBGE é de 17.088.",
+   "A economia vem do campo: em 2021, a agropecuária respondia por cerca de 54% do valor adicionado do município, e a administração pública, por cerca de 26%. O rebanho bovino somava 327.130 cabeças em 2025. Nas lavouras, os destaques de 2025 foram o milho (R$ 26,1 milhões), a soja (R$ 25,2 milhões), a mandioca (R$ 9,8 milhões) e a banana (R$ 6,6 milhões). O PIB de 2023 foi de R$ 765 milhões. O comércio do lado boliviano, em Puerto Evo Morales, também atrai visitantes à cidade.",
+   "A sede fica na margem esquerda do rio Abunã, que forma quase toda a fronteira norte entre a Bolívia e o Brasil. Do outro lado está Puerto Evo Morales, o antigo vilarejo de Montevidéu, hoje uma vila comercial. O município tem cerca de 2.047 km² e faz divisa com Senador Guiomard ao norte, Acrelândia a leste, Capixaba a oeste e Rio Branco a noroeste. A capital fica a cerca de 100 km. As rodovias do município são a AC-040 e a AC-475. O distrito de Vila Campinas fica no km 60 da BR-364, no sentido de Porto Velho."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Plácido de Castro, Acre)", "url": "https://pt.wikipedia.org/wiki/Pl%C3%A1cido_de_Castro_(Acre)"},
+   {"nome": "Wikipédia (José Plácido de Castro)", "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Pl%C3%A1cido_de_Castro"},
+   {"nome": "Wikipédia (Rio Abunã)", "url": "https://pt.wikipedia.org/wiki/Rio_Abun%C3%A3"},
+   {"nome": "IBGE/SIDRA (Censo 2022, tabela 4709)", "url": "https://sidra.ibge.gov.br/tabela/4709"},
+   {"nome": "IBGE/SIDRA (estimativas de população, tabela 6579)", "url": "https://sidra.ibge.gov.br/tabela/6579"},
+   {"nome": "IBGE/SIDRA (PIB dos municípios, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"},
+   {"nome": "IBGE/SIDRA (Pesquisa da Pecuária Municipal 2025, tabela 3939)", "url": "https://sidra.ibge.gov.br/tabela/3939"},
+   {"nome": "IBGE/SIDRA (Produção Agrícola Municipal 2025, tabela 5457)", "url": "https://sidra.ibge.gov.br/tabela/5457"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Não há pesquisa de preços publicada para a cidade, e a referência é Rio Branco, a cerca de 100 km. Lá, a cesta básica do DIEESE custou R$ 710,92 em outubro de 2026, contra R$ 678,35 em setembro. Na Região Norte, a cesta inclui farinha de mandioca no lugar da farinha de trigo.",
+   "O combustível no Acre está entre os mais caros do país. Na pesquisa da ANP de 18 a 24 de outubro de 2026, a gasolina comum teve média estadual de R$ 7,43 o litro, R$ 0,94 acima da média nacional. Em Rio Branco, a média de janeiro de 2026 foi de R$ 7,22."
+  ],
+  "fontes": [
+   {"nome": "DIEESE (Cesta Básica, Rio Branco, 2026)", "url": "https://www.dieese.org.br/cesta/"},
+   {"nome": "Game Over Drive (preço da gasolina por estado, ANP 18 a 24/10/2026)", "url": "https://gameoverdrive.com.br/preco-da-gasolina-hoje-3-11-valores-atualizados-nos-27-estados-e-diesel/"},
+   {"nome": "Brasil 61 (gasolina e diesel em Rio Branco, jan/2026)", "url": "https://brasil61.com/n/preco-da-gasolina-e-diesel-em-rio-branco-ac-veja-os-valores-medios-bras2615693"}
+  ]
+ },
+ "lazer": {
+  "intro": "O calendário da cidade é marcado por três festas: o aniversário em março, o padroeiro em julho e o festival de praia em setembro. No resto do ano, o rio Abunã, o futebol e a proximidade de Rio Branco completam o lazer.",
+  "lugares": [
+   {"nome": "Festival do Surubim", "km": "na cidade", "desc": "Antigo Festival de Praia e principal atração do município. Acontece às margens do Abunã no feriado de 7 de Setembro."},
+   {"nome": "Festa do Bom Jesus do Abunã", "km": "na cidade", "desc": "Festa do padroeiro, no segundo fim de semana de julho, uma das razões mais comuns de visita à cidade."},
+   {"nome": "Aniversário da cidade", "km": "na cidade", "desc": "Em 30 de março há cavalgadas, shows locais e atividades esportivas, um bom momento para a família conhecer os moradores."},
+   {"nome": "Estádio José Ferreira Lima (Ferreirão)", "km": "na cidade", "desc": "Casa do Plácido de Castro Futebol Club, que já foi campeão acreano e representou o estado na Série D. Desde 2018, o estádio recebe jogos do Campeonato Acreano."},
+   {"nome": "Rio Abunã", "km": "na cidade", "desc": "Rio curto e caudaloso que separa a cidade da Bolívia. Em alguns trechos, afloramentos de rocha formam pequenas cachoeiras e corredeiras, então nade só em locais conhecidos."},
+   {"nome": "Rio Branco", "km": "~100 km", "desc": "A capital do Acre é o destino natural para compras, serviços e passeios de fim de semana."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Plácido de Castro, Acre: cultura e turismo)", "url": "https://pt.wikipedia.org/wiki/Pl%C3%A1cido_de_Castro_(Acre)"},
+   {"nome": "Wikipédia (Rio Abunã)", "url": "https://pt.wikipedia.org/wiki/Rio_Abun%C3%A3"}
+  ]
+ },
+ "antes_de_ir": [
+  "Se puder escolher a data de chegada, marque no calendário as festas de 30 de março, do segundo fim de semana de julho e do 7 de Setembro: são os principais motivos de visita à cidade.",
+  "O município tem um distrito à beira da BR-364, Vila Campinas, no km 60, no sentido de Porto Velho; vale saber disso ao procurar endereços e serviços.",
+  "Abasteça e faça as compras maiores pensando no preço: a gasolina no Acre ficou perto de R$ 7,43 em outubro de 2026, e Rio Branco, a 100 km, é onde se concentram o comércio e os serviços."
+ ]
+}

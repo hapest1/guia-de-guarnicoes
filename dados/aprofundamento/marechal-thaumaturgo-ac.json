@@ -21,7 +21,7 @@
  },
  "custo_extra": {
   "paragrafos": [
-   "Não há pesquisa de preços publicada para Marechal Thaumaturgo. A maior parte do que se compra vem de Cruzeiro do Sul pelo Juruá, e lá a gasolina comum teve média de R$ 8,46 o litro na pesquisa da ANP de junho de 2026. O transporte rio acima tende a aumentar o preço final, por isso traga da origem o que for possível.",
+   "Não há pesquisa de preços publicada para Marechal Thaumaturgo. A maior parte do que se compra vem de Cruzeiro do Sul pelo Juruá, e lá a gasolina comum teve média de R$ 8,46 o litro na pesquisa da ANP de junho de 2026.",
    "Para a alimentação, a referência é a cesta básica do DIEESE em Rio Branco, a capital do estado: R$ 710,92 em outubro de 2026. Na Região Norte, a cesta inclui farinha de mandioca, a principal lavoura do município."
   ],
   "fontes": [
@@ -34,7 +34,7 @@
   "intro": "Aqui a paisagem é de rio e floresta protegida. O município reúne uma reserva extrativista pioneira, parte de um parque nacional e terras indígenas, e o programa de fim de semana mais completo fica em Cruzeiro do Sul.",
   "lugares": [
    {"nome": "Encontro do Juruá com o Amônia", "km": "na cidade", "desc": "A sede fica na foz do Amônia. O Juruá enche de dezembro a maio e baixa de junho a novembro, quando aparecem as praias usadas para plantio. Na água, cuidado com a correnteza."},
-   {"nome": "Reserva Extrativista do Alto Juruá", "km": "no município", "desc": "Criada por decreto em 23 de janeiro de 1990, com cerca de 506 mil hectares, é apontada como a primeira reserva extrativista do Brasil. É território de famílias de seringueiros e ribeirinhos, gerido com a associação dos moradores."},
+   {"nome": "Reserva Extrativista do Alto Juruá", "km": "no município", "desc": "Criada por decreto em 23 de janeiro de 1990, com cerca de 506 mil hectares, é apontada como a primeira reserva extrativista do Brasil."},
    {"nome": "Terra Indígena Kampa do Rio Amônia", "km": "~3 h de barco", "desc": "Território do povo Ashaninka, homologado, onde fica a aldeia Apiwtxa. Os Ashaninka são conhecidos pela tecelagem de redes, roupas e bolsas e pela cestaria. É terra indígena, não um ponto turístico."},
    {"nome": "Parque Nacional da Serra do Divisor", "km": "no município (5% da área)", "desc": "Parque de 1989 na fronteira com o Peru, administrado pelo ICMBio e considerado de altíssima biodiversidade. O roteiro de visita mais conhecido parte de Mâncio Lima, de barco."},
    {"nome": "Cruzeiro do Sul", "km": "~90 min de avião", "desc": "A cidade-polo tem a Catedral Nossa Senhora da Glória, o balneário do Igarapé Preto e o rio Croa. É onde a família encontra comércio, bancos e lazer urbano."}

@@ -8,9 +8,18 @@
    "O município tem 236 km², dos quais 21,4 km² são de zona urbana. O relevo é ondulado, e o arroio Guamerim atravessa o Centro. A BR-282 liga a cidade ao litoral e à Argentina e está asfaltada até San Pedro, do lado argentino. A BR-163 segue para o Paraná, e a SC-386, para o Rio Grande do Sul. Chapecó, a cidade-polo da região intermediária, fica a 128 km. A cidade tem rodoviária com linhas para cidades catarinenses e grandes capitais, além de aeroporto com pista asfaltada de 1.280 m."
   ],
   "fontes": [
-   {"nome": "Wikipédia (São Miguel do Oeste)", "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_do_Oeste"},
-   {"nome": "IBGE, Censo 2022 e estimativas de população (API SIDRA)", "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[4217204]"},
-   {"nome": "IBGE Cidades (São Miguel do Oeste)", "url": "https://cidades.ibge.gov.br/brasil/sc/sao-miguel-do-oeste/panorama"}
+   {
+    "nome": "Wikipédia (São Miguel do Oeste)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_do_Oeste"
+   },
+   {
+    "nome": "IBGE, Censo 2022 e estimativas de população (API SIDRA)",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[4217204]"
+   },
+   {
+    "nome": "IBGE Cidades (São Miguel do Oeste)",
+    "url": "https://cidades.ibge.gov.br/brasil/sc/sao-miguel-do-oeste/panorama"
+   }
   ]
  },
  "custo_extra": {
@@ -18,22 +27,46 @@
    "São Miguel do Oeste não entra na pesquisa da cesta básica do DIEESE. A referência catarinense é Florianópolis, onde a cesta custou R$ 927,82 em outubro de 2026, a terceira mais cara entre as 27 capitais. Em 12 meses, o valor subiu 12,52%, puxado por tomate, batata e feijão preto. Quem ganha um salário mínimo (R$ 1.621) precisou trabalhar 125 horas e 55 minutos para comprá-la."
   ],
   "fontes": [
-   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
   ]
  },
  "lazer": {
   "intro": "O lazer gira em torno da tradição gaúcha, das festas no Parque de Exposições e dos espaços do Centro. A cidade também é parada de turistas argentinos, paraguaios e chilenos a caminho do litoral.",
   "lugares": [
-   {"nome": "Igreja Matriz São Miguel Arcanjo", "km": "na cidade", "desc": "Principal ponto turístico, chama atenção pelo tamanho e pelo formato. No terreno ficam a Gruta Nossa Senhora de Lourdes, uma réplica da primeira igreja da cidade e o busto do padre Aurélio Canzi, idealizador do projeto."},
-   {"nome": "Praça Walnir Bottaro Daniel", "km": "na cidade", "desc": "Praça central com árvores nativas, parque infantil e chafariz. Ali fica a Estátua do Desbravador, de ferro, em homenagem aos colonizadores."},
-   {"nome": "CTG Porteira Aberta", "km": "na cidade", "desc": "Fundado em 1959 e citado como o CTG mais antigo do estado, fica no Centro e tem grupos de dança e canto. Organiza o rodeio São Miguel Tchê, no início do ano, com provas de laço, gineteadas e shows."},
-   {"nome": "Parque de Exposições Irineu Gransotto", "km": "na cidade", "desc": "Recebe a Expo São Miguel, feira agroindustrial feita a cada dois anos, e as feiras de março, como a da Melancia e a da Uva."},
-   {"nome": "Motocão", "km": "na cidade", "desc": "Encontro internacional de motociclistas, anual, no Centro, perto da praça. Atrai visitantes de vários países do Cone Sul e lota a rede hoteleira."},
-   {"nome": "Natal no Centro", "km": "na cidade", "desc": "A igreja matriz, a gruta, a praça e as ruas ganham iluminação especial. Em dezembro, o trenó do Papai Noel leva as crianças para passear pelo Centro."},
-   {"nome": "Museu Rural São Jorge", "km": "~15 km", "desc": "Fica em Guaraciaba, município vizinho, e retrata a passagem da Coluna Prestes pela região."}
+   {
+    "nome": "Igreja Matriz São Miguel Arcanjo",
+    "km": "na cidade",
+    "desc": "Principal ponto turístico, chama atenção pelo tamanho e pelo formato. No terreno ficam a Gruta Nossa Senhora de Lourdes, uma réplica da primeira igreja da cidade e o busto do padre Aurélio Canzi, idealizador do projeto."
+   },
+   {
+    "nome": "Praça Walnir Bottaro Daniel",
+    "km": "na cidade",
+    "desc": "Praça central com árvores nativas, parque infantil e chafariz. Ali fica a Estátua do Desbravador, de ferro, em homenagem aos colonizadores."
+   },
+   {
+    "nome": "CTG Porteira Aberta",
+    "km": "na cidade",
+    "desc": "Fundado em 1959 e citado como o CTG mais antigo do estado, fica no Centro e tem grupos de dança e canto. Organiza o rodeio São Miguel Tchê, no início do ano, com provas de laço, gineteadas e shows."
+   },
+   {
+    "nome": "Parque de Exposições Irineu Gransotto",
+    "km": "na cidade",
+    "desc": "Recebe a Expo São Miguel, feira agroindustrial feita a cada dois anos, e as feiras de março, como a da Melancia e a da Uva."
+   },
+   {
+    "nome": "Museu Rural São Jorge",
+    "km": "~15 km",
+    "desc": "Fica em Guaraciaba, município vizinho, e retrata a passagem da Coluna Prestes pela região."
+   }
   ],
   "fontes": [
-   {"nome": "Wikipédia (São Miguel do Oeste), turismo e eventos", "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_do_Oeste"}
+   {
+    "nome": "Wikipédia (São Miguel do Oeste), turismo e eventos",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_do_Oeste"
+   }
   ]
  },
  "antes_de_ir": [

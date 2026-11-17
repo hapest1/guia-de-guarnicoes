@@ -1,0 +1,50 @@
+{
+ "slug": "dom-pedrito-rs",
+ "lede": "A Capital da Paz, onde foi assinado em 1845 o acordo que encerrou a Revolução Farroupilha, é município de pecuária, arroz e vinhedos na Campanha, junto à fronteira com o Uruguai.",
+ "cidade": {
+  "paragrafos": [
+   "O povoamento começou por volta de 1800, nas terras que pertenciam a Bagé. O nome vem do espanhol Pedro Ansuateguy, apelidado de Dom Pedrito, que organizava o contrabando na região e abriu picadas que viraram estradas. O município data de 30 de outubro de 1872. A região passou pela Revolução Farroupilha, pela Revolução Federalista de 1893 e pela Revolução de 1923. A paz farroupilha, anunciada em 1º de março de 1845, foi acertada em Ponche Verde, hoje parte de Dom Pedrito, o que deu à cidade o apelido de Capital da Paz. O Censo 2022 contou 36.981 moradores, e a estimativa mais recente do IBGE fica perto de 38,1 mil.",
+   "O campo domina a economia: a agropecuária respondeu por cerca de 50,8% do valor adicionado em 2021, segundo o IBGE, e os serviços por 31,6%. O rebanho bovino passa de 307 mil cabeças, e o de ovinos, de 83 mil. Em 2025 o município colheu cerca de 360 mil toneladas de arroz em 38,7 mil hectares e 318 mil toneladas de soja em 165 mil hectares. A partir do começo do século XXI vieram os vinhedos para vinho, e a cidade produz também frutas como o melão. No ensino superior, há campus da Unipampa, universidade federal criada em 2008 com sede em Bagé.",
+   "O município é extenso, com cerca de 5.194 km², e tem dois distritos: a sede e Torquato Severo. Faz curta fronteira ao sul com o departamento de Rivera, no Uruguai, e se limita com Santana do Livramento, Rosário do Sul, São Gabriel, Lavras do Sul e Bagé. É banhado pelas bacias dos rios Camaquã e Santa Maria; este último nasce no nordeste do município. A BR-293 liga a cidade a Bagé e a Santana do Livramento. Porto Alegre fica a cerca de 441 km por rodovia."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Dom Pedrito)", "url": "https://pt.wikipedia.org/wiki/Dom_Pedrito"},
+   {"nome": "Wikipédia (Tratado de Poncho Verde)", "url": "https://pt.wikipedia.org/wiki/Tratado_de_Poncho_Verde"},
+   {"nome": "Wikipédia (Universidade Federal do Pampa)", "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_do_Pampa"},
+   {"nome": "IBGE Cidades (Dom Pedrito)", "url": "https://cidades.ibge.gov.br/brasil/rs/dom-pedrito/panorama"},
+   {"nome": "IBGE, API de agregados: Censo 2022, estimativas, PIB dos Municípios, PAM e PPM 2025", "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Dom Pedrito não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro e de 11,68% em 12 meses. Não encontramos fonte datada de 2026 para o preço do combustível nem para aluguel na cidade; consulte o levantamento semanal da ANP e as imobiliárias locais antes de fechar o orçamento."
+  ],
+  "fontes": [
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer gira em torno da memória da paz farroupilha, das datas tradicionalistas e do enoturismo, que cresce na Campanha. Nos arredores de Dom Pedrito e Bagé há vinícolas que recebem visitantes.",
+  "lugares": [
+   {"nome": "Monumento à Paz Farroupilha", "km": "na cidade", "desc": "Marco da paz que encerrou a Revolução Farroupilha, na Rua Vinte e Um de Abril, bairro José Tude de Godoy. Bom ponto de partida para contar às crianças a história do apelido da cidade."},
+   {"nome": "Palácio do Ponche Verde", "km": "na cidade", "desc": "Sede da prefeitura, em prédio cuja construção começou em 1927 e terminou no ano seguinte. O nome lembra o local da paz de 1845."},
+   {"nome": "Museu Paulo Firpo", "km": "na cidade", "desc": "Fundado em abril de 1968, reúne acervo histórico e cultural de Dom Pedrito e região. Fica na Rua Júlio de Castilhos, 1060; confirme o horário antes de ir."},
+   {"nome": "Semana da Paz", "km": "na cidade", "desc": "Programação do fim de fevereiro até 1º de março, data aceita para a assinatura da paz de Ponche Verde em 1845."},
+   {"nome": "Semana Farroupilha", "km": "na cidade", "desc": "De 14 a 20 de setembro, com a programação tradicionalista que marca o calendário gaúcho."},
+   {"nome": "Vinícola Guatambu", "km": "zona rural", "desc": "Vinícola de empresa familiar que atua no agronegócio desde 1958. Oferece o pacote Dia Épico, com tour guiado, almoço harmonizado e música tradicionalista; reserve com antecedência."}
+  ],
+  "fontes": [
+   {"nome": "Buser, Monumento à Paz Farroupilha", "url": "https://www.buser.com.br/destinos/pontos-turisticos/rs/dom-pedrito/monumento-a-paz-farroupilha"},
+   {"nome": "Guia de turismo de Dom Pedrito (PDF)", "url": "https://xadmin.s3.us-east-2.amazonaws.com/275/PhotoAssets/262292/images/original/Turismo-Dom-Pedrito-Digital_(222).pdf"},
+   {"nome": "Wikipédia (Tratado de Poncho Verde)", "url": "https://pt.wikipedia.org/wiki/Tratado_de_Poncho_Verde"},
+   {"nome": "Pontos pra Voar, Vinícola Guatambu", "url": "https://pontospravoar.com/vinicola-guatambu-experiencia-une-enoturismo-cultura-pampa-gaucho/"},
+   {"nome": "Jornal do Comércio, Campanha é a nova fronteira do enoturismo (fev/2025)", "url": "https://www.jornaldocomercio.com/cadernos/empresas-e-negocios/2025/02/1192001-campanha-e-a-nova-fronteira-do-enoturismo-no-estado.html"}
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare a casa para o frio: a estação do INMET na cidade registrou −4 °C em 7 de julho de 2019, e o calor já chegou a 39,8 °C em março de 2020.",
+  "Confira se o endereço do imóvel fica na sede ou no distrito de Torquato Severo. O município tem mais de 5 mil km², e as distâncias no interior são longas.",
+  "Para visitar vinícolas, combine antes por telefone ou site: as visitas costumam ser em pacotes com hora marcada, e as propriedades ficam fora da sede.",
+  "A BR-293 é a ligação com Bagé e Santana do Livramento, onde estão serviços que a cidade não tem. Planeje as viagens de carro de dia."
+ ]
+}
