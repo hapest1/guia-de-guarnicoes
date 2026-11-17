@@ -1,0 +1,143 @@
+{
+ "slug": "crateus-ce",
+ "lede": "Crateús foi vila do Piauí até 1880, quando um decreto imperial a passou para o Ceará; hoje é o polo do sertão de Crateús, cortado pelo rio Poti, a cerca de 350 km de Fortaleza.",
+ "cidade": {
+  "paragrafos": [
+   "A região era habitada pelos indígenas Karatis antes da chegada de portugueses e bandeirantes. O povoado nasceu de uma fazenda chamada Piranhas e virou a vila de Príncipe Imperial, então no Piauí. O Decreto 3.012, de 22 de outubro de 1880, redesenhou a divisa: o Ceará recebeu a comarca de Príncipe Imperial, que incluía as atuais Crateús e Independência, e o Piauí ficou com a vila litorânea de Amarração. O nome Crateús veio em 1889. O Censo 2022 contou 76.390 moradores, e a estimativa mais recente do IBGE passa de 80,1 mil.",
+   "Comércio e serviços puxam a economia, e a cidade atende os municípios vizinhos do sertão de Crateús. O ensino superior cresceu com o campus da UFC, que em março de 2026 inaugurou bloco de laboratórios, refeitório e biblioteca e teve obra de novo prédio autorizada, com investimento de R$ 15 milhões. Há também campus do IFCE, com cursos técnicos e licenciaturas, e oferta da UECE pela Faculdade de Educação de Crateús (FAEC).",
+   "O município é extenso, com 2.981 km², e a densidade é baixa, de 25,6 habitantes por km². O rio Poti corta a área urbana; entre os bairros centrais estão Centro, São Vicente, Santa Luzia, Maratoan, Ipase, São José e Ponte Preta. As principais rodovias são a BR-020 e a BR-226. A viagem de ônibus até Fortaleza leva cerca de 6 horas."
+  ],
+  "fontes": [
+   {
+    "nome": "IBGE Biblioteca, histórico de Crateús",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/ceara/crateus.pdf"
+   },
+   {
+    "nome": "IBGE Cidades (Crateús)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ce/crateus.html"
+   },
+   {
+    "nome": "Assembleia Legislativa do Ceará, Inesp (divisa Ceará–Piauí)",
+    "url": "https://www.al.ce.gov.br/publicacoes-inesp/downloads/pelo-id/63"
+   },
+   {
+    "nome": "Diário do Nordeste (novos equipamentos da UFC Crateús, mar/2026)",
+    "url": "https://diariodonordeste.verdesmares.com.br/ceara/mec-inaugura-equipamentos-na-ufc-de-crateus-e-anuncia-obra-de-novo-predio-no-campus-1.3748359"
+   },
+   {
+    "nome": "IFCE, egressos do campus Crateús",
+    "url": "https://egressos.ifce.edu.br/extratos/Crate%C3%BAs-gradua%C3%A7%C3%A3o-MATEM%C3%81TICA-licenciatura-12401.pdf"
+   },
+   {
+    "nome": "Sisu Simulator (cursos em Crateús: UFC, IFCE e UECE/FAEC)",
+    "url": "https://sisusimulator.com.br/cidade/CE/crateus"
+   },
+   {
+    "nome": "Smargiassi, perfil de Crateús (economia)",
+    "url": "https://smargiassi.com.br/ce/crateus/"
+   },
+   {
+    "nome": "Enanpege 2023 (rio Poti na área urbana de Crateús)",
+    "url": "https://editorarealize.com.br/editora/anais/enanpege/2023/TRABALHO_COMPLETO_EV187_MD6_ID777_TB304_12112023184904.pdf"
+   },
+   {
+    "nome": "Repositório UFC (TCC 2022 sobre Crateús)",
+    "url": "https://repositorio.ufc.br/bitstream/riufc/64406/1/2022_tcc_vasoares.pdf"
+   },
+   {
+    "nome": "CheckMyBus (ônibus Fortaleza–Crateús)",
+    "url": "https://www.checkmybus.com/fortaleza/crateus"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Na coleta da ANP de 8 de outubro de 2026, a gasolina comum custava em média R$ 6,81 o litro em Crateús, em 8 postos, com variação grande: de R$ 6,10 a R$ 7,90. Em maio de 2026, a média tinha recuado de R$ 6,61 para R$ 6,44, segundo O Povo.",
+   "Crateús não entra na pesquisa da cesta básica do DIEESE. A referência cearense é Fortaleza, onde a cesta custou R$ 822,70 em outubro de 2026, bem acima de Natal (R$ 678,05) e de João Pessoa (R$ 696,24)."
+  ],
+  "fontes": [
+   {
+    "nome": "Atlas Público, preços ANP em Crateús",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/ce/crateus"
+   },
+   {
+    "nome": "O Povo (gasolina no Ceará, mai/2026)",
+    "url": "https://www.opovo.com.br/noticias/economia/2026/05/23/gasolina-cai-rs-003-mas-ceara-passa-a-ter-4-maior-preco-do-nordeste.html"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O grande atrativo de Crateús é a caatinga preservada, com trilhas e cânions na zona rural. Na cidade, o calendário tem a semana do padroeiro e a exposição agropecuária.",
+  "lugares": [
+   {
+    "nome": "Reserva Natural Serra das Almas",
+    "km": "~50 km",
+    "desc": "Maior RPPN do Ceará, reconhecida pela Unesco como posto avançado da Reserva da Biosfera da Caatinga e administrada pela Associação Caatinga. A Trilha do Açude tem cerca de 500 m e é boa para ver aves; a das Arapucas, mais puxada, tem 6,5 km e dois mirantes."
+   },
+   {
+    "nome": "Parque Estadual do Cânion Cearense do Rio Poti",
+    "km": "zona rural",
+    "desc": "Unidade de conservação criada em 2021, com 3.680 hectares entre Crateús e Poranga, gerida pela Secretaria do Meio Ambiente do Ceará. Guarda gravuras rupestres e um sítio paleontológico; informe-se com a SEMA sobre acesso antes de ir."
+   },
+   {
+    "nome": "Catedral Senhor do Bonfim",
+    "km": "na cidade",
+    "desc": "Igreja do padroeiro, no Centro, com história que remonta a 1832. É o ponto de referência da vida religiosa da cidade."
+   },
+   {
+    "nome": "Semana Senhor do Bonfim",
+    "km": "na cidade",
+    "desc": "Celebração do padroeiro, incluída por lei no calendário oficial de eventos do Ceará, sempre na última semana de dezembro."
+   },
+   {
+    "nome": "Expoagro Crateús",
+    "km": "na cidade",
+    "desc": "Exposição agropecuária no Parque de Exposições Frutuoso Lins. A edição de 2025, de 23 a 28 de setembro, reuniu mais de 40 mil pessoas; para 2026, o circuito estadual previa 2 a 6 de junho."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "No Clima da Caatinga, Reserva Natural Serra das Almas",
+    "url": "https://www.noclimadacaatinga.org.br/reservanaturalserradasalmas/"
+   },
+   {
+    "nome": "O Povo (acessibilidade na trilha da Serra das Almas, 2023)",
+    "url": "https://www.opovo.com.br/noticias/ceara/2023/02/28/projeto-garante-acessibilidade-na-trilha-da-serra-das-almas-em-crateus.html"
+   },
+   {
+    "nome": "Diário do Nordeste (proteção legal ao Cânion do Rio Poty)",
+    "url": "https://diariodonordeste.verdesmares.com.br/regiao/canion-do-rio-poty-em-crateus-e-riacho-da-matinha-no-crato-recebem-protecao-ambiental-legal-1.3103691"
+   },
+   {
+    "nome": "Decreto estadual de criação do parque (ISA)",
+    "url": "https://documentacao.socioambiental.org/ato_normativo/UC/5389_20220121_020010.pdf"
+   },
+   {
+    "nome": "GCatholic, Catedral Senhor do Bonfim",
+    "url": "https://gcatholic.org/churches/brazil/2697"
+   },
+   {
+    "nome": "Assembleia Legislativa do Ceará (Semana Senhor do Bonfim)",
+    "url": "https://www2.al.ce.gov.br/legislativo/tramit2024/au152_24.pdf"
+   },
+   {
+    "nome": "Assembleia Legislativa do Ceará (Expoagro Crateús 2025)",
+    "url": "https://www2.al.ce.gov.br/legislativo/tramit2025/pl1124_25.pdf"
+   },
+   {
+    "nome": "O Povo (calendário de exposições 2026)",
+    "url": "https://www.opovo.com.br/noticias/economia/2026/03/29/agronegocio-mira-mais-negocios-e-profissionalizacao-no-ceara.html"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Pesquise o posto antes de abastecer: em outubro de 2026 a diferença entre a gasolina mais barata e a mais cara de Crateús passava de R$ 1,80 por litro, segundo a ANP.",
+  "Para a Serra das Almas, a viagem de carro leva cerca de 1h20. Combine a visita com a Associação Caatinga, que administra a reserva, e prefira o período chuvoso se o objetivo for ver aves na Trilha do Açude.",
+  "Conte com cerca de 6 horas de ônibus até Fortaleza, onde ficam o Colégio Militar e o hospital de referência. Planeje consultas e viagens com antecedência.",
+  "Se a família gosta de festa, marque no calendário a Expoagro e a Semana Senhor do Bonfim, no fim de dezembro, quando a cidade fica mais movimentada."
+ ]
+}

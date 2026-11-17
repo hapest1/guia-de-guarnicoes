@@ -8,11 +8,26 @@
    "O município é extenso, com mais de 4.300 km², mas a cidade é pequena e fica a cerca de 760 m de altitude, em relevo plano a suavemente ondulado. A capital, Goiânia, está a 198 km. Catalão, a cerca de 65 km, e Caldas Novas, a cerca de 60 km, são os centros maiores mais próximos; os dois municípios fazem divisa com Ipameri. A rodovia GO-330 corta o município e tem tráfego intenso de veículos pesados."
   ],
   "fontes": [
-   {"nome": "Wikipédia (Ipameri)", "url": "https://pt.wikipedia.org/wiki/Ipameri"},
-   {"nome": "IBGE Cidades (Ipameri)", "url": "https://www.ibge.gov.br/cidades-e-estados/go/ipameri.html"},
-   {"nome": "English Wikipedia (Ipameri, distância de Catalão)", "url": "https://en.wikipedia.org/wiki/Ipameri"},
-   {"nome": "Curta Mais (Ipameri a 198 km de Goiânia)", "url": "https://curtamais.com.br/goiania/cidade-em-goias-ipameri/"},
-   {"nome": "Rome2Rio (Ipameri a Caldas Novas)", "url": "https://www.rome2rio.com/s/Ipameri/Caldas-Novas"}
+   {
+    "nome": "Wikipédia (Ipameri)",
+    "url": "https://pt.wikipedia.org/wiki/Ipameri"
+   },
+   {
+    "nome": "IBGE Cidades (Ipameri)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/go/ipameri.html"
+   },
+   {
+    "nome": "English Wikipedia (Ipameri, distância de Catalão)",
+    "url": "https://en.wikipedia.org/wiki/Ipameri"
+   },
+   {
+    "nome": "Curta Mais (Ipameri a 198 km de Goiânia)",
+    "url": "https://curtamais.com.br/goiania/cidade-em-goias-ipameri/"
+   },
+   {
+    "nome": "Rome2Rio (Ipameri a Caldas Novas)",
+    "url": "https://www.rome2rio.com/s/Ipameri/Caldas-Novas"
+   }
   ]
  },
  "custo_extra": {
@@ -21,33 +36,103 @@
    "Ipameri não entra na pesquisa da cesta básica do DIEESE. A referência goiana é Goiânia, onde a cesta custou R$ 836,64 em outubro de 2026, alta de 3,54% no mês. Para deslocamentos sem carro, a cidade regulamentou em 2026 o transporte por aplicativo, com cadastro das plataformas e fiscalização municipal, após atuação do Ministério Público de Goiás."
   ],
   "fontes": [
-   {"nome": "Jornal Opção (gasolina em Goiás, ANP, jul/2026)", "url": "https://www.jornalopcao.com.br/goias/goias-tem-gasolina-comum-abaixo-da-media-nacional-mas-diferenca-entre-postos-chega-a-r-120-846956/"},
-   {"nome": "Atlas Público (preços ANP em Catalão, jul/2026)", "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/go/catalao"},
-   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"},
-   {"nome": "Jornal Opção (regras para aplicativos em Ipameri, jul/2026)", "url": "https://www.jornalopcao.com.br/ultimas-noticias/apos-denuncias-ipameri-cria-regras-para-motoristas-de-aplicativo-e-passa-a-fiscalizar-plataformas-847624/"}
+   {
+    "nome": "Jornal Opção (gasolina em Goiás, ANP, jul/2026)",
+    "url": "https://www.jornalopcao.com.br/goias/goias-tem-gasolina-comum-abaixo-da-media-nacional-mas-diferenca-entre-postos-chega-a-r-120-846956/"
+   },
+   {
+    "nome": "Atlas Público (preços ANP em Catalão, jul/2026)",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/go/catalao"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Jornal Opção (regras para aplicativos em Ipameri, jul/2026)",
+    "url": "https://www.jornalopcao.com.br/ultimas-noticias/apos-denuncias-ipameri-cria-regras-para-motoristas-de-aplicativo-e-passa-a-fiscalizar-plataformas-847624/"
+   }
   ]
  },
  "lazer": {
   "intro": "O lazer em Ipameri é de cidade do interior: patrimônio histórico, parque com lago, festas religiosas e a exposição agropecuária. Para águas termais e passeios maiores, a família vai a Caldas Novas, e há áreas de lazer perto do Lago Corumbá.",
   "lugares": [
-   {"nome": "Catedral do Divino Espírito Santo", "km": "na cidade", "desc": "Igreja em estilo neogótico no Centro, sede da Diocese de Ipameri. É o principal marco arquitetônico da cidade."},
-   {"nome": "Antiga estação ferroviária", "km": "na cidade", "desc": "Estação da Estrada de Ferro Goiás entregue em 1913, tombada e restaurada. Hoje funciona como biblioteca municipal."},
-   {"nome": "Parque Ecológico Dr. Rubens Cosac", "km": "na cidade", "desc": "Parque com lago artificial, pista de cooper, parquinho infantil, quiosques e academia ao ar livre."},
-   {"nome": "Expoagro de Ipameri", "km": "na cidade", "desc": "Exposição agropecuária do Sindicato Rural no Parque de Exposições, com rodeio, animais e shows. A 70ª edição foi de 8 a 12 de julho de 2026."},
-   {"nome": "Festa de Nossa Senhora da Abadia e futebol", "km": "na cidade", "desc": "A festa religiosa acontece todo agosto. O Novo Horizonte, clube local fundado em 1967 e conhecido como Fantasma, joga no Estádio Durval Ferreira Franco."},
-   {"nome": "Caldas Novas", "km": "~60 km", "desc": "Estância de águas termais vizinha, com parques aquáticos, clubes de águas quentes e o Parque Estadual da Serra de Caldas Novas."}
+   {
+    "nome": "Catedral do Divino Espírito Santo",
+    "km": "na cidade",
+    "desc": "Igreja em estilo neogótico no Centro, sede da Diocese de Ipameri. É o principal marco arquitetônico da cidade."
+   },
+   {
+    "nome": "Antiga estação ferroviária",
+    "km": "na cidade",
+    "desc": "Estação da Estrada de Ferro Goiás entregue em 1913, tombada e restaurada. Hoje funciona como biblioteca municipal."
+   },
+   {
+    "nome": "Parque Ecológico Dr. Rubens Cosac",
+    "km": "na cidade",
+    "desc": "Parque com lago artificial, pista de cooper, parquinho infantil, quiosques e academia ao ar livre."
+   },
+   {
+    "nome": "Expoagro de Ipameri",
+    "km": "na cidade",
+    "desc": "Exposição agropecuária do Sindicato Rural no Parque de Exposições, com rodeio, animais e shows. A 70ª edição foi de 8 a 12 de julho de 2026."
+   },
+   {
+    "nome": "Festa de Nossa Senhora da Abadia e futebol",
+    "km": "na cidade",
+    "desc": "A festa religiosa acontece todo agosto. O Novo Horizonte, clube local fundado em 1967 e conhecido como Fantasma, joga no Estádio Durval Ferreira Franco."
+   },
+   {
+    "nome": "Caldas Novas",
+    "km": "~60 km",
+    "desc": "Estância de águas termais com parques aquáticos, piscinas quentes e mais de 100 hotéis. O Parque Estadual da Serra de Caldas Novas tem trilhas e cachoeiras."
+   }
   ],
   "fontes": [
-   {"nome": "Wikipédia (Ipameri)", "url": "https://pt.wikipedia.org/wiki/Ipameri"},
-   {"nome": "Buser (Catedral do Divino Espírito Santo)", "url": "https://www.buser.com.br/destinos/pontos-turisticos/go/ipameri/catedral-do-divino-espirito-santo"},
-   {"nome": "Revista UFG (estações ferroviárias de Goiás)", "url": "https://revistas.ufg.br/revistaufg/article/download/48384/23719/202356"},
-   {"nome": "Estações Ferroviárias do Brasil (Ipameri)", "url": "http://www.estacoesferroviarias.com.br/efgoiaz/ipameri.htm"},
-   {"nome": "Jornal Opção (Parque Ecológico de Ipameri)", "url": "https://www.jornalopcao.com.br/ultimas-noticias/marconi-e-ze-elton-inauguram-parque-ecologico-em-ipameri-119228/"},
-   {"nome": "Governo de Goiás, calendário de eventos do agro 2026", "url": "https://goias.gov.br/agricultura/calendario-de-eventos-do-agro-em-goias-2026/"},
-   {"nome": "Curta Mais (Expoagro de Ipameri)", "url": "https://curtamais.com.br/goiania/expoagro-de-ipameri/"},
-   {"nome": "Curta Mais (Ipameri, Lago Corumbá)", "url": "https://curtamais.com.br/goiania/cidade-em-goias-qualidade-de-vida/"},
-   {"nome": "Wikipédia (Caldas Novas)", "url": "https://pt.wikipedia.org/wiki/Caldas_Novas"},
-   {"nome": "Rome2Rio (Ipameri a Caldas Novas)", "url": "https://www.rome2rio.com/s/Ipameri/Caldas-Novas"}
+   {
+    "nome": "Wikipédia (Ipameri)",
+    "url": "https://pt.wikipedia.org/wiki/Ipameri"
+   },
+   {
+    "nome": "Buser (Catedral do Divino Espírito Santo)",
+    "url": "https://www.buser.com.br/destinos/pontos-turisticos/go/ipameri/catedral-do-divino-espirito-santo"
+   },
+   {
+    "nome": "Revista UFG (estações ferroviárias de Goiás)",
+    "url": "https://revistas.ufg.br/revistaufg/article/download/48384/23719/202356"
+   },
+   {
+    "nome": "Estações Ferroviárias do Brasil (Ipameri)",
+    "url": "http://www.estacoesferroviarias.com.br/efgoiaz/ipameri.htm"
+   },
+   {
+    "nome": "Jornal Opção (Parque Ecológico de Ipameri)",
+    "url": "https://www.jornalopcao.com.br/ultimas-noticias/marconi-e-ze-elton-inauguram-parque-ecologico-em-ipameri-119228/"
+   },
+   {
+    "nome": "Governo de Goiás, calendário de eventos do agro 2026",
+    "url": "https://goias.gov.br/agricultura/calendario-de-eventos-do-agro-em-goias-2026/"
+   },
+   {
+    "nome": "Curta Mais (Expoagro de Ipameri)",
+    "url": "https://curtamais.com.br/goiania/expoagro-de-ipameri/"
+   },
+   {
+    "nome": "Curta Mais (Ipameri, Lago Corumbá)",
+    "url": "https://curtamais.com.br/goiania/cidade-em-goias-qualidade-de-vida/"
+   },
+   {
+    "nome": "Governo de Goiás, Turismo (Caldas Novas)",
+    "url": "https://goias.gov.br/turismo/?p=7541"
+   },
+   {
+    "nome": "Viagens e Caminhos (Caldas Novas)",
+    "url": "https://www.viagensecaminhos.com/caldas-novas-goias/"
+   },
+   {
+    "nome": "Rome2Rio (Ipameri a Caldas Novas)",
+    "url": "https://www.rome2rio.com/s/Ipameri/Caldas-Novas"
+   }
   ]
  },
  "antes_de_ir": [

@@ -1,0 +1,159 @@
+{
+ "slug": "caceres-mt",
+ "lede": "Fundada em 1778 à beira do rio Paraguai, Cáceres guarda um centro histórico tombado, abre caminho para o Pantanal e recebe todo ano um dos maiores torneios de pesca em rio do mundo.",
+ "cidade": {
+  "paragrafos": [
+   "Cáceres foi fundada em 6 de outubro de 1778 pelo tenente de Dragões Antônio Pinto Rego e Carvalho, por ordem do governador da capitania de Mato Grosso, Luís de Albuquerque de Melo Pereira e Cáceres. O núcleo original, Vila Maria do Paraguai, depois chamada São Luís de Cáceres, cresceu em torno de uma pequena igreja à beira do rio. O centro histórico foi tombado pelo Iphan em 2010. O Censo 2022 contou 89.681 moradores, e a estimativa mais recente do IBGE é de 91.767.",
+   "A economia se apoia na pecuária e na agroindústria: o município tem frigoríficos bovinos, laticínios, curtumes, usinas de cana-de-açúcar e até um frigorífico de jacaré, além de plantio de teca e extração de calcário. Cáceres sedia a ZPE de Mato Grosso, com cerca de 247 hectares, alfandegada pela Receita Federal em março de 2024. O porto fluvial é o ponto inicial da Hidrovia Paraguai-Paraná, e o turismo de pesca movimenta hotéis e barcos. A cidade é sede administrativa da Universidade do Estado de Mato Grosso (UNEMAT), com a reitoria e o Campus Universitário Jane Vanini.",
+   "A cidade se estende pela margem esquerda do rio Paraguai, atravessado pela Ponte Marechal Rondon, construída no início dos anos 1960. Além da sede, o município tem os distritos de Santo Antônio do Caramujo, Horizonte d'Oeste e Vila Aparecida. Cuiabá fica a 214 km por rodovia asfaltada. A BR-070, que começa em Brasília, termina no distrito de Corixá, na fronteira com a Bolívia."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Cáceres, Mato Grosso)",
+    "url": "https://pt.wikipedia.org/wiki/C%C3%A1ceres_(Mato_Grosso)"
+   },
+   {
+    "nome": "IBGE Cidades (Cáceres)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/mt/caceres.html"
+   },
+   {
+    "nome": "Cidade Turismo (o que fazer em Cáceres)",
+    "url": "https://cidadeturismo.com.br/o-que-fazer-em-caceres"
+   },
+   {
+    "nome": "ClickBus (guia de Cáceres)",
+    "url": "https://www.clickbus.com.br/blog/guia-de-destinos/centro-oeste/mato-grosso/caceres-mt/"
+   },
+   {
+    "nome": "Turismo de Natureza (o que fazer em Cáceres)",
+    "url": "https://turismodenatureza.com.br/o-que-fazer-em-caceres/"
+   },
+   {
+    "nome": "CNE, Parecer CES nº 513/2015 (sede da UNEMAT)",
+    "url": "https://www.gov.br/mec/pt-br/cne/pdf/pareceres-do-cne/ces/2015/parecer_cne_ces_513_15.pdf"
+   },
+   {
+    "nome": "UNEMAT, edital do Campus Jane Vanini (2024)",
+    "url": "https://cms.unemat.br/download/documentos/documento-arquivo/xzhBdQFGhx9yd79NdW7nxLsSA4tx10hdES5YFWnG/Edital-Complementar-012024-ao-Edital-012024-de-Autorizacao-Temporaria-Nao-Remunerada-de-Uso-de-Espaco-no-012024.pdf"
+   },
+   {
+    "nome": "Despachante Dok (BR-070)",
+    "url": "https://www.despachantedok.com.br/blog/viagens/br-070/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Um estudo sobre mobilidade publicado em 2025 aponta que Cáceres não tem sistema regular de transporte coletivo, embora o Plano de Mobilidade Urbana tenha sido aprovado em 2019. Na prática, conte com carro, moto ou aplicativo. Na coleta da ANP de 9 de outubro de 2026, a gasolina comum custava em média R$ 6,71 o litro em 9 postos da cidade, de R$ 6,69 a R$ 6,89. O etanol saía por cerca de R$ 4,11 e o diesel S10 por R$ 7,49.",
+   "O DIEESE não pesquisa a cesta básica em Cáceres. Como referência, em outubro de 2026 a cesta custou R$ 924,82 em Cuiabá, alta de 3,77% no mês."
+  ],
+  "fontes": [
+   {
+    "nome": "Editora Realize, Enanpege 2025 (mobilidade em Cáceres)",
+    "url": "https://www.editorarealize.com.br/editora/anais/enanpege/2025/TRABALHO_COMPLETO_EV223_ID1389_TB1236_04112025000055.pdf"
+   },
+   {
+    "nome": "Atlas Público/ANP (combustível em Cáceres, out/2026)",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/mt/caceres"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer de Cáceres gira em torno do rio Paraguai: a praça central fica a poucos passos da orla, de onde saem barcos para o Pantanal. Na seca, o rio forma praias perto do centro.",
+  "lugares": [
+   {
+    "nome": "Catedral São Luiz e centro histórico",
+    "km": "na cidade",
+    "desc": "A catedral, inspirada na Notre-Dame de Paris, começou a ser erguida em 1919 e ficou pronta em 1965. Em volta, o casario do centro histórico, tombado em 2010, rende um bom passeio a pé no fim da tarde."
+   },
+   {
+    "nome": "Marco do Jauru",
+    "km": "na cidade",
+    "desc": "Marco de pedra lioz lavrado em Lisboa para assinalar a fronteira do Tratado de Madri, fincado em 1754 na foz do rio Jauru e depois levado para a Praça Barão do Rio Branco. Foi o primeiro monumento tombado de Cáceres, em 1978."
+   },
+   {
+    "nome": "Praia do Daveron",
+    "km": "na cidade",
+    "desc": "Fica a menos de 10 minutos a pé da Praça Barão do Rio Branco, num braço do rio Paraguai. Só aparece quando o rio baixa; há passeio de caiaque de cerca de uma hora nos fins de semana, com agendamento."
+   },
+   {
+    "nome": "Passeio de barco pelo Pantanal",
+    "km": "na cidade",
+    "desc": "Barcos de turismo e pesca saem da orla pelos rios e canais da região, com chance de ver garças, tuiuiús e jacarés. Para passeios e pesca, evite a piracema."
+   },
+   {
+    "nome": "Festival Internacional de Pesca Esportiva (FIPe)",
+    "km": "na cidade",
+    "desc": "Registrado no Guinness como o maior campeonato de pesca em águas fluviais. A data muda a cada ano: foi de 4 a 9 de julho em 2023 e de 6 a 10 de agosto em 2025; o regulamento da 43ª edição marcou 3 a 5 de julho."
+   },
+   {
+    "nome": "Dolina Água Milagrosa",
+    "km": "~25 km",
+    "desc": "Lagoa de água cristalina, entre o azul e o verde, no fundo de uma dolina de calcário, com acesso por trilha e escada. O número de visitantes por dia é limitado e a estrada de terra fica difícil após chuva: confirme antes de ir."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Cáceres, Mato Grosso)",
+    "url": "https://pt.wikipedia.org/wiki/C%C3%A1ceres_(Mato_Grosso)"
+   },
+   {
+    "nome": "Cidade Turismo (o que fazer em Cáceres)",
+    "url": "https://cidadeturismo.com.br/o-que-fazer-em-caceres"
+   },
+   {
+    "nome": "ClickBus (guia de Cáceres)",
+    "url": "https://www.clickbus.com.br/blog/guia-de-destinos/centro-oeste/mato-grosso/caceres-mt/"
+   },
+   {
+    "nome": "Turismo de Natureza (o que fazer em Cáceres)",
+    "url": "https://turismodenatureza.com.br/o-que-fazer-em-caceres/"
+   },
+   {
+    "nome": "UNEMAT/eduCapes, guia didático de educação patrimonial",
+    "url": "https://educapes.capes.gov.br/bitstream/capes/431766/3/Guia%20did%C3%A1tico%20-%20hist%C3%B3rico%20de%20Educa%C3%A7%C3%A3o%20Patrimonial.pdf"
+   },
+   {
+    "nome": "Prefeitura de Cáceres, Regulamento Geral do 43º FIPe",
+    "url": "https://fipe.caceres.mt.gov.br/wp-content/uploads/2026/06/REGULAMENTO-GERAL-43-FIPE.pdf"
+   },
+   {
+    "nome": "Prefeitura de Cáceres, credenciamento FIPe 2025",
+    "url": "https://fipe.caceres.mt.gov.br/wp-content/uploads/2025/07/ARBITROS.pdf"
+   },
+   {
+    "nome": "Canal Rural (Água Milagrosa)",
+    "url": "https://www.canalrural.com.br/diversos/lagoa-agua-milagrosa-atrai-turistas-mato-grosso-66231/"
+   },
+   {
+    "nome": "Quanto Custa Viajar (Dolina Milagrosa)",
+    "url": "https://quantocustaviajar.com/blog/dolina-milagrosa-no-mato-grosso/"
+   },
+   {
+    "nome": "Agrolink (piracema 2026/2027 em MT)",
+    "url": "https://www.agrolink.com.br/noticias/periodo-de-defeso-da-piracema-sera-entre-1--de-outubro-de-2026-e-31-de-janeiro-de-2027-em-mt_516334.html"
+   },
+   {
+    "nome": "Compre Rural (Lei do Transporte Zero)",
+    "url": "https://comprerural.com/lei-que-proibe-pesca-comercial-por-5-anos-em-entra-em-vigor-entenda/"
+   },
+   {
+    "nome": "TJMT (Transporte Zero em vigor, jun/2026)",
+    "url": "https://www.tjmt.jus.br/noticias/2026/6/operacao-conjunta-juizado-ambiental-apreende-quase-uma-tonelada-pescado-irregular-em-cuiaba"
+   },
+   {
+    "nome": "SGB, boletim do rio Paraguai (set/2024)",
+    "url": "https://www.sgb.gov.br/sace/boletins/Paraguai/20240911_15-20240911%20-%20155730.pdf"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se a família gosta de pescar, anote a piracema: em Mato Grosso, a pesca amadora e a profissional ficam proibidas de 1º de outubro de 2026 a 31 de janeiro de 2027 (Resolução Cepesca nº 1/2026).",
+  "Fora da piracema, vale a Lei do Transporte Zero: desde 1º de janeiro de 2024, e por cinco anos, é proibido transportar e vender peixe dos rios de Mato Grosso. Para o pescador amador, a regra na prática é pesque e solte.",
+  "O nível do rio Paraguai muda muito entre cheia e seca, e em 2024 chegou perto das mínimas históricas em Cáceres. Praias e passeios dependem disso: veja o boletim do Serviço Geológico do Brasil antes de programar."
+ ]
+}

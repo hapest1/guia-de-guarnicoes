@@ -1,0 +1,93 @@
+{
+ "slug": "barreiras-ba",
+ "lede": "Nascida num porto do rio Grande, Barreiras é hoje a capital regional do oeste baiano: cerca de 170 mil moradores, comércio forte e lavouras de soja e algodão no Cerrado do Matopiba.",
+ "cidade": {
+  "paragrafos": [
+   "O nome vem das barreiras de pedra que, 5 km acima do porto, impediam a navegação no rio Grande. Por volta de 1850, o barqueiro Plácido Barbosa recebia ali as barcas e despachava as mercadorias em tropas para Goiás. O povoado cresceu com a borracha da mangabeira e se emancipou em 6 de abril de 1891; virou cidade em 1902. A chegada do 4º BEC, em 1969, vindo de Crateús (CE), deu início à construção da BR-242, e nos anos 1980 vieram muitos produtores rurais do Sul. O Censo 2022 contou 159.734 moradores, e a estimativa mais recente do IBGE passa de 170 mil.",
+   "Barreiras abastece com comércio e serviços uma região num raio de cerca de 300 km. A cidade tem lojas e atacadistas de rede, concessionárias e distribuidoras. No campo, o município está entre os grandes produtores de algodão e soja, com agricultura irrigada por pivôs. Na agroindústria, há uma planta da Cargill, frigoríficos de bovinos e de aves e a unidade do Sistema FIEB (SESI e SENAI). No ensino superior estão a Universidade Federal do Oeste da Bahia (UFOB), a UNEB, o IFBA e faculdades particulares como FASB e UNIRB, além de polos de ensino a distância.",
+   "O município tem mais de 8.000 km². A área urbana vai do vale da Serra da Bandeira, ao norte, onde fica o aeroporto, até o vale da Serra do Mimo, ao sul. O rio Grande atravessa a cidade em curvas e a divide em duas zonas: a mais populosa cresceu a partir do antigo cais e do centro comercial; a outra, a partir do bairro Barreirinhas. As rodovias BR-020, BR-135 e BR-242 se cruzam ali. Brasília fica a cerca de 613 km pela BR-020, e Salvador a cerca de 870 km. A vizinha Luís Eduardo Magalhães, antigo distrito de Barreiras, é o outro polo do agronegócio da região."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Barreiras)",
+    "url": "https://pt.wikipedia.org/wiki/Barreiras"
+   },
+   {
+    "nome": "IBGE Cidades (Barreiras)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ba/barreiras.html"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano de Barreiras custa R$ 5,00 desde janeiro de 2026, pelo Decreto nº 04/2026. A planilha de custos apontava R$ 5,12, e a prefeitura arredondou para baixo. O valor vale para as linhas urbanas, rurais e distritais, e o Barreiras Card mantém tarifas reduzidas para usuários cadastrados. Quem usa duas passagens por dia útil gasta perto de R$ 220 por mês.",
+   "Na coleta da ANP de 24 de julho de 2026, a gasolina comum saía em média por R$ 6,98 o litro em Barreiras. A cidade não entra na pesquisa da cesta básica do DIEESE. Em outubro de 2026, a cesta custou R$ 677,77 em Salvador, depois da maior alta do mês entre as capitais (6,79%), e R$ 810,36 em Brasília, a capital mais próxima."
+  ],
+  "fontes": [
+   {
+    "nome": "Prefeitura de Barreiras (reajuste da tarifa, 2026)",
+    "url": "https://barreiras.ba.gov.br/prefeitura-de-barreiras-reajusta-tarifa-do-transporte-coletivo-no-valor-minimo-necessario-para-manutencao-dos-servicos/"
+   },
+   {
+    "nome": "Numerando (preços ANP em Barreiras, jul/2026)",
+    "url": "https://numerando.com.br/combustiveis/cidade/barreiras-ba"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Barreiras é porta de entrada do polo de ecoturismo Caminhos do Oeste. Os rios de água clara ficam perto da cidade, e o calendário tem carnaval, São João e romaria com público grande.",
+  "lugares": [
+   {
+    "nome": "Rio de Ondas",
+    "km": "~7 km",
+    "desc": "Pela BR-020, sentido Brasília. Margeado por buritis e cajueiros, tem balneários, restaurantes e pousadas; é o rio mais procurado para boia-cross, bote e caiaque."
+   },
+   {
+    "nome": "Cachoeira do Acaba Vida",
+    "km": "~58 km",
+    "desc": "Queda livre de 36 m no rio de Janeiro, cercada de veredas e mata preservada, com piscina natural. Também se pratica rapel. Acesso pela BR-020."
+   },
+   {
+    "nome": "Cachoeira do Redondo",
+    "km": "~78 km",
+    "desc": "Cerca de 20 km depois do Acaba Vida, por estrada de terra. A queda arredondada forma uma piscina transparente de uns 3 m de profundidade."
+   },
+   {
+    "nome": "Centro histórico e cais do rio Grande",
+    "km": "na cidade",
+    "desc": "Casarões neoclássicos do começo do século XX, a Catedral São João Batista e a Praça Castro Alves, a \"Praça das Corujas\", um dos pontos mais movimentados da cidade."
+   },
+   {
+    "nome": "Carnaval e Lavagem do Kimarrei",
+    "km": "na cidade",
+    "desc": "A Lavagem, em 1º de janeiro no entorno do cais, abre a temporada. O carnaval é considerado o maior do interior da Bahia, com trios nas avenidas Clériston Andrade e ACM."
+   },
+   {
+    "nome": "Santuário do Senhor dos Aflitos (Cantinho)",
+    "km": "~18 km",
+    "desc": "Romaria de tradição centenária no povoado do Cantinho, com ponto alto em 2 de julho. Os romeiros saem a pé da Catedral por volta da meia-noite."
+   },
+   {
+    "nome": "Parque Engenheiro Geraldo Rocha",
+    "km": "na cidade",
+    "desc": "Parque de exposições que recebe a Expoagro, com leilões, tecnologia agrícola e shows, e o Arraiá do Parque, o maior São João do oeste baiano."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Barreiras)",
+    "url": "https://pt.wikipedia.org/wiki/Barreiras"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare a casa para o inverno muito seco: de junho a agosto quase não chove, e a umidade do ar às vezes chega perto de 10%. Umidificador e hidratação ajudam, sobretudo com crianças.",
+  "Setembro e outubro são os meses mais quentes, com máximas médias perto de 36 °C. Se puder escolher, evite fazer a mudança nesse período.",
+  "Se for chegar perto do carnaval ou do São João, reserve hospedagem cedo: as festas atraem dezenas de milhares de visitantes e a população cresce nesses períodos.",
+  "Para o ônibus, faça o Barreiras Card logo na chegada: ele dá acesso às tarifas reduzidas do transporte coletivo."
+ ]
+}
