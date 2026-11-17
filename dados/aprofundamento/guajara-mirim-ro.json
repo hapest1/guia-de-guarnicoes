@@ -1,0 +1,53 @@
+{
+ "slug": "guajara-mirim-ro",
+ "lede": "Nascida como ponta final da Madeira-Mamoré, Guajará-Mirim fica de frente para a boliviana Guayaramerín e tem mais de 93% do território em áreas protegidas e terras indígenas.",
+ "cidade": {
+  "paragrafos": [
+   "No começo do século XX, o povoado se chamava Esperidião Marques. O Tratado de Petrópolis, de 1903, obrigou o Brasil a construir uma ferrovia entre Porto Velho e o rio Mamoré. A Estrada de Ferro Madeira-Mamoré foi concluída em 1912, com cerca de 366 km, e fez a cidade crescer no ciclo da borracha. Guajará-Mirim virou município em 12 de julho de 1928 e foi instalada em 10 de abril de 1929. Os trens apitaram pela última vez em 10 de julho de 1972. O Censo 2022 contou 39.387 moradores. A estimativa mais recente do IBGE é de 43.633. No Censo, 5.346 pessoas se declararam indígenas. Os Wari' são o povo mais numeroso, e também vivem ali os Canoé, Macurap e Jaboti, em seis terras indígenas.",
+   "A cidade tem a única Área de Livre Comércio de Rondônia, com lojas de produtos importados. Também tem a maior oferta de atrativos turísticos do estado, ligada à ferrovia, aos rios e à fronteira. O IBGE registrou 6.188 pessoas ocupadas em 2024. Há agências do Banco do Brasil, Bradesco, Basa, Caixa e cooperativa de crédito. No ensino superior, a cidade tem um campus da Universidade Federal de Rondônia (UNIR), o Instituto Federal de Rondônia (IFRO) e faculdades particulares.",
+   "A cidade se divide em 11 bairros, entre eles Centro, Triângulo, Cristo Rei, Tamandaré, São José, Santa Luzia, Serraria, 10 de Abril, Fátima e Liberdade, e em setores numerados. O Setor 8 fica junto ao campus da UNIR. O município tem 24.856 km², o segundo maior do estado, e os distritos de Iata e Surpresa. No rio Mamoré, em frente à cidade, fica a Ilha de Guajará-Mirim, chamada de Isla Suárez pela Bolívia. A ligação com Porto Velho é pela BR-425 e pela BR-364. O aeroporto local está interditado para voos comerciais desde 2012, então os voos saem de Porto Velho."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Guajará-Mirim)", "url": "https://pt.wikipedia.org/wiki/Guajar%C3%A1-Mirim"},
+   {"nome": "Wikipédia (Estrada de Ferro Madeira-Mamoré)", "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9"},
+   {"nome": "Wikipédia (Aeroporto de Guajará-Mirim)", "url": "https://pt.wikipedia.org/wiki/Aeroporto_de_Guajar%C3%A1-Mirim"},
+   {"nome": "Wikipédia (Ilha de Guajará-Mirim)", "url": "https://pt.wikipedia.org/wiki/Ilha_de_Guajar%C3%A1-Mirim"},
+   {"nome": "Wikipédia (Universidade Federal de Rondônia)", "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_de_Rond%C3%B4nia"},
+   {"nome": "IBGE Cidades (Guajará-Mirim)", "url": "https://cidades.ibge.gov.br/brasil/ro/guajara-mirim/panorama"},
+   {"nome": "IBGE/SIDRA, Censo 2022, tabela 9605 (cor ou raça)", "url": "https://sidra.ibge.gov.br/tabela/9605"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Não há cesta básica do DIEESE para Guajará-Mirim. A referência mais próxima é Porto Velho: em outubro de 2026, a cesta custou R$ 698,97. Foi alta de 1,12% sobre setembro e de 12,94% em 12 meses, e a cesta consumiu 46,62% do salário mínimo líquido. Na cidade, a Área de Livre Comércio e o comércio de Guayaramerín, do outro lado do rio, são as opções para comprar importados."
+  ],
+  "fontes": [
+   {"nome": "DIEESE (Cesta básica, outubro de 2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"},
+   {"nome": "Wikipédia (Guajará-Mirim)", "url": "https://pt.wikipedia.org/wiki/Guajar%C3%A1-Mirim"}
+  ]
+ },
+ "lazer": {
+  "intro": "O programa da cidade passa pela memória da ferrovia, pelo boi-bumbá e pelo rio Mamoré. A natureza em volta é enorme, mas parques e fortes ficam longe e pedem planejamento.",
+  "lugares": [
+   {"nome": "Museu Histórico Municipal de Guajará-Mirim", "km": "na cidade", "desc": "Guarda a memória da Madeira-Mamoré, cujo pátio ferroviário foi inscrito no Livro do Tombo do Iphan em 2018. Bom ponto de partida para as crianças entenderem por que a cidade existe."},
+   {"nome": "Duelo na Fronteira", "km": "na cidade", "desc": "Festival folclórico em que disputam os bois Flor do Campo (vermelho) e Malhadinho (azul), em 21 itens com jurados de fora do estado. Na época da festa os hotéis lotam, inclusive em Guayaramerín, então reserve cedo se receber visitas."},
+   {"nome": "Guayaramerín (Bolívia)", "km": "travessia do rio", "desc": "Cidade boliviana em frente, do outro lado do Mamoré, com porto e consulado do Brasil. Fica a 93 km de Riberalta e tem aeroporto com voos regulares."},
+   {"nome": "Praias fluviais", "km": "na região", "desc": "De maio a novembro, com o rio baixo, aparecem praias, como as do rio Pacaás Novos. Também há cachoeiras e corredeiras no Mamoré, como Guajará-Açu e Bananeira, que a ferrovia contornava."},
+   {"nome": "Parque Nacional de Pacaás Novos", "km": "na região", "desc": "Parque de 764 mil hectares na transição entre o Cerrado e a floresta, administrado pelo ICMBio. As estradas de acesso são precárias e cerca de dois terços do parque coincidem com terras indígenas: consulte o ICMBio antes de qualquer visita."},
+   {"nome": "Real Forte Príncipe da Beira", "km": "em Costa Marques (RO)", "desc": "Forte construído a partir de 1775 na margem direita do rio Guaporé. O Iphan fez prospecção arqueológica no local para preparar a visitação; confirme as condições antes de ir."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Guajará-Mirim)", "url": "https://pt.wikipedia.org/wiki/Guajar%C3%A1-Mirim"},
+   {"nome": "Wikipédia (Turismo em Rondônia)", "url": "https://pt.wikipedia.org/wiki/Turismo_em_Rond%C3%B4nia"},
+   {"nome": "Wikipédia (Estrada de Ferro Madeira-Mamoré)", "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9"},
+   {"nome": "Wikipédia (Guayaramerín)", "url": "https://pt.wikipedia.org/wiki/Guayaramer%C3%ADn"},
+   {"nome": "Wikipédia (Parque Nacional de Pacaás Novos)", "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Paca%C3%A1s_Novos"},
+   {"nome": "Wikipédia (Real Forte Príncipe da Beira)", "url": "https://pt.wikipedia.org/wiki/Real_Forte_Pr%C3%ADncipe_da_Beira"}
+  ]
+ },
+ "antes_de_ir": [
+  "Não conte com voo direto: o aeroporto da cidade está interditado para voos comerciais desde 2012. Planeje chegar por Porto Velho e seguir pela BR-364 e pela BR-425.",
+  "Se a família gosta de pescar, a pesca amadora na região é liberada só depois da desova dos peixes. Confira o calendário da piracema antes de comprar equipamento.",
+  "Para morar perto da UNIR, procure imóveis no Setor 8, a área nova da cidade junto ao campus."
+ ]
+}

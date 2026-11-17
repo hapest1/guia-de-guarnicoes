@@ -1,0 +1,46 @@
+{
+ "slug": "humaita-am",
+ "lede": "Na margem do rio Madeira, no cruzamento da Transamazônica com a BR-319, Humaitá é a Terra da Mangaba: uma cidade do Amazonas que vive mais perto de Porto Velho do que de Manaus.",
+ "cidade": {
+  "paragrafos": [
+   "Antes da colonização, os rios Maici e Marmelos eram terra de povos como os Parintintin, os Pirahã e os Mura. A origem da cidade remonta à Missão de São Francisco, fundada por jesuítas em 1693 no rio Preto. O comerciante José Francisco Monteiro chegou em 15 de maio de 1869, data hoje comemorada como aniversário da cidade. O nome homenageia a batalha do Forte de Humaitá, na Guerra do Paraguai. O município foi criado em 1890 e virou cidade em 1894, no auge da borracha. O Censo 2022 contou 57.473 moradores. A estimativa mais recente do IBGE é de 64.390.",
+   "A economia se apoia na agropecuária, que está em expansão, no extrativismo vegetal e na indústria madeireira. Pela hidrovia do Madeira passam as balsas que levam grãos de Rondônia e do Centro-Oeste até Itacoatiara e Belém. O IBGE registrou 5.281 pessoas ocupadas em 2024. A Expohuma, feira agropecuária de setembro, é uma das maiores do setor no Amazonas. No ensino superior, a cidade tem campi da Universidade Federal do Amazonas (UFAM), da Universidade do Estado do Amazonas (UEA) e do Instituto Federal do Amazonas (IFAM).",
+   "A área urbana tem cerca de 8,6 km², com 13 bairros agrupados em seis zonas. A Transamazônica atravessa a cidade e serve de avenida. Também são vias importantes a Rua Monteiro e as avenidas Gusmão e Cinco de Setembro. Porto Velho fica a cerca de 200 km pelo trecho sul da BR-319, ou a um dia de barco. Para Manaus, a viagem de barco leva cerca de três dias. A BR-319 tem 885 km, e o chamado trecho do meio, entre o km 250 e o km 655, é de terra e barro. O aeroporto não tem voos comerciais desde 2016. A rodoviária tem linhas de empresas como Amatur e Eucatur."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Humaitá)", "url": "https://pt.wikipedia.org/wiki/Humait%C3%A1_(Amazonas)"},
+   {"nome": "Wikipédia (BR-319)", "url": "https://pt.wikipedia.org/wiki/BR-319"},
+   {"nome": "IBGE Cidades (Humaitá)", "url": "https://cidades.ibge.gov.br/brasil/am/humaita/panorama"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O DIEESE não pesquisa a cesta básica em Humaitá. Como referência, em outubro de 2026 a cesta custou R$ 687,46 em Manaus, a capital do estado, e R$ 698,97 em Porto Velho, de onde vem boa parte do abastecimento pela estrada. Em 12 meses, a alta foi de 8,56% em Manaus e de 12,94% em Porto Velho."
+  ],
+  "fontes": [
+   {"nome": "DIEESE (Cesta básica, outubro de 2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer gira em torno do rio Madeira, com praias que aparecem na seca, e de um calendário de festas que vai do boi-bumbá ao rodeio.",
+  "lugares": [
+   {"nome": "Orla de Humaitá e Catedral", "km": "na cidade", "desc": "A orla fica à beira do Madeira, em frente à praça da Matriz e à Catedral de Nossa Senhora da Imaculada Conceição. Bom lugar para caminhar no fim da tarde."},
+   {"nome": "Praia de São Miguel", "km": "no rio Madeira", "desc": "Faixa de areia que surge no Madeira quando o rio baixa. Antes de entrar na água, pergunte aos moradores sobre a correnteza."},
+   {"nome": "Praia do Paraíso", "km": "no rio Madeira", "desc": "Outra praia de areia do Madeira, formada nas áreas de várzea na seca. Leve água e proteção contra o sol, porque a sombra é pouca."},
+   {"nome": "Praia do Ipixuna", "km": "~40 km", "desc": "Fica no rio Ipixuna, fora da cidade. Boa opção de passeio de dia inteiro com a família na estação seca."},
+   {"nome": "Festival Folclórico de Humaitá", "km": "na cidade", "desc": "Em agosto, quadrilhas juninas e bois-bumbás se apresentam em duas noites de festa. As agremiações ensaiam durante meses."},
+   {"nome": "Expohuma", "km": "~6 km", "desc": "Exposição agropecuária de setembro no parque de exposições do km 6 da BR-319. Tem tiro de laço, montaria em touros, exposição de animais e de produtos da agricultura familiar."},
+   {"nome": "Parque Nacional dos Campos Amazônicos", "km": "na região", "desc": "Protege manchas de Cerrado no meio da floresta, ao sul da Transamazônica, e cerca de 5% dele fica em Humaitá. Ainda não está totalmente implementado, mas já recebe muitos visitantes."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Humaitá)", "url": "https://pt.wikipedia.org/wiki/Humait%C3%A1_(Amazonas)"},
+   {"nome": "Wikipédia (Diocese de Humaitá)", "url": "https://pt.wikipedia.org/wiki/Diocese_de_Humait%C3%A1"},
+   {"nome": "Wikipédia (Parque Nacional dos Campos Amazônicos)", "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_dos_Campos_Amaz%C3%B4nicos"}
+  ]
+ },
+ "antes_de_ir": [
+  "Leve um agasalho: no meio do ano pode chegar a friagem, uma queda de temperatura causada por massas de ar polar.",
+  "Como o aeroporto não tem voos comerciais desde 2016, planeje a chegada por Porto Velho e o trecho sul da BR-319, ou de ônibus pela rodoviária.",
+  "Para atualizar contatos e cadastros, o DDD de Humaitá é 97 e o CEP da cidade é 69800-000. Claro, TIM e Vivo atendem a cidade."
+ ]
+}

@@ -8,41 +8,108 @@
    "O rio Acre divide a cidade em Primeiro e Segundo Distrito, ligados por pontes e passarelas, como a Passarela Joaquim Macedo. O centro histórico do comércio fica na margem direita, em volta da Gameleira e das ruas Cunha Matos, 17 de Novembro e 24 de Janeiro, área que nos anos 1930 era chamada de Bairro Beirute por causa dos comerciantes sírio-libaneses. Na margem esquerda ficam o Palácio do Governo e os principais órgãos públicos. A prefeitura divide a cidade em sete regionais, com cerca de 110 bairros. A Via Verde funciona como anel viário entre a BR-364 e a Estrada do Pacífico. Nela ficam um shopping, hospitais e a Rodoviária Internacional. As avenidas Ceará e a Via Chico Mendes são outras vias de ligação. Segundo a Wikipédia, Rio Branco tem a maior malha de ciclovias por habitante entre as capitais."
   ],
   "fontes": [
-   {"nome": "Wikipédia (Rio Branco)", "url": "https://pt.wikipedia.org/wiki/Rio_Branco"},
-   {"nome": "NC News (estimativa do IBGE para o Acre)", "url": "https://ncnews.com.br/?p=40523"},
-   {"nome": "A Gazeta do Acre (pesquisa Fecomércio-AC, 2021)", "url": "https://agazetadoacre.com/2021/05/noticias/pesquisa-fecomercio-ac-e-data-control-avaliam-mercado-de-trabalho-rio-branquense"},
-   {"nome": "A Gazeta do Acre (pesquisa de emprego, 2024)", "url": "https://agazetadoacre.com/2024/07/noticias/geral/mais-da-metade-dos-rio-branquenses-estao-empregados-formalmente-272-seguem-sem-emprego-fixo"}
+   {
+    "nome": "Wikipédia (Rio Branco)",
+    "url": "https://pt.wikipedia.org/wiki/Rio_Branco"
+   },
+   {
+    "nome": "NC News (estimativa do IBGE para o Acre)",
+    "url": "https://ncnews.com.br/?p=40523"
+   },
+   {
+    "nome": "A Gazeta do Acre (pesquisa Fecomércio-AC, 2021)",
+    "url": "https://agazetadoacre.com/2021/05/noticias/pesquisa-fecomercio-ac-e-data-control-avaliam-mercado-de-trabalho-rio-branquense"
+   },
+   {
+    "nome": "A Gazeta do Acre (pesquisa de emprego, 2024)",
+    "url": "https://agazetadoacre.com/2024/07/noticias/geral/mais-da-metade-dos-rio-branquenses-estao-empregados-formalmente-272-seguem-sem-emprego-fixo"
+   }
   ]
  },
  "custo_extra": {
   "paragrafos": [
    "A passagem de ônibus urbano continua em R$ 3,50 em 2026. Em junho de 2026, o conselho municipal aprovou a troca da operadora Ricco pela JTP, e a diferença entre o custo do serviço e a tarifa passou a ser coberta por subsídio da prefeitura. A JTP começou a operar em 2 de outubro de 2026, com frota renovada e dez dias de tarifa zero na transição. A gasolina comum custou em média R$ 7,27 o litro na semana de 1º a 7 de novembro de 2026, segundo a ANP. São R$ 0,80 a mais que a média nacional, de R$ 6,47.",
-   "A cesta básica do DIEESE em Rio Branco custou R$ 710,92 em outubro de 2026, alta de 4,80% sobre setembro e de 13,55% em 12 meses. Para comprá-la, quem ganha salário mínimo precisou de 96 horas e 29 minutos de trabalho. Em outras capitais do Norte, a mesma cesta custou R$ 698,97 em Porto Velho, R$ 687,46 em Manaus e R$ 756,42 em Belém."
+   "A cesta básica do DIEESE em Rio Branco custou R$ 710,92 em outubro de 2026, alta de 4,80% sobre setembro. Para comprá-la, quem ganha salário mínimo precisou de 96 horas e 29 minutos de trabalho. Em outras capitais do Norte, a mesma cesta custou R$ 698,97 em Porto Velho, R$ 687,46 em Manaus e R$ 756,42 em Belém."
   ],
   "fontes": [
-   {"nome": "Diário do Transporte (tarifa e troca de operadora, jun/2026)", "url": "https://diariodotransporte.com.br/2026/06/24/conselho-aprova-tarifa-tecnica-de-r-1129-para-a-jtp-operar-transportes-publicos-em-rio-branco-no-lugar-da-ricco/"},
-   {"nome": "Diário do Transporte (transição para a JTP, jul/2026)", "url": "https://diariodotransporte.com.br/2026/07/08/transicao-da-ricco-para-a-jtp-em-rio-branco-vai-durar-90-dias-diz-prefeitura/"},
-   {"nome": "Diário do Transporte (nova frota, out/2026)", "url": "https://diariodotransporte.com.br/2026/10/01/rio-branco-ac-apresenta-nova-frota-de-120-onibus-e-jtp-inicia-operacao-nesta-sexta-feira-2-renovacao-inclui-20-apache-vip-6-revelados-pelo-diario-do-transporte/"},
-   {"nome": "Portal Acre (gasolina em Rio Branco, nov/2026)", "url": "https://portalacre.com.br/2026/11/gasolina-e-gas-de-cozinha-seguem-acima-da-media-nacional-em-rio-branco-aponta-anp/"},
-   {"nome": "DIEESE (cesta básica, out/2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+   {
+    "nome": "Diário do Transporte (tarifa e troca de operadora, jun/2026)",
+    "url": "https://diariodotransporte.com.br/2026/06/24/conselho-aprova-tarifa-tecnica-de-r-1129-para-a-jtp-operar-transportes-publicos-em-rio-branco-no-lugar-da-ricco/"
+   },
+   {
+    "nome": "Diário do Transporte (transição para a JTP, jul/2026)",
+    "url": "https://diariodotransporte.com.br/2026/07/08/transicao-da-ricco-para-a-jtp-em-rio-branco-vai-durar-90-dias-diz-prefeitura/"
+   },
+   {
+    "nome": "Diário do Transporte (nova frota, out/2026)",
+    "url": "https://diariodotransporte.com.br/2026/10/01/rio-branco-ac-apresenta-nova-frota-de-120-onibus-e-jtp-inicia-operacao-nesta-sexta-feira-2-renovacao-inclui-20-apache-vip-6-revelados-pelo-diario-do-transporte/"
+   },
+   {
+    "nome": "Portal Acre (gasolina em Rio Branco, nov/2026)",
+    "url": "https://portalacre.com.br/2026/11/gasolina-e-gas-de-cozinha-seguem-acima-da-media-nacional-em-rio-branco-aponta-anp/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
   ]
  },
  "lazer": {
   "intro": "Além da Gameleira e do Parque Chico Mendes, Rio Branco tem museus que contam a formação do Acre e parques bons para crianças e bicicleta. Em julho e agosto, a ExpoAcre movimenta a cidade.",
   "lugares": [
-   {"nome": "Palácio Rio Branco", "km": "na cidade", "desc": "Sede do governo erguida em 1930, em estilo art déco. Funciona como museu da história do Acre, com geoglifos, a Revolução Acreana e a vida nos seringais. Confira os horários antes da visita."},
-   {"nome": "Novo Mercado Velho", "km": "na cidade", "desc": "Antigo mercado municipal dos anos 1920, revitalizado, à beira do rio Acre. Tem artesanato, ervas medicinais, produtos da floresta e comida regional, e enche no fim da tarde."},
-   {"nome": "Parque da Maternidade e Casa dos Povos da Floresta", "km": "na cidade", "desc": "Parque linear ao longo de um igarapé, com ciclovia, quadras e quiosques. Dentro dele, a Casa dos Povos da Floresta imita uma maloca e conta a história de indígenas, seringueiros e ribeirinhos."},
-   {"nome": "Horto Florestal", "km": "na cidade", "desc": "Área verde com lago e trilhas em meio à vegetação amazônica. Bom para caminhar com as crianças nas horas mais frescas do dia."},
-   {"nome": "Memorial dos Autonomistas", "km": "na cidade", "desc": "Museu sobre a incorporação do Acre ao Brasil, com fotos históricas, objetos da Revolução Acreana, quadros de pintores da região, café e teatro."},
-   {"nome": "Museu da Borracha", "km": "na cidade", "desc": "Acervo de arqueologia, paleontologia e história, com documentos e manuscritos sobre a formação do Acre. Complementa bem a visita ao Palácio."},
-   {"nome": "ExpoAcre", "km": "na cidade", "desc": "Feira agropecuária e de comércio de julho e agosto, com rodeio, shows, artesanato e comida típica. Recebe cerca de 450 mil pessoas por ano, por isso vale ir cedo."}
+   {
+    "nome": "Palácio Rio Branco",
+    "km": "na cidade",
+    "desc": "Sede do governo erguida em 1930, em estilo art déco. Funciona como museu da história do Acre, com geoglifos, a Revolução Acreana e a vida nos seringais. Confira os horários antes da visita."
+   },
+   {
+    "nome": "Novo Mercado Velho",
+    "km": "na cidade",
+    "desc": "Antigo mercado municipal dos anos 1920, revitalizado, à beira do rio Acre. Tem artesanato, ervas medicinais, produtos da floresta e comida regional, e enche no fim da tarde."
+   },
+   {
+    "nome": "Parque da Maternidade e Casa dos Povos da Floresta",
+    "km": "na cidade",
+    "desc": "Parque linear ao longo de um igarapé, com ciclovia, quadras e quiosques. Dentro dele, a Casa dos Povos da Floresta imita uma maloca e conta a história de indígenas, seringueiros e ribeirinhos."
+   },
+   {
+    "nome": "Horto Florestal",
+    "km": "na cidade",
+    "desc": "Área verde com lago e trilhas em meio à vegetação amazônica. Bom para caminhar com as crianças nas horas mais frescas do dia."
+   },
+   {
+    "nome": "Memorial dos Autonomistas",
+    "km": "na cidade",
+    "desc": "Museu sobre a incorporação do Acre ao Brasil, com fotos históricas, objetos da Revolução Acreana, quadros de pintores da região, café e teatro."
+   },
+   {
+    "nome": "Museu da Borracha",
+    "km": "na cidade",
+    "desc": "Acervo de arqueologia, paleontologia e história, com documentos e manuscritos sobre a formação do Acre. Complementa bem a visita ao Palácio."
+   },
+   {
+    "nome": "ExpoAcre",
+    "km": "na cidade",
+    "desc": "Feira agropecuária e de comércio de julho e agosto, com rodeio, shows, artesanato e comida típica. Recebe cerca de 450 mil pessoas por ano, por isso vale ir cedo."
+   }
   ],
   "fontes": [
-   {"nome": "Wikipédia (Rio Branco)", "url": "https://pt.wikipedia.org/wiki/Rio_Branco"},
-   {"nome": "Wikipédia (Palácio Rio Branco)", "url": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Rio_Branco_(Acre)"},
-   {"nome": "360meridianos (o que fazer em Rio Branco)", "url": "https://www.360meridianos.com/o-que-fazer-em-rio-branco-acre"},
-   {"nome": "Viagens e Caminhos (atrações de Rio Branco)", "url": "https://www.viagensecaminhos.com/rio-branco-acre/"}
+   {
+    "nome": "Wikipédia (Rio Branco)",
+    "url": "https://pt.wikipedia.org/wiki/Rio_Branco"
+   },
+   {
+    "nome": "Wikipédia (Palácio Rio Branco)",
+    "url": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Rio_Branco_(Acre)"
+   },
+   {
+    "nome": "360meridianos (o que fazer em Rio Branco)",
+    "url": "https://www.360meridianos.com/o-que-fazer-em-rio-branco-acre"
+   },
+   {
+    "nome": "Viagens e Caminhos (atrações de Rio Branco)",
+    "url": "https://www.viagensecaminhos.com/rio-branco-acre/"
+   }
   ]
  },
  "antes_de_ir": [
