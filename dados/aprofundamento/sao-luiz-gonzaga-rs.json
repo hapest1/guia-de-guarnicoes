@@ -1,0 +1,114 @@
+{
+ "slug": "sao-luiz-gonzaga-rs",
+ "lede": "Nascida de uma redução jesuítica de 1687, São Luiz Gonzaga é a Capital Estadual da Música Missioneira, com cerca de 36 mil moradores e as ruínas de São Lourenço Mártir no município.",
+ "cidade": {
+  "paragrafos": [
+   "A redução de São Luiz Gonzaga foi fundada em 1687 pelo padre Miguel Fernandes, que trouxe cerca de 3 mil indígenas guaranis da redução de Conceição, hoje na Argentina. Foi um dos Sete Povos das Missões e ficou sob os jesuítas até as disputas após o Tratado de Madri, de 1750; o território passou a Portugal em 1801. A vila foi criada em 1880 e virou cidade em 1902. O município divide com Santo Ângelo o título de berço da Coluna Prestes. O Censo 2022 contou 34.752 moradores, e a estimativa mais recente do IBGE é de 35.865.",
+   "A agropecuária tem peso grande: respondeu por 33% do valor adicionado em 2021, ao lado de 45% dos serviços (IBGE). O PIB de 2023 foi de R$ 1,7 bilhão. A cidade é conhecida como Capital Gaúcha do Arroz Carreteiro. Na cultura, a Assembleia Legislativa a declarou Capital Estadual da Música Missioneira em 2012. Ali nasceu Pedro Ortaça (1942-2026), um dos quatro Troncos Missioneiros, ao lado de Jayme Caetano Braun, Cenair Maicá e Noel Guarany.",
+   "O município é extenso, com 1.295 km², e tem dez distritos: a sede e Afonso Rodrigues, Capela São Paulo, Passo do Faxinal, Passo do Quaresma, Rincão de São Pedro, Rolador, Santa Inês, São Lourenço das Missões e Serrinha. A grande maioria da população vive na sede, a 231 m de altitude. Porto Alegre fica a cerca de 505 km, e Santo Ângelo, polo regional, a uns 60 km. A BR-285 liga a sede ao distrito de São Lourenço."
+  ],
+  "fontes": [
+   {
+    "nome": "IBGE Cidades (São Luiz Gonzaga), histórico",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/sao-luiz-gonzaga/historico"
+   },
+   {
+    "nome": "Wikipédia (São Luiz Gonzaga)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Luiz_Gonzaga"
+   },
+   {
+    "nome": "IBGE, API de agregados: Censo 2022, estimativas de população e PIB dos Municípios",
+    "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"
+   },
+   {
+    "nome": "Jornal do Comércio, Pedro Ortaça mantém viva a música missioneira (ago/2020)",
+    "url": "https://www.jornaldocomercio.com/especiais/reportagem_cultural/2020/08/751378-pedro-ortaca-mantem-viva-a-musica-missioneira.html"
+   },
+   {
+    "nome": "Wikipédia (Pedro Ortaça)",
+    "url": "https://pt.wikipedia.org/wiki/Pedro_Orta%C3%A7a"
+   },
+   {
+    "nome": "Wikipédia (Troncos Missioneiros)",
+    "url": "https://pt.wikipedia.org/wiki/Troncos_Missioneiros"
+   },
+   {
+    "nome": "Wikipédia (Sítio Arqueológico de São Lourenço Mártir)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Louren%C3%A7o_M%C3%A1rtir"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A cidade não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha da cesta básica é Porto Alegre, onde o DIEESE apurou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro e de 11,68% em 12 meses. Quem ganha o salário mínimo (R$ 1.621) precisou de 124 horas e 50 minutos de trabalho para comprá-la."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O passeio clássico é a história das Missões: há ruínas jesuíticas dentro do município e, no vizinho São Miguel das Missões, um Patrimônio Mundial da Unesco. A música missioneira é parte da identidade local.",
+  "lugares": [
+   {
+    "nome": "Sítio Arqueológico de São Lourenço Mártir",
+    "km": "~30 km",
+    "desc": "Ruínas de uma das maiores reduções dos Sete Povos, fundada em 1690, que chegou a quase 7 mil indígenas. Fica no distrito de São Lourenço das Missões, com acesso pela BR-285, e é tombada pelo Iphan."
+   },
+   {
+    "nome": "Sítio de São Miguel Arcanjo e Museu das Missões",
+    "km": "município vizinho",
+    "desc": "Ruínas declaradas Patrimônio Mundial pela Unesco em 1983, em São Miguel das Missões. O museu foi projetado por Lúcio Costa, e à noite há o espetáculo de som e luz."
+   },
+   {
+    "nome": "Museu Municipal Senador Pinheiro Machado",
+    "km": "na cidade",
+    "desc": "Leva o nome do senador Pinheiro Machado, político que despontou em São Luiz Gonzaga no fim do século XIX. No início do século XX ele instalou na cidade o Aprendizado Agrícola e trabalhou pela chegada do telégrafo e da ferrovia à região."
+   },
+   {
+    "nome": "Museu Arqueológico de São Luiz Gonzaga",
+    "km": "na cidade",
+    "desc": "O governo do estado anunciou investimento de R$ 1,94 milhão na requalificação do museu, como parte de um pacote para a região das Missões. Confirme se está aberto antes de ir."
+   },
+   {
+    "nome": "Catedral Angelopolitana (Santo Ângelo)",
+    "km": "~60 km",
+    "desc": "Catedral que imita a igreja de São Miguel Arcanjo, com imagens dos padroeiros dos Sete Povos no pórtico, entre eles São Luiz Gonzaga. Em frente, a Praça Pinheiro Machado recebe shows e teatro."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Sítio Arqueológico de São Lourenço Mártir)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Louren%C3%A7o_M%C3%A1rtir"
+   },
+   {
+    "nome": "Wikipédia (Ruins of São Miguel das Missões)",
+    "url": "https://en.wikipedia.org/wiki/Ruins_of_S%C3%A3o_Miguel_das_Miss%C3%B5es"
+   },
+   {
+    "nome": "Wikipédia (São Luiz Gonzaga)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Luiz_Gonzaga"
+   },
+   {
+    "nome": "IBGE Cidades (São Luiz Gonzaga), histórico",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/sao-luiz-gonzaga/historico"
+   },
+   {
+    "nome": "Governo do RS, investimentos para a região das Missões",
+    "url": "https://www.estado.rs.gov.br/governo-do-estado-anuncia-mais-de-r-50-milhoes-em-investimentos-para-a-regiao-das-missoes"
+   },
+   {
+    "nome": "Wikipédia (Catedral Angelopolitana)",
+    "url": "https://pt.wikipedia.org/wiki/Catedral_Angelopolitana"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare-se para extremos de temperatura: a estação do INMET registrou 42,4 °C em janeiro de 1943 e 42,2 °C em janeiro de 2022, e mínima de −3 °C em julho de 1933. Ar-condicionado e aquecedor entram na mudança.",
+  "Na normal climatológica de 1991 a 2020, outubro foi o mês mais chuvoso, com cerca de 264 mm. Se puder escolher, evite marcar a mudança para esse mês.",
+  "O município tem dez distritos e mais de 1.200 km². Confira se o imóvel fica na sede ou num distrito como Rolador ou São Lourenço das Missões, pois as distâncias podem ser longas.",
+  "Para compras maiores, serviços e voos, a referência é Santo Ângelo, a cerca de 60 km."
+ ]
+}

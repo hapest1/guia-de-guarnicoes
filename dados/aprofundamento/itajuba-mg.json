@@ -1,0 +1,107 @@
+{
+ "slug": "itajuba-mg",
+ "lede": "Cidade universitária no vale do rio Sapucaí, na Serra da Mantiqueira, Itajubá tem cerca de 97 mil moradores e reúne a Unifei, a fábrica da Helibras e a sede do Laboratório Nacional de Astrofísica.",
+ "cidade": {
+  "paragrafos": [
+   "A origem de Itajubá está na antiga povoação mineradora de Soledade do Itagybá, hoje Delfim Moreira. Em 19 de março de 1819, o padre Lourenço da Costa Moreira rezou a primeira missa na colina do Ibitira, no vale do Sapucaí, e fundou a povoação de Boa Vista do Sapucaí. A vila foi criada em 1848 e virou cidade, já com o nome de Itajubá, em 1862. Em 11 de março de 1888, dois meses antes da Lei Áurea, Itajubá foi o primeiro município mineiro a abolir a escravidão. O Censo 2022 contou 93.073 moradores, e a estimativa mais recente do IBGE passa de 97 mil.",
+   "A cidade é polo de comércio e serviços do sul de Minas e tem um dos maiores distritos industriais da região. A Helibras, fabricante de helicópteros, está instalada em Itajubá desde 1980; a IMBEL mantém na cidade a Fábrica de Itajubá, de armas leves e cutelaria. O Laboratório Nacional de Astrofísica, do MCTI, tem sede na cidade. No ensino superior, a referência é a Unifei, nascida da escola de engenharia fundada em 1913. Também há Faculdade de Medicina de Itajubá, Escola de Enfermagem Wenceslau Braz, Centro Universitário de Itajubá e polos de ensino a distância.",
+   "O município tem dois distritos, a sede e Lourenço Velho, e cerca de 90% da população vive na área urbana (IBGE, 2022). A sede fica a cerca de 856 m de altitude, no vale do rio Sapucaí, cercada por relevo montanhoso que chega a 1.915 m na Pedra de Santa Rita. A BR-459 corta a cidade e liga a Fernão Dias (rumo a São Paulo e Belo Horizonte) à Via Dutra, no Vale do Paraíba. A MG-350 segue para o Vale do Paraíba por Delfim Moreira, e a BR-383 vai a Campos do Jordão por Piranguçu."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Itajubá)",
+    "url": "https://pt.wikipedia.org/wiki/Itajub%C3%A1"
+   },
+   {
+    "nome": "IBGE Cidades (Itajubá)",
+    "url": "https://cidades.ibge.gov.br/brasil/mg/itajuba/panorama"
+   },
+   {
+    "nome": "Wikipédia (Helibras)",
+    "url": "https://pt.wikipedia.org/wiki/Helibras"
+   },
+   {
+    "nome": "Wikipédia (IMBEL)",
+    "url": "https://pt.wikipedia.org/wiki/Ind%C3%BAstria_de_Material_B%C3%A9lico_do_Brasil"
+   },
+   {
+    "nome": "Wikipédia (Laboratório Nacional de Astrofísica)",
+    "url": "https://pt.wikipedia.org/wiki/Laborat%C3%B3rio_Nacional_de_Astrof%C3%ADsica"
+   },
+   {
+    "nome": "Wikipédia (Unifei)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_de_Itajub%C3%A1"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Itajubá não entra na pesquisa da cesta básica do DIEESE. A referência mineira é Belo Horizonte, onde a cesta custou R$ 810,73 em outubro de 2026, alta de 0,96% sobre setembro. Como a cidade fica mais perto de São Paulo do que da capital mineira, vale comparar também com a cesta paulistana, a mais cara do país no mesmo mês: R$ 951,37."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Itajubá mistura ciência, cultura e montanha. A cidade tem tradição em canto coral e festivais, e a Serra da Mantiqueira oferece observatório, escalada e cidades frias por perto.",
+  "lugares": [
+   {
+    "nome": "Observatório no Telhado (LNA)",
+    "km": "na cidade",
+    "desc": "Telescópio refletor de 30 cm aberto à visitação desde 2011 na sede do Laboratório Nacional de Astrofísica. O LNA também promove palestras abertas e eventos de observação pública."
+   },
+   {
+    "nome": "Observatório do Pico dos Dias",
+    "km": "~37 km",
+    "desc": "Maior observatório astronômico do país, a 1.864 m de altitude, entre Brazópolis e Piranguçu. As visitas são diurnas, em dias úteis, e só com agendamento confirmado por e-mail; uma vez por ano há a Tarde e Noite de Portas Abertas, com convites por sorteio."
+   },
+   {
+    "nome": "Parque Municipal",
+    "km": "na cidade",
+    "desc": "Abriga um ginásio de escalada esportiva, esporte que ganhou força na cidade pela quantidade de rochas da região. O Parque Anhumas é outra opção de lazer citada na cidade."
+   },
+   {
+    "nome": "Feiras de artesanato",
+    "km": "na cidade",
+    "desc": "Três associações de artesãos expõem nas praças Wenceslau Braz e Getúlio Vargas, no Centro, aos fins de semana."
+   },
+   {
+    "nome": "Teatro Municipal Christiane Riera e FICA",
+    "km": "na cidade",
+    "desc": "O teatro municipal recebe a programação cultural da cidade. O FICA (Festival Itajubense de Cultura e Arte), realizado desde 2011, reúne cerca de 100 atrações de música, teatro e dança."
+   },
+   {
+    "nome": "Maria da Fé",
+    "km": "município vizinho",
+    "desc": "Cidade a 1.258 m de altitude, uma das mais frias de Minas. Detém o recorde oficial de menor temperatura do estado: −8,4 °C em 21 de julho de 1981 (INMET). A MGC-383 liga Itajubá a Maria da Fé."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Laboratório Nacional de Astrofísica)",
+    "url": "https://pt.wikipedia.org/wiki/Laborat%C3%B3rio_Nacional_de_Astrof%C3%ADsica"
+   },
+   {
+    "nome": "Wikipédia (Observatório do Pico dos Dias)",
+    "url": "https://pt.wikipedia.org/wiki/Observat%C3%B3rio_do_Pico_dos_Dias"
+   },
+   {
+    "nome": "Wikipédia (Itajubá)",
+    "url": "https://pt.wikipedia.org/wiki/Itajub%C3%A1"
+   },
+   {
+    "nome": "Wikipédia (Maria da Fé)",
+    "url": "https://pt.wikipedia.org/wiki/Maria_da_F%C3%A9"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O rio Sapucaí já transbordou muitas vezes na cidade, como em 2000 e em janeiro de 2011. Ao escolher o imóvel, pergunte ao proprietário ou à imobiliária se a rua já alagou.",
+  "Traga roupa de frio: geadas são comuns no inverno, e a estação da Unifei registrou 0,3 °C em 20 de julho de 2021. As chuvas se concentram em dezembro e janeiro.",
+  "Para visitar o Observatório do Pico dos Dias, agende com antecedência pelo site do LNA (gov.br/lna). Sem a confirmação por e-mail, a visita não é garantida.",
+  "Para viagens a São Paulo ou ao Rio, a BR-459 leva à Via Dutra pelo Vale do Paraíba; para Belo Horizonte, o caminho é a Fernão Dias."
+ ]
+}

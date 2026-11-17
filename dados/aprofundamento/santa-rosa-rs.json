@@ -1,0 +1,136 @@
+{
+ "slug": "santa-rosa-rs",
+ "lede": "Berço Nacional da Soja por lei federal, Santa Rosa tem cerca de 79 mil moradores no noroeste gaúcho, sedia a Fenasoja e o Musicanto e fabrica colheitadeiras.",
+ "cidade": {
+  "paragrafos": [
+   "A região fez parte dos Sete Povos das Missões e pertenceu a Santo Ângelo. A colonização começou em 1915, com um plano de loteamento; o acampamento dos agrimensores deu origem à Colônia 14 de Julho. Chegaram descendentes de alemães e italianos, entre outros grupos. Em 1920 a colônia já tinha 11.215 habitantes, e o município foi emancipado em 1º de julho de 1931. A ferrovia até Santo Ângelo chegou em 1940. O Censo 2022 contou 76.963 moradores, e a estimativa mais recente do IBGE é de 79.489.",
+   "Em 1966, a primeira Fenasoja lançou a cultivar de soja Santa Rosa, e a Lei 14.349, de 2022, deu à cidade o título de Berço Nacional da Soja. A indústria somou 29% do valor adicionado em 2021, e os serviços, 49% (IBGE); o PIB de 2023 foi de R$ 4,5 bilhões. O maior nome industrial é a AGCO, que fabrica colheitadeiras e plataformas das marcas Massey Ferguson, Valtra e Challenger. Em 2023 a fábrica tinha cerca de mil funcionários, 60% morando no município.",
+   "O município tem 489 km² e fica a 277 m de altitude. A área urbana se divide oficialmente em oito bairros (Central, Cruzeiro, Glória, Sulina, Timbaúva, Auxiliadora, Planalto e São Francisco), que reúnem 42 vilas. Porto Alegre fica a cerca de 490 km, e Santo Ângelo, a uns 60 km. A cidade tem o Aeroporto Luís Alberto Lehr. O ônibus urbano é operado pela empresa Toda Hora."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santa Rosa, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Rosa_(Rio_Grande_do_Sul)"
+   },
+   {
+    "nome": "Wikipédia (Santa Rosa, en)",
+    "url": "https://en.wikipedia.org/wiki/Santa_Rosa,_Rio_Grande_do_Sul"
+   },
+   {
+    "nome": "IBGE Cidades (Santa Rosa)",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/santa-rosa/historico"
+   },
+   {
+    "nome": "IBGE, API de agregados: Censo 2022, estimativas de população e PIB dos Municípios",
+    "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"
+   },
+   {
+    "nome": "Agrolink, Fenasoja e a cultivar Santa Rosa",
+    "url": "https://www.agrolink.com.br/noticias/fenasoja--variedade-santa-rosa-conectou-o-brasil-atraves-da-producao-de-soja_513806.html"
+   },
+   {
+    "nome": "Jornal do Comércio, Santa Rosa e Horizontina se destacam em equipamentos (set/2023)",
+    "url": "https://www.jornaldocomercio.com/mapa-economico/regiao-norte/2023/09/1124492-santa-rosa-e-horizontina-se-destacam-em-equipamentos.html"
+   },
+   {
+    "nome": "Revista Cultivar, investimento da AGCO em Santa Rosa",
+    "url": "https://www.revistacultivar.com.br/noticias/fabrica-agco-de-santa-rosa-recebe-investimento-de-r-60-milhoes-em-modernizacao-tecnologica"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano custa R$ 6,50 desde 16 de março de 2026, valor fixado por decreto municipal. Quem usa duas passagens por dia útil gasta perto de R$ 286 por mês. Na pesquisa da ANP de 28 de agosto de 2026, a gasolina comum saía em média a R$ 6,58 o litro em 14 postos, 4,7% acima da média do estado; na semana de 1 a 7 de novembro de 2026, a média gaúcha era R$ 6,12.",
+   "Santa Rosa não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha da cesta básica é Porto Alegre, onde o DIEESE apurou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro e de 11,68% em 12 meses. Quem ganha o salário mínimo (R$ 1.621) precisou de 124 horas e 50 minutos de trabalho para comprá-la."
+  ],
+  "fontes": [
+   {
+    "nome": "Diário do Transporte, tarifa de Santa Rosa (mar/2026)",
+    "url": "https://diariodotransporte.com.br/2026/03/14/santa-rosa-rs-fixa-tarifa-do-transporte-coletivo-em-r-650-a-partir-de-16-de-marco/"
+   },
+   {
+    "nome": "Numerando, preços da ANP em Santa Rosa",
+    "url": "https://www.numerando.com.br/combustiveis/cidade/santa-rosa-rs"
+   },
+   {
+    "nome": "Game Over Drive, preços da ANP por estado (semana de 1 a 7/11/2026)",
+    "url": "https://gameoverdrive.com.br/gasolina-hoje-911-veja-precos-diesel-pode-mudar-amanha/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "A vida cultural gira em torno de dois grandes eventos: a Fenasoja, feira da soja e do agronegócio, e o Musicanto, festival de música nativista. Os museus contam a história da colonização e da soja.",
+  "lugares": [
+   {
+    "nome": "Fenasoja",
+    "km": "na cidade",
+    "desc": "Feira Nacional da Soja, criada em 1966, no Parque de Exposições Alfredo Leandro Carlson. A edição de 2026, dos 60 anos, foi de 1º a 10 de maio."
+   },
+   {
+    "nome": "Museu da Soja",
+    "km": "na cidade",
+    "desc": "Fica no Parque de Exposições e conta o desenvolvimento agrícola da região e o porquê do título de Berço Nacional da Soja."
+   },
+   {
+    "nome": "Musicanto Sul-Americano de Nativismo",
+    "km": "na cidade",
+    "desc": "Festival de música nativista com olhar para a América Latina; num show histórico, Mercedes Sosa cantou para mais de 15 mil pessoas no estádio do Dínamo. A 30ª edição, em 2025, teve 1.140 inscrições."
+   },
+   {
+    "nome": "Museu Municipal",
+    "km": "na cidade",
+    "desc": "Museu de história local no prédio da antiga estação ferroviária, ligada a Santo Ângelo desde 1940."
+   },
+   {
+    "nome": "Centro Cívico e Cultural Antônio Carlos Borges",
+    "km": "na cidade",
+    "desc": "Espaço cultural que recebe sessões de cinema, herdeiras do Cine Odeon, que começou em 1928 exibindo filmes num caminhão pelos povoados."
+   },
+   {
+    "nome": "Pórtico da Xuxa",
+    "km": "na cidade",
+    "desc": "Homenagem à apresentadora Xuxa, nascida em Santa Rosa. Parada rápida e curiosa para fotos com as crianças."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Agrolink, Fenasoja 2026",
+    "url": "https://www.agrolink.com.br/eventos/fenasoja-2026"
+   },
+   {
+    "nome": "Kupi, guia de Santa Rosa",
+    "url": "https://kupi.com/en/explore/brazil/santa-rosa"
+   },
+   {
+    "nome": "Jornal do Comércio, Mercedes Sosa no Musicanto (jul/2026)",
+    "url": "https://www.jornaldocomercio.com/especiais/reportagem-cultural/2026/07/1255282-show-de-mercedes-sosa-no-musicanto-de-santa-rosa-e-episodio-lendario-do-nativismo-gaucho.html"
+   },
+   {
+    "nome": "Musicanto, aditivo ao regulamento do 30º Musicanto (out/2025)",
+    "url": "https://www.musicanto.com.br/wp-content/uploads/2025/10/Primeiro-Aditivo-Regulamento-30o-Musicanto-Ampliacao-Categoria-Livre-02102025.pdf"
+   },
+   {
+    "nome": "360cities, Museu Municipal de Santa Rosa",
+    "url": "https://www.360cities.net/image/museu-municipal-de-santa-rosa-4-rs-brazil"
+   },
+   {
+    "nome": "Audiala, Pórtico da Xuxa",
+    "url": "https://audiala.com/pt/brasil/santa-rosa/portico-da-xuxa"
+   },
+   {
+    "nome": "Wikipédia (Santa Rosa, RS)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Rosa_(Rio_Grande_do_Sul)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Nos anúncios de imóveis aparecem nomes de vilas (como Vila Planalto ou Vila Cruzeiro do Sul). Confira a qual dos oito bairros oficiais a vila pertence para ter noção da distância até o trabalho.",
+  "Para o ônibus, separe R$ 6,50 por viagem (tarifa de março de 2026) e pergunte à operadora Toda Hora sobre cartão e vale-transporte.",
+  "A economia acompanha a safra e as máquinas agrícolas: em anos de queda nas vendas, a AGCO já deu férias coletivas e suspendeu parte da produção. Vale considerar isso se o cônjuge for procurar emprego na indústria.",
+  "Para voos, além do aeroporto local, Santo Ângelo fica a cerca de 60 km. Confira as rotas em operação antes de comprar passagem."
+ ]
+}

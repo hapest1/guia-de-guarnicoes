@@ -1,0 +1,97 @@
+{
+ "slug": "santa-cruz-do-sul-rs",
+ "lede": "Fundada por imigrantes alemães em 1849, Santa Cruz do Sul é a capital do tabaco no Brasil, sede da Oktoberfest e da Unisc, com cerca de 138 mil moradores no Vale do Rio Pardo.",
+ "cidade": {
+  "paragrafos": [
+   "A colônia de Santa Cruz foi criada por lei provincial em 6 de dezembro de 1847, em terras de Rio Pardo. As primeiras cinco famílias alemãs chegaram em 1849, a maioria vinda da Prússia, sobretudo da Pomerânia e da Renânia. O município foi emancipado em 31 de março de 1877. A herança germânica aparece na fala: além do português, ainda se ouve o alemão, incluindo o dialeto Hunsrückisch. O Censo 2022 contou 133.230 moradores, e a estimativa mais recente do IBGE chega a 138.273.",
+   "A economia gira em torno do fumo desde o século XIX. Na cidade estão fábricas de grandes grupos do tabaco, como Philip Morris, Souza Cruz, JTI e Universal Leaf, e cerca de 4 mil famílias do município cultivam fumo. Fora do tabaco, destacam-se a Mercur, a Metalúrgica Mor, a Xalingo e a Imply. Pelo IBGE, os serviços somaram 55% do valor adicionado em 2021, e a indústria, quase 30%; o PIB de 2023 foi de R$ 13,4 bilhões. No ensino superior, a Unisc tinha 11 mil alunos em 52 cursos em 2014, e a cidade tem ainda a Faculdade Dom Alberto e uma unidade da Uergs.",
+   "O município tem 733 km² e fica às margens do Rio Pardinho, na transição entre o Planalto e a Depressão Central. Em 2010, 88% da população vivia na zona urbana. O Centro é arborizado; na Rua Marechal Floriano Peixoto fica o \"túnel verde\" de tipuanas. Em volta da cidade há um Cinturão Verde de mata nativa protegida. O ônibus urbano é do Consórcio TCS, com aplicativo que mostra os ônibus em tempo real, e há sete ciclovias e ciclofaixas. Porto Alegre fica a cerca de 155 km; a Viação União Santa Cruz faz as linhas intermunicipais."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santa Cruz do Sul)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Cruz_do_Sul"
+   },
+   {
+    "nome": "IBGE Cidades (Santa Cruz do Sul)",
+    "url": "https://cidades.ibge.gov.br/brasil/rs/santa-cruz-do-sul/panorama"
+   },
+   {
+    "nome": "IBGE, API de agregados: Censo 2022, estimativas de população e PIB dos Municípios",
+    "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Na pesquisa da ANP de 24 de julho de 2026, a gasolina comum custava em média R$ 6,58 o litro em Santa Cruz do Sul, em 22 postos; o menor preço da coleta foi R$ 6,28. Na semana de 1 a 7 de novembro de 2026, a média do Rio Grande do Sul era R$ 6,12, a menor do país. Não achamos fonte com a tarifa do ônibus urbano em 2026: confirme o valor com o Consórcio TCS ou a prefeitura.",
+   "Santa Cruz do Sul não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha da cesta básica é Porto Alegre, onde o DIEESE apurou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro e de 11,68% em 12 meses. Quem ganha o salário mínimo (R$ 1.621) precisou de 124 horas e 50 minutos de trabalho para comprá-la."
+  ],
+  "fontes": [
+   {
+    "nome": "Numerando, preços da ANP em Santa Cruz do Sul",
+    "url": "https://numerando.com.br/combustiveis/cidade/santa-cruz-do-sul-rs"
+   },
+   {
+    "nome": "Game Over Drive, preços da ANP por estado (semana de 1 a 7/11/2026)",
+    "url": "https://gameoverdrive.com.br/gasolina-hoje-911-veja-precos-diesel-pode-mudar-amanha/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O calendário mistura festa alemã e tradição gaúcha: a Oktoberfest em outubro e o Enart em novembro. No resto do ano, parques com trilhas e o lago dão bons passeios em família.",
+  "lugares": [
+   {
+    "nome": "Oktoberfest de Santa Cruz do Sul",
+    "km": "na cidade",
+    "desc": "Festa de tradição germânica em outubro, a maior do estado e a segunda do país, atrás de Blumenau. A edição de 2016 teve cerca de 150 mil pagantes."
+   },
+   {
+    "nome": "Enart (Encontro de Arte e Tradição)",
+    "km": "na cidade",
+    "desc": "Um dos maiores encontros de tradição gaúcha da América Latina, em geral em novembro, no Parque da Oktoberfest. Em 2016 reuniu seis mil artistas."
+   },
+   {
+    "nome": "Parque da Gruta (Parque das Aventuras)",
+    "km": "na cidade",
+    "desc": "Mata nativa com trilhas, restaurante e equipamentos de escalada. A gruta é uma paleotoca escavada por animais da megafauna há mais de 10 mil anos."
+   },
+   {
+    "nome": "Parque da Cruz",
+    "km": "na cidade",
+    "desc": "Antiga pedreira recuperada pelo ambientalista José Lutzenberger, com uma cruz de 20 m no alto e anfiteatro de 800 lugares."
+   },
+   {
+    "nome": "Lago Telmo Kirst",
+    "km": "na cidade",
+    "desc": "Lago artificial de 228 hectares, feito para garantir água na estiagem, com ciclovias e áreas de descanso nas margens."
+   },
+   {
+    "nome": "Casa de Artes Regina Simonis e Centro de Cultura",
+    "km": "na cidade",
+    "desc": "A Casa de Artes ocupa um prédio tombado de 1922 no Centro e recebe exposições. O Centro de Cultura Francisco José Frantz fica na antiga estação ferroviária."
+   },
+   {
+    "nome": "Festa das Cucas",
+    "km": "na cidade",
+    "desc": "Evento dedicado à cuca, doce da culinária alemã. A 23ª edição, em 2023, reuniu 80 mil pessoas."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Santa Cruz do Sul)",
+    "url": "https://pt.wikipedia.org/wiki/Santa_Cruz_do_Sul"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Partes do município estão sujeitas a inundações, com situações de emergência registradas em 1984, 1993, 2005, 2009, 2010 e 2011. Ao escolher imóvel, pergunte à imobiliária e à Defesa Civil sobre o histórico da rua.",
+  "Se a mudança cair em outubro ou novembro, a Oktoberfest e o Enart trazem grande público à cidade. Reserve hospedagem com antecedência.",
+  "Baixe o aplicativo do transporte coletivo do Consórcio TCS: ele mostra a posição dos ônibus em tempo real.",
+  "Além do português, fala-se alemão na cidade, incluindo o dialeto Hunsrückisch dos primeiros colonos. É parte da cultura local, assim como a culinária de origem alemã."
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "sao-joao-del-rei-mg",
+ "lede": "Vila desde 1713, São João del-Rei é a cidade-polo do Campo das Vertentes, com cerca de 95 mil moradores, igrejas barrocas, a tradição dos sinos e a Maria Fumaça até Tiradentes.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade surgiu entre 1701 e 1705, com os arraiais mineradores do rio das Mortes, como o Arraial do Rio das Mortes, perto da travessia do Porto Real da Passagem. Depois da Guerra dos Emboabas, o arraial virou vila em 1713, com o nome de São João del-Rei em homenagem ao rei João V de Portugal, e no ano seguinte passou a sede da Comarca do Rio das Mortes. Virou cidade em 1838, e em 1881 chegou a Estrada de Ferro Oeste de Minas. O Censo 2022 contou 90.225 moradores, e a estimativa mais recente do IBGE passa de 94,8 mil.",
+   "Comércio e serviços são os maiores empregadores, e a cidade atende os municípios vizinhos como centro comercial regional. A indústria tem destaque nos ramos têxtil, metalúrgico e alimentício, e o PIB municipal ficou perto de R$ 3 bilhões em 2021 (IBGE). O turismo histórico também movimenta a economia. A cidade é sede da Diocese, da 34ª Superintendência Regional de Ensino e da Gerência Regional de Saúde. No ensino superior estão a UFSJ, universidade federal desde 2002, o UNIPTAN, o campus do IF Sudeste MG e polos de ensino a distância.",
+   "O município é grande, com 1.452 km², e tem seis distritos: a sede, Emboabas, Rio das Mortes, São Gonçalo do Amarante, São Miguel do Cajuru e São Sebastião da Vitória. A sede fica num vale do rio das Mortes, a cerca de 900 m de altitude, entre a Serra do Lenheiro, a oeste, e a Serra de São José, a leste. Os bairros oficiais são Centro, Fábricas, Colônia do Marçal, Bonfim, Tijuco, Matosinhos, Senhor dos Montes e Jardim Central; áreas novas como Vila Belizário e São Caetano crescem com prédios. Belo Horizonte fica a cerca de 180 km, e a cidade tem aeroporto regional."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (São João del-Rei)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_del-Rei"
+   },
+   {
+    "nome": "IBGE Cidades (São João del-Rei)",
+    "url": "https://cidades.ibge.gov.br/brasil/mg/sao-joao-del-rei/panorama"
+   },
+   {
+    "nome": "Wikipédia (Estrada de Ferro Oeste de Minas)",
+    "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Oeste_de_Minas"
+   },
+   {
+    "nome": "Wikipédia (UFSJ)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_de_S%C3%A3o_Jo%C3%A3o_del-Rei"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "São João del-Rei adotou o programa Tarifa Zero, com ônibus municipais gratuitos. O contrato da operadora passou por questionamentos na Justiça e no Tribunal de Contas em 2025: confirme com a prefeitura como o serviço funciona quando chegar.",
+   "A cidade não entra na pesquisa da cesta básica do DIEESE. A referência mineira é Belo Horizonte, onde a cesta custou R$ 810,73 em outubro de 2026, alta de 0,96% sobre setembro."
+  ],
+  "fontes": [
+   {
+    "nome": "Brasil de Fato, licitação do Tarifa Zero suspensa (jul/2025)",
+    "url": "https://www.brasildefato.com.br/2025/07/03/licitacao-do-programa-tarifa-zero-e-suspensa-em-sao-joao-del-rei-mg/"
+   },
+   {
+    "nome": "Diário do Comércio, TCE-MG e contrato do Tarifa Zero",
+    "url": "https://diariodocomercio.com.br/legislacao/tarifa-zero-sao-joao/"
+   },
+   {
+    "nome": "Itatiaia, início do ônibus gratuito em São João del-Rei",
+    "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/cidade-historica-de-mg-tera-onibus-gratuito-a-partir-desta-segunda-feira-23/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O Centro Histórico concentra igrejas, museus e música sacra. Fora dele, a ferrovia a vapor, a vizinha Tiradentes e as serras completam o fim de semana.",
+  "lugares": [
+   {
+    "nome": "Igreja de São Francisco de Assis",
+    "km": "na cidade",
+    "desc": "Começada em 1774, com projeto do Aleijadinho modificado por Francisco de Lima Cerqueira, é um dos marcos da arte colonial no país e é tombada pelo IPHAN. Tem adro de pedra com balaustrada e nave de paredes curvas, típica do Rococó."
+   },
+   {
+    "nome": "Maria Fumaça São João del-Rei–Tiradentes",
+    "km": "na cidade",
+    "desc": "Trem turístico a vapor numa linha de quase 12 km, remanescente da Estrada de Ferro Oeste de Minas. O complexo ferroviário, com oficinas e um dos acervos de locomotivas a vapor mais importantes do país, é tombado pelo IPHAN. A cidade também tem um Museu Ferroviário."
+   },
+   {
+    "nome": "Museu Regional de São João del-Rei",
+    "km": "na cidade",
+    "desc": "Casarão de 1859, de três pavimentos, voltado para a Praça Severiano Resende. O acervo reúne objetos do cotidiano da região dos séculos XVIII, XIX e início do XX."
+   },
+   {
+    "nome": "Memorial Tancredo Neves e outros museus",
+    "km": "na cidade",
+    "desc": "O memorial, criado em 1990, guarda o acervo do ex-presidente. A cidade também tem Museu de Arte Sacra, Museu dos Sinos, Museu do Barro e a biblioteca pública mais antiga de Minas, na Praça Frei Orlando."
+   },
+   {
+    "nome": "Serra do Lenheiro",
+    "km": "na cidade",
+    "desc": "Formação de quartzito a noroeste da cidade, com vales, remanescentes de vegetação, vestígios de mineração colonial e sítios arqueológicos."
+   },
+   {
+    "nome": "Tiradentes",
+    "km": "~13 km",
+    "desc": "Cidade colonial de cerca de 8 mil moradores, ao pé da Serra de São José. Tem a Igreja Matriz de Santo Antônio, o Chafariz São José, de 1749, ainda em funcionamento, e do outro lado da serra o Balneário de Águas Santas, com mata nativa e quiosques."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Igreja de São Francisco de Assis, São João del-Rei)",
+    "url": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(S%C3%A3o_Jo%C3%A3o_del-Rei)"
+   },
+   {
+    "nome": "Wikipédia (Estrada de Ferro Oeste de Minas)",
+    "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Oeste_de_Minas"
+   },
+   {
+    "nome": "Wikipédia (Museu Regional de São João del-Rei)",
+    "url": "https://pt.wikipedia.org/wiki/Museu_Regional_de_S%C3%A3o_Jo%C3%A3o_del-Rei"
+   },
+   {
+    "nome": "Wikipédia (São João del-Rei)",
+    "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_del-Rei"
+   },
+   {
+    "nome": "Wikipédia (Tiradentes, MG)",
+    "url": "https://pt.wikipedia.org/wiki/Tiradentes_(Minas_Gerais)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "A Semana Santa é uma das mais tradicionais do país, com procissões que reúnem milhares de pessoas e música sacra dos séculos XVIII e XIX. Se a mudança cair nessa época, conte com o Centro cheio.",
+  "Vale aprender a linguagem dos sinos: as igrejas usam toques diferentes para missas, festas e funerais. O Toque dos Sinos em Minas Gerais é patrimônio cultural do Brasil desde 2009 (IPHAN).",
+  "Confira se o imóvel fica na sede ou num dos cinco distritos. O município tem 1.452 km², e as distâncias até o Centro podem ser grandes.",
+  "A Orquestra Lira Sanjoanense, apontada como a orquestra mais antiga das Américas em atividade, toca nas funções das irmandades do Rosário, das Mercês e da Boa Morte, na Paróquia do Pilar."
+ ]
+}

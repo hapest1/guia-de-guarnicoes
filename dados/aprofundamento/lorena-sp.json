@@ -1,0 +1,90 @@
+{
+ "slug": "lorena-sp",
+ "lede": "Antigo porto de travessia do rio Paraíba rumo às Minas, Lorena é a Terra das Palmeiras Imperiais, com cerca de 87 mil moradores e campus de engenharia da USP.",
+ "cidade": {
+  "paragrafos": [
+   "Por volta de 1695, o bandeirante Bento Rodrigues Caldeira se fixou às margens do rio Paraíba do Sul, e surgiu o Porto de Guaipacaré, ponto de travessia de quem seguia para as minas de ouro. Em 1705 foi erguida a capela de Nossa Senhora da Piedade. A freguesia virou vila em 14 de novembro de 1788, com o nome de Lorena, em homenagem ao governador da capitania, Bernardo José de Lorena, e foi elevada a cidade em 1856. No auge do café, no século XIX, mais de dez titulares do Império viveram ali. O Censo 2022 contou 84.855 moradores, e a estimativa mais recente do IBGE é de 87.551.",
+   "Depois do café vieram o arroz, a cana e, a partir dos anos 1920, a pecuária leiteira trazida por famílias mineiras. A inauguração da Via Dutra, em meados do século XX, impulsionou a cidade, que fica entre São Paulo, Rio de Janeiro e Belo Horizonte. Lorena se apresenta como cidade universitária: a Escola de Engenharia de Lorena (EEL/USP), antiga Faenquil, incorporada à USP em 2006, tem cerca de 2 mil alunos em cursos como engenharia química, bioquímica, de materiais, física, ambiental e de produção. O UNISAL, fundado em 1952 como a primeira faculdade do Vale do Paraíba, tem mais de 5 mil alunos, e a Unifatea oferece cursos de comunicação. Há também o Colégio Técnico em Química (COTEL), dentro da USP.",
+   "O município tem 414 km² e fica a 524 m de altitude, numa planície entre o rio Paraíba do Sul e a serra da Mantiqueira. A taxa de urbanização é de 97,26%. A EEL/USP tem duas áreas, nos bairros do Campinho e de Santa Lucrécia. As ligações são a Via Dutra (BR-116), a SP-62 e a BR-459, que segue para Poços de Caldas, no sul de Minas. Os vizinhos são Guaratinguetá, Piquete, Cachoeira Paulista, Canas, Silveiras e Cunha. Lorena faz parte da Região Metropolitana do Vale do Paraíba e Litoral Norte e fica a cerca de 180 km de São Paulo."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Lorena, SP)",
+    "url": "https://pt.wikipedia.org/wiki/Lorena_(S%C3%A3o_Paulo)"
+   },
+   {
+    "nome": "IBGE, Censo 2022 (tabela 4709) e estimativa de população (tabela 6579), API SIDRA",
+    "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[3527207]"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Pelos dados da ANP reunidos pelo painel Atlas Público, a gasolina comum em Lorena custava em média R$ 6,52 por litro em 8 de outubro de 2026, com 8 postos pesquisados. O preço muda toda semana: confira o valor atual antes de fazer contas.",
+   "Lorena não entra na pesquisa da cesta básica do DIEESE. A referência é a capital paulista, onde a cesta custou R$ 951,37 em outubro de 2026, a mais cara entre as capitais, com alta de 3,13% sobre setembro e de 12,30% em 12 meses."
+  ],
+  "fontes": [
+   {
+    "nome": "Atlas Público (dados ANP), combustíveis em Lorena, 08/10/2026",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/sp/lorena"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Lorena guarda a história do café e fica no meio de uma região de turismo religioso e de serra. Em menos de uma hora de carro se chega à Canção Nova e às montanhas de Cunha.",
+  "lugares": [
+   {
+    "nome": "Catedral de Nossa Senhora da Piedade",
+    "km": "na cidade",
+    "desc": "Sede da Diocese de Lorena, no lugar da capela de 1705 que deu origem à cidade. A igreja fica de costas para o Centro porque a capela original foi feita de frente para o rio, para receber os viajantes."
+   },
+   {
+    "nome": "Floresta Nacional de Lorena",
+    "km": "no município",
+    "desc": "Unidade de conservação de 249 hectares, administrada pelo ICMBio, toda reflorestada com espécies nativas da Mata Atlântica, como ipês, jequitibá, cedro e pau-brasil. Confira com o ICMBio as regras de visita."
+   },
+   {
+    "nome": "Eco Valle Shopping",
+    "km": "na cidade",
+    "desc": "Shopping center da cidade, em funcionamento desde 2013. Boa opção para compras e programas em dias de chuva."
+   },
+   {
+    "nome": "Canção Nova",
+    "km": "em Cachoeira Paulista, município vizinho",
+    "desc": "Sede da comunidade católica em Cachoeira Paulista, numa área de 372 mil m², com espaços cobertos para eventos com capacidade para 80 mil pessoas, praça de alimentação e estacionamento."
+   },
+   {
+    "nome": "Cunha",
+    "km": "~50 km",
+    "desc": "Estância climática na serra, com campos de lavanda, o mirante da Pedra da Macela, cachoeiras e produção de cerâmica artística. Em julho, recebe o Festival de Inverno Acordes na Serra."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Lorena, SP)",
+    "url": "https://pt.wikipedia.org/wiki/Lorena_(S%C3%A3o_Paulo)"
+   },
+   {
+    "nome": "Wikipédia (Floresta Nacional de Lorena)",
+    "url": "https://pt.wikipedia.org/wiki/Floresta_Nacional_de_Lorena"
+   },
+   {
+    "nome": "Wikipédia (Canção Nova)",
+    "url": "https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o_Nova"
+   },
+   {
+    "nome": "Wikipédia (Cunha, SP)",
+    "url": "https://pt.wikipedia.org/wiki/Cunha_(S%C3%A3o_Paulo)"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Para estudar perto de casa, a cidade tem a EEL/USP, com graduação e pós-graduação em engenharias, além do UNISAL e da Unifatea. O COTEL, que funciona dentro da USP, oferece curso técnico em química no ensino médio.",
+  "O código de área de Lorena é 12, o mesmo do Vale do Paraíba. A BR-459 liga a cidade a Poços de Caldas e ao sul de Minas.",
+  "Quem pensa em abrir um negócio pode consultar a Lei Municipal 3.473/2011, que permite à prefeitura conceder isenções de IPTU, ISS e ITBI a empresas que se instalam ou ampliam suas atividades na cidade."
+ ]
+}
