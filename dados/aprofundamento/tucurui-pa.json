@@ -1,0 +1,51 @@
+{
+ "slug": "tucurui-pa",
+ "lede": "Fundada como posto português no Tocantins em 1779, Tucuruí se transformou com a usina hidrelétrica inaugurada em 1984, que formou um lago de quase 3 mil km² e 1.700 ilhas.",
+ "cidade": {
+  "paragrafos": [
+   "Tucuruí é a localidade mais antiga ainda existente no sudeste do Pará. Em 1779 o governador Telo de Meneses fundou ali a Vila de São Bernardo da Pederneira, depois chamada Alcobaça, e em 1782 foi erguido o forte de Nossa Senhora de Nazaré. No fim do século XIX começou a Estrada de Ferro Tocantins, que contornava as corredeiras do rio e parou de operar na década de 1970. O nome Tucuruí, do tupi, significa “gafanhoto verde”. O município saiu de Baião e ganhou autonomia em 31 de dezembro de 1947. Tinha menos de 5 mil moradores na década de 1960 e cresceu com a usina. O Censo 2022 contou 91.306 habitantes, e a estimativa mais recente do IBGE é de 96.004.",
+   "A Usina Hidrelétrica de Tucuruí, operada hoje pela Axia Energia (antiga Eletronorte), é a base da economia. Ela gerou 4.000 MW na inauguração, em 22 de novembro de 1984, e passou de 8.000 MW após a segunda casa de força. Em 2026 a usina está em modernização, com investimento anunciado de R$ 1,5 bilhão, e abriga o centro que opera remotamente as hidrelétricas da empresa na Região Norte. O PIB do município foi de R$ 5,46 bilhões em 2023, e, nos dados de 2021 do IBGE, a indústria gerava a maior parte do valor adicionado. Também há comércio, serviços, pesca no lago, pecuária e laticínios. No ensino superior, a cidade tem campi da UFPA, da UEPA e do IFPA e polos de faculdades privadas.",
+   "A cidade fica à beira do rio Tocantins, logo abaixo da barragem. Para abrigar os trabalhadores da obra, a Eletronorte construiu vilas residenciais, como a Vila Permanente, com ruas pavimentadas, escolas e clubes. Novo Repartimento e Breu Branco, criadas para receber moradores de povoados inundados pelo lago, se emanciparam em 1992. Por estrada, Belém fica a cerca de 450 km, passando por Breu Branco, Tailândia e Moju. Desde 2010 as eclusas da barragem permitem a navegação no Tocantins. A Azul atende Tucuruí com voos regionais para Belém."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Tucuruí)", "url": "https://pt.wikipedia.org/wiki/Tucuru%C3%AD"},
+   {"nome": "Wikipédia (Usina Hidrelétrica de Tucuruí)", "url": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Tucuru%C3%AD"},
+   {"nome": "IBGE Cidades (Tucuruí)", "url": "https://cidades.ibge.gov.br/brasil/pa/tucurui/panorama"},
+   {"nome": "IBGE/SIDRA (PIB dos municípios, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"},
+   {"nome": "Cenário Energia (modernização de Tucuruí, jan/2026)", "url": "https://cenarioenergia.com.br/2026/01/26/axia-investe-r-15-bilhao-na-modernizacao-de-tucurui-e-reforca-papel-estrategico-da-hidreletrica-no-sin/"},
+   {"nome": "Cenário Energia (operação remota em Tucuruí, out/2026)", "url": "https://cenarioenergia.com.br/2026/10/22/axia-energia-centraliza-operacao-hidreletricas-amazonia-tucurui/"},
+   {"nome": "Em Sampa (rota rodoviária Belém–Tucuruí)", "url": "https://www.emsampa.com.br/rotas_rodoviarias_VI/belem_tucurui.htm"},
+   {"nome": "Brasilturis (Azul em Belém e no Pará, nov/2026)", "url": "https://brasilturis.com.br/2026/11/09/azul-16-anos-operacao-belem-18-milhoes-passageiros/"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Tucuruí não entra na pesquisa da cesta básica. A referência é Belém, onde a cesta do DIEESE custou R$ 756,42 em outubro de 2026, alta de 3,39% sobre setembro e de 13,87% em 12 meses. Na capital, a cesta comprometeu 50,45% do salário mínimo líquido. Não encontramos a tarifa de ônibus urbano de 2026 nem um preço de combustível recente e datado para a cidade."
+  ],
+  "fontes": [
+   {"nome": "DIEESE (Pesquisa Nacional da Cesta Básica, outubro de 2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer gira em torno do Tocantins e do lago da usina, com orla nova na cidade, ilhas e pesca esportiva. Há também marcas da história da ferrovia e das vilas da obra.",
+  "lugares": [
+   {"nome": "Orla de Tucuruí", "km": "na cidade", "desc": "Orla reconstruída na margem do Tocantins pelo governo do estado e pela prefeitura, com calçadão, mirantes, farol, quiosques e estacionamento acessível. Um trecho foi entregue em dezembro de 2022."},
+   {"nome": "Lago de Tucuruí e suas ilhas", "km": "lago da usina", "desc": "O reservatório tem cerca de 2.850 km² e 1.700 ilhas, algumas com pousadas e camping. É usado para turismo náutico e lazer."},
+   {"nome": "Torneio de Pesca Esportiva de Tucuruí", "km": "lago da usina", "desc": "Acontece desde 2009, no último fim de semana de maio, e premia quem pesca o maior tucunaré. Reúne pescadores de várias partes do país."},
+   {"nome": "Região do Caraipé", "km": "lago da usina", "desc": "Área do lago listada pelo programa de regionalização do turismo para passeios de contemplação, com marina."},
+   {"nome": "Locomotiva da Estrada de Ferro Tocantins", "km": "na cidade", "desc": "A única locomotiva que restou da ferrovia fica em frente ao Centro Cultural da Eletronorte, na Vila Permanente. A antiga linha do trem virou a atual Rua Santo Antônio."}
+  ],
+  "fontes": [
+   {"nome": "Diário do Pará (governo e prefeitura entregam nova orla de Tucuruí)", "url": "https://diariodopara.com.br/para/governo-e-prefeitura-entregam-nova-orla-de-tucurui/"},
+   {"nome": "Diário do Pará (governo entrega a nova orla de Tucuruí)", "url": "https://diariodopara.com.br/para/governo-entrega-a-nova-orla-de-tucurui-e-fortalece-o-turismo-na-regiao/"},
+   {"nome": "Ministério do Turismo (Programa de Regionalização: Lago de Tucuruí)", "url": "https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/programa-de-regionalizacao-do-turismo-2/reunioes/1o-seminario-nacional-do-prt-integrado/9-1-1-lago-de-tucurui.pdf"},
+   {"nome": "Wikipédia (Tucuruí)", "url": "https://pt.wikipedia.org/wiki/Tucuru%C3%AD"},
+   {"nome": "Wikipédia (Usina Hidrelétrica de Tucuruí)", "url": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Tucuru%C3%AD"}
+  ]
+ },
+ "antes_de_ir": [
+  "Os voos da Azul entre Belém e Tucuruí são regionais. Confira a grade e os preços no site da companhia antes de decidir entre o avião e os cerca de 450 km de estrada.",
+  "Se a família gosta de pescar, guarde o último fim de semana de maio para o Torneio de Pesca Esportiva do tucunaré.",
+  "Para passeios no lago, contrate barqueiros e pousadas conhecidos. O reservatório é grande e cheio de ilhas, e o nível da água muda ao longo do ano."
+ ]
+}

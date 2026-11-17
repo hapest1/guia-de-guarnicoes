@@ -8,13 +8,34 @@
    "A sede fica na margem direita do rio Negro, a 405 km de Manaus em linha reta e a 656 km pelo rio. Com 122.476 km², Barcelos é o maior município do Amazonas e o segundo do Brasil em área, atrás de Altamira (PA). O território faz fronteira com a Venezuela e com Roraima e abrange o Arquipélago de Mariuá. Não há estrada: a ligação com Manaus é por barco ou avião. Em setembro de 2025 a Azul Conecta retomou a rota Manaus–Barcelos, com três voos por semana em aviões Cessna Grand Caravan de nove lugares, e em abril de 2026 a cidade seguia na lista de destinos da Azul no Amazonas."
   ],
   "fontes": [
-   {"nome": "Wikipédia (Barcelos, Amazonas)", "url": "https://pt.wikipedia.org/wiki/Barcelos_(Amazonas)"},
-   {"nome": "IBGE Cidades (Barcelos)", "url": "https://cidades.ibge.gov.br/brasil/am/barcelos/panorama"},
-   {"nome": "IBGE/SIDRA (Censo 2022, cor ou raça, tabela 9605)", "url": "https://sidra.ibge.gov.br/tabela/9605"},
-   {"nome": "IBGE/SIDRA (PIB dos municípios, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"},
-   {"nome": "Ministério do Turismo (Destino referência em turismo de pesca: Barcelos)", "url": "https://www.gov.br/turismo/pt-br/centrais-de-conteudo-/publicacoes/destinos-referencia-em-segmentos-turisticos/destino-referencia-em-turismo-de-pesca-barcelas-am.pdf"},
-   {"nome": "Brasilturis (Azul retoma voos Manaus–Barcelos, set/2025)", "url": "https://brasilturis.com.br/2025/09/03/azul-retoma-voos-regulares-entre-manaus-e-barcelos/"},
-   {"nome": "Brasilturis (Azul no Amazonas, abr/2026)", "url": "https://brasilturis.com.br/2026/04/22/azul-17-anos-manaus/"}
+   {
+    "nome": "Wikipédia (Barcelos, Amazonas)",
+    "url": "https://pt.wikipedia.org/wiki/Barcelos_(Amazonas)"
+   },
+   {
+    "nome": "IBGE Cidades (Barcelos)",
+    "url": "https://cidades.ibge.gov.br/brasil/am/barcelos/panorama"
+   },
+   {
+    "nome": "IBGE/SIDRA (Censo 2022, cor ou raça, tabela 9605)",
+    "url": "https://sidra.ibge.gov.br/tabela/9605"
+   },
+   {
+    "nome": "IBGE/SIDRA (PIB dos municípios, tabela 5938)",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   },
+   {
+    "nome": "Ministério do Turismo (Destino referência em turismo de pesca: Barcelos)",
+    "url": "https://www.gov.br/turismo/pt-br/centrais-de-conteudo-/publicacoes/destinos-referencia-em-segmentos-turisticos/destino-referencia-em-turismo-de-pesca-barcelas-am.pdf"
+   },
+   {
+    "nome": "Brasilturis (Azul retoma voos Manaus–Barcelos, set/2025)",
+    "url": "https://brasilturis.com.br/2025/09/03/azul-retoma-voos-regulares-entre-manaus-e-barcelos/"
+   },
+   {
+    "nome": "Brasilturis (Azul no Amazonas, abr/2026)",
+    "url": "https://brasilturis.com.br/2026/04/22/azul-17-anos-manaus/"
+   }
   ]
  },
  "custo_extra": {
@@ -22,29 +43,78 @@
    "Barcelos não entra na pesquisa da cesta básica, mas Manaus serve de referência: em outubro de 2026, a cesta do DIEESE na capital custou R$ 687,46, alta de 1,67% sobre setembro e de 8,56% em 12 meses. Como a cidade importa a maior parte dos alimentos que consome, espere pagar mais do que isso no comércio local. Não encontramos levantamento recente e datado de preço de combustível em Barcelos."
   ],
   "fontes": [
-   {"nome": "DIEESE (Pesquisa Nacional da Cesta Básica, outubro de 2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"},
-   {"nome": "Wikipédia (Barcelos, Amazonas)", "url": "https://pt.wikipedia.org/wiki/Barcelos_(Amazonas)"}
+   {
+    "nome": "DIEESE (Pesquisa Nacional da Cesta Básica, outubro de 2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Wikipédia (Barcelos, Amazonas)",
+    "url": "https://pt.wikipedia.org/wiki/Barcelos_(Amazonas)"
+   }
   ]
  },
  "lazer": {
   "intro": "O lazer em Barcelos acompanha o rio Negro: na seca aparecem as praias e começa a pesca esportiva. As atrações mais distantes, como a Serra do Aracá, exigem expedição organizada.",
   "lugares": [
-   {"nome": "Praia Grande", "km": "na cidade", "desc": "Praia de rio que aparece na vazante, de setembro a março. É palco do réveillon da cidade, com fogos e música ao vivo, que atrai milhares de visitantes."},
-   {"nome": "Festival do Peixe Ornamental", "km": "na cidade", "desc": "Criado em 1994, homenageia os piabeiros, pescadores de peixes ornamentais. Acontece em janeiro, com exposição de espécies raras, pesca esportiva e shows."},
-   {"nome": "Pesca esportiva do tucunaré", "km": "rio Negro e afluentes", "desc": "Barcelos tem a maior concentração de tucunarés da Amazônia, e o maior tucunaré já registrado, de 12,445 kg, foi pescado ali. A temporada vai de setembro a março, com excursões de cerca de uma semana em barcos-hotéis."},
-   {"nome": "Arquipélago de Mariuá", "km": "no município", "desc": "Conjunto de ilhas no rio Negro apontado como o maior arquipélago fluvial do mundo. A contagem de ilhas varia muito entre as fontes."},
-   {"nome": "Parque Nacional do Jaú", "km": "no município", "desc": "Unidade de conservação federal citada entre os atrativos de Barcelos. Informe-se com o ICMBio sobre as regras de visita antes de planejar o passeio."},
-   {"nome": "Parque Estadual Serra do Aracá e Cachoeira do El Dorado", "km": "~211 km em linha reta", "desc": "O parque guarda a Cachoeira do El Dorado, citada como a queda livre mais alta do Brasil (cerca de 353 m, segundo o Portal Amazônia). Não há estrutura turística: a entrada depende de licença da Sema-AM e de expedição organizada, de vários dias."}
+   {
+    "nome": "Praia Grande",
+    "km": "na cidade",
+    "desc": "Praia de rio que aparece na vazante, de setembro a março. É palco do réveillon da cidade, com fogos e música ao vivo, que atrai milhares de visitantes."
+   },
+   {
+    "nome": "Festival do Peixe Ornamental",
+    "km": "na cidade",
+    "desc": "Criado em 1994, homenageia os piabeiros, pescadores de peixes ornamentais. Acontece em janeiro, com exposição de espécies raras, pesca esportiva e shows."
+   },
+   {
+    "nome": "Pesca esportiva do tucunaré",
+    "km": "rio Negro e afluentes",
+    "desc": "Barcelos tem a maior concentração de tucunarés da Amazônia, e o maior tucunaré já registrado, de 12,445 kg, foi pescado ali. A temporada vai de setembro a março, com excursões de cerca de uma semana em barcos-hotéis."
+   },
+   {
+    "nome": "Arquipélago de Mariuá",
+    "km": "no município",
+    "desc": "Conjunto de ilhas no rio Negro apontado como o maior arquipélago fluvial do mundo. A contagem de ilhas varia muito entre as fontes."
+   },
+   {
+    "nome": "Parque Estadual Serra do Aracá e Cachoeira do El Dorado",
+    "km": "~211 km em linha reta",
+    "desc": "O parque guarda a Cachoeira do El Dorado, citada como a queda livre mais alta do Brasil (cerca de 353 m, segundo o Portal Amazônia). Não há estrutura turística: a entrada depende de licença da Sema-AM e de expedição organizada, de vários dias."
+   }
   ],
   "fontes": [
-   {"nome": "Wikipédia (Barcelos, Amazonas)", "url": "https://pt.wikipedia.org/wiki/Barcelos_(Amazonas)"},
-   {"nome": "Portal Amazônia (Barcelos de A a Z)", "url": "https://portalamazonia.com/amazonia-de-a-a-z/barcelos/"},
-   {"nome": "Portal Amazônia (Barcelos tem a maior cachoeira do Brasil)", "url": "https://portalamazonia.com/turismo/barcelos-tem-a-maior-cachoeira-do-brasil/"},
-   {"nome": "Portal Amazônia (único funcionário do Parque Estadual Serra do Aracá)", "url": "https://portalamazonia.com/meio-ambiente/conheca-o-unico-funcionario-do-parque-estadual-serra-do-araca-no-amazonas/"},
-   {"nome": "Olhar Digital (calendário turístico de Barcelos)", "url": "https://olhardigital.com.br/curiosidades/?p=21442"},
-   {"nome": "The Brasilians (Festival do Peixe Ornamental)", "url": "https://new.thebrasilians.com/?p=33679"},
-   {"nome": "Ministério do Turismo (Destino referência em turismo de pesca: Barcelos)", "url": "https://www.gov.br/turismo/pt-br/centrais-de-conteudo-/publicacoes/destinos-referencia-em-segmentos-turisticos/destino-referencia-em-turismo-de-pesca-barcelas-am.pdf"},
-   {"nome": "Quanto Custa Viajar (Serra do Aracá)", "url": "https://quantocustaviajar.com/blog/amazonas-serra-do-araca"}
+   {
+    "nome": "Wikipédia (Barcelos, Amazonas)",
+    "url": "https://pt.wikipedia.org/wiki/Barcelos_(Amazonas)"
+   },
+   {
+    "nome": "Portal Amazônia (Barcelos de A a Z)",
+    "url": "https://portalamazonia.com/amazonia-de-a-a-z/barcelos/"
+   },
+   {
+    "nome": "Portal Amazônia (Barcelos tem a maior cachoeira do Brasil)",
+    "url": "https://portalamazonia.com/turismo/barcelos-tem-a-maior-cachoeira-do-brasil/"
+   },
+   {
+    "nome": "Portal Amazônia (único funcionário do Parque Estadual Serra do Aracá)",
+    "url": "https://portalamazonia.com/meio-ambiente/conheca-o-unico-funcionario-do-parque-estadual-serra-do-araca-no-amazonas/"
+   },
+   {
+    "nome": "Olhar Digital (calendário turístico de Barcelos)",
+    "url": "https://olhardigital.com.br/curiosidades/?p=21442"
+   },
+   {
+    "nome": "The Brasilians (Festival do Peixe Ornamental)",
+    "url": "https://new.thebrasilians.com/?p=33679"
+   },
+   {
+    "nome": "Ministério do Turismo (Destino referência em turismo de pesca: Barcelos)",
+    "url": "https://www.gov.br/turismo/pt-br/centrais-de-conteudo-/publicacoes/destinos-referencia-em-segmentos-turisticos/destino-referencia-em-turismo-de-pesca-barcelas-am.pdf"
+   },
+   {
+    "nome": "Quanto Custa Viajar (Serra do Aracá)",
+    "url": "https://quantocustaviajar.com/blog/amazonas-serra-do-araca"
+   }
   ]
  },
  "antes_de_ir": [

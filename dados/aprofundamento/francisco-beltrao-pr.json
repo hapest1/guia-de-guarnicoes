@@ -1,0 +1,91 @@
+{
+ "slug": "francisco-beltrao-pr",
+ "lede": "Antiga Vila Marrecas, Francisco Beltrão é a maior cidade do sudoeste paranaense, polo de ensino, saúde e comércio, com raízes gaúchas e catarinenses.",
+ "cidade": {
+  "paragrafos": [
+   "A região era coberta de mata de araucária. Os primeiros moradores chegaram por volta de 1922, mas o povoamento cresceu nos anos 1940, com colonos gaúchos e catarinenses, muitos de origem alemã e italiana. Em 1943 foi instalada a Colônia Agrícola Nacional General Osório (CANGO), que distribuía as terras. O povoado se chamava Vila Marrecas, por causa do rio. O município foi criado em 14 de novembro de 1951, desmembrado de Clevelândia, e instalado em 14 de dezembro de 1952; o nome homenageia o engenheiro Francisco Gutierrez Beltrão. Em 10 de outubro de 1957, a Revolta dos Posseiros expulsou da cidade uma companhia de terras. O Censo 2022 contou 96.666 moradores, e a estimativa mais recente do IBGE passa de 103 mil.",
+   "É a segunda maior economia do sudoeste, com PIB de cerca de R$ 3,7 bilhões em 2021. Os destaques são a indústria de alimentos, com a unidade da Sadia (BRF) e uma rede de cerca de 800 aviários na região, o polo de confecções, o setor moveleiro e o comércio, além de serviços médicos regionais. A cidade tem quatro distritos industriais. No ensino superior, há campus da Unioeste, que oferece Medicina desde 2013, da UTFPR e instituições particulares como Unipar e Unisep.",
+   "A sede ocupa uma espécie de bacia cercada de morros, a cerca de 560 m de altitude, cortada ao meio pelo rio Marrecas. Além da sede, o município tem os distritos de Jacutinga, Nova Concórdia, São Pio X e Secção Jacaré, e dezenas de comunidades rurais. A cidade é entroncamento rodoviário: a PR-483 vem de Cascavel, a PR-180 segue para Marmeleiro e a BR-280, e a fronteira com a Argentina fica a cerca de 70 km a oeste. O ônibus urbano é operado pela Guancino."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Francisco Beltrão)",
+    "url": "https://pt.wikipedia.org/wiki/Francisco_Beltr%C3%A3o"
+   },
+   {
+    "nome": "IBGE Cidades (Francisco Beltrão)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/pr/francisco-beltrao.html"
+   },
+   {
+    "nome": "IBGE, API de agregados (Censo 2022 e estimativas de população)",
+    "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"
+   },
+   {
+    "nome": "Prefeitura de Francisco Beltrão, subsídio à tarifa do transporte coletivo",
+    "url": "https://franciscobeltrao.pr.gov.br/noticias/prefeitura-vai-bancar-parte-da-tarifa-para-o-transporte-coletivo-urbano/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A gasolina comum teve média de R$ 6,36 por litro em 9 postos no levantamento da ANP de 31 de julho de 2026, com preços de R$ 6,12 a R$ 6,59. No ônibus urbano, a prefeitura criou um subsídio para segurar a tarifa e dá desconto para quem faz recarga antecipada no cartão; confirme o valor vigente com a prefeitura.",
+   "Francisco Beltrão não entra na pesquisa da cesta básica do DIEESE. A referência paranaense é Curitiba, onde a cesta custou R$ 866,93 em outubro de 2026, alta de 13,80% em 12 meses."
+  ],
+  "fontes": [
+   {
+    "nome": "Atlas Público, preço da gasolina em Francisco Beltrão (dados ANP)",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/pr/francisco-beltrao"
+   },
+   {
+    "nome": "Prefeitura de Francisco Beltrão, subsídio à tarifa do transporte coletivo",
+    "url": "https://franciscobeltrao.pr.gov.br/noticias/prefeitura-vai-bancar-parte-da-tarifa-para-o-transporte-coletivo-urbano/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Francisco Beltrão reúne a praça da Concatedral, um parque urbano, a maior feira da região e o futsal de nível nacional.",
+  "lugares": [
+   {
+    "nome": "Torre da Concatedral",
+    "km": "na cidade",
+    "desc": "Com mais de 100 m de altura, na praça central, é tida como o principal ponto turístico da cidade."
+   },
+   {
+    "nome": "Parque Alvorada",
+    "km": "na cidade",
+    "desc": "Principal parque urbano da cidade, no bairro de mesmo nome, na zona oeste."
+   },
+   {
+    "nome": "Expobel",
+    "km": "na cidade",
+    "desc": "Maior feira da região, no Parque de Exposições Jaime Canet Júnior. A edição de 2022 recebeu mais de 400 mil visitantes."
+   },
+   {
+    "nome": "Museu do Colonizador",
+    "km": "na cidade",
+    "desc": "Numa das casas mais antigas do sudoeste, dentro do Parque de Exposições, guarda objetos e fotos da colonização entre as décadas de 1940 e 1960."
+   },
+   {
+    "nome": "Marreco Futsal no Ginásio Arrudão",
+    "km": "na cidade",
+    "desc": "O time da cidade disputa a Liga Nacional de Futsal e manda os jogos no Arrudão, para cerca de 4.500 pessoas. Programa para quem gosta de esporte."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Francisco Beltrão)",
+    "url": "https://pt.wikipedia.org/wiki/Francisco_Beltr%C3%A3o"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Espere verão quente e inverno com geada: a cidade já registrou 38,3 °C em novembro de 1985 e −5 °C em julho de 1975. Como a sede fica numa bacia cercada de morros, o vento costuma ser fraco.",
+  "A cidade teve grandes enchentes em anos de El Niño, como 1983 e 1997. Ao escolher imóvel, pergunte ao proprietário ou à imobiliária sobre o histórico do endereço.",
+  "Confira se o imóvel fica na sede ou em um distrito (Jacutinga, Nova Concórdia, São Pio X, Secção Jacaré). Nos distritos e comunidades rurais, o carro é indispensável.",
+  "O dia 14 de dezembro é feriado municipal, aniversário da instalação do município. Programe trâmites de mudança fora dessa data."
+ ]
+}

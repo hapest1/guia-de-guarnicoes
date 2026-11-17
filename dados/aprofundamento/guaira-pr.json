@@ -1,0 +1,95 @@
+{
+ "slug": "guaira-pr",
+ "lede": "Na margem do rio Paraná, diante de Salto del Guairá, Guaíra guarda a memória das Sete Quedas e abre caminho para o arquipélago de Ilha Grande.",
+ "cidade": {
+  "paragrafos": [
+   "A região foi disputada por espanhóis e portugueses desde o século XVI, com missões jesuíticas e incursões de bandeirantes. A cidade moderna nasceu ligada à Companhia Matte Larangeira, que se instalou ali a partir de 1902, no então Porto Monjoli, e em 1911 começou a ferrovia Guaíra–Porto Mendes para contornar as corredeiras das Sete Quedas. Em 1944 a área passou ao Serviço de Navegação da Bacia do Prata. O município foi criado em 14 de novembro de 1951, desmembrado de Foz do Iguaçu, e instalado em 14 de dezembro de 1952. O Censo 2022 contou 32.097 moradores, e a estimativa mais recente do IBGE passa de 33 mil.",
+   "A economia se apoia na agricultura, no comércio e no turismo. Por ter terras alagadas pelo reservatório de Itaipu, o município está entre os 16 que recebem royalties da usina, proporcionais à área alagada. No ensino superior, a cidade tem unidades da Unipar, da Uninter e da Anhanguera.",
+   "O município tem cerca de 564 km² e a sede fica a 220 m de altitude, na fronteira com Salto del Guairá, no Paraguai, e com Mundo Novo, em Mato Grosso do Sul. A ligação com Mundo Novo é a Ponte Ayrton Senna, com 3.607 m. A rodoviária tem linhas de empresas como Eucatur, Garcia, Ouro e Prata e Unesul, e o aeroporto tem pista de 1.300 m. No transporte urbano, a primeira linha liga o Centro à Vila Eletrosul, e a prefeitura testou rotas para comunidades rurais."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Guaíra, Paraná)",
+    "url": "https://pt.wikipedia.org/wiki/Gua%C3%ADra_(Paran%C3%A1)"
+   },
+   {
+    "nome": "IBGE Cidades (Guaíra)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/pr/guaira.html"
+   },
+   {
+    "nome": "IBGE, API de agregados (Censo 2022 e estimativas de população)",
+    "url": "https://servicodados.ibge.gov.br/api/docs/agregados?versao=3"
+   },
+   {
+    "nome": "Prefeitura de Guaíra, rotas experimentais de transporte coletivo",
+    "url": "https://www.guaira.pr.gov.br/noticias/noticia/5315"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Guaíra não entra na pesquisa da cesta básica do DIEESE. A referência paranaense é Curitiba, onde a cesta custou R$ 866,93 em outubro de 2026, alta de 13,80% em 12 meses. Não encontramos levantamento recente e datado do preço médio da gasolina na cidade; consulte o painel semanal da ANP antes da mudança."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Guaíra é de rio: passeios de barco, pesca e praias de água clara no trecho do rio Paraná acima de Itaipu. Na cidade, prédios da época da Matte Larangeira contam a história local.",
+  "lugares": [
+   {
+    "nome": "Museu Sete Quedas",
+    "km": "na cidade",
+    "desc": "Acervo com animais da região, arte indígena e objetos da passagem de espanhóis e portugueses. Bom ponto de partida para entender a história das antigas Sete Quedas."
+   },
+   {
+    "nome": "Cine Teatro Sete Quedas",
+    "km": "na cidade",
+    "desc": "Prédio de 1905 da Companhia Matte Larangeira, onde se tratava a folha da erva-mate. Hoje é um espaço cultural moderno e equipado."
+   },
+   {
+    "nome": "Locomotiva nº 4 e Igreja de Pedra",
+    "km": "na cidade",
+    "desc": "A locomotiva da Matte Larangeira lembra a primeira ferrovia do oeste paranaense. A capela Nuestro Señor del Perdón foi feita com pedras das Sete Quedas e tem vitrais argentinos."
+   },
+   {
+    "nome": "Centro Náutico Marinas e Cruzeiro das Américas",
+    "km": "na cidade",
+    "desc": "Área de lazer à beira do rio, com base náutica e pavilhões de eventos, onde acontece a Festa das Nações, em abril. O Cruzeiro, de 1556, é tido como uma das marcas mais antigas da presença espanhola na região."
+   },
+   {
+    "nome": "Lagoa Saraiva e Ilha São Francisco",
+    "km": "de barco",
+    "desc": "Os passeios fluviais param na Lagoa Saraiva, de águas quentes e transparentes, e na Ilha São Francisco, com trilhas ecológicas. A região também é procurada para pesca amadora."
+   },
+   {
+    "nome": "Parque Nacional de Ilha Grande",
+    "km": "de barco",
+    "desc": "Arquipélago de cerca de 100 km no rio Paraná, com sede administrativa em Guaíra. A navegação silenciosa pelos canais entre as ilhas é a principal experiência; confira com o ICMBio as condições de visita."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Guaíra, Paraná)",
+    "url": "https://pt.wikipedia.org/wiki/Gua%C3%ADra_(Paran%C3%A1)"
+   },
+   {
+    "nome": "Agência Estadual de Notícias, ilhas, trilhas e praias do rio Paraná",
+    "url": "https://www.parana.pr.gov.br/Noticia/Ilhas-trilhas-e-praias-cristalinas-formam-belezas-do-Rio-Parana"
+   },
+   {
+    "nome": "Catraca Livre, Parque Nacional de Ilha Grande",
+    "url": "https://catracalivre.com.br/noticias/ilhas-canais-e-florestas-alagadas-formam-um-labirinto-natural-no-parque-nacional-localizado-entre-parana-e-mato-grosso-do-sul/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Prepare-se para o calor: a cidade fica a 220 m de altitude e já registrou 41,6 °C em novembro de 1985. No inverno pode gear, com mínima recorde de −5,3 °C em 1963.",
+  "Antes de fazer compras em Salto del Guairá, confira no site da Receita Federal a cota de isenção vigente para entrada por via terrestre e as regras para trazer mercadorias.",
+  "Guarde datas do calendário local: a Festa das Nações acontece em abril, e o Festival Internacional do Pintado na Telha, prato típico da cidade, em novembro, junto do aniversário do município.",
+  "Para conhecer as ilhas, informe-se com o ICMBio, que tem a sede do Parque Nacional de Ilha Grande em Guaíra, sobre as regras e as condições de visita."
+ ]
+}
