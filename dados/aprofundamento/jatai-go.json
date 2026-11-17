@@ -1,0 +1,56 @@
+{
+ "slug": "jatai-go",
+ "lede": "Maior produtora de grãos e de leite de Goiás, Jataí é a capital agrícola do sudoeste goiano, com universidade federal própria, distrito agroindustrial e uma catedral em forma de favo de mel.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu às margens do Ribeirão Jataí, nome tupi de uma abelha sem ferrão. Em 1864 a Capela do Divino Espírito Santo do Paraíso virou freguesia, e em 1882 foi lançada a pedra fundamental do município de Paraíso, que passou a se chamar Jataí em 1885. A sede foi elevada a cidade em 1895, e entre os fundadores da vila estão José Carvalho Bastos e José Manuel Vilela. O Censo 2022 contou 105.729 moradores, e a estimativa mais recente do IBGE é de 111.634.",
+   "Jataí é a maior produtora de milho, soja, sorgo e leite de Goiás e teve o sexto maior PIB do estado em 2021, R$ 5,32 bilhões. No Distrito Agroindustrial, na saída para Rio Verde pela BR-060, estão empresas como Louis Dreyfus, Comigo, Cargill, BRF, Nestlé e Raízen, dona de uma grande usina de etanol no município. No ensino superior, a Universidade Federal de Jataí (UFJ) foi criada em 2018, por desmembramento da UFG, e tem os campi Riachuelo e Jatobá, com curso de Medicina. A cidade tem ainda campus do IFG, unidade da UEG e faculdades particulares.",
+   "A área urbana tem 79 bairros e cerca de 27,6 mil domicílios. Jataí é cortada pelas rodovias federais BR-060, BR-364 e BR-158, e o aeroporto tem pista homologada de 1.500 metros. O município fica no planalto, entre 700 e 1.100 metros de altitude, banhado pelo rio Claro e outros rios. Para compras grandes, o Jatahy Shopping tem cerca de 65 lojas."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Jataí, Goiás)", "url": "https://pt.wikipedia.org/wiki/Jata%C3%AD_(Goi%C3%A1s)"},
+   {"nome": "IBGE Cidades (Jataí)", "url": "https://www.ibge.gov.br/cidades-e-estados/go/jatai.html"},
+   {"nome": "Senado Federal, Lei nº 13.635/2018 (criação da UFJ)", "url": "https://legis.senado.leg.br/norma/26376870/publicacao/26377024"},
+   {"nome": "Estratégia Vestibulares (UFJ, cursos e campi)", "url": "https://vestibulares.estrategia.com/portal/enem-e-vestibulares/ufj-sisu-cursos-vagas-como-ingressar-e-muito-mais/"},
+   {"nome": "UFG, histórico do curso de Medicina de Jataí", "url": "https://files.cercomp.ufg.br/weby/up/703/o/historico_do_curso.pdf"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Jataí tem ônibus urbano. Em 4 de agosto de 2025 a prefeitura criou duas linhas que ligam os campi Riachuelo e Jatobá da UFJ e passou a dar gratuidade aos estudantes matriculados no município. Não encontramos fonte com o valor da passagem comum em 2026; confirme na prefeitura.",
+   "Em julho de 2026, a gasolina comum custava em média R$ 6,69 o litro em Goiás, segundo levantamento em 185 postos. O DIEESE não pesquisa a cesta básica em Jataí; como referência, em outubro de 2026 ela custou R$ 836,64 em Goiânia, alta de 3,54% no mês."
+  ],
+  "fontes": [
+   {"nome": "Diário do Transporte (novas linhas e gratuidade estudantil, ago/2025)", "url": "https://diariodotransporte.com.br/2025/08/01/video-jatai-go-amplia-transporte-publico-e-inicia-gratuidade-para-estudantes-do-municipio/"},
+   {"nome": "Jornal Opção (gasolina em Goiás, jul/2026)", "url": "https://www.jornalopcao.com.br/goias/goias-tem-gasolina-comum-abaixo-da-media-nacional-mas-diferenca-entre-postos-chega-a-r-120-846956/"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "Jataí tem parques urbanos com lago, um centro histórico pequeno e a programação ligada ao agronegócio. Para a família, os parques ecológicos são o programa de fim de semana.",
+  "lugares": [
+   {"nome": "Parque Ecológico JK e Memorial JK", "km": "na cidade", "desc": "Um dos principais pontos de lazer, com lago, área verde para caminhada e piquenique e pôr do sol bonito sobre a água. Dentro dele fica o Memorial JK, inaugurado em 2003, de traços modernistas."},
+   {"nome": "Parque Ecológico Diacuí", "km": "na cidade", "desc": "Grande área verde com lago, pedalinho e trilha para caminhada, onde é comum ver pássaros e macacos. Bom para levar as crianças."},
+   {"nome": "Museu Histórico Francisco Honório de Campos", "km": "na cidade", "desc": "Ocupa um sobrado de cerca de 1883, na Rua José Manoel Vilela, 286, e abriu como museu em 1994. Atende das 9h às 11h e das 13h às 17h; confira antes de ir."},
+   {"nome": "Catedral Divino Espírito Santo", "km": "na cidade", "desc": "Símbolo da cidade, foi construída de 1984 a 1993 e, vista do alto, lembra um favo de mel. Por dentro, tem um grande painel de arte sacra de Cláudio Pastro."},
+   {"nome": "Exposição Agropecuária de Jataí", "km": "na cidade", "desc": "Feira anual do agronegócio, que chegou à 50ª edição em 2024, com shows patrocinados pela prefeitura. A data muda a cada ano; acompanhe a divulgação local."},
+   {"nome": "Jatahy Shopping", "km": "na cidade", "desc": "Shopping com cerca de 65 lojas, que recebe mais de 70 mil visitantes por mês."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Jataí, Goiás)", "url": "https://pt.wikipedia.org/wiki/Jata%C3%AD_(Goi%C3%A1s)"},
+   {"nome": "Wikivoyage (Jataí)", "url": "https://pt.wikivoyage.org/wiki/Jata%C3%AD"},
+   {"nome": "ClickBus (guia de Jataí)", "url": "https://todepassagem.clickbus.com.br/guia-de-destinos/jatai-go/"},
+   {"nome": "Tripadvisor (Parque Ecológico Diacuí)", "url": "https://www.tripadvisor.com.br/Attraction_Review-g2343305-d4923073-Reviews-or30-Parque_Ecologico_Diacui-Jatai_State_of_Goias.html"},
+   {"nome": "Conheça Jataí (pontos turísticos)", "url": "https://www.conhecajatai.com.br/pontos-turisticos/"},
+   {"nome": "Mais Goiás (shows da Exposição Agropecuária)", "url": "https://www.maisgoias.com.br/cidades/justica-autoriza-prefeitura-de-jatai-a-gastar-r-480-mil-em-shows-da-exposicao-agropecuaria/"},
+   {"nome": "Folder da 50ª Exposição Agropecuária de Jataí (2024)", "url": "https://www.sgpsistema.com/assets/img/folders/expaja2024a.pdf"},
+   {"nome": "Mais Goiás (piracema em Goiás 2026/2027)", "url": "https://www.maisgoias.com.br/natureza/pesca-sera-proibida-em-rios-de-goias-a-partir-de-1o-de-novembro-veja-o-que-pode-e-o-que-nao-pode/"},
+   {"nome": "Jornal Opção (Cota Zero em Goiás)", "url": "https://www.jornalopcao.com.br/ultimas-noticias/semad-atualiza-regras-da-pesca-em-goias-e-reforca-cota-zero-para-preservar-especies-nativas-840222/"}
+  ]
+ },
+ "antes_de_ir": [
+  "Leve agasalho para o inverno: pela altitude, a mínima pode ficar abaixo de 5 °C, e a estação do Inmet na cidade já registrou −1 °C, em julho de 1988.",
+  "Se alguém da família vai estudar na UFJ, veja em qual campus, Riachuelo ou Jatobá, antes de escolher o bairro. Desde agosto de 2025 há linhas de ônibus entre os dois e gratuidade para estudantes.",
+  "Para pescar nos rios da região, lembre da piracema em Goiás: de 1º de novembro de 2026 a 28 de fevereiro de 2027 (IN Semad nº 17/2026). Fora dela, vale a Cota Zero, que proíbe transportar peixe nativo pela estrada."
+ ]
+}

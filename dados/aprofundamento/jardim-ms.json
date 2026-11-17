@@ -1,0 +1,141 @@
+{
+ "slug": "jardim-ms",
+ "lede": "Fundada em 1946 pelos trabalhadores da estrada que ligou o sudoeste à fronteira, Jardim forma uma só cidade com Guia Lopes da Laguna e fica na porta das águas claras do Rio da Prata.",
+ "cidade": {
+  "paragrafos": [
+   "O nome vem da Fazenda Jardim, ligada à família do guia Lopes, que conduziu as tropas brasileiras na Retirada da Laguna, durante a Guerra do Paraguai. A cidade nasceu com a Comissão de Estradas de Rodagem nº 3 (CER-3), criada em 1945 para abrir a rodovia rumo a Bela Vista e Porto Murtinho. O comandante loteou terras da fazenda e as vendeu aos funcionários, e a entrega dos lotes, em 14 de maio de 1946, é a data de fundação. Jardim virou município em 1953, separado de Bela Vista. A CER-3 foi extinta em 1986 e deu lugar à 4ª Companhia de Engenharia de Combate Mecanizada. O Censo 2022 contou 23.981 moradores, e a estimativa mais recente do IBGE é de 24.499. Somada a Guia Lopes da Laguna, a área urbana passa de 34 mil pessoas.",
+   "A base da economia é a pecuária e a agricultura, mas o comércio responde por cerca de 74% do ICMS do município. Em 2023 o PIB foi de R$ 1,13 bilhão, a soja ocupou 26 mil hectares e o rebanho tinha 168 mil cabeças de gado. O plano municipal feito com o Sebrae aponta três vocações: agronegócio, comércio e serviços e turismo de natureza. Jardim integra o complexo turístico da Serra da Bodoquena, com Bonito, Guia Lopes da Laguna e Bodoquena, e fica no cruzamento das BRs 060 e 267, eixo da Rota Bioceânica. No ensino superior, a UEMS oferece Turismo, Letras e Geografia, e o IFMS tem cursos técnicos integrados, Arquitetura e Urbanismo e licenciatura em Computação.",
+   "A cidade está na Depressão do Miranda, com altitude média de 259 m e relevo plano. O rio Miranda separa Jardim de Guia Lopes da Laguna, e a Ponte Velha, da era Vargas, ainda liga os dois lados. Não há ônibus urbano: o deslocamento é de carro, táxi ou mototáxi. A rodoviária tem linhas para Campo Grande, Aquidauana, Bonito, Dourados e Ponta Porã. O aeroporto local não tem voos regulares. Além da sede, o município tem o distrito de Boqueirão."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Jardim, MS)",
+    "url": "https://pt.wikipedia.org/wiki/Jardim_(Mato_Grosso_do_Sul)"
+   },
+   {
+    "nome": "Sebrae/MS (Plano de Desenvolvimento Municipal de Jardim, 2025)",
+    "url": "https://cidadeempreendedora.ms.sebrae.com.br/wp-content/uploads/2025/11/FOLDER-PDM-Sebrae-Jardim.pdf"
+   },
+   {
+    "nome": "Campo Grande News (Rota Bioceânica e Jardim)",
+    "url": "https://www.campograndenews.com.br/cidades/interior/rota-bioceanica-vai-reestruturar-perfil-turistico-de-jardim"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Sem ônibus urbano, o carro pesa no orçamento. A pesquisa semanal da ANP em Mato Grosso do Sul cobre só cinco cidades, e Jardim não está entre elas. A referência é a média estadual: na semana de 1 a 7 de novembro de 2026, a gasolina comum custou R$ 6,41 o litro no estado.",
+   "Para a comida, a referência é Campo Grande: em outubro de 2026 a cesta básica custou R$ 848,51 na capital, alta de 5,20% sobre setembro, segundo o DIEESE. Os passeios de natureza da região são pagos e vendidos por agências, então reserve uma parte do orçamento de lazer para eles."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Jardim, MS)",
+    "url": "https://pt.wikipedia.org/wiki/Jardim_(Mato_Grosso_do_Sul)"
+   },
+   {
+    "nome": "A Crítica/ANP (combustíveis em MS, nov/2026)",
+    "url": "https://acritica.net/economia/preco-combustiveis-ms-anp-gasolina-campo-grande-corumba-tabela-interativa/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Correio do Estado (cesta em Campo Grande, nov/2026)",
+    "url": "https://correiodoestado.com.br/economia/2026/11/10/cesta-basica-sobe-52-em-campo-grande-e-chega-a-r-84850.html"
+   },
+   {
+    "nome": "Viagens e Caminhos (Jardim)",
+    "url": "https://www.viagensecaminhos.com/jardim-ms/"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Morar em Jardim é ter perto alguns dos passeios mais conhecidos da Serra da Bodoquena. Na cidade, o lazer passa pelo rio Miranda e pelos marcos da Retirada da Laguna.",
+  "lugares": [
+   {
+    "nome": "Buraco das Araras",
+    "km": "~29 km",
+    "desc": "Dolina de cerca de 100 m de profundidade onde vivem araras-vermelhas. A trilha tem cerca de 970 m, duas plataformas de observação e é feita com guia, com reserva por agência."
+   },
+   {
+    "nome": "Recanto Ecológico Rio da Prata",
+    "km": "~37 km",
+    "desc": "Flutuação em grupos de até dez pessoas com guia, a partir da nascente do rio Olho d'Água. Não é preciso saber nadar, só usar máscara e snorkel; as fontes divergem sobre a idade mínima (5 ou 6 anos), então confirme ao reservar."
+   },
+   {
+    "nome": "Lagoa Misteriosa",
+    "km": "~47 km de Bonito",
+    "desc": "Dolina alagada à margem do Rio da Prata, com água a cerca de 24 °C o ano todo. A flutuação é feita com colete e máscara, e há 185 degraus de madeira até a margem. Fecha parte do ano; em 2026 a temporada reabriu em abril."
+   },
+   {
+    "nome": "Jardim Ecopark",
+    "km": "~35 km",
+    "desc": "Antigo Balneário Municipal, às margens do Rio da Prata. Os balneários são mais agradáveis de outubro a março, que também é a época mais chuvosa."
+   },
+   {
+    "nome": "Cemitério dos Heróis",
+    "km": "~6 km",
+    "desc": "Onde foram sepultados o coronel Camisão, o tenente-coronel Juvêncio e o guia Lopes, mortos na Retirada da Laguna. O passeio inclui trincheiras do tempo da guerra."
+   },
+   {
+    "nome": "Ponte Velha e rio Miranda",
+    "km": "na cidade",
+    "desc": "Ponte da década de 1930 sobre o rio Miranda, entre Jardim e Guia Lopes da Laguna. No rio também se pratica boia-cross."
+   },
+   {
+    "nome": "Bonito",
+    "km": "~60 km",
+    "desc": "Centro do ecoturismo da Serra da Bodoquena, com grutas, rios de água clara e cachoeiras. Fica perto o bastante para passeios de um dia."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Campo Grande News (Buraco das Araras)",
+    "url": "https://www.campograndenews.com.br/meio-ambiente/buraco-das-araras-faz-27-anos-no-dia-da-santa-da-devocao-do-pai-do-atrativo"
+   },
+   {
+    "nome": "Melhores Destinos (Buraco das Araras)",
+    "url": "https://guia.melhoresdestinos.com.br/buraco-das-araras-100-1784-l.html"
+   },
+   {
+    "nome": "Viagens e Caminhos (Jardim)",
+    "url": "https://www.viagensecaminhos.com/jardim-ms/"
+   },
+   {
+    "nome": "Viagens e Caminhos (flutuação no Rio da Prata)",
+    "url": "https://www.viagensecaminhos.com/flutuacao-rio-da-prata-bonito-ms/"
+   },
+   {
+    "nome": "Um Viajante (flutuação no Rio da Prata)",
+    "url": "https://www.umviajante.com.br/flutuacao-rio-da-prata-vale-a-pena-valor-e-como-chegar-de-bonito"
+   },
+   {
+    "nome": "Viagens e Caminhos (Lagoa Misteriosa)",
+    "url": "https://www.viagensecaminhos.com/lagoa-misteriosa-bonito-ms/"
+   },
+   {
+    "nome": "Brasilturis (temporada 2026 da Lagoa Misteriosa)",
+    "url": "https://brasilturis.com.br/2026/04/30/lagoa-misteriosa-inicia-temporada-azul-2026-e-retoma-atividades-de-ecoturismo-em-jardim-ms/"
+   },
+   {
+    "nome": "Wikipédia (Jardim, MS)",
+    "url": "https://pt.wikipedia.org/wiki/Jardim_(Mato_Grosso_do_Sul)"
+   },
+   {
+    "nome": "Viagens e Caminhos (o que fazer em Bonito)",
+    "url": "https://www.viagensecaminhos.com/o-que-faze-em-bonito-ms/"
+   },
+   {
+    "nome": "Correio do Estado (Rio da Prata turvo após chuva)",
+    "url": "https://correiodoestado.com.br/cidades/rio-da-prata-amanhece-turvo-e-espanta-turistas-que-esperavam-aguas-cri/341188/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Buraco das Araras, flutuação no Rio da Prata, Lagoa Misteriosa e Jardim Ecopark só são vendidos por agências de Bonito ou Jardim. Reserve antes, principalmente em feriados.",
+  "Depois de chuvas fortes, o Rio da Prata pode ficar turvo. Para flutuar com a água mais clara, prefira os meses secos, de abril a setembro.",
+  "Como não há ônibus urbano, planeje o deslocamento da família: carro, táxi ou mototáxi.",
+  "Para a agenda local, anote a Expo Jardim, em abril, e a Marcha da Retirada da Laguna, que desde 1999 refaz o trajeto da coluna do coronel Camisão entre Bela Vista, Jardim e Nioaque."
+ ]
+}
