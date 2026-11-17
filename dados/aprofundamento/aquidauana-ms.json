@@ -1,0 +1,47 @@
+{
+ "slug": "aquidauana-ms",
+ "lede": "Fundada em 1892 à beira do rio que lhe dá nome, Aquidauana é a Cidade Natureza: forma com Anastácio um núcleo de mais de 70 mil pessoas e abre caminho para o Pantanal e a Serra de Maracaju.",
+ "cidade": {
+  "paragrafos": [
+   "Aquidauana nasceu em 15 de agosto de 1892, quando cerca de 40 fazendeiros e moradores da vila de Miranda se reuniram à margem do rio, a convite do major Theodoro Rondon, para fundar um povoado. O nome vem do guaicuru e significa \"rio estreito\". Virou município em 1906 e cresceu com a chegada dos trilhos da Noroeste do Brasil. Em 1928, foi o primeiro município do antigo Mato Grosso a ter energia elétrica. O Censo 2022 contou 46.803 moradores, e a estimativa mais recente do IBGE é de 48.810, o 9º maior contingente do estado.",
+   "A base da economia é a pecuária, somada a comércio, serviços e turismo. O rebanho bovino passava de 853 mil cabeças em 2023, um dos maiores de Mato Grosso do Sul, e o PIB municipal foi de R$ 1,44 bilhão no mesmo ano. A cidade é acesso terrestre ao Pantanal, que cobre cerca de 75% do território, e conta com pousadas pantaneiras em atividade. No ensino superior, há unidades da UEMS, da UFMS e do IFMS, além da Uniderp e da Unigran.",
+   "O centro tem ruas em tabuleiro de xadrez, exceto a parte histórica, junto ao rio e em volta da Igreja Matriz. A Ponte da Amizade atravessa o rio Aquidauana e liga a cidade a Anastácio. O município é o 4º maior do estado em área e inclui os distritos de Camisão, Piraputanga, Cipolândia e Taunay, além de aldeias terena como Limão Verde, Bananal e Ipegue. Campo Grande fica a cerca de 131 km pela BR-262, e a rodoviária tem linhas para a capital, Corumbá, Miranda, Bonito e Dourados."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Aquidauana)", "url": "https://pt.wikipedia.org/wiki/Aquidauana"},
+   {"nome": "IBGE Cidades (Aquidauana)", "url": "https://www.ibge.gov.br/cidades-e-estados/ms/aquidauana.html"},
+   {"nome": "Prefeitura de Aquidauana (a cidade e o turismo)", "url": "https://aquidauana.ms.gov.br/cidade"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Aquidauana não tem linhas de ônibus urbano: no dia a dia, quem não tem carro usa mototáxi ou táxi. A ANP não pesquisa preços de combustível na cidade. Como referência, a gasolina comum custou em média R$ 6,41 o litro em Mato Grosso do Sul na semana de 1º a 7 de novembro de 2026, numa média que considera Campo Grande, Dourados, Corumbá, Ponta Porã e Três Lagoas.",
+   "Para alimentação, a referência é a cesta básica de Campo Grande, que custou R$ 848,51 em outubro de 2026, alta de 5,2% sobre setembro, segundo o DIEESE."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Aquidauana, transporte urbano)", "url": "https://pt.wikipedia.org/wiki/Aquidauana"},
+   {"nome": "A Crítica/ANP (combustíveis em MS, nov/2026)", "url": "https://acritica.net/economia/preco-combustiveis-ms-anp-gasolina-campo-grande-corumba-tabela-interativa/"},
+   {"nome": "DIEESE (cesta básica, out/2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Aquidauana se divide entre o centro histórico à beira do rio, a serra de Maracaju a poucos quilômetros e o Pantanal, que ocupa a maior parte do município.",
+  "lugares": [
+   {"nome": "Igreja Matriz e centro histórico", "km": "na cidade", "desc": "A Igreja Matriz Imaculada Conceição, de 1930 e inspirada no gótico, é vista já na entrada da cidade. Em volta dela e junto ao rio ficam prédios centenários, bom para um passeio a pé."},
+   {"nome": "Rio Aquidauana", "km": "na cidade", "desc": "O rio que dá nome à cidade é o principal curso d'água do município e é usado para pesca. Respeite a piracema e só entre na água em locais conhecidos."},
+   {"nome": "Estrada Parque de Piraputanga", "km": "~26 km", "desc": "Área de proteção de 42,5 km na MS-450, entre paredões de arenito da Serra de Maracaju e o rio Aquidauana. Boa para passeio de bicicleta, trilhas e observação de aves; há também canoagem, rafting e rapel."},
+   {"nome": "Mirante do Morro do Paxixi", "km": "~18 km", "desc": "No distrito de Camisão, à beira da MS-450, o mirante dá vista ampla do cerrado e é conhecido pelo pôr do sol. Leve água e lanterna se for ficar até escurecer."},
+   {"nome": "Ruínas de Santiago de Xerez", "km": "~12 km", "desc": "Restos da cidadela espanhola fundada em 1579, à margem do rio. Interessante para quem gosta de história; pergunte antes à prefeitura como fazer a visita."},
+   {"nome": "Pousadas pantaneiras", "km": "Pantanal de Aquidauana", "desc": "Seis pousadas seguem em atividade no município, com passeio a cavalo, safári fotográfico, focagem noturna, chalana e comida pantaneira. A região foi cenário do remake da novela Pantanal, de 2022."}
+  ],
+  "fontes": [
+   {"nome": "Prefeitura de Aquidauana (pontos turísticos)", "url": "https://aquidauana.ms.gov.br/cidade"},
+   {"nome": "Wikipédia (Aquidauana)", "url": "https://pt.wikipedia.org/wiki/Aquidauana"}
+  ]
+ },
+ "antes_de_ir": [
+  "Sem ônibus urbano, vale ter carro próprio ou contar com mototáxi e táxi para o dia a dia, inclusive para levar as crianças à escola.",
+  "O aeroporto da cidade não tem voos regulares: para viagens aéreas, a referência é Campo Grande, a cerca de 131 km pela BR-262.",
+  "Se a família gosta de pescar, a piracema 2026/2027 proíbe a pesca no rio Paraguai e nos demais rios de Mato Grosso do Sul de 5 de novembro de 2026 a 28 de fevereiro de 2027. O dourado segue proibido mesmo depois desse período."
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "slug": "nioaque-ms",
+ "lede": "Uma das cidades mais antigas de Mato Grosso do Sul, Nioaque foi ocupada duas vezes na Guerra do Paraguai e guarda na praça central a memória da Retirada da Laguna.",
+ "cidade": {
+  "paragrafos": [
+   "A povoação surgiu em 1847-1848 com a expedição do sertanista Joaquim Francisco Lopes, no encontro dos rios Nioaque e Urumbeva. Na Guerra do Paraguai, foi ocupada em 1865 e atacada e incendiada em 1867, e só voltou a crescer a partir de 1870. Entre 1877 e 1892 se chamou Levergeria, em homenagem a Augusto Leverger. A vila foi criada em 1890, desmembrada de Miranda. O Censo 2022 contou 13.220 moradores, e a estimativa mais recente do IBGE é de 13.298.",
+   "A agropecuária é a base da economia. Em 2023, a soja ocupou mais de 17 mil hectares e rendeu cerca de R$ 114 milhões, e o rebanho bovino era de quase 380 mil cabeças. Pelos dados de 2021, a administração pública respondia por cerca de um quarto do valor gerado no município, à frente dos serviços. O 9º GAC está na cidade desde 1957 e recebeu em 2003 a denominação histórica \"Grupo Major Cantuária\". Para o ensino superior, a vizinha Aquidauana tem unidades da UEMS, da UFMS e do IFMS.",
+   "A cidade é pequena e quase metade da população vive na zona rural: 54,8% moravam na área urbana no Censo 2022. O município tem aldeias indígenas, como a do Brejão, e comunidades quilombolas. Campo Grande fica a cerca de 165 km. A BR-419, principal ligação rodoviária, está sendo pavimentada por lotes pelo Novo PAC, e a MS-347, que leva a Dois Irmãos do Buriti e Anastácio, também está em obras."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Nioaque)",
+    "url": "https://pt.wikipedia.org/wiki/Nioaque"
+   },
+   {
+    "nome": "IBGE (histórico de Nioaque)",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrossodosul/nioaque.pdf"
+   },
+   {
+    "nome": "IBGE Cidades (Nioaque)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ms/nioaque.html"
+   },
+   {
+    "nome": "Wikipédia (Aquidauana, ensino superior)",
+    "url": "https://pt.wikipedia.org/wiki/Aquidauana"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A ANP não pesquisa preços de combustível em Nioaque. Como referência, a gasolina comum custou em média R$ 6,41 o litro em Mato Grosso do Sul na semana de 1º a 7 de novembro de 2026, média que considera Campo Grande, Dourados, Corumbá, Ponta Porã e Três Lagoas. Para alimentação, a cesta básica de Campo Grande custou R$ 848,51 em outubro de 2026, alta de 5,2% sobre setembro, segundo o DIEESE."
+  ],
+  "fontes": [
+   {
+    "nome": "A Crítica/ANP (combustíveis em MS, nov/2026)",
+    "url": "https://acritica.net/economia/preco-combustiveis-ms-anp-gasolina-campo-grande-corumba-tabela-interativa/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Nioaque tem lazer de cidade pequena, ligado à história da Guerra do Paraguai, às festas locais e a um sítio com pegadas de dinossauros no rio.",
+  "lugares": [
+   {
+    "nome": "Praça XV de Novembro",
+    "km": "na cidade",
+    "desc": "No centro, reúne um canhão da época da guerra e o Monumento aos Heróis da Retirada da Laguna. Bom começo para contar às crianças a história da cidade."
+   },
+   {
+    "nome": "Monumento a José Porfírio",
+    "km": "na cidade",
+    "desc": "Estátua equestre de José Porfírio, comandante do corpo de caçadores na Retirada da Laguna, que deixou descendentes na região."
+   },
+   {
+    "nome": "Trilha Aquática Pegadas dos Dinossauros",
+    "km": "no município",
+    "desc": "Percorre trechos do rio Nioaque até rochas da Formação Botucatu com pegadas fossilizadas. A visita é organizada, com condutor; combine antes com a prefeitura."
+   },
+   {
+    "nome": "Marcha da Retirada da Laguna",
+    "km": "na cidade e região",
+    "desc": "Desde 1999, civis e militares refazem a pé o trajeto da coluna do coronel Camisão. Algumas edições tiveram encenações na praça, como a explosão de uma réplica de igreja em 2012."
+   },
+   {
+    "nome": "Arraiá de Nioaque",
+    "km": "na cidade",
+    "desc": "Festa junina anual com shows, cuja arrecadação vai para fins beneficentes. Programa para toda a família."
+   },
+   {
+    "nome": "Aniversário e emancipação",
+    "km": "na cidade",
+    "desc": "A cidade festeja a fundação em 8 de abril e a emancipação em 18 de julho, com atividades esportivas e culturais e serviços à comunidade."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Nioaque, cultura)",
+    "url": "https://pt.wikipedia.org/wiki/Nioaque"
+   },
+   {
+    "nome": "Campo Grande News (150 anos da Retirada da Laguna)",
+    "url": "https://www.campograndenews.com.br/cidades/interior/entre-fracasso-e-heroismo-evento-historico-de-ms-completa-150-anos"
+   },
+   {
+    "nome": "A Crítica (pegadas de dinossauros em Nioaque)",
+    "url": "https://acritica.net/economia/nioaque-pegadas-dinossauros-turismo-economia/"
+   },
+   {
+    "nome": "Correio do Estado (encenação na praça, 2012)",
+    "url": "https://correiodoestado.com.br/cidades/nioaque-explode-replica-de-igreja-para-reviver-cenario-da-guerra/163765/"
+   },
+   {
+    "nome": "Mercado & Eventos (turismo de base comunitária em Nioaque)",
+    "url": "https://www.mercadoeeventos.com.br/?p=606866"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O Território Indígena de Nioaque prepara um projeto de turismo de base comunitária com a Fundtur-MS, o Sebrae e a prefeitura, com plano de visitação levado à Funai. Visite as aldeias só por esses canais, com autorização da comunidade e da Funai.",
+  "O hospital local é de pequeno porte, com dez leitos desde 2025; casos mais complexos vão para Jardim, Aquidauana ou Campo Grande. Deixe cadastro e documentos de saúde da família em dia.",
+  "A BR-419 e a MS-347 estão em obras de pavimentação: antes de viajar, confira o trecho, sobretudo em dias de chuva."
+ ]
+}

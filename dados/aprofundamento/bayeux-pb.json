@@ -1,0 +1,140 @@
+{
+ "slug": "bayeux-pb",
+ "lede": "Vizinha de João Pessoa e sede do aeroporto da capital, Bayeux ganhou em 1944 o nome da cidade francesa libertada na Segunda Guerra e é conhecida como terra do caranguejo.",
+ "cidade": {
+  "paragrafos": [
+   "O povoado nasceu entre Filipeia, a atual João Pessoa, e Santa Rita, e teve os nomes de Rua do Baralho, Boa Vista e, a partir de 1634, Barreiros, por causa de um engenho. Em 21 de junho de 1944, um decreto-lei estadual sugerido por Assis Chateaubriand mudou o nome para Bayeux, em homenagem à cidade francesa libertada pelos Aliados. A principal avenida, a Liberdade, lembra o mesmo fato. Bayeux deixou de pertencer a Santa Rita em 1959. O Censo 2022 contou 82.742 moradores, e a estimativa mais recente do IBGE passa de 83,8 mil.",
+   "A economia é de comércio e serviços: cerca de 90% dos empreendimentos estão nesses setores, e a indústria responde por 5,6%, segundo levantamento do IBPT citado pela Caravela. Entre as atividades características aparecem a fabricação de tênis e o comércio atacadista de alimentos. Estudo da UFPB descreve Bayeux como cidade-dormitório, com muita gente que trabalha em João Pessoa. A criação de moluscos e a pesca artesanal no estuário do rio Paraíba complementam a renda de parte dos moradores, e a cidade tem a maior produção de caranguejo do estado.",
+   "O município é pequeno, com 27,7 km², e tem 14 bairros, entre eles Centro, Jardim Aeroporto, Mário Andreazza, Sesi e Alto da Boa Vista. Cerca de 60% do território é de manguezal e restos de Mata Atlântica, como a Mata do Xem-Xém. O Aeroporto Internacional Presidente Castro Pinto fica em Bayeux, a cerca de 11 km do centro de João Pessoa. A ligação com a capital é pela Avenida Liberdade e pela BR-230, além do trem urbano da CBTU, que ganhou nova estação em Bayeux em dezembro de 2025."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Bayeux, PB)",
+    "url": "https://pt.wikipedia.org/wiki/Bayeux_(Para%C3%ADba)"
+   },
+   {
+    "nome": "IBGE Cidades (Bayeux)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/pb/bayeux.html"
+   },
+   {
+    "nome": "Caravela (perfil econômico de Bayeux)",
+    "url": "https://www.caravela.info/regional/bayeux---pb"
+   },
+   {
+    "nome": "Repositório UFPB (Bayeux e a migração pendular)",
+    "url": "https://repositorio.ufpb.br/jspui/bitstream/123456789/658/1/GSF06082014.pdf"
+   },
+   {
+    "nome": "A União (Bayeux, a cidade cortada pelas águas)",
+    "url": "https://auniao.pb.gov.br/noticias/caderno_paraiba/bayeux-a-cidade-cortada-pelas-aguas"
+   },
+   {
+    "nome": "Jornal da Paraíba (aeroporto a 11 km do centro)",
+    "url": "https://jornaldaparaiba.com.br/_/20514"
+   },
+   {
+    "nome": "A União (nova estação da CBTU em Bayeux, dez/2025)",
+    "url": "https://auniao.pb.gov.br/noticias/caderno_paraiba/nova-estacao-ferroviaria-da-cbtu-e-inaugurada-hoje-em-bayeux"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O ônibus metropolitano João Pessoa–Bayeux custa R$ 5,40 desde 1º de janeiro de 2026, pela Resolução CE nº 25/2025 do DER-PB, que autorizou reajuste médio de 3,8%. Quem usa duas passagens por dia útil gasta perto de R$ 238 por mês. O trem da CBTU cobra tarifa única de R$ 2,50, valor informado em dezembro de 2025.",
+   "Na coleta da ANP de 5 de outubro de 2026, a gasolina comum saiu em média a R$ 6,29 o litro em Bayeux, em 9 postos. Bayeux não entra na pesquisa da cesta básica do DIEESE. A referência é João Pessoa, onde a cesta custou R$ 696,24 em outubro de 2026."
+  ],
+  "fontes": [
+   {
+    "nome": "Normas Brasil, Resolução CE nº 25/2025 (DER-PB)",
+    "url": "https://www.normasbrasil.com.br/norma/resolucao-25-2025-pb_489083.html"
+   },
+   {
+    "nome": "A União (CBTU, tarifa e nova estação, dez/2025)",
+    "url": "https://auniao.pb.gov.br/noticias/caderno_paraiba/nova-estacao-ferroviaria-da-cbtu-e-inaugurada-hoje-em-bayeux"
+   },
+   {
+    "nome": "Atlas Público, preços ANP em Bayeux",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/pb/bayeux"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Em Bayeux, o destaque são as festas ligadas ao caranguejo e aos santos padroeiros. Os passeios de família ficam quase todos em João Pessoa e Cabedelo, a 10 a 20 km.",
+  "lugares": [
+   {
+    "nome": "Caranga Fest (Festival do Caranguejo)",
+    "km": "na cidade",
+    "desc": "Festa criada em 1997, aberta por uma carreata com cerca de 200 Fuscas em 29 de agosto. Serve pratos de caranguejo como ensopado, caranguejo ao coco, casquinha e pirão."
+   },
+   {
+    "nome": "Festas religiosas e juninas",
+    "km": "na cidade",
+    "desc": "O padroeiro São Sebastião é festejado em 20 de janeiro. A cidade também tem quadrilhas juninas, corrida de canoas e as festas de São Pedro, São Bento e Nossa Senhora da Conceição."
+   },
+   {
+    "nome": "Parque Zoobotânico Arruda Câmara (Bica)",
+    "km": "~10 km",
+    "desc": "Parque com zoológico na Avenida Gouveia Nóbrega, no bairro Roger, em João Pessoa. A entrada custava R$ 3 em 2024, e há programação gratuita para crianças nas férias e na Semana da Criança."
+   },
+   {
+    "nome": "Centro Cultural São Francisco",
+    "km": "~10 km",
+    "desc": "Conjunto barroco no Centro Histórico de João Pessoa. Abre de terça a sábado, das 9h às 15h30, e aos domingos até 14h30, com visitas guiadas em horários fixos; há obras de restauro em 2026, então confira o acesso."
+   },
+   {
+    "nome": "Estação Cabo Branco",
+    "km": "~20 km",
+    "desc": "Centro de ciência, cultura e artes projetado por Oscar Niemeyer, no Altiplano. Tem exposições com entrada gratuita de terça a domingo e mirante sobre a cidade e o mar."
+   },
+   {
+    "nome": "Pôr do sol da Praia do Jacaré",
+    "km": "~20 km",
+    "desc": "Em Cabedelo, onde o rio Paraíba encontra o mar, o saxofonista Jurandy do Sax toca o Bolero de Ravel no fim da tarde. Hoje a apresentação é feita nos barcos de passeio, que custavam R$ 90 por pessoa em janeiro de 2026."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Bayeux, PB)",
+    "url": "https://pt.wikipedia.org/wiki/Bayeux_(Para%C3%ADba)"
+   },
+   {
+    "nome": "Paraíba Business (Parque Arruda Câmara)",
+    "url": "https://paraibabusiness.com.br/parque-zoobotanico-funciona-normalmente-no-feriado-e-durante-o-periodo-junino-em-joao-pessoa/"
+   },
+   {
+    "nome": "Paraíba Business (Semana da Criança na Bica)",
+    "url": "https://paraibabusiness.com.br/bica-realiza-semana-da-crianca-com-programacao-gratuita-de-oficinas-exposicoes-e-gincanas-ate-domingo/"
+   },
+   {
+    "nome": "A União (monumentos religiosos e horários do Centro Cultural São Francisco)",
+    "url": "https://auniao.pb.gov.br/noticias/caderno_diversidade/monumentos-religiosos-sao-opcoes"
+   },
+   {
+    "nome": "A União (restauro do Centro Cultural São Francisco)",
+    "url": "https://auniao.pb.gov.br/noticias/caderno_paraiba/restauro-do-centro-cultural-avanca"
+   },
+   {
+    "nome": "Portal Tela (Estação Cabo Branco, jun/2026)",
+    "url": "https://www.portaltela.com/noticias/ciencia/2026/06/24/estacao-cabo-branco-exibe-20-obras-com-visitacao-gratuita-em-joao-pessoa/"
+   },
+   {
+    "nome": "Diário do Turismo (Jurandy do Sax e o pôr do sol do Jacaré)",
+    "url": "https://diariodoturismo.com.br/como-o-por-do-sol-da-praia-do-jacare-pb-mudou-a-vida-de-jurandy-felix/"
+   },
+   {
+    "nome": "Esse Mundo é Nosso (passeio de barco no Jacaré)",
+    "url": "https://www.essemundoenosso.com.br/por-do-sol-do-jacare"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se puder escolher, faça a mudança entre setembro e fevereiro. Pelo Atlas Pluviométrico da Paraíba, junho tem cerca de 259 mm de chuva em Bayeux, contra 21 mm em novembro.",
+  "Para ir a João Pessoa sem carro, compare o trem da CBTU (R$ 2,50) com o ônibus metropolitano (R$ 5,40). A CBTU anunciou mais uma estação em Bayeux para 2026; confira a grade de horários antes de escolher o bairro.",
+  "Ao procurar imóvel, veja em qual dos 14 bairros ele fica e a distância até a Avenida Liberdade e a BR-230, que concentram a ligação com a capital.",
+  "Quem recebe visitas de fora ganha praticidade: o aeroporto de João Pessoa fica no próprio município, a cerca de 11 km do centro da capital."
+ ]
+}

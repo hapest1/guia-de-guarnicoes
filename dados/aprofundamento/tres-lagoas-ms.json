@@ -1,0 +1,110 @@
+{
+ "slug": "tres-lagoas-ms",
+ "lede": "Nascida do acampamento dos engenheiros da Noroeste do Brasil à beira da Lagoa Maior, Três Lagoas virou a capital da celulose e é a porta de MS para o interior paulista.",
+ "cidade": {
+  "paragrafos": [
+   "A colonização começou na década de 1880, com fazendeiros como Antônio Trajano dos Santos, dono da Fazenda das Alagoas. Em 1909, os engenheiros da Estrada de Ferro Noroeste do Brasil acamparam à beira da Lagoa Maior, e a vila cresceu em volta dos trilhos. O município foi criado em 1915 e recebeu foros de cidade em 1920. O nome vem das três lagoas da área central. O Censo 2022 contou 132.152 moradores, e a estimativa mais recente do IBGE é de 145.514.",
+   "A cidade é o centro do chamado Vale da Celulose. A Suzano tem duas fábricas em Três Lagoas e a Eldorado Brasil tem lá sua única unidade. Também estão no município a termelétrica da Petrobras, a International Paper, a Cargill e a Metalfrio, entre outras. O PIB chegou a R$ 14,8 bilhões em 2023, com PIB per capita de R$ 111,7 mil. No ensino superior, há campus da UFMS e do IFMS, além da AEMS, da Unopar e da Uniderp.",
+   "A Lagoa Maior fica perto do centro e é a principal referência da cidade. A malha tem dezenas de bairros, como Centro, Santos Dumont, Interlagos, Jardim Alvorada e Vila Nova. A leste, o distrito de Jupiá fica à beira do rio Paraná, onde a Ponte Francisco de Sá, de 1926 e 1.024 metros, liga o estado a Castilho (SP). Campo Grande fica a cerca de 320 km pela BR-262."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Três Lagoas)",
+    "url": "https://pt.wikipedia.org/wiki/Tr%C3%AAs_Lagoas"
+   },
+   {
+    "nome": "IBGE Cidades (Três Lagoas)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ms/tres-lagoas.html"
+   },
+   {
+    "nome": "Correio do Estado (fábricas de celulose em MS)",
+    "url": "https://correiodoestado.com.br/economia/com-mais-uma-fabrica-de-celulose-ms-estima-100-mil-vagas-no-setor/439584/"
+   },
+   {
+    "nome": "Semadesc-MS (setor florestal)",
+    "url": "https://www.semadesc.ms.gov.br/maior-exportador-de-celulose-do-pais-ms-ve-setor-florestal-impulsionar-economia-verde-no-estado"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Desde janeiro de 2026, a passagem do ônibus urbano pode ser paga por aproximação com cartão de crédito ou débito (Visa, Mastercard e Elo) ou com o celular, direto no validador. Antes, só valia o cartão da empresa ou dinheiro.",
+   "Na pesquisa da ANP de 4 a 10 de outubro de 2026, a gasolina comum em Três Lagoas teve média de R$ 6,46 o litro, com preços de R$ 6,34 a R$ 6,79. Como referência de alimentação, a cesta básica de Campo Grande custou R$ 848,51 em outubro de 2026, alta de 5,2% sobre setembro, segundo o DIEESE."
+  ],
+  "fontes": [
+   {
+    "nome": "Prefeitura de Três Lagoas (pagamento com cartão, jan/2026)",
+    "url": "https://www.treslagoas.ms.gov.br/transporte-publico-de-tres-lagoas-passa-a-ter-pagamento-em-cartao-de-credito-e-debito/"
+   },
+   {
+    "nome": "Diário do Transporte (jan/2026)",
+    "url": "https://diariodotransporte.com.br/2026/01/16/transporte-coletivo-de-tres-lagoas-ms-passa-a-aceitar-pagamento-por-cartao-de-credito-e-debito/"
+   },
+   {
+    "nome": "A Crítica (gasolina em MS, out/2026)",
+    "url": "https://acritica.net/economia/gasolina-ms-precos-pesquisa-anp-outubro/"
+   },
+   {
+    "nome": "Correio do Estado (gasolina por cidade, out/2026)",
+    "url": "https://correiodoestado.com.br/economia/gasolina-chega-a-r-706-e-diferenca-entre-cidades-de-ms-e-de-r-078/474507/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer de Três Lagoas vai da Lagoa Maior, no centro, às praias de rio do Paraná e do Sucuriú. O centro histórico guarda marcas da ferrovia.",
+  "lugares": [
+   {
+    "nome": "Lagoa Maior",
+    "km": "na cidade",
+    "desc": "Cartão-postal de cerca de 418 mil m², com pista de caminhada, parque infantil, quadras, academia ao ar livre e pista de skate. Bom programa de fim de tarde com crianças."
+   },
+   {
+    "nome": "Prainha do Jupiá",
+    "km": "na cidade",
+    "desc": "À beira do rio Paraná, no Jupiá, foi revitalizada e tem restaurantes, área de descanso e um pequeno banco de areia. Há passeios de barco e restaurantes que preparam peixe na hora."
+   },
+   {
+    "nome": "Balneário Municipal do Sucuriú",
+    "km": "no município",
+    "desc": "Às margens do rio Sucuriú, de praias de areia branca, tem playground, quiosques e área de banho. Ranchos da região também recebem jet ski."
+   },
+   {
+    "nome": "Ponte Francisco de Sá",
+    "km": "na divisa com SP",
+    "desc": "Ponte ferroviária de 1926, com 1.024 metros sobre o rio Paraná, ligando MS a São Paulo. Fica perto da Usina de Jupiá, outro ponto de visita."
+   },
+   {
+    "nome": "Igreja de Santo Antônio e centro histórico",
+    "km": "na cidade",
+    "desc": "A igreja é de 1914; perto ficam o Relógio Central, de 1936, o Obelisco e a antiga estação da Noroeste. Dá para fazer o roteiro a pé."
+   },
+   {
+    "nome": "Catedral do Sagrado Coração de Jesus",
+    "km": "na cidade",
+    "desc": "Principal templo católico da cidade, no centro, citado entre os pontos turísticos do município."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Três Lagoas)",
+    "url": "https://pt.wikipedia.org/wiki/Tr%C3%AAs_Lagoas"
+   },
+   {
+    "nome": "Campo Grande News (8 lugares em Três Lagoas)",
+    "url": "https://www.campograndenews.com.br/turismo/listamos-8-lugares-para-voce-decidir-sobre-o-que-fazer-em-tres-lagoas"
+   },
+   {
+    "nome": "Viajante Sem Fim (o que fazer em Três Lagoas)",
+    "url": "https://viajantesemfim.com.br/o-que-fazer-em-tres-lagoas-ms-10-atracoes-na-capital-nacional-da-celulose/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se a família gosta de pescar, a piracema no rio Paraná (calha) vai de 1º de novembro de 2026 a 28 de fevereiro de 2027; nos demais rios de MS, começa em 5 de novembro. A pesca do dourado segue proibida mesmo depois.",
+  "No ônibus urbano dá para pagar a passagem com cartão de crédito ou débito por aproximação, sem precisar fazer o cartão da empresa logo na chegada."
+ ]
+}

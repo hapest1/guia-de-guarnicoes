@@ -1,0 +1,121 @@
+{
+ "slug": "rondonopolis-mt",
+ "lede": "Fundada às margens do rio Vermelho e batizada em homenagem a Rondon, Rondonópolis é o maior polo de esmagamento de soja do país e um dos grandes entroncamentos logísticos de Mato Grosso.",
+ "cidade": {
+  "paragrafos": [
+   "Famílias vindas de Goiás se instalaram no Vale do Rio Vermelho, e em 10 de agosto de 1915 o governo de Mato Grosso reservou 2.000 hectares para a povoação, que tinha cerca de 70 famílias. Em 1918, Otávio Pitaluga trocou o nome para Rondonópolis, em homenagem a Cândido Rondon e às linhas telegráficas de 1907 a 1909. O município se emancipou de Poxoréu em 10 de dezembro de 1953. O Censo 2022 contou 244.911 moradores, e a estimativa mais recente do IBGE é de 268.202.",
+   "A cidade é o maior polo de esmagamento, refino e envase de óleo de soja do Brasil e o maior polo misturador de fertilizantes do interior. Bunge, ADM, Cervejaria Petrópolis, TBM Têxtil e Nortox estão entre as indústrias instaladas, e o Terminal Intermodal, nos trilhos da antiga Ferronorte, escoa grãos por trem. O PIB foi de R$ 17,3 bilhões em 2023. No ensino superior, há a Universidade Federal de Rondonópolis (com Medicina, Engenharias e Zootecnia), o IFMT, a Unemat e faculdades particulares.",
+   "O rio Vermelho, chamado Poguba pelos Bororo, corta a cidade; nas margens ficam o Cais e o Casario, berço do povoado, e a Rodovia do Peixe. A cidade está no entroncamento das BR-163 e BR-364 com as MT-130 e MT-270, a 210 km de Cuiabá. Em outubro de 2026, a concessionária Nova Rota do Oeste previa concluir até o fim do ano cerca de 335 km de duplicação da BR-163 em Mato Grosso."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Rondonópolis)",
+    "url": "https://pt.wikipedia.org/wiki/Rondon%C3%B3polis"
+   },
+   {
+    "nome": "IBGE Cidades (Rondonópolis)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/mt/rondonopolis.html"
+   },
+   {
+    "nome": "Agência iNFRA (duplicação da BR-163/MT, out/2026)",
+    "url": "https://agenciainfra.com/blog/nova-rota-do-oeste-antecipara-em-quatro-anos-duplicacao-de-rodovia/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A passagem do ônibus urbano caiu de R$ 3,00 para R$ 2,00 em maio de 2026, pelo Decreto nº 13.359, de 4 de maio de 2026. Em 2024 a tarifa era de R$ 4,10, e a prefeitura mantém a meta de chegar a R$ 1,00. A redução veio junto com um novo terminal de integração.",
+   "Em 17 de setembro de 2026, a gasolina comum em Rondonópolis custava em média R$ 6,55 o litro, em 25 postos pesquisados pela ANP. Como referência de alimentação, a cesta básica de Cuiabá custou R$ 924,82 em outubro de 2026, alta de 3,77% sobre setembro, segundo o DIEESE."
+  ],
+  "fontes": [
+   {
+    "nome": "Prefeitura de Rondonópolis (tarifa de R$ 2, mai/2026)",
+    "url": "https://www.rondonopolis.mt.gov.br/gcom/noticias/municipio-de-rondonopolis-reduz-tarifa-de-onibus-para-r-2/"
+   },
+   {
+    "nome": "Diário do Transporte (mai/2026)",
+    "url": "https://diariodotransporte.com.br/2026/05/09/rondonopolis-mt-reduz-tarifa-de-onibus-para-r-2-e-prefeitura-mantem-meta-de-passagem-a-r-1/"
+   },
+   {
+    "nome": "Atlas Público/ANP (gasolina em Rondonópolis, set/2026)",
+    "url": "https://atlaspublico.com.br/infograficos/precos-do-combustivel/mt/rondonopolis"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Em Rondonópolis o lazer acompanha o rio Vermelho e os parques urbanos. Nos arredores há cachoeiras, grutas e pinturas rupestres, e em agosto a Exposul movimenta a cidade.",
+  "lugares": [
+   {
+    "nome": "Cais do Rio Vermelho",
+    "km": "na cidade",
+    "desc": "Perto do centro, à beira do rio, é ponto de passeio e contemplação. Guias indicam o fim da tarde para ver o pôr do sol."
+   },
+   {
+    "nome": "Horto Florestal",
+    "km": "na cidade",
+    "desc": "Parque urbano com pistas de caminhada, parquinhos infantis, academia ao ar livre, água e banheiros, com entrada gratuita. Melhor de manhã cedo ou no fim da tarde, por causa do calor."
+   },
+   {
+    "nome": "Museu Municipal Rosa Bororo",
+    "km": "na cidade",
+    "desc": "Funciona no prédio da antiga Câmara Municipal, no centro, e conta a história da cidade e de Rondon."
+   },
+   {
+    "nome": "Rodovia do Peixe",
+    "km": "arredores",
+    "desc": "Estrada que margeia o rio Vermelho, com pousadas e restaurantes à beira do rio."
+   },
+   {
+    "nome": "Parque Ecológico João Basso",
+    "km": "arredores",
+    "desc": "Reserva particular (RPPN) com cachoeiras, grutas, inscrições rupestres e trilhas até a Cidade de Pedra. Confirme antes se a visita está aberta e as regras de acesso."
+   },
+   {
+    "nome": "Rio Ponte de Pedra",
+    "km": "arredores",
+    "desc": "Local procurado para esportes radicais, como rapel. Vá com guia ou agência."
+   },
+   {
+    "nome": "Exposul",
+    "km": "na cidade",
+    "desc": "Exposição agropecuária oficial da cidade, em agosto, com shows, rodeios e palestras. A 52ª edição foi de 3 a 9 de agosto de 2026, no Parque de Exposições Vilmar Peres de Farias."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Rondonópolis)",
+    "url": "https://pt.wikipedia.org/wiki/Rondon%C3%B3polis"
+   },
+   {
+    "nome": "Primeira Hora (13 locais para visitar)",
+    "url": "https://primeirahora.com.br/de-museu-a-cachoeira-13-locais-para-visitar-em-rondonopolis/"
+   },
+   {
+    "nome": "Visite o Mundo (Rondonópolis)",
+    "url": "https://visiteomundo.com/passagens/america-do-sul/brasil/mato-grosso/rondonopolis-mt-roo/"
+   },
+   {
+    "nome": "Gazeta Digital (passeios em Rondonópolis)",
+    "url": "https://www.gazetadigital.com.br/suplementos/passeios-e-viagens/rondonopolis-reserva-boas-surpresas/129088"
+   },
+   {
+    "nome": "Diário do Transporte (Exposul 2026)",
+    "url": "https://diariodotransporte.com.br/2026/08/01/exposul-em-rondonopolis-mt-tera-acesso-exclusivo-para-onibus-taxis-e-carros-por-aplicativo-durante-chegada-ao-evento/"
+   },
+   {
+    "nome": "CNA Brasil (Exposul)",
+    "url": "https://cnabrasil.org.br/noticias/abertura-da-51a-exposul-reune-sistema-famato-e-liderancas-do-agronegocio-mato-grossense"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se a família gosta de pescar, a piracema em Mato Grosso vai de 1º de outubro de 2026 a 31 de janeiro de 2027, com regras diferentes das de MS.",
+  "A Cidade de Pedra está fechada à visitação desde 2005, e o Parque João Basso já restringiu o acesso de novembro a março, na época das chuvas. Ligue antes de planejar o passeio.",
+  "Na Exposul de agosto, a cidade monta um plano de trânsito especial; em 2026 houve acesso exclusivo para ônibus, táxis e carros de aplicativo. Se for, prefira esses meios.",
+  "Para ir a Cuiabá pela BR-163/364, considere os trechos em obra de duplicação e a descida da Serra de São Vicente; viaje de dia e com calma."
+ ]
+}

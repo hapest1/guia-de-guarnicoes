@@ -1,0 +1,119 @@
+{
+ "slug": "coxim-ms",
+ "lede": "Nascida em 1729 como pouso das monções que subiam o rio Taquari rumo a Cuiabá, Coxim é a \"Capital Nacional do Peixe\" e o principal polo do norte de Mato Grosso do Sul.",
+ "cidade": {
+  "paragrafos": [
+   "A ocupação começou em 1729 com o Arraial do Biliago, na margem esquerda do rio Taquari, criado para socorrer as monções que iam de São Paulo a Cuiabá. Em 1872 surgiu o distrito de São José de Herculânea, e em 11 de abril de 1898 o lugar virou município, desmembrado de Corumbá. O nome vem do bororo e quer dizer \"peixe\". O Censo 2022 contou 32.151 moradores, e a estimativa mais recente do IBGE é de 33.488.",
+   "A agropecuária é a base da economia. Em 2023 o município tinha 13.295 hectares de soja, 10.498 de milho e um rebanho de 532.107 cabeças de gado. O turismo de pesca e o ecoturismo sustentam hotéis, pousadas, restaurantes e ranchos pesqueiros. O PIB foi de R$ 1,4 bilhão em 2023, o 19º do estado. Coxim é polo de ensino da região, com campus da UFMS (História, Letras, Sistemas de Informação e Enfermagem), da UEMS e do IFMS.",
+   "A cidade fica no encontro dos rios Coxim e Taquari, na borda norte da Bacia do Alto Paraguai. Cerca de um terço do município, uns 2.132 km², está na planície pantaneira do Paiaguás. Além da sede, há os distritos de Taquari (4 km), Silviolândia (5 km), São Romão (12 km) e Jauru (60 km). Campo Grande fica a 257 km pela BR-163, rodovia concedida à Motiva Pantanal, que passa pela cidade."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Coxim)",
+    "url": "https://pt.wikipedia.org/wiki/Coxim_(Mato_Grosso_do_Sul)"
+   },
+   {
+    "nome": "IBGE Cidades (Coxim)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ms/coxim.html"
+   },
+   {
+    "nome": "Motiva Pantanal (obras na BR-163/MS, jul/2026)",
+    "url": "https://rodovias.motiva.com.br/pantanal/noticias/2026/julho/estamos-em-obras--com-novo-ciclo-de-modernizacao--br-163-ms-ampl/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Como referência de alimentação, a cesta básica de Campo Grande custou R$ 848,51 em outubro de 2026, alta de 5,2% sobre setembro, segundo o DIEESE.",
+   "Quem viaja com frequência a Campo Grande paga pedágio na BR-163. Desde 5 de agosto de 2026, as nove praças da rodovia em MS têm tarifas reajustadas em cerca de 40%. Motos são isentas, e quem usa TAG pode ter descontos progressivos que chegam a 93% para uso frequente."
+  ],
+  "fontes": [
+   {
+    "nome": "Correio do Estado (gasolina por cidade, ago/2026)",
+    "url": "https://correiodoestado.com.br/economia/preco-da-gasolina-varia-ate-r-083-entre-cidades-de-mato-grosso-do/472293/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Motiva Pantanal (reajuste do pedágio, ago/2026)",
+    "url": "https://rodovias.motiva.com.br/pantanal/noticias/2026/agosto/reajuste-tarifas-pedagio-motiva-pantanal-2026/"
+   },
+   {
+    "nome": "Motiva Pantanal (descontos com TAG, ago/2026)",
+    "url": "https://rodovias.motiva.com.br/pantanal/noticias/2026/agosto/motoristas-podem-receber-descontos-progressivos-que-podem-chegar/"
+   },
+   {
+    "nome": "A Crítica (reajuste de ~40% no pedágio)",
+    "url": "https://acritica.net/economia/pedagio-br-163-ms-reajuste-40-por-cento/"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Em Coxim o lazer gira em torno dos rios e das cachoeiras. Na cidade, há museu, mirante e a Festa do Peixe em outubro.",
+  "lugares": [
+   {
+    "nome": "Pesca nos rios Taquari e Coxim",
+    "km": "na cidade",
+    "desc": "Os dois rios se encontram na cidade e atraem pescadores de todo o país, ao lado do Jauru e do Piquiri. Fique atento à piracema, quando a pesca é proibida."
+   },
+   {
+    "nome": "Museu Arqueológico e Histórico de Coxim",
+    "km": "na cidade",
+    "desc": "Funciona na antiga casa de Zacarias Mourão, restaurada, e conta a história da região desde a pré-história. Guias de turismo indicam entrada gratuita."
+   },
+   {
+    "nome": "Cristo Redentor e Mirante do Cruzeiro",
+    "km": "na cidade",
+    "desc": "Réplica do Cristo carioca no alto de um morro, com escadaria de mais de 430 degraus. O mirante tem vista da cidade e é bom para o pôr do sol."
+   },
+   {
+    "nome": "Festa do Peixe",
+    "km": "na cidade",
+    "desc": "Festa tradicional de outubro, com barracas de comida, feira e shows. A 31ª edição foi de 10 a 12 de outubro de 2023; confira as datas do ano."
+   },
+   {
+    "nome": "Cachoeira das Palmeiras",
+    "km": "~22-30 km",
+    "desc": "Fica na BR-163, sentido norte. No local há pousada, área de camping, guia de pesca, bar e restaurante."
+   },
+   {
+    "nome": "Cachoeira do Salto",
+    "km": "arredores",
+    "desc": "Queda de cerca de 35 metros de água clara, no Vale do Salto, com corredeiras no cerrado. É procurada para rapel e escalada; vá com guia."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Coxim)",
+    "url": "https://pt.wikipedia.org/wiki/Coxim_(Mato_Grosso_do_Sul)"
+   },
+   {
+    "nome": "Destinos BR (Coxim)",
+    "url": "https://destinosbr.com.br/turismo/coxim-o-encanto-do-norte-sul-mato-grossense-entre-rios-serras-e-historia/"
+   },
+   {
+    "nome": "Prefeitura de Coxim (criação do museu)",
+    "url": "https://coxim.ms.gov.br/old-site/coxim.ms.gov.br/noticia/no-dia-de-sua-reinauguracao-prefeito-sanciona-lei-que-cria-o-museu-arqueologico-e-historico-de-coxim/63461.html"
+   },
+   {
+    "nome": "Campo Grande News (31ª Festa do Peixe)",
+    "url": "https://www.campograndenews.com.br/lado-b/diversao/em-sua-31a-edicao-tradicional-festa-do-peixe-tera-jorge-e-mateus"
+   },
+   {
+    "nome": "Bahia.ws (turismo em Coxim)",
+    "url": "https://bahia.ws/en/turismo-e-natureza-em-coxim-ms/"
+   },
+   {
+    "nome": "Pantanal Escapes (Coxim)",
+    "url": "https://pantanalescapes.com/locations/coxim.html"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Se a família gosta de pescar, lembre da piracema: em 2026/2027 a pesca nos rios de MS fora da calha do Paraná está proibida de 5 de novembro a 28 de fevereiro de 2027. A pesca do dourado segue proibida mesmo depois disso.",
+  "Antes de descer para Campo Grande, veja os trechos em obras da BR-163 no site da Motiva Pantanal, que publica os pontos de desvio e de pista simples.",
+  "Se vai usar muito a BR-163, instale uma TAG de pedágio: o desconto progressivo para usuários frequentes pode chegar a 93%."
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "porto-murtinho-ms",
+ "lede": "Nascida em 1892 como porto da erva-mate e cercada por um dique contra as cheias do rio Paraguai, Porto Murtinho é a ponta brasileira da Rota Bioceânica e um dos destinos de pesca mais procurados do país.",
+ "cidade": {
+  "paragrafos": [
+   "Em 1892, a Companhia Matte Larangeira comprou a Fazenda Três Barras, na margem esquerda do rio Paraguai, e ali construiu um porto para exportar erva-mate a Buenos Aires. O nome homenageia Joaquim Murtinho, senador e ministro da Fazenda. Uma pequena ferrovia, concluída em 1906, levava a erva até o porto. O município foi criado em 1911, desmembrado de Corumbá. O Censo 2022 contou 12.859 moradores, e a estimativa mais recente do IBGE é de 12.584.",
+   "A economia se apoia na pecuária, com rebanho de cerca de 708 mil cabeças em 2023, na pesca esportiva e no turismo. Os terminais portuários no rio Paraguai escoam grãos e outras cargas: em 2023, a Receita Federal local registrou mais de 1,6 milhão de toneladas exportadas. Com a Rota Bioceânica, que deve ligar o Atlântico ao Pacífico por Paraguai, Argentina e Chile, há investimentos em portos, hotelaria e alimentação.",
+   "A cidade fica na planície do rio Paraguai, protegida por um dique construído depois das grandes cheias do início dos anos 1980. Um contorno rodoviário em volta do dique tira os caminhões do centro. O município é o segundo maior de Mato Grosso do Sul em área e tem, além da sede, o distrito de Colônia Cachoeira. Campo Grande fica a cerca de 443 km, pela BR-267, que passa por Jardim. A ponte internacional para Carmelo Peralta, no Paraguai, teve as duas metades unidas em julho de 2026; os acessos e o centro aduaneiro seguiam em obras."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Porto Murtinho)", "url": "https://pt.wikipedia.org/wiki/Porto_Murtinho"},
+   {"nome": "IBGE Cidades (Porto Murtinho)", "url": "https://www.ibge.gov.br/cidades-e-estados/ms/porto-murtinho.html"},
+   {"nome": "Correio do Estado (investimentos em Porto Murtinho)", "url": "https://correiodoestado.com.br/economia/novos-investimentos-ja-produzem-br-efeito-em-porto-murtinho/357289/"},
+   {"nome": "Campo Grande News (apostas econômicas na cidade da Rota)", "url": "https://www.campograndenews.com.br/economia/agronegocio-hoteis-e-alimentacao-sao-apostas-na-cidade-da-rota-bioceanica"},
+   {"nome": "Correio do Estado (contorno rodoviário)", "url": "https://correiodoestado.com.br/cidades/contorno-rodoviario-e-entregue-em-porto-murtinho/382325"},
+   {"nome": "Campo Grande News (união da Ponte Bioceânica, jul/2026)", "url": "https://www.campograndenews.com.br/brasil/cidades/sem-festa-por-causa-do-clima-ponte-bioceanica-conclui-uniao-oficialmente"},
+   {"nome": "Aqui/UAI (ponte pronta, tráfego ainda sem liberação)", "url": "https://aqui.uai.com.br/networking-e-negocios/a-ponte-do-corredor-bioceanico-ja-abriu-fica-pronta-em-setembro-mas-ninguem-cruza-ainda/"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A ANP não pesquisa preços de combustível em Porto Murtinho. Como referência, a gasolina comum custou em média R$ 6,41 o litro em Mato Grosso do Sul na semana de 1º a 7 de novembro de 2026, média que considera Campo Grande, Dourados, Corumbá, Ponta Porã e Três Lagoas. Para alimentação, a cesta básica de Campo Grande custou R$ 848,51 em outubro de 2026, segundo o DIEESE.",
+   "Do outro lado do rio, a Isla Margarita, no Paraguai, é zona de livre comércio, e a travessia é feita de barco. Na volta ao Brasil, a cota de isenção da Receita Federal por via terrestre ou fluvial é de US$ 500 por pessoa, com limites por item, como 12 litros de bebida alcoólica e 10 maços de cigarro. Acima disso, as compras devem ser declaradas e pagam imposto."
+  ],
+  "fontes": [
+   {"nome": "A Crítica/ANP (combustíveis em MS, nov/2026)", "url": "https://acritica.net/economia/preco-combustiveis-ms-anp-gasolina-campo-grande-corumba-tabela-interativa/"},
+   {"nome": "DIEESE (cesta básica, out/2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"},
+   {"nome": "Wikipédia (Porto Murtinho, Ilha Margarida)", "url": "https://pt.wikipedia.org/wiki/Porto_Murtinho"},
+   {"nome": "Receita Federal (cotas de isenção)", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel"}
+  ]
+ },
+ "lazer": {
+  "intro": "Em Porto Murtinho, quase tudo gira em torno do rio Paraguai: pesca, passeios de barco, a orla e as festas que reúnem brasileiros e paraguaios.",
+  "lugares": [
+   {"nome": "Pesca esportiva no rio Paraguai", "km": "na cidade", "desc": "O trecho do rio em Porto Murtinho é um dos mais procurados do Brasil para a pesca esportiva, e barcos com pescadores e turistas saem da própria cidade. Fora da piracema, é o principal programa local."},
+   {"nome": "Orla do rio Paraguai", "km": "na cidade", "desc": "A prefeitura começou em agosto de 2025 a obra da orla, com pista de caminhada, bar e área para contemplar o rio. Confira se já está entregue; é o ponto do carnaval de rua, o Porto Folia."},
+   {"nome": "Castelinho", "km": "na cidade", "desc": "Na Rua Doutor Correia, 456, no centro, o pequeno castelo foi erguido por um comerciante para a esposa europeia, com energia própria e móveis importados. Vale a foto num passeio pelo centro."},
+   {"nome": "Isla Margarita (Paraguai)", "km": "travessia de barco", "desc": "Zona de livre comércio do lado paraguaio, alcançada de barco pelo rio. Leve documento de identidade original e respeite a cota de compras."},
+   {"nome": "Festival Internacional de Porto Murtinho", "km": "na cidade", "desc": "Retomado em outubro de 2026 depois de 14 anos, junta pesca, gastronomia e shows. O calendário inclui ainda o Festival Internacional do Chamamé e o Rodeio na Rota."},
+   {"nome": "Aniversário da cidade", "km": "na cidade", "desc": "Em 13 de junho, a cidade comemora com desfile cívico-militar, rodeio e shows. Boa ocasião para a família conhecer a vizinhança."},
+   {"nome": "Pousadas de pesca da foz do rio Apa", "km": "~56 km", "desc": "Na foz do rio Apa, a cerca de 56 km da cidade, ficam pousadas de pesca conhecidas pelo dourado. O dourado está proibido em Mato Grosso do Sul, então pergunte antes quais espécies podem ser pescadas."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Porto Murtinho, turismo e cultura)", "url": "https://pt.wikipedia.org/wiki/Porto_Murtinho"},
+   {"nome": "Campo Grande News (obra da orla, ago/2025)", "url": "https://www.campograndenews.com.br/cidades/interior/murtinho-comeca-obra-da-orla-do-rio-para-atender-turistas-da-rota-bioceanica"},
+   {"nome": "Campo Grande News (pesca esportiva antes da piracema)", "url": "https://www.campograndenews.com.br/brasil/cidades/a-dois-meses-da-piracema-porto-murtinho-movimenta-a-pesca-esportiva"},
+   {"nome": "A Crítica (piracema 2026/2027 e dourado)", "url": "https://acritica.net/meio-ambiente/piracema-2026-2027-pesca-proibida-ms-fiscalizacao-imasul/"}
+  ]
+ },
+ "antes_de_ir": [
+  "Antes de pegar a BR-267, confira as condições da estrada: o trecho entre Jardim e Porto Murtinho já ficou interditado depois de chuvas fortes, como em abril de 2025, quando uma ponte foi danificada.",
+  "Não conte com a ponte para Carmelo Peralta no dia a dia antes de confirmar a liberação do tráfego: até setembro de 2026, os acessos e o centro aduaneiro ainda não estavam prontos.",
+  "A piracema 2026/2027 proíbe a pesca no rio Paraguai de 5 de novembro de 2026 a 28 de fevereiro de 2027, e muitas pousadas de pesca têm pouco movimento nesse período.",
+  "Prepare a casa para o calor: a estação do INMET na cidade já registrou 42,9 °C, em setembro de 2023."
+ ]
+}
