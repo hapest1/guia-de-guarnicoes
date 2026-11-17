@@ -1,0 +1,134 @@
+{
+ "slug": "assis-brasil-ac",
+ "lede": "No fim da BR-317, Assis Brasil divide a tríplice fronteira com Iñapari, no Peru, e Bolpebra, na Bolívia, e é a porta brasileira da Estrada do Pacífico.",
+ "cidade": {
+  "paragrafos": [
+   "Os primeiros habitantes da região foram os Manchineri, povo de língua aruaque que hoje vive na Terra Indígena Mamoadate. Os primeiros moradores não indígenas foram os irmãos Belarmino, Policarpo e Durval Freire, vindos do Maranhão em 1908, que se instalaram à beira do rio Acre, perto do Marco Rondon. O nome homenageia o diplomata Joaquim Francisco de Assis Brasil, que atuou com o Barão do Rio Branco e Plácido de Castro na Questão do Acre. O município foi desmembrado de Brasileia pela Lei Estadual nº 588, de 14 de maio de 1976. O Censo 2022 contou 8.100 moradores. Uma estimativa recente do IBGE aponta 8.648.",
+   "A economia local combina extrativismo, pequena agricultura, funcionalismo público e o comércio ligado ao fluxo da rodovia para o Peru. A Estrada do Pacífico, que passa pela cidade, foi totalmente asfaltada do lado peruano em dezembro de 2010. O movimento de cargas ainda é pequeno: em 2017 eram cerca de sete veículos comerciais por hora, e de 2009 a 2019 pouco mais de 18% do comércio exterior do Acre passou pela rodovia. Em 2009, a cidade ganhou uma comarca da Justiça estadual.",
+   "O município tem 4.974 km² e cerca de 1,7 habitante por km². Faz divisa com Sena Madureira ao norte, Brasileia a leste, o Peru a oeste e o Peru e a Bolívia ao sul. A cidade forma uma pequena conurbação com Iñapari, do outro lado do rio Acre, e com Bolpebra. A BR-317 é a única rodovia que liga o Brasil ao Peru, e a distância até Rio Branco é de 319 km pela estrada. Parte do município fica na Reserva Extrativista Chico Mendes, e outra parte na Terra Indígena Mamoadate, homologada em 1991, com 314.647 hectares. Nela vivem cerca de 1.076 pessoas dos povos Jaminawa e Manchineri, em 15 aldeias, além de povos isolados acompanhados pela Funai."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Assis Brasil)",
+    "url": "https://pt.wikipedia.org/wiki/Assis_Brasil_(Acre)"
+   },
+   {
+    "nome": "IBGE Cidades (Assis Brasil)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ac/assis-brasil.html"
+   },
+   {
+    "nome": "IBGE (Estimativas da População 2025)",
+    "url": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260113.pdf"
+   },
+   {
+    "nome": "Smargiassi (perfil de Assis Brasil)",
+    "url": "https://smargiassi.com.br/ac/assis-brasil/"
+   },
+   {
+    "nome": "Wikipédia (Estrada do Pacífico)",
+    "url": "https://pt.wikipedia.org/wiki/Rodovia_Interoce%C3%A2nica"
+   },
+   {
+    "nome": "Wikipédia (Reserva Extrativista Chico Mendes)",
+    "url": "https://pt.wikipedia.org/wiki/Reserva_Extrativista_Chico_Mendes"
+   },
+   {
+    "nome": "MPF (terras indígenas do Acre)",
+    "url": "https://www.mpf.mp.br/atuacao/ccr6/documentos-e-publicacoes/docs/terras-indigenas/tis/ac.pdf"
+   },
+   {
+    "nome": "CPI-Acre (Plano de Gestão da TI Mamoadate)",
+    "url": "https://cpiacre.org.br/wp-content/uploads/2020/03/Plano-de-Gest%C3%A3o-Territorial-e-Ambiental-da-TI-Mamoadate.pdf"
+   },
+   {
+    "nome": "A Gazeta do Acre (Funai e isolados na TI Mamoadate, nov/2024)",
+    "url": "https://agazetadoacre.com/2024/11/noticias/geral/funai-monitora-isolados-em-terra-indigena-no-acre-e-informa-que-nao-ha-registro-de-conflitos"
+   },
+   {
+    "nome": "Gov.br (autorização para ingresso em terra indígena)",
+    "url": "https://www.gov.br/pt-br/servicos/solicitar-autorizacao-para-ingresso-em-terra-indigena"
+   },
+   {
+    "nome": "Portal Amazônia (ingresso em terras indígenas)",
+    "url": "https://portalamazonia.com/cultura/funai-ingresso-terras-indigenas/"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "A cidade não tem ônibus urbano, e a ANP não publica preço de combustível para o município. Em Rio Branco, a média foi de R$ 7,27 na semana de 1º a 7 de novembro de 2026. Abasteça antes de pegar a estrada.",
+   "A cesta básica de referência é a de Rio Branco, capital do estado: R$ 710,92 em outubro de 2026, segundo o DIEESE. Em Porto Velho, a mesma cesta custou R$ 698,97 no mesmo mês."
+  ],
+  "fontes": [
+   {
+    "nome": "Portal Acre (gasolina em Rio Branco, nov/2026)",
+    "url": "https://portalacre.com.br/2026/11/gasolina-e-gas-de-cozinha-seguem-acima-da-media-nacional-em-rio-branco-aponta-anp/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "Em Assis Brasil, o lazer gira em torno do rio Acre e da fronteira. Dá para atravessar a pé até o Peru, e as festas da cidade reúnem moradores dos três países.",
+  "lugares": [
+   {
+    "nome": "Ponte da Integração Brasil–Peru",
+    "km": "na cidade",
+    "desc": "Ponte estaiada de 240 metros sobre o rio Acre, inaugurada em 2006, com quatro faixas. Liga Assis Brasil a Iñapari e fica perto de Bolpebra, na Bolívia."
+   },
+   {
+    "nome": "Iñapari (Peru)",
+    "km": "~1 km",
+    "desc": "A cidade peruana fica a menos de 1 km e pode ser visitada a pé, de bicicleta ou de carro, num passeio de um dia pela ponte."
+   },
+   {
+    "nome": "Festival de Praia",
+    "km": "na cidade",
+    "desc": "Em julho, a vazante do rio Acre deixa uma faixa de areia que vira praia, e a cidade faz cerca de três dias de festa. Fique atento às crianças na água."
+   },
+   {
+    "nome": "Carnavassis",
+    "km": "na cidade",
+    "desc": "Carnaval fora de época, de até três dias, perto do aniversário do município, em 14 de maio."
+   },
+   {
+    "nome": "Estrada do Pacífico até Puerto Maldonado",
+    "km": "~229 km a partir de Iñapari",
+    "desc": "A rodovia é asfaltada e o trecho até Puerto Maldonado, no Peru, leva cerca de 3 horas de carro. Planeje a viagem com a documentação da família e do carro em ordem."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Ponte da Integração Brasil–Peru)",
+    "url": "https://pt.wikipedia.org/wiki/Ponte_da_Integra%C3%A7%C3%A3o_Brasil%E2%80%93Peru"
+   },
+   {
+    "nome": "Wikipedia (Brazil–Peru Integration Bridge)",
+    "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Peru_Integration_Bridge"
+   },
+   {
+    "nome": "Mochileiros (passeio pela tríplice fronteira)",
+    "url": "https://www.mochileiros.com/topic/8370-passeio-off-road-cruza-tr%C3%AAs-pa%C3%ADses-saindo-do-acre/"
+   },
+   {
+    "nome": "Wikipédia (Assis Brasil)",
+    "url": "https://pt.wikipedia.org/wiki/Assis_Brasil_(Acre)"
+   },
+   {
+    "nome": "Logistics Cluster (rodovias do Peru)",
+    "url": "https://dlca.logcluster.org/node/4670"
+   },
+   {
+    "nome": "Portal Amazônia (guia de viagem do Acre ao Peru de carro)",
+    "url": "https://portalamazonia.com/turismo/guia-viagem-acre-peru/"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Para seguir de carro ao Peru, informe a saída do Brasil no posto da Polícia Federal em Assis Brasil e a entrada no posto de imigração de Iñapari.",
+  "A ponte já foi fechada pelo Peru durante a pandemia, e moradores dos dois lados protestaram pela reabertura em setembro de 2021. Antes de planejar viagens, confira se a travessia está normal.",
+  "A entrada em terra indígena, como a TI Mamoadate, depende de autorização da Presidência da Funai e do consentimento das comunidades. Não visite aldeias por conta própria."
+ ]
+}

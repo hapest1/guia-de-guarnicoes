@@ -1,0 +1,120 @@
+{
+ "slug": "jaguarao-rs",
+ "lede": "Cidade Heroica do extremo sul, Jaguarão guarda mais de 800 fachadas históricas catalogadas e se liga a Río Branco, no Uruguai, pela Ponte Mauá, primeiro patrimônio cultural do Mercosul.",
+ "cidade": {
+  "paragrafos": [
+   "Jaguarão nasceu de um acampamento militar português instalado por volta de 1801 e 1802 às margens do rio Jaguarão. O povoado virou freguesia do Divino Espírito Santo do Cerrito em 1812, vila em 1832 e cidade em 23 de novembro de 1855. Em 27 de janeiro de 1865, durante a Guerra do Uruguai, a cidade resistiu a um ataque de cerca de 1.500 cavaleiros, episódio que lhe deu o título de Cidade Heroica. O Censo 2022 contou 26.603 moradores, e a estimativa mais recente do IBGE é de 27,4 mil.",
+   "A agropecuária pesa muito: em 2021 respondeu por cerca de 48% do valor adicionado da economia, segundo o IBGE. O arroz e a soja dominam as lavouras, com cerca de 17,3 mil e 45 mil hectares colhidos na safra de 2025, e o rebanho passa de 88 mil bovinos e 30 mil ovinos. O comércio e o turismo completam a economia. Para estudar ou trabalhar, a cidade tem campus da Unipampa, unidade do IFSul e polo da Unopar.",
+   "O município tem cerca de 2.050 km² e fica a 26 m de altitude, perto da Lagoa Mirim. O centro histórico, onde estão a Rua 20 de Setembro (a Beira-Rio) e a Rua 15 de Novembro (a Rua das Portas), é tombado pelo Iphan como conjunto histórico e paisagístico. A cidade fica no fim da BR-116 e é o caminho mais curto entre Porto Alegre e Montevidéu. Do outro lado do rio está Río Branco, no departamento uruguaio de Cerro Largo, com cerca de 14,6 mil moradores no censo uruguaio de 2011."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Jaguarão)",
+    "url": "https://pt.wikipedia.org/wiki/Jaguar%C3%A3o"
+   },
+   {
+    "nome": "Wikipédia (Batalha do Jaguarão)",
+    "url": "https://pt.wikipedia.org/wiki/Batalha_do_Jaguar%C3%A3o"
+   },
+   {
+    "nome": "IBGE Cidades (Jaguarão), histórico e população",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/rs/jaguarao.html"
+   },
+   {
+    "nome": "Wikipedia em inglês (Río Branco, Uruguay)",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Branco,_Uruguay"
+   },
+   {
+    "nome": "Wikipédia (Universidade Federal do Pampa)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_do_Pampa"
+   },
+   {
+    "nome": "IBGE/SIDRA, PIB dos Municípios (tabela 5938)",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   },
+   {
+    "nome": "IBGE/SIDRA, Produção Agrícola Municipal (tabela 1612)",
+    "url": "https://sidra.ibge.gov.br/tabela/1612"
+   },
+   {
+    "nome": "IBGE/SIDRA, Pesquisa da Pecuária Municipal (tabela 3939)",
+    "url": "https://sidra.ibge.gov.br/tabela/3939"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Pela regra da Receita Federal, quem volta ao Brasil por via terrestre tem cota de isenção de US$ 500 por pessoa para compras no exterior, incluídas as dos free shops uruguaios; o que passar disso é tributado. A cota é individual e não pode ser somada entre membros da família. Confira as regras vigentes no site da Receita antes de comprar.",
+   "Nenhuma das cidades da fronteira entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro; foi a quinta mais cara entre as 27 capitais, atrás de São Paulo (R$ 951,37)."
+  ],
+  "fontes": [
+   {
+    "nome": "Nomad, guia de compras no Uruguai (cota terrestre de US$ 500)",
+    "url": "https://www.nomadglobal.com/conteudos/compras-no-uruguai"
+   },
+   {
+    "nome": "Folha de Pernambuco, Receita orienta sobre compras no exterior",
+    "url": "https://www.folhape.com.br/economia/receita-orienta-contribuintes-sobre-compras-no-exterior/234000/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O passeio em Jaguarão é a própria cidade: casario do século XIX, a beira do rio e a ponte para o Uruguai. No verão, o carnaval de rua é o grande evento.",
+  "lugares": [
+   {
+    "nome": "Ponte Internacional Barão de Mauá",
+    "km": "na cidade",
+    "desc": "Inaugurada em 1930, tem 2.113 m de extensão e calçada para pedestres nos dois lados. É tombada pelo Iphan e foi o primeiro bem reconhecido como patrimônio cultural do Mercosul, em 2015."
+   },
+   {
+    "nome": "Centro histórico e Rua das Portas",
+    "km": "na cidade",
+    "desc": "Mais de 800 prédios têm as fachadas catalogadas pela prefeitura, com portais artesanais de influência portuguesa. A Rua 15 de Novembro, a Rua das Portas, concentra os exemplos mais conhecidos."
+   },
+   {
+    "nome": "Mercado Público Municipal",
+    "km": "na cidade",
+    "desc": "Construído entre 1864 e 1867 em estilo colonial português, tem formato de U e pátio interno. Do prédio se vê o rio Jaguarão e a Ponte Mauá."
+   },
+   {
+    "nome": "Museu Carlos Barbosa Gonçalves",
+    "km": "na cidade",
+    "desc": "Casa neoclássica de 1886 que foi residência de Carlos Barbosa, ex-presidente do estado. Funciona como museu e é mantida como se ainda fosse habitada."
+   },
+   {
+    "nome": "Cerro da Pólvora",
+    "km": "na cidade",
+    "desc": "Ponto alto de onde se tem vista panorâmica da cidade e do rio."
+   },
+   {
+    "nome": "Carnaval de Jaguarão",
+    "km": "na cidade",
+    "desc": "Um dos maiores carnavais de rua do sul do estado, com trios elétricos, blocos e escolas de samba. Nas noites mais cheias reúne até 30 mil foliões no centro histórico."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Jaguarão)",
+    "url": "https://pt.wikipedia.org/wiki/Jaguar%C3%A3o"
+   },
+   {
+    "nome": "Wikipédia (Ponte Internacional Barão de Mauá)",
+    "url": "https://pt.wikipedia.org/wiki/Ponte_Internacional_Bar%C3%A3o_de_Mau%C3%A1"
+   },
+   {
+    "nome": "Wikipédia (Carnaval de Jaguarão)",
+    "url": "https://pt.wikipedia.org/wiki/Carnaval_de_Jaguar%C3%A3o"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O Uruguai mantém consulado em Jaguarão, e o Brasil tem vice-consulado em Río Branco. São os endereços para documentos e dúvidas sobre a vida dos dois lados da fronteira.",
+  "Compras nos free shops de Río Branco contam na cota de US$ 500 por pessoa da Receita para quem entra por terra. Guarde as notas e não some a cota da família.",
+  "No carnaval a cidade recebe visitantes de toda a fronteira. Se a mudança cair em fevereiro, reserve hospedagem com antecedência.",
+  "Prepare-se para extremos: a estação do INMET na cidade já marcou −2,6 °C em julho e 40,4 °C em dezembro, e Jaguarão tem o recorde oficial de calor do estado, 42,6 °C em 1943."
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "sao-bento-do-una-pe",
+ "lede": "A 614 m de altitude no Planalto da Borborema, São Bento do Una é a Capital do Ovo do Nordeste, terra natal de Alceu Valença e cidade de noites frescas no meio do ano.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu da Fazenda Santa Cruz e foi berço da pecuária leiteira e da avicultura na região. O nome vem do santo que os moradores invocavam para se livrar das cobras durante a abertura da fazenda. O distrito de São Bento foi criado em 1853, ainda ligado a Garanhuns, virou vila em 1860 e cidade em 1900. Em 1943 passou a se chamar São Bento do Una, em referência ao rio Una. É a terra natal do cantor Alceu Valença, nascido ali em 1946, e do escritor Gilvan Lemos. O Censo 2022 contou 49.449 moradores, e a estimativa mais recente do IBGE é de 51.075.",
+   "A avicultura é o carro-chefe da economia, com granjas de ovos e de frango de corte. Em 2025 o município produziu cerca de 164 milhões de dúzias de ovos, o terceiro maior volume do Brasil, e 72,6 milhões de litros de leite. Também se plantam feijão, milho e mandioca, em menor escala. O PIB foi de R$ 1,91 bilhão em 2023. A cidade sediou as primeiras edições da Feira de Avicultura do Nordeste; a 9ª, em 2025, foi em Caruaru. Para ensino superior e serviços maiores, a referência é Garanhuns, polo de saúde e educação de 32 municípios do Agreste Meridional.",
+   "O município tem a sede e o distrito de Espírito Santo, além dos povoados de Jurubeba, Pimenta, Queimada Grande, Maniçoba e Gama. Faz limite com Belo Jardim, Tacaimbó, Pesqueira, Sanharó, Capoeiras, Cachoeirinha, Lajedo, Jupi e Jucati. Garanhuns fica a cerca de 58 km, Caruaru a cerca de 77 km e o Recife a cerca de 215 km."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (São Bento do Una)", "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Bento_do_Una"},
+   {"nome": "IBGE (histórico e formação administrativa)", "url": "https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2613008"},
+   {"nome": "Wikipédia (Alceu Valença)", "url": "https://pt.wikipedia.org/wiki/Alceu_Valen%C3%A7a"},
+   {"nome": "IBGE/SIDRA (estimativas de população, tabela 6579)", "url": "https://sidra.ibge.gov.br/tabela/6579"},
+   {"nome": "IBGE/SIDRA (Censo 2022, tabela 4709)", "url": "https://sidra.ibge.gov.br/tabela/4709"},
+   {"nome": "IBGE/SIDRA (Pesquisa da Pecuária Municipal 2025, tabela 74)", "url": "https://sidra.ibge.gov.br/tabela/74"},
+   {"nome": "IBGE/SIDRA (PIB dos municípios 2023, tabela 5938)", "url": "https://sidra.ibge.gov.br/tabela/5938"},
+   {"nome": "aviNews (Feira de Avicultura do Nordeste, 2018)", "url": "https://avinews.com/pt-br/iii-feira-de-avicultura-do-nordeste-2018/"},
+   {"nome": "aviNews (9ª Feira de Avicultura e Suinocultura do Nordeste)", "url": "https://avinews.com/pt-br/ceva-saude-animal-celebrou-sua-participacao-na-9a-edicao-da-feira-de-avicultura-e-suinocultura-do-nordeste/amp/"},
+   {"nome": "Wikipédia em inglês (Garanhuns)", "url": "https://en.wikipedia.org/wiki/Garanhuns"},
+   {"nome": "Como Chegar (São Bento do Una–Garanhuns)", "url": "https://www.comochegar.com/de-so-bento-do-una-pe-republica-federativa-do-brasil-para-garanhuns-pe-republica-federativa-do-brasil.htm"},
+   {"nome": "Como Chegar (São Bento do Una–Caruaru)", "url": "https://www.comochegar.com/de-so-bento-do-una-pe-brasil-para-caruaru-caruaru-pe-brasil.htm"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Para o supermercado, a referência é a cesta básica do DIEESE no Recife: R$ 705,98 em outubro de 2026, alta de 6,41% sobre setembro, uma das maiores do Nordeste no mês. Para quem ganha um salário mínimo, a cesta exigiu 95 horas e 49 minutos de trabalho. Não encontramos levantamento recente de preço de combustível nem de aluguel específico de São Bento do Una; compras maiores costumam ser feitas em Garanhuns ou Caruaru."
+  ],
+  "fontes": [
+   {"nome": "DIEESE (cesta básica, outubro de 2026)", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "O calendário da cidade gira em torno das festas, como a Corrida da Galinha e a Festa de Reis. Para feiras grandes e festivais, Caruaru e Garanhuns ficam a cerca de uma hora de estrada.",
+  "lugares": [
+   {"nome": "Corrida da Galinha", "km": "na cidade", "desc": "Criada em 1993, é patrimônio cultural imaterial do município e faz parte do calendário turístico de Pernambuco. Tem competição de galos e galinhas, prêmios e shows; edições recentes foram no Parque de Exposições, com entrada gratuita."},
+   {"nome": "Festa de Reis", "km": "na cidade", "desc": "De 28 de dezembro a 7 de janeiro, com shows, parque de diversões, comidas típicas e festejos católicos. Também é patrimônio imaterial da cidade."},
+   {"nome": "Fazenda Santa Rita", "km": "no município", "desc": "Casarão rural do século XIX, com construção e mobiliário de origem portuguesa, ligado a missas, cavalgadas e lendas locais. Informe-se antes se há visitação."},
+   {"nome": "Festival de Inverno de Garanhuns", "km": "~58 km", "desc": "Todo mês de julho, Garanhuns recebe o festival, que atrai milhares de visitantes. Coincide com o período mais frio do Agreste, então leve agasalho."},
+   {"nome": "Feira de Caruaru", "km": "~77 km", "desc": "Uma das maiores feiras ao ar livre do país e patrimônio imaterial do Brasil pelo Iphan. Vende de frutas e ervas a roupas, utensílios, móveis e artesanato."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (São Bento do Una)", "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Bento_do_Una"},
+   {"nome": "Diário do Turismo (Corrida da Galinha)", "url": "https://diariodoturismo.com.br/sao-bento-do-una-promove-17a-edicao-da-corrida-da-galinha/"},
+   {"nome": "Folha de Pernambuco (21ª Corrida da Galinha)", "url": "https://www.folhape.com.br/noticias/21-corrida-da-galinha-este-ano-tera-arbitro-de-video/76865/"},
+   {"nome": "iTEIA (Fazenda Santa Rita)", "url": "https://iteia.org.br/?p=381267"},
+   {"nome": "UFCG (anais: memória da Fazenda Santa Rita)", "url": "https://bdtd.ufcg.edu.br/bitstream/riufcg/34663/1/MEM%c3%93RIA%20E%20RECONSTRU%c3%87%c3%83O%20-%20I%20SEMIN%c3%81RIO%20NACIONAL%20FONTES%20HIST%c3%93RICAS%20GT%2021%202009.pdf"},
+   {"nome": "Wikipédia em inglês (Garanhuns)", "url": "https://en.wikipedia.org/wiki/Garanhuns"},
+   {"nome": "Wikipédia (Feira de Caruaru)", "url": "https://pt.wikipedia.org/wiki/Feira_de_Caruaru"},
+   {"nome": "Como Chegar (distâncias)", "url": "https://www.comochegar.com/de-so-bento-do-una-pe-brasil-para-caruaru-caruaru-pe-brasil.htm"}
+  ]
+ },
+ "antes_de_ir": [
+  "Leve roupa de frio: de junho a setembro a mínima média fica entre 16 °C e 18 °C, bem abaixo do litoral.",
+  "As chuvas se concentram de abril a julho, com 11 a 13 dias de chuva por mês entre maio e julho; o fim do ano é seco.",
+  "As datas da Corrida da Galinha mudam de ano para ano (já houve edições entre julho e setembro); confira a programação com a prefeitura.",
+  "Para universidade, compras maiores e serviços especializados, conte com Garanhuns (~58 km) e Caruaru (~77 km)."
+ ]
+}

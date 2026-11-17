@@ -1,0 +1,132 @@
+{
+ "slug": "quarai-rs",
+ "lede": "No Passo do Batista, à beira do rio Quaraí, a cidade divide com Artigas, no Uruguai, uma ponte curva de 750 m e tem por perto o Cerro do Jarau, cratera de impacto da lenda da Salamanca.",
+ "cidade": {
+  "paragrafos": [
+   "Quaraí cresceu nas terras de João Batista de Castilhos, que deu ao trecho do rio o nome de Passo do Batista. Em 1816 tropas acamparam na margem direita do rio, e em 1858 o engenheiro José da Victória Soares Andréa traçou a planta da futura povoação. A freguesia de São João Batista de Quaraí foi criada em 1859, o município em 8 de abril de 1875 e a sede virou cidade em 26 de março de 1890. O Censo 2022 contou 23.500 moradores, e a estimativa mais recente do IBGE é de cerca de 24 mil.",
+   "O município é um dos maiores do estado em área, com mais de 3.100 km², e vive da pecuária e do comércio. Em 2021 a agropecuária respondeu por cerca de 34% do valor adicionado, segundo o IBGE. O rebanho tem mais de 251 mil bovinos e 127 mil ovinos, e o arroz ocupou cerca de 11,3 mil hectares colhidos na safra de 2025. A cidade tem ensino fundamental, médio e cursos técnicos. Não há campus da Unipampa em Quaraí; os mais próximos ficam em Uruguaiana, Alegrete e Santana do Livramento.",
+   "A cidade é quase toda de casas, com os poucos prédios no Centro. As vias principais são a Avenida 7 de Setembro, onde fica boa parte do comércio, e as ruas Coronel Miguel Corrêa e Ascânio Tubino, além das avenidas Artigas e Raul Pilla. A Ponte da Concórdia, de 1968, liga a cidade a Artigas, capital do departamento uruguaio de mesmo nome, com cerca de 43,9 mil moradores no censo uruguaio de 2023. Pelo lado brasileiro, a saída é pela BR-293. Porto Alegre fica a cerca de 595 km."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Quaraí)",
+    "url": "https://pt.wikipedia.org/wiki/Quara%C3%AD"
+   },
+   {
+    "nome": "IBGE Cidades (Quaraí), histórico e população",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/rs/quarai.html"
+   },
+   {
+    "nome": "Wikipédia (Ponte Internacional da Concórdia)",
+    "url": "https://pt.wikipedia.org/wiki/Ponte_Internacional_da_Conc%C3%B3rdia"
+   },
+   {
+    "nome": "Wikipedia em inglês (Artigas, Uruguay)",
+    "url": "https://en.wikipedia.org/wiki/Artigas,_Uruguay"
+   },
+   {
+    "nome": "Wikipédia (Universidade Federal do Pampa)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_do_Pampa"
+   },
+   {
+    "nome": "IBGE/SIDRA, PIB dos Municípios (tabela 5938)",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   },
+   {
+    "nome": "IBGE/SIDRA, Produção Agrícola Municipal (tabela 1612)",
+    "url": "https://sidra.ibge.gov.br/tabela/1612"
+   },
+   {
+    "nome": "IBGE/SIDRA, Pesquisa da Pecuária Municipal (tabela 3939)",
+    "url": "https://sidra.ibge.gov.br/tabela/3939"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Pela regra da Receita Federal, quem volta ao Brasil por via terrestre tem cota de isenção de US$ 500 por pessoa para compras no exterior, incluídas as dos free shops uruguaios; o que passar disso é tributado. A cota é individual e não pode ser somada entre membros da família. Confira as regras vigentes no site da Receita antes de comprar.",
+   "Nenhuma das cidades da fronteira entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro; foi a quinta mais cara entre as 27 capitais, atrás de São Paulo (R$ 951,37)."
+  ],
+  "fontes": [
+   {
+    "nome": "Nomad, guia de compras no Uruguai (cota terrestre de US$ 500)",
+    "url": "https://www.nomadglobal.com/conteudos/compras-no-uruguai"
+   },
+   {
+    "nome": "Folha de Pernambuco, Receita orienta sobre compras no exterior",
+    "url": "https://www.folhape.com.br/economia/receita-orienta-contribuintes-sobre-compras-no-exterior/234000/"
+   },
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer em Quaraí combina pampa e fronteira: a cratera do Cerro do Jarau, as ruínas dos antigos saladeiros e, do outro lado da ponte, as praças e o artesanato de pedras de Artigas.",
+  "lugares": [
+   {
+    "nome": "Ponte Internacional da Concórdia",
+    "km": "na cidade",
+    "desc": "Inaugurada em 1968, tem 750 m e é tida como a ponte de curva mais larga da América do Sul. Tem passeios laterais para pedestres e não cobra pedágio."
+   },
+   {
+    "nome": "Plaza Batlle e carnaval de Artigas",
+    "km": "~1 km",
+    "desc": "Do outro lado da ponte, a Plaza Batlle ocupa dois quarteirões e tem praça de alimentação. É dali que sai todo ano o desfile do carnaval de Artigas."
+   },
+   {
+    "nome": "Artesanato de ametista e ágata em Artigas",
+    "km": "~1 km",
+    "desc": "Os morros da região de Artigas têm jazidas de ágata e ametista exploradas desde o século XIX. A cidade produz lembranças e artesanato com essas pedras."
+   },
+   {
+    "nome": "Cerro do Jarau",
+    "km": "~25 km",
+    "desc": "Conjunto de morros de cerca de 200 m, na direção de Uruguaiana, que forma a borda de uma antiga cratera de impacto. É o cenário da lenda da Salamanca do Jarau, registrada por Simões Lopes Neto."
+   },
+   {
+    "nome": "Ruínas do Saladeiro",
+    "km": "no município",
+    "desc": "Restos dos saladeiros que produziam charque exportado para Cuba, Itália e Reino Unido. O São Carlos, de 1907, tinha um cabo aéreo sobre o rio Quaraí para embarcar a produção."
+   },
+   {
+    "nome": "APA do Ibirapuitã",
+    "km": "no município",
+    "desc": "Área de proteção federal do pampa, criada em 1992, que inclui parte de Quaraí. Abriga espécies como lontra, tamanduá-mirim e veado-bororó-do-sul."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Quaraí)",
+    "url": "https://pt.wikipedia.org/wiki/Quara%C3%AD"
+   },
+   {
+    "nome": "Wikipédia (Ponte Internacional da Concórdia)",
+    "url": "https://pt.wikipedia.org/wiki/Ponte_Internacional_da_Conc%C3%B3rdia"
+   },
+   {
+    "nome": "Wikipédia (Artigas, cidade)",
+    "url": "https://pt.wikipedia.org/wiki/Artigas_(cidade)"
+   },
+   {
+    "nome": "Wikipedia em inglês (Artigas, Uruguay)",
+    "url": "https://en.wikipedia.org/wiki/Artigas,_Uruguay"
+   },
+   {
+    "nome": "Wikipédia (Cerro do Jarau)",
+    "url": "https://pt.wikipedia.org/wiki/Cerro_do_Jarau"
+   },
+   {
+    "nome": "Wikipédia (Área de Proteção Ambiental do Ibirapuitã)",
+    "url": "https://pt.wikipedia.org/wiki/%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_do_Ibirapuit%C3%A3"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "O Brasil mantém vice-consulado em Artigas. Em Artigas fala-se espanhol, mas o português e o portunhol são comuns na fronteira.",
+  "Compras nos free shops de Artigas entram na cota de US$ 500 por pessoa da Receita para quem volta por terra. A cota é individual.",
+  "Em alguns anos o rio Quaraí sobe e alaga partes da cidade; a última enchente registrada na Wikipédia foi em 2013. Ao escolher o imóvel, pergunte se a rua já alagou.",
+  "Para ir ao Cerro do Jarau e a outros pontos do interior, conte com carro: o município passa de 3.100 km²."
+ ]
+}

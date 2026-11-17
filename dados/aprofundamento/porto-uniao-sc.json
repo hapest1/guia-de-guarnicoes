@@ -1,0 +1,53 @@
+{
+ "slug": "porto-uniao-sc",
+ "lede": "Porto União forma com União da Vitória (PR) as \"Gêmeas do Iguaçu\". Só a linha férrea e o rio separam as duas cidades, e a divisa atual nasceu do fim da Guerra do Contestado.",
+ "cidade": {
+  "paragrafos": [
+   "O povoado começou em 1842, junto a um vau do rio Iguaçu, um trecho raso por onde passavam as tropas vindas dos campos de Palmas. Daí veio o primeiro nome, Porto da União. A navegação a vapor no Iguaçu começou em 1881. Depois chegaram colonos alemães, poloneses, ucranianos, austríacos e russos e, no início do século XX, libaneses. A região era disputada pelo Paraná e por Santa Catarina. Depois da Guerra do Contestado (1912–1916), os dois estados negociaram a divisa em 1916 e 1917, e o município de Porto União foi criado em 5 de setembro de 1917. O Censo 2022 contou 32.970 moradores, e a estimativa mais recente do IBGE é de 33.657.",
+   "A madeira marcou a economia local. Segundo a Wikipédia, que cita a associação nacional da indústria de madeira, as 56 fábricas da região, somando os municípios vizinhos, fazem cerca de 18,6% das portas produzidas no Brasil. As agroindústrias respondem por 25% da economia do município. São 26 unidades no interior, que envolvem mais de 250 famílias e produzem linguiça, salame, lombo defumado e bacon. Há também fábricas de equipamentos agrícolas. No ensino superior, Porto União tem um núcleo da Universidade do Contestado (UNC). Do lado paranaense ficam o campus da Unespar, o Centro Universitário de União da Vitória (UNIUV), a Uniguaçu e um campus do Instituto Federal do Paraná.",
+   "A sede fica a cerca de 752 m de altitude. O ponto mais alto do município é o Cerro Pelado, com 1.300 m. Na área urbana, o rio Iguaçu e a antiga ferrovia da RFFSA marcam a divisa com União da Vitória, e as duas cidades funcionam como um núcleo urbano único. A estação ferroviária de 1942 tem dois corpos iguais, um para cada lado. Pelo lado paranaense passam a BR-153 e a BR-476, que leva a Curitiba. No interior fica o distrito de São Miguel da Serra, conhecido pela igreja de pedra."
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Porto União)", "url": "https://pt.wikipedia.org/wiki/Porto_Uni%C3%A3o"},
+   {"nome": "Wikipédia (União da Vitória)", "url": "https://pt.wikipedia.org/wiki/Uni%C3%A3o_da_Vit%C3%B3ria"},
+   {"nome": "IBGE, Censo 2022 e estimativas de população (API SIDRA)", "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[4213609]"},
+   {"nome": "IBGE Cidades (Porto União)", "url": "https://cidades.ibge.gov.br/brasil/sc/porto-uniao/panorama"}
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "O ônibus urbano é integrado ao de União da Vitória. O Decreto Municipal 1.484/2022 igualou a tarifa de Porto União à da cidade vizinha: R$ 5,00 desde 5 de maio de 2022, no contrato com a Transportes Coletivos Iguaçu. Não encontramos reajuste posterior, então confirme o valor atual. Em maio de 2025, União da Vitória adotou tarifa zero nos domingos e feriados.",
+   "Porto União não entra na pesquisa da cesta básica do DIEESE. A referência catarinense é Florianópolis, onde a cesta custou R$ 927,82 em outubro de 2026, a terceira mais cara entre as 27 capitais, com alta de 12,52% em 12 meses. Quem ganha um salário mínimo precisou trabalhar 125 horas e 55 minutos para comprá-la."
+  ],
+  "fontes": [
+   {"nome": "Leis Municipais, Decreto 1.484/2022 de Porto União", "url": "https://leismunicipais.com.br/a/sc/p/porto-uniao/decreto/2022/149/1484/decreto-n-1484-2022-dispoe-sobre-a-equiparacao-da-tarifa-do-transporte-coletivo-urbano-no-municipio-de-porto-uniao-sc-ao-estabelecido-no-municipio-de-uniao-da-vitoria-pr"},
+   {"nome": "Diário do Transporte, mai/2025 (tarifa zero em União da Vitória)", "url": "https://diariodotransporte.com.br/2025/05/02/uniao-da-vitoria-pr-adota-tarifa-zero-no-transporte-publico-aos-domingos-e-feriados/"},
+   {"nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026", "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"}
+  ]
+ },
+ "lazer": {
+  "intro": "No Centro, o lazer passa pela arquitetura da época da ferrovia e pela memória do Contestado. No interior, o município tem cerca de 150 cachoeiras e corredeiras, além de festas das comunidades de imigrantes.",
+  "lugares": [
+   {"nome": "Estação Ferroviária União", "km": "na cidade", "desc": "Estação art déco de 1942, com dois corpos iguais, construída para servir às duas cidades ao mesmo tempo. É tombada nos dois estados e é o cartão-postal das Gêmeas do Iguaçu."},
+   {"nome": "Rota dos Imigrantes e Monumento aos que não voltaram", "km": "na cidade", "desc": "Na Avenida Getúlio Vargas, esculturas em imbuia lembram as etnias que formaram a cidade. Na Praça 1º de Maio, um monumento homenageia os combatentes do Contestado."},
+   {"nome": "Mirante Arno Dickel", "km": "na cidade", "desc": "Mirante de madeira, feito de toras de eucalipto, com vista ampla da cidade e do rio Iguaçu. Fica no encontro da Rua Anita Garibaldi com a Rua Coronel Amazonas."},
+   {"nome": "Festa de São Pedro e São Paulo", "km": "na cidade", "desc": "Feita há mais de 70 anos no bairro São Pedro, em julho. A atração é uma fogueira de lenha montada à mão, tida como a maior do Brasil, com queima de fogos."},
+   {"nome": "Bergbauernfest (Festa dos Colonos da Montanha)", "km": "~15 km", "desc": "Festa típica alemã de novembro, na localidade de Maratá, com costumes e tradições germânicas."},
+   {"nome": "Salto do Pintado", "km": "~18 km", "desc": "Queda de 30 m no rio Pintado, a 18 km do Centro, uma das mais conhecidas do interior. O Salto do Rio dos Pardos, com 72 m, é outra queda de destaque no município."},
+   {"nome": "Igreja de Pedra de São Miguel da Serra", "km": "~23 km", "desc": "Igreja com paredes de basalto e argamassa branca, construída por imigrantes alemães e considerada um ícone da história regional. As fontes dão de 14 a 23 km de distância, conforme o ponto de partida."}
+  ],
+  "fontes": [
+   {"nome": "Wikipédia (Porto União)", "url": "https://pt.wikipedia.org/wiki/Porto_Uni%C3%A3o"},
+   {"nome": "Wikipédia (União da Vitória), Estação Ferroviária", "url": "https://pt.wikipedia.org/wiki/Uni%C3%A3o_da_Vit%C3%B3ria"},
+   {"nome": "Viagens e Caminhos, pontos turísticos de Porto União", "url": "https://www.viagensecaminhos.com/porto-uniao/"},
+   {"nome": "Buser, Mirante Arno Dickel", "url": "https://www.buser.com.br/destinos/pontos-turisticos/sc/porto-uniao/mirante-arno-dickel"},
+   {"nome": "Turismo de Natureza, o que fazer em Porto União", "url": "https://turismodenatureza.com.br/o-que-fazer-em-porto-uniao/"}
+  ]
+ },
+ "antes_de_ir": [
+  "A divisa entre Santa Catarina e Paraná atravessa a área urbana pela linha férrea. Ao procurar imóvel, confirme se o endereço fica em Porto União (SC) ou em União da Vitória (PR): prefeitura, escolas municipais e serviços públicos são de municípios e estados diferentes.",
+  "O inverno é rigoroso. A média de inverno fica perto de 12,6 °C, as geadas são frequentes, e o INMET já registrou −6,1 °C em agosto de 1963. Traga aquecedor e roupa de frio na mudança.",
+  "A tarifa de ônibus segue a de União da Vitória, e o último decreto localizado é de 2022. Confirme o valor atual com a prefeitura ou com a empresa antes de fazer as contas do transporte.",
+  "Se chegar em julho, programe a Festa de São Pedro e São Paulo. Em novembro, a Bergbauernfest no Maratá é um bom primeiro contato com as comunidades do interior."
+ ]
+}

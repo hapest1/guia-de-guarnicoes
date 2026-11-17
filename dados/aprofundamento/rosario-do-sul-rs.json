@@ -1,0 +1,101 @@
+{
+ "slug": "rosario-do-sul-rs",
+ "lede": "Às margens do rio Santa Maria, Rosário do Sul é conhecida pela Praia das Areias Brancas, balneário fluvial de 3 km de areia fina que lota no verão.",
+ "cidade": {
+  "paragrafos": [
+   "A história começa em 1814, quando José Machado de Souza recebeu a sesmaria do Passo do Rosário, nome ligado à padroeira, Nossa Senhora do Rosário. Em 1816 o lugar serviu de quartel-general das forças imperiais na campanha contra Artigas, e em 1865 recebeu a visita de Dom Pedro II. Virou vila em 19 de abril de 1876, desmembrada de Alegrete, e passou a se chamar Rosário do Sul em 1944, para não ser confundida com Rosario, na Argentina. O Censo 2022 contou 36.630 moradores, e a estimativa mais recente do IBGE é de 37,7 mil.",
+   "A economia é agropecuária e de serviços. Em 2021 a agropecuária respondeu por cerca de 40% do valor adicionado, segundo o IBGE. A soja ocupou cerca de 60 mil hectares colhidos na safra de 2025, e o arroz, perto de 16,6 mil. O rebanho passa de 285 mil bovinos e 112 mil ovinos. Não há campus da Unipampa na cidade; os mais próximos ficam em Santana do Livramento, Alegrete e São Gabriel. Em 2025, pesquisadores da UFRGS publicaram a descoberta de pegadas de dinossauros carnívoros na Formação Guará, no município.",
+   "O município tem mais de 4.300 km² e seis distritos: a sede, Campo Seco, Caverá, Mangueiras, São Carlos e Touro Passo. A área urbana é pequena, com cerca de 15 km², e a cidade fica à beira do rio Santa Maria, cruzado pela Ponte Marechal José de Abreu. Rosário do Sul está na BR-290 e na BR-158, a cerca de 390 km de Porto Alegre."
+  ],
+  "fontes": [
+   {
+    "nome": "IBGE Cidades (Rosário do Sul), histórico e população",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/rs/rosario-do-sul.html"
+   },
+   {
+    "nome": "Wikipédia (Rosário do Sul)",
+    "url": "https://pt.wikipedia.org/wiki/Ros%C3%A1rio_do_Sul"
+   },
+   {
+    "nome": "Wikipedia em inglês (Rosário do Sul)",
+    "url": "https://en.wikipedia.org/wiki/Ros%C3%A1rio_do_Sul"
+   },
+   {
+    "nome": "Wikipédia (Rio Santa Maria)",
+    "url": "https://pt.wikipedia.org/wiki/Rio_Santa_Maria"
+   },
+   {
+    "nome": "Wikipédia (Universidade Federal do Pampa)",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_Federal_do_Pampa"
+   },
+   {
+    "nome": "IBGE/SIDRA, PIB dos Municípios (tabela 5938)",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   },
+   {
+    "nome": "IBGE/SIDRA, Produção Agrícola Municipal (tabela 1612)",
+    "url": "https://sidra.ibge.gov.br/tabela/1612"
+   },
+   {
+    "nome": "IBGE/SIDRA, Pesquisa da Pecuária Municipal (tabela 3939)",
+    "url": "https://sidra.ibge.gov.br/tabela/3939"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Rosário do Sul não entra na pesquisa da cesta básica do DIEESE. A referência gaúcha é Porto Alegre, onde a cesta custou R$ 919,78 em outubro de 2026, alta de 3,44% sobre setembro; foi a quinta mais cara entre as 27 capitais, atrás de São Paulo (R$ 951,37). Comprometia 61,34% do salário mínimo líquido."
+  ],
+  "fontes": [
+   {
+    "nome": "DIEESE, Pesquisa Nacional da Cesta Básica out/2026",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O verão em Rosário do Sul gira em torno do rio Santa Maria e da Praia das Areias Brancas. No resto do ano, o calendário tem festas tradicionalistas e eventos na orla.",
+  "lugares": [
+   {
+    "nome": "Praia das Areias Brancas",
+    "km": "na cidade",
+    "desc": "Balneário fluvial de 3 km de areia fina às margens do rio Santa Maria, com comércio, camping e praça infantil adaptada. Desde 2018 tem cadeira de rodas anfíbia para banho de pessoas com deficiência."
+   },
+   {
+    "nome": "Concurso de pandorgas",
+    "km": "na cidade",
+    "desc": "Na Semana Santa, a Praia das Areias Brancas recebe o concurso municipal de pandorgas, com prêmios para a maior, a menor e a mais criativa, e categoria para estudantes."
+   },
+   {
+    "nome": "Desfile Tradicional de 20 de Setembro",
+    "km": "na cidade",
+    "desc": "Grande desfile a cavalo que celebra a Revolução Farroupilha todo 20 de setembro."
+   },
+   {
+    "nome": "Ponte Marechal José de Abreu",
+    "km": "na cidade",
+    "desc": "Inaugurada em 1969, cruza o rio Santa Maria com 1.772 m de extensão, uma das maiores pontes do estado."
+   },
+   {
+    "nome": "Teatro Municipal João Pessoa e Museu Honório Lemes",
+    "km": "na cidade",
+    "desc": "O teatro foi inaugurado em 1912 e o museu municipal, em 1973. São os espaços culturais históricos da cidade."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Praia das Areias Brancas)",
+    "url": "https://pt.wikipedia.org/wiki/Praia_das_Areias_Brancas"
+   },
+   {
+    "nome": "Wikipedia em inglês (Rosário do Sul)",
+    "url": "https://en.wikipedia.org/wiki/Ros%C3%A1rio_do_Sul"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Antes de entrar no rio, confira os boletins de balneabilidade da Fepam: a água da Areias Brancas costuma ter baixa contaminação, mas às vezes é declarada imprópria para banho.",
+  "Confira se o imóvel fica na sede ou em um dos cinco distritos do interior. O município passa de 4.300 km², e as distâncias até a sede podem ser longas.",
+  "No verão, a orla da Areias Brancas fica cheia de turistas. Se a mudança cair em janeiro ou fevereiro, reserve hospedagem com antecedência."
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "slug": "epitaciolandia-ac",
+ "lede": "Antiga Vila Epitácio Pessoa, emancipada de Brasileia em 1992, Epitaciolândia forma com a vizinha e com Cobija, na Bolívia, um aglomerado de fronteira de cerca de 50 mil pessoas.",
+ "cidade": {
+  "paragrafos": [
+   "A cidade nasceu nas terras do antigo Seringal Bela Flor, na margem direita do rio Acre. O povoado ganhou o nome de Vila Epitácio Pessoa, em homenagem ao presidente da República, e por volta de 1958 já tinha comércio, igrejas e escolas. Em 13 de abril de 1992, um plebiscito aprovou a emancipação com 95% dos votos válidos, e a Lei nº 1.026, de 28 de abril de 1992, criou o município, desmembrado de Brasileia. O Censo 2022 contou 18.757 moradores. Uma estimativa recente do IBGE aponta 19.874.",
+   "A economia gira em torno do comércio e da pecuária. O comércio atende moradores, bolivianos e vizinhos de Brasileia, e os hotéis recebem quem vem de Rio Branco para comprar na zona franca de Cobija. As três cidades se completam: Epitaciolândia concentra supermercados e uma agência do Banco do Brasil, Brasileia tem Correios, o Hospital Regional e um campus da Ufac, e Cobija tem a zona franca e uma universidade. A lei criou a Área de Livre Comércio de Brasileia e Epitaciolândia, mas ela ainda não foi regulamentada.",
+   "O município tem 1.652 km² e faz divisa com Xapuri ao norte, com a Bolívia ao sul e a leste e com Brasileia a oeste. O rio Acre separa Epitaciolândia de Brasileia, e as duas formam o terceiro maior aglomerado urbano do estado. A área urbana encosta em Cobija, capital do departamento boliviano de Pando, que tinha 78.555 moradores em 2020 e tem aeroporto com voos para outras cidades bolivianas. A Ponte Binacional Wilson Pinheiro, de 2004, liga Brasileia a Cobija. Rio Branco fica a cerca de 240 km pela BR-317, toda asfaltada."
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Epitaciolândia)",
+    "url": "https://pt.wikipedia.org/wiki/Epitaciol%C3%A2ndia"
+   },
+   {
+    "nome": "Wikipédia (Brasileia)",
+    "url": "https://pt.wikipedia.org/wiki/Brasil%C3%A9ia"
+   },
+   {
+    "nome": "Wikipédia (Cobija)",
+    "url": "https://pt.wikipedia.org/wiki/Cobija"
+   },
+   {
+    "nome": "Wikipedia (Wilson Pinheiro Binational Bridge)",
+    "url": "https://en.wikipedia.org/wiki/Wilson_Pinheiro_Binational_Bridge"
+   },
+   {
+    "nome": "Radar Brasil (estimativa do IBGE)",
+    "url": "https://www.radarbrasil.com.br/ac/epitaciolandia/populacao"
+   },
+   {
+    "nome": "IBGE Cidades (Epitaciolândia)",
+    "url": "https://www.ibge.gov.br/cidades-e-estados/ac/epitaciolandia.html"
+   }
+  ]
+ },
+ "custo_extra": {
+  "paragrafos": [
+   "Não há tarifa de ônibus urbano nem preço local de combustível publicado pela ANP para a cidade. Em Rio Branco, a média foi de R$ 7,27 na semana de 1º a 7 de novembro de 2026.",
+   "A cesta básica de referência é a de Rio Branco, capital do estado: R$ 710,92 em outubro de 2026, segundo o DIEESE. Muitos moradores fazem compras na zona franca de Cobija, a maior da Bolívia, onde roupas, eletrônicos e brinquedos costumam sair mais baratos que no Brasil. Na volta, as compras seguem a cota de isenção da Receita Federal; confira o valor em vigor antes de comprar."
+  ],
+  "fontes": [
+   {
+    "nome": "Portal Acre (gasolina em Rio Branco, nov/2026)",
+    "url": "https://portalacre.com.br/2026/11/gasolina-e-gas-de-cozinha-seguem-acima-da-media-nacional-em-rio-branco-aponta-anp/"
+   },
+   {
+    "nome": "DIEESE (cesta básica, out/2026)",
+    "url": "https://www.dieese.org.br/analisecestabasica/2026/202610cestabasica.pdf"
+   },
+   {
+    "nome": "Wikipédia (Cobija)",
+    "url": "https://pt.wikipedia.org/wiki/Cobija"
+   },
+   {
+    "nome": "Wikipedia (Wilson Pinheiro Binational Bridge)",
+    "url": "https://en.wikipedia.org/wiki/Wilson_Pinheiro_Binational_Bridge"
+   }
+  ]
+ },
+ "lazer": {
+  "intro": "O lazer da fronteira mistura compras em Cobija e a história do Alto Acre. Xapuri, a cidade de Chico Mendes, é vizinha ao norte e rende um bom passeio de fim de semana.",
+  "lugares": [
+   {
+    "nome": "Zona franca de Cobija (Bolívia)",
+    "km": "do outro lado da fronteira",
+    "desc": "A maior zona franca da Bolívia, com lojas de roupas, eletrônicos e brinquedos. Atrai compradores de todo o Acre, sobretudo nos fins de semana."
+   },
+   {
+    "nome": "Ponte Binacional Wilson Pinheiro",
+    "km": "em Brasileia, ao lado",
+    "desc": "Ponte estaiada de 150 metros sobre o rio Acre, inaugurada em 2004, que liga Brasileia a Cobija. O nome homenageia o sindicalista Wilson Pinheiro, morto em Brasileia."
+   },
+   {
+    "nome": "Memorial Wilson Pinheiro",
+    "km": "em Brasileia, ao lado",
+    "desc": "Instalado na antiga sede do sindicato dos trabalhadores rurais de Brasileia, conta a história do líder que dá nome à ponte. Parada curta com valor histórico."
+   },
+   {
+    "nome": "Casa de Chico Mendes",
+    "km": "em Xapuri, município vizinho",
+    "desc": "Casa onde viveu o seringueiro e ambientalista, tombada pelo Iphan e reaberta à visitação em novembro de 2023. Na mesma rua, a Fundação Chico Mendes guarda fotos e objetos pessoais."
+   },
+   {
+    "nome": "Museu Casa Branca",
+    "km": "em Xapuri, município vizinho",
+    "desc": "Casarão de madeira de dois andares onde funcionava a intendência boliviana, tomada em 1902 na Revolução Acreana. Boa aula de história para os filhos."
+   },
+   {
+    "nome": "Seringal Cachoeira",
+    "km": "a ~40 min do centro de Xapuri",
+    "desc": "Sede do Assentamento Agroextrativista Chico Mendes, com passeio ecológico na floresta e chalés de uma pousada ecológica. Confirme antes se está recebendo visitantes."
+   }
+  ],
+  "fontes": [
+   {
+    "nome": "Wikipédia (Cobija)",
+    "url": "https://pt.wikipedia.org/wiki/Cobija"
+   },
+   {
+    "nome": "Wikipedia (Wilson Pinheiro Binational Bridge)",
+    "url": "https://en.wikipedia.org/wiki/Wilson_Pinheiro_Binational_Bridge"
+   },
+   {
+    "nome": "Guia da Semana (Os mistérios do Alto Acre)",
+    "url": "https://www.guiadasemana.com.br/turismo/noticia/os-misterios-do-alto-acre"
+   },
+   {
+    "nome": "Wikipédia (Xapuri)",
+    "url": "https://pt.wikipedia.org/wiki/Xapuri"
+   },
+   {
+    "nome": "Agência Gov (reabertura da Casa de Chico Mendes, nov/2023)",
+    "url": "https://agenciagov.ebc.com.br/noticias/202311/simbolo-da-luta-ambientalista-casa-de-chico-mendes-e-reaberta-ao-publico-em-xapuri-ac"
+   }
+  ]
+ },
+ "antes_de_ir": [
+  "Pergunte se o imóvel já foi alagado. Em fevereiro de 2024, o rio Acre chegou a 15,56 m em Brasileia, a maior cheia já registrada, e Epitaciolândia esteve entre as cidades mais atingidas.",
+  "Leve agasalhos: Brasileia e Epitaciolândia registram as temperaturas mais baixas do Acre nas ondas de frio. A estação do INMET na cidade marcou 5,8 °C em 5 de agosto de 2019.",
+  "Na seca, o ar fica muito seco: a umidade já caiu a 16% em agosto. Reforce a água das crianças e evite atividades ao ar livre nas horas mais quentes.",
+  "Cobija segue o horário da Bolívia (UTC−4), uma hora à frente do Acre. Leve isso em conta nos horários de lojas e compromissos do outro lado."
+ ]
+}
