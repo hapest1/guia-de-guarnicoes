@@ -1,0 +1,55 @@
+# Compilação do app do iPhone no Codemagic (Mac na nuvem) e envio para o TestFlight.
+# Usa a mesma chave de API do App Store Connect já cadastrada para o Missão Idiomas
+# (Codemagic > Teams > Integrations > App Store Connect > "missao-idiomas"). A chave vale para todos os apps da conta.
+workflows:
+  ios-testflight:
+    name: Guia de Guarnições iOS → TestFlight
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: missao-idiomas
+    environment:
+      node: 22
+      xcode: latest
+      vars:
+        # IDs do AdMob (não são secretos). Vazios = anúncios de TESTE do Google.
+        ADMOB_APP_ID_IOS: ""      # ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
+        ADMOB_BANNER_ID_IOS: ""   # ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.guiadeguarnicoes.app
+    # Sem gatilho automático: o site recebe muitos commits, e cada build gasta minutos de Mac.
+    # Inicie pelo botão "Start new build" no Codemagic quando quiser uma versão nova do app.
+    scripts:
+      - name: Dependências
+        script: cd app && npm ci
+      - name: Conteúdo do app (build do site)
+        script: |
+          cd app
+          if [ -n "$ADMOB_BANNER_ID_IOS" ]; then export ADMOB_TESTING=0; else echo "Aviso: sem ADMOB_BANNER_ID_IOS, usando anúncios de teste"; fi
+          npm run build
+      - name: Projeto iOS
+        script: cd app && npx cap sync ios
+      - name: ID do app no AdMob
+        script: |
+          if [ -n "$ADMOB_APP_ID_IOS" ]; then
+            /usr/libexec/PlistBuddy -c "Set :GADApplicationIdentifier $ADMOB_APP_ID_IOS" app/ios/App/App/Info.plist
+          fi
+      - name: Assinatura (certificado e perfil automáticos pela chave de API)
+        script: |
+          xcode-project use-profiles --project app/ios/App/App.xcodeproj
+      - name: Número da versão
+        script: |
+          # número do build = data e hora (UTC, aammddHHMM): sempre maior que o anterior
+          N=$(date -u +%y%m%d%H%M)
+          echo "Build número $N"
+          cd app/ios/App && agvtool new-version -all $N
+      - name: Compilar
+        script: |
+          xcode-project build-ipa --project app/ios/App/App.xcodeproj --scheme App
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false   # o build fica no TestFlight para testes internos
