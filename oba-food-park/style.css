@@ -243,6 +243,7 @@ p { margin: 0; }
 .roda { width: 100%; height: auto; transition: transform 4.2s cubic-bezier(.12, .7, .08, 1); filter: drop-shadow(0 20px 40px rgba(0, 0, 0, .5)); }
 .roda text { font: 700 9px var(--texto); fill: #fff; }
 .roda .fatia-emoji { font-size: 17px; }
+.roda .fatia-nome { font-size: 7.5px; }
 .roda-seta {
   position: absolute; top: -8px; left: 50%; transform: translateX(-50%); z-index: 2;
   width: 0; height: 0; border-left: 18px solid transparent; border-right: 18px solid transparent; border-top: 32px solid var(--amarelo);
@@ -328,7 +329,7 @@ p { margin: 0; }
   .topo-acoes { margin-left: auto; }
   .hero-in, .duas-col, .roleta-in { grid-template-columns: 1fr; }
   .hero { padding-top: 36px; }
-  .hero-arte { max-width: 520px; margin-inline: auto; width: 100%; order: -1; }
+  .hero-arte { max-width: 520px; margin-inline: auto; width: 100%; margin-top: 8px; margin-bottom: 26px; }
   .linha { grid-template-columns: 1fr 1fr; row-gap: 34px; }
   .linha::before { display: none; }
   .mapa { position: static; aspect-ratio: 4 / 3; }
@@ -351,4 +352,35 @@ p { margin: 0; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
   .faixa-trilho { transform: none; }
+}
+
+/* ---------- fotos reais ---------- */
+.logo-avatar { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; align-self: center; border: 2px solid var(--amarelo); flex: none; }
+.marca { align-items: center; }
+.rodape-in > div:first-child { display: grid; grid-template-columns: auto 1fr; column-gap: 14px; align-items: center; }
+.rodape-in > div:first-child .logo-avatar { width: 64px; height: 64px; grid-row: span 2; }
+
+.hero-arte { margin: 0; position: relative; justify-self: center; width: min(100%, 460px); }
+.hero-foto { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 26px; transform: rotate(1.5deg);
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .7), 0 0 0 6px rgba(255, 197, 46, .14); background: var(--noite-3); }
+.hero-logos { position: absolute; left: -18px; bottom: 26px; display: flex; padding: 8px 10px 8px 8px; background: var(--creme); border-radius: 999px;
+  box-shadow: 0 14px 30px -10px rgba(0, 0, 0, .6); transform: rotate(-2deg); }
+.hero-logos img { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 3px solid var(--creme); margin-left: -12px; background: #fff; }
+.hero-logos img:first-child { margin-left: 0; }
+
+.loja-logo { object-fit: cover; }
+.res-emoji img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; border: 3px solid var(--cor); }
+.parceiro-logo { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; vertical-align: middle; margin-right: 6px; display: inline-block; }
+
+.grade-galeria { grid-template-columns: repeat(3, 1fr); grid-auto-rows: auto; }
+.foto { aspect-ratio: 3 / 4; }
+
+@media (max-width: 980px) {
+  .hero-arte { width: min(100%, 420px); }
+  .hero-foto { aspect-ratio: 5 / 4; transform: none; }
+  .hero-logos { left: 12px; bottom: -22px; }
+}
+@media (max-width: 560px) {
+  .grade-galeria { grid-template-columns: 1fr 1fr; grid-auto-rows: auto; gap: 8px; }
+  .hero-logos img { width: 42px; height: 42px; }
 }

@@ -12,11 +12,17 @@ window.OBA = {
 
   /* IMAGENS — coloque os arquivos na pasta img/ e escreva o nome aqui.
      Enquanto estiver null, o site usa as ilustrações. */
-  logo: null,                         // ex.: "img/oba-logo.png" (fundo transparente)
+  logo: "img/logo-oba.webp",          // foto de perfil (aparece redonda)
+  fotoCapa: "img/hero.webp",          // foto grande do topo do site
 
   /* Fotos do parque para a galeria. Some sozinha se estiver vazia. */
   galeria: [
-    // { src: "img/parque-noite.jpg", pt: "O parque lotado na inauguração", es: "El parque lleno en la inauguración" },
+    { src: "img/parque-2.webp", pt: "Mesas cheias debaixo das luzes", es: "Mesas llenas bajo las luces" },
+    { src: "img/parque-1.webp", pt: "A fachada no fim de tarde, na Presidente Vargas", es: "La fachada al atardecer, sobre la Presidente Vargas" },
+    { src: "img/parque-6.webp", pt: "O letreiro aceso à noite", es: "El cartel encendido de noche" },
+    { src: "img/parque-3.webp", pt: "Os contêineres com as marcas das lojas", es: "Los contenedores con las marcas de los locales" },
+    { src: "img/parque-5.webp", pt: "O balcão do Sr. Batata, com painel de senha", es: "El mostrador de Sr. Batata, con pantalla de turnos" },
+    { src: "img/parque-4.webp", pt: "Setembro: os primeiros contêineres chegando", es: "Septiembre: llegan los primeros contenedores" }
   ],
 
   /* 0 = domingo ... 6 = sábado. null = fechado.
@@ -48,8 +54,8 @@ window.OBA = {
       cor: "#FF5A1F",
       cats: ["pizza"],
       ig: "obapizzas_foodtruck",
-      logo: null,   // ex.: "img/logo-xxx.png"
-      foto: null,   // ex.: "img/foto-xxx.jpg"
+      logo: "img/logo-oba-pizzas.webp",
+      foto: "img/foto-oba-pizzas.webp",
       pt: { tipo: "Pizzaria", desc: "A pizzaria do food truck que trouxe o primeiro food park para Uruguaiana. Pizza quentinha saindo direto do forno." },
       es: { tipo: "Pizzería", desc: "La pizzería del food truck que trajo el primer food park a Uruguaiana. Pizza recién salida del horno." }
     },
@@ -60,10 +66,10 @@ window.OBA = {
       cor: "#E8B100",
       cats: ["massa"],
       ig: "aldente_uruguaiana",
-      logo: null,   // ex.: "img/logo-xxx.png"
-      foto: null,   // ex.: "img/foto-xxx.jpg"
-      pt: { tipo: "Massas", desc: "Massas feitas na hora, do jeito que a fome pede. Para quem quer jantar de verdade." },
-      es: { tipo: "Pastas", desc: "Pastas hechas en el momento, como pide el hambre. Para quien quiere cenar de verdad." }
+      logo: "img/logo-al-dente.webp",
+      foto: "img/foto-al-dente.webp",
+      pt: { tipo: "Massas prontas na hora", desc: "Massa servida na hora, no contêiner com o letreiro MASSA. Para quem quer jantar de verdade." },
+      es: { tipo: "Pastas al momento", desc: "Pasta servida al momento, en el contenedor con el cartel MASSA. Para quien quiere cenar de verdad." }
     },
     {
       id: "sr-batata",
@@ -72,10 +78,10 @@ window.OBA = {
       cor: "#C2410C",
       cats: ["batata"],
       ig: null,
-      logo: null,   // ex.: "img/logo-xxx.png"
-      foto: null,   // ex.: "img/foto-xxx.jpg"
-      pt: { tipo: "Batatas", desc: "Batatas recheadas e a tradicional batata com cheddar e bacon. Para dividir… ou não." },
-      es: { tipo: "Papas", desc: "Papas rellenas y la clásica papa con cheddar y bacon. Para compartir… o no." }
+      logo: "img/logo-sr-batata.webp",
+      foto: "img/foto-sr-batata.webp",
+      pt: { tipo: "A batata é a estrela", desc: "Batata frita, a tradicional com cheddar e bacon e tábuas para dividir com a mesa toda." },
+      es: { tipo: "La papa es la estrella", desc: "Papas fritas, la clásica con cheddar y bacon y tablas para compartir con toda la mesa." }
     },
     {
       id: "fronteira-acai",
@@ -84,8 +90,8 @@ window.OBA = {
       cor: "#7C3AED",
       cats: ["acai", "doce"],
       ig: "fronteira.acai",
-      logo: null,   // ex.: "img/logo-xxx.png"
-      foto: null,   // ex.: "img/foto-xxx.jpg"
+      logo: "img/logo-fronteira-acai.webp",
+      foto: "img/foto-fronteira-acai.webp",
       pt: { tipo: "Açaí, sucos & doces", desc: "Açaí montado do seu jeito, sucos e doces. “O melhor da Fronteira”, como eles mesmos dizem." },
       es: { tipo: "Açaí, jugos y dulces", desc: "Açaí armado a tu gusto, jugos y dulces. “Lo mejor de la Frontera”, como dicen ellos." }
     },
@@ -96,14 +102,14 @@ window.OBA = {
       cor: "#EC4899",
       cats: ["doce"],
       ig: "pipocspipoca",
-      logo: null,   // ex.: "img/logo-xxx.png"
-      foto: null,   // ex.: "img/foto-xxx.jpg"
+      logo: "img/logo-pipocs.webp",
+      foto: "img/foto-pipocs.webp",
       pt: { tipo: "Gelato, pipoca & cookies", desc: "A segunda loja da Pipocs: gelato, pipoca gourmet e cookies recheados. Loja nº 2 do parque." },
       es: { tipo: "Helado, pochoclo y cookies", desc: "El segundo local de Pipocs: gelato, pochoclo gourmet y cookies rellenos. Local nº 2 del parque." }
     }
   ],
 
   parceiros: [
-    { nome: "Elevepan", ig: "artesanais_elevepan", pt: "pães dos hambúrgueres", es: "panes de las hamburguesas" }
+    { nome: "Elevepan", ig: "artesanais_elevepan", logo: "img/logo-elevepan.webp", pt: "pães dos hambúrgueres", es: "panes de las hamburguesas" }
   ]
 };

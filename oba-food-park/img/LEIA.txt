@@ -1,4 +1,0 @@
-Coloque aqui os logos e fotos (JPG/PNG/WebP, de preferência até 300 KB cada).
-Depois escreva o caminho em dados.js, por exemplo: logo: "img/logo-oba-pizzas.png"
-- Logos: quadrados, idealmente 400x400.
-- Fotos das lojas: horizontais, idealmente 1200x800.

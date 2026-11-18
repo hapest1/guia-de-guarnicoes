@@ -20,6 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.webp">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {
@@ -99,53 +100,10 @@
       </ul>
     </div>
 
-    <div class="hero-arte" aria-hidden="true">
-      <svg viewBox="0 0 520 460" class="conteineres">
-        <defs>
-          <pattern id="ondas" width="14" height="10" patternUnits="userSpaceOnUse">
-            <rect width="7" height="10" fill="rgba(0,0,0,.14)"/>
-          </pattern>
-        </defs>
-        <!-- fio de luz -->
-        <path d="M10 40 Q130 95 260 50 T510 45" class="fio"/>
-        <g class="lampadas">
-          <circle cx="45" cy="55" r="7"/><circle cx="95" cy="72" r="7"/><circle cx="150" cy="78" r="7"/>
-          <circle cx="205" cy="68" r="7"/><circle cx="260" cy="52" r="7"/><circle cx="315" cy="40" r="7"/>
-          <circle cx="370" cy="40" r="7"/><circle cx="425" cy="46" r="7"/><circle cx="480" cy="47" r="7"/>
-        </g>
-        <!-- contêiner de cima -->
-        <g class="ct ct-3">
-          <rect x="150" y="150" width="250" height="110" rx="4" fill="#1FB5A8"/>
-          <rect x="150" y="150" width="250" height="110" rx="4" fill="url(#ondas)"/>
-          <rect x="175" y="178" width="200" height="54" rx="4" fill="#0E1512"/>
-          <text x="275" y="214" text-anchor="middle" class="ct-letreiro">OBA!</text>
-        </g>
-        <!-- contêineres de baixo -->
-        <g class="ct ct-1">
-          <rect x="20" y="270" width="240" height="120" rx="4" fill="#FF5A1F"/>
-          <rect x="20" y="270" width="240" height="120" rx="4" fill="url(#ondas)"/>
-          <rect x="45" y="298" width="130" height="62" rx="3" fill="#FFE7C7"/>
-          <path d="M40 298 h140 l-10 -16 h-120z" fill="#FFC52E"/>
-          <text x="110" y="340" text-anchor="middle" class="ct-emoji">🍕🍝</text>
-          <rect x="195" y="300" width="45" height="90" fill="rgba(0,0,0,.22)"/>
-        </g>
-        <g class="ct ct-2">
-          <rect x="268" y="270" width="232" height="120" rx="4" fill="#EC4899"/>
-          <rect x="268" y="270" width="232" height="120" rx="4" fill="url(#ondas)"/>
-          <rect x="350" y="298" width="130" height="62" rx="3" fill="#FFE7C7"/>
-          <path d="M345 298 h140 l-10 -16 h-120z" fill="#FFC52E"/>
-          <text x="415" y="340" text-anchor="middle" class="ct-emoji">🍿🍇</text>
-          <rect x="285" y="300" width="45" height="90" fill="rgba(0,0,0,.22)"/>
-        </g>
-        <!-- chão e mesas -->
-        <rect x="0" y="390" width="520" height="8" fill="#3A2C22"/>
-        <g class="mesa">
-          <rect x="70" y="420" width="90" height="8" rx="3"/><rect x="110" y="428" width="10" height="26"/>
-          <rect x="230" y="420" width="90" height="8" rx="3"/><rect x="270" y="428" width="10" height="26"/>
-          <rect x="390" y="420" width="90" height="8" rx="3"/><rect x="430" y="428" width="10" height="26"/>
-        </g>
-      </svg>
-    </div>
+    <figure class="hero-arte">
+      <img class="hero-foto" id="heroFoto" alt="Fachada do OBA Food Park ao entardecer, com as luzes acesas" width="880" height="1100" fetchpriority="high">
+      <figcaption class="hero-logos" id="heroLogos"></figcaption>
+    </figure>
   </div>
 </section>
 

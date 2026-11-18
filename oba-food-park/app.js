@@ -213,25 +213,30 @@
   function montarParceiros() {
     var u = t();
     $("#parceiros").innerHTML = u.parceiros + " " + D.parceiros.map(function (p) {
-      return '<a href="https://www.instagram.com/' + esc(p.ig) + '/" target="_blank" rel="noopener">' + esc(p.nome) + "</a> (" + esc(p[lang]) + ")";
+      return (p.logo ? '<img class="parceiro-logo" src="' + esc(p.logo) + '" alt="" width="28" height="28">' : "") +
+        '<a href="https://www.instagram.com/' + esc(p.ig) + '/" target="_blank" rel="noopener">' + esc(p.nome) + "</a> (" + esc(p[lang]) + ")";
     }).join(", ") + ".";
   }
 
   /* ---------------- logo e galeria ---------------- */
   if (D.logo) {
-    $$(".marca-oba").forEach(function (el) {
+    $$(".marca, .rodape-in > div:first-child").forEach(function (el) {
       var img = document.createElement("img");
-      img.src = D.logo; img.alt = "OBA Food Park"; img.className = "logo-img";
-      el.replaceWith(img);
+      img.src = D.logo; img.alt = ""; img.className = "logo-avatar";
+      el.insertBefore(img, el.firstChild);
     });
   }
+  if (D.fotoCapa) $("#heroFoto").src = D.fotoCapa;
+  $("#heroLogos").innerHTML = D.lojas.filter(function (l) { return l.logo; }).map(function (l) {
+    return '<img src="' + esc(l.logo) + '" alt="' + esc(l.nome) + '" title="' + esc(l.nome) + '" width="56" height="56">';
+  }).join("");
   function montarGaleria() {
     var sec = $("#galeria");
     if (!D.galeria || !D.galeria.length) { sec.hidden = true; return; }
     sec.hidden = false;
     $("#gradeGaleria").innerHTML = D.galeria.map(function (g, i) {
       var leg = g[lang] || g.pt || "";
-      return '<figure class="foto' + (i === 0 ? " foto-grande" : "") + '"><button type="button" data-i="' + i + '" aria-label="' + esc(leg || "Foto") + '">' +
+      return '<figure class="foto"><button type="button" data-i="' + i + '" aria-label="' + esc(leg || "Foto") + '">' +
         '<img src="' + esc(g.src) + '" alt="' + esc(leg) + '" loading="lazy"></button>' + (leg ? "<figcaption>" + esc(leg) + "</figcaption>" : "") + "</figure>";
     }).join("");
     $$("#gradeGaleria button").forEach(function (b) {
@@ -271,8 +276,12 @@
       var x0 = r * Math.cos(a0), y0 = r * Math.sin(a0), x1 = r * Math.cos(a1), y1 = r * Math.sin(a1);
       html += '<path d="M0 0 L' + x0.toFixed(2) + " " + y0.toFixed(2) + " A" + r + " " + r + " 0 0 1 " + x1.toFixed(2) + " " + y1.toFixed(2) + 'Z" fill="' + l.cor + '" stroke="#16110D" stroke-width="2"/>';
       var am = i * passo;
-      html += '<g transform="rotate(' + am + ')"><text class="fatia-emoji" x="0" y="-70" text-anchor="middle" dominant-baseline="middle">' + l.emoji + "</text>" +
-        '<text x="0" y="-48" text-anchor="middle" dominant-baseline="middle">' + esc(l.nome) + "</text></g>";
+      var miolo = l.logo
+        ? '<clipPath id="cl' + i + '"><circle cx="0" cy="-72" r="17"/></clipPath><circle cx="0" cy="-72" r="19" fill="#fff"/>' +
+          '<image href="' + esc(l.logo) + '" x="-17" y="-89" width="34" height="34" clip-path="url(#cl' + i + ')" preserveAspectRatio="xMidYMid slice"/>'
+        : '<text class="fatia-emoji" x="0" y="-70" text-anchor="middle" dominant-baseline="middle">' + l.emoji + "</text>";
+      html += '<g transform="rotate(' + am + ')">' + miolo +
+        '<text class="fatia-nome" x="0" y="-44" text-anchor="middle" dominant-baseline="middle">' + esc(l.nome) + "</text></g>";
     });
     html += '<circle r="20" fill="#16110D"/><circle r="14" fill="#FFC52E"/><text y="1" text-anchor="middle" dominant-baseline="middle" style="font:800 8px Bricolage Grotesque,sans-serif;fill:#16110D">OBA!</text>';
     html += '<circle r="104" fill="none" stroke="#FFC52E" stroke-width="5"/>';
@@ -282,7 +291,7 @@
   function mostrarResultado(l, anima) {
     var u = t();
     var link = l.ig ? '<a href="https://www.instagram.com/' + esc(l.ig) + '/" target="_blank" rel="noopener">' + u.resGo + "</a>" : "";
-    $("#roletaRes").innerHTML = '<div class="res-cartao" style="--cor:' + l.cor + (anima ? "" : ";animation:none") + '"><span class="res-emoji" aria-hidden="true">' + l.emoji +
+    $("#roletaRes").innerHTML = '<div class="res-cartao" style="--cor:' + l.cor + (anima ? "" : ";animation:none") + '"><span class="res-emoji" aria-hidden="true">' + (l.logo ? '<img src="' + esc(l.logo) + '" alt="" width="64" height="64">' : l.emoji) +
       "</span><div><small>" + u.resPre + "</small><b>" + esc(l.nome) + "</b><br>" + link + "</div></div>";
   }
 
