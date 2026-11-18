@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>OBA Food Park · Uruguaiana</title>
+<meta name="description" content="O 1º food park de Uruguaiana: pizza, massas, batatas, açaí, gelato e muito mais num só lugar. Terça a domingo, das 18h à meia-noite, na Av. Presidente Vargas.">
+<meta name="theme-color" content="#16110D">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="es_AR">
+<meta property="og:title" content="OBA Food Park · Uruguaiana">
+<meta property="og:description" content="Várias opções de sabores, um único destino. Terça a domingo, 18h às 00h, Av. Presidente Vargas.">
+<meta property="og:image" content="https://guiadeguarnicoes.com/oba-food-park/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "name": "OBA Food Park",
+  "description": "O 1º food park de Uruguaiana, com várias lojas de comida em contêineres.",
+  "servesCuisine": ["Pizza", "Massas", "Batatas", "Açaí", "Gelato", "Doces"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Presidente Vargas (ao lado da Panvel)",
+    "addressLocality": "Uruguaiana",
+    "addressRegion": "RS",
+    "addressCountry": "BR"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "18:00", "closes": "23:59"
+  }],
+  "telephone": "+55 55 99677-6001",
+  "sameAs": ["https://www.instagram.com/oba_food_park/"]
+}
+</script>
+<script src="dados.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+
+<a class="pular" href="#lojas" data-i18n="pular">Pular para as lojas</a>
+
+<header class="topo" id="topo">
+  <div class="wrap topo-in">
+    <a href="#" class="marca" aria-label="OBA Food Park, início">
+      <span class="marca-oba">OBA<span>!</span></span>
+      <span class="marca-sub">FOOD PARK</span>
+    </a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#lojas" data-i18n="nav.lojas">Lojas</a>
+      <a href="#roleta" data-i18n="nav.roleta">Roleta</a>
+      <a href="#turma" data-i18n="nav.turma">Turma</a>
+      <a href="#chegar" data-i18n="nav.chegar">Como chegar</a>
+      <a href="#parceiro" data-i18n="nav.parceiro">Seja parceiro</a>
+    </nav>
+    <div class="topo-acoes">
+      <div class="idioma" role="group" aria-label="Idioma / Idioma">
+        <button type="button" data-lang="pt" aria-pressed="true">PT</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="luzes" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-txt">
+      <p class="status" id="status" aria-live="polite">
+        <span class="status-ponto"></span><span class="status-txt">…</span>
+      </p>
+      <h1>
+        <span data-i18n="hero.t1">Várias opções de sabores,</span>
+        <em data-i18n="hero.t2">um único destino.</em>
+      </h1>
+      <p class="hero-lead" data-i18n="hero.lead">O 1º food park de Uruguaiana. Pizza, massa, batata, açaí, gelato e o que mais der vontade, tudo no mesmo lugar, a céu aberto.</p>
+      <div class="hero-cta">
+        <a class="btn btn-quente" href="#lojas" data-i18n="hero.cta1">Ver as lojas</a>
+        <a class="btn btn-linha" href="#chegar" data-i18n="hero.cta2">Como chegar</a>
+      </div>
+      <ul class="hero-fatos">
+        <li><b data-i18n="fato.dias">Ter a Dom</b><span>18h – 00h</span></li>
+        <li><b>Av. Pres. Vargas</b><span data-i18n="fato.panvel">ao lado da Panvel</span></li>
+        <li><b id="qtdLojas">5</b><span data-i18n="fato.lojas">lojas e contando</span></li>
+      </ul>
+    </div>
+
+    <div class="hero-arte" aria-hidden="true">
+      <svg viewBox="0 0 520 460" class="conteineres">
+        <defs>
+          <pattern id="ondas" width="14" height="10" patternUnits="userSpaceOnUse">
+            <rect width="7" height="10" fill="rgba(0,0,0,.14)"/>
+          </pattern>
+        </defs>
+        <!-- fio de luz -->
+        <path d="M10 40 Q130 95 260 50 T510 45" class="fio"/>
+        <g class="lampadas">
+          <circle cx="45" cy="55" r="7"/><circle cx="95" cy="72" r="7"/><circle cx="150" cy="78" r="7"/>
+          <circle cx="205" cy="68" r="7"/><circle cx="260" cy="52" r="7"/><circle cx="315" cy="40" r="7"/>
+          <circle cx="370" cy="40" r="7"/><circle cx="425" cy="46" r="7"/><circle cx="480" cy="47" r="7"/>
+        </g>
+        <!-- contêiner de cima -->
+        <g class="ct ct-3">
+          <rect x="150" y="150" width="250" height="110" rx="4" fill="#1FB5A8"/>
+          <rect x="150" y="150" width="250" height="110" rx="4" fill="url(#ondas)"/>
+          <rect x="175" y="178" width="200" height="54" rx="4" fill="#0E1512"/>
+          <text x="275" y="214" text-anchor="middle" class="ct-letreiro">OBA!</text>
+        </g>
+        <!-- contêineres de baixo -->
+        <g class="ct ct-1">
+          <rect x="20" y="270" width="240" height="120" rx="4" fill="#FF5A1F"/>
+          <rect x="20" y="270" width="240" height="120" rx="4" fill="url(#ondas)"/>
+          <rect x="45" y="298" width="130" height="62" rx="3" fill="#FFE7C7"/>
+          <path d="M40 298 h140 l-10 -16 h-120z" fill="#FFC52E"/>
+          <text x="110" y="340" text-anchor="middle" class="ct-emoji">🍕🍝</text>
+          <rect x="195" y="300" width="45" height="90" fill="rgba(0,0,0,.22)"/>
+        </g>
+        <g class="ct ct-2">
+          <rect x="268" y="270" width="232" height="120" rx="4" fill="#EC4899"/>
+          <rect x="268" y="270" width="232" height="120" rx="4" fill="url(#ondas)"/>
+          <rect x="350" y="298" width="130" height="62" rx="3" fill="#FFE7C7"/>
+          <path d="M345 298 h140 l-10 -16 h-120z" fill="#FFC52E"/>
+          <text x="415" y="340" text-anchor="middle" class="ct-emoji">🍿🍇</text>
+          <rect x="285" y="300" width="45" height="90" fill="rgba(0,0,0,.22)"/>
+        </g>
+        <!-- chão e mesas -->
+        <rect x="0" y="390" width="520" height="8" fill="#3A2C22"/>
+        <g class="mesa">
+          <rect x="70" y="420" width="90" height="8" rx="3"/><rect x="110" y="428" width="10" height="26"/>
+          <rect x="230" y="420" width="90" height="8" rx="3"/><rect x="270" y="428" width="10" height="26"/>
+          <rect x="390" y="420" width="90" height="8" rx="3"/><rect x="430" y="428" width="10" height="26"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAIXA ============ -->
+<div class="faixa" aria-hidden="true">
+  <div class="faixa-trilho">
+    <span>🍕 Pizza</span><span>🍝 Massas</span><span>🥔 Batata com cheddar e bacon</span><span>🍇 Açaí</span><span>🍨 Gelato</span><span>🍿 Pipoca gourmet</span><span>🍪 Cookies</span><span>🍔 Hambúrguer</span>
+    <span>🍕 Pizza</span><span>🍝 Massas</span><span>🥔 Batata com cheddar e bacon</span><span>🍇 Açaí</span><span>🍨 Gelato</span><span>🍿 Pipoca gourmet</span><span>🍪 Cookies</span><span>🍔 Hambúrguer</span>
+  </div>
+</div>
+
+<!-- ============ LOJAS ============ -->
+<section class="secao" id="lojas">
+  <div class="wrap">
+    <header class="secao-topo">
+      <p class="sobretitulo" data-i18n="lojas.sobre">Quem está no parque</p>
+      <h2 data-i18n="lojas.t">Escolhe o contêiner.</h2>
+      <p class="secao-lead" data-i18n="lojas.lead">Cada loja é independente: você pede em quantas quiser e senta onde preferir. Ideal para turma que nunca concorda no que comer.</p>
+    </header>
+
+    <div class="filtros" id="filtros" role="toolbar" aria-label="Filtrar lojas"></div>
+    <div class="grade-lojas" id="gradeLojas"></div>
+    <p class="parceiros" id="parceiros"></p>
+  </div>
+</section>
+
+<!-- ============ ROLETA ============ -->
+<section class="secao secao-escura" id="roleta">
+  <div class="wrap roleta-in">
+    <div class="roleta-txt">
+      <p class="sobretitulo" data-i18n="roleta.sobre">Indeciso?</p>
+      <h2 data-i18n="roleta.t">Deixa a roleta escolher.</h2>
+      <p class="secao-lead" data-i18n="roleta.lead">Gira e vai na fé. Se não gostar do resultado, ninguém precisa saber: gira de novo.</p>
+      <div class="roleta-opcoes" id="roletaOpcoes">
+        <span data-i18n="roleta.vontade">Hoje eu quero:</span>
+        <label><input type="radio" name="vontade" value="todos" checked> <span data-i18n="roleta.qualquer">qualquer coisa</span></label>
+        <label><input type="radio" name="vontade" value="salgado"> <span data-i18n="roleta.salgado">salgado</span></label>
+        <label><input type="radio" name="vontade" value="doce"> <span data-i18n="roleta.doce">doce</span></label>
+      </div>
+      <button class="btn btn-quente btn-grande" id="girar" type="button" data-i18n="roleta.girar">Girar a roleta</button>
+      <div class="roleta-res" id="roletaRes" aria-live="polite"></div>
+    </div>
+    <div class="roleta-roda">
+      <div class="roda-seta" aria-hidden="true"></div>
+      <svg viewBox="-110 -110 220 220" id="roda" class="roda" role="img" aria-label="Roleta das lojas"></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TURMA ============ -->
+<section class="secao" id="turma">
+  <div class="wrap duas-col">
+    <div>
+      <p class="sobretitulo" data-i18n="turma.sobre">Aniversário, happy hour, encontro da turma</p>
+      <h2 data-i18n="turma.t">Vai trazer a galera? Avisa antes.</h2>
+      <p class="secao-lead" data-i18n="turma.lead">Mesa grande, aniversário, confraternização da firma. Preenche aqui e a mensagem já vai pronta para o WhatsApp do parque.</p>
+      <ul class="lista-check">
+        <li data-i18n="turma.b1">Espaço a céu aberto, com mesas compartilhadas</li>
+        <li data-i18n="turma.b2">Cada um pede o que quer, sem cardápio único</li>
+        <li data-i18n="turma.b3">Terça a domingo, das 18h à meia-noite</li>
+      </ul>
+    </div>
+    <form class="cartao form" id="formTurma" novalidate>
+      <div class="campo">
+        <label for="tNome" data-i18n="f.nome">Seu nome</label>
+        <input id="tNome" name="nome" required autocomplete="name">
+      </div>
+      <div class="campo-duplo">
+        <div class="campo">
+          <label for="tData" data-i18n="f.data">Dia</label>
+          <input id="tData" name="data" type="date" required>
+        </div>
+        <div class="campo">
+          <label for="tHora" data-i18n="f.hora">Horário</label>
+          <select id="tHora" name="hora">
+            <option>18h</option><option>19h</option><option selected>20h</option><option>21h</option><option>22h</option>
+          </select>
+        </div>
+      </div>
+      <div class="campo">
+        <label for="tPessoas"><span data-i18n="f.pessoas">Quantas pessoas</span>: <output id="tPessoasOut">10</output></label>
+        <input id="tPessoas" name="pessoas" type="range" min="4" max="60" value="10">
+      </div>
+      <div class="campo">
+        <label for="tOcasiao" data-i18n="f.ocasiao">Ocasião</label>
+        <select id="tOcasiao" name="ocasiao">
+          <option value="aniversario" data-i18n="o.aniv">Aniversário</option>
+          <option value="happy" data-i18n="o.happy">Happy hour / firma</option>
+          <option value="turma" data-i18n="o.turma">Encontro da turma</option>
+          <option value="outro" data-i18n="o.outro">Outro</option>
+        </select>
+      </div>
+      <p class="form-erro" id="tErro" role="alert"></p>
+      <button class="btn btn-zap" type="submit"><span class="zap-ico" aria-hidden="true"></span><span data-i18n="f.enviar">Enviar pelo WhatsApp</span></button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ HISTÓRIA ============ -->
+<section class="secao secao-creme" id="historia">
+  <div class="wrap">
+    <header class="secao-topo">
+      <p class="sobretitulo" data-i18n="hist.sobre">Do papel para a Presidente Vargas</p>
+      <h2 data-i18n="hist.t">Como o OBA saiu do papel.</h2>
+    </header>
+    <ol class="linha">
+      <li>
+        <span class="linha-data" data-i18n="hist.d1">Agosto 2026</span>
+        <h3 data-i18n="hist.h1">A ideia ganha endereço</h3>
+        <p data-i18n="hist.p1">A turma da Oba Pizzas anuncia um espaço novo para reunir gastronomia e lazer em Uruguaiana.</p>
+      </li>
+      <li>
+        <span class="linha-data" data-i18n="hist.d2">Setembro 2026</span>
+        <h3 data-i18n="hist.h2">Chegam os contêineres</h3>
+        <p data-i18n="hist.p2">Os primeiros contêineres desembarcam no terreno e o parque começa a tomar forma.</p>
+      </li>
+      <li>
+        <span class="linha-data" data-i18n="hist.d3">Outubro 2026</span>
+        <h3 data-i18n="hist.h3">Lojas confirmadas</h3>
+        <p data-i18n="hist.p3">Massas, batatas, açaí, gelato e pipoca se juntam à pizza. A data da inauguração é anunciada.</p>
+      </li>
+      <li class="linha-destaque">
+        <span class="linha-data">12 · 11 · 2026</span>
+        <h3 data-i18n="hist.h4">Inauguração!</h3>
+        <p data-i18n="hist.p4">A partir das 20h, portas abertas e o parque lotado. Obrigado a todo mundo que veio.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ COMO CHEGAR ============ -->
+<section class="secao" id="chegar">
+  <div class="wrap duas-col duas-col-mapa">
+    <div>
+      <p class="sobretitulo" data-i18n="ch.sobre">Como chegar</p>
+      <h2 data-i18n="ch.t">Presidente Vargas, ao lado da Panvel.</h2>
+      <p class="secao-lead" data-i18n="ch.lead">Na avenida principal de Uruguaiana. Fácil de achar: procura as luzes e os contêineres coloridos.</p>
+      <div class="hermanos">
+        <p><b data-i18n="ch.hermanos.t">¿Venís de Paso de los Libres?</b></p>
+        <p data-i18n="ch.hermanos.p">Cruzá el puente y te esperamos en la Av. Presidente Vargas, al lado de Panvel. ¡Hay de todo para la familia!</p>
+      </div>
+      <div class="btns-mapa">
+        <a class="btn btn-quente" id="linkMaps" target="_blank" rel="noopener">Google Maps</a>
+        <a class="btn btn-linha" id="linkWaze" target="_blank" rel="noopener">Waze</a>
+        <button class="btn btn-linha" type="button" id="copiarEnd" data-i18n="ch.copiar">Copiar endereço</button>
+      </div>
+
+      <table class="horarios" aria-label="Horário de funcionamento">
+        <tbody id="tabHorarios"></tbody>
+      </table>
+    </div>
+    <div class="mapa cartao">
+      <iframe id="mapa" title="Mapa do OBA Food Park" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARCEIRO ============ -->
+<section class="secao secao-quente" id="parceiro">
+  <div class="wrap duas-col">
+    <div>
+      <p class="sobretitulo" data-i18n="p.sobre">Para empreendedores</p>
+      <h2 data-i18n="p.t">Sua marca num contêiner do OBA.</h2>
+      <p class="secao-lead" data-i18n="p.lead">Tem uma lanchonete, um food truck ou uma receita que todo mundo pede? O parque está crescendo. Conta pra gente o que você faz.</p>
+      <ul class="lista-check lista-check-claro">
+        <li data-i18n="p.b1">Público de terça a domingo, à noite</li>
+        <li data-i18n="p.b2">Estrutura pronta e divulgação conjunta</li>
+        <li data-i18n="p.b3">Vizinhança de marcas que já são conhecidas na cidade</li>
+      </ul>
+    </div>
+    <form class="cartao form" id="formParceiro" novalidate>
+      <div class="campo">
+        <label for="pNome" data-i18n="f.nome">Seu nome</label>
+        <input id="pNome" name="nome" required autocomplete="name">
+      </div>
+      <div class="campo">
+        <label for="pMarca" data-i18n="f.marca">Nome da marca</label>
+        <input id="pMarca" name="marca" required>
+      </div>
+      <div class="campo">
+        <label for="pTipo" data-i18n="f.tipo">O que você vende</label>
+        <input id="pTipo" name="tipo" required data-i18n-ph="f.tipo.ph" placeholder="Ex.: hambúrguer artesanal, pastel, chopp…">
+      </div>
+      <div class="campo">
+        <label for="pIg" data-i18n="f.ig">Instagram (opcional)</label>
+        <input id="pIg" name="ig" placeholder="@suamarca">
+      </div>
+      <p class="form-erro" id="pErro" role="alert"></p>
+      <button class="btn btn-zap" type="submit"><span class="zap-ico" aria-hidden="true"></span><span data-i18n="f.enviar">Enviar pelo WhatsApp</span></button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape-in">
+    <div>
+      <span class="marca-oba marca-oba-g">OBA<span>!</span></span>
+      <p class="rodape-sub">FOOD PARK · Uruguaiana/RS</p>
+    </div>
+    <div class="rodape-links">
+      <a href="https://www.instagram.com/oba_food_park/" target="_blank" rel="noopener">Instagram @oba_food_park</a>
+      <a id="rodapeZap" target="_blank" rel="noopener">WhatsApp (55) 99677-6001</a>
+    </div>
+    <p class="rodape-nota" data-i18n="rod.nota">Horários e lojas podem mudar em feriados e eventos. Na dúvida, confira o Instagram.</p>
+  </div>
+</footer>
+
+<a class="zap-flutuante" id="zapFlutuante" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><span class="zap-ico" aria-hidden="true"></span></a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
