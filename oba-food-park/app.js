@@ -30,6 +30,7 @@
     "hist.d2": "Septiembre 2026", "hist.h2": "Llegan los contenedores", "hist.p2": "Los primeros contenedores llegan al terreno y el parque empieza a tomar forma.",
     "hist.d3": "Octubre 2026", "hist.h3": "Locales confirmados", "hist.p3": "Pastas, papas, açaí, helado y pochoclo se suman a la pizza. Se anuncia la fecha de apertura.",
     "hist.h4": "¡Inauguración!", "hist.p4": "Desde las 20 h, puertas abiertas y el parque lleno. Gracias a todos los que vinieron.",
+    "gal.sobre": "Fotos", "gal.t": "Una noche en el OBA.",
     "ch.sobre": "Cómo llegar", "ch.t": "Presidente Vargas, al lado de Panvel.",
     "ch.lead": "Sobre la avenida principal de Uruguaiana. Fácil de encontrar: buscá las luces y los contenedores de colores.",
     "ch.copiar": "Copiar dirección",
@@ -120,6 +121,7 @@
     montarLojas();
     montarParceiros();
     montarHorarios();
+    montarGaleria();
     atualizarStatus();
     if (ultimoSorteio) mostrarResultado(ultimoSorteio, false);
   }
@@ -198,7 +200,9 @@
         ? '<a class="loja-ig" href="https://www.instagram.com/' + esc(l.ig) + '/" target="_blank" rel="noopener">@' + esc(l.ig) + " ↗</a>"
         : '<span class="loja-ig" style="color:var(--tinta-2)">' + u.semIg + "</span>";
       return '<article class="loja" style="--cor:' + l.cor + ";animation-delay:" + (i * 60) + 'ms">' +
-        '<div class="loja-topo"><span class="loja-num">' + u.loja.toUpperCase() + " " + String(num).padStart(2, "0") + '</span><span class="loja-emoji" aria-hidden="true">' + l.emoji + "</span></div>" +
+        '<div class="loja-topo' + (l.foto ? " com-foto" : "") + '"' + (l.foto ? ' style="background-image:linear-gradient(180deg,rgba(0,0,0,.35),transparent 45%),url(' + esc(l.foto) + ')"' : "") + '><span class="loja-num">' + u.loja.toUpperCase() + " " + String(num).padStart(2, "0") + "</span>" +
+        (l.foto ? "" : '<span class="loja-emoji" aria-hidden="true">' + l.emoji + "</span>") + "</div>" +
+        (l.logo ? '<img class="loja-logo" src="' + esc(l.logo) + '" alt="Logo ' + esc(l.nome) + '" loading="lazy" width="72" height="72">' : "") +
         '<div class="loja-corpo"><span class="loja-tipo">' + esc(l[lang].tipo) + "</span><h3>" + esc(l.nome) + '</h3><p class="loja-desc">' + esc(l[lang].desc) + "</p>" + ig + "</div></article>";
     }).join("");
     html += '<a class="loja loja-vaga" href="#parceiro"><span class="mais">+</span><b>' + u.vagaT + "</b><span>" + u.vagaP + "</span></a>";
@@ -212,6 +216,50 @@
       return '<a href="https://www.instagram.com/' + esc(p.ig) + '/" target="_blank" rel="noopener">' + esc(p.nome) + "</a> (" + esc(p[lang]) + ")";
     }).join(", ") + ".";
   }
+
+  /* ---------------- logo e galeria ---------------- */
+  if (D.logo) {
+    $$(".marca-oba").forEach(function (el) {
+      var img = document.createElement("img");
+      img.src = D.logo; img.alt = "OBA Food Park"; img.className = "logo-img";
+      el.replaceWith(img);
+    });
+  }
+  function montarGaleria() {
+    var sec = $("#galeria");
+    if (!D.galeria || !D.galeria.length) { sec.hidden = true; return; }
+    sec.hidden = false;
+    $("#gradeGaleria").innerHTML = D.galeria.map(function (g, i) {
+      var leg = g[lang] || g.pt || "";
+      return '<figure class="foto' + (i === 0 ? " foto-grande" : "") + '"><button type="button" data-i="' + i + '" aria-label="' + esc(leg || "Foto") + '">' +
+        '<img src="' + esc(g.src) + '" alt="' + esc(leg) + '" loading="lazy"></button>' + (leg ? "<figcaption>" + esc(leg) + "</figcaption>" : "") + "</figure>";
+    }).join("");
+    $$("#gradeGaleria button").forEach(function (b) {
+      b.addEventListener("click", function () { abrirFoto(+b.dataset.i); });
+    });
+  }
+  var fotoAtual = 0;
+  function abrirFoto(i) {
+    var n = D.galeria.length; fotoAtual = (i + n) % n;
+    var g = D.galeria[fotoAtual], cx = $("#caixaFoto");
+    $("img", cx).src = g.src; $("img", cx).alt = g[lang] || g.pt || "";
+    $("p", cx).textContent = g[lang] || g.pt || "";
+    cx.hidden = false; $(".cx-fechar", cx).focus();
+  }
+  $("#caixaFoto").addEventListener("click", function (e) {
+    var cx = $("#caixaFoto");
+    var a = e.target.closest("[data-acao]");
+    if (a) {
+      var ac = a.dataset.acao;
+      if (ac === "fechar") cx.hidden = true; else abrirFoto(fotoAtual + (ac === "prox" ? 1 : -1));
+    } else if (e.target === cx) cx.hidden = true;
+  });
+  document.addEventListener("keydown", function (e) {
+    var cx = $("#caixaFoto"); if (cx.hidden) return;
+    if (e.key === "Escape") cx.hidden = true;
+    if (e.key === "ArrowRight") abrirFoto(fotoAtual + 1);
+    if (e.key === "ArrowLeft") abrirFoto(fotoAtual - 1);
+  });
 
   /* ---------------- roleta ---------------- */
   var roda = $("#roda"), giro = 0, girando = false, ultimoSorteio = null;

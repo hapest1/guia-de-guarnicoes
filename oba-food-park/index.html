@@ -276,6 +276,17 @@
   </div>
 </section>
 
+<!-- ============ GALERIA ============ -->
+<section class="secao secao-escura" id="galeria" hidden>
+  <div class="wrap">
+    <header class="secao-topo">
+      <p class="sobretitulo" data-i18n="gal.sobre">Fotos</p>
+      <h2 data-i18n="gal.t">Uma noite no OBA.</h2>
+    </header>
+    <div class="grade-galeria" id="gradeGaleria"></div>
+  </div>
+</section>
+
 <!-- ============ COMO CHEGAR ============ -->
 <section class="secao" id="chegar">
   <div class="wrap duas-col duas-col-mapa">
@@ -356,6 +367,13 @@
 </footer>
 
 <a class="zap-flutuante" id="zapFlutuante" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><span class="zap-ico" aria-hidden="true"></span></a>
+<div class="caixa-foto" id="caixaFoto" hidden role="dialog" aria-modal="true" aria-label="Foto">
+  <button type="button" class="cx-fechar" data-acao="fechar" aria-label="Fechar">×</button>
+  <button type="button" class="cx-nav cx-ant" data-acao="ant" aria-label="Anterior">‹</button>
+  <img alt="">
+  <button type="button" class="cx-nav cx-prox" data-acao="prox" aria-label="Próxima">›</button>
+  <p></p>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 </body>
