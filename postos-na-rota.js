@@ -145,7 +145,7 @@
         var L=D.p.split('\n'), P=new Array(L.length);
         for(var i=0;i<L.length;i++){
           var c=L[i].split(';');
-          P[i]={lat:parseInt(c[0],36)/1e4-40, lng:parseInt(c[1],36)/1e4-80, f:parseInt(c[2]||'0',36), cid:c[3]?D.cid[parseInt(c[3],36)]:'', nome:c.slice(4).join(';')};
+          P[i]={lat:parseInt(c[0],36)/1e4-40, lng:parseInt(c[1],36)/1e4-80, f:parseInt(c[2]||'0',36), cid:c[3]?D.cid[parseInt(c[3],36)]:'', b:c[4]?(D.band[parseInt(c[4],36)]||''):'', nome:c.slice(5).join(';')};
         }
         POSTOS={lista:P,gerado:D.gerado,notas:D.notas||{}};
         ok(POSTOS);
@@ -184,7 +184,7 @@
   function nota(s){ /* preferência entre postos próximos: 24 h, depois com nome */
     return (s.p.f&1?2:0)+(s.p.nome?1:0)-(s.fora>0.6?1:0);
   }
-  function planejar(S,total,aut,ini,reserva){
+  function planejar(S,total,aut,ini,reserva,band){
     var paradas=[], pos=0, comb=aut*ini, res=aut*reserva, i=0, guard=0, critico=[];
     while(guard++<200){
       var limite=pos+comb-res;
@@ -192,12 +192,18 @@
       while(i<S.length && S[i].km<=pos+0.5) i++;
       var j=i, ultimo=-1;
       while(j<S.length && S[j].km<=limite){ ultimo=j; j++; }
-      var esc_=null, tipo='ok';
+      var esc_=null, tipo='ok', fora=false;
       if(ultimo>=i){
-        /* o mais distante ao alcance; entre os últimos 25 km, o mais bem cotado */
-        esc_=S[ultimo];
-        for(var q=ultimo;q>=i && S[q].km>=S[ultimo].km-25;q--) if(nota(S[q])>nota(esc_)) esc_=S[q];
-        /* evita parar nos primeiros km se o tanque saiu cheio e há opção mais à frente: já garantido pelo "mais distante" */
+        /* com bandeira escolhida: o mais distante dessa bandeira ao alcance; sem nenhum ao alcance, qualquer posto */
+        var topo=ultimo;
+        if(band){
+          topo=-1;
+          for(var w=ultimo;w>=i;w--) if(band[S[w].p.b]){ topo=w; break; }
+          if(topo<0){ topo=ultimo; fora=true; }
+        }
+        /* entre os últimos 25 km, o mais bem cotado */
+        esc_=S[topo];
+        for(var q=topo;q>=i && S[q].km>=S[topo].km-25;q--) if((!band||fora||band[S[q].p.b]) && nota(S[q])>nota(esc_)) esc_=S[q];
       }else if(i<S.length && S[i].km<=pos+comb){
         esc_=S[i]; tipo='reserva';
       }else if(i<S.length){
@@ -206,7 +212,7 @@
         critico.push({de:pos,ate:total,fim:true}); break;
       }
       var rodou=esc_.km-pos, sobra=comb-rodou;
-      paradas.push({s:esc_,tipo:tipo,rodou:rodou,sobra:sobra,chegaPct:sobra/aut,abastece:aut-Math.max(sobra,0)});
+      paradas.push({s:esc_,tipo:tipo,fora:fora||(!!band&&!band[esc_.p.b]),rodou:rodou,sobra:sobra,chegaPct:sobra/aut,abastece:aut-Math.max(sobra,0)});
       pos=esc_.km; comb=aut;
     }
     var fim=comb-(total-pos);
@@ -226,7 +232,7 @@
   var ULT=null;
   function nomePosto(p){ return p.nome||'Posto sem nome no mapa'; }
   function etiquetas(p){
-    var t=[]; if(p.f&1) t.push('24 h'); if(p.f&2) t.push('diesel'); if(p.f&4) t.push('etanol'); if(p.f&8) t.push('GNV'); if(p.f&16) t.push('conveniência'); if(p.f&32) t.push('banheiro');
+    var t=[]; if(p.b) t.push(p.b); if(p.f&1) t.push('24 h'); if(p.f&2) t.push('diesel'); if(p.f&4) t.push('etanol'); if(p.f&8) t.push('GNV'); if(p.f&16) t.push('conveniência'); if(p.f&32) t.push('banheiro');
     return t.map(function(x){ return '<span class="tag">'+x+'</span>'; }).join('');
   }
   function mapa(p){ return 'https://www.google.com/maps/search/?api=1&query='+p.lat.toFixed(5)+'%2C'+p.lng.toFixed(5); }
@@ -256,7 +262,8 @@
   }
 
   function mostrar(A,B,T,S,cfg){
-    var aut=cfg.c*cfg.t, util=aut*(1-cfg.res), plano=planejar(S,T.total,aut,cfg.ini,cfg.res);
+    var aut=cfg.c*cfg.t, util=aut*(1-cfg.res), plano=planejar(S,T.total,aut,cfg.ini,cfg.res,cfg.band);
+    var nBand=cfg.band?S.filter(function(s){ return cfg.band[s.p.b]; }).length:0, txtBand=cfg.band?Object.keys(cfg.band).join(' ou '):'';
     var tr=trechos(S,T.total), limAlerta=Math.min(100,Math.max(50,util*0.5));
     var gaps=tr.filter(function(g){ return g.km>=limAlerta; }).map(function(g){ g.crit=g.km>util; return g; });
     var maior=tr.reduce(function(m,g){ return g.km>m.km?g:m; },{km:0});
@@ -300,10 +307,12 @@
         var prox=i+1<plano.paradas.length?plano.paradas[i+1].s.km:T.total;
         var extra='<p class="pr-det">Você chega com <b>'+n0(Math.max(p.chegaPct,0)*100)+'%</b> do tanque depois de '+n0(p.rodou)+' km. Para encher: cerca de <b>'+n0(p.abastece/cfg.c)+' L</b>'+(cfg.preco?' ('+brl(p.abastece/cfg.c*cfg.preco)+')':'')+'. '+
           (i+1<plano.paradas.length?'Próxima parada em '+n0(prox-p.s.km)+' km.':'Daqui ao destino: '+n0(prox-p.s.km)+' km.')+'</p>'+
+          (p.fora?'<p class="pr-det calc-alerta">Não há posto '+esc(txtBand)+' ao alcance neste trecho. Esta parada é em outra bandeira.</p>':'')+
           (p.tipo==='reserva'?'<p class="pr-det calc-alerta">Você chega aqui já usando a reserva de segurança. Não havia posto antes dentro da margem.</p>':'')+
           (p.tipo==='critico'?'<p class="pr-det calc-alerta">Pela autonomia informada, o combustível acaba antes deste posto.</p>':'');
         return linhaPosto(T,p.s,extra);
       }).join('')+'</ol>';
+      if(cfg.band) h+='<p class="calc-dica">Bandeira preferida: '+esc(txtBand)+' ('+n0(nBand)+' de '+n0(S.length)+' postos do caminho). Posto sem bandeira identificada no mapa não entra nessa conta.</p>';
       h+='<p class="calc-dica">Chegada ao destino com cerca de '+n0(Math.max(plano.chegaPct,0)*100)+'% do tanque. O plano enche o tanque em cada parada e escolhe o último posto ao alcance antes da reserva, dando preferência aos que funcionam 24 h.</p>';
     }
     h+='</section>';
@@ -343,12 +352,18 @@
 
   /* ---------- fluxo ---------- */
   function ler(){
-    return {c:num(F.c),t:num(F.t),ini:(parseFloat(F.ini.value)||100)/100,res:(parseFloat(F.res.value)||15)/100,desv:parseFloat(F.desv.value)||1,preco:num(F.preco)};
+    var band=null;
+    bandeiras().forEach(function(b){ (band=band||{})[b]=1; });
+    return {band:band,c:num(F.c),t:num(F.t),ini:(parseFloat(F.ini.value)||100)/100,res:(parseFloat(F.res.value)||15)/100,desv:parseFloat(F.desv.value)||1,preco:num(F.preco)};
+  }
+  function bandeiras(){
+    return [].slice.call(form.querySelectorAll('input[name="pr-band"]:checked')).map(function(i){ return i.value; });
   }
   function guardar(){
     var q=new URLSearchParams();
     q.set('o',F.o.value.trim()); q.set('d',F.d.value.trim()); q.set('c',F.c.value); q.set('t',F.t.value);
     if(F.ini.value!=='100') q.set('i',F.ini.value); if(F.res.value!=='15') q.set('r',F.res.value); if(F.desv.value!=='1') q.set('v',F.desv.value); if(F.preco.value) q.set('p',F.preco.value);
+    if(bandeiras().length) q.set('b',bandeiras().join('|'));
     try{ history.replaceState(null,'','?'+q.toString()); }catch(e){}
     try{ localStorage.setItem('gg_carro',JSON.stringify({c:F.c.value,t:F.t.value})); }catch(e){}
   }
@@ -391,6 +406,8 @@
     var q=new URLSearchParams(location.search), set=function(el,v){ if(v!=null&&v!=='') el.value=v; };
     try{ var g=JSON.parse(localStorage.getItem('gg_carro')||'null'); if(g){ set(F.c,g.c); set(F.t,g.t); } }catch(e){}
     set(F.o,q.get('o')); set(F.d,q.get('d')); set(F.c,q.get('c')); set(F.t,q.get('t')); set(F.ini,q.get('i')); set(F.res,q.get('r')); set(F.desv,q.get('v')); set(F.preco,q.get('p'));
+    var qb=(q.get('b')||'').split('|');
+    [].forEach.call(form.querySelectorAll('input[name="pr-band"]'),function(i){ if(qb.indexOf(i.value)>=0) i.checked=true; });
     if(q.get('o')&&q.get('d')&&num(F.c)&&num(F.t)) executar();
   })();
 

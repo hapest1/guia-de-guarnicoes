@@ -5,14 +5,15 @@ Fonte: OpenStreetMap (amenity=fuel), baixado pela Overpass API em blocos de 5 gr
 O contorno do Brasil vem da malha do IBGE; ficam os postos dentro do país e os que
 estão a até ~10 km da fronteira (cidades-gêmeas).
 
-Cada posto vira uma linha "lat;lon;marcas;cidade;nome":
+Cada posto vira uma linha "lat;lon;marcas;cidade;bandeira;nome":
   lat, lon  (graus + 40 / + 80) x 10.000, em base 36
   marcas    bits em base 36: 1 = 24 h, 2 = diesel, 4 = etanol, 8 = GNV, 16 = conveniência, 32 = banheiro
   cidade    índice (base 36) em "cid", a cidade ou vila mais próxima (até 25 km)
+  bandeira  índice (base 36) em "band", tirada da marca ou do nome do posto; vazio = sem bandeira conhecida
 
 Correções vindas dos avisos dos usuários ficam em dados/postos-avisos.json:
   "remover":   [[lat, lon], ...]                     posto fechado ou que não existe
-  "adicionar": [{"lat":..,"lon":..,"nome":"..","h24":true}, ...]
+  "adicionar": [{"lat":..,"lon":..,"nome":"..","bandeira":"Shell","h24":true}, ...]
   "notas":     {"lat,lon": "texto do aviso"}         lat,lon com 4 casas, como aparece no e-mail do aviso
 
 Uso:  python3 gerar_postos.py [pasta-de-cache]
@@ -21,9 +22,11 @@ import datetime
 import json
 import math
 import pathlib
+import re
 import subprocess
 import sys
 import time
+import unicodedata
 
 RAIZ = pathlib.Path(__file__).resolve().parent
 CACHE = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else RAIZ / ".cache-postos")
@@ -32,6 +35,29 @@ SERVIDORES = ["https://overpass-api.de/api/interpreter", "https://overpass.priva
 MALHA = "https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=application/vnd.geo%2Bjson&qualidade=intermediaria"
 CAMPOS_P = '::type,::id,::lat,::lon,name,brand,operator,opening_hours,"fuel:diesel","fuel:ethanol","fuel:cng",shop,toilets'
 CAMPOS_C = "::lat,::lon,name,place"
+# bandeiras reconhecidas: (nome exibido, expressão procurada na marca, no operador e no nome, sem acentos e em minúsculas)
+BANDEIRAS = [
+    ("Petrobras (BR)", r"petrobras|petrobr[aá]s|\bbr\b|vibra"),
+    ("Ipiranga", r"ipiranga"),
+    ("Shell", r"shell|raizen"),
+    ("Ale", r"\bale\b|alesat"),
+    ("Rodoil", r"rodoil"),
+    ("SIM", r"\bsim\b"),
+    ("Charrua", r"charrua"),
+    ("Potencial", r"potencial"),
+    ("Atem", r"\batem\b"),
+    ("TotalEnergies", r"\btotal\b|totalenergies"),
+    ("Larco", r"larco"),
+    ("Dislub Equador", r"dislub|equador"),
+    ("Setee", r"\bsetee\b|\bsete estrelas\b"),
+    ("Stang", r"\bstang\b"),
+    ("Taurus", r"\btaurus\b"),
+    ("Petrobahia", r"petrobahia"),
+    ("Fan", r"\bfan\b"),
+    ("Idaza", r"idaza"),
+    ("Maxsul", r"maxsul"),
+    ("Buffon", r"buffon"),
+]
 BLOCOS = [(s, w) for s in range(-35, 6, 5) for w in range(-75, -34, 5)]
 
 
@@ -123,6 +149,22 @@ def b36(n):
             return s
 
 
+def sem_acento(t):
+    return unicodedata.normalize("NFD", str(t)).encode("ascii", "ignore").decode().lower()
+
+
+def bandeira_de(*textos):
+    """Índice em BANDEIRAS; a marca vale mais do que o nome, que vale mais do que o operador."""
+    for t in textos:
+        s = sem_acento(t)
+        if not s:
+            continue
+        for i, (_, exp) in enumerate(BANDEIRAS):
+            if re.search(exp, s):
+                return i
+    return None
+
+
 def limpa(t):
     return " ".join(str(t).replace(";", ",").replace("\\", "/").split())[:60]
 
@@ -167,13 +209,13 @@ def main():
             nome = limpa(c[4] or c[5] or c[6])
             marcas = (1 if c[7].replace(" ", "") == "24/7" else 0) | (2 if c[8] == "yes" else 0) | (4 if c[9] == "yes" else 0) \
                 | (8 if c[10] == "yes" else 0) | (16 if c[11] in ("convenience", "kiosk", "yes") else 0) | (32 if c[12] == "yes" else 0)
-            postos.append([lat, lon, marcas, nome])
+            postos.append([lat, lon, marcas, nome, bandeira_de(c[5], c[4], c[6])])
     bruto = len(postos)
 
     remover = [(round(a, 4), round(o, 4)) for a, o in avisos.get("remover", [])]
     postos = [p for p in postos if (round(p[0], 4), round(p[1], 4)) not in remover]
     for a in avisos.get("adicionar", []):
-        postos.append([a["lat"], a["lon"], 1 if a.get("h24") else 0, limpa(a.get("nome", ""))])
+        postos.append([a["lat"], a["lon"], 1 if a.get("h24") else 0, limpa(a.get("nome", "")), bandeira_de(a.get("bandeira", ""), a.get("nome", ""))])
 
     postos = [p for p in postos if perto_do_brasil(aneis, p[1], p[0])]
 
@@ -191,12 +233,13 @@ def main():
         if dup:
             dup[2] |= p[2]
             dup[3] = dup[3] or p[3]
+            dup[4] = p[4] if dup[4] is None else dup[4]
             continue
         celulas.setdefault(k, []).append(p)
         unicos.append(p)
 
     nomes_c, idx_c, linhas = [], {}, []
-    for lat, lon, marcas, nome in unicos:
+    for lat, lon, marcas, nome, band in unicos:
         cid = cidade_de(lat, lon)
         ci = ""
         if cid:
@@ -204,15 +247,19 @@ def main():
                 idx_c[cid] = len(nomes_c)
                 nomes_c.append(cid)
             ci = b36(idx_c[cid])
-        linhas.append(";".join([b36(round((lat + 40) * 1e4)), b36(round((lon + 80) * 1e4)), b36(marcas) if marcas else "", ci, nome]))
+        linhas.append(";".join([b36(round((lat + 40) * 1e4)), b36(round((lon + 80) * 1e4)), b36(marcas) if marcas else "", ci, "" if band is None else b36(band), nome]))
 
     hoje = datetime.date.today().isoformat()
-    saida = {"fonte": "OpenStreetMap", "gerado": hoje, "n": len(linhas), "cid": nomes_c,
+    saida = {"fonte": "OpenStreetMap", "gerado": hoje, "n": len(linhas), "cid": nomes_c, "band": [b[0] for b in BANDEIRAS],
              "notas": avisos.get("notas", {}), "p": "\n".join(linhas)}
     cab = (f"/* Postos de combustível do Brasil ({len(linhas)}), do OpenStreetMap (© colaboradores do OpenStreetMap, ODbL), baixados em {hoje}.\n"
            "   Gerado por gerar_postos.py; o formato de cada linha está descrito lá. Não edite à mão. */\n")
     (RAIZ / "postos-dados.js").write_text(cab + "window.GG_POSTOS=" + json.dumps(saida, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     com_nome = sum(1 for p in unicos if p[3])
+    cont = {}
+    for p in unicos:
+        cont[p[4]] = cont.get(p[4], 0) + 1
+    print("bandeiras:", ", ".join(f"{'sem bandeira' if k is None else BANDEIRAS[k][0]} {v}" for k, v in sorted(cont.items(), key=lambda kv: -kv[1])))
     print(f"bruto {bruto} · no Brasil e sem duplicados {len(unicos)} · com nome {com_nome} · 24 h {sum(1 for p in unicos if p[2] & 1)} · cidades {len(nomes_c)}")
 
 

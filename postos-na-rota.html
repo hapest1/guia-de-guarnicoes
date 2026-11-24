@@ -96,6 +96,13 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
 .pr-rota .calc-f input{height:46px}
 .pr-rota .cmp-troca{height:46px;width:46px;min-width:46px;padding:0;display:grid;place-items:center}
 .pr-rota .cmp-troca svg{width:20px;height:20px;min-width:20px}
+.pr-band{margin-top:16px}
+.pr-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.pr-chip{cursor:pointer}
+.pr-chip input{position:absolute;opacity:0;width:1px;height:1px}
+.pr-chip span{display:inline-block;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font-size:.92rem}
+.pr-chip input:checked+span{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.pr-chip input:focus-visible+span{outline:2px solid var(--mark);outline-offset:2px}
 .pr-go{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:4px}
 .pr-go .btn{font-size:1.05rem;padding:13px 22px;font-weight:600}
 .pr-go .btn:disabled{opacity:.6;cursor:progress}
@@ -204,6 +211,11 @@ a.btn{text-decoration:none;display:inline-block}
         <label class="calc-f"><span class="eyebrow">Tanque na saída</span><select id="pr-ini"><option value="100">Cheio</option><option value="75">3/4</option><option value="50">Meio tanque</option><option value="25">1/4</option></select></label>
         <label class="calc-f"><span class="eyebrow">Preço do litro (R$, opcional)</span><input id="pr-preco" type="text" inputmode="decimal" placeholder="Ex.: 6,29"></label>
       </div>
+      <div class="pr-band">
+        <span class="eyebrow" id="pr-band-t">Bandeira preferida (opcional)</span>
+        <div class="pr-chips" role="group" aria-labelledby="pr-band-t"><label class="pr-chip"><input type="checkbox" name="pr-band" value="Petrobras (BR)"><span>Petrobras (BR)</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Ipiranga"><span>Ipiranga</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Shell"><span>Shell</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Ale"><span>Ale</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Rodoil"><span>Rodoil</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="SIM"><span>SIM</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Charrua"><span>Charrua</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Potencial"><span>Potencial</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="Atem"><span>Atem</span></label><label class="pr-chip"><input type="checkbox" name="pr-band" value="TotalEnergies"><span>TotalEnergies</span></label></div>
+        <p class="calc-dica">Marque uma ou mais. O plano para nessas bandeiras sempre que houver uma ao alcance; se não houver, indica outro posto e avisa.</p>
+      </div>
       <details class="calc-mais">
         <summary>Ajustes: reserva de segurança e distância da rodovia</summary>
         <div class="calc-grid">
@@ -240,6 +252,7 @@ a.btn{text-decoration:none;display:inline-block}
       <dt>Postos do caminho</dt><dd>Entram os postos mapeados a até 1 km do traçado (você pode mudar para 500 m, 2 km ou 5 km). A base cobre o Brasil inteiro e é atualizada pelo Guia.</dd>
       <dt>Trechos longos sem posto</dt><dd>A ferramenta mede a distância entre um posto e o seguinte ao longo da rota e destaca os trechos de 100 km ou mais. Se o trecho for maior do que a autonomia do carro, o aviso fica em destaque.</dd>
       <dt>Onde abastecer</dt><dd>Autonomia = consumo x tanque. O plano enche o tanque em cada parada e escolhe o último posto ao alcance antes de entrar na reserva de segurança (15% do tanque, se você não mudar), com preferência para os que funcionam 24 h.</dd>
+      <dt>Bandeira preferida</dt><dd>Se você marcar bandeiras, o plano escolhe o posto mais distante dessas bandeiras que ainda esteja ao alcance. Quando não há nenhum ao alcance, indica outro posto e avisa, para o filtro não deixar você sem combustível. A bandeira vem da marca registrada no mapa; posto sem marca registrada conta como sem bandeira.</dd>
       <dt>Consumo real</dt><dd>Carro carregado, ar ligado, serra e vento aumentam o consumo. Na dúvida, informe um consumo um pouco pior do que o do manual.</dd>
     </dl>
     <p class="calc-dica">Vai de mudança? Veja também a <a href="/calculadora-de-transferencia">Calculadora de Transferência</a> e o guia <a href="/guias/levar-ou-vender-o-carro">Levar ou vender o carro</a>.</p>
