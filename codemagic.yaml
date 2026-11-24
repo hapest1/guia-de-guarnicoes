@@ -18,8 +18,13 @@ workflows:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.guiadeguarnicoes.app
-    # Sem gatilho automático: o site recebe muitos commits, e cada build gasta minutos de Mac.
-    # Inicie pelo botão "Start new build" no Codemagic quando quiser uma versão nova do app.
+    triggering:             # compila sozinho a cada envio para a branch main (igual ao Missão Idiomas)
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
+      cancel_previous_builds: true   # vários commits seguidos: fica só o build do mais recente
     scripts:
       - name: Dependências
         script: cd app && npm ci
