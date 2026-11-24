@@ -55,6 +55,18 @@
   function getJSON(url){
     return fetch(url,{headers:{'Accept':'application/json'}}).then(function(r){ if(!r.ok) throw new Error('http '+r.status); return r.json(); });
   }
+  /* o Nominatim aceita um pedido por segundo: espaça as buscas e repete quando recusa */
+  var ultGeo=0;
+  function buscaGeo(url,tent){
+    var espera=Math.max(0,ultGeo+1200-Date.now());
+    return new Promise(function(ok){ setTimeout(ok,espera); }).then(function(){
+      ultGeo=Date.now();
+      return getJSON(url);
+    }).catch(function(e){
+      if(tent>0) return buscaGeo(url,tent-1);
+      throw e;
+    });
+  }
   function localizar(txt){
     var t=String(txt).trim();
     if(aqui && t===aqui.nome) return Promise.resolve(aqui);
@@ -63,7 +75,7 @@
     var g=GU[norm(t)]; if(g) return Promise.resolve(g);
     /* "Cidade-UF" vira "Cidade, UF" para a busca */
     var q=t.replace(/\s*[-\/]\s*([A-Za-z]{2})$/,', $1');
-    return getJSON(GEO+encodeURIComponent(q+', Brasil')).then(function(j){
+    return buscaGeo(GEO+encodeURIComponent(q+', Brasil'),2).then(function(j){
       if(!j||!j.length) throw new Error('nao-achou:'+t);
       var nome=String(j[0].display_name||t).split(',').slice(0,2).join(',');
       return {nome:nome,lat:+j[0].lat,lng:+j[0].lon};
