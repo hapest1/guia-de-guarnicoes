@@ -27,25 +27,28 @@ import time
 
 RAIZ = pathlib.Path(__file__).resolve().parent
 CACHE = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else RAIZ / ".cache-postos")
-SERVIDORES = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter"]
+SERVIDORES = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
+              "https://maps.mail.ru/osm/tools/overpass/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 MALHA = "https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=application/vnd.geo%2Bjson&qualidade=intermediaria"
 CAMPOS_P = '::type,::id,::lat,::lon,name,brand,operator,opening_hours,"fuel:diesel","fuel:ethanol","fuel:cng",shop,toilets'
 CAMPOS_C = "::lat,::lon,name,place"
 BLOCOS = [(s, w) for s in range(-35, 6, 5) for w in range(-75, -34, 5)]
 
 
-def curl(args, destino, tentativas=6):
+def curl(args, destino, tentativas=4):
+    tmp = pathlib.Path(str(destino) + ".tmp")
     for t in range(tentativas):
         for srv in (args.get("servidores") or [args["url"]]):
-            cmd = ["curl", "-sS", "-m", "170", "-o", str(destino) + ".tmp", "-w", "%{http_code}"]
+            cmd = ["curl", "-sS", "-m", "150", "-A", "guiadeguarnicoes.com (gerar_postos.py)", "-o", str(tmp), "-w", "%{http_code}"]
             if "dados" in args:
                 cmd += ["--data-urlencode", "data=" + args["dados"]]
             r = subprocess.run(cmd + [srv], capture_output=True, text=True)
-            tmp = pathlib.Path(str(destino) + ".tmp")
-            if r.stdout.strip() == "200" and tmp.exists() and not tmp.read_bytes()[:1] == b"<":
+            corpo = tmp.read_bytes() if tmp.exists() else b""
+            if r.stdout.strip() == "200" and not corpo.lstrip()[:1] == b"<":
                 tmp.rename(destino)
                 return
-        time.sleep(10 * (t + 1))
+            print(f"  recusado: {srv.split('/')[2]} http={r.stdout.strip()} {r.stderr.strip()[:120]} {corpo[:300]!r}", flush=True)
+        time.sleep(15 * (t + 1))
     raise SystemExit(f"falhou: {destino}")
 
 
@@ -54,8 +57,8 @@ def baixar():
     for s, w in BLOCOS:
         caixa = f"({s},{w},{s + 5},{w + 5})"
         for tipo, q in (
-            ("p", f'[out:csv({CAMPOS_P};false;"\t")][timeout:120];nwr[amenity=fuel]{caixa};out center;'),
-            ("c", f'[out:csv({CAMPOS_C};false;"\t")][timeout:120];node[place~"^(city|town|village)$"]{caixa};out;'),
+            ("p", f'[out:csv({CAMPOS_P};false;"\\t")][timeout:120];nwr[amenity=fuel]{caixa};out center;'),
+            ("c", f'[out:csv({CAMPOS_C};false;"\\t")][timeout:120];node[place~"^(city|town|village)$"]{caixa};out;'),
         ):
             f = CACHE / f"{tipo}_{s}_{w}.tsv"
             if not f.exists():
