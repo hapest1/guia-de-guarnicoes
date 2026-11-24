@@ -23,8 +23,17 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - name: Instalar o osmium
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+      - name: Baixar o extrato do Brasil (Geofabrik)
+        run: curl -fsSL --retry 5 --retry-delay 20 -o "$RUNNER_TEMP/brazil.osm.pbf" https://download.geofabrik.de/south-america/brazil-latest.osm.pbf
+      - name: Separar postos e cidades
+        run: |
+          osmium tags-filter "$RUNNER_TEMP/brazil.osm.pbf" nwr/amenity=fuel n/place=city,town,village -o "$RUNNER_TEMP/filtro.osm.pbf"
+          osmium export "$RUNNER_TEMP/filtro.osm.pbf" -f geojsonseq -o "$RUNNER_TEMP/postos.geojsonseq"
+          wc -l "$RUNNER_TEMP/postos.geojsonseq"
       - name: Gerar postos-dados.js
-        run: python3 gerar_postos.py "$RUNNER_TEMP/cache-postos"
+        run: python3 gerar_postos.py "$RUNNER_TEMP/postos.geojsonseq"
       - name: Gravar no repositório
         run: |
           git config user.name "github-actions[bot]"
