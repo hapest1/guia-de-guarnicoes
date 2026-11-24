@@ -13,8 +13,8 @@ workflows:
       xcode: latest
       vars:
         # IDs do AdMob (não são secretos). Vazios = anúncios de TESTE do Google.
-        ADMOB_APP_ID_IOS: ""      # ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
-        ADMOB_BANNER_ID_IOS: ""   # ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ
+        ADMOB_APP_ID_IOS: "ca-app-pub-9825265249384205~3183917052"      # ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
+        ADMOB_BANNER_ID_IOS: "ca-app-pub-9825265249384205/5019742908"   # ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.guiadeguarnicoes.app
