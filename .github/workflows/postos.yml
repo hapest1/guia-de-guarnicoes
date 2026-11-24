@@ -1,0 +1,38 @@
+# Atualiza a base de postos da ferramenta /postos-na-rota a partir do OpenStreetMap.
+# Roda pelo botão "Run workflow" ou quando o gerador ou os avisos dos usuários mudam.
+name: Atualizar base de postos
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - gerar_postos.py
+      - dados/postos-avisos.json
+      - .github/workflows/postos.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postos-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar postos-dados.js
+        run: python3 gerar_postos.py "$RUNNER_TEMP/cache-postos"
+      - name: Gravar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add postos-dados.js
+          if git diff --cached --quiet; then
+            echo "Base de postos sem mudança."
+          else
+            git commit -m "Base de postos atualizada a partir do OpenStreetMap"
+            git push
+          fi

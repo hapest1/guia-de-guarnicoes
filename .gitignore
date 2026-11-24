@@ -1,3 +1,4 @@
 # Saída e configuração local do Graphify (mapa do projeto), fora do site e do Git
 graphify-out/
 .graphifyignore
+.cache-postos/
