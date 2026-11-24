@@ -119,6 +119,9 @@ function transformar(rel, html) {
   html = html.replace('Este site usa o Google Analytics para contar visitas e exibe anúncios do Google AdSense.', 'Este app exibe anúncios do Google AdMob.');
   html = html.replace(/ · <a href="\/anuncie"[^>]*>Anuncie<\/a>/g, '');
   html = html.replace(/<a href="\/anuncie"[^>]*>([\s\S]*?)<\/a>/g, '$1'); // demais menções viram texto
+  // Página inicial: sem os banners da Calculadora e do Missão Idiomas (a calculadora já está na aba Calcular)
+  html = html.replace(/\s*<section class="wrap calc-home"[\s\S]*?<\/section>/, '');
+  html = html.replace(/\s*<a class="idi-home-banner"[\s\S]*?<\/a>/g, '');
   // Fontes locais
   if (fontesLocais) {
     html = html.replace(/<link rel="preconnect" href="https:\/\/fonts\.(googleapis|gstatic)\.com"[^>]*>\s*/g, '');
