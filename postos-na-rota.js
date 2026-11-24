@@ -264,7 +264,7 @@
   function mostrar(A,B,T,S,cfg){
     var aut=cfg.c*cfg.t, util=aut*(1-cfg.res), plano=planejar(S,T.total,aut,cfg.ini,cfg.res,cfg.band);
     var nBand=cfg.band?S.filter(function(s){ return cfg.band[s.p.b]; }).length:0, txtBand=cfg.band?Object.keys(cfg.band).join(' ou '):'';
-    var tr=trechos(S,T.total), limAlerta=Math.min(100,Math.max(50,util*0.5));
+    var tr=trechos(S,T.total), limAlerta=Math.min(60,Math.max(30,util*0.5));
     var gaps=tr.filter(function(g){ return g.km>=limAlerta; }).map(function(g){ g.crit=g.km>util; return g; });
     var maior=tr.reduce(function(m,g){ return g.km>m.km?g:m; },{km:0});
     var litros=T.total/cfg.c, h='';
