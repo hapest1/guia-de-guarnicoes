@@ -245,7 +245,11 @@ body{margin:0}
 .cmp-sel{display:grid; grid-template-columns:1fr auto 1fr; gap:10px; align-items:end; margin:22px 0 8px}
 .cmp-sel label{display:grid; gap:4px; min-width:0}
 .cmp-sel select{font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:12px 10px; min-width:0; width:100%}
-.cmp-troca{height:48px; width:48px; padding:0; font-size:1.2rem}
+.btn.cmp-troca{display:inline-flex; align-items:center; justify-content:center; flex:none; width:44px; height:44px; min-width:44px; padding:0; margin-bottom:2px; border-radius:50%; background:var(--surface); color:var(--accent); border:1px solid var(--line); box-shadow:0 1px 2px rgba(0,0,0,.06),0 2px 8px rgba(0,0,0,.05); transition:border-color .15s,background .15s,transform .15s}
+.btn.cmp-troca:hover{border-color:var(--accent); background:var(--mark-soft)}
+.btn.cmp-troca:active{transform:scale(.92)}
+.btn.cmp-troca svg{display:block; width:20px; height:20px; min-width:20px; transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.btn.cmp-troca.girou svg{transform:rotate(180deg)}
 .cmp{margin:14px 0 18px}
 .cmp-vazio{color:var(--muted); padding:18px 0}
 .cmp-row{display:grid; grid-template-columns:150px minmax(0,1fr) minmax(0,1fr); gap:0 18px; border-bottom:1px solid var(--line); padding:12px 0}
@@ -264,7 +268,9 @@ body{margin:0}
 .cmp-h.vazio{color:var(--muted); font-style:italic; align-self:center}
 @media (max-width:640px){
   .cmp-sel{grid-template-columns:1fr; }
-  .cmp-troca{justify-self:center; height:40px; width:40px; transform:rotate(90deg)}
+  .btn.cmp-troca{justify-self:center; margin:-2px 0}
+  .btn.cmp-troca svg{transform:rotate(90deg)}
+  .btn.cmp-troca.girou svg{transform:rotate(270deg)}
   .cmp-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:4px 14px}
   .cmp-k{grid-column:1/-1}
   .cmp-top .cmp-k{display:none}

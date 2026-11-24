@@ -2,7 +2,7 @@
 
 O app empacota o site inteiro (171 fichas, guias, calculadoras, mapa e comparador) para funcionar **sem internet**. Ele foi feito com [Capacitor](https://capacitorjs.com) e acrescenta ao site:
 
-- barra de abas: Início, Mapa, Comparar, Calcular, Salvos;
+- barra de abas: Início, Mapa, Postos (Postos na Rota), Calcular, Salvos. O Comparar continua no menu e nas fichas;
 - botão **Salvar** nas fichas e uma página **Salvos**, com as guarnições salvas e as vistas recentemente;
 - compartilhamento pelo menu do iOS, com o link público do site;
 - links externos abertos no Safari dentro do app;
