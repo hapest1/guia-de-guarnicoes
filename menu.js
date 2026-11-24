@@ -107,3 +107,8 @@
   function checar(){ var v=scrollY>700; if(v!==visivel){ visivel=v; t.classList.toggle('show', v); } }
   addEventListener('scroll', checar, {passive:true}); checar();
 })();
+
+/* Botão de trocar origem e destino: o ícone dá meia-volta a cada toque */
+document.addEventListener('click', function(e){
+  var b=e.target.closest && e.target.closest('.cmp-troca'); if(b) b.classList.toggle('girou');
+});
