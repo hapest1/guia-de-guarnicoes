@@ -81,5 +81,7 @@
 	<array>
 		<string>pt-BR</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Sua localização é usada só para preencher a origem da viagem no Postos na Rota.</string>
 </dict>
 </plist>

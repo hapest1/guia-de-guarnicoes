@@ -22,6 +22,7 @@ O Guia de Guarnições reúne, em um só lugar, como é morar nas 171 cidades co
 • Salve as guarnições que interessam e encontre-as na aba Salvos
 • Mapa dos locais de servir, por arma (Infantaria, Cavalaria, Artilharia, Engenharia, Comunicações, Intendência e Material Bélico)
 • Comparador lado a lado entre duas guarnições
+• Postos na Rota: postos do caminho, trechos longos sem posto e onde parar para abastecer
 • Calculadora de Transferência e Calculadora de Ajuda de Custo
 • Checklist da chegada e lista de Hotéis de Trânsito
 • Guias práticos: PNR, escola dos filhos, FUSEx, mudança com pet, carro e mais
@@ -52,6 +53,8 @@ Isto vale por causa do Google AdMob. O app em si não coleta nada: o que é salv
 | Dados de uso › Dados de publicidade | Publicidade de terceiros | Não | **Sim** |
 | Diagnóstico › Dados de falhas e de desempenho | Análise | Não | Não |
 | Localização › Localização aproximada (por IP) | Publicidade de terceiros | Não | **Sim** |
+
+O botão "Usar minha localização" do Postos na Rota envia a posição ao serviço de rotas (OSRM) só quando a pessoa toca nele. Declare **Localização › Localização precisa › Funcionalidade do app, Não vinculado, Sem rastreamento**.
 
 Os formulários de contribuição enviam nome e e-mail só se a pessoa preencher. Declare também **Informações de contato › Nome / E-mail › Funcionalidade do app, Não vinculado, Sem rastreamento**.
 

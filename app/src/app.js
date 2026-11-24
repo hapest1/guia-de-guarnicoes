@@ -90,13 +90,14 @@
     inicio: '<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/>',
     mapa: '<path d="M9 4 3 6.5v13.5L9 17.5l6 2.5 6-2.5V4l-6 2.5z"/><path d="M9 4v13.5M15 6.5V20"/>',
     comparar: '<path d="M4 7h13l-3-3M20 17H7l3 3"/>',
+    postos: '<path d="M4 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16M3 21h12M6 8h6"/><path d="M14 9h2a2 2 0 0 1 2 2v6a1.5 1.5 0 0 0 3 0V8l-3-3"/>',
     calc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M14 12h2M8 16h2M14 16h2"/>',
     salvos: '<path d="M6 3h12v18l-6-4.5L6 21z"/>'
   };
   var ABAS = [
     { href: '/index.html', t: 'Início', i: 'inicio', m: /^\/(index\.html)?$/ },
     { href: '/locais-de-servir.html', t: 'Mapa', i: 'mapa', m: /^\/locais-de-servir/ },
-    { href: '/comparar.html', t: 'Comparar', i: 'comparar', m: /^\/comparar/ },
+    { href: '/postos-na-rota.html', t: 'Postos', i: 'postos', m: /^\/postos-na-rota/ },
     { href: '/calculadora-de-transferencia.html', t: 'Calcular', i: 'calc', m: /^\/calculadora/ },
     { href: '/salvos.html', t: 'Salvos', i: 'salvos', m: /^\/salvos/ }
   ];

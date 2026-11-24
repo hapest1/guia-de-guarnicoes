@@ -124,6 +124,9 @@ function transformar(rel, html) {
     html = html.replace(/<link rel="preconnect" href="https:\/\/fonts\.(googleapis|gstatic)\.com"[^>]*>\s*/g, '');
     html = html.replace(/<link rel="preload" as="style" href="https:\/\/fonts\.googleapis\.com[^>]*>(<noscript>.*?<\/noscript>)?/g,
       '<link rel="stylesheet" href="/fonts/fontes.css">');
+    // Páginas que carregam as fontes com um <link rel="stylesheet"> simples (ex.: Postos na Rota)
+    html = html.replace(/<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^>]*>/g,
+      '<link rel="stylesheet" href="/fonts/fontes.css">');
   }
   // Tela cheia por baixo do notch (o CSS do app cuida das margens)
   html = html.replace(/<meta name="viewport" content="([^"]*)">/, (t, c) =>
