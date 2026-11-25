@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Gera pedagios-dados.js: as praças de pedágio do Brasil para o Postos na Rota.
+"""Gera pedagios-dados.js: as praças de pedágio do Brasil para o Planejamento de Rota.
 Fonte: OpenStreetMap, no mesmo extrato da Geofabrik usado pelos postos (veja .github/workflows/postos.yml):
   osmium tags-filter brazil-latest.osm.pbf ... nw/barrier=toll_booth n/highway=toll_gantry ...
   osmium export ... -f geojsonseq -o postos.geojsonseq
   python3 gerar_pedagios.py postos.geojsonseq
-Cabines dos dois sentidos da mesma praça ficam a poucos metros uma da outra: tudo que está a menos
-de 400 m vira uma praça só. Cada praça vira uma linha "lat;lon;tipo;tarifa;nome":
+Cada sentido da rodovia tem a sua cabine (ou pórtico) sobre a própria pista: elas ficam separadas, para a
+página contar só a do sentido em que o carro passa. Pontos a menos de 60 m (cabines da mesma pista) viram um só. Cada praça vira uma linha "lat;lon;tipo;tarifa;nome":
   lat, lon  com 5 casas
   tipo      p = praça com cabines, f = pórtico de cobrança automática (free flow)
   tarifa    valor para carro de passeio em reais, quando o mapa traz (tags charge, charge:motorcar), senão vazio
@@ -81,16 +81,16 @@ def main():
             nome = limpa(t.get("name") or t.get("operator") or t.get("ref") or "")
             brutos.append([lat, lon, tipo, tarifa(t), nome])
 
-    # junta as cabines da mesma praça (até 400 m)
+    # junta só as cabines da mesma pista (até 60 m); a do outro sentido fica separada
     brutos.sort(key=lambda p: (round(p[0], 2), p[1]))
     grade, pracas = {}, []
     for p in brutos:
-        k = (int(p[0] // 0.005), int(p[1] // 0.005))
+        k = (int(p[0] // 0.001), int(p[1] // 0.001))
         dono = None
         for a in (-1, 0, 1):
             for o in (-1, 0, 1):
                 for q in grade.get((k[0] + a, k[1] + o), ()):
-                    if km(p[0], p[1], q[0], q[1]) < 0.4:
+                    if km(p[0], p[1], q[0], q[1]) < 0.06:
                         dono = q
         if dono:
             if dono[3] is None and p[3] is not None:
@@ -112,7 +112,7 @@ def main():
           "   Gerado por gerar_pedagios.py; o formato de cada linha está descrito lá. Não edite à mão. */\n"
           "window.GG_PEDAGIOS=" + json.dumps({"gerado": hoje, "p": "\n".join(linhas)}, ensure_ascii=False) + ";\n")
     (RAIZ / "pedagios-dados.js").write_text(js, encoding="utf-8")
-    print(f"{len(brutos)} cabines/pórticos -> {len(pracas)} praças ({com_tarifa} com tarifa) em pedagios-dados.js")
+    print(f"{len(brutos)} cabines/pórticos -> {len(pracas)} pontos de cobrança ({com_tarifa} com tarifa) em pedagios-dados.js")
 
 
 if __name__ == "__main__":

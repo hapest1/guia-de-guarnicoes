@@ -1,4 +1,4 @@
-# Atualiza as bases de postos e de praças de pedágio da ferramenta /postos-na-rota a partir do OpenStreetMap.
+# Atualiza as bases de postos e de praças de pedágio da ferramenta /planejamento-de-rota a partir do OpenStreetMap.
 # Roda pelo botão "Run workflow" ou quando o gerador ou os avisos dos usuários mudam.
 name: Atualizar base de postos
 
