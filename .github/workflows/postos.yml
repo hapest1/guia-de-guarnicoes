@@ -54,5 +54,6 @@ jobs:
             echo "Base de postos sem mudança."
           else
             git commit -m "Bases de postos e pedágios atualizadas a partir do OpenStreetMap"
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
