@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera ht-rota-dados.js: os Hotéis de Trânsito por cidade, com coordenadas, para o Postos na Rota
+"""Gera ht-rota-dados.js: os Hotéis de Trânsito por cidade, com coordenadas, para o Planejamento de Rota
 mostrar os HT do caminho e das paradas.
 
 Base: dados/hoteis-transito.json (o mesmo cadastro da página /hoteis-de-transito, vindo da DAP).
@@ -48,7 +48,7 @@ def main():
                                 "q": it.get("quartos") or 0, "pet": it.get("pet") or 0, "pcd": it.get("adaptados") or 0,
                                 "l": it.get("local") or ""})
     lista = sorted(cidades.values(), key=lambda x: (x["uf"], x["c"]))
-    js = (f"/* Hotéis de Trânsito por cidade, para o Postos na Rota. Fonte: {DADOS['fonte']}, consulta de "
+    js = (f"/* Hotéis de Trânsito por cidade, para o Planejamento de Rota. Fonte: {DADOS['fonte']}, consulta de "
           f"{DADOS['consulta']}. Gerado por gerar_ht_rota.py. Não edite à mão. */\n"
           "window.GG_HT=" + json.dumps({"consulta": DADOS["consulta"], "cidades": lista}, ensure_ascii=False, separators=(",", ":")) + ";\n")
     (RAIZ / "ht-rota-dados.js").write_text(js, encoding="utf-8")

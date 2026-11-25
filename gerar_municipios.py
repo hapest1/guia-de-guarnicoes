@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera municipios-dados.js: os 5.570 municípios do Brasil para a busca de cidades do Postos na Rota.
+"""Gera municipios-dados.js: os 5.570 municípios do Brasil para a busca de cidades do Planejamento de Rota.
 
 Fonte: API de Localidades e de Malhas do IBGE (nomes, UF e centroide do território de cada município).
 Cada município vira uma linha "nome;UF;lat;lon;grande":

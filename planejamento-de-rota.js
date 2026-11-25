@@ -1,4 +1,4 @@
-/* Postos na Rota: monta o roteiro de carro com quantas cidades a pessoa quiser, traça a rota, marca os postos
+/* Planejamento de Rota: monta o roteiro de carro com quantas cidades a pessoa quiser, traça a rota, marca os postos
    do caminho, avisa dos trechos longos sem posto, sugere onde abastecer e onde dormir, soma combustível,
    pedágios e hospedagem e lista os Hotéis de Trânsito do Exército na rota.
    Rota: OSRM sobre o OpenStreetMap (consulta na hora).
@@ -96,7 +96,7 @@
       var m=li[i].querySelector('.pr-marca'), inp=li[i].querySelector('input'), rm=li[i].querySelector('.pr-rm');
       m.textContent=i===0?'A':(i===n-1?'B':String(i));
       inp.setAttribute('aria-label',i===0?'Saindo de':(i===n-1?'Indo para':'Parada '+i));
-      inp.placeholder=i===0?'Saindo de (ex.: Resende-RJ)':(i===n-1?'Indo para (ex.: Brasília-DF)':'Parada '+i+' (cidade)');
+      inp.placeholder=i===0?'Saindo de':(i===n-1?'Indo para':'Parada '+i);
       rm.hidden=n<=2;
     }
     $('pr-add').disabled=n>=MAX_PONTOS;
@@ -697,7 +697,7 @@
       if(!av.reportValidity()) return;
       var data={}; new FormData(av).forEach(function(v,k){ if(String(v).trim()!=='') data[k]=v; });
       delete data._honey;
-      data._subject='[Guia] Postos na Rota — '+(data['Tipo de aviso']||'aviso');
+      data._subject='[Guia] Planejamento de Rota — '+(data['Tipo de aviso']||'aviso');
       data._template='table';
       data['Rota consultada']=ULT_ROTA||entradas().map(function(i){ return i.value.trim()||'?'; }).join(' → ');
       avB.disabled=true; avS.className='ctb-status'; avS.textContent='Enviando…';

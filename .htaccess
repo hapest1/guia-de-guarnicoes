@@ -19,6 +19,9 @@ RewriteRule ^(CNAME|\.git.*)$ - [F,L]
 RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L,NE]
 
+# Postos na Rota passou a se chamar Planejamento de Rota (mantém os parâmetros da simulação)
+RewriteRule ^postos-na-rota(\.html)?/?$ /planejamento-de-rota [R=301,L,QSA]
+
 # /pagina.html -> /pagina (301, mantém URLs do sitemap)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L,NE]
