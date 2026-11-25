@@ -1,4 +1,4 @@
-# Atualiza a base de postos da ferramenta /postos-na-rota a partir do OpenStreetMap.
+# Atualiza as bases de postos e de praças de pedágio da ferramenta /planejamento-de-rota a partir do OpenStreetMap.
 # Roda pelo botão "Run workflow" ou quando o gerador ou os avisos dos usuários mudam.
 name: Atualizar base de postos
 
@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - gerar_postos.py
+      - gerar_pedagios.py
       - dados/postos-avisos.json
       - .github/workflows/postos.yml
 
@@ -25,23 +26,34 @@ jobs:
       - uses: actions/checkout@v4
       - name: Instalar o osmium
         run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
-      - name: Baixar o extrato do Brasil (Geofabrik)
-        run: curl -fsSL --retry 5 --retry-delay 20 -o "$RUNNER_TEMP/brazil.osm.pbf" https://download.geofabrik.de/south-america/brazil-latest.osm.pbf
-      - name: Separar postos e cidades
+      - name: Baixar o extrato do Brasil (Geofabrik, com espelho do openstreetmap.fr)
         run: |
-          osmium tags-filter "$RUNNER_TEMP/brazil.osm.pbf" nwr/amenity=fuel n/place=city,town,village -o "$RUNNER_TEMP/filtro.osm.pbf"
+          for url in https://download.geofabrik.de/south-america/brazil-latest.osm.pbf \
+                     https://download.openstreetmap.fr/extracts/south-america/brazil-latest.osm.pbf; do
+            if curl -fsSL --retry 4 --retry-delay 20 --retry-all-errors -o "$RUNNER_TEMP/brazil.osm.pbf" "$url"; then
+              echo "Extrato baixado de $url"; ls -la "$RUNNER_TEMP/brazil.osm.pbf"; exit 0
+            fi
+            echo "::warning::Falhou: $url"
+          done
+          exit 1
+      - name: Separar postos, cidades e pedágios
+        run: |
+          osmium tags-filter "$RUNNER_TEMP/brazil.osm.pbf" nwr/amenity=fuel n/place=city,town,village nw/barrier=toll_booth n/highway=toll_gantry -o "$RUNNER_TEMP/filtro.osm.pbf"
           osmium export "$RUNNER_TEMP/filtro.osm.pbf" -f geojsonseq -o "$RUNNER_TEMP/postos.geojsonseq"
           wc -l "$RUNNER_TEMP/postos.geojsonseq"
       - name: Gerar postos-dados.js
         run: python3 gerar_postos.py "$RUNNER_TEMP/postos.geojsonseq"
+      - name: Gerar pedagios-dados.js
+        run: python3 gerar_pedagios.py "$RUNNER_TEMP/postos.geojsonseq"
       - name: Gravar no repositório
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add postos-dados.js
+          git add postos-dados.js pedagios-dados.js
           if git diff --cached --quiet; then
             echo "Base de postos sem mudança."
           else
-            git commit -m "Base de postos atualizada a partir do OpenStreetMap"
+            git commit -m "Bases de postos e pedágios atualizadas a partir do OpenStreetMap"
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi

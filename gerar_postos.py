@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera postos-dados.js, a base de postos da ferramenta /postos-na-rota.
+"""Gera postos-dados.js, a base de postos da ferramenta /planejamento-de-rota.
 
 Fonte: OpenStreetMap, pelo extrato do Brasil da Geofabrik. O fluxo .github/workflows/postos.yml
 baixa o extrato, separa com o osmium os postos (amenity=fuel) e as cidades e vilas (place=*)
