@@ -1,13 +1,17 @@
-/* Ajustes do site quando ele roda dentro do app (iOS) */
-html.app{--tabs-h:56px;--ad-h:0px;-webkit-tap-highlight-color:transparent}
-html.app body{padding-bottom:calc(var(--tabs-h) + var(--ad-h) + env(safe-area-inset-bottom,0px))}
+/* Barra de abas, Salvar/Compartilhar e página Salvos: site (celular) e app.
+   html.abas = barra de abas visível; html.app = dentro do app do iPhone. */
+html{--tabs-h:56px;--ad-h:0px}
+html.app{-webkit-tap-highlight-color:transparent}
+.gg-tabs{display:none}
+html.abas .gg-tabs{display:grid}
+html.abas body{padding-bottom:calc(var(--tabs-h) + var(--ad-h) + env(safe-area-inset-bottom,0px))}
 html.app .menu-btn{min-height:44px}
-html.app .totop{bottom:calc(var(--tabs-h) + var(--ad-h) + 16px + env(safe-area-inset-bottom,0px))}
+html.abas .totop{bottom:calc(var(--tabs-h) + var(--ad-h) + 16px + env(safe-area-inset-bottom,0px))}
 /* O link para o próprio site e o do anúncio de venda de espaço não fazem sentido no app */
 html.app a[href^="/anuncie"]{display:none!important}
 
 /* Barra de abas */
-.gg-tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:repeat(5,1fr);
+.gg-tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;grid-template-columns:repeat(5,1fr);
   height:calc(var(--tabs-h) + env(safe-area-inset-bottom,0px));padding:0 env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px);
   background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);
   border-top:1px solid var(--line)}
