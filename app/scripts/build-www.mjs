@@ -5,8 +5,8 @@
 // - links internos sem extensão (/manaus-am) passam a apontar para o arquivo (/manaus-am.html),
 //   porque o servidor do app (capacitor://localhost) não resolve URLs "limpas";
 // - baixa as fontes do Google Fonts para dentro do app, para tudo funcionar offline;
-// - injeta app.css e app.js (barra de abas, favoritos, compartilhar e AdMob);
-// - gera a página salvos.html (guarnições favoritas) e o índice de cidades usado por ela.
+// - liga o modo app do abas.js (window.GG_APP: links com .html, compartilhar nativo, AdMob);
+//   a barra de abas, o Salvar e a página Salvos são os mesmos do site (abas.js, abas.css, salvos.html).
 //
 // Uso: node scripts/build-www.mjs   (variáveis opcionais: ADMOB_BANNER_ID_IOS, ADMOB_TESTING=0)
 
@@ -17,7 +17,6 @@ import { fileURLToPath } from 'node:url';
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = path.resolve(APP, '..');
 const OUT = path.join(APP, 'www');
-const SRC = path.join(APP, 'src');
 
 // Arquivos e pastas do site que não vão para o app
 const EXCLUIR = new Set([
@@ -119,9 +118,6 @@ function transformar(rel, html) {
   html = html.replace('Este site usa o Google Analytics para contar visitas e exibe anúncios do Google AdSense.', 'Este app exibe anúncios do Google AdMob.');
   html = html.replace(/ · <a href="\/anuncie"[^>]*>Anuncie<\/a>/g, '');
   html = html.replace(/<a href="\/anuncie"[^>]*>([\s\S]*?)<\/a>/g, '$1'); // demais menções viram texto
-  // Página inicial: sem os banners da Calculadora e do Missão Idiomas (a calculadora já está na aba Calcular)
-  html = html.replace(/\s*<section class="wrap calc-home"[\s\S]*?<\/section>/, '');
-  html = html.replace(/\s*<a class="idi-home-banner"[\s\S]*?<\/a>/g, '');
   // Fontes locais
   if (fontesLocais) {
     html = html.replace(/<link rel="preconnect" href="https:\/\/fonts\.(googleapis|gstatic)\.com"[^>]*>\s*/g, '');
@@ -137,10 +133,10 @@ function transformar(rel, html) {
   // Redirecionamentos feitos por script
   html = html.replace("location.replace('/'+m[h])", "location.replace('/'+m[h]+'.html')");
   html = reescreverLinks(html, ehIndex);
-  // CSS e JS do app
-  html = html.replace('</head>', `<link rel="stylesheet" href="/app.css">\n<script>window.GG_APP=${JSON.stringify(CONFIG)}</script>\n<script src="/app.js" defer></script>\n</head>`);
+  // Modo app do abas.js (as páginas do site já carregam abas.css e abas.js)
+  html = html.replace('</head>', `<script>window.GG_APP=${JSON.stringify(CONFIG)}</script>\n</head>`);
 
-  // Ficha de cidade? Guarda nome, UF e descrição para a página Salvos
+  // Ficha de cidade? (só para a contagem no fim)
   if (/<div class="fhead">/.test(html)) {
     const h1 = html.match(/<div class="fhead">[\s\S]*?<h1>([^<]*)<span>([A-Z]{2})<\/span><\/h1>/);
     const desc = html.match(/<meta name="description" content="([^"]*)"/);
@@ -159,21 +155,9 @@ function percorrer(dir, rel = '') {
   }
 }
 
-// Arquivos próprios do app
-for (const nome of fs.readdirSync(SRC)) fs.copyFileSync(path.join(SRC, nome), path.join(OUT, nome));
-
-// salvos.html nasce do 404.html (mesmo cabeçalho e rodapé do site)
-{
-  let base = fs.readFileSync(path.join(OUT, '404.html'), 'utf8');
-  const tpl = fs.readFileSync(path.join(SRC, 'salvos.tpl.html'), 'utf8');
-  base = base.replace(/<title>[^<]*<\/title>/, '<title>Guarnições salvas · Guia de Guarnições</title>');
-  base = base.replace(/<main[\s\S]*<\/main>/, tpl);
-  fs.writeFileSync(path.join(OUT, 'salvos.html'), base);
-  fs.rmSync(path.join(OUT, 'salvos.tpl.html'));
-}
-
 percorrer(OUT);
-fs.writeFileSync(path.join(OUT, 'cidades-app.js'), `window.GG_CIDADES=${JSON.stringify(cidades)};\n`);
+for (const f of ['abas.js', 'abas.css', 'salvos.html', 'cidades-salvos.js'])
+  if (!existe('/' + f)) { console.error(`Falta ${f} no site (rode python3 gerar_salvos.py).`); process.exitCode = 1; }
 
 // Verificação: todo link interno precisa apontar para um arquivo existente
 let quebrados = 0;

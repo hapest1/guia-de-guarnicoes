@@ -1,15 +1,25 @@
-/* Guia de Guarnições — camada do app iOS.
-   Roda em todas as páginas empacotadas: barra de abas, salvar/compartilhar fichas,
-   links (internos e externos), aviso de sem conexão e banner do AdMob. */
+/* Guia de Guarnições — barra de abas, salvar e compartilhar fichas, página Salvos.
+   O mesmo arquivo roda no site e no app do iPhone, para os dois ficarem iguais.
+   No site, a barra de abas aparece no celular (até 860 px); no computador fica o menu do topo.
+   Só no app (window.GG_APP, posto pelo build do app): links internos com .html, links externos no
+   Safari do app, compartilhamento nativo, aviso de sem conexão e banner do AdMob. */
 (function () {
   'use strict';
   var Cap = window.Capacitor;
   var nativo = !!(Cap && Cap.isNativePlatform && Cap.isNativePlatform());
   var P = (Cap && Cap.Plugins) || {};
+  var APP = !!window.GG_APP;
   var CFG = window.GG_APP || {};
   var root = document.documentElement;
-  root.classList.add('app');
+  if (APP) root.classList.add('app');
   if (nativo) root.classList.add('nativo');
+  /* no app, endereço de arquivo (/manaus-am.html); no site, endereço limpo (/manaus-am) */
+  function end(p) { return APP ? (p === '/' ? '/index.html' : p + '.html') : p; }
+  /* barra de abas: sempre no app; no site, só em tela de celular */
+  var celular = window.matchMedia ? matchMedia('(max-width: 860px)') : { matches: false };
+  function marcarAbas() { root.classList.toggle('abas', APP || celular.matches); }
+  marcarAbas();
+  if (celular.addEventListener) celular.addEventListener('change', marcarAbas);
 
   var ss = (function () { try { return window.sessionStorage; } catch (e) { return null; } })();
   var ls = (function () { try { return window.localStorage; } catch (e) { return null; } })();
@@ -30,7 +40,7 @@
 
   /* ---------- Endereços ---------- */
   var caminho = location.pathname;
-  var slug = caminho.replace(/^\//, '').replace(/\.html$/, '');
+  var slug = caminho.replace(/^\//, '').replace(/\.html$/, '').replace(/\/$/, '');
   function urlPublica() {
     var p = caminho.replace(/index\.html$/, '').replace(/\.html$/, '');
     return (CFG.site || 'https://guiadeguarnicoes.com') + p + location.search;
@@ -45,7 +55,7 @@
     return null;
   }
 
-  document.addEventListener('click', function (e) {
+  if (APP) document.addEventListener('click', function (e) {
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey) return;
     var a = e.target.closest && e.target.closest('a[href]');
     if (!a) return;
@@ -78,7 +88,7 @@
   }
   /* Os botões do site "Compartilhar no WhatsApp" e "Copiar link da simulação" viram o compartilhamento do iOS,
      já com o endereço público (o endereço interno do app não abre fora dele). */
-  document.addEventListener('click', function (e) {
+  if (APP) document.addEventListener('click', function (e) {
     var t = e.target.closest && e.target.closest('.sn-zap, #copiar');
     if (!t) return;
     e.preventDefault(); e.stopImmediatePropagation();
@@ -95,15 +105,15 @@
     salvos: '<path d="M6 3h12v18l-6-4.5L6 21z"/>'
   };
   var ABAS = [
-    { href: '/index.html', t: 'Início', i: 'inicio', m: /^\/(index\.html)?$/ },
-    { href: '/locais-de-servir.html', t: 'Mapa', i: 'mapa', m: /^\/locais-de-servir/ },
-    { href: '/planejamento-de-rota.html', t: 'Rota', i: 'rota', m: /^\/(planejamento-de-rota|postos-na-rota)/ },
-    { href: '/calculadora-de-transferencia.html', t: 'Calcular', i: 'calc', m: /^\/calculadora/ },
-    { href: '/salvos.html', t: 'Salvos', i: 'salvos', m: /^\/salvos/ }
+    { href: end('/'), t: 'Início', i: 'inicio', m: /^\/(index\.html)?$/ },
+    { href: end('/locais-de-servir'), t: 'Mapa', i: 'mapa', m: /^\/locais-de-servir/ },
+    { href: end('/planejamento-de-rota'), t: 'Rota', i: 'rota', m: /^\/(planejamento-de-rota|postos-na-rota)/ },
+    { href: end('/calculadora-de-transferencia'), t: 'Calcular', i: 'calc', m: /^\/calculadora/ },
+    { href: end('/salvos'), t: 'Salvos', i: 'salvos', m: /^\/salvos/ }
   ];
   function montarAbas() {
     var nav = document.createElement('nav');
-    nav.className = 'gg-tabs'; nav.setAttribute('aria-label', 'Navegação do app');
+    nav.className = 'gg-tabs'; nav.setAttribute('aria-label', 'Navegação principal');
     nav.innerHTML = ABAS.map(function (a) {
       return '<a href="' + a.href + '"' + (a.m.test(caminho) ? ' aria-current="page"' : '') + '><svg viewBox="0 0 24 24" aria-hidden="true">' + ICON[a.i] + '</svg>' + a.t + '</a>';
     }).join('');
@@ -146,7 +156,7 @@
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function item(s, removivel) {
     var c = (window.GG_CIDADES || {})[s]; if (!c) return '';
-    return '<div class="gg-item"><a href="/' + s + '.html"><b>' + esc(c.n) + '<small>' + esc(c.uf) + (c.cm ? ' · ' + esc(c.cm) : '') + '</small></b><p>' + esc(c.d) + '</p></a>' +
+    return '<div class="gg-item"><a href="' + end('/' + s) + '"><b>' + esc(c.n) + '<small>' + esc(c.uf) + (c.cm ? ' · ' + esc(c.cm) : '') + '</small></b><p>' + esc(c.d) + '</p></a>' +
       (removivel ? '<button type="button" data-s="' + esc(s) + '" aria-label="Remover ' + esc(c.n) + ' dos salvos">✕</button>' : '') + '</div>';
   }
   function montarSalvos() {
@@ -219,7 +229,7 @@
     montarAbas();
     if (ehFicha()) montarAcoesFicha();
     montarSalvos();
-    avisoConexao();
+    if (APP) avisoConexao();
     anuncios();
     if (P.SplashScreen) P.SplashScreen.hide().catch(function () {});
   }

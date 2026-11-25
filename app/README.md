@@ -16,7 +16,7 @@ O AdSense, o Google Analytics e o contador de visitas são retirados no build.
 site (raiz do repositório) ──npm run build──▶ app/www ──cap sync──▶ ios/App (Xcode) ──Codemagic (Mac)──▶ TestFlight / App Store
 ```
 
-- `scripts/build-www.mjs`: copia o site para `www/`, troca os links `/manaus-am` por `/manaus-am.html`, baixa as fontes, injeta `src/app.js` e `src/app.css` e gera `salvos.html`. Se sobrar algum link interno quebrado, o build falha.
+- `scripts/build-www.mjs`: copia o site para `www/`, troca os links `/manaus-am` por `/manaus-am.html`, baixa as fontes e liga o modo app do `abas.js`. A barra de abas, o Salvar e a página Salvos são os mesmos do site (`abas.js`, `abas.css`, `salvos.html`, gerada por `gerar_salvos.py`). Se sobrar algum link interno quebrado, o build falha.
 - `ios/`: o projeto Xcode, que fica no repositório.
 - `../codemagic.yaml`: compila no Codemagic, assina e envia ao TestFlight, do mesmo jeito que o Missão Idiomas.
 
