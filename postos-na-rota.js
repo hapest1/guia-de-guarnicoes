@@ -46,8 +46,7 @@
   /* ---------- cidades: guarnições do Guia + municípios do IBGE ---------- */
   var IDX=null, GU=[];
   ((window.CALC&&window.CALC.guarnicoes)||[]).forEach(function(g){
-    if(g[6]) return; /* sem acesso rodoviário */
-    GU.push({n:g[1],uf:g[2],lat:g[4],lng:g[5],gu:1,k:norm(g[1])});
+    GU.push({n:g[1],uf:g[2],lat:g[4],lng:g[5],gu:1,k:norm(g[1]),sem:g[6]?1:0}); /* sem = sem ligação por estrada */
   });
   function indice(){
     if(IDX) return IDX;
@@ -141,7 +140,7 @@
       itens=buscar(q,8);
       if(!itens.length){ ul.innerHTML='<li class="vazio" role="option" aria-disabled="true">Nenhuma cidade com esse nome. Confira a grafia.</li>'; }
       else ul.innerHTML=itens.map(function(p,i){
-        return '<li id="'+inp.id+'-o'+i+'" role="option" aria-selected="false" data-i="'+i+'"><span>'+esc(p.n)+' <span class="calc-sub">'+esc(p.uf)+'</span></span>'+(p.gu?'<small>Guarnição</small>':'')+'</li>';
+        return '<li id="'+inp.id+'-o'+i+'" role="option" aria-selected="false" data-i="'+i+'"><span>'+esc(p.n)+' <span class="calc-sub">'+esc(p.uf)+'</span></span>'+(p.gu?'<small>'+(p.sem?'Guarnição · sem estrada':'Guarnição')+'</small>':'')+'</li>';
       }).join('');
       ul.hidden=false; inp.setAttribute('aria-expanded','true'); marcar(itens.length?0:-1);
     }
@@ -647,6 +646,8 @@
     .then(function(p){
       P=p;
       for(var i=1;i<P.length;i++) if(hav(P[i-1].lat,P[i-1].lng,P[i].lat,P[i].lng)<1) throw new Error('mesmo');
+      var semEstrada=L.filter(function(i){ return i._p&&i._p.sem; });
+      if(semEstrada.length) throw new Error('sem-estrada:'+rotulo(semEstrada[0]._p));
       aviso('Traçando a rota…'); return rota(P);
     }).then(function(r){
       T=preparar(r); aviso('Procurando postos, pedágios e Hotéis de Trânsito…');
@@ -662,6 +663,7 @@
     }).catch(function(e){
       var m=String(e&&e.message||'');
       if(m.indexOf('nao-achou:')===0) aviso('Não encontrei "'+m.slice(10)+'". Escolha a cidade na lista que aparece ao digitar.','erro');
+      else if(m.indexOf('sem-estrada:')===0) aviso(m.slice(12)+' não tem ligação por estrada com o resto do país: a chegada é de avião ou de barco. Tire a cidade do roteiro ou use a última cidade com estrada.','erro');
       else if(m==='mesmo') aviso('Duas cidades seguidas do roteiro são o mesmo lugar.','erro');
       else if(m==='sem-rota') aviso('Não há rota de carro entre essas cidades.','erro');
       else if(m==='sem-dados') aviso('Não foi possível carregar a base de postos. Recarregue a página e tente de novo.','erro');
