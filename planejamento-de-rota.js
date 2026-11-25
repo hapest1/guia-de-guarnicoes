@@ -15,7 +15,7 @@
   var ROTAS=['https://router.project-osrm.org/route/v1/driving/','https://routing.openstreetmap.de/routed-car/route/v1/driving/'];
   var GEO='https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=br&accept-language=pt-BR&q=';
   var ARQ={postos:'/postos-dados.js?v=1',mun:'/municipios-dados.js?v=1',ped:'/pedagios-dados.js?v=1',ht:'/ht-rota-dados.js?v=1'};
-  var MAX_PONTOS=10, HT_ROTA=25, HT_NOITE=60, PED_ROTA=0.02;
+  var MAX_PONTOS=10, HT_ROTA=25, HT_NOITE=60, PED_ROTA=0.012;
   var R=6371, RAD=Math.PI/180;
 
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
@@ -389,7 +389,7 @@
 
   /* ---------- pedágios, hotéis de trânsito e pernoite ---------- */
   function pedagiosNaRota(T,PD,padrao){
-    /* a cabine fica sobre a pista do seu sentido: até 20 m do traçado (a cabine é um ponto da própria pista); a da pista contrária fica de fora.
+    /* a cabine fica sobre a pista do seu sentido: até 12 m do traçado (a cabine é um ponto da própria pista; a do outro sentido fica a 20 m ou mais); a da pista contrária fica de fora.
        Pontos da mesma praça a menos de 1,5 km um do outro na viagem contam uma vez só. */
     var A=[], ult=null;
     naRota(T,PD.lista,PED_ROTA).forEach(function(a){
