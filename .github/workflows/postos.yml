@@ -26,8 +26,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Instalar o osmium
         run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
-      - name: Baixar o extrato do Brasil (Geofabrik)
-        run: curl -fsSL --retry 5 --retry-delay 20 -o "$RUNNER_TEMP/brazil.osm.pbf" https://download.geofabrik.de/south-america/brazil-latest.osm.pbf
+      - name: Baixar o extrato do Brasil (Geofabrik, com espelho do openstreetmap.fr)
+        run: |
+          for url in https://download.geofabrik.de/south-america/brazil-latest.osm.pbf \
+                     https://download.openstreetmap.fr/extracts/south-america/brazil-latest.osm.pbf; do
+            if curl -fsSL --retry 4 --retry-delay 20 --retry-all-errors -o "$RUNNER_TEMP/brazil.osm.pbf" "$url"; then
+              echo "Extrato baixado de $url"; ls -la "$RUNNER_TEMP/brazil.osm.pbf"; exit 0
+            fi
+            echo "::warning::Falhou: $url"
+          done
+          exit 1
       - name: Separar postos, cidades e pedágios
         run: |
           osmium tags-filter "$RUNNER_TEMP/brazil.osm.pbf" nwr/amenity=fuel n/place=city,town,village nw/barrier=toll_booth n/highway=toll_gantry -o "$RUNNER_TEMP/filtro.osm.pbf"
