@@ -31,9 +31,26 @@ window.ESCRITORIO = {
     }
   ],
 
+  // Pré-atendimento — perguntas do formulário que monta a mensagem do WhatsApp.
+  // A mensagem vai para o primeiro número da lista "whatsapp".
+  triagem: {
+    assuntos: [
+      "Regularização de imóvel",
+      "Compra e venda / contrato",
+      "Escritura e registro",
+      "Inventário e partilha",
+      "Planejamento sucessório",
+      "Imóvel de herança",
+      "Impostos (ITBI, ITCMD, IPTU)",
+      "Outro assunto"
+    ],
+    situacoes: ["Quero orientação", "Já tenho um processo", "Tenho um prazo próximo"],
+    atendimentos: ["Presencial", "Online", "Tanto faz"]
+  },
+
   // Contato
-  whatsapp: [                            // só números com DDI e DDD; o primeiro é o botão principal
-    { rotulo: "Escritório", numero: "5555999227520" },
+  whatsapp: [                            // só números com DDI e DDD; o primeiro recebe o pré-atendimento
+    { rotulo: "Rafael Ivaniski", numero: "5555999227520" },
     { rotulo: "Roberta", numero: "5555999606730" }
   ],
   telefone: "",

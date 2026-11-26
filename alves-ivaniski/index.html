@@ -6,18 +6,18 @@
 <title>Alves &amp; Ivaniski · Advogados Associados</title>
 <meta name="description" content="Alves &amp; Ivaniski Advogados Associados — Direito Imobiliário e Direito Sucessório em Santiago, RS. Do planejamento à solução, com você em cada etapa.">
 <meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#F5F2EC">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>(function(){var v=new URLSearchParams(location.search).get("v");document.documentElement.setAttribute("data-v",/^[1-5]$/.test(v)?v:"1");})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;700;800&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Plus+Jakarta+Sans:wght@500;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="topo" id="topo">
+<header class="topo">
   <a class="marca" href="#inicio" aria-label="Início">
-    <svg class="logo" viewBox="0 0 480 540" aria-hidden="true"><g fill="#BD1B2B"><path d="M134 0h213v54H134z"/><path d="M0 88h213v52H53v52H0z"/><path d="M268 88h212v104h-53v-52H268z"/></g><g fill="currentColor"><path fill-rule="evenodd" d="M107 193h106v53h53v266l-26 27-27-27V375h-53v80l-53-49zM160 245h53v92h-53z"/><path d="M321 192h52v53h-52z"/><path d="M321 299h52v108l-52 50z"/></g></svg>
+    <svg class="logo" viewBox="0 0 480 540" aria-hidden="true"><g class="lr"><path d="M134 0h213v54H134z"/><path d="M0 88h213v52H53v52H0z"/><path d="M268 88h212v104h-53v-52H268z"/></g><g class="lk"><path fill-rule="evenodd" d="M107 193h106v53h53v266l-26 27-27-27V375h-53v80l-53-49zM160 245h53v92h-53z"/><path d="M321 192h52v53h-52z"/><path d="M321 299h52v108l-52 50z"/></g></svg>
     <span class="marca-texto">
       <span class="marca-nome" data-d="nome"></span>
       <span class="marca-sub" data-d="complemento"></span>
@@ -26,86 +26,115 @@
   <nav class="nav" aria-label="Seções">
     <a href="#areas">Atuação</a>
     <a href="#escritorio">Escritório</a>
-    <a href="#atendimento">Atendimento</a>
-    <a href="#contato" class="nav-contato">Contato</a>
+    <a href="#atendimento">Como atendemos</a>
+    <a href="#contato" class="nav-cta">Iniciar atendimento</a>
   </nav>
 </header>
 
 <main>
   <section class="capa" id="inicio">
-    <p class="sobrelinha rev"><span data-d="complemento"></span> · <span data-d="cidade"></span></p>
-    <h1 class="chamada rev" data-d="chamada"></h1>
-    <div class="capa-base rev">
-      <p class="resumo" data-d="resumo"></p>
-      <div class="acoes">
-        <a class="botao" data-contato-principal href="#contato">Falar pelo WhatsApp</a>
-        <a class="link-seta" href="#areas">Áreas de atuação</a>
+    <div class="in capa-in">
+      <div class="capa-texto">
+        <p class="sobrelinha"><span data-d="complemento"></span> · <span data-d="cidade"></span></p>
+        <h1 class="chamada" data-d="chamada"></h1>
+        <p class="resumo" data-d="resumo"></p>
+        <div class="acoes">
+          <a class="botao" href="#contato">Iniciar atendimento</a>
+          <a class="link-seta" href="#areas">Áreas de atuação</a>
+        </div>
+      </div>
+      <div class="capa-arte" aria-hidden="true">
+        <svg class="logo" viewBox="0 0 480 540"><g class="lr"><path d="M134 0h213v54H134z"/><path d="M0 88h213v52H53v52H0z"/><path d="M268 88h212v104h-53v-52H268z"/></g><g class="lk"><path fill-rule="evenodd" d="M107 193h106v53h53v266l-26 27-27-27V375h-53v80l-53-49zM160 245h53v92h-53z"/><path d="M321 192h52v53h-52z"/><path d="M321 299h52v108l-52 50z"/></g></svg>
       </div>
     </div>
   </section>
 
   <section class="secao" id="areas">
-    <header class="secao-topo rev">
-      <span class="indice">01</span>
-      <h2>Áreas de atuação</h2>
-    </header>
-    <ol class="areas" data-areas></ol>
+    <div class="in">
+      <header class="secao-topo"><span class="indice">01</span><h2>Áreas de atuação</h2></header>
+      <ol class="areas" data-areas></ol>
+    </div>
   </section>
 
   <section class="secao secao-escura" id="escritorio">
-    <header class="secao-topo rev">
-      <span class="indice">02</span>
-      <h2>O escritório</h2>
-    </header>
-    <div class="sobre">
-      <blockquote class="citacao rev" data-d="citacao"></blockquote>
-      <div class="sobre-texto rev" data-sobre></div>
+    <div class="in">
+      <header class="secao-topo"><span class="indice">02</span><h2>O escritório</h2></header>
+      <div class="sobre">
+        <blockquote class="citacao" data-d="citacao"></blockquote>
+        <div class="sobre-texto" data-sobre></div>
+      </div>
     </div>
   </section>
 
   <section class="secao" id="atendimento">
-    <header class="secao-topo rev">
-      <span class="indice">03</span>
-      <h2>Como atendemos</h2>
-    </header>
-    <div class="passos">
-      <article class="passo rev">
-        <span class="passo-n">I</span>
-        <h3>Primeira conversa</h3>
-        <p>Ouvimos a sua situação com calma e em sigilo, no escritório ou a distância.</p>
-      </article>
-      <article class="passo rev">
-        <span class="passo-n">II</span>
-        <h3>Planejamento</h3>
-        <p>Analisamos matrículas, contratos e documentos e explicamos, em linguagem direta, os caminhos possíveis.</p>
-      </article>
-      <article class="passo rev">
-        <span class="passo-n">III</span>
-        <h3>Solução</h3>
-        <p>Conduzimos cada etapa até a conclusão, com você informado de todos os andamentos.</p>
-      </article>
+    <div class="in">
+      <header class="secao-topo"><span class="indice">03</span><h2>Como atendemos</h2></header>
+      <div class="passos">
+        <article class="passo">
+          <span class="passo-n">1</span>
+          <h3>Primeira conversa</h3>
+          <p>Ouvimos a sua situação com calma e em sigilo, no escritório ou a distância.</p>
+        </article>
+        <article class="passo">
+          <span class="passo-n">2</span>
+          <h3>Planejamento</h3>
+          <p>Analisamos matrículas, contratos e documentos e explicamos, em linguagem direta, os caminhos possíveis.</p>
+        </article>
+        <article class="passo">
+          <span class="passo-n">3</span>
+          <h3>Solução</h3>
+          <p>Conduzimos cada etapa até a conclusão, com você informado de todos os andamentos.</p>
+        </article>
+      </div>
     </div>
   </section>
 
   <section class="secao contato" id="contato">
-    <header class="secao-topo rev">
-      <span class="indice">04</span>
-      <h2>Contato</h2>
-    </header>
-    <div class="contato-grade">
-      <p class="contato-chamada rev">Fale com o escritório.<br><em>Responderemos pessoalmente.</em></p>
-      <dl class="contato-lista rev" data-contato></dl>
+    <div class="in">
+      <header class="secao-topo"><span class="indice">04</span><h2>Contato</h2></header>
+      <div class="contato-grade">
+        <div class="contato-info">
+          <p class="contato-chamada">Conte o que você precisa.</p>
+          <p class="contato-nota">O pré-atendimento ao lado leva um minuto e faz a sua mensagem chegar organizada, para que a resposta venha de quem cuida do assunto.</p>
+          <dl class="contato-lista" data-contato></dl>
+        </div>
+
+        <form class="triagem" data-triagem novalidate>
+          <p class="triagem-titulo">Pré-atendimento</p>
+          <div class="campos-2">
+            <label class="campo"><span>Nome</span><input name="nome" required autocomplete="name"></label>
+            <label class="campo"><span>Cidade</span><input name="cidade" required autocomplete="address-level2"></label>
+          </div>
+          <label class="campo"><span>Assunto</span>
+            <select name="assunto" required data-opcoes="assuntos"><option value="">Selecione</option></select>
+          </label>
+          <fieldset class="campo"><legend>Situação</legend><div class="pilulas" data-pilulas="situacoes" data-nome="situacao"></div></fieldset>
+          <fieldset class="campo"><legend>Atendimento</legend><div class="pilulas" data-pilulas="atendimentos" data-nome="atendimento"></div></fieldset>
+          <label class="campo"><span>Resumo do caso</span>
+            <textarea name="resumo" rows="4" maxlength="600" required placeholder="Em poucas linhas, o que aconteceu e o que você procura."></textarea>
+            <small>Não envie documentos nem dados sensíveis por aqui.</small>
+          </label>
+          <label class="aceite"><input type="checkbox" name="aceite" required><span>Entendo que este contato não é consulta jurídica nem contratação.</span></label>
+          <p class="triagem-erro" role="alert" hidden></p>
+          <button class="botao" type="submit">Continuar no WhatsApp</button>
+          <p class="triagem-rodape">Nada fica gravado no site: as respostas só montam a mensagem que você envia.</p>
+        </form>
+      </div>
     </div>
   </section>
 </main>
 
 <footer class="rodape">
-  <div class="rodape-linha">
-    <span><span data-d="nome"></span> <span data-d="complemento"></span></span>
-    <span>© <span data-ano></span></span>
+  <div class="in">
+    <div class="rodape-linha">
+      <span><span data-d="nome"></span> <span data-d="complemento"></span></span>
+      <span>© <span data-ano></span></span>
+    </div>
+    <p class="rodape-nota">Este site tem caráter exclusivamente informativo, em conformidade com o Código de Ética e Disciplina da OAB e o Provimento nº 205/2021. As informações aqui contidas não constituem consulta jurídica.</p>
   </div>
-  <p class="rodape-nota">Este site tem caráter exclusivamente informativo, em conformidade com o Código de Ética e Disciplina da OAB e o Provimento nº 205/2021. As informações aqui contidas não constituem consulta jurídica.</p>
 </footer>
+
+<a class="barra-cta" href="#contato">Iniciar atendimento</a>
 
 <script src="dados.js"></script>
 <script src="app.js"></script>
