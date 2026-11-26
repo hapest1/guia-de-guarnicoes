@@ -21,9 +21,6 @@
 
   // Título, monograma e ano
   if (d.nome) document.title = d.nome + (d.complemento ? " · " + d.complemento : "");
-  var iniciais = (d.nome || "").split(/\s+/).filter(function (p) { return /^[A-ZÀ-Ý]/.test(p); })
-    .map(function (p) { return p[0]; }).slice(0, 2).join("");
-  $$("[data-monograma]").forEach(function (n) { n.textContent = iniciais || "§"; });
   $$("[data-ano]").forEach(function (n) { n.textContent = new Date().getFullYear(); });
 
   // Áreas de atuação
@@ -46,7 +43,6 @@
   (d.sobre || []).forEach(function (p) { sobre.appendChild(el("p", null, p)); });
 
   // Contato
-  $$("[data-oab]").forEach(function (n) { if (d.oab) n.textContent = " · " + d.oab; });
   var zaps = [].concat(d.whatsapp || []).map(function (w) {
     return typeof w === "string" ? { rotulo: "", numero: w } : w;
   }).filter(function (w) { return w.numero; });

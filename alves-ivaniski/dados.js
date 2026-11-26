@@ -5,7 +5,6 @@
 window.ESCRITORIO = {
   nome: "Alves & Ivaniski",
   complemento: "Advogados Associados",   // linha pequena abaixo do nome
-  oab: "",                               // ex.: "OAB/RS 0.000" — aparece no rodapé
   cidade: "Santiago · RS",
 
   // Frase principal da capa (use \n para quebrar a linha)

@@ -4,7 +4,7 @@
   --tinta: #15181B;
   --tinta-2: #5B5F63;
   --linha: rgba(21, 24, 27, .14);
-  --bronze: #8B1E2D;
+  --bronze: #B01B2A;
   --noite: #14171A;
   --noite-texto: #E9E4DA;
   --serifa: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
@@ -50,6 +50,7 @@ ol { list-style: none; }
   border: 1px solid var(--tinta);
   font-family: var(--serifa); font-size: 19px; letter-spacing: .04em;
 }
+.logo { flex: none; height: 46px; width: auto; display: block; }
 .marca-texto { display: flex; flex-direction: column; min-width: 0; line-height: 1.2; }
 .marca-nome {
   font-family: var(--serifa); font-size: 20px; font-weight: 500;
