@@ -1,20 +1,16 @@
-/* =========================================================
-   Base comum + 5 opções de layout (html[data-v="1".."5"]).
-   Depois da escolha, as outras opções saem deste arquivo.
-   ========================================================= */
 :root {
   --bg: #fff; --bg2: #F4F3F0;
   --ink: #131518; --ink2: #5C6065;
   --line: rgba(19, 21, 24, .14);
   --acc: #BD1B2B; --acc-ink: #fff;
   --dk: #131518; --dki: #EEEBE5; --dk2: #A9A69F;
-  --ft: "Manrope", system-ui, sans-serif;
+  --ft: "Sora", system-ui, sans-serif;
   --fb: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --tw: 700; --ts: -.02em;
+  --tw: 600; --ts: -.03em;
   --r: 0px;
   --max: 1160px;
   --pad: clamp(20px, 5vw, 72px);
-  --h1: clamp(36px, 6vw, 80px);
+  --h1: clamp(34px, 5vw, 66px);
   --logo-r: #BD1B2B;
 }
 
@@ -52,7 +48,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* ---------- Capa ---------- */
 .capa-in { display: grid; gap: 40px; align-items: center; padding-top: clamp(56px, 11vh, 130px); padding-bottom: clamp(56px, 11vh, 130px); }
-.capa-arte { display: none; }
 .sobrelinha { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--acc); margin-bottom: 26px; }
 .chamada { font-family: var(--ft); font-weight: var(--tw); font-size: var(--h1); line-height: 1.04; letter-spacing: var(--ts); text-wrap: balance; }
 .resumo { max-width: 52ch; color: var(--ink2); margin-top: 28px; font-size: 17px; }
@@ -136,7 +131,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .rodape { padding: 34px 0 42px; font-size: 12px; color: var(--ink2); border-top: 1px solid var(--line); }
 .rodape-linha { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: var(--ink); margin-bottom: 12px; }
 .rodape-nota { max-width: 78ch; line-height: 1.6; }
-.barra-cta { display: none; }
 
 @media (max-width: 880px) {
   .areas, .sobre, .contato-grade, .passos { grid-template-columns: 1fr; }
@@ -151,124 +145,17 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-/* =========================================================
-   OPÇÃO 1 — Noite: fundo escuro, tipografia forte, logo em destaque
-   ========================================================= */
-[data-v="1"] {
-  --bg: #0E1012; --bg2: #14171A; --ink: #F2EFE9; --ink2: #A19E97; --line: rgba(242, 239, 233, .15);
-  --acc: #D32C40; --logo-r: #D32C40; --dk: #BD1B2B; --dki: #fff; --dk2: rgba(255, 255, 255, .84);
-  --tw: 800; --ts: -.03em;
-}
-[data-v="1"] .secao-escura .indice { color: #fff; }
-[data-v="1"] .triagem { background: #0E1012; }
+/* ---------- Capa com bloco vermelho, quadros e detalhes ---------- */
+.capa-arte { display: grid; place-items: center; background: var(--acc); color: #131518; --logo-r: #fff; padding: 48px; min-height: 240px; }
+.capa-arte .logo { height: auto; width: min(60%, 240px); }
+.botao { background: var(--ink); border-color: var(--ink); }
+.triagem .botao { background: var(--acc); border-color: var(--acc); }
+.area { background: var(--bg2); padding: clamp(24px, 3vw, 40px); border-top: 4px solid var(--acc); }
+.areas { gap: 24px; }
+.triagem { border: 0; box-shadow: 0 18px 50px rgba(19, 21, 24, .09); }
+.passo { border-left: 1px solid var(--line); padding-left: 24px; }
 @media (min-width: 881px) {
-  [data-v="1"] .capa-in { grid-template-columns: 1.5fr .6fr; }
-  [data-v="1"] .capa-arte { display: grid; place-items: center; }
-  [data-v="1"] .capa-arte .logo { height: auto; width: min(100%, 300px); }
+  .capa-in { grid-template-columns: 1.15fr .85fr; align-items: stretch; padding-top: 0; padding-bottom: 0; padding-right: 0; max-width: none; padding-left: max(var(--pad), calc((100% - var(--max)) / 2)); }
+  .capa-texto { padding: clamp(64px, 12vh, 140px) 0; }
 }
-
-/* =========================================================
-   OPÇÃO 2 — Branco e vermelho: moderno, bloco vermelho na capa
-   ========================================================= */
-[data-v="2"] { --ft: "Sora", system-ui, sans-serif; --tw: 600; --ts: -.03em; --h1: clamp(34px, 5vw, 66px); --dk: #131518; }
-[data-v="2"] .capa-arte { display: grid; place-items: center; background: var(--acc); color: #131518; --logo-r: #fff; padding: 48px; min-height: 240px; }
-[data-v="2"] .capa-arte .logo { height: auto; width: min(60%, 240px); }
-[data-v="2"] .botao { background: var(--ink); border-color: var(--ink); }
-[data-v="2"] .triagem .botao { background: var(--acc); border-color: var(--acc); }
-[data-v="2"] .area { background: var(--bg2); padding: clamp(24px, 3vw, 40px); border-top: 4px solid var(--acc); }
-[data-v="2"] .areas { gap: 24px; }
-[data-v="2"] .triagem { border: 0; box-shadow: 0 18px 50px rgba(19, 21, 24, .09); }
-[data-v="2"] .passo { border-left: 1px solid var(--line); padding-left: 24px; }
-@media (min-width: 881px) {
-  [data-v="2"] .capa-in { grid-template-columns: 1.15fr .85fr; align-items: stretch; padding-top: 0; padding-bottom: 0; padding-right: 0; max-width: none; padding-left: max(var(--pad), calc((100% - var(--max)) / 2)); }
-  [data-v="2"] .capa-texto { padding: clamp(64px, 12vh, 140px) 0; }
-}
-@media (max-width: 880px) { [data-v="2"] .capa-in { padding-bottom: 0; } [data-v="2"] .capa-arte { margin: 0 calc(-1 * var(--pad)); } }
-
-/* =========================================================
-   OPÇÃO 3 — Clássico: serifado, centralizado, tom de papel
-   ========================================================= */
-[data-v="3"] {
-  --bg: #FBF8F2; --bg2: #F2EDE2; --ink: #1C1A18; --ink2: #6A655E; --line: rgba(28, 26, 24, .16);
-  --acc: #8E1B2B; --dk: #3A0D15; --dki: #F5EDE3; --dk2: #D2BFB4;
-  --ft: "Playfair Display", Georgia, serif; --tw: 500; --ts: -.005em; --h1: clamp(36px, 5.6vw, 74px);
-}
-[data-v="3"] .topo { position: static; flex-direction: column; gap: 18px; padding-top: 34px; padding-bottom: 0; border-bottom: 0; }
-[data-v="3"] .marca { flex-direction: column; gap: 12px; text-align: center; }
-[data-v="3"] .marca-texto { align-items: center; }
-[data-v="3"] .marca-nome { font-size: 26px; }
-[data-v="3"] .marca .logo { height: 64px; }
-[data-v="3"] .marca-sub { display: block; }
-[data-v="3"] .nav { width: 100%; justify-content: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 12px 0; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; }
-[data-v="3"] .nav .nav-cta { background: none; color: var(--acc); padding: 0; }
-[data-v="3"] .capa-texto { text-align: center; }
-[data-v="3"] .resumo { margin-left: auto; margin-right: auto; }
-[data-v="3"] .acoes { justify-content: center; }
-[data-v="3"] .sobrelinha::after { content: ""; display: block; width: 44px; height: 1px; background: var(--acc); margin: 22px auto 0; }
-[data-v="3"] .secao-topo { flex-direction: column; align-items: center; gap: 8px; border-bottom: 0; padding-bottom: 0; }
-[data-v="3"] .secao-topo h2 { font-family: var(--ft); font-size: clamp(26px, 3vw, 36px); font-weight: 500; letter-spacing: 0; text-transform: none; }
-[data-v="3"] .indice { letter-spacing: .3em; }
-[data-v="3"] .area, [data-v="3"] .passo { text-align: center; }
-[data-v="3"] .area-texto { margin-left: auto; margin-right: auto; }
-[data-v="3"] .passo-n { margin-left: auto; margin-right: auto; border-radius: 50%; font-weight: 500; }
-[data-v="3"] .citacao { font-style: italic; font-weight: 400; }
-[data-v="3"] .contato-chamada { font-style: italic; font-weight: 400; }
-[data-v="3"] .botao { letter-spacing: .12em; text-transform: uppercase; font-size: 12px; }
-[data-v="3"] .rodape { text-align: center; }
-[data-v="3"] .rodape-linha { justify-content: center; }
-[data-v="3"] .rodape-nota { margin: 0 auto; }
-@media (max-width: 880px) { [data-v="3"] .nav a:not(.nav-cta) { display: inline; } [data-v="3"] .nav { flex-wrap: wrap; gap: 8px 18px; font-size: 11px; } }
-
-/* =========================================================
-   OPÇÃO 4 — Coluna fixa: painel escuro lateral, conteúdo à direita
-   ========================================================= */
-[data-v="4"] { --bg: #F7F6F3; --bg2: #EDEBE6; --max: 860px; --h1: clamp(34px, 4.6vw, 62px); --tw: 800; --ts: -.03em; }
-[data-v="4"] .topo { background: #101214; color: #F2EFE9; border: 0; --ink: #F2EFE9; --ink2: #A19E97; }
-[data-v="4"] .chamada { border-left: 5px solid var(--acc); padding-left: clamp(18px, 2.4vw, 32px); }
-[data-v="4"] .triagem { background: #fff; }
-@media (min-width: 1000px) {
-  [data-v="4"] .topo { position: fixed; inset: 0 auto 0 0; width: 300px; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 56px; padding: 44px 34px; }
-  [data-v="4"] .marca { flex-direction: column; align-items: flex-start; gap: 22px; }
-  [data-v="4"] .marca .logo { height: 96px; }
-  [data-v="4"] .marca-nome { font-size: 22px; }
-  [data-v="4"] .nav { flex-direction: column; align-items: flex-start; gap: 18px; font-size: 15px; flex: 1; width: 100%; }
-  [data-v="4"] .nav .nav-cta { margin-top: auto; width: 100%; text-align: center; padding: 14px; }
-  [data-v="4"] main, [data-v="4"] .rodape { margin-left: 300px; }
-  [data-v="4"] html, html[data-v="4"] { scroll-padding-top: 24px; }
-}
-
-/* =========================================================
-   OPÇÃO 5 — Cartões: cantos arredondados, blocos, jeito de aplicativo
-   ========================================================= */
-[data-v="5"] { --bg: #ECEDEF; --bg2: #ECEDEF; --r: 22px; --ft: "Plus Jakarta Sans", system-ui, sans-serif; --ts: -.03em; --h1: clamp(34px, 5vw, 64px); }
-[data-v="5"] .topo { margin: 12px var(--pad) 0; top: 12px; padding: 10px 12px 10px 20px; background: #fff; border: 0; border-radius: 999px; box-shadow: 0 6px 24px rgba(19, 21, 24, .07); max-width: var(--max); }
-@media (min-width: 1305px) { [data-v="5"] .topo { margin-left: auto; margin-right: auto; } }
-[data-v="5"] .nav .nav-cta, [data-v="5"] .botao { border-radius: 999px; }
-[data-v="5"] .capa { padding: 16px var(--pad) 0; }
-[data-v="5"] .capa-in { background: #131518; color: #fff; --ink: #fff; --ink2: #B9B6AF; --line: rgba(255, 255, 255, .2); --acc: #E0384C; --logo-r: #E0384C; border-radius: 28px; max-width: var(--max); padding: clamp(32px, 6vw, 84px); }
-[data-v="5"] .secao { padding: clamp(40px, 5vw, 64px) 0 0; }
-[data-v="5"] .secao-topo { border-bottom: 0; padding-bottom: 0; margin-bottom: 20px; }
-[data-v="5"] .areas { gap: 16px; }
-[data-v="5"] .area, [data-v="5"] .passo, [data-v="5"] .triagem, [data-v="5"] .contato-info { background: #fff; border: 0; border-radius: var(--r); padding: clamp(22px, 3vw, 36px); }
-[data-v="5"] .passos, [data-v="5"] .contato-grade { gap: 16px; }
-[data-v="5"] .passo-n { border-radius: 50%; background: var(--acc); color: #fff; }
-[data-v="5"] .secao-escura { background: none; color: #fff; }
-[data-v="5"] .secao-escura .in > * { max-width: none; }
-[data-v="5"] .secao-escura .secao-topo { color: var(--ink); --ink: #131518; }
-[data-v="5"] .secao-escura .secao-topo h2 { color: #131518; }
-[data-v="5"] .sobre { background: var(--acc); border-radius: 28px; padding: clamp(28px, 5vw, 64px); --ink2: rgba(255, 255, 255, .86); }
-[data-v="5"] .area-temas li { border: 0; background: var(--bg); border-radius: 12px; padding: 11px 14px; margin-top: 8px; }
-[data-v="5"] .area-temas li:last-child { border: 0; }
-[data-v="5"] .rodape { border: 0; margin-top: 48px; }
-@media (min-width: 881px) {
-  [data-v="5"] .capa-in { grid-template-columns: 1.5fr .5fr; }
-  [data-v="5"] .capa-arte { display: grid; place-items: center; }
-  [data-v="5"] .capa-arte .logo { height: auto; width: min(100%, 220px); }
-}
-@media (max-width: 880px) {
-  [data-v="5"] .barra-cta { display: block; position: fixed; left: 16px; right: 16px; bottom: 14px; z-index: 30; text-align: center; padding: 15px; background: var(--acc); color: #fff; border-radius: 999px; font-weight: 600; font-size: 15px; box-shadow: 0 10px 30px rgba(189, 27, 43, .35); }
-  [data-v="5"] .nav .nav-cta { display: none; }
-  [data-v="5"] .topo { padding: 10px 20px; }
-  [data-v="5"] .rodape { padding-bottom: 96px; }
-  [data-v="5"] { --h1: clamp(27px, 7.4vw, 44px); }
-}
+@media (max-width: 880px) { .capa-in { padding-bottom: 0; } .capa-arte { margin: 0 calc(-1 * var(--pad)); } }
