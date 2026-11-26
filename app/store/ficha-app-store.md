@@ -63,3 +63,5 @@ Os formulários de contribuição enviam nome e e-mail só se a pessoa preencher
 
 ## Capturas de tela
 Em `store/screenshots/` há capturas de 1320 × 2868, o tamanho de iPhone de 6,9" exigido pela Apple. Elas foram geradas sem as fotos das cidades. Para capturas melhores, tire-as no iPhone pelo TestFlight (botões laterais + volume). Fora do iPhone de 6,9", a Apple redimensiona as capturas automaticamente.
+
+Em `store/screenshots-ipad/` há capturas de 2064 × 2752, o tamanho de iPad de 13" exigido enquanto o app for compatível com iPad. Também foram geradas sem as fotos das cidades.
