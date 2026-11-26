@@ -135,10 +135,23 @@ button, input, select, textarea { font: inherit; color: inherit; }
 @media (max-width: 880px) {
   .areas, .sobre, .contato-grade, .passos { grid-template-columns: 1fr; }
   .nav a:not(.nav-cta) { display: none; }
+  .secao { padding: 52px 0; }
+  .secao-topo { margin-bottom: 26px; padding-bottom: 16px; }
+  .capa-in { padding-top: 44px; gap: 36px; }
+  .resumo { margin-top: 20px; font-size: 16px; }
+  .acoes { margin-top: 28px; gap: 20px; }
+  .sobre { gap: 20px; }
+  /* No celular o formulário vem logo depois do título; endereço e telefones ficam por último */
+  .contato-grade { gap: 0; }
+  .contato-info { display: contents; }
+  .contato-chamada { order: 1; }
+  .contato-nota { order: 2; margin-top: 12px; }
+  .triagem { order: 3; margin-top: 24px; }
+  .contato-lista { order: 4; margin-top: 32px; }
+  .contato-item { grid-template-columns: 96px 1fr; padding: 13px 0; }
 }
 @media (max-width: 520px) {
   .campos-2 { grid-template-columns: 1fr; }
-  .contato-item { grid-template-columns: 1fr; gap: 2px; }
   .marca-sub { display: none; }
   .nav .nav-cta { padding: 9px 13px; font-size: 13px; }
   .logo { height: 40px; }
