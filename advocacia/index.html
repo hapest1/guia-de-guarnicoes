@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Advocacia</title>
+<meta name="description" content="Escritório de advocacia. Atendimento pessoal, com orientação jurídica clara e acompanhamento de cada etapa.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#F5F2EC">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo" id="topo">
+  <a class="marca" href="#inicio" aria-label="Início">
+    <span class="monograma" data-monograma></span>
+    <span class="marca-texto">
+      <span class="marca-nome" data-d="nome"></span>
+      <span class="marca-sub" data-d="complemento"></span>
+    </span>
+  </a>
+  <nav class="nav" aria-label="Seções">
+    <a href="#areas">Atuação</a>
+    <a href="#escritorio">Escritório</a>
+    <a href="#atendimento">Atendimento</a>
+    <a href="#contato" class="nav-contato">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <section class="capa" id="inicio">
+    <p class="sobrelinha rev"><span data-d="complemento"></span> · <span data-d="cidade"></span></p>
+    <h1 class="chamada rev" data-d="chamada"></h1>
+    <div class="capa-base rev">
+      <p class="resumo" data-d="resumo"></p>
+      <div class="acoes">
+        <a class="botao" data-contato-principal href="#contato">Agendar atendimento</a>
+        <a class="link-seta" href="#areas">Áreas de atuação</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="areas">
+    <header class="secao-topo rev">
+      <span class="indice">01</span>
+      <h2>Áreas de atuação</h2>
+    </header>
+    <ol class="areas" data-areas></ol>
+  </section>
+
+  <section class="secao secao-escura" id="escritorio">
+    <header class="secao-topo rev">
+      <span class="indice">02</span>
+      <h2>O escritório</h2>
+    </header>
+    <div class="sobre">
+      <blockquote class="citacao rev">Cada caso é tratado como único — porque, para quem o vive, ele é.</blockquote>
+      <div class="sobre-texto rev" data-sobre></div>
+    </div>
+  </section>
+
+  <section class="secao" id="atendimento">
+    <header class="secao-topo rev">
+      <span class="indice">03</span>
+      <h2>Como atendemos</h2>
+    </header>
+    <div class="passos">
+      <article class="passo rev">
+        <span class="passo-n">I</span>
+        <h3>Primeira conversa</h3>
+        <p>Ouvimos o seu relato com calma e em sigilo, presencialmente ou a distância.</p>
+      </article>
+      <article class="passo rev">
+        <span class="passo-n">II</span>
+        <h3>Análise do caso</h3>
+        <p>Estudamos documentos e caminhos possíveis e explicamos, em linguagem direta, o que cada um envolve.</p>
+      </article>
+      <article class="passo rev">
+        <span class="passo-n">III</span>
+        <h3>Acompanhamento</h3>
+        <p>Você é informado de cada andamento, com um contato direto para tirar dúvidas.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="secao contato" id="contato">
+    <header class="secao-topo rev">
+      <span class="indice">04</span>
+      <h2>Contato</h2>
+    </header>
+    <div class="contato-grade">
+      <p class="contato-chamada rev">Fale com o escritório.<br><em>Responderemos pessoalmente.</em></p>
+      <dl class="contato-lista rev" data-contato></dl>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="rodape-linha">
+    <span><span data-d="nome"></span> · <span data-d="oab"></span></span>
+    <span>© <span data-ano></span></span>
+  </div>
+  <p class="rodape-nota">Este site tem caráter exclusivamente informativo, em conformidade com o Código de Ética e Disciplina da OAB e o Provimento nº 205/2021. As informações aqui contidas não constituem consulta jurídica.</p>
+</footer>
+
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
