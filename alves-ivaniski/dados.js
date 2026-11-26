@@ -39,7 +39,7 @@ window.ESCRITORIO = {
   telefone: "",
   email: "",
   instagram: "alvesivaniski",            // só o usuário, sem @
-  endereco: ["Getúlio Vargas, 1592", "Santiago · Rio Grande do Sul"],
+  endereco: ["Av. Getúlio Vargas, 1592", "Santiago · Rio Grande do Sul"],
   horario: [],                           // ex.: ["Segunda a sexta", "8h30 às 12h · 13h30 às 18h"]
-  mapa: "https://www.google.com/maps/search/?api=1&query=Get%C3%BAlio+Vargas+1592+Santiago+RS"
+  mapa: "https://www.google.com/maps/search/?api=1&query=Av.+Get%C3%BAlio+Vargas+1592+Santiago+RS"
 };
