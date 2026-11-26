@@ -7,6 +7,12 @@ html.abas .gg-tabs{display:grid}
 html.abas body{padding-bottom:calc(var(--tabs-h) + var(--ad-h) + env(safe-area-inset-bottom,0px))}
 html.app .menu-btn{min-height:44px}
 html.abas .totop{bottom:calc(var(--tabs-h) + var(--ad-h) + 16px + env(safe-area-inset-bottom,0px))}
+/* App do iPhone com barra de abas nativa: a página só reserva o espaço do anúncio, que fica logo acima da barra */
+html.abas-nativas body{padding-bottom:var(--ad-h)}
+html.abas-nativas .totop{bottom:calc(var(--ad-h) + 16px)}
+html.abas-nativas .gg-offline{bottom:calc(var(--ad-h) + 12px)}
+/* Imprimir não existe no app */
+html.app #imprimir,html.app .so-web{display:none!important}
 /* O link para o próprio site e o do anúncio de venda de espaço não fazem sentido no app */
 html.app a[href^="/anuncie"]{display:none!important}
 
@@ -48,3 +54,9 @@ html.app a[href^="/anuncie"]{display:none!important}
 /* Aviso de sem conexão */
 .gg-offline{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabs-h) + var(--ad-h) + 12px + env(safe-area-inset-bottom,0px));
   z-index:41;background:var(--ink);color:var(--bg);font-size:.85rem;padding:8px 14px;border-radius:20px;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+
+/* App: foto e vídeo sem conexão */
+.capa.gg-sem-foto img,.capa.gg-sem-foto figcaption{display:none}
+.capa.gg-sem-foto{display:flex;align-items:center;justify-content:center;aspect-ratio:auto;min-height:110px}
+.gg-midia-off{margin:0;padding:16px;color:var(--muted);font-size:.9rem;text-align:center}
+.gg-yt-off{margin:8px 0 0;padding:8px 12px;border-radius:8px;background:var(--mark-soft);color:var(--ink);font-size:.88rem}

@@ -116,7 +116,13 @@ function transformar(rel, html) {
   html = html.replace(/<link rel="manifest"[^>]*>/g, '');
   html = html.replace(/<p class="eyebrow"[^>]*id="visitas-wrap">[\s\S]*?<\/p>\s*/g, '');
   html = html.replace('Este site usa o Google Analytics para contar visitas e exibe anúncios do Google AdSense.', 'Este app exibe anúncios do Google AdMob.');
+  // Sobre: no app os anúncios são do AdMob e não há página de venda de espaço
+  html = html.replace('são cobertos por anúncios do Google AdSense e por espaços de divulgação para empresas que atendem famílias em mudança (veja <a href="/anuncie">Anuncie</a>).',
+    'são cobertos por anúncios (Google AdMob no app e Google AdSense no site).');
   html = html.replace(/ · <a href="\/anuncie"[^>]*>Anuncie<\/a>/g, '');
+  // Rodapé: atalho para o contato
+  html = html.replace(/(<a href="\/privacidade" style="color:inherit">Política de privacidade<\/a>)(<\/p>\s*<\/div><\/footer>)/,
+    '$1 · <a href="/sobre#contato" style="color:inherit">Contato</a>$2');
   html = html.replace(/<a href="\/anuncie"[^>]*>([\s\S]*?)<\/a>/g, '$1'); // demais menções viram texto
   // Fontes locais
   if (fontesLocais) {

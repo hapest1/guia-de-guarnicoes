@@ -34,7 +34,7 @@ Guia independente, feito por e para militares e suas famílias. Não é publica�
 exército,militar,guarnição,transferência,movimentação,PNR,ajuda de custo,quartel,OM,mudança
 
 ## URLs
-- Suporte: https://guiadeguarnicoes.com/sobre
+- Suporte: https://guiadeguarnicoes.com/sobre#contato
 - Marketing: https://guiadeguarnicoes.com/
 - Política de privacidade: https://guiadeguarnicoes.com/privacidade#app
 
@@ -59,7 +59,7 @@ O botão "Usar minha localização" do Planejamento de Rota envia a posição ao
 Os formulários de contribuição enviam nome e e-mail só se a pessoa preencher. Declare também **Informações de contato › Nome / E-mail › Funcionalidade do app, Não vinculado, Sem rastreamento**.
 
 ## Notas para revisão (App Review)
-> O Guia de Guarnições é um guia de referência para militares do Exército Brasileiro e suas famílias que vão se mudar de cidade. Todo o conteúdo (171 fichas de cidades, guias, calculadoras, mapa e comparador) vem embutido no app e funciona offline. Recursos nativos: barra de abas, guarnições salvas e histórico guardados no aparelho, compartilhamento pelo menu do iOS, retorno tátil e links externos abertos em SFSafariViewController. O app exibe banners do Google AdMob e pede permissão de rastreamento (ATT) na primeira abertura. Não há login nem compras.
+O texto completo, já conferido com o que o build faz, está em [`notas-app-review.md`](notas-app-review.md).
 
 ## Capturas de tela
 Em `store/screenshots/` há capturas de 1320 × 2868, o tamanho de iPhone de 6,9" exigido pela Apple. Elas foram geradas sem as fotos das cidades. Para capturas melhores, tire-as no iPhone pelo TestFlight (botões laterais + volume). Fora do iPhone de 6,9", a Apple redimensiona as capturas automaticamente.

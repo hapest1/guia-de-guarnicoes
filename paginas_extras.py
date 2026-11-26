@@ -91,8 +91,8 @@ SOBRE = """<h1>Sobre o Guia de Guarnições</h1>
 <p>O acesso é gratuito e continuará gratuito. Os custos do domínio e o tempo de pesquisa são cobertos por anúncios do Google AdSense e por espaços de divulgação para empresas que atendem famílias em mudança (veja <a href="/anuncie">Anuncie</a>). Anúncio não muda o conteúdo das fichas.</p>
 <h2>Correções e contribuições</h2>
 <p>As cidades mudam: o aluguel sobe, uma escola fecha, abre uma linha de voo. Se você serve ou já serviu numa guarnição e viu algo desatualizado, ou quer contar como é morar lá, use a página <a href="/contribuir">Contribua com o Guia</a>. Cada relato é lido; o que for confirmado entra na próxima revisão da ficha, sem identificar quem enviou, salvo autorização. As mudanças ficam registradas em <a href="/atualizacoes">Atualizações</a>.</p>
-<h2>Contato</h2>
-<p>guiadeguarnicoes@gmail.com</p>
+<h2 id="contato">Contato e suporte</h2>
+<p>Dúvidas, correções ou problemas com o site ou com o app: escreva para <a href="mailto:guiadeguarnicoes@gmail.com">guiadeguarnicoes@gmail.com</a>. O endereço do guia na internet é <a href="https://guiadeguarnicoes.com/">guiadeguarnicoes.com</a>.</p>
 <p class="meta">Página atualizada em novembro de 2026 · <a href="/metodologia">Como o guia é feito</a></p>"""
 
 # ---------------------------------------------------------------- Metodologia

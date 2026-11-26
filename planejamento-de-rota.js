@@ -186,7 +186,11 @@
 
   /* ---------- localizar cada cidade do roteiro ---------- */
   function getJSON(url){
-    return fetch(url,{headers:{'Accept':'application/json'}}).then(function(r){ if(!r.ok) throw new Error('http '+r.status); return r.json(); });
+    /* conexão lenta: desiste depois de 25 s, para a tela não ficar esperando sem fim */
+    var ctl=window.AbortController?new AbortController():null, t=ctl&&setTimeout(function(){ ctl.abort(); },25000);
+    return fetch(url,{headers:{'Accept':'application/json'},signal:ctl?ctl.signal:undefined})
+      .then(function(r){ if(!r.ok) throw new Error('http '+r.status); return r.json(); })
+      .then(function(j){ clearTimeout(t); return j; },function(e){ clearTimeout(t); throw e; });
   }
   var ultGeo=0; /* o Nominatim aceita um pedido por segundo */
   function buscaGeo(url,tent){
