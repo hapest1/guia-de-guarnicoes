@@ -33,6 +33,11 @@
     li.appendChild(el("span", "area-n", ("0" + (i + 1)).slice(-2)));
     li.appendChild(el("h3", "area-nome", a.nome));
     li.appendChild(el("p", "area-texto", a.texto));
+    if (a.temas && a.temas.length) {
+      var ul = el("ul", "area-temas");
+      a.temas.forEach(function (t) { ul.appendChild(el("li", null, t)); });
+      li.appendChild(ul);
+    }
     lista.appendChild(li);
   });
 
@@ -41,15 +46,26 @@
   (d.sobre || []).forEach(function (p) { sobre.appendChild(el("p", null, p)); });
 
   // Contato
-  var zap = d.whatsapp ? "https://wa.me/" + d.whatsapp.replace(/\D/g, "") : "";
+  $$("[data-oab]").forEach(function (n) { if (d.oab) n.textContent = " · " + d.oab; });
+  var zaps = [].concat(d.whatsapp || []).map(function (w) {
+    return typeof w === "string" ? { rotulo: "", numero: w } : w;
+  }).filter(function (w) { return w.numero; });
+  var linkZap = function (w) { return "https://wa.me/" + w.numero.replace(/\D/g, ""); };
+  var formata = function (n) {
+    var m = n.replace(/\D/g, "").match(/^55(\d{2})(\d{4,5})(\d{4})$/);
+    return m ? "(" + m[1] + ") " + m[2] + "-" + m[3] : n;
+  };
+  var zap = zaps.length ? linkZap(zaps[0]) : "";
   var itens = [
     ["Endereço", d.endereco, d.mapa],
     ["Horário", d.horario],
     ["Telefone", d.telefone, d.telefone && /\d{8}/.test(d.telefone.replace(/\D/g, "")) ? "tel:+55" + d.telefone.replace(/\D/g, "") : ""],
-    ["WhatsApp", zap ? "Enviar mensagem" : "", zap],
     ["E-mail", d.email, d.email ? "mailto:" + d.email : ""],
     ["Instagram", d.instagram ? "@" + d.instagram : "", d.instagram ? "https://instagram.com/" + d.instagram : ""]
   ];
+  zaps.forEach(function (w, i) {
+    itens.splice(2 + i, 0, ["WhatsApp", [formata(w.numero) + (w.rotulo ? " · " + w.rotulo : "")], linkZap(w)]);
+  });
   var dl = document.querySelector("[data-contato]");
   itens.forEach(function (it) {
     var linhas = [].concat(it[1] || []).filter(Boolean);

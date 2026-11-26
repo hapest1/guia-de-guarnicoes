@@ -4,7 +4,7 @@
   --tinta: #15181B;
   --tinta-2: #5B5F63;
   --linha: rgba(21, 24, 27, .14);
-  --bronze: #8C6B3F;
+  --bronze: #8B1E2D;
   --noite: #14171A;
   --noite-texto: #E9E4DA;
   --serifa: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
@@ -128,9 +128,15 @@ ol { list-style: none; }
 .area-nome { font-family: var(--serifa); font-weight: 400; font-size: clamp(26px, 2.8vw, 34px); line-height: 1.15; transition: color .25s; }
 .area:hover .area-nome { color: var(--bronze); }
 .area-texto { color: var(--tinta-2); font-size: 15px; max-width: 44ch; }
+.area { border-bottom: 0; padding-bottom: 0; }
+.area-nome { font-size: clamp(32px, 3.8vw, 46px); }
+.area-n { padding-top: 18px; }
+.area-temas { grid-column: 2; list-style: none; margin: 22px 0 0; padding: 0; }
+.area-temas li { padding: 14px 0; border-top: 1px solid var(--linha); font-size: 15px; }
+.area-temas li:last-child { border-bottom: 1px solid var(--linha); }
 
 /* Escritório */
-.secao-escura { background: var(--noite); color: var(--noite-texto); --linha: rgba(233, 228, 218, .16); --tinta-2: #A39E94; --bronze: #C2A070; }
+.secao-escura { background: var(--noite); color: var(--noite-texto); --linha: rgba(233, 228, 218, .16); --tinta-2: #A39E94; --bronze: #C4525F; }
 .sobre { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(32px, 7vw, 110px); align-items: start; }
 .citacao { font-family: var(--serifa); font-style: italic; font-size: clamp(30px, 4.2vw, 54px); line-height: 1.15; text-wrap: balance; }
 .sobre-texto { display: grid; gap: 18px; color: var(--tinta-2); padding-top: 10px; }
