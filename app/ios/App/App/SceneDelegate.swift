@@ -249,7 +249,6 @@ final class MaisViewController: UITableViewController {
         Secao(titulo: "Ferramentas", rodape: nil, linhas: [
             Linha(titulo: "Calculadora de Transferência", icone: "plus.forwardslash.minus", acao: .pagina("/calculadora-de-transferencia.html")),
             Linha(titulo: "Calculadora de Ajuda de Custo", icone: "banknote", acao: .pagina("/calculadora-de-ajuda-de-custo.html")),
-            Linha(titulo: "Calculadora de Passagens", icone: "ticket", acao: .pagina("/calculadora-de-passagens.html")),
             Linha(titulo: "Comparar guarnições", icone: "arrow.left.arrow.right", acao: .pagina("/comparar.html")),
             Linha(titulo: "Checklist da chegada", icone: "checklist", acao: .pagina("/checklist-da-chegada.html")),
             Linha(titulo: "Hotéis de Trânsito", icone: "bed.double", acao: .pagina("/hoteis-de-transito.html")),
