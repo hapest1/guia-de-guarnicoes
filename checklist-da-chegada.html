@@ -57,7 +57,7 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
   <nav class="crumbs" aria-label="Caminho"><a href="/">Início</a><span>›</span><span>Checklist da chegada</span></nav>
   <p class="kicker" style="margin-top:18px">Para o militar e a família</p>
   <h1 class="pg-title">Checklist da chegada</h1>
-  <p class="intro">O que resolver entre a saída da movimentação e a primeira semana na nova guarnição. Marque os itens conforme for fazendo. As marcações ficam salvas só neste navegador.</p>
+  <p class="intro">O que resolver entre a saída da movimentação e a primeira semana na nova guarnição. Marque os itens conforme for fazendo. As marcações ficam salvas só no seu aparelho.</p>
   <div class="ck-bar">
     <div class="ck-prog"><div class="ck-num"><b id="feitos">0</b> de 26 itens</div><div class="ck-track"><div class="ck-fill" id="barra"></div></div></div>
     <div class="ck-acoes"><button type="button" class="btn" id="imprimir">Imprimir</button><button type="button" class="btn sec" id="limpar">Desmarcar tudo</button></div>
@@ -80,7 +80,8 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
 (function(){
   var K='gg_checklist_v1', box=[].slice.call(document.querySelectorAll('.ck input')), feito={};
   try{ feito=JSON.parse(localStorage.getItem(K)||'{}')||{}; }catch(e){}
-  function salvar(){ try{ localStorage.setItem(K, JSON.stringify(feito)); }catch(e){} }
+  /* no app, as marcações também ficam nas preferências do aparelho (GG_GUARDAR, do abas.js) */
+  function salvar(){ var t=JSON.stringify(feito), G=window.GG_GUARDAR; try{ localStorage.setItem(K, t); }catch(e){} if(G) G.gravar(K, t); }
   function contar(){
     var n=box.filter(function(b){return b.checked;}).length;
     document.getElementById('feitos').textContent=n;
@@ -96,6 +97,14 @@ addEventListener('load',function(){setTimeout(c,3000);});})();</script>
     feito={}; salvar(); box.forEach(function(b){b.checked=false;}); contar();
   });
   contar();
+  document.addEventListener('DOMContentLoaded',function(){
+    var G=window.GG_GUARDAR; if(!G) return;
+    G.ler(K).then(function(t){
+      if(!t) return;
+      try{ feito=JSON.parse(t)||{}; }catch(e){ return; }
+      box.forEach(function(b){ b.checked=!!feito[b.dataset.id]; }); contar();
+    });
+  });
 })();
 </script>
 </body></html>

@@ -2,10 +2,13 @@
 
 O app empacota o site inteiro (171 fichas, guias, calculadoras, mapa e comparador) para funcionar **sem internet**. Ele foi feito com [Capacitor](https://capacitorjs.com) e acrescenta ao site:
 
-- barra de abas: Início, Mapa, Rota (Planejamento de Rota), Calcular, Salvos. O Comparar continua no menu e nas fichas;
-- botão **Salvar** nas fichas e uma página **Salvos**, com as guarnições salvas e as vistas recentemente;
+- **barra de abas nativa do iOS** (`UITabBar`, em `ios/App/App/SceneDelegate.swift`): Início, Mapa, Rota (Planejamento de Rota), Salvos e Mais. A aba **Mais** abre uma lista nativa com as ferramentas (calculadoras, Comparar, Checklist, Hotéis de Trânsito, Guias), os oito Comandos Militares e a parte de Sobre e contato (e-mail de suporte, site, política de privacidade, permissões do app). A barra de abas em HTML do `abas.js` continua existindo para o site no celular; no app ela não é desenhada (`window.GG_NATIVO`);
+- gesto de voltar do iOS (arrastar da borda esquerda);
+- botão **Salvar** nas fichas e uma página **Salvos**, com as guarnições salvas e as vistas recentemente, guardadas no aparelho;
+- **Checklist da chegada** com as marcações guardadas nas preferências do aparelho;
 - compartilhamento pelo menu do iOS, com o link público do site;
-- links externos abertos no Safari dentro do app;
+- links externos e vídeos do YouTube abertos no Safari dentro do app;
+- avisos de sem conexão: as fichas continuam abrindo; foto, vídeo e rota mostram um aviso no lugar;
 - banner do **AdMob** acima das abas, com o pedido de rastreamento (ATT) e o consentimento do Google (UMP).
 
 O AdSense, o Google Analytics e o contador de visitas são retirados no build.

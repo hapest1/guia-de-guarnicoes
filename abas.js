@@ -2,7 +2,8 @@
    O mesmo arquivo roda no site e no app do iPhone, para os dois ficarem iguais.
    No site, a barra de abas aparece no celular (até 860 px); no computador fica o menu do topo.
    Só no app (window.GG_APP, posto pelo build do app): links internos com .html, links externos no
-   Safari do app, compartilhamento nativo, aviso de sem conexão e banner do AdMob. */
+   Safari do app, compartilhamento nativo, aviso de sem conexão e banner do AdMob.
+   No iPhone a barra de abas é nativa (window.GG_NATIVO, posto pelo app): a de HTML não é desenhada. */
 (function () {
   'use strict';
   var Cap = window.Capacitor;
@@ -13,11 +14,14 @@
   var root = document.documentElement;
   if (APP) root.classList.add('app');
   if (nativo) root.classList.add('nativo');
+  /* barra de abas nativa do iOS: o app avisa antes de a página carregar */
+  var NAT = (window.GG_NATIVO && window.GG_NATIVO.abas) ? window.GG_NATIVO : null;
+  if (NAT) root.classList.add('abas-nativas');
   /* no app, endereço de arquivo (/manaus-am.html); no site, endereço limpo (/manaus-am) */
   function end(p) { return APP ? (p === '/' ? '/index.html' : p + '.html') : p; }
   /* barra de abas: sempre no app; no site, só em tela de celular */
   var celular = window.matchMedia ? matchMedia('(max-width: 860px)') : { matches: false };
-  function marcarAbas() { root.classList.toggle('abas', APP || celular.matches); }
+  function marcarAbas() { root.classList.toggle('abas', !NAT && (APP || celular.matches)); }
   marcarAbas();
   if (celular.addEventListener) celular.addEventListener('change', marcarAbas);
 
@@ -36,6 +40,14 @@
     return Promise.resolve();
   }
   function parse(s) { try { var v = JSON.parse(s || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; } }
+  /* Usado por outras páginas (ex.: checklist) para guardar dados no aparelho */
+  window.GG_GUARDAR = {
+    ler: function (chave) {
+      if (P.Preferences) return P.Preferences.get({ key: chave }).then(function (r) { return (r && r.value) || null; }).catch(function () { return null; });
+      return Promise.resolve(null);
+    },
+    gravar: function (chave, texto) { if (P.Preferences) P.Preferences.set({ key: chave, value: texto }).catch(function () {}); }
+  };
   function vibrar() { if (P.Haptics) P.Haptics.impact({ style: 'LIGHT' }).catch(function () {}); }
 
   /* ---------- Endereços ---------- */
@@ -193,6 +205,47 @@
     addEventListener('offline', atual); addEventListener('online', atual); atual();
   }
 
+  /* ---------- Fotos e vídeos (só no app): dependem de internet ---------- */
+  function midiaOffline() {
+    /* Foto de capa que não carregou: no lugar da imagem quebrada, um aviso; volta sozinha quando a conexão retorna */
+    function semFoto(img) {
+      var capa = img.closest('.capa'); if (!capa || capa.classList.contains('gg-sem-foto')) return;
+      capa.classList.add('gg-sem-foto');
+      var av = document.createElement('p'); av.className = 'gg-midia-off'; av.textContent = 'A foto aparece quando houver internet.';
+      capa.appendChild(av);
+      addEventListener('online', function () {
+        var novo = new Image();
+        novo.onload = function () { capa.classList.remove('gg-sem-foto'); av.remove(); img.src = novo.src; };
+        novo.src = img.currentSrc || img.src;
+      }, { once: true });
+    }
+    [].forEach.call(document.querySelectorAll('.capa img'), function (img) {
+      if (img.complete && !img.naturalWidth) semFoto(img);
+      else img.addEventListener('error', function () { semFoto(img); });
+    });
+    /* Miniatura de vídeo que não carregou: fica só o botão de tocar */
+    [].forEach.call(document.querySelectorAll('.yt img'), function (img) {
+      function tirar() { img.style.visibility = 'hidden'; }
+      if (img.complete && !img.naturalWidth) tirar(); else img.addEventListener('error', tirar);
+    });
+    /* Vídeos abrem no YouTube pelo Safari do app (o player embutido não funciona fora de um site);
+       sem conexão, um aviso no lugar de uma tela preta */
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('.yt'); if (!b) return;
+      e.preventDefault(); e.stopPropagation();
+      var cap = b.parentNode.querySelector('.gg-yt-off');
+      if (!navigator.onLine) {
+        if (!cap) { cap = document.createElement('p'); cap.className = 'gg-yt-off'; cap.setAttribute('role', 'status'); b.parentNode.insertBefore(cap, b.nextSibling); }
+        cap.textContent = 'Sem internet: o vídeo abre quando a conexão voltar.';
+        return;
+      }
+      if (cap) cap.remove();
+      var url = 'https://www.youtube.com/watch?v=' + encodeURIComponent(b.dataset.yt);
+      if (P.Browser) P.Browser.open({ url: url, presentationStyle: 'popover' }).catch(function () {});
+      else window.open(url, '_blank', 'noopener');
+    }, true);
+  }
+
   /* ---------- AdMob ---------- */
   function alturaAnuncio(h) { root.style.setProperty('--ad-h', (h || 0) + 'px'); }
   function anuncios() {
@@ -218,7 +271,7 @@
       .then(function () {
         return AdMob.showBanner({
           adId: CFG.bannerId, adSize: 'ADAPTIVE_BANNER', position: 'BOTTOM_CENTER',
-          margin: 56, /* = altura da barra de abas (--tabs-h) */
+          margin: NAT ? (NAT.alturaAbas || 49) : 56, /* = altura da barra de abas (nativa ou --tabs-h) */
           isTesting: !!CFG.testing
         });
       })
@@ -226,10 +279,10 @@
   }
 
   function iniciar() {
-    montarAbas();
+    if (!NAT) montarAbas();
     if (ehFicha()) montarAcoesFicha();
     montarSalvos();
-    if (APP) avisoConexao();
+    if (APP) { avisoConexao(); midiaOffline(); }
     anuncios();
     if (P.SplashScreen) P.SplashScreen.hide().catch(function () {});
   }
