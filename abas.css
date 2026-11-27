@@ -7,6 +7,9 @@ html.abas .gg-tabs{display:grid}
 html.abas body{padding-bottom:calc(var(--tabs-h) + var(--ad-h) + env(safe-area-inset-bottom,0px))}
 html.app .menu-btn{min-height:44px}
 html.abas .totop{bottom:calc(var(--tabs-h) + var(--ad-h) + 16px + env(safe-area-inset-bottom,0px))}
+/* App: o cabeçalho fica abaixo do relógio do iPhone. Sem esta margem ele descia por cima do começo da página
+   e cortava a primeira linha (ex.: "Recebeu a movimentação?"). */
+html.app body{padding-top:env(safe-area-inset-top,0px)}
 /* App do iPhone com barra de abas nativa: a página só reserva o espaço do anúncio, que fica logo acima da barra */
 html.abas-nativas body{padding-bottom:var(--ad-h)}
 html.abas-nativas .totop{bottom:calc(var(--ad-h) + 16px)}

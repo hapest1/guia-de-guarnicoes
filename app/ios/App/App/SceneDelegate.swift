@@ -42,7 +42,9 @@ final class GuiaBridgeViewController: CAPBridgeViewController {
 // MARK: - Navegação principal nativa
 
 /// Raiz do app: conteúdo em cima, barra de abas nativa embaixo.
-final class GuiaContainerViewController: UIViewController, UITabBarDelegate {
+/// A barra é montada com botões do UIKit (e não com UITabBar) para ter sempre 49 pt de altura,
+/// em qualquer versão do iOS: o anúncio fica encostado logo acima dela.
+final class GuiaContainerViewController: UIViewController {
 
     private struct Aba {
         let titulo: String
@@ -60,7 +62,9 @@ final class GuiaContainerViewController: UIViewController, UITabBarDelegate {
     ]
 
     private let bridgeVC = GuiaBridgeViewController()
-    private let tabBar = UITabBar()
+    private let barra = UIView()
+    private var botoes: [UIButton] = []
+    private static let alturaBarra: CGFloat = 49
     private var observacaoURL: NSKeyValueObservation?
     private var abaAtual = 0
 
@@ -81,32 +85,55 @@ final class GuiaContainerViewController: UIViewController, UITabBarDelegate {
         conteudo.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(conteudo)
 
-        let aparencia = UITabBarAppearance()
-        aparencia.configureWithOpaqueBackground()
-        aparencia.backgroundColor = fundo
-        tabBar.standardAppearance = aparencia
-        tabBar.scrollEdgeAppearance = aparencia
-        tabBar.tintColor = verde
-        tabBar.unselectedItemTintColor = cinza
-        tabBar.delegate = self
-        var itens: [UITabBarItem] = []
+        barra.backgroundColor = fundo
+        barra.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(barra)
+
+        let linha = UIView()
+        linha.backgroundColor = UIColor(red: 0.800, green: 0.827, blue: 0.765, alpha: 1)   // #CCD3C3
+        linha.translatesAutoresizingMaskIntoConstraints = false
+        barra.addSubview(linha)
+
         for (i, aba) in abas.enumerated() {
-            itens.append(UITabBarItem(title: aba.titulo, image: UIImage(systemName: aba.icone), tag: i))
+            var atributos = AttributeContainer()
+            atributos.font = UIFont.systemFont(ofSize: 10, weight: .medium)
+            var config = UIButton.Configuration.plain()
+            config.image = UIImage(systemName: aba.icone,
+                                   withConfiguration: UIImage.SymbolConfiguration(pointSize: 19, weight: .regular))
+            config.imagePlacement = .top
+            config.imagePadding = 3
+            config.attributedTitle = AttributedString(aba.titulo, attributes: atributos)
+            config.contentInsets = NSDirectionalEdgeInsets(top: 4, leading: 0, bottom: 2, trailing: 0)
+            let botao = UIButton(configuration: config)
+            botao.tag = i
+            botao.accessibilityLabel = aba.titulo
+            botao.addTarget(self, action: #selector(tocouAba(_:)), for: .touchUpInside)
+            botoes.append(botao)
         }
-        tabBar.items = itens
-        tabBar.selectedItem = itens.first
-        tabBar.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(tabBar)
+        let pilha = UIStackView(arrangedSubviews: botoes)
+        pilha.axis = .horizontal
+        pilha.distribution = .fillEqually
+        pilha.translatesAutoresizingMaskIntoConstraints = false
+        barra.addSubview(pilha)
+        marcarAba(0)
 
         NSLayoutConstraint.activate([
             conteudo.topAnchor.constraint(equalTo: view.topAnchor),
             conteudo.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             conteudo.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            conteudo.bottomAnchor.constraint(equalTo: tabBar.topAnchor),
-            tabBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            tabBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            tabBar.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-            tabBar.heightAnchor.constraint(equalToConstant: 49)
+            conteudo.bottomAnchor.constraint(equalTo: barra.topAnchor),
+            barra.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            barra.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            barra.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            pilha.topAnchor.constraint(equalTo: barra.topAnchor),
+            pilha.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            pilha.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            pilha.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            pilha.heightAnchor.constraint(equalToConstant: GuiaContainerViewController.alturaBarra),
+            linha.topAnchor.constraint(equalTo: barra.topAnchor),
+            linha.leadingAnchor.constraint(equalTo: barra.leadingAnchor),
+            linha.trailingAnchor.constraint(equalTo: barra.trailingAnchor),
+            linha.heightAnchor.constraint(equalToConstant: 0.5)
         ])
         bridgeVC.didMove(toParent: self)
 
@@ -122,8 +149,15 @@ final class GuiaContainerViewController: UIViewController, UITabBarDelegate {
         for (i, aba) in abas.enumerated() where aba.prefixos.contains(where: { caminho.hasPrefix($0) }) {
             nova = i
         }
-        abaAtual = nova
-        tabBar.selectedItem = tabBar.items?[nova]
+        marcarAba(nova)
+    }
+
+    private func marcarAba(_ indice: Int) {
+        abaAtual = indice
+        for (i, botao) in botoes.enumerated() {
+            botao.tintColor = (i == indice) ? verde : cinza
+            botao.accessibilityTraits = (i == indice) ? [.button, .selected] : [.button]
+        }
     }
 
     private func navegar(_ caminho: String) {
@@ -131,14 +165,13 @@ final class GuiaContainerViewController: UIViewController, UITabBarDelegate {
         bridgeVC.webView?.evaluateJavaScript("window.location.href=\"\(destino)\";", completionHandler: nil)
     }
 
-    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        let aba = abas[item.tag]
+    @objc private func tocouAba(_ botao: UIButton) {
+        let aba = abas[botao.tag]
         guard let caminho = aba.caminho else {
-            tabBar.selectedItem = tabBar.items?[abaAtual]
             abrirMais()
             return
         }
-        abaAtual = item.tag
+        marcarAba(botao.tag)
         navegar(caminho)
     }
 
