@@ -24,9 +24,6 @@ workflows:
       branch_patterns:
         - pattern: main
           include: true
-        # build de teste da revisão da Apple (Guideline 2.1); pode sair depois do merge na main
-        - pattern: claude/relaxed-cerf-umhmgi
-          include: true
       cancel_previous_builds: true   # vários commits seguidos: fica só o build do mais recente
     scripts:
       - name: Dependências
