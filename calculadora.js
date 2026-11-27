@@ -1,12 +1,13 @@
 /* Calculadora de transferência: ajuda de custo, bagagem, veículos e passagens.
    Usa window.CALC (calculadora-dados.js) e window.GG_DIST (calculadora-distancias.js).
+   Passagens: distância × TARIFA_PASSAGEM_KM (constante mais abaixo).
    A simulação fica guardada no link (?o=...&d=...&pg=...). */
 (function(){
   var C=window.CALC; if(!C) return;
   var $=function(id){ return document.getElementById(id); };
   var F={o:$('go'),d:$('gd'),km:$('km'),dep:$('dep'),lea:$('lea'),pg:$('pg'),am:$('am'),hab:$('hab'),disp:$('disp'),gle:$('gle'),
-         ats:$('ats'),perm:$('perm'),co:$('co'),copg:$('copg'),cub:$('cub'),carro:$('carro'),moto:$('moto'),pass:$('pass'),ndep:$('ndep')};
-  var passInfo=$('passInfo'), ndepWrap=$('ndepWrap');
+         ats:$('ats'),perm:$('perm'),co:$('co'),copg:$('copg'),cub:$('cub'),carro:$('carro'),moto:$('moto'),ua:$('ua'),uc:$('uc'),qa:$('qa'),qc:$('qc')};
+  var passInfo=$('passInfo'), bRecalc=$('recalc');
   var out=$('res'), info=$('distInfo');
   if(!F.o||!F.d||!out) return;
 
@@ -36,7 +37,7 @@
   }
 
   function num(el){ var v=parseFloat(String(el.value).replace(',','.')); return isFinite(v)&&v>0?v:0; }
-  function brl(v){ return v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}); }
+  function brl(v){ return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(v); }
   function n0(v){ return v.toLocaleString('pt-BR',{maximumFractionDigits:0}); }
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
   function nomeG(s){ var g=GU[s]; return g? g.c+'-'+g.uf : ''; }
@@ -53,6 +54,7 @@
   var kmManual=false;
   function atualizaDist(){
     var a=F.o.value, b=F.d.value;
+    if(bRecalc) bRecalc.hidden=!(a&&b&&a!==b);
     if(!a||!b){ info.innerHTML=''; if(!kmManual) F.km.value=''; return; }
     if(a===b){ info.innerHTML='<span class="calc-alerta">Origem e destino são a mesma guarnição.</span>'; if(!kmManual) F.km.value=''; return; }
     var r=kmRota(a,b), reta=kmReta(a,b), sem=GU[a].sem||GU[b].sem;
@@ -66,100 +68,68 @@
     }
   }
 
+  /* "Recalcular rota manualmente": refaz a rota por estrada na hora (OSRM, dados do OpenStreetMap) e mostra também
+     o tempo de viagem. Sem internet ou sem rota, volta para a distância já calculada entre as guarnições. */
+  var ROTAS=['https://router.project-osrm.org/route/v1/driving/','https://routing.openstreetmap.de/routed-car/route/v1/driving/'];
+  function rotaAoVivo(A,B,k){
+    k=k||0;
+    var ctl=window.AbortController?new AbortController():null, t=ctl&&setTimeout(function(){ ctl.abort(); },25000);
+    return fetch(ROTAS[k]+A.lng.toFixed(5)+','+A.lat.toFixed(5)+';'+B.lng.toFixed(5)+','+B.lat.toFixed(5)+'?overview=false',{headers:{'Accept':'application/json'},signal:ctl?ctl.signal:undefined})
+      .then(function(r){ if(!r.ok) throw new Error('http'); return r.json(); })
+      .then(function(j){ clearTimeout(t); if(!j||j.code!=='Ok'||!j.routes||!j.routes.length) throw new Error('sem-rota'); return j.routes[0]; },
+            function(e){ clearTimeout(t); throw e; })
+      .catch(function(e){ if(e.message==='sem-rota'||k+1>=ROTAS.length) throw e; return rotaAoVivo(A,B,k+1); });
+  }
+  function tempo(seg){ var min=Math.round(seg/60), h=Math.floor(min/60), m=min%60; return h?(h+' h'+(m?' '+m+' min':'')):(m+' min'); }
+  function recalcular(){
+    var a=F.o.value, b=F.d.value; if(!a||!b||a===b) return;
+    kmManual=false; atualizaDist(); calc();
+    if(GU[a].sem||GU[b].sem) return;
+    bRecalc.disabled=true;
+    var aviso=document.createElement('span'); aviso.className='calc-sub'; aviso.textContent='Recalculando a rota…'; info.appendChild(aviso);
+    rotaAoVivo(GU[a],GU[b]).then(function(r){
+      bRecalc.disabled=false;
+      if(F.o.value!==a||F.d.value!==b) return;
+      var km=Math.round(r.distance/1000);
+      kmManual=true; F.km.value=km; calc();
+      info.innerHTML='<span><b>'+n0(km)+' km</b> pela estrada · tempo estimado de viagem: <b>'+tempo(r.duration)+'</b></span><span class="calc-sub">Rota recalculada agora no OpenStreetMap. A distância pode ser ajustada no campo ao lado.</span>';
+    }).catch(function(){
+      bRecalc.disabled=false;
+      aviso.className='calc-sub calc-alerta'; aviso.textContent='Não foi possível recalcular a rota agora. Ficou valendo a distância já calculada; você também pode digitar outra.';
+    });
+  }
+  if(bRecalc) bRecalc.addEventListener('click',recalcular);
+
   /* Ao trocar o posto, preenche disponibilidade e cubagem do posto */
   function aplicaPosto(){
     var p=POSTO[F.pg.value]; if(!p) return;
     F.disp.value=p.disp; F.cub.value=p.cub;
   }
 
-  /* Passagens: modal pela regra do Decreto nº 4.307/2002 (arts. 45 e 46).
-     Avião: tarifa média do trecho entre os aeroportos de origem e destino (ANAC, calculadora-aereo.js).
-     Ônibus: tarifa média interestadual da ANTT por faixa de distância. */
-  var AEREO_MEDIA=746.62; // média doméstica geral da ANAC, set/2026 — só se faltar o trecho
-  /* Ajuste das passagens aéreas: a média da ANAC não inclui taxa de embarque e reflete compras com antecedência.
-     Calibrado com um caso real de out/2026 (Rio → Boa Vista, valor recebido x média ANAC do trecho = 1,382). */
-  var AJ_AEREO=1.382;
-  var AE=window.CALC_AEREO, AEv=AE&&AE.t?AE.t.split('.'):null;
-  function tarifaAerea(a,b){
-    if(!AE||!AE.g[a]||!AE.g[b]) return null;
-    var A=AE.g[a], B=AE.g[b], i=A[0], j=B[0];
-    var r={de:AE.cid[i], para:AE.cid[j], kmO:A[1], kmD:B[1]};
-    if(i===j){ r.mesmo=true; return r; } /* as duas guarnições usam o mesmo aeroporto: não há voo entre elas */
-    if(i>j){ var t=i; i=j; j=t; }
-    var n=AE.ap.length, x=AEv[i*n - i*(i+1)/2 + (j-i-1)];
-    if(!x) return null;
-    r.est=x.charAt(0)==='~'; r.v=parseInt(x.replace('~',''),16);
-    return r;
-  }
-  var ONIBUS=[[200,69.96],[400,106.60],[600,149.10],[800,205.45],[1000,244.54],[1500,299.06],[null,418.94]]; // ANTT, Anuário 2025
-  /* Ônibus pela distância do trecho, e não pelo degrau da faixa: cada média da ANTT vale para o meio da sua faixa
-     (100, 300, 500, 700, 900 e 1.250 km) e o valor entre dois pontos é proporcional aos quilômetros.
-     Acima de 1.250 km a tarifa segue subindo no ritmo do último intervalo (R$ 0,156 por km), sem passar de 2,5 vezes
-     a média da faixa mais longa. Abaixo de 100 km vale o mínimo de R$ 15. */
-  var ONIBUS_PTS=[[0,15],[100,69.96],[300,106.60],[500,149.10],[700,205.45],[900,244.54],[1250,299.06]];
-  function tarifaOnibus(km){
-    var P=ONIBUS_PTS, u=P[P.length-1], v;
-    if(km>=u[0]) v=Math.min(u[1]+(km-u[0])*(u[1]-P[P.length-2][1])/(u[0]-P[P.length-2][0]), 2.5*ONIBUS[ONIBUS.length-1][1]);
-    else for(var i=1;i<P.length;i++){ if(km<=P[i][0]){ v=P[i-1][1]+(km-P[i-1][0])*(P[i][1]-P[i-1][1])/(P[i][0]-P[i-1][0]); break; } }
-    return Math.round(Math.max(15,v)*100)/100;
-  }
-  var SUPERIOR={'gen-ex':1,'gen-div':1,'gen-bda':1,'cel':1,'tc':1,'maj':1};
-  var passManual=false;
-  function estimaPass(){
-    var km=num(F.km), a=F.o.value, b=F.d.value;
-    if(!a||!b||a===b) return null;
-    var sem=GU[a]&&GU[b]&&(GU[a].sem||GU[b].sem);
-    if(!km&&!sem) return null;
-    var dep=F.dep.checked, nd=dep?Math.max(1,Math.round(num(F.ndep))||1):0, pax=1+nd;
-    var aereo=SUPERIOR[F.pg.value]||(dep&&km>1000)||sem, unit, porque, fonte, trecho=null, longe=[], partes='';
-    if(aereo){
-      porque=SUPERIOR[F.pg.value]?'oficial superior ou general viaja de avião':(sem?'sem ligação rodoviária':'trecho rodoviário acima de 1.000 km, com dependentes');
-      trecho=tarifaAerea(a,b);
-      if(trecho&&trecho.mesmo){
-        /* mesmo aeroporto nas duas pontas: não existe voo comercial entre as duas guarnições */
-        if(sem||!km){
-          return {pax:pax, unit:0, total:0, modal:'', semLinha:true, longe:[], porque:'',
-            fonte:nomeG(a)+' e '+nomeG(b)+' usam o mesmo aeroporto ('+trecho.de+') e não há estrada nem voo comercial entre as duas. O deslocamento costuma ser em aeronave ou embarcação militar, sem passagem a indenizar. Se a sua OM informar um valor, digite acima'};
-        }
-        aereo=false;
-        porque='as duas guarnições usam o mesmo aeroporto ('+trecho.de+'), então o trecho é feito por terra';
-        trecho=null;
-      }
-    }
-    if(aereo){
-      var base=trecho?trecho.v:AEREO_MEDIA, voo=Math.round(base*AJ_AEREO*100)/100, terra=0;
-      /* trecho por terra entre a guarnição e o aeroporto, quando ele fica em outra cidade e há estrada */
-      if(trecho) [[a,trecho.kmO,trecho.de],[b,trecho.kmD,trecho.para]].forEach(function(x){
-        if(x[1]<40) return;
-        if(GU[x[0]].sem){ longe.push(nomeG(x[0])+' fica a ~'+n0(x[1])+' km do aeroporto de '+x[2]+', sem estrada: esse trecho não entra na estimativa'); return; }
-        var t=tarifaOnibus(x[1]); terra+=t;
-        longe.push(nomeG(x[0])+' fica a ~'+n0(x[1])+' km do aeroporto de '+x[2]+': ônibus até lá, '+brl(t));
-      });
-      unit=Math.round((voo+terra)*100)/100;
-      if(terra) partes=' (voo '+brl(voo)+' + ônibus até o aeroporto '+brl(terra)+')';
-      fonte=(trecho?'tarifa média do trecho '+trecho.de+' → '+trecho.para+' (ANAC, jul–set/2026: '+brl(base)+(trecho.est?', estimada com conexão':'')+')':'tarifa média doméstica geral da ANAC, set/2026 ('+brl(base)+')')
-        +' + 38% para taxa de embarque e compra perto da data da viagem, ajuste conferido com um caso real';
-    } else {
-      unit=tarifaOnibus(km);
-      if(!porque) porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km';
-      fonte='tarifa média interestadual da ANTT (Anuário 2025), calculada para os '+n0(km)+' km do trecho '+nomeG(a)+' → '+nomeG(b);
-    }
-    return {pax:pax, unit:unit, total:Math.round(pax*unit*100)/100, modal:aereo?'aérea':'de ônibus', fonte:fonte, porque:porque, longe:longe, partes:partes};
-  }
+  /* Passagens: uma estimativa só, pela distância, para qualquer meio de transporte.
+     Valor unitário sugerido = distância (km) × TARIFA_PASSAGEM_KM, igual para adulto e criança.
+     Total = unitário do adulto × adultos + unitário da criança × crianças.
+     Para atualizar a estimativa, mude só este número. */
+  var TARIFA_PASSAGEM_KM = 0.49;
+  var fmtBRL=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'});
+  function centavos(v){ return Math.round(v*100+1e-7)/100; }
+  function unitarioPass(km){ return km>0?centavos(km*TARIFA_PASSAGEM_KM):0; }
+  function inteiro(el){ var v=Math.floor(num(el)); return v>0?v:0; }
+  function totalPass(){ return num(F.km)?centavos(num(F.ua)*inteiro(F.qa)+num(F.uc)*inteiro(F.qc)):0; }
+  /* Mudou a distância: os dois valores unitários voltam para o sugerido */
+  var kmPass=null;
   function atualizaPass(){
-    if(ndepWrap) ndepWrap.hidden=!F.dep.checked;
-    var e=estimaPass();
-    if(!e){ if(!passManual) F.pass.value=''; passInfo.innerHTML=passManual?'':'<span class="calc-sub">Escolha as guarnições para estimar as passagens.</span>'; return; }
-    if(e.semLinha){
-      if(!passManual) F.pass.value='';
-      passInfo.innerHTML='<span class="calc-sub">'+esc(e.fonte)+'.</span>';
-      return;
+    var km=num(F.km);
+    if(km!==kmPass){
+      var u=unitarioPass(km);
+      if(kmPass!==null||!F.ua.value) F.ua.value=km?u.toFixed(2):'';
+      if(kmPass!==null||!F.uc.value) F.uc.value=km?u.toFixed(2):'';
+      kmPass=km;
     }
-    if(!passManual) F.pass.value=e.total.toFixed(2);
-    var txt='<span><b>'+e.pax+' passage'+(e.pax>1?'ns':'m')+' '+(e.modal==='aérea'&&e.pax>1?'aéreas':e.modal)+' × '+brl(e.unit)+esc(e.partes||'')+' = '+brl(e.total)+'</b> ('+esc(e.porque)+')</span><span class="calc-sub">Estimativa pela '+esc(e.fonte)+'.'+(e.longe.length?' '+esc(e.longe.join('; '))+'.':'')+'</span>';
-    if(passManual&&Math.abs(num(F.pass)-e.total)>0.005) txt+='<span class="calc-sub">Você informou '+brl(num(F.pass))+'. <button type="button" class="calc-link" id="passReset">usar a estimativa</button></span>';
-    passInfo.innerHTML=txt;
-    var bt=$('passReset'); if(bt) bt.addEventListener('click',function(){ passManual=false; atualizaPass(); calc(); });
+    if(!km){ passInfo.innerHTML='<span class="calc-sub">Escolha as guarnições ou informe a distância para estimar as passagens.</span>'; return; }
+    var qa=inteiro(F.qa), qc=inteiro(F.qc);
+    passInfo.innerHTML='<span>Valor sugerido por passagem: '+n0(km)+' km × '+fmtBRL.format(TARIFA_PASSAGEM_KM)+' = <b>'+fmtBRL.format(unitarioPass(km))+'</b></span>'
+      +'<span class="calc-sub">'+((qa+qc)?'Total de passagens: <b>'+fmtBRL.format(totalPass())+'</b> ('+qa+' adulto'+(qa===1?'':'s')+' e '+qc+' criança'+(qc===1?'':'s')+')':'Informe a quantidade de adultos e de crianças que viajam.')+'</span>';
   }
 
   function calc(){
@@ -180,7 +150,7 @@
     var m3Veic=nc*C.veiculo.carro+nm*C.veiculo.moto;
     var fx=km?faixa(km):null;
     var bag=fx?cub*fx.tarifa:0, veic=fx?m3Veic*fx.tarifa:0;
-    var pass=num(F.pass);
+    var pass=totalPass();
     var total=ajuda+bag+veic+pass;
 
     var h='';
@@ -199,7 +169,9 @@
     if(fx) h+='<tr><td>Faixa de distância ('+esc(fx.txt)+')</td><td class="num">'+brl(fx.tarifa)+'/m³</td></tr>';
     h+='<tr><td>Bagagem ('+n0(cub)+' m³)</td><td class="num">'+brl(bag)+'</td></tr>';
     if(m3Veic) h+='<tr><td>Veículos ('+[nc?nc+' carro'+(nc>1?'s':''):'',nm?nm+' moto'+(nm>1?'s':''):''].filter(Boolean).join(' e ')+' · '+n0(m3Veic)+' m³)</td><td class="num">'+brl(veic)+'</td></tr>';
-    h+='<tr><td>Passagens</td><td class="num">'+brl(pass)+'</td></tr>';
+    var qa=inteiro(F.qa), qc=inteiro(F.qc);
+    if(!km) h+='<tr><td>Passagens</td><td class="num">informe a distância</td></tr>';
+    else h+='<tr><td>Passagens ('+qa+' adulto'+(qa===1?'':'s')+' × '+brl(num(F.ua))+' + '+qc+' criança'+(qc===1?'':'s')+' × '+brl(num(F.uc))+')</td><td class="num">'+brl(pass)+'</td></tr>';
     h+='</tbody></table></div></div>';
     h+='<div class="calc-acoes"><button type="button" class="btn" id="copiar">Copiar link da simulação</button><button type="button" class="btn sec" id="imprimir">Imprimir</button></div>';
     out.innerHTML=h;
@@ -207,13 +179,13 @@
     $('imprimir').addEventListener('click',function(){ print(); });
   }
 
-  var CHAVES=['o','d','km','pg','am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','pass','ndep'];
+  var CHAVES=['o','d','km','pg','am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','ua','uc','qa','qc'];
   function salvaLink(){
     var q=[];
     var pp=POSTO[F.pg.value]||{};
     CHAVES.forEach(function(k){
       var el=F[k]; if(!el) return; var v=el.value;
-      if(v===''||v==null||v==='0'||(k==='km'&&!kmManual)||(k==='pass'&&!passManual)||(k==='ndep'&&(v==='1'||!F.dep.checked))) return;
+      if(v===''||v==null||v==='0'||(k==='km'&&!kmManual)||((k==='ua'||k==='uc')&&num(el)===unitarioPass(num(F.km)))) return;
       if((k==='disp'&&+v===pp.disp)||(k==='cub'&&+v===pp.cub)) return;
       q.push(k+'='+encodeURIComponent(v));
     });
@@ -225,7 +197,6 @@
     if(p.get('pg')&&POSTO[p.get('pg')]){ F.pg.value=p.get('pg'); aplicaPosto(); }
     CHAVES.forEach(function(k){ var v=p.get(k); if(v!=null&&F[k]){ if(k==='o'||k==='d'){ if(GU[v]) F[k].value=v; } else F[k].value=v; } });
     if(p.get('km')) kmManual=true;
-    if(p.get('pass')) passManual=true;
     if(p.get('sd')) F.dep.checked=false; if(p.get('lea')) F.lea.checked=true;
   }
 
@@ -235,9 +206,8 @@
 
   [F.o,F.d].forEach(function(s){ s.addEventListener('change',function(){ kmManual=false; atualizaDist(); calc(); if(window.gtag&&F.o.value&&F.d.value){ try{ gtag('event','calculadora',{rota:F.o.value+' > '+F.d.value}); }catch(e){} } }); });
   F.km.addEventListener('input',function(){ kmManual=true; atualizaDist(); calc(); });
-  F.pass.addEventListener('input',function(){ passManual=true; calc(); });
   F.pg.addEventListener('change',function(){ aplicaPosto(); calc(); });
-  ['am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','ndep','dep','lea'].forEach(function(k){ F[k].addEventListener(F[k].tagName==='SELECT'||F[k].type==='checkbox'?'change':'input',calc); });
+  ['am','hab','disp','gle','ats','perm','co','copg','cub','carro','moto','ua','uc','qa','qc','dep','lea'].forEach(function(k){ F[k].addEventListener(F[k].tagName==='SELECT'||F[k].type==='checkbox'?'change':'input',calc); });
   $('troca').addEventListener('click',function(){
     var a=F.o.value; F.o.value=F.d.value; F.d.value=a;
     [F.o,F.d].forEach(function(s){ if(s._busca&&s._busca.sync) s._busca.sync(); });
