@@ -84,7 +84,7 @@
     if(!AE||!AE.g[a]||!AE.g[b]) return null;
     var A=AE.g[a], B=AE.g[b], i=A[0], j=B[0];
     var r={de:AE.cid[i], para:AE.cid[j], kmO:A[1], kmD:B[1]};
-    if(i===j) return null;
+    if(i===j){ r.mesmo=true; return r; } /* as duas guarnições usam o mesmo aeroporto: não há voo entre elas */
     if(i>j){ var t=i; i=j; j=t; }
     var n=AE.ap.length, x=AEv[i*n - i*(i+1)/2 + (j-i-1)];
     if(!x) return null;
@@ -92,6 +92,17 @@
     return r;
   }
   var ONIBUS=[[200,69.96],[400,106.60],[600,149.10],[800,205.45],[1000,244.54],[1500,299.06],[null,418.94]]; // ANTT, Anuário 2025
+  /* Ônibus pela distância do trecho, e não pelo degrau da faixa: cada média da ANTT vale para o meio da sua faixa
+     (100, 300, 500, 700, 900 e 1.250 km) e o valor entre dois pontos é proporcional aos quilômetros.
+     Acima de 1.250 km a tarifa segue subindo no ritmo do último intervalo (R$ 0,156 por km), sem passar de 2,5 vezes
+     a média da faixa mais longa. Abaixo de 100 km vale o mínimo de R$ 15. */
+  var ONIBUS_PTS=[[0,15],[100,69.96],[300,106.60],[500,149.10],[700,205.45],[900,244.54],[1250,299.06]];
+  function tarifaOnibus(km){
+    var P=ONIBUS_PTS, u=P[P.length-1], v;
+    if(km>=u[0]) v=Math.min(u[1]+(km-u[0])*(u[1]-P[P.length-2][1])/(u[0]-P[P.length-2][0]), 2.5*ONIBUS[ONIBUS.length-1][1]);
+    else for(var i=1;i<P.length;i++){ if(km<=P[i][0]){ v=P[i-1][1]+(km-P[i-1][0])*(P[i][1]-P[i-1][1])/(P[i][0]-P[i-1][0]); break; } }
+    return Math.round(Math.max(15,v)*100)/100;
+  }
   var SUPERIOR={'gen-ex':1,'gen-div':1,'gen-bda':1,'cel':1,'tc':1,'maj':1};
   var passManual=false;
   function estimaPass(){
@@ -100,29 +111,52 @@
     var sem=GU[a]&&GU[b]&&(GU[a].sem||GU[b].sem);
     if(!km&&!sem) return null;
     var dep=F.dep.checked, nd=dep?Math.max(1,Math.round(num(F.ndep))||1):0, pax=1+nd;
-    var aereo=SUPERIOR[F.pg.value]||(dep&&km>1000)||sem, unit, porque, fonte, trecho=null;
+    var aereo=SUPERIOR[F.pg.value]||(dep&&km>1000)||sem, unit, porque, fonte, trecho=null, longe=[], partes='';
     if(aereo){
       porque=SUPERIOR[F.pg.value]?'oficial superior ou general viaja de avião':(sem?'sem ligação rodoviária':'trecho rodoviário acima de 1.000 km, com dependentes');
       trecho=tarifaAerea(a,b);
-      var base=trecho?trecho.v:AEREO_MEDIA;
-      unit=Math.round(base*AJ_AEREO*100)/100;
+      if(trecho&&trecho.mesmo){
+        /* mesmo aeroporto nas duas pontas: não existe voo comercial entre as duas guarnições */
+        if(sem||!km){
+          return {pax:pax, unit:0, total:0, modal:'', semLinha:true, longe:[], porque:'',
+            fonte:nomeG(a)+' e '+nomeG(b)+' usam o mesmo aeroporto ('+trecho.de+') e não há estrada nem voo comercial entre as duas. O deslocamento costuma ser em aeronave ou embarcação militar, sem passagem a indenizar. Se a sua OM informar um valor, digite acima'};
+        }
+        aereo=false;
+        porque='as duas guarnições usam o mesmo aeroporto ('+trecho.de+'), então o trecho é feito por terra';
+        trecho=null;
+      }
+    }
+    if(aereo){
+      var base=trecho?trecho.v:AEREO_MEDIA, voo=Math.round(base*AJ_AEREO*100)/100, terra=0;
+      /* trecho por terra entre a guarnição e o aeroporto, quando ele fica em outra cidade e há estrada */
+      if(trecho) [[a,trecho.kmO,trecho.de],[b,trecho.kmD,trecho.para]].forEach(function(x){
+        if(x[1]<40) return;
+        if(GU[x[0]].sem){ longe.push(nomeG(x[0])+' fica a ~'+n0(x[1])+' km do aeroporto de '+x[2]+', sem estrada: esse trecho não entra na estimativa'); return; }
+        var t=tarifaOnibus(x[1]); terra+=t;
+        longe.push(nomeG(x[0])+' fica a ~'+n0(x[1])+' km do aeroporto de '+x[2]+': ônibus até lá, '+brl(t));
+      });
+      unit=Math.round((voo+terra)*100)/100;
+      if(terra) partes=' (voo '+brl(voo)+' + ônibus até o aeroporto '+brl(terra)+')';
       fonte=(trecho?'tarifa média do trecho '+trecho.de+' → '+trecho.para+' (ANAC, jul–set/2026: '+brl(base)+(trecho.est?', estimada com conexão':'')+')':'tarifa média doméstica geral da ANAC, set/2026 ('+brl(base)+')')
         +' + 38% para taxa de embarque e compra perto da data da viagem, ajuste conferido com um caso real';
     } else {
-      for(var i=0;i<ONIBUS.length;i++){ if(ONIBUS[i][0]===null||km<=ONIBUS[i][0]){ unit=ONIBUS[i][1]; break; } }
-      porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km';
-      fonte='tarifa média interestadual da ANTT para a faixa de distância, 2025';
+      unit=tarifaOnibus(km);
+      if(!porque) porque=km>1000?'trecho acima de 1.000 km sem dependentes: ônibus leito':'trecho de até 1.000 km';
+      fonte='tarifa média interestadual da ANTT (Anuário 2025), calculada para os '+n0(km)+' km do trecho '+nomeG(a)+' → '+nomeG(b);
     }
-    var longe=[];
-    if(trecho){ if(trecho.kmO>=40) longe.push(nomeG(a)+' fica a ~'+n0(trecho.kmO)+' km do aeroporto de '+trecho.de); if(trecho.kmD>=40) longe.push(nomeG(b)+' fica a ~'+n0(trecho.kmD)+' km do aeroporto de '+trecho.para); }
-    return {pax:pax, unit:unit, total:Math.round(pax*unit*100)/100, modal:aereo?'aérea':'de ônibus', fonte:fonte, porque:porque, longe:longe};
+    return {pax:pax, unit:unit, total:Math.round(pax*unit*100)/100, modal:aereo?'aérea':'de ônibus', fonte:fonte, porque:porque, longe:longe, partes:partes};
   }
   function atualizaPass(){
     if(ndepWrap) ndepWrap.hidden=!F.dep.checked;
     var e=estimaPass();
     if(!e){ if(!passManual) F.pass.value=''; passInfo.innerHTML=passManual?'':'<span class="calc-sub">Escolha as guarnições para estimar as passagens.</span>'; return; }
+    if(e.semLinha){
+      if(!passManual) F.pass.value='';
+      passInfo.innerHTML='<span class="calc-sub">'+esc(e.fonte)+'.</span>';
+      return;
+    }
     if(!passManual) F.pass.value=e.total.toFixed(2);
-    var txt='<span><b>'+e.pax+' passage'+(e.pax>1?'ns':'m')+' '+(e.modal==='aérea'&&e.pax>1?'aéreas':e.modal)+' × '+brl(e.unit)+' = '+brl(e.total)+'</b> ('+esc(e.porque)+')</span><span class="calc-sub">Estimativa pela '+esc(e.fonte)+'.'+(e.longe.length?' '+esc(e.longe.join('; '))+'.':'')+'</span>';
+    var txt='<span><b>'+e.pax+' passage'+(e.pax>1?'ns':'m')+' '+(e.modal==='aérea'&&e.pax>1?'aéreas':e.modal)+' × '+brl(e.unit)+esc(e.partes||'')+' = '+brl(e.total)+'</b> ('+esc(e.porque)+')</span><span class="calc-sub">Estimativa pela '+esc(e.fonte)+'.'+(e.longe.length?' '+esc(e.longe.join('; '))+'.':'')+'</span>';
     if(passManual&&Math.abs(num(F.pass)-e.total)>0.005) txt+='<span class="calc-sub">Você informou '+brl(num(F.pass))+'. <button type="button" class="calc-link" id="passReset">usar a estimativa</button></span>';
     passInfo.innerHTML=txt;
     var bt=$('passReset'); if(bt) bt.addEventListener('click',function(){ passManual=false; atualizaPass(); calc(); });
